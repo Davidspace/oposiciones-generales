@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-015",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "La información pública se anuncia oficialmente, permite alegar durante al menos veinte días y la comparecencia no confiere por sí sola condición de interesado, aunque quien alegue tiene derecho a respuesta razonada.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 83",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17", "g-17-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

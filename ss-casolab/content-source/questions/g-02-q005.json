@@ -1,0 +1,76 @@
+{
+  "id": "g-02-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Reserva de ley y ley orgánica",
+  "competency": "Distinguir la garantía del artículo 53.1 de la reserva material del artículo 81.1.",
+  "difficulty": "medium",
+  "prompt": "¿Qué relación entre los artículos 53.1 y 81.1 de la Constitución es correcta?",
+  "options": [
+    {
+      "text": "El artículo 53.1 reserva a la ley la regulación del ejercicio de los derechos del capítulo II y exige respeto a su contenido esencial; el artículo 81.1 reserva a ley orgánica el desarrollo de los derechos fundamentales y las libertades públicas.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son reglas relacionadas, pero no intercambiables: una establece la garantía general del capítulo II y la otra identifica materias de ley orgánica."
+    },
+    {
+      "text": "El artículo 53.1 permite regular por reglamento cualquier derecho del capítulo II si se mantiene su contenido esencial.",
+      "isCorrect": false,
+      "feedback": "El artículo 53.1 dispone que el ejercicio de los derechos y libertades del capítulo II solo puede regularse por ley, además de exigir respeto al contenido esencial.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G02, reserva de ley del artículo 53.1"
+    },
+    {
+      "text": "Todo precepto del título I debe desarrollarse necesariamente por ley orgánica por aplicación conjunta de ambos artículos.",
+      "isCorrect": false,
+      "feedback": "El artículo 81.1 no incluye de forma indiscriminada todo el título I. Se refiere al desarrollo de los derechos fundamentales y las libertades públicas.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G02, alcance material del artículo 81.1"
+    },
+    {
+      "text": "La ley orgánica del artículo 81 puede aprobarse por mayoría simple en la votación final si respeta el contenido esencial.",
+      "isCorrect": false,
+      "feedback": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto. El contenido esencial no sustituye ese requisito.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G02, artículo 81.2"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-011",
+    "clm-g-02-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 53.1 y 81",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

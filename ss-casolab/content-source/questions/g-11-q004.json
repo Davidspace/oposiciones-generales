@@ -1,0 +1,75 @@
+{
+  "id": "g-11-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Derecho derivado: directivas",
+  "competency": "Reconocer el efecto vinculante y el margen nacional propio de la directiva.",
+  "difficulty": "medium",
+  "prompt": "Un acto de la Unión fija para España un resultado obligatorio, pero permite que las autoridades nacionales elijan la forma jurídica y los medios para alcanzarlo. ¿Cómo debe calificarse?",
+  "options": [
+    {
+      "text": "Como reglamento, porque todo acto que obliga a un Estado deja a este la forma y los medios.",
+      "isCorrect": false,
+      "feedback": "El reglamento es obligatorio en todos sus elementos y directamente aplicable. El margen descrito es propio de la directiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, directiva frente a reglamento"
+    },
+    {
+      "text": "Como recomendación, porque el resultado es obligatorio pero los medios son voluntarios.",
+      "isCorrect": false,
+      "feedback": "La recomendación no es vinculante. En la directiva, el resultado sí obliga y la elección nacional de medios no convierte la obligación en voluntaria.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, fuerza vinculante de la directiva"
+    },
+    {
+      "text": "Como decisión, porque toda decisión deja necesariamente a los Estados libertad de forma y medios.",
+      "isCorrect": false,
+      "feedback": "La decisión obliga en todos sus elementos. La fórmula resultado obligatorio con elección nacional de forma y medios define a la directiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, directiva y decisión"
+    },
+    {
+      "text": "Como directiva, porque obliga al Estado destinatario en cuanto al resultado y deja a las autoridades nacionales la forma y los medios.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa combinación reproduce el párrafo tercero del artículo 288 TFUE."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-006"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_288/oj/spa",
+      "location": "artículo 288 TFUE, párrafo tercero",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre la obligación de resultado propia de la directiva."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-12-612",
+  "assetId": "CP04",
+  "version": "0.1.0",
+  "statement": "El derecho al IMV y su cuantÃ­a pueden revisarse con los datos econÃ³micos y familiares.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "Ley 19/2021, artÃ­culos 12, 13 y 17",
+  "officialPublication": "BOE-A-2021-21007",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP04",
+    "ss-12-q612"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP04."
+      }
+    ]
+  }
+}

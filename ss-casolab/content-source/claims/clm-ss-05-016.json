@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-016",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "Si se cumplieron en plazo las obligaciones de liquidación, el recargo por cuotas es del 10 por ciento cuando se pagan dentro del primer mes natural siguiente al vencimiento y del 20 por ciento desde el segundo; si no se cumplieron, es del 20 por ciento antes de terminar el plazo de la reclamación o acta y del 35 por ciento después.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a30",
+  "sourceLocation": "TRLGSS, artículo 30.1",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-018",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "La TGSS resuelve las tercerías de su procedimiento y su reclamación previa es requisito para acudir a la jurisdicción civil; la tercería solo puede fundarse en el dominio del bien o en la preferencia del crédito del tercero.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a39",
+  "sourceLocation": "TRLGSS, artículo 39.1 y 39.2; Real Decreto 1415/2004, artículo 132",
+  "officialPublication": "BOE-A-2015-11724 y BOE-A-2004-11836",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q008"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

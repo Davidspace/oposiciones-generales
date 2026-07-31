@@ -1,0 +1,33 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.next/
+**/.next/
+.vinext/
+**/.vinext/
+.wrangler/
+**/.wrangler/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.log
+
+# Local-only state and editor files
+.local/
+**/.local/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# The independent LORMAN lab is included as source in this repository.
+# Its nested Git metadata is intentionally excluded from the export.

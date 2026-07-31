@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-013", "assetId": "G10", "version": "0.1.0",
+  "statement": "El Tribunal de Justicia de la Unión Europea comprende el Tribunal de Justicia, el Tribunal General y los tribunales especializados, y garantiza el respeto del Derecho en la interpretación y aplicación de los Tratados.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_19/oj/spa",
+  "sourceLocation": "artículo 19 TUE, apartado 1",
+  "officialPublication": "DO C 202, de 07-06-2016, p. 27; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre estructura y misión del TJUE."}]}
+}

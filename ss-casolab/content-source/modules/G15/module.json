@@ -1,0 +1,114 @@
+{
+  "id": "G15",
+  "themeId": "g-15",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Actos administrativos",
+  "learningOutcomes": [
+    "Analizar un acto por competencia, procedimiento, contenido, motivación, forma y eficacia.",
+    "Distinguir notificación, aviso electrónico, publicación y publicación sustitutiva de la notificación.",
+    "Clasificar un vicio como nulidad de pleno derecho o anulabilidad sin convertir cualquier defecto en nulidad.",
+    "Seleccionar la vía de revisión adecuada para actos nulos, actos favorables anulables, actos desfavorables y errores materiales."
+  ],
+  "decisions": [
+    "Comprobar si el órgano es competente y si el contenido se adecua al ordenamiento y a la finalidad del acto.",
+    "Decidir si el acto exige motivación y qué forma permite su naturaleza.",
+    "Determinar desde cuándo produce efectos y si cabe eficacia retroactiva.",
+    "Elegir entre notificación y publicación y comprobar sus requisitos esenciales.",
+    "Distinguir una causa tasada de nulidad de una infracción que genera anulabilidad.",
+    "Elegir entre revisión de oficio, declaración de lesividad, revocación o rectificación de errores."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Los actos administrativos. Concepto y clases",
+      "objective": "Usar un concepto operativo y clasificaciones pedagógicas sin atribuir a la ley una definición cerrada, y aplicar las reglas de producción y contenido.",
+      "sectionId": "g15-actos",
+      "activityIds": [
+        "g-15-q001"
+      ]
+    },
+    {
+      "officialClause": "Motivación, forma y eficacia de los actos administrativos",
+      "objective": "Comprobar cuándo debe motivarse un acto, cuál es su forma ordinaria y cuándo empieza o puede retrotraerse su eficacia.",
+      "sectionId": "g15-motivacion-forma-eficacia",
+      "activityIds": [
+        "g-15-q002",
+        "g-15-q003",
+        "g-15-q004"
+      ]
+    },
+    {
+      "officialClause": "Notificación y publicación",
+      "objective": "Diferenciar la notificación del aviso y reconocer los casos en que la publicación produce efectos de notificación.",
+      "sectionId": "g15-notificacion-publicacion",
+      "activityIds": [
+        "g-15-q005",
+        "g-15-q006"
+      ]
+    },
+    {
+      "officialClause": "Nulidad y anulabilidad",
+      "objective": "Aplicar las causas y efectos básicos de los artículos 47 y 48 sin usar categorías absolutas.",
+      "sectionId": "g15-invalidez",
+      "activityIds": [
+        "g-15-q007"
+      ]
+    },
+    {
+      "officialClause": "La revisión de oficio",
+      "objective": "Seleccionar la vía de reacción de la Administración según la clase de acto y de vicio.",
+      "sectionId": "g15-revision",
+      "activityIds": [
+        "g-15-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G15/lesson.md",
+  "reviewSheetPath": "content-source/modules/G15/review.md",
+  "normativeClaimIds": [
+    "clm-g-15-001",
+    "clm-g-15-002",
+    "clm-g-15-003",
+    "clm-g-15-004",
+    "clm-g-15-005",
+    "clm-g-15-006",
+    "clm-g-15-007",
+    "clm-g-15-008",
+    "clm-g-15-009",
+    "clm-g-15-010",
+    "clm-g-15-011",
+    "clm-g-15-012",
+    "clm-g-15-013",
+    "clm-g-15-014",
+    "clm-g-15-015"
+  ],
+  "questionIds": [
+    "g-15-q001",
+    "g-15-q002",
+    "g-15-q003",
+    "g-15-q004",
+    "g-15-q005",
+    "g-15-q006",
+    "g-15-q007",
+    "g-15-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

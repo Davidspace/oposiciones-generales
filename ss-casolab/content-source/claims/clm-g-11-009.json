@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-009", "assetId": "G11", "version": "0.1.0",
+  "statement": "El artículo 297 TFUE somete los actos comprendidos en sus apartados a publicación en el Diario Oficial o a notificación, según el tipo de acto y sus destinatarios, y vincula su entrada en vigor o eficacia a esas reglas.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_297/oj/spa", "sourceLocation": "artículo 297 TFUE, apartados 1 y 2", "officialPublication": "DO C 202, de 07-06-2016; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q003", "g-11-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre publicación, notificación y eficacia de los actos de la Unión."}]}
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ss-08-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Situación protegida",
+  "competency": "Identificar una incapacidad temporal",
+  "difficulty": "basic",
+  "prompt": "Una persona trabajadora sufre una enfermedad común que le impide trabajar durante un periodo y recibe asistencia sanitaria. ¿Qué situación debe analizarse?",
+  "options": [
+    {
+      "text": "Incapacidad permanente absoluta de forma automática.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La duración temporal no determina por sí sola una incapacidad permanente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, incapacidad temporal"
+    },
+    {
+      "text": "Lesión permanente no incapacitante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No hay una lesión permanente declarada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, incapacidad temporal"
+    },
+    {
+      "text": "Jubilación anticipada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se describe una situación de jubilación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S08, incapacidad temporal"
+    },
+    {
+      "text": "Incapacidad temporal.",
+      "isCorrect": true,
+      "feedback": "Correcto. La enfermedad común que impide temporalmente trabajar está incluida en la situación protegida."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-001",
+    "clm-ss-08-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 169.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

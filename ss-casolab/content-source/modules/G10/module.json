@@ -1,0 +1,82 @@
+{
+  "id": "G10",
+  "themeId": "g-10",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Instituciones de la Unión Europea",
+  "learningOutcomes": [
+    "Distinguir el Consejo de la Unión Europea del Consejo Europeo por composición y funciones.",
+    "Explicar las funciones legislativa, presupuestaria, de definición de políticas y de coordinación del Consejo.",
+    "Aplicar las reglas básicas de composición, formaciones, publicidad y mayoría cualificada del Consejo.",
+    "Describir la representación, elección y funciones del Parlamento Europeo.",
+    "Diferenciar el límite de escaños del Tratado de la composición de la legislatura 2024-2029.",
+    "Reconocer las funciones, independencia, mandato, designación y responsabilidad política de la Comisión.",
+    "Identificar la estructura y misión del Tribunal de Justicia de la Unión Europea.",
+    "Aplicar la finalidad y las reglas básicas de la cuestión prejudicial."
+  ],
+  "decisions": [
+    "Asignar una actuación al Consejo o al Consejo Europeo sin confundir sus integrantes ni su función legislativa.",
+    "Comprobar si una decisión del Consejo sigue la regla ordinaria de mayoría cualificada y si existe minoría de bloqueo.",
+    "Determinar qué formación del Consejo interviene y cuándo la deliberación debe ser pública.",
+    "Distinguir la función colegisladora y presupuestaria del Parlamento de sus funciones de control y consulta.",
+    "Separar el máximo de escaños previsto en el TUE del número vigente para la legislatura 2024-2029.",
+    "Ordenar la propuesta y elección de la Presidencia de la Comisión y el nombramiento del Colegio.",
+    "Valorar una instrucción externa a un miembro de la Comisión a la luz de su independencia.",
+    "Decidir cuándo un órgano jurisdiccional nacional puede o debe plantear una cuestión prejudicial."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El Consejo",
+      "objective": "Distinguir el Consejo del Consejo Europeo y aplicar sus funciones, composición, formaciones y reglas básicas de votación.",
+      "sectionId": "g10-consejo",
+      "activityIds": ["g-10-q001", "g-10-q002"]
+    },
+    {
+      "officialClause": "El Parlamento Europeo",
+      "objective": "Reconocer su representación democrática, composición, elección, funciones y control político sobre la Comisión.",
+      "sectionId": "g10-parlamento",
+      "activityIds": ["g-10-q003", "g-10-q004"]
+    },
+    {
+      "officialClause": "La Comisión",
+      "objective": "Aplicar sus funciones, iniciativa, independencia, designación y responsabilidad colegiada.",
+      "sectionId": "g10-comision",
+      "activityIds": ["g-10-q005", "g-10-q006"]
+    },
+    {
+      "officialClause": "El Tribunal de Justicia",
+      "objective": "Distinguir la institución y sus órganos, su misión, composición, formas de actuación y cuestión prejudicial.",
+      "sectionId": "g10-tribunal-justicia",
+      "activityIds": ["g-10-q007", "g-10-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G10/lesson.md",
+  "reviewSheetPath": "content-source/modules/G10/review.md",
+  "normativeClaimIds": [
+    "clm-g-10-001", "clm-g-10-002", "clm-g-10-003", "clm-g-10-004",
+    "clm-g-10-005", "clm-g-10-006", "clm-g-10-007", "clm-g-10-008",
+    "clm-g-10-009", "clm-g-10-010", "clm-g-10-011", "clm-g-10-012",
+    "clm-g-10-013", "clm-g-10-014", "clm-g-10-015", "clm-g-10-016"
+  ],
+  "questionIds": [
+    "g-10-q001", "g-10-q002", "g-10-q003", "g-10-q004",
+    "g-10-q005", "g-10-q006", "g-10-q007", "g-10-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial del módulo con mapa institución-composición-función-control jurisdiccional."
+    }]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-01-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Reforma constitucional: procedimiento ordinario",
+  "competency": "Seleccionar la mayoría inicial del artículo 167.",
+  "difficulty": "basic",
+  "prompt": "Como regla inicial del artículo 167, ¿qué mayoría necesita un proyecto de reforma constitucional?",
+  "options": [
+    {
+      "text": "Tres quintos de cada Cámara.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 167.1 exige inicialmente tres quintos tanto en el Congreso como en el Senado."
+    },
+    {
+      "text": "Mayoría absoluta de cada Cámara.",
+      "isCorrect": false,
+      "feedback": "La mayoría absoluta del Senado interviene solo en la vía subsidiaria del artículo 167.2 y no es la regla inicial de ambas Cámaras.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G01, procedimiento ordinario paso 1"
+    },
+    {
+      "text": "Dos tercios de cada Cámara en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Los dos tercios de cada Cámara caracterizan el artículo 168. En el artículo 167 solo aparece una mayoría de dos tercios del Congreso en el supuesto subsidiario del apartado 2.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G01, tabla comparativa de los artículos 167 y 168"
+    },
+    {
+      "text": "Tres quintos de las Cortes reunidas en sesión conjunta.",
+      "isCorrect": false,
+      "feedback": "La votación no se sustituye por una sesión conjunta. El artículo 167 exige la mayoría en cada Cámara.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G01, procedimiento ordinario paso 1"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 167.1 y 167.2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

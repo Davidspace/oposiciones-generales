@@ -1,0 +1,87 @@
+{
+  "id": "ss-04-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Tipos de cotización vigentes en 2026",
+  "competency": "Distinguir la distribución de contingencias comunes, contingencias profesionales, MEI y cotización adicional de solidaridad",
+  "difficulty": "high",
+  "prompt": "Al revisar una liquidación del Régimen General correspondiente a 2026, ¿qué conjunto de reglas es correcto?",
+  "options": [
+    {
+      "text": "Contingencias comunes: 28,30 % a cargo exclusivo de la empresa; MEI: 0,90 % a cargo exclusivo de la persona trabajadora; sin cotización por encima de la base máxima.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las contingencias comunes y el MEI se distribuyen entre empresa y persona trabajadora, y la remuneración que excede de la base máxima puede quedar sujeta a cotización adicional de solidaridad.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S04, apartados 4.1, 4.3 y 4.4: distribución de aportaciones y exceso sobre la base máxima."
+    },
+    {
+      "text": "Contingencias comunes: 28,30 % (4,70 % empresa y 23,60 % persona trabajadora); MEI: 0,90 % repartido por mitades; contingencias profesionales a cargo de ambas partes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Invierte la distribución de contingencias comunes, reparte mal el MEI y atribuye a la persona trabajadora una parte de las primas profesionales que corresponde exclusivamente a la empresa.",
+      "errorType": "calculo-incorrecto",
+      "reviewTarget": "S04, tabla del apartado 4: porcentajes de empresa y persona trabajadora en 2026."
+    },
+    {
+      "text": "El MEI y la solidaridad sustituyen a la cotización por contingencias comunes cuando la remuneración supera la base máxima.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son cotizaciones distintas: el MEI se aplica conforme a su propia base y la solidaridad grava determinados excesos, pero ninguna sustituye la cotización ordinaria por contingencias comunes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S04, apartados 4.1, 4.3 y 4.4: naturaleza separada de cotización ordinaria, MEI y solidaridad."
+    },
+    {
+      "text": "Contingencias comunes: 28,30 % (23,60 % empresa y 4,70 % persona trabajadora); MEI: 0,90 % (0,75 % y 0,15 %); contingencias profesionales a cargo exclusivo de la empresa; y solidaridad por tramos sobre el exceso de remuneración respecto de la base máxima.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa combinación separa las cuatro capas de cotización y aplica los porcentajes y sujetos responsables vigentes en 2026."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-009",
+    "clm-ss-04-010",
+    "clm-ss-04-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a4",
+      "location": "Orden PJC/297/2026, artículo 4",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a16",
+      "location": "Orden PJC/297/2026, artículo 16",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a17",
+      "location": "Orden PJC/297/2026, artículo 17",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta comparativa con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

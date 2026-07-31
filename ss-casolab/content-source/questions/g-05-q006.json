@@ -1,0 +1,70 @@
+{
+  "id": "g-05-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Elección del Defensor del Pueblo",
+  "competency": "Ordenar la elección inicial del Defensor del Pueblo y aplicar sus mayorías.",
+  "difficulty": "medium",
+  "prompt": "La Comisión Mixta Congreso-Senado propone por primera vez una candidatura a Defensor del Pueblo. ¿Qué secuencia permite su designación en esta vía inicial?",
+  "options": [
+    {
+      "text": "Mayoría absoluta del Congreso y mayoría simple del Senado en diez días.",
+      "isCorrect": false,
+      "feedback": "La vía inicial exige tres quintos en ambas Cámaras. El plazo máximo del Senado es de veinte días después de la elección en el Congreso.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G05, mayorías iniciales del Defensor del Pueblo"
+    },
+    {
+      "text": "Tres quintos del Congreso y, después, tres quintos del Senado en un plazo máximo de veinte días.",
+      "isCorrect": true,
+      "feedback": "Correcto. La candidatura necesita tres quintos en el Congreso y ratificación por la misma mayoría del Senado dentro del plazo máximo legal."
+    },
+    {
+      "text": "Tres quintos del Senado y ratificación posterior del Congreso por mayoría absoluta.",
+      "isCorrect": false,
+      "feedback": "La secuencia comienza en el Congreso. En la primera propuesta, ambas Cámaras deben alcanzar tres quintos.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G05, orden Congreso-Senado"
+    },
+    {
+      "text": "Mayoría simple de la Comisión Mixta, sin votación posterior de los Plenos.",
+      "isCorrect": false,
+      "feedback": "La mayoría simple sirve para el acuerdo de propuesta de la Comisión. No sustituye las votaciones del Congreso y del Senado.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G05, propuesta de Comisión y designación por las Cámaras"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-012",
+    "clm-g-05-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+      "location": "artículo 2, apartados 3 a 5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

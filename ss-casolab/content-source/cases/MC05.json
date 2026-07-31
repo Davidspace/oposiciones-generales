@@ -1,0 +1,108 @@
+{
+  "id": "MC05",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Cadena de incapacidad",
+  "scenario": "Una trabajadora del Régimen General inicia una baja médica por enfermedad común. La situación continúa durante meses, se emite un alta médica y, después, aparece una nueva baja por una dolencia relacionada. El caso exige ordenar los efectos de cada fase.",
+  "originality": "original",
+  "assumptions": [
+    "La trabajadora está afiliada y en alta o situación asimilada al alta cuando se inicia la incapacidad.",
+    "No se declara accidente de trabajo ni una contingencia profesional.",
+    "Los partes médicos son válidos y las fechas indicadas son las únicas relevantes.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-08"
+  ],
+  "competencies": [
+    "Identificar la contingencia de incapacidad temporal.",
+    "Aplicar la duración máxima ordinaria de la incapacidad temporal.",
+    "Distinguir el alta médica de la declaración de incapacidad permanente.",
+    "Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control.",
+    "Ordenar una nueva baja sin mezclarla con la situación anterior."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-07",
+      "competency": "Identificar la contingencia de incapacidad temporal.",
+      "questionIds": [
+        "ss-07-q301"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Aplicar la duración máxima ordinaria de la incapacidad temporal.",
+      "questionIds": [
+        "ss-08-q302"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Distinguir el alta médica de la declaración de incapacidad permanente.",
+      "questionIds": [
+        "ss-08-q303"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control.",
+      "questionIds": [
+        "ss-07-q304"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Ordenar una nueva baja sin mezclarla con la situación anterior.",
+      "questionIds": [
+        "ss-08-q305"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-07-q301",
+    "ss-08-q302",
+    "ss-08-q303",
+    "ss-07-q304",
+    "ss-08-q305"
+  ],
+  "consistencyRules": [
+    "La primera baja se analiza como contingencia común.",
+    "El alta médica no equivale por sí sola a una incapacidad permanente.",
+    "Cada nueva baja se vincula a sus propios hechos y fecha de efectos."
+  ],
+  "durationMinutes": 14,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-07-101",
+    "clm-ss-07-102",
+    "clm-ss-07-103",
+    "clm-ss-07-104",
+    "clm-ss-07-105"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC05 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

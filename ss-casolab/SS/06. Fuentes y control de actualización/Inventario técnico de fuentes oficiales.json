@@ -1,0 +1,549 @@
+{
+  "fecha_corte": "2026-07-30",
+  "total_archivos": 60,
+  "total_paginas": 3787,
+  "total_bytes": 82874161,
+  "errores": [],
+  "archivos": [
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\Bases comunes - Orden HFP 688-2017 consolidada.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "Bases comunes - Orden HFP 688-2017 consolidada.pdf",
+      "pages": 10,
+      "bytes": 151579,
+      "sha256": "88241f4c03a0fed6bbf94115044dfb4a18bca35d40efe29f3a231f3003038402",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\Convocatoria 2025 - BOE-A-2025-27158.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "Convocatoria 2025 - BOE-A-2025-27158.pdf",
+      "pages": 27,
+      "bytes": 411014,
+      "sha256": "f16d982538b6a146dd04833bdd6ee20492a6d43f7fb940025df8281456a1fdd7",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\Corrección de errores 2026 - BOE-A-2026-5351.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "Corrección de errores 2026 - BOE-A-2026-5351.pdf",
+      "pages": 3,
+      "bytes": 199665,
+      "sha256": "53cfb6ebe4dbd965043fcdd64e68fb8951ad7e2b8aeaacdf3fa6072d547015ac",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\OEP 2023 - Real Decreto 625-2023.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "OEP 2023 - Real Decreto 625-2023.pdf",
+      "pages": 28,
+      "bytes": 793806,
+      "sha256": "97a6366cbaff5fddc1ca7de2a61a624e04c12419e6f30c84e0b2db596e6991cc",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\OEP 2025 - Real Decreto 651-2025.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "OEP 2025 - Real Decreto 651-2025.pdf",
+      "pages": 28,
+      "bytes": 794857,
+      "sha256": "8ba2053fe07c9d6ab466d8515fa0153834717a8119f911f67372329ed1b5a8a1",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Convocatoria y bases\\OEP 2026 - Real Decreto 387-2026 - pendiente de convocatoria.pdf",
+      "category": "Convocatoria y bases",
+      "filename": "OEP 2026 - Real Decreto 387-2026 - pendiente de convocatoria.pdf",
+      "pages": 28,
+      "bytes": 859097,
+      "sha256": "666637ee19f13fce32d2501cd91b2f5bd66501f431f1b58dcabc7bed0e10952f",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2024 Convocatoria 2023 - Cuestionario libre Modelo A.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2024 Convocatoria 2023 - Cuestionario libre Modelo A.pdf",
+      "pages": 14,
+      "bytes": 1754309,
+      "sha256": "6d25294c8b05924ba7cd46455f907bf2643c6736fcca788cafed324e699696b3",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2024 Convocatoria 2023 - Cuestionario libre Modelo B.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2024 Convocatoria 2023 - Cuestionario libre Modelo B.pdf",
+      "pages": 14,
+      "bytes": 3058196,
+      "sha256": "76750cb9076010b14c3409cbc1d8077d21f6c9204f8db4fbf4f88d197df0afb7",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2024 Convocatoria 2023 - Supuesto práctico Modelo A.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2024 Convocatoria 2023 - Supuesto práctico Modelo A.pdf",
+      "pages": 5,
+      "bytes": 927039,
+      "sha256": "6f820955612b7c22fb3ffba4a2eef98234ffd9d2fa41e0294f3b6b293e092c19",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2024 Convocatoria 2023 - Supuesto práctico Modelo B.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2024 Convocatoria 2023 - Supuesto práctico Modelo B.pdf",
+      "pages": 5,
+      "bytes": 924676,
+      "sha256": "9fe8301b9551e3bc3bd86cb9833526216d2396cb18d2845c66a7fa929e2e7dcf",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2025 Convocatoria 2023 - Examen extraordinario acceso libre.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2025 Convocatoria 2023 - Examen extraordinario acceso libre.pdf",
+      "pages": 19,
+      "bytes": 440771,
+      "sha256": "23f6146f530e5ac809a181bc1c50975f53280eaf0f1cdf671dd0bb6834315244",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2025 Convocatoria 2024 - Acceso libre Modelo A.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2025 Convocatoria 2024 - Acceso libre Modelo A.pdf",
+      "pages": 24,
+      "bytes": 3546005,
+      "sha256": "2eab2cbcc7805e693693d10ec8aa50ea5fb0ac2ff9c372c4972164e3136a1559",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2025 Convocatoria 2024 - Acceso libre Modelo B.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2025 Convocatoria 2024 - Acceso libre Modelo B.pdf",
+      "pages": 23,
+      "bytes": 5393946,
+      "sha256": "04b33e5d2dc41aa2c72e59d2841db180a7e8ec52638fe90940f520b3854151ae",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2025 Convocatoria 2024 - Examen extraordinario acceso libre.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2025 Convocatoria 2024 - Examen extraordinario acceso libre.pdf",
+      "pages": 19,
+      "bytes": 421167,
+      "sha256": "26657b4e45500156268e74246bc8fd14b93adb731d8ffe563d2d2cbff4e109af",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2026 Convocatoria 2025 - Acceso libre Rojo A.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2026 Convocatoria 2025 - Acceso libre Rojo A.pdf",
+      "pages": 23,
+      "bytes": 1815085,
+      "sha256": "a287a943607659788fb58400d9c326f4cf8b0ea864151d20ceeb75b3426a61f2",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2026 Convocatoria 2025 - Acceso libre Rojo B.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2026 Convocatoria 2025 - Acceso libre Rojo B.pdf",
+      "pages": 23,
+      "bytes": 1780173,
+      "sha256": "b90cddfc6bda01fac7007374f5567744b1b0e119bfa08bc52d2c953fa6f8318a",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2026 Convocatoria 2025 - Acceso libre Verde A.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2026 Convocatoria 2025 - Acceso libre Verde A.pdf",
+      "pages": 23,
+      "bytes": 1748784,
+      "sha256": "fc6d1668da046a21f85a0787f49a0eb7eaebff6f5a6fefb522f29dc1dfb07083",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Exámenes oficiales anteriores\\2026 Convocatoria 2025 - Acceso libre Verde B.pdf",
+      "category": "Exámenes oficiales anteriores",
+      "filename": "2026 Convocatoria 2025 - Acceso libre Verde B.pdf",
+      "pages": 23,
+      "bytes": 1783077,
+      "sha256": "646ac05ae0ce46564e2ab181bc7776353c550592ff310e07fae0b39759f5f1b7",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-01-21 Nota informativa 1.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-01-21 Nota informativa 1.pdf",
+      "pages": 1,
+      "bytes": 117783,
+      "sha256": "63b5cb89223d3ef14e4e497d0380dc6f78a30fc091737528f576e77164536bd4",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-02-02 Nota informativa recordatorio.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-02-02 Nota informativa recordatorio.pdf",
+      "pages": 1,
+      "bytes": 51396,
+      "sha256": "8a0a8c0b8e9a06ae96b4a6bb599b659793476a4c83e9ad9eeb611b56cd1497c9",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-05 Fecha de examen y cierre de legislación.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-05 Fecha de examen y cierre de legislación.pdf",
+      "pages": 1,
+      "bytes": 263925,
+      "sha256": "2c51cf28096a11572daf83c81eddaa31fd9e9fad1e940534e56649f5fa00cbf2",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-20 Admitidos provisionales acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-20 Admitidos provisionales acceso libre.pdf",
+      "pages": 812,
+      "bytes": 12300754,
+      "sha256": "8d268e746717bbb9c054fdc43a582169643a8f37c49eacd801bb8017c280df87",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-20 Excluidos provisionales acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-20 Excluidos provisionales acceso libre.pdf",
+      "pages": 32,
+      "bytes": 691542,
+      "sha256": "4a3b6494572ef2f6a8be3a4266d9b8c360431ee0f85fd07e97ace844dce1a1c4",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-20 Resolución listas provisionales.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-20 Resolución listas provisionales.pdf",
+      "pages": 55,
+      "bytes": 2923634,
+      "sha256": "0a1539c562be7e39da3e5de1287d48c34b41d8c53a82226e27e58f3461e44c3d",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-23 Nota cupo de reserva.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-23 Nota cupo de reserva.pdf",
+      "pages": 1,
+      "bytes": 31875,
+      "sha256": "95e47d0b46b12790707d776ae14d586363264378a41abab8a0a182ed3c11b2e2",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-25 Admitidos provisionales modificados acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-25 Admitidos provisionales modificados acceso libre.pdf",
+      "pages": 812,
+      "bytes": 12259872,
+      "sha256": "f5b5243c6dd0a6440bc057a87b64e273924794fdb15c50557e75611ad805b5b7",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-03-25 Nota modificación admitidos provisionales.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-03-25 Nota modificación admitidos provisionales.pdf",
+      "pages": 1,
+      "bytes": 16044,
+      "sha256": "e58f12200ecaec42b8b67b97fe4d1284f78434d420662dfc5470cae2c093a023",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-04-23 Aclaración cierre de legislación.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-04-23 Aclaración cierre de legislación.pdf",
+      "pages": 1,
+      "bytes": 260769,
+      "sha256": "0760420425779094d2b4222fbb690bb47d98f424dffa5f626ba701c55c2e72b0",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-05-04 Materia excluida de evaluación.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-05-04 Materia excluida de evaluación.pdf",
+      "pages": 1,
+      "bytes": 265280,
+      "sha256": "563ad6075409eed752c3e2ea9e1be260886d9b020a8a36c7cefbd7efcb70044b",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-05-11 Admitidos definitivos acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-05-11 Admitidos definitivos acceso libre.pdf",
+      "pages": 820,
+      "bytes": 12490531,
+      "sha256": "f2a9e1b9865960534e63e2bfe0299876e34af5968547f556b33a9c18df57b728",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-05-11 Excluidos definitivos acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-05-11 Excluidos definitivos acceso libre.pdf",
+      "pages": 25,
+      "bytes": 1755511,
+      "sha256": "5552a997826e2d34b5b9fdbbd28e74449cfc134183ccf0390325b352eaa22291",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-06-04 Nota sedes de examen.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-06-04 Nota sedes de examen.pdf",
+      "pages": 2,
+      "bytes": 215653,
+      "sha256": "ea3773804a1b5147ac75131df266ac4ac4a7b21af64365ffbfeb0c9babc35c25",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-06-12 Admitidos definitivos modificados acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-06-12 Admitidos definitivos modificados acceso libre.pdf",
+      "pages": 820,
+      "bytes": 6577755,
+      "sha256": "e4e051c4a0d6355dc5316368c8520ccc6dc421634fe1586c3a4807a245f81a9d",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-06-12 Excluidos definitivos modificados acceso libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-06-12 Excluidos definitivos modificados acceso libre.pdf",
+      "pages": 25,
+      "bytes": 552044,
+      "sha256": "9c924c3f162fc8e4cb1f859cad857094c5cefcd5a85777d6dfc2083011d7071e",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-06-12 Modificación admitidos y excluidos libre.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-06-12 Modificación admitidos y excluidos libre.pdf",
+      "pages": 3,
+      "bytes": 216607,
+      "sha256": "064346f9149818cbb3a033ea6ce9bcb3a22da3a69bdd20ad399691dbbee4f85f",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-06-25 Instrucciones a opositores.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-06-25 Instrucciones a opositores.pdf",
+      "pages": 3,
+      "bytes": 249007,
+      "sha256": "7cedd5229527bc4c1c0415936b16c88a724a5d1db6f74f4edc2ff19bb4047fa8",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Listados e instrucciones\\2026-07-28 Nota convocatoria extraordinaria.pdf",
+      "category": "Listados e instrucciones",
+      "filename": "2026-07-28 Nota convocatoria extraordinaria.pdf",
+      "pages": 2,
+      "bytes": 244304,
+      "sha256": "6fd54bb04b5abef75190fa5fac08ada6288583162f54097c018ea4fe6cee4c09",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2024 Convocatoria 2023 - Plantilla definitiva acceso libre.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2024 Convocatoria 2023 - Plantilla definitiva acceso libre.pdf",
+      "pages": 1,
+      "bytes": 247478,
+      "sha256": "7d6ae85039d8505a8966609fe14495d830496f092e1409f1ed3fcb2c0fbdbda2",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2024 Convocatoria 2023 - Plantilla provisional acceso libre.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2024 Convocatoria 2023 - Plantilla provisional acceso libre.pdf",
+      "pages": 1,
+      "bytes": 163247,
+      "sha256": "8497a00d348650cf7c30d9a33c2802e30d2a6c23709efb1e2502ed3a18b366f5",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2023 - Plantilla definitiva extraordinario.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2023 - Plantilla definitiva extraordinario.pdf",
+      "pages": 1,
+      "bytes": 193465,
+      "sha256": "e899b1564eddb3261aafaee7d571c6e57adc85ee54fa1ce266f3f2b95c02afa0",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2023 - Plantilla provisional extraordinario.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2023 - Plantilla provisional extraordinario.pdf",
+      "pages": 1,
+      "bytes": 193216,
+      "sha256": "35b199a90a16dbc161bff29303d3b27bb4805c152aa64afe96870d55aeabd69c",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2024 - Plantilla definitiva acceso libre.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2024 - Plantilla definitiva acceso libre.pdf",
+      "pages": 1,
+      "bytes": 179096,
+      "sha256": "a1ebb671725da9e34e79fde363571203984572b601ae1bea1d1598cd7c4c6b7b",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2024 - Plantilla definitiva extraordinario.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2024 - Plantilla definitiva extraordinario.pdf",
+      "pages": 1,
+      "bytes": 162069,
+      "sha256": "4b3a1ed078e77a4e57e3828fdfd24024b2c0d33f2e04597b23eaa2912799c037",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2024 - Plantilla provisional acceso libre.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2024 - Plantilla provisional acceso libre.pdf",
+      "pages": 1,
+      "bytes": 116638,
+      "sha256": "07de1a7de3eb0d8cc706692088206a046a1bf394537917415daefd784be096aa",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2025 Convocatoria 2024 - Plantilla provisional extraordinario.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2025 Convocatoria 2024 - Plantilla provisional extraordinario.pdf",
+      "pages": 1,
+      "bytes": 161662,
+      "sha256": "a0c12ecf81d003885f90e5faa9026e64fc916ff2566c9869e9afe2430175eac1",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2026 Convocatoria 2025 - Plantilla definitiva Modelo A.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2026 Convocatoria 2025 - Plantilla definitiva Modelo A.pdf",
+      "pages": 1,
+      "bytes": 216742,
+      "sha256": "9fcb6fb2972e1fe1117cfa56b8e372e11e4dfa836fb7c419ad24189ca77477ce",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2026 Convocatoria 2025 - Plantilla definitiva Modelo B.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2026 Convocatoria 2025 - Plantilla definitiva Modelo B.pdf",
+      "pages": 1,
+      "bytes": 216146,
+      "sha256": "7ee5fb946c3b9a64a65a2752967d7a429eb94f8334333d2285d10091a8c8091d",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2026 Convocatoria 2025 - Plantilla provisional Modelo A.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2026 Convocatoria 2025 - Plantilla provisional Modelo A.pdf",
+      "pages": 1,
+      "bytes": 190449,
+      "sha256": "c45c281640dfd34bae69c99277a720ddd8f233f2b2e97cda031014fadffade35",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Plantillas oficiales\\2026 Convocatoria 2025 - Plantilla provisional Modelo B.pdf",
+      "category": "Plantillas oficiales",
+      "filename": "2026 Convocatoria 2025 - Plantilla provisional Modelo B.pdf",
+      "pages": 1,
+      "bytes": 189923,
+      "sha256": "db55ba3c4f4a1cf0b999ec98ffba386336852b106f0c62867a63676cad25a08a",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2024 Convocatoria 2023 - Criterios corrección acceso libre.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2024 Convocatoria 2023 - Criterios corrección acceso libre.pdf",
+      "pages": 2,
+      "bytes": 216728,
+      "sha256": "4266999087085d7cdbbd5d94d596e139a53a073ae9f381f01152b3a6ab4ccc56",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2024 Convocatoria 2023 - Nota alegaciones.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2024 Convocatoria 2023 - Nota alegaciones.pdf",
+      "pages": 1,
+      "bytes": 79118,
+      "sha256": "357c0fec38a3db5c4b387e2e7eb9c00d8e685c4bd4a95842c83521e2cd6cc0ad",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2023 - Fórmula transformación.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2023 - Fórmula transformación.pdf",
+      "pages": 1,
+      "bytes": 197401,
+      "sha256": "5b76e882d4b2f17c7fc68ef458a2bbaadd525ceb7902cc7350aa46278ff77e23",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2023 - Nota corte.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2023 - Nota corte.pdf",
+      "pages": 2,
+      "bytes": 220276,
+      "sha256": "2ad81ae5477981c784ef4a0475cab11463f3d1b0b4b1d9f3c1d2234ff0d37287",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2024 - Criterios corrección acceso libre.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2024 - Criterios corrección acceso libre.pdf",
+      "pages": 2,
+      "bytes": 262393,
+      "sha256": "cf5d163fa555c32d72d4cb804a9c4647fa37094f5a4671d70db3f5bea5b44caf",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2024 - Fórmula transformación.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2024 - Fórmula transformación.pdf",
+      "pages": 1,
+      "bytes": 139336,
+      "sha256": "02525b3a6908f4f62ad69c02116b3c39555c0a08efc6f9532cae43738a9325d7",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2024 - Nota alegaciones y criterio anulación.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2024 - Nota alegaciones y criterio anulación.pdf",
+      "pages": 1,
+      "bytes": 144077,
+      "sha256": "4d8204e5beb65c0a29e8795c6490764b346e31c7917795677db50d2f8cdcd2df",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2025 Convocatoria 2024 - Punto de corte.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2025 Convocatoria 2024 - Punto de corte.pdf",
+      "pages": 2,
+      "bytes": 332489,
+      "sha256": "7b8df86bb0ab9590ce50383b3ca633578dcd555fa670735f8d38f4277801d420",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2026-06-23 Criterios de corrección acceso libre.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2026-06-23 Criterios de corrección acceso libre.pdf",
+      "pages": 2,
+      "bytes": 296302,
+      "sha256": "e3d166215383a757a06952cd29d9733ad237a0b6bc4d26c4d41a26772bc7b4e0",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2026-07-20 Estadísticas examen.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2026-07-20 Estadísticas examen.pdf",
+      "pages": 2,
+      "bytes": 272312,
+      "sha256": "e63ae14ecd55c2f2e3863ba091238e835d9ad88626fc21979b70aa8ce477e492",
+      "validated": true
+    },
+    {
+      "relative_path": "01. Información oficial de la oposición\\Resoluciones del tribunal\\2026-07-21 Agosto inhábil - BOE-A-2026-15891.pdf",
+      "category": "Resoluciones del tribunal",
+      "filename": "2026-07-21 Agosto inhábil - BOE-A-2026-15891.pdf",
+      "pages": 2,
+      "bytes": 196066,
+      "sha256": "cdac0853bfb36018a8f789334dd407c74e17051d7ba4f7f9c1f8e08696f7c57f",
+      "validated": true
+    }
+  ]
+}

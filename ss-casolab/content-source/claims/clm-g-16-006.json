@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-16-006",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "La representación puede acreditarse por cualquier medio válido en Derecho que deje constancia fidedigna; su falta o insuficiencia no impide tener por realizado el acto si se aporta o subsana dentro de los diez días concedidos, o de un plazo superior cuando las circunstancias lo requieran.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 5.4 y 5.6",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16",
+    "g-16-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

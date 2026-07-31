@@ -1,0 +1,80 @@
+{
+  "id": "ss-06-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Oposición y suspensión",
+  "competency": "Aplicar los motivos tasados y distinguir el efecto suspensivo según el acto impugnado",
+  "difficulty": "high",
+  "prompt": "El responsable recurre una providencia y justifica un error aritmético en la deuda. En otro expediente recurre únicamente una diligencia de embargo, sin pagar, avalar ni consignar. ¿Qué efecto corresponde?",
+  "options": [
+    {
+      "text": "El recurso contra la providencia es admisible y suspende sin garantía; el dirigido solo contra la diligencia no suspende automáticamente en esas condiciones.",
+      "isCorrect": true,
+      "feedback": "Correcto. El error aritmético es motivo tasado. Para otros actos ejecutivos, el TRLGSS condiciona la suspensión al pago, aval suficiente o consignación legal."
+    },
+    {
+      "text": "Ambos recursos suspenden automáticamente todo el apremio porque se interponen dentro de la vía ejecutiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La suspensión sin garantía se asocia al recurso contra la providencia por un motivo tasado, no a cualquier impugnación posterior.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S06, apartado 3: diferencia entre providencia y otros actos ejecutivos."
+    },
+    {
+      "text": "Ninguno suspende: todo recurso ejecutivo exige consignar antes principal, recargo, intereses y costas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El recurso contra la providencia basado en error material o aritmético suspende sin necesidad de garantía hasta su resolución.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S06, apartado 3: suspensión especial del recurso contra la providencia."
+    },
+    {
+      "text": "El error aritmético no permite recurrir la providencia, pero la diligencia sí queda suspendida porque cualquier embargo requiere autorización judicial previa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El error aritmético está expresamente incluido. Además, la diligencia administrativa de embargo no queda suspendida por esa afirmación general.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S06, apartado 3: cinco motivos tasados y efectos del recurso."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a38",
+      "location": "TRLGSS, artículo 38.3 y 38.4",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a86",
+      "location": "Real Decreto 1415/2004, artículo 86",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

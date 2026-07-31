@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-08-015",
+  "assetId": "S08",
+  "version": "0.1.0",
+  "statement": "La incapacidad permanente total impide realizar todas o las fundamentales tareas de la profesión habitual, pero permite dedicarse a otra distinta.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "art. 194.4",
+  "officialPublication": "TRLGSS",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S08",
+    "ss-08-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S08."
+      }
+    ]
+  }
+}

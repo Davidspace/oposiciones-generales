@@ -1,0 +1,108 @@
+{
+  "id": "MC08",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Acceso y mantenimiento del IMV",
+  "scenario": "Una unidad de convivencia solicita el ingreso mínimo vital. La solicitud incluye ingresos del ejercicio anterior, residencia en España y una variación posterior de los ingresos de una persona integrante. La unidad pregunta qué debe comunicar y cómo se revisa la prestación.",
+  "originality": "original",
+  "assumptions": [
+    "La unidad de convivencia está constituida conforme a la definición legal y sus miembros están identificados.",
+    "La residencia y los ingresos se acreditan con la documentación requerida.",
+    "No se introduce una prestación autonómica incompatible ni una sanción.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-12"
+  ],
+  "competencies": [
+    "Identificar el ámbito subjetivo del ingreso mínimo vital.",
+    "Comprobar la residencia y la vulnerabilidad económica.",
+    "Distinguir la unidad de convivencia de la persona individual.",
+    "Reconocer la obligación de comunicar cambios relevantes.",
+    "Aplicar la revisión periódica de la prestación."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-07",
+      "competency": "Identificar el ámbito subjetivo del ingreso mínimo vital.",
+      "questionIds": [
+        "ss-07-q331"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Comprobar la residencia y la vulnerabilidad económica.",
+      "questionIds": [
+        "ss-12-q332"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Distinguir la unidad de convivencia de la persona individual.",
+      "questionIds": [
+        "ss-12-q333"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Reconocer la obligación de comunicar cambios relevantes.",
+      "questionIds": [
+        "ss-07-q334"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Aplicar la revisión periódica de la prestación.",
+      "questionIds": [
+        "ss-12-q335"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-07-q331",
+    "ss-12-q332",
+    "ss-12-q333",
+    "ss-07-q334",
+    "ss-12-q335"
+  ],
+  "consistencyRules": [
+    "La unidad de convivencia se analiza con sus miembros y relaciones declaradas.",
+    "Los ingresos y el patrimonio se valoran con el periodo y los umbrales aplicables.",
+    "La variación posterior no se ignora por haber reconocido inicialmente la prestación."
+  ],
+  "durationMinutes": 14,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-07-131",
+    "clm-ss-07-132",
+    "clm-ss-07-133",
+    "clm-ss-07-134",
+    "clm-ss-07-135"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC08 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

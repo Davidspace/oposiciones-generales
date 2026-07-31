@@ -1,0 +1,77 @@
+{
+  "id": "g-21-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Grados",
+  "competency": "Identificar los grados legales de dependencia",
+  "difficulty": "basic",
+  "prompt": "¿Qué ordenación coincide con el artículo 26 de la Ley 39/2006?",
+  "options": [
+    {
+      "text": "Grado I: gran dependencia; grado II: moderada; grado III: severa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El orden está invertido.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, grados"
+    },
+    {
+      "text": "Grado I: discapacidad; grado II: incapacidad; grado III: jubilación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son conceptos distintos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, grados"
+    },
+    {
+      "text": "Grado I: dependencia moderada; grado II: dependencia severa; grado III: gran dependencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la clasificación legal de grados."
+    },
+    {
+      "text": "Solo existe un grado, porque la dependencia no se gradúa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 26 distingue tres grados.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G21, grados"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-013",
+    "clm-g-21-014",
+    "clm-g-21-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "location": "art. 26",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

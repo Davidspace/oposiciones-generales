@@ -1,0 +1,72 @@
+{
+  "id": "ss-06-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Selección y documentación del embargo",
+  "competency": "Aplicar el orden de traba, sus límites y las consecuencias de no manifestar bienes",
+  "difficulty": "high",
+  "prompt": "El deudor no manifestó una cuenta bancaria. La unidad de recaudación la descubre y decide trabarla antes que una máquina cuya venta previsiblemente no cubriría el coste de realización. El deudor pide posponer la cuenta y embargar la máquina. ¿Qué respuesta es correcta?",
+  "options": [
+    {
+      "text": "Debe aceptarse la propuesta porque el deudor puede alterar libremente el orden siempre que señale cualquier otro bien.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La alteración exige igual eficacia y celeridad, ausencia de perjuicio a terceros y nunca permite posponer dinero efectivo o en cuentas.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S06, apartado 4.2: requisitos para alterar el orden de embargo."
+    },
+    {
+      "text": "La cuenta solo puede embargarse después de todos los muebles, porque el reglamento aplica siempre un orden rígido por categorías.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla principal atiende a facilidad de enajenación y menor onerosidad; el orden de la LEC opera si esos criterios no pueden aplicarse.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S06, apartado 4.2: criterio principal y orden subsidiario."
+    },
+    {
+      "text": "La decisión puede mantenerse: el dinero en cuentas no puede posponerse por la propuesta, la máquina no debe trabarse si su producto previsible no cubre el coste y cada traba debe documentarse en diligencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. Prima la facilidad de realización, no deben trabarse bienes de rendimiento previsiblemente inferior al coste y, al no haber manifestado la cuenta, el deudor tampoco puede fundar la impugnación en la alteración del orden respecto de ese bien no señalado."
+    },
+    {
+      "text": "No puede embargarse ningún bien que no haya sido declarado voluntariamente por el responsable en el expediente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La unidad puede obtener información de Administraciones, registros, sujetos obligados y del propio responsable; la falta de manifestación no inmuniza el bien.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S06, apartado 4.2: obtención de información patrimonial."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-008",
+    "clm-ss-06-009",
+    "clm-ss-06-010",
+    "clm-ss-06-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a89",
+      "location": "Real Decreto 1415/2004, artículos 89 y 91 a 93",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

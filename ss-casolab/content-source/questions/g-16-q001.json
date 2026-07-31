@@ -1,0 +1,75 @@
+{
+  "id": "g-16-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "El procedimiento administrativo común",
+  "competency": "distinguir trámites adicionales y especialidades reglamentarias",
+  "difficulty": "medium",
+  "prompt": "Una norma quiere añadir a un procedimiento común un trámite obligatorio distinto de los previstos en la Ley 39/2015. Según el artículo 1.2, ¿qué exigencia básica debe cumplir?",
+  "options": [
+    {
+      "text": "Puede crearlo cualquier instrucción interna si reduce el tiempo de tramitación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una instrucción no satisface la reserva de ley prevista para añadir un trámite distinto o adicional.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G16, apartado 1 «Marco del procedimiento administrativo común»"
+    },
+    {
+      "text": "Debe establecerse mediante ley, de manera motivada y cuando sea eficaz, proporcionado y necesario para los fines del procedimiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. El primer inciso del artículo 1.2 reserva a la ley la inclusión de trámites adicionales o distintos y añade esas condiciones."
+    },
+    {
+      "text": "Debe establecerse siempre por reglamento, porque toda regla procedimental es una especialidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo distingue los trámites adicionales, reservados a ley, de determinadas especialidades que sí pueden establecerse reglamentariamente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G16, apartado 1 «Marco del procedimiento administrativo común»"
+    },
+    {
+      "text": "No necesita motivación si el trámite se aplica a todas las personas por igual.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La igualdad de aplicación no elimina la exigencia legal de motivación, eficacia, proporcionalidad y necesidad.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G16, apartado 1 «Marco del procedimiento administrativo común»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 1.2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-12-014",
+  "assetId": "G12",
+  "version": "0.1.0",
+  "statement": "La Intervención General de la Seguridad Social es centro de gestión de la contabilidad de las entidades gestoras y servicios comunes.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+  "sourceLocation": "RD 501/2024, art. 4.1",
+  "officialPublication": "RD 501/2024",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G12",
+    "g-12-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G12."
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-01-008",
+  "assetId": "G01",
+  "version": "0.1.0",
+  "statement": "El artículo 169 impide iniciar una reforma constitucional en tiempo de guerra o durante la vigencia de cualquiera de los estados previstos en el artículo 116.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+  "sourceLocation": "artículo 169",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G01",
+    "content-source/modules/G01/lesson.md",
+    "content-source/modules/G01/review.md",
+    "g-01-q003"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

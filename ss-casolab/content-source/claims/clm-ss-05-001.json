@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-001",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "La gestión recaudatoria es la actividad administrativa dirigida a realizar los créditos y derechos de la Seguridad Social y alcanza cuotas, otros ingresos de derecho público, conceptos recaudados para entidades ajenas y los recargos e intereses que procedan.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a1",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 1",
+  "officialPublication": "BOE-A-2004-11836; texto consolidado con última actualización publicada el 27-03-2024",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q001"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

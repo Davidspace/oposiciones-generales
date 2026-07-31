@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-18-020",
+  "assetId": "G18",
+  "version": "0.1.0",
+  "statement": "Tras reposición, el plazo contencioso cuenta desde el día siguiente a su resolución expresa o desestimación presunta; lesividad y litigios entre Administraciones siguen las reglas específicas de dos meses del artículo 46.5 y 46.6.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+  "sourceLocation": "artículo 46.4 a 46.6",
+  "officialPublication": "BOE-A-1998-16718; texto consolidado con última actualización publicada el 03-01-2025",
+  "validFrom": "1998-12-14",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["G18", "g-18-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

@@ -1,0 +1,74 @@
+{
+  "id": "G19",
+  "themeId": "g-19",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Personal al servicio de las Administraciones Públicas",
+  "learningOutcomes": [
+    "Distinguir las clases de personal al servicio de las Administraciones Públicas.",
+    "Relacionar derechos, deberes y principios de conducta con la actuación funcionarial.",
+    "Identificar la carrera profesional, la promoción interna y la evaluación del desempeño.",
+    "Aplicar las reglas básicas de incompatibilidades públicas y privadas.",
+    "Distinguir responsabilidad disciplinaria, faltas, sanciones, prescripción y procedimiento."
+  ],
+  "decisions": [
+    "Clasificar a una persona como funcionario de carrera, interino, eventual o personal laboral.",
+    "Separar derechos individuales, derechos ejercidos colectivamente y deberes del código de conducta.",
+    "Elegir la modalidad de carrera o promoción que corresponde al supuesto.",
+    "Comprobar si una segunda actividad pública o privada exige reconocimiento previo de compatibilidad.",
+    "Calificar una conducta disciplinaria y comprobar sanción, prescripción y procedimiento aplicables."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El personal al servicio de las Administraciones Públicas: concepto y clases",
+      "objective": "Clasificar las clases de empleados públicos y sus rasgos jurídicos básicos.",
+      "sectionId": "g19-clases",
+      "activityIds": ["g-19-q001", "g-19-q002"]
+    },
+    {
+      "officialClause": "Derechos y deberes de los funcionarios",
+      "objective": "Aplicar derechos, deberes y principios de conducta sin confundir su titularidad.",
+      "sectionId": "g19-derechos-deberes",
+      "activityIds": ["g-19-q003", "g-19-q004"]
+    },
+    {
+      "officialClause": "La carrera administrativa",
+      "objective": "Distinguir carrera vertical, horizontal, promoción interna y evaluación del desempeño.",
+      "sectionId": "g19-carrera",
+      "activityIds": ["g-19-q005"]
+    },
+    {
+      "officialClause": "Las incompatibilidades",
+      "objective": "Comprobar el principio de dedicación, la autorización previa y las excepciones legales.",
+      "sectionId": "g19-incompatibilidades",
+      "activityIds": ["g-19-q006"]
+    },
+    {
+      "officialClause": "Régimen disciplinario: faltas, sanciones y procedimiento",
+      "objective": "Aplicar responsabilidad, clasificación, sanción, prescripción y procedimiento disciplinario.",
+      "sectionId": "g19-disciplina",
+      "activityIds": ["g-19-q007", "g-19-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G19/lesson.md",
+  "reviewSheetPath": "content-source/modules/G19/review.md",
+  "normativeClaimIds": [
+    "clm-g-19-001", "clm-g-19-002", "clm-g-19-003", "clm-g-19-004", "clm-g-19-005",
+    "clm-g-19-006", "clm-g-19-007", "clm-g-19-008", "clm-g-19-009", "clm-g-19-010",
+    "clm-g-19-011", "clm-g-19-012", "clm-g-19-013", "clm-g-19-014", "clm-g-19-015",
+    "clm-g-19-016", "clm-g-19-017", "clm-g-19-018", "clm-g-19-019", "clm-g-19-020"
+  ],
+  "questionIds": ["g-19-q001", "g-19-q002", "g-19-q003", "g-19-q004", "g-19-q005", "g-19-q006", "g-19-q007", "g-19-q008"],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial del módulo con trazabilidad del EBEP y de la Ley 53/1984."}]
+  }
+}

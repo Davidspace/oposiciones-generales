@@ -1,0 +1,76 @@
+{
+  "id": "ss-11-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Clasificación",
+  "competency": "Elegir la prestación por vínculo",
+  "difficulty": "basic",
+  "prompt": "Una persona solicita protección porque era cónyuge del sujeto causante. ¿Qué prestación debe analizarse primero?",
+  "options": [
+    {
+      "text": "La pensión de orfandad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La orfandad protege a hijos e hijas en los términos legales.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S11, clasificación"
+    },
+    {
+      "text": "La pensión de viudedad.",
+      "isCorrect": true,
+      "feedback": "Correcto. El vínculo conyugal sitúa el análisis en la prestación de viudedad."
+    },
+    {
+      "text": "La jubilación flexible.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se relaciona con el fallecimiento del causante.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S11, clasificación"
+    },
+    {
+      "text": "El subsidio de incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una prestación distinta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, clasificación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-001",
+    "clm-ss-11-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 216 y 219",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

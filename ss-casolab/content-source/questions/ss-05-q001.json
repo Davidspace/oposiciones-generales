@@ -1,0 +1,82 @@
+{
+  "id": "ss-05-q001",
+  "epigraph": "Concepto, competencia, objeto y control de la recaudación",
+  "competency": "Distinguir la competencia recaudatoria de la TGSS de la colaboración material y reconocer sus facultades de control",
+  "difficulty": "medium",
+  "prompt": "Una empresa debe ingresar cuotas y conceptos de recaudación conjunta. La entidad financiera colaboradora sostiene que, al recibir el pago, asume la competencia recaudatoria y que la TGSS no puede pedir a la empresa datos con incidencia en la liquidación y el control. ¿Qué respuesta es correcta?",
+  "options": [
+    {
+      "text": "La TGSS conserva la competencia recaudatoria y puede requerir, dentro de los límites legales, datos con incidencia en la liquidación, el control de la cotización y la recaudación.",
+      "isCorrect": true,
+      "feedback": "Correcto. La TGSS actúa como caja única y conserva la gestión liquidatoria y recaudatoria. La entidad colaboradora no sustituye esa competencia. Además, la TGSS puede requerir información relevante para liquidar, controlar y recaudar, con los límites legales aplicables."
+    },
+    {
+      "text": "La entidad financiera asume la competencia recaudatoria desde que acepta el ingreso y decide qué información debe aportar la empresa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La colaboración para recibir ingresos no desplaza la competencia recaudatoria de la TGSS.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S05, apartado 1: competencia de la TGSS y alcance de la colaboración recaudatoria."
+    },
+    {
+      "text": "La TGSS solo puede recaudar cuotas; los conceptos de recaudación conjunta quedan fuera de su gestión.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La gestión de la TGSS comprende las cuotas, los conceptos de recaudación conjunta y otros recursos incluidos en su objeto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S05, apartado 1: objeto de la gestión recaudatoria."
+    },
+    {
+      "text": "La TGSS puede controlar el ingreso, pero nunca puede requerir datos a personas o entidades privadas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las personas y entidades obligadas deben facilitar, cuando sean requeridas, los datos e informes con incidencia recaudatoria, sin perjuicio de los límites establecidos por la ley.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S05, apartado 1: deber de información y control de la recaudación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-001",
+    "clm-ss-05-002",
+    "clm-ss-05-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a1",
+      "location": "Real Decreto 1415/2004, artículos 1 y 2",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a21",
+      "location": "TRLGSS, artículos 21 y 40",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

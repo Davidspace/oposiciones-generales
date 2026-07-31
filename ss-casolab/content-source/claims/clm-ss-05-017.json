@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-017",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "Para los recursos de derecho público sin regulación recaudatoria específica completa, la Tesorería emite reclamación de deuda con la identificación, cuantía, plazo, lugar y forma de pago, consecuencias del incumplimiento y régimen de impugnación.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a82",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 82.1",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

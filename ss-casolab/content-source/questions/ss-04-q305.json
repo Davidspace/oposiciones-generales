@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q305",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Tema 4. Cotización y liquidación",
+  "competency": "Reconocer la obligación de comunicar una variación relevante de la plantilla.",
+  "difficulty": "medium",
+  "prompt": "Si cambia un dato de una relación laboral que afecta a la cotización, ¿qué debe hacer la empresa?",
+  "options": [
+    {
+      "text": "Esperar a la siguiente convocatoria para comunicarla.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 16 y 139.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Reconocer la obligación de comunicar una variación relevante de la plantilla."
+    },
+    {
+      "text": "Comunicar la variación a la Tesorería dentro del plazo reglamentario.",
+      "isCorrect": true,
+      "feedback": "Las variaciones de datos con relevancia para el encuadramiento o la cotización deben comunicarse a la Tesorería por la vía y en el plazo establecidos."
+    },
+    {
+      "text": "Modificar solo el archivo interno de nóminas.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 16 y 139.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Reconocer la obligación de comunicar una variación relevante de la plantilla."
+    },
+    {
+      "text": "Comunicarla únicamente a la entidad gestora de una prestación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 16 y 139.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Reconocer la obligación de comunicar una variación relevante de la plantilla."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-105"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 16 y 139",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC03, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

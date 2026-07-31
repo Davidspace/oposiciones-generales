@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-12-020",
+  "assetId": "S12",
+  "version": "0.1.0",
+  "statement": "Una respuesta de examen debe ordenar prestación → sujeto → residencia y rentas → cuantía → obligación o reintegro.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "estructura de la Ley 19/2021",
+  "officialPublication": "Ley 19/2021",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S12",
+    "ss-12-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S12."
+      }
+    ]
+  }
+}

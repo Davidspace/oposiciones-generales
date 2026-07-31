@@ -1,0 +1,75 @@
+{
+  "id": "g-10-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Parlamento Europeo: moción de censura",
+  "competency": "Aplicar mayoría, plazo y efecto de la censura parlamentaria de la Comisión.",
+  "difficulty": "medium",
+  "prompt": "Una moción de censura sobre la gestión de la Comisión obtiene dos tercios de los votos emitidos, que representan además la mayoría de los miembros del Parlamento, en votación pública celebrada cuatro días después de presentarse. ¿Qué efecto produce?",
+  "options": [
+    {
+      "text": "Solo dimite el Presidente de la Comisión, mientras los demás miembros continúan plenamente en sus cargos.",
+      "isCorrect": false,
+      "feedback": "La censura produce la dimisión colectiva de los miembros de la Comisión, no únicamente la de su Presidente.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G10, efecto colegiado de la censura"
+    },
+    {
+      "text": "No produce efecto porque toda censura exige unanimidad del Parlamento.",
+      "isCorrect": false,
+      "feedback": "El artículo 234 exige dos tercios de votos emitidos que representen la mayoría de miembros, no unanimidad.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G10, mayoría de la moción de censura"
+    },
+    {
+      "text": "No puede votarse hasta transcurridos treinta días desde su presentación.",
+      "isCorrect": false,
+      "feedback": "La espera mínima es de tres días. Una votación al cuarto día satisface ese requisito temporal.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G10, espera mínima de la censura"
+    },
+    {
+      "text": "La Comisión debe dimitir colectivamente; el Alto Representante deja también el cargo que ejerce dentro de la Comisión.",
+      "isCorrect": true,
+      "feedback": "Correcto. Se respetan espera, publicidad y doble mayoría, por lo que opera la dimisión colegiada prevista en el artículo 234 TFUE."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-008"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_234/oj/spa",
+      "location": "artículo 234 TFUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

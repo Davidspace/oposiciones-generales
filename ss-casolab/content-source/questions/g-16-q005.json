@@ -1,0 +1,76 @@
+{
+  "id": "g-16-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Identificación y firma de los interesados",
+  "competency": "distinguir identificación general y firma obligatoria",
+  "difficulty": "medium",
+  "prompt": "¿Para cuál de estas actuaciones exige el artículo 11.2 el uso obligatorio de firma?",
+  "options": [
+    {
+      "text": "Consultar el estado de tramitación después de identificarse.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla general permite realizar actuaciones con identificación previa y la consulta no aparece en la lista de firma obligatoria.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G16, apartado 4.2 «Firma»"
+    },
+    {
+      "text": "Interponer un recurso administrativo.",
+      "isCorrect": true,
+      "feedback": "Correcto. Interponer recursos es una de las cinco actuaciones expresamente incluidas en el artículo 11.2."
+    },
+    {
+      "text": "Leer una notificación ya puesta a disposición.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Acceder al contenido requiere identificación adecuada, pero no es una de las actuaciones que el artículo 11.2 enumera como firma obligatoria.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G16, apartado 4 «Identificación y firma»"
+    },
+    {
+      "text": "Solicitar información general sin iniciar ningún procedimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa actuación no figura en la lista; no debe transformarse la firma en requisito universal.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G16, apartado 4.2 «Firma»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-007",
+    "clm-g-16-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 9 y 11",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

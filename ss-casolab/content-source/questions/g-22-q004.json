@@ -1,0 +1,71 @@
+{
+  "id": "g-22-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Derechos",
+  "competency": "Elegir el derecho de acceso",
+  "difficulty": "medium",
+  "prompt": "Una persona pide saber si se están tratando sus datos y solicita una copia de los datos tratados. ¿Qué derecho ejercita principalmente?",
+  "options": [
+    {
+      "text": "El derecho de acceso.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 15 permite conocer si existe tratamiento y acceder a los datos y a la información asociada."
+    },
+    {
+      "text": "El derecho de oposición en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La petición descrita es de conocimiento y copia, no de oposición.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G22, derechos"
+    },
+    {
+      "text": "El derecho de portabilidad frente a cualquier Administración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La portabilidad tiene presupuestos específicos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G22, derechos"
+    },
+    {
+      "text": "El derecho de supresión automático.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Acceso y supresión son derechos diferentes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G22, derechos"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-016",
+    "clm-g-22-017",
+    "clm-g-22-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "art. 15 RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q004."
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "g-11-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Las fuentes del derecho de la Unión Europea",
+  "competency": "Diferenciar una regla positiva de la clasificación editorial de las fuentes.",
+  "difficulty": "basic",
+  "prompt": "Una guía afirma: «El artículo 288 TFUE contiene la lista completa del Derecho originario, el Derecho derivado y las demás fuentes de la Unión». ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "Es incorrecta: el artículo 288 enumera actos institucionales, mientras que el mapa originario-derivado-otras fuentes ordena para el estudio reglas dispersas en los Tratados y la jurisprudencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. La taxonomía del tema es una ordenación pedagógica; el artículo 288 TFUE enumera reglamentos, directivas, decisiones, recomendaciones y dictámenes, no todas las fuentes."
+    },
+    {
+      "text": "Es correcta porque el artículo 288 incluye expresamente el TUE, el TFUE, la Carta y todas las sentencias del Tribunal de Justicia.",
+      "isCorrect": false,
+      "feedback": "El artículo 288 no contiene esos elementos: enumera cinco formas de acto institucional. El valor de Tratados, Carta y protocolos procede de otros preceptos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, mapa de fuentes y artículo 288 TFUE"
+    },
+    {
+      "text": "Es correcta porque «Derecho originario» es una denominación literal que el artículo 288 reserva a los reglamentos.",
+      "isCorrect": false,
+      "feedback": "El reglamento es un acto de Derecho derivado y el artículo 288 no utiliza esa clasificación en esos términos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, Derecho originario y derivado"
+    },
+    {
+      "text": "Es incorrecta únicamente porque las recomendaciones son normas nacionales y no actos de la Unión.",
+      "isCorrect": false,
+      "feedback": "Las recomendaciones sí son actos de la Unión enumerados en el artículo 288, aunque no sean vinculantes. El defecto central es presentar una clasificación editorial como lista literal y completa del precepto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, actos del artículo 288 TFUE"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-001",
+    "clm-g-11-002",
+    "clm-g-11-003",
+    "clm-g-11-004"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_1/oj/spa",
+      "location": "artículo 1 TUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_6/oj/spa",
+      "location": "artículo 6 TUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_51/oj/spa",
+      "location": "artículo 51 TFUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_288/oj/spa",
+      "location": "artículo 288 TFUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre regla positiva y clasificación editorial de fuentes."
+      }
+    ]
+  }
+}

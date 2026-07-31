@@ -1,0 +1,76 @@
+{
+  "id": "g-09-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Comunidades autónomas y cooperación",
+  "competency": "Distinguir federación, convenio y acuerdo de cooperación autonómico.",
+  "difficulty": "medium",
+  "prompt": "Dos comunidades autónomas quieren gestionar conjuntamente un servicio propio. ¿Qué regla constitucional deben aplicar?",
+  "options": [
+    {
+      "text": "Pueden federarse mediante un acuerdo de sus presidentes sin intervención estatal.",
+      "isCorrect": false,
+      "feedback": "La Constitución prohíbe la federación de comunidades autónomas.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G09, prohibición de federación"
+    },
+    {
+      "text": "Pueden celebrar un convenio en los supuestos y términos estatutarios; la federación está prohibida y otros acuerdos de cooperación requieren autorización de las Cortes Generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 145 separa los convenios para servicios propios de los demás acuerdos y prohíbe en todo caso la federación."
+    },
+    {
+      "text": "Todo convenio entre comunidades exige siempre ley orgánica de autorización.",
+      "isCorrect": false,
+      "feedback": "Los convenios de gestión y prestación de servicios propios se sujetan a los estatutos y a la comunicación prevista; la autorización de las Cortes corresponde a otros acuerdos de cooperación.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G09, convenios y acuerdos"
+    },
+    {
+      "text": "Cualquier acuerdo de cooperación es libre si se limita a servicios administrativos.",
+      "isCorrect": false,
+      "feedback": "Fuera de los convenios estatutarios de servicios propios, los acuerdos de cooperación necesitan autorización de las Cortes Generales.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G09, autorización parlamentaria"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-004",
+    "clm-g-09-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 143 y 145",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre cooperación entre comunidades autónomas."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

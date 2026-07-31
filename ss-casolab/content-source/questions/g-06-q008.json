@@ -1,0 +1,75 @@
+{
+  "id": "g-06-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "Órdenes jurisdiccionales",
+  "competency": "Asignar materias básicas a los órdenes civil, penal, contencioso-administrativo y social.",
+  "difficulty": "basic",
+  "prompt": "¿Qué correspondencia entre asunto y orden jurisdiccional recoge correctamente las reglas básicas del artículo 9 LOPJ?",
+  "options": [
+    {
+      "text": "Incumplimiento contractual: penal; delito: civil; acto administrativo: social; despido: contencioso-administrativo.",
+      "isCorrect": false,
+      "feedback": "La opción intercambia todos los órdenes: contrato privado es civil, delito penal, actuación administrativa contenciosa y despido social.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, materias básicas de los cuatro órdenes"
+    },
+    {
+      "text": "Todo asunto no penal corresponde al orden civil, porque su competencia residual excluye a los órdenes contencioso-administrativo y social.",
+      "isCorrect": false,
+      "feedback": "La competencia residual civil opera solo sobre materias no atribuidas a otro orden; no elimina las competencias propias de los órdenes contencioso-administrativo y social.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G06, alcance de la competencia residual civil"
+    },
+    {
+      "text": "Las reclamaciones de Seguridad Social pertenecen al orden contencioso-administrativo por intervenir una entidad pública.",
+      "isCorrect": false,
+      "feedback": "El artículo 9 atribuye las reclamaciones en materia de Seguridad Social al orden social; la presencia de una entidad pública no basta para cambiar de orden.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G06, orden social y Seguridad Social"
+    },
+    {
+      "text": "Incumplimiento de un contrato privado: civil; causa por delito: penal; impugnación de actuación administrativa sujeta a Derecho administrativo: contencioso-administrativo; despido: social.",
+      "isCorrect": true,
+      "feedback": "Correcto. La serie distingue las materias características de los cuatro órdenes jurisdiccionales ordinarios."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "location": "artículo 9, apartados 2 a 5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

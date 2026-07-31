@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Composición del sistema de la Seguridad Social",
+  "competency": "Distinguir régimen general, regímenes especiales y sistemas especiales",
+  "difficulty": "basic",
+  "prompt": "¿Qué esquema representa correctamente la estructura básica definida por los artículos 9 a 11 del TRLGSS?",
+  "options": [
+    {
+      "text": "El sistema se integra por el Régimen General y los regímenes especiales; dentro de un régimen pueden existir sistemas especiales en materias legalmente delimitadas.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los sistemas especiales no son un tercer tipo de régimen al mismo nivel, sino peculiaridades dentro del régimen correspondiente."
+    },
+    {
+      "text": "El sistema solo contiene el Régimen General; todos los demás colectivos son excepciones externas a la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 9 integra expresamente el Régimen General y los regímenes especiales en un mismo sistema.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 1.2: estructura del sistema"
+    },
+    {
+      "text": "Régimen General, regímenes especiales y sistemas especiales son tres categorías paralelas e independientes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un sistema especial se establece dentro de un régimen y solo en las materias tasadas por el artículo 11.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartados 1.2 y 4: régimen frente a sistema especial"
+    },
+    {
+      "text": "Cada persona puede sustituir el régimen legal por un sistema especial si le ofrece mejor protección.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El encuadramiento deriva de la ley y de la actividad; no existe una elección general por conveniencia protectora.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S02, apartado 3: regímenes especiales y fuente de regulación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-003",
+    "clm-ss-02-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a9",
+      "location": "TRLGSS, artículo 9",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a10",
+      "location": "TRLGSS, artículos 10 y 11",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      }
+    ]
+  }
+}

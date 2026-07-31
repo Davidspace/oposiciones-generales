@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-16-012",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "El plazo máximo para resolver y notificar es el fijado por la norma y no puede exceder de seis meses salvo ley o Derecho de la Unión; si no se fija, es de tres meses, contados desde el acuerdo de iniciación de oficio o desde la entrada de la solicitud en el registro electrónico competente para tramitar.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 21.2 y 21.3",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

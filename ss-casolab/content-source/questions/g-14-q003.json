@@ -1,0 +1,76 @@
+{
+  "id": "g-14-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "Disposiciones del Gobierno con fuerza de ley: decreto legislativo",
+  "competency": "detectar límites inválidos de una delegación legislativa",
+  "difficulty": "high",
+  "prompt": "Una ley de bases delega de forma expresa una materia concreta durante seis meses, pero autoriza al Gobierno a modificar la propia ley de bases y a subdelegar en un ministro. ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "Es válida porque basta con que la materia y el plazo estén definidos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Materia y plazo son requisitos, pero no eliminan las prohibiciones específicas de los artículos 82.3 y 83.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G14, apartado 2.1 «Decreto legislativo»"
+    },
+    {
+      "text": "Solo es inválida la duración, porque una delegación nunca puede superar tres meses.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La Constitución exige fijar plazo, pero no establece en el artículo 82 un máximo general de tres meses; los defectos descritos son la modificación y la subdelegación.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G14, apartado 2.1 «Decreto legislativo»"
+    },
+    {
+      "text": "La delegación vulnera dos límites constitucionales: una ley de bases no puede autorizar su propia modificación y la delegación no puede permitir subdelegar fuera del Gobierno.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 83.a prohíbe autorizar la modificación de la ley de bases y el artículo 82.3 impide subdelegar a autoridades distintas del Gobierno."
+    },
+    {
+      "text": "Es válida si el ministro publica después la norma en el BOE.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La publicación no sana una subdelegación que el artículo 82.3 prohíbe ni la autorización vedada por el artículo 83.a.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G14, apartado 2.1 y método de decisión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-003",
+    "clm-g-14-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículos 82.3 y 83",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q301",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Tema 7. Acción protectora",
+  "competency": "Identificar la contingencia de incapacidad temporal.",
+  "difficulty": "high",
+  "prompt": "¿Qué contingencia se analiza en la primera baja médica descrita?",
+  "options": [
+    {
+      "text": "Jubilación contributiva.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169 y 172.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 7. Acción protectora: Identificar la contingencia de incapacidad temporal."
+    },
+    {
+      "text": "Desempleo total.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169 y 172.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 7. Acción protectora: Identificar la contingencia de incapacidad temporal."
+    },
+    {
+      "text": "Incapacidad temporal derivada de enfermedad común.",
+      "isCorrect": true,
+      "feedback": "El escenario declara una enfermedad común y una baja médica temporal; no introduce accidente laboral ni jubilación."
+    },
+    {
+      "text": "Muerte y supervivencia.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169 y 172.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 7. Acción protectora: Identificar la contingencia de incapacidad temporal."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-101"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 169 y 172",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC05, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

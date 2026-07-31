@@ -1,0 +1,82 @@
+{
+  "id": "ss-01-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "Constitución Española, artículos 41, 53.2 y 53.3",
+  "competency": "Distinguir un principio rector de una regla legal de acceso",
+  "difficulty": "medium",
+  "prompt": "Una persona invoca el artículo 41 de la Constitución para exigir una prestación concreta sin comprobar el TRLGSS. ¿Qué respuesta describe mejor el efecto constitucional del precepto?",
+  "options": [
+    {
+      "text": "El artículo 41 reconoce un derecho fundamental directamente tutelable mediante recurso de amparo, sin necesidad de ley de desarrollo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 41 está en el capítulo III del título I; el ámbito de tutela y amparo descrito en el artículo 53.2 no incluye ese capítulo, y el artículo 53.3 remite a las leyes de desarrollo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 2.2: ubicación constitucional y artículo 53.3"
+    },
+    {
+      "text": "El artículo 41 es una declaración sin efecto sobre la legislación ni sobre la actuación de los poderes públicos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 53.3 dispone expresamente que estos principios informan la legislación, la práctica judicial y la actuación pública.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S01, apartado 2.2: efectos de los principios rectores"
+    },
+    {
+      "text": "El principio informa la legislación positiva, la práctica judicial y la actuación pública, pero la prestación concreta debe analizarse conforme a las leyes que lo desarrollan.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 53.3 dice que los principios del capítulo III informarán esos ámbitos y remite su alegación a lo dispuesto en las leyes de desarrollo."
+    },
+    {
+      "text": "El precepto solo produce efectos cuando la situación de necesidad es desempleo, porque no menciona ninguna otra contingencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El desempleo aparece destacado, pero el mandato se refiere de forma más amplia a situaciones de necesidad.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S01, apartado 2.1: situaciones de necesidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-001",
+    "clm-ss-01-002",
+    "clm-ss-01-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a41",
+      "location": "Constitución Española, artículo 41",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53",
+      "location": "Constitución Española, artículos 53.2 y 53.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

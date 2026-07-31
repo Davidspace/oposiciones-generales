@@ -1,0 +1,70 @@
+{
+  "id": "ss-06-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Créditos incobrables",
+  "competency": "Distinguir la baja en cuentas de la extinción y aplicar la rehabilitación",
+  "difficulty": "medium",
+  "prompt": "Tras agotarse el apremio sin localizar bienes suficientes, un crédito se calificó como incobrable. Antes de prescribir la acción de cobro aparece un inmueble ejecutable del responsable. ¿Qué procede?",
+  "options": [
+    {
+      "text": "La deuda se extinguió con la calificación y el inmueble solo puede responder de obligaciones nacidas después.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La calificación de incobrable no elimina la obligación ni la responsabilidad patrimonial mientras la acción de cobro siga viva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S06, apartado 6: diferencia entre baja en cuentas y extinción."
+    },
+    {
+      "text": "Debe rehabilitarse el crédito y proseguir el procedimiento de apremio sin otro trámite previo para ejecutar el bien descubierto.",
+      "isCorrect": true,
+      "feedback": "Correcto. La aparición de bienes ejecutables antes de la prescripción permite rehabilitar el crédito y continuar la ejecución."
+    },
+    {
+      "text": "Debe abrirse un nuevo período voluntario completo y renunciar al recargo, los intereses y las actuaciones ejecutivas anteriores.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento permite continuar el apremio sin un nuevo trámite previo; no reinicia la deuda desde el período voluntario.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S06, apartado 6: rehabilitación y continuación del apremio."
+    },
+    {
+      "text": "La rehabilitación solo es posible después de que haya prescrito la acción administrativa de cobro.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La prescripción sin rehabilitación determina precisamente la extinción definitiva de la acción; la recuperación debe producirse antes.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S06, apartado 6: relación entre rehabilitación y prescripción."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-016",
+    "clm-ss-06-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a129",
+      "location": "Real Decreto 1415/2004, artículos 129 a 131",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

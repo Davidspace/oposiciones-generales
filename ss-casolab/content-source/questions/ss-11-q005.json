@@ -1,0 +1,77 @@
+{
+  "id": "ss-11-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Cuantía",
+  "competency": "No inventar porcentajes",
+  "difficulty": "medium",
+  "prompt": "Para calcular una pensión de muerte y supervivencia, ¿qué estructura es correcta?",
+  "options": [
+    {
+      "text": "Aplicar siempre el mismo porcentaje a todas las pensiones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Viudedad, orfandad y familiares tienen reglas distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, cuantía"
+    },
+    {
+      "text": "Identificar la prestación y aplicar su base reguladora y porcentaje legal.",
+      "isCorrect": true,
+      "feedback": "Correcto. La cuantía depende de la prestación y de las reglas vigentes."
+    },
+    {
+      "text": "Usar la cuantía del auxilio por defunción como pensión mensual.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El auxilio es una prestación diferenciada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, cuantía"
+    },
+    {
+      "text": "Calcular sobre el salario actual del beneficiario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base se vincula al causante y a la norma.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S11, cuantía"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-010",
+    "clm-ss-11-011",
+    "clm-ss-11-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 230 a 234",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

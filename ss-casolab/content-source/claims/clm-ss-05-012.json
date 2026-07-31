@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-012",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "El período voluntario comienza al iniciarse el plazo reglamentario de ingreso y, si no se extingue la deuda, continúa hasta la emisión de la providencia de apremio, que inicia el período ejecutivo, sin perjuicio del procedimiento de deducción.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a6",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 6.1",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

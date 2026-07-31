@@ -1,0 +1,76 @@
+{
+  "id": "g-23-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Interoperabilidad",
+  "competency": "Aplicar el Esquema Nacional de Interoperabilidad",
+  "difficulty": "medium",
+  "prompt": "Dos Administraciones deben intercambiar documentos y conservarlos para reutilización. ¿Qué marco transversal deben considerar?",
+  "options": [
+    {
+      "text": "Solo el Esquema Nacional de Seguridad, sin interoperabilidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Seguridad no sustituye la interoperabilidad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, interoperabilidad"
+    },
+    {
+      "text": "Un acuerdo verbal entre empleados.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El intercambio debe respetar el marco normativo y técnico.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G23, interoperabilidad"
+    },
+    {
+      "text": "El Esquema Nacional de Interoperabilidad, junto con los requisitos de seguridad aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. El ENI orienta la interoperabilidad y conservación de la información."
+    },
+    {
+      "text": "La impresión en papel de todos los documentos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La impresión no resuelve la interoperabilidad electrónica.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G23, interoperabilidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-017",
+    "clm-g-23-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+      "location": "arts. 1 y 4 RD 4/2010",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

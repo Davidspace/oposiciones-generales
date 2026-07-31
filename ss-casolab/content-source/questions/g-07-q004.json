@@ -1,0 +1,81 @@
+{
+  "id": "g-07-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "Causas de cese del Gobierno",
+  "competency": "Identificar las causas de cese y aplicar los límites del Gobierno en funciones.",
+  "difficulty": "medium",
+  "prompt": "Tras unas elecciones generales, el Gobierno cesante permanece en funciones. ¿Qué actuación se ajusta a su régimen legal?",
+  "options": [
+    {
+      "text": "Aprobar el proyecto de Presupuestos porque la continuidad en funciones conserva todas las facultades del Gobierno no cesado.",
+      "isCorrect": false,
+      "feedback": "El artículo 21.5 prohíbe expresamente al Gobierno en funciones aprobar el proyecto de Presupuestos Generales del Estado.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G07, límites presupuestarios del Gobierno en funciones"
+    },
+    {
+      "text": "Presentar proyectos de ley si los aprueba por unanimidad el Consejo de Ministros.",
+      "isCorrect": false,
+      "feedback": "La prohibición de presentar proyectos de ley no desaparece por unanimidad del Consejo de Ministros.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G07, prohibición de iniciativa legislativa del Gobierno en funciones"
+    },
+    {
+      "text": "Plantear una cuestión de confianza para comprobar si conserva apoyo parlamentario antes del traspaso.",
+      "isCorrect": false,
+      "feedback": "El Presidente en funciones no puede plantear la cuestión de confianza, una limitación distinta de la gestión ordinaria del Gobierno.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G07, límites presidenciales durante el Gobierno en funciones"
+    },
+    {
+      "text": "Atender el despacho ordinario y facilitar el traspaso de poderes, sin presentar proyectos de ley ni aprobar el proyecto de Presupuestos; solo puede apartarse del despacho ordinario ante urgencia o interés general debidamente acreditados.",
+      "isCorrect": true,
+      "feedback": "Correcto. El Gobierno continúa hasta la toma de posesión del nuevo y queda sujeto a la finalidad, límites y prohibiciones expresas del artículo 21 de la Ley 50/1997."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-008",
+    "clm-g-07-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 101",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "location": "artículo 21",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

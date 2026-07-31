@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-007",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "En el Régimen General, el empresario debe solicitar la afiliación y comunicar el alta y la baja; si incumple, el trabajador puede instar directamente esos actos y la Administración puede practicarlos de oficio en los supuestos legales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+  "sourceLocation": "TRLGSS, artículos 16.1, 16.4, 139.1 y 139.2",
+  "officialPublication": "BOE-A-2015-11724; redacción vigente del artículo 139.2 procedente de BOE-A-2023-625",
+  "validFrom": "2023-09-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q002", "CP01", "ss-03-q204", "ss-03-q210"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

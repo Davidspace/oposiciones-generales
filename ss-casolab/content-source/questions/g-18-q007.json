@@ -1,0 +1,77 @@
+{
+  "id": "g-18-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Objeto de la jurisdicción contencioso-administrativa",
+  "competency": "Delimitar el orden contencioso y sus exclusiones básicas.",
+  "difficulty": "high",
+  "prompt": "Se reclama responsabilidad patrimonial de una Administración y se incluye una entidad aseguradora privada. ¿Qué orden jurisdiccional debe estudiarse?",
+  "options": [
+    {
+      "text": "El orden civil conoce siempre porque interviene una aseguradora privada.",
+      "isCorrect": false,
+      "feedback": "La presencia de seguro o particulares no desplaza la regla específica del artículo 2.e de la Ley 29/1998.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G18, responsabilidad patrimonial"
+    },
+    {
+      "text": "El orden contencioso-administrativo conoce de la responsabilidad patrimonial de las Administraciones cualquiera que sea la actividad o relación de la que derive, incluso con seguro o particulares.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Ley 29/1998 incluye expresamente la responsabilidad patrimonial administrativa en el orden contencioso."
+    },
+    {
+      "text": "El orden penal conoce porque toda responsabilidad de una Administración es delito.",
+      "isCorrect": false,
+      "feedback": "La responsabilidad patrimonial no equivale a responsabilidad penal; el orden depende del objeto legal de la pretensión.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, responsabilidad patrimonial y penal"
+    },
+    {
+      "text": "El Tribunal Constitucional resuelve directamente cualquier reclamación patrimonial frente a una Administración.",
+      "isCorrect": false,
+      "feedback": "El Tribunal Constitucional no es el órgano general para reclamaciones patrimoniales; la jurisdicción contenciosa conoce de esta materia.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G18, órgano jurisdiccional"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-015",
+    "clm-g-18-016",
+    "clm-g-18-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "location": "artículos 1 a 5, especialmente artículo 2.e",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre el objeto contencioso-administrativo."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

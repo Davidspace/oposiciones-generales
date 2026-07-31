@@ -1,0 +1,69 @@
+{
+  "id": "g-03-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Composición y propuestas",
+  "competency": "Distribuir los nombramientos del Tribunal entre los órganos proponentes.",
+  "difficulty": "basic",
+  "prompt": "¿Qué distribución de los doce miembros del Tribunal Constitucional establece el artículo 159.1 de la Constitución?",
+  "options": [
+    {
+      "text": "Cuatro a propuesta del Congreso por tres quintos, cuatro a propuesta del Senado por la misma mayoría, dos a propuesta del Gobierno y dos a propuesta del Consejo General del Poder Judicial; todos son nombrados por el Rey.",
+      "isCorrect": true,
+      "feedback": "Correcto. La secuencia constitucional es 4-4-2-2 y el nombramiento corresponde al Rey."
+    },
+    {
+      "text": "Seis nombrados directamente por el Congreso y seis por el Senado, ambos por mayoría absoluta.",
+      "isCorrect": false,
+      "feedback": "Las Cámaras formulan propuestas, no realizan el nombramiento. Cada Cámara propone cuatro por mayoría de tres quintos y existen propuestas del Gobierno y del Consejo General del Poder Judicial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G03, tabla de composición 4-4-2-2"
+    },
+    {
+      "text": "Doce nombrados por el Rey a propuesta exclusiva del Gobierno.",
+      "isCorrect": false,
+      "feedback": "El nombramiento es del Rey, pero la propuesta se reparte entre cuatro órganos. El Gobierno solo propone dos miembros.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G03, órganos proponentes"
+    },
+    {
+      "text": "Cuatro a propuesta del Congreso, cuatro del Senado y cuatro del Consejo General del Poder Judicial, con mayoría absoluta en las Cámaras.",
+      "isCorrect": false,
+      "feedback": "El Consejo propone dos y el Gobierno otros dos. Además, Congreso y Senado necesitan tres quintos, no mayoría absoluta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G03, número y mayoría de cada propuesta"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 159.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

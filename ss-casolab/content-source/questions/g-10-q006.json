@@ -1,0 +1,77 @@
+{
+  "id": "g-10-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "La Comisión: independencia, designación y responsabilidad",
+  "competency": "Aplicar la independencia de los comisarios y ordenar la designación de la Comisión.",
+  "difficulty": "high",
+  "prompt": "Un Gobierno nacional ordena al comisario de su nacionalidad cómo votar y sostiene que el Consejo Europeo puede nombrar por sí solo toda la Comisión. ¿Qué corrección es completa?",
+  "options": [
+    {
+      "text": "El comisario debe obedecer porque representa a su Gobierno; el Consejo Europeo nombra directamente al Colegio sin intervención parlamentaria.",
+      "isCorrect": false,
+      "feedback": "Los miembros no representan a sus Gobiernos ni aceptan instrucciones. Además, el Parlamento elige la Presidencia y aprueba colegiadamente la Comisión.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G10, independencia y actores de designación"
+    },
+    {
+      "text": "El comisario no puede aceptar instrucciones; el Consejo Europeo propone la Presidencia, el Parlamento la elige y aprueba al Colegio, y el Consejo Europeo nombra finalmente la Comisión tras intervenir el Consejo en la lista de miembros.",
+      "isCorrect": true,
+      "feedback": "Correcto. La independencia personal se combina con una secuencia interinstitucional y con responsabilidad colegiada ante el Parlamento."
+    },
+    {
+      "text": "El comisario es independiente y, por ello, la Comisión no responde políticamente ante ninguna institución.",
+      "isCorrect": false,
+      "feedback": "La independencia frente a instrucciones externas no elimina la responsabilidad colegiada de la Comisión ante el Parlamento Europeo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G10, independencia frente a responsabilidad política"
+    },
+    {
+      "text": "El Parlamento propone al Presidente, el Consejo lo elige y cada Gobierno nombra unilateralmente a su comisario.",
+      "isCorrect": false,
+      "feedback": "La secuencia está invertida: el Consejo Europeo propone, el Parlamento elige y aprueba, el Consejo adopta la lista con la Presidencia electa y el Consejo Europeo efectúa el nombramiento final.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G10, designación de la Comisión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-010",
+    "clm-g-10-011",
+    "clm-g-10-012"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_17/oj/spa",
+      "location": "artículo 17 TUE, apartados 3, 7 y 8",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

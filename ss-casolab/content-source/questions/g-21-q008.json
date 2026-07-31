@@ -1,0 +1,72 @@
+{
+  "id": "g-21-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Aplicación conjunta",
+  "competency": "Elegir la norma específica del supuesto",
+  "difficulty": "high",
+  "prompt": "Un supuesto combina una barrera de acceso a un servicio, una necesidad de apoyo para actividades básicas y una conducta discriminatoria por identidad sexual. ¿Qué enfoque es correcto?",
+  "options": [
+    {
+      "text": "Aplicar cada norma a su presupuesto: accesibilidad, dependencia y no discriminación, sin convertirlas en sinónimos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta debe identificar el presupuesto jurídico concreto de cada bloque."
+    },
+    {
+      "text": "Aplicar solo la Ley 4/2023 porque toda cuestión social es LGTBI.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La norma aplicable depende del hecho descrito.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, aplicación conjunta"
+    },
+    {
+      "text": "Aplicar solo la Ley 39/2006 porque todo apoyo es dependencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una barrera de acceso puede exigir accesibilidad sin existir dependencia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, aplicación conjunta"
+    },
+    {
+      "text": "Sumar automáticamente todas las consecuencias de todas las leyes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Hay que comprobar el supuesto de hecho de cada norma.",
+      "errorType": "exceso-duda",
+      "reviewTarget": "G21, aplicación conjunta"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-009",
+    "clm-g-21-013",
+    "clm-g-21-017",
+    "clm-g-21-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+      "location": "arts. 2 y 4 RDL 1/2013; arts. 2 y 26 Ley 39/2006; arts. 1 y 4 Ley 4/2023",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q008."
+      }
+    ]
+  }
+}

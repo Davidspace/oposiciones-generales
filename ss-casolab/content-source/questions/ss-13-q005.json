@@ -1,0 +1,76 @@
+{
+  "id": "ss-13-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Disposición",
+  "competency": "Comprobar los límites de disposición",
+  "difficulty": "high",
+  "prompt": "Antes de disponer del Fondo de Reserva, ¿qué debe verificarse?",
+  "options": [
+    {
+      "text": "Que exista saldo, sin más requisitos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El saldo no basta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S13, disposición"
+    },
+    {
+      "text": "Que concurre la finalidad legal y se respetan los límites y procedimiento aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. La disposición está reglada."
+    },
+    {
+      "text": "Que lo pida una entidad privada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La disposición requiere el cauce legal.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S13, disposición"
+    },
+    {
+      "text": "Que la finalidad sea cualquier gasto administrativo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La finalidad está delimitada.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S13, disposición"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-012",
+    "clm-ss-13-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 119 y 121",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

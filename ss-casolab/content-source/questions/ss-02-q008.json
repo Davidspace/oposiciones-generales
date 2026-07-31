@@ -1,0 +1,93 @@
+{
+  "id": "ss-02-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Sistemas especiales: régimen de pertenencia",
+  "competency": "Situar los principales sistemas especiales en su régimen",
+  "difficulty": "medium",
+  "prompt": "Se comparan tres situaciones: una trabajadora doméstica contratada directamente por la titular del hogar; un trabajador por cuenta ajena que realiza en una explotación labores agrarias comprendidas en el artículo 252.1 del TRLGSS; y una trabajadora por cuenta propia agraria que reúne los requisitos legales del sistema especial. ¿Qué correspondencia es correcta?",
+  "options": [
+    {
+      "text": "Los tres son regímenes especiales independientes y no pertenecen ni al Régimen General ni al RETA.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las tres figuras planteadas son sistemas especiales integrados en un régimen, no tres regímenes especiales independientes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 4.1: sistema especial frente a régimen especial"
+    },
+    {
+      "text": "Los tres son sistemas especiales del Régimen General porque toda actividad agraria se encuadra en ese régimen.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El trabajo agrario por cuenta propia que cumple los requisitos del sistema especial se encuadra en el RETA, no en el Régimen General.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S02, apartado 4.1: cuenta ajena agraria frente a cuenta propia agraria"
+    },
+    {
+      "text": "Hogar y cuenta ajena agraria son sistemas especiales del Régimen General; cuenta propia agraria es un sistema especial integrado en el RETA.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los dos primeros sistemas pertenecen al Régimen General; el Sistema Especial para Trabajadores por Cuenta Propia Agrarios forma parte del RETA."
+    },
+    {
+      "text": "Hogar pertenece al RETA y las dos actividades agrarias forman un único sistema especial del Régimen General.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La relación laboral doméstica contratada directamente pertenece al sistema de hogar del Régimen General; además, la cuenta ajena agraria y la cuenta propia agraria están en sistemas y regímenes de pertenencia distintos.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S02, apartado 4.1: identificar primero la naturaleza por cuenta ajena o propia"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-008",
+    "clm-ss-02-011",
+    "clm-ss-02-012",
+    "clm-ss-02-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.2.a)",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a250",
+      "location": "TRLGSS, artículos 250 y 251",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a252",
+      "location": "TRLGSS, artículos 252 y 253",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a323",
+      "location": "TRLGSS, artículos 323 y 324",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-015",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "El Defensor del Pueblo puede investigar de oficio o a petición de parte la actividad de ministros, autoridades, funcionarios y demás personas al servicio de las Administraciones; puede supervisar la actividad autonómica y remite las quejas sobre la Administración de Justicia al Ministerio Fiscal o al Consejo General del Poder Judicial según corresponda.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+  "sourceLocation": "artículos 9 y 11 a 14",
+  "officialPublication": "BOE núm. 109, de 07-05-1981; texto consolidado con última actualización publicada el 04-11-2009",
+  "validFrom": "1981-05-27",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q007"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

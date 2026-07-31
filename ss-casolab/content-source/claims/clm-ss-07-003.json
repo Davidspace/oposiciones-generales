@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-003",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "El artículo 42 delimita la extensión posible de los regímenes y de las prestaciones no contributivas; una prestación pública que complemente, amplíe o modifique prestaciones contributivas forma parte del sistema, sin perjuicio de otras ayudas autonómicas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a42",
+  "sourceLocation": "TRLGSS, artículo 42.3 y 42.4",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q001"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

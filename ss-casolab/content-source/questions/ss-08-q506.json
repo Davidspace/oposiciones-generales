@@ -1,0 +1,75 @@
+{
+  "id": "ss-08-q506",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "CP03 — decisión 6",
+  "competency": "Distinguir las causas de extinciÃ³n de la incapacidad temporal",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe comprobarse al emitir un alta mÃ©dica?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir las causas de extinciã³n de la incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 174.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP03: Distinguir las causas de extinciÃ³n de la incapacidad temporal"
+    },
+    {
+      "text": "La fecha y causa de extinciÃ³n de la incapacidad temporal, sin confundirla con una incapacidad permanente.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La fecha y causa de extinciÃ³n de la incapacidad temporal, sin confundirla con una incapacidad permanente."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 174.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP03: Distinguir las causas de extinciÃ³n de la incapacidad temporal"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 174.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP03: Distinguir las causas de extinciÃ³n de la incapacidad temporal"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-506"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culo 174",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP03, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ss-01-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "TRLGSS, títulos I y II",
+  "competency": "Elegir la ruta normativa de una relación por cuenta ajena",
+  "difficulty": "medium",
+  "prompt": "Un supuesto pregunta por la inclusión de una persona trabajadora por cuenta ajena en el Régimen General y por una regla común de cotización. ¿Qué ruta inicial es la más adecuada?",
+  "options": [
+    {
+      "text": "Consultar solo el título III, porque toda relación por cuenta ajena se analiza como desempleo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El título III se centra en la protección por desempleo; no sustituye el encuadramiento en el Régimen General ni las reglas comunes de cotización.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 4: función de los títulos II y III"
+    },
+    {
+      "text": "Consultar solo el título IV, porque todo trabajo remunerado se presume trabajo autónomo hasta que se demuestre lo contrario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El título IV regula el régimen de trabajadores por cuenta propia; el supuesto identifica una relación por cuenta ajena.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S01, apartado 4: sujeto y título de entrada"
+    },
+    {
+      "text": "Entrar por el título II para el Régimen General y contrastar en el título I la regla general de cotización que resulte aplicable.",
+      "isCorrect": true,
+      "feedback": "Correcto. El título II sitúa el Régimen General y el título I contiene normas comunes del sistema, entre ellas las relativas a cotización."
+    },
+    {
+      "text": "Aplicar directamente el artículo 41 de la Constitución, porque este contiene el encuadramiento y la base de cotización.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 41 fija el mandato constitucional, pero no contiene las reglas legales de encuadramiento ni de cotización.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartados 1 y 2.1: mandato frente a regla legal"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-001",
+    "clm-ss-01-007",
+    "clm-ss-01-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, título I; título II, capítulo I y artículo 136",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a41",
+      "location": "Constitución Española, artículo 41",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

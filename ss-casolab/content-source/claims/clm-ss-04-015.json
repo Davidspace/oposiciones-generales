@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-015",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "En 2026, las horas extraordinarias tienen cotización adicional no computable para la base reguladora: 14 por ciento si derivan de fuerza mayor y 28,30 por ciento en los demás casos, con la distribución fijada en el artículo 5 de la Orden.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a5",
+  "sourceLocation": "Orden PJC/297/2026, artículo 5",
+  "officialPublication": "BOE-A-2026-7296",
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de parámetro normativo anual para S04."}]
+  }
+}

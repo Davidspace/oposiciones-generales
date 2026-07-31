@@ -1,0 +1,69 @@
+{
+  "id": "g-18-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Suspensión de la ejecución",
+  "competency": "Aplicar la regla de no suspensión automática y el silencio sobre la suspensión.",
+  "difficulty": "high",
+  "prompt": "Se interpone un recurso y se solicita la suspensión. Transcurre un mes desde la entrada de la solicitud en el registro competente sin resolución expresa notificada. ¿Qué efecto debe estudiarse?",
+  "options": [
+    {
+      "text": "La interposición no suspendió por sí sola, pero la falta de resolución expresa sobre la solicitud durante un mes produce la suspensión en los términos del artículo 117.",
+      "isCorrect": true,
+      "feedback": "Correcto. Deben separarse la regla general de no suspensión automática y el efecto específico del silencio sobre la solicitud de suspensión."
+    },
+    {
+      "text": "La ejecución quedó suspendida automáticamente en el momento de interponer cualquier recurso.",
+      "isCorrect": false,
+      "feedback": "La mera interposición no suspende por sí sola la ejecución, salvo disposición contraria.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G18, suspensión automática"
+    },
+    {
+      "text": "La solicitud se entiende desestimada porque la Administración nunca puede suspender de oficio.",
+      "isCorrect": false,
+      "feedback": "El órgano puede suspender de oficio o a solicitud y el artículo 117 regula el efecto de un mes sin resolución sobre la solicitud.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G18, órgano y suspensión"
+    },
+    {
+      "text": "La suspensión solo puede producirse si el recurso es una reposición, nunca en una alzada.",
+      "isCorrect": false,
+      "feedback": "La regla de suspensión se aplica al régimen general de recursos; no está limitada a la reposición.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, ámbito de la suspensión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 117.1 a 117.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre la suspensión de la ejecución."
+      }
+    ]
+  }
+}

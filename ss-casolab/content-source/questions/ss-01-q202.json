@@ -1,0 +1,82 @@
+{
+  "id": "ss-01-q202",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "CP01 — Pregunta principal 2: mandato constitucional y regla legal",
+  "competency": "Distinguir el principio rector de los requisitos legales del caso",
+  "difficulty": "medium",
+  "prompt": "En CP01 se afirma que el artículo 41 de la Constitución convierte automáticamente en afiliada y en alta a toda persona que necesite protección. ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "Es correcta porque el artículo 41 es un derecho fundamental directamente amparable y contiene todos los requisitos de afiliación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 41 está en el capítulo III del título I y no pertenece al ámbito de tutela y amparo delimitado por el artículo 53.2; tampoco contiene el procedimiento de afiliación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 2.2: artículo 41 y régimen del artículo 53.3."
+    },
+    {
+      "text": "Es correcta solo para A, porque la falta de afiliación previa transforma el principio constitucional en un alta automática para cualquier contingencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta de afiliación previa no convierte el artículo 41 en una regla procedimental ni extiende sin límites los efectos de una posible alta de pleno derecho.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S01, apartado 2.1: mandato constitucional frente a requisito legal."
+    },
+    {
+      "text": "Es incorrecta: el artículo 41 impone mantener un régimen público suficiente, pero la afiliación, el alta y sus efectos se concretan en las leyes y normas de desarrollo aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 41 es un principio rector y el artículo 53.3 remite a sus leyes de desarrollo; no sustituye las reglas legales que deben aplicarse a A, B, C, D y E."
+    },
+    {
+      "text": "Es incorrecta porque el artículo 41 carece de toda función sobre la legislación y la actuación de los poderes públicos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 53.3 dispone que los principios del capítulo III informan la legislación positiva, la práctica judicial y la actuación de los poderes públicos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S01, apartado 2.2: efectos de los principios rectores."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-001",
+    "clm-ss-01-002",
+    "clm-ss-01-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a41",
+      "location": "Constitución Española, artículo 41",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53",
+      "location": "Constitución Española, artículos 53.2 y 53.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 2 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

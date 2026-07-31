@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-09-011",
+  "assetId": "S09",
+  "version": "0.1.0",
+  "statement": "Las prestaciones familiares tienen modalidades y presupuestos distintos y no se reconocen automáticamente por la mera existencia de cargas familiares.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "arts. 351 a 356",
+  "officialPublication": "TRLGSS",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S09",
+    "ss-09-q005",
+    "ss-09-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S09."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ss-11-q323",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Tema 11. Muerte y supervivencia",
+  "competency": "Aplicar los límites de edad y discapacidad en la orfandad.",
+  "difficulty": "high",
+  "prompt": "¿Qué dato permite analizar una posible pensión de orfandad para la hija de 19 años?",
+  "options": [
+    {
+      "text": "La edad impide siempre la orfandad desde los 18 años.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 224.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Aplicar los límites de edad y discapacidad en la orfandad."
+    },
+    {
+      "text": "Solo puede acceder si tiene una relación laboral.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 224.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Aplicar los límites de edad y discapacidad en la orfandad."
+    },
+    {
+      "text": "Su edad está dentro del límite general, sin perjuicio del resto de requisitos.",
+      "isCorrect": true,
+      "feedback": "La edad de 19 años no excluye por sí sola la orfandad; deben comprobarse además las condiciones del causante y del beneficiario."
+    },
+    {
+      "text": "La condición de estudiante convierte automáticamente la prestación en jubilación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 224.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Aplicar los límites de edad y discapacidad en la orfandad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-123"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículo 224",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC07, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

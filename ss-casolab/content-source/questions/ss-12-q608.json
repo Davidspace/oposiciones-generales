@@ -1,0 +1,69 @@
+{
+  "id": "ss-12-q608",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "CP04 — decisión 8",
+  "competency": "Identificar el ingreso mÃ­nimo vital",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© prestaciÃ³n se estÃ¡ valorando para la unidad familiar?",
+  "options": [
+    {
+      "text": "El ingreso mÃ­nimo vital, con sus requisitos subjetivos y econÃ³micos.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: El ingreso mÃ­nimo vital, con sus requisitos subjetivos y econÃ³micos."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar identificar el ingreso mã­nimo vital.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 1 y 2.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP04: Identificar el ingreso mÃ­nimo vital"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 1 y 2.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP04: Identificar el ingreso mÃ­nimo vital"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 1 y 2.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP04: Identificar el ingreso mÃ­nimo vital"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-608"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artÃ­culos 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP04, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

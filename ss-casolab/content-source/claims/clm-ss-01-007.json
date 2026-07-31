@@ -1,0 +1,35 @@
+{
+  "claimId": "clm-ss-01-007",
+  "assetId": "S01",
+  "version": "0.1.0",
+  "statement": "El título I del TRLGSS contiene las normas generales del sistema, incluido un capítulo sobre afiliación, cotización y recaudación, y el título II regula el Régimen General de la Seguridad Social.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "TRLGSS, rúbricas de los títulos I y II y del capítulo III del título I",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "S01",
+    "ss-01-q006",
+    "ss-01-q007",
+    "CP01",
+    "ss-01-q201"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

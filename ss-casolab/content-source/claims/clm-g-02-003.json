@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-02-003",
+  "assetId": "G02",
+  "version": "0.1.0",
+  "statement": "El capítulo I del título I comprende los artículos 11 a 13 y regula, respectivamente, nacionalidad, mayoría de edad y derechos de los extranjeros.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "título I, capítulo I, artículos 11 a 13",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G02",
+    "content-source/modules/G02/lesson.md"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

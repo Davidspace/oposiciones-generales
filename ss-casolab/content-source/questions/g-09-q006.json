@@ -1,0 +1,78 @@
+{
+  "id": "g-09-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Instituciones, controles y financiación",
+  "competency": "Asignar el control constitucional y comprender los límites de la autonomía financiera.",
+  "difficulty": "high",
+  "prompt": "Una comunidad autónoma ejerce una facultad delegada del artículo 150.2 y se discute el control aplicable. ¿Qué combinación es correcta?",
+  "options": [
+    {
+      "text": "El Tribunal de Cuentas controla siempre la constitucionalidad de las leyes autonómicas y el Gobierno no interviene.",
+      "isCorrect": false,
+      "feedback": "El Tribunal de Cuentas ejerce control económico y presupuestario; la constitucionalidad corresponde al Tribunal Constitucional.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, controles del artículo 153"
+    },
+    {
+      "text": "El Gobierno controla el ejercicio de la facultad delegada previo dictamen del Consejo de Estado; el Tribunal Constitucional controla la constitucionalidad de normas autonómicas con fuerza de ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 153 distingue el control de funciones delegadas del control de constitucionalidad, contencioso y económico."
+    },
+    {
+      "text": "La jurisdicción contencioso-administrativa controla las leyes autonómicas y el Consejo de Estado las anula.",
+      "isCorrect": false,
+      "feedback": "La jurisdicción contencioso-administrativa controla la Administración y reglamentos; el Consejo de Estado emite dictamen, no anula normas.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G09, órgano y función de control"
+    },
+    {
+      "text": "La autonomía financiera permite tributar sobre bienes situados fuera del territorio si la medida se aprueba por ley autonómica.",
+      "isCorrect": false,
+      "feedback": "El artículo 157.2 prohíbe medidas tributarias sobre bienes situados fuera del territorio y obstáculos a la circulación.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, límites financieros"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-013",
+    "clm-g-09-014",
+    "clm-g-09-015",
+    "clm-g-09-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 152, 153, 155 a 157",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre controles y límites financieros autonómicos."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q334",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Tema 12. Prestaciones no contributivas, asistenciales e IMV",
+  "competency": "Reconocer la obligación de comunicar cambios relevantes.",
+  "difficulty": "high",
+  "prompt": "¿Qué debe hacer la unidad cuando aumentan los ingresos de una persona integrante?",
+  "options": [
+    {
+      "text": "Ocultarla hasta la siguiente renovación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 17 y 19.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Reconocer la obligación de comunicar cambios relevantes."
+    },
+    {
+      "text": "Comunicar la variación cuando sea un dato relevante para la prestación.",
+      "isCorrect": true,
+      "feedback": "Los cambios que pueden afectar al derecho o a la cuantía deben comunicarse y pueden ser objeto de comprobación."
+    },
+    {
+      "text": "Comunicarla solo a la empresa.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 17 y 19.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Reconocer la obligación de comunicar cambios relevantes."
+    },
+    {
+      "text": "Solicitar una jubilación por el cambio de ingresos.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 17 y 19.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Reconocer la obligación de comunicar cambios relevantes."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-134"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artículos 17 y 19",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC08, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

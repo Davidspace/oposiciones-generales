@@ -1,0 +1,71 @@
+{
+  "id": "ss-08-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Grados",
+  "competency": "Distinguir incapacidad total y absoluta",
+  "difficulty": "medium",
+  "prompt": "Una persona no puede realizar las tareas fundamentales de su profesión habitual, pero sí otra distinta. ¿Qué grado describe la ley?",
+  "options": [
+    {
+      "text": "Incapacidad permanente total.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ese es el presupuesto del artículo 194.4."
+    },
+    {
+      "text": "Incapacidad permanente absoluta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La absoluta inhabilita para toda profesión u oficio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, grados"
+    },
+    {
+      "text": "Gran incapacidad necesariamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La necesidad de asistencia para actos esenciales es un requisito adicional.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S08, grados"
+    },
+    {
+      "text": "Lesión permanente no incapacitante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La descripción encaja en un grado de incapacidad permanente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, grados"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-013",
+    "clm-ss-08-015",
+    "clm-ss-08-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 194.4",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q006."
+      }
+    ]
+  }
+}

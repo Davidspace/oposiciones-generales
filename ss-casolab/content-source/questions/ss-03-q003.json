@@ -1,0 +1,81 @@
+{
+  "id": "ss-03-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Inscripción del empresario",
+  "competency": "Ordenar inscripción empresarial y actos del trabajador",
+  "difficulty": "basic",
+  "prompt": "Una sociedad va a iniciar su actividad y contratar a su primera persona trabajadora. ¿Qué secuencia es correcta?",
+  "options": [
+    {
+      "text": "Primero inicia la actividad; puede solicitar su inscripción al presentar la primera liquidación de cuotas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La inscripción empresarial es previa e indispensable para iniciar las actividades; no debe aplazarse hasta la liquidación.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S03, apartado 3.1: momento de la inscripción empresarial."
+    },
+    {
+      "text": "Afiliar a la primera persona trabajadora inscribe automáticamente a la sociedad y hace innecesario un código de cuenta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Afiliación del trabajador e inscripción del empresario son actos distintos; la inscripción genera el número y el primer código principal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 1: mapa de actos y sujetos."
+    },
+    {
+      "text": "Solicita previamente su inscripción; la TGSS le asigna un número cuyo primer código de cuenta es el principal, y después tramita la afiliación inicial y el alta que procedan para la persona.",
+      "isCorrect": true,
+      "feedback": "Correcto. La inscripción identifica al empresario y no sustituye los actos de afiliación y alta de cada trabajador."
+    },
+    {
+      "text": "Cada nueva persona trabajadora exige una inscripción empresarial independiente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La inscripción individualiza al empresario; las nuevas incorporaciones requieren sus actos de afiliación o alta, no una nueva inscripción por persona.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartado 3.1: inscripción y códigos vinculados."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-008",
+    "clm-ss-03-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a5",
+      "location": "Real Decreto 84/1996, artículo 5.1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a13",
+      "location": "Real Decreto 84/1996, artículo 13.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

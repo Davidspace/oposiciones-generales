@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q502",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "CP03 — decisión 2",
+  "competency": "Distinguir contingencia profesional y comÃºn",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© dato debe fijarse antes de estudiar la prestaciÃ³n?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir contingencia profesional y comãºn.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 156 y 157.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP03: Distinguir contingencia profesional y comÃºn"
+    },
+    {
+      "text": "La contingencia profesional y su relaciÃ³n causal con el trabajo.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La contingencia profesional y su relaciÃ³n causal con el trabajo."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 156 y 157.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP03: Distinguir contingencia profesional y comÃºn"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 156 y 157.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP03: Distinguir contingencia profesional y comÃºn"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-502"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culos 156 y 157",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP03, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

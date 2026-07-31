@@ -1,0 +1,77 @@
+{
+  "id": "g-12-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Funciones",
+  "competency": "Distinguir ordenación jurídica y control contable",
+  "difficulty": "medium",
+  "prompt": "¿Qué órgano ejerce el control interno y dirige la contabilidad de las entidades que integran el sistema de la Seguridad Social?",
+  "options": [
+    {
+      "text": "La Dirección General de Ordenación de la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa Dirección General ejerce ordenación jurídica e interpretación normativa.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, funciones"
+    },
+    {
+      "text": "La Secretaría de Estado de Migraciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Su ámbito es extranjería, inmigración y emigración.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, funciones"
+    },
+    {
+      "text": "La Gerencia de Informática de la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La GISS está adscrita, pero no es el órgano de control interno contable.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G12, funciones"
+    },
+    {
+      "text": "La Intervención General de la Seguridad Social.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa es la función descrita en el artículo 4.1."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-011",
+    "clm-g-12-013",
+    "clm-g-12-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+      "location": "art. 4.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q004."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "g-12-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Organización general",
+  "competency": "Identificar las materias propias del Ministerio",
+  "difficulty": "basic",
+  "prompt": "¿Qué conjunto recoge materias atribuidas al Ministerio de Inclusión, Seguridad Social y Migraciones?",
+  "options": [
+    {
+      "text": "Seguridad Social, clases pasivas, extranjería, inmigración, emigración e inclusión.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son las materias que recoge el artículo 1 del Real Decreto 501/2024."
+    },
+    {
+      "text": "Solo la gestión tributaria y la política monetaria.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esas materias no definen el ámbito del Ministerio.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, organización general"
+    },
+    {
+      "text": "Solo las relaciones exteriores y la defensa nacional.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El Ministerio no tiene ese ámbito material general.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, organización general"
+    },
+    {
+      "text": "La dirección de todos los servicios de todas las Administraciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La atribución se limita a las materias y órganos previstos en la norma.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G12, organización general"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-001",
+    "clm-g-12-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+      "location": "art. 1.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q001."
+      }
+    ]
+  }
+}

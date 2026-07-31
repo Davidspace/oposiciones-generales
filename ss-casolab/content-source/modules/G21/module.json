@@ -1,0 +1,140 @@
+{
+  "id": "G21",
+  "themeId": "g-21",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Igualdad, violencia de género, discapacidad, dependencia y LGTBI",
+  "learningOutcomes": [
+    "Distinguir igualdad de trato, discriminación y acción positiva.",
+    "Identificar el ámbito de la protección integral frente a la violencia de género.",
+    "Aplicar los conceptos de discapacidad, accesibilidad universal y ajuste razonable.",
+    "Diferenciar dependencia, discapacidad e incapacidad laboral.",
+    "Reconocer el objeto y las garantías básicas de la Ley 4/2023."
+  ],
+  "decisions": [
+    "Clasificar una diferencia de trato como directa, indirecta o medida de acción positiva.",
+    "Comprobar el ámbito subjetivo de la Ley Orgánica 1/2004.",
+    "Aplicar accesibilidad universal y ajustes razonables sin inventar excepciones.",
+    "Determinar si una situación encaja en dependencia y en qué grado.",
+    "Separar discriminación por orientación o identidad sexual de otras categorías."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Igualdad efectiva",
+      "objective": "La Ley Orgánica 3/2007 define la igualdad de trato y de oportunidades y obliga a integrar el principio de igualdad en la actuación pública. En el examen, distingue igualdad formal, discriminación directa, discriminación indirecta y medidas de acción positiva.",
+      "sectionId": "g21-igualdad-1",
+      "activityIds": [
+        "g-21-q001"
+      ]
+    },
+    {
+      "officialClause": "Violencia de género",
+      "objective": "La Ley Orgánica 1/2004 articula medidas de protección integral frente a la violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o quienes estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia.",
+      "sectionId": "g21-violencia-2",
+      "activityIds": [
+        "g-21-q002"
+      ]
+    },
+    {
+      "officialClause": "Discapacidad y accesibilidad",
+      "objective": "El Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social reconoce derechos, igualdad de oportunidades, accesibilidad universal y ajustes razonables. No reduzcas discapacidad a incapacidad laboral.",
+      "sectionId": "g21-discapacidad-3",
+      "activityIds": [
+        "g-21-q003"
+      ]
+    },
+    {
+      "officialClause": "Promoción de la autonomía y dependencia",
+      "objective": "La Ley 39/2006 establece el sistema de autonomía y atención a la dependencia, sus titulares, principios y grados. La dependencia se refiere a la necesidad de apoyos para actividades básicas de la vida diaria, no a cualquier limitación administrativa.",
+      "sectionId": "g21-dependencia-4",
+      "activityIds": [
+        "g-21-q004"
+      ]
+    },
+    {
+      "officialClause": "Derechos LGTBI y personas trans",
+      "objective": "La Ley 4/2023 garantiza el derecho a la igualdad real y efectiva de las personas trans y LGTBI y establece principios, medidas de protección y prohibición de discriminación. Debe aplicarse con la terminología y el ámbito legal propio.",
+      "sectionId": "g21-lgtbi-5",
+      "activityIds": [
+        "g-21-q005"
+      ]
+    },
+    {
+      "officialClause": "Igualdad efectiva",
+      "objective": "La Ley Orgánica 3/2007 define la igualdad de trato y de oportunidades y obliga a integrar el principio de igualdad en la actuación pública. En el examen, distingue igualdad formal, discriminación directa, discriminación indirecta y medidas de acción positiva.",
+      "sectionId": "g21-igualdad-6",
+      "activityIds": [
+        "g-21-q006"
+      ]
+    },
+    {
+      "officialClause": "Violencia de género",
+      "objective": "La Ley Orgánica 1/2004 articula medidas de protección integral frente a la violencia que se ejerce sobre las mujeres por parte de quienes sean o hayan sido sus cónyuges o quienes estén o hayan estado ligados por relaciones similares de afectividad, aun sin convivencia.",
+      "sectionId": "g21-violencia-7",
+      "activityIds": [
+        "g-21-q007"
+      ]
+    },
+    {
+      "officialClause": "Discapacidad y accesibilidad",
+      "objective": "El Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social reconoce derechos, igualdad de oportunidades, accesibilidad universal y ajustes razonables. No reduzcas discapacidad a incapacidad laboral.",
+      "sectionId": "g21-discapacidad-8",
+      "activityIds": [
+        "g-21-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G21/lesson.md",
+  "reviewSheetPath": "content-source/modules/G21/review.md",
+  "normativeClaimIds": [
+    "clm-g-21-001",
+    "clm-g-21-002",
+    "clm-g-21-003",
+    "clm-g-21-004",
+    "clm-g-21-005",
+    "clm-g-21-006",
+    "clm-g-21-007",
+    "clm-g-21-008",
+    "clm-g-21-009",
+    "clm-g-21-010",
+    "clm-g-21-011",
+    "clm-g-21-012",
+    "clm-g-21-013",
+    "clm-g-21-014",
+    "clm-g-21-015",
+    "clm-g-21-016",
+    "clm-g-21-017",
+    "clm-g-21-018",
+    "clm-g-21-019",
+    "clm-g-21-020"
+  ],
+  "questionIds": [
+    "g-21-q001",
+    "g-21-q002",
+    "g-21-q003",
+    "g-21-q004",
+    "g-21-q005",
+    "g-21-q006",
+    "g-21-q007",
+    "g-21-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G21 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

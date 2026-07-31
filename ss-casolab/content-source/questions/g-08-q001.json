@@ -1,0 +1,70 @@
+{
+  "id": "g-08-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "La Administración General del Estado. Principios de organización y funcionamiento",
+  "competency": "Aplicar principios generales y específicos de organización y presencia equilibrada en la AGE.",
+  "difficulty": "medium",
+  "prompt": "Un departamento redistribuye funciones entre órganos propios y prepara nombramientos de Secretarías de Estado y órganos directivos. ¿Qué regla es correcta?",
+  "options": [
+    {
+      "text": "La desconcentración funcional o territorial distribuye el ejercicio dentro de la misma Administración, que sigue sometida a legalidad, eficacia y coordinación; además, en el conjunto departamental cada sexo debe representar entre el 40 % y el 60 % de esos titulares.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción combina los principios del artículo 3, la desconcentración específica del artículo 54 y la regla departamental de presencia equilibrada del artículo 55 bis."
+    },
+    {
+      "text": "La descentralización funcional consiste siempre en repartir competencias entre órganos jerárquicamente dependientes de una misma persona jurídica.",
+      "isCorrect": false,
+      "feedback": "Ese rasgo corresponde a la desconcentración; la descentralización funcional opera mediante entidades con personalidad propia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, descentralización funcional frente a desconcentración"
+    },
+    {
+      "text": "La presencia equilibrada obliga a que cada nombramiento individual se realice simultáneamente a favor de una mujer y un hombre.",
+      "isCorrect": false,
+      "feedback": "La ley fija una proporción del 40 % al 60 % para el conjunto de titulares en cada departamento, no un nombramiento doble individual.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G08, ámbito y porcentaje de presencia equilibrada"
+    },
+    {
+      "text": "El principio de eficiencia permite apartarse de la ley cuando el órgano acredita ahorro presupuestario.",
+      "isCorrect": false,
+      "feedback": "La eficiencia no desplaza el sometimiento pleno a la Constitución, la ley y el Derecho.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G08, legalidad y eficiencia administrativa"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-001",
+    "clm-g-08-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 3, 54.1 y 55 bis",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

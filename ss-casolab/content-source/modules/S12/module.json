@@ -1,0 +1,148 @@
+{
+  "id": "S12",
+  "themeId": "ss-12",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Prestaciones no contributivas, asistenciales e ingreso mínimo vital",
+  "learningOutcomes": [
+    "Distinguir prestación no contributiva, asistencial e ingreso mínimo vital.",
+    "Aplicar el concepto de unidad de convivencia y vulnerabilidad económica.",
+    "Identificar titulares, beneficiarios y obligaciones del IMV.",
+    "Ordenar cuantía, pago, revisión y reintegro.",
+    "Separar prestaciones familiares contributivas y no contributivas."
+  ],
+  "decisions": [
+    "Determinar si el supuesto es contributivo, no contributivo o asistencial.",
+    "Identificar unidad de convivencia y persona titular.",
+    "Comprobar residencia, edad, discapacidad, ingresos y patrimonio.",
+    "Calcular la estructura de cuantía sin fijar cifras desactualizadas.",
+    "Aplicar la consecuencia correcta ante cambio de circunstancias."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Prestaciones no contributivas",
+      "objective": "Las pensiones no contributivas de invalidez y jubilación protegen situaciones de necesidad y no se construyen con la misma lógica de carencia contributiva que una pensión contributiva. Deben comprobarse residencia, edad o discapacidad y carencia de rentas.",
+      "sectionId": "ss12-no-contributivas-1",
+      "activityIds": [
+        "ss-12-q001"
+      ]
+    },
+    {
+      "officialClause": "Ingreso mínimo vital",
+      "objective": "El ingreso mínimo vital es una prestación dirigida a prevenir pobreza y exclusión cuando faltan recursos suficientes. El análisis exige unidad de convivencia, vulnerabilidad económica, residencia, titulares y obligaciones.",
+      "sectionId": "ss12-imv-2",
+      "activityIds": [
+        "ss-12-q002"
+      ]
+    },
+    {
+      "officialClause": "Beneficiarios y obligaciones",
+      "objective": "La Ley 19/2021 define personas titulares, beneficiarias y unidad de convivencia y establece obligaciones de comunicación, declaración y colaboración. No se reconoce por el mero hecho de tener ingresos bajos.",
+      "sectionId": "ss12-requisitos-3",
+      "activityIds": [
+        "ss-12-q003"
+      ]
+    },
+    {
+      "officialClause": "Cuantía y pago",
+      "objective": "La cuantía se determina por la diferencia entre la renta garantizada y los ingresos computables, con complementos o reglas específicas cuando proceda. El pago, actualización y revisión siguen la ley.",
+      "sectionId": "ss12-cuantia-4",
+      "activityIds": [
+        "ss-12-q004"
+      ]
+    },
+    {
+      "officialClause": "Revisión y reintegro",
+      "objective": "El IMV puede revisarse y generar reintegro cuando se percibe indebidamente. La respuesta debe separar suspensión, extinción, revisión y devolución.",
+      "sectionId": "ss12-reintegro-5",
+      "activityIds": [
+        "ss-12-q005"
+      ]
+    },
+    {
+      "officialClause": "Prestaciones no contributivas",
+      "objective": "Las pensiones no contributivas de invalidez y jubilación protegen situaciones de necesidad y no se construyen con la misma lógica de carencia contributiva que una pensión contributiva. Deben comprobarse residencia, edad o discapacidad y carencia de rentas.",
+      "sectionId": "ss12-no-contributivas-6",
+      "activityIds": [
+        "ss-12-q006"
+      ]
+    },
+    {
+      "officialClause": "Ingreso mínimo vital",
+      "objective": "El ingreso mínimo vital es una prestación dirigida a prevenir pobreza y exclusión cuando faltan recursos suficientes. El análisis exige unidad de convivencia, vulnerabilidad económica, residencia, titulares y obligaciones.",
+      "sectionId": "ss12-imv-7",
+      "activityIds": [
+        "ss-12-q007"
+      ]
+    },
+    {
+      "officialClause": "Beneficiarios y obligaciones",
+      "objective": "La Ley 19/2021 define personas titulares, beneficiarias y unidad de convivencia y establece obligaciones de comunicación, declaración y colaboración. No se reconoce por el mero hecho de tener ingresos bajos.",
+      "sectionId": "ss12-requisitos-8",
+      "activityIds": [
+        "ss-12-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S12/lesson.md",
+  "reviewSheetPath": "content-source/modules/S12/review.md",
+  "normativeClaimIds": [
+    "clm-ss-12-001",
+    "clm-ss-12-002",
+    "clm-ss-12-003",
+    "clm-ss-12-004",
+    "clm-ss-12-005",
+    "clm-ss-12-006",
+    "clm-ss-12-007",
+    "clm-ss-12-008",
+    "clm-ss-12-009",
+    "clm-ss-12-010",
+    "clm-ss-12-011",
+    "clm-ss-12-012",
+    "clm-ss-12-013",
+    "clm-ss-12-014",
+    "clm-ss-12-015",
+    "clm-ss-12-016",
+    "clm-ss-12-017",
+    "clm-ss-12-018",
+    "clm-ss-12-019",
+    "clm-ss-12-020"
+  ],
+  "questionIds": [
+    "ss-12-q001",
+    "ss-12-q002",
+    "ss-12-q003",
+    "ss-12-q004",
+    "ss-12-q005",
+    "ss-12-q006",
+    "ss-12-q007",
+    "ss-12-q008"
+  ],
+  "microcaseIds": [
+    "MC08"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S12 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-10-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Consejo: distinción respecto del Consejo Europeo",
+  "competency": "Diferenciar Consejo y Consejo Europeo por composición y función.",
+  "difficulty": "basic",
+  "prompt": "Se debate un proyecto legislativo de la Unión y debe intervenir la institución integrada, para esa materia, por un representante de rango ministerial de cada Estado miembro. ¿Qué institución es y qué papel desempeña?",
+  "options": [
+    {
+      "text": "Es el Consejo, que ejerce conjuntamente con el Parlamento las funciones legislativa y presupuestaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. La composición ministerial y la función colegisladora identifican al Consejo de la Unión Europea."
+    },
+    {
+      "text": "Es el Consejo Europeo, que adopta actos legislativos junto al Parlamento.",
+      "isCorrect": false,
+      "feedback": "El Consejo Europeo reúne a jefes de Estado o de Gobierno y no ejerce función legislativa. El colegislador de composición ministerial es el Consejo.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G10, Consejo frente a Consejo Europeo"
+    },
+    {
+      "text": "Es la Comisión, porque cada comisario puede comprometer mediante voto al Gobierno de su Estado.",
+      "isCorrect": false,
+      "feedback": "Los comisarios actúan con independencia y no representan a sus Gobiernos. La facultad de comprometer al Gobierno estatal corresponde al representante ministerial en el Consejo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G10, representación institucional"
+    },
+    {
+      "text": "Es el Parlamento Europeo, porque sus miembros representan directamente a los Gobiernos nacionales.",
+      "isCorrect": false,
+      "feedback": "El Parlamento representa a la ciudadanía de la Unión. Los Gobiernos estatales están representados en el Consejo.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G10, Parlamento y Consejo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-001",
+    "clm-g-10-004"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_16/oj/spa",
+      "location": "artículo 16 TUE, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_15/oj/spa",
+      "location": "artículo 15 TUE, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  }
+}

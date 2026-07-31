@@ -1,0 +1,2673 @@
+[
+  {
+    "tema_id": "G01",
+    "bloque": "Temario general",
+    "numero": 1,
+    "titulo": "La Constitución Española de 1978: Estructura y contenido. La reforma de la Constitución.",
+    "preguntas": 4,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G01",
+        3
+      ],
+      [
+        "reforma constitucional",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        3
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "167.1",
+        1
+      ],
+      [
+        "8",
+        1
+      ],
+      [
+        "168",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        4
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G02",
+    "bloque": "Temario general",
+    "numero": 2,
+    "titulo": "Derechos y deberes fundamentales. Su garantía y suspensión.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G02",
+        4
+      ],
+      [
+        "derechos fundamentales",
+        3
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        6
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "21",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        7
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 1,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G03",
+    "bloque": "Temario general",
+    "numero": 3,
+    "titulo": "El Tribunal Constitucional. Organización, composición y atribuciones.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G03",
+        7
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley Orgánica 2/1979",
+        7
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "9",
+        1
+      ],
+      [
+        "59",
+        1
+      ],
+      [
+        "17",
+        1
+      ],
+      [
+        "7",
+        1
+      ],
+      [
+        "12",
+        1
+      ],
+      [
+        "23",
+        1
+      ],
+      [
+        "16",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        6
+      ],
+      [
+        "Competencias",
+        1
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G04",
+    "bloque": "Temario general",
+    "numero": 4,
+    "titulo": "La Corona. Funciones constitucionales del Rey. Sucesión y regencia. El refrendo.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G04",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        4
+      ],
+      [
+        "Constitución española",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "62",
+        1
+      ],
+      [
+        "63",
+        1
+      ],
+      [
+        "58",
+        1
+      ],
+      [
+        "59.3",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        5
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G05",
+    "bloque": "Temario general",
+    "numero": 5,
+    "titulo": "El poder legislativo. Las Cortes Generales: Composición, atribuciones y funcionamiento. El Defensor del Pueblo.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G05",
+        7
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        6
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "68",
+        2
+      ],
+      [
+        "75",
+        1
+      ],
+      [
+        "54",
+        1
+      ],
+      [
+        "88",
+        1
+      ],
+      [
+        "73",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        6
+      ],
+      [
+        "Procedimientos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G06",
+    "bloque": "Temario general",
+    "numero": 6,
+    "titulo": "El Poder Judicial. El principio de unidad jurisdiccional. El Consejo General del Poder Judicial. La organización judicial española.",
+    "preguntas": 6,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G06",
+        6
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        4
+      ],
+      [
+        "Ley Orgánica 6/1985",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "122",
+        2
+      ],
+      [
+        "117",
+        1
+      ],
+      [
+        "64.1",
+        1
+      ],
+      [
+        "125",
+        1
+      ],
+      [
+        "55",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        6
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G07",
+    "bloque": "Temario general",
+    "numero": 7,
+    "titulo": "El poder ejecutivo. El presidente del Gobierno y el Consejo de Ministros. Relaciones entre el Gobierno y las Cortes Generales. Designación, causas de cese y responsabilidad del Gobierno. El Consejo de Estado.",
+    "preguntas": 6,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G07",
+        6
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        4
+      ],
+      [
+        "Ley 50/1997",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "113",
+        2
+      ],
+      [
+        "13",
+        1
+      ],
+      [
+        "102",
+        1
+      ],
+      [
+        "111",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        6
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G08",
+    "bloque": "Temario general",
+    "numero": 8,
+    "titulo": "La Administración General del Estado. Principios de organización y funcionamiento. Órganos centrales. Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones. Los servicios comunes de los ministerios. Órganos territoriales. La Administración del Estado en el Exterior.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G08",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 40/2015",
+        4
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "58",
+        1
+      ],
+      [
+        "61",
+        1
+      ],
+      [
+        "57 y 58",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        3
+      ],
+      [
+        "Órganos",
+        1
+      ],
+      [
+        "Competencias",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G09",
+    "bloque": "Temario general",
+    "numero": 9,
+    "titulo": "La organización territorial del Estado. Las Comunidades Autónomas. Los Estatutos de Autonomía. La delimitación de competencias entre el Estado y las Comunidades Autónomas en la Constitución y en los Estatutos de Autonomía. La Administración local: El municipio. La provincia.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G09",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        5
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "153",
+        1
+      ],
+      [
+        "148",
+        1
+      ],
+      [
+        "146",
+        1
+      ],
+      [
+        "157",
+        1
+      ],
+      [
+        "155",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        2
+      ],
+      [
+        "Órganos",
+        1
+      ],
+      [
+        "Competencias",
+        1
+      ],
+      [
+        "Requisitos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G10",
+    "bloque": "Temario general",
+    "numero": 10,
+    "titulo": "Las Instituciones de la Unión Europea: El Consejo, el Parlamento Europeo, la Comisión, el Tribunal de Justicia.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G10",
+        7
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Tratado de Funcionamiento de la Unión Europea",
+        4
+      ],
+      [
+        "Tratado de la Unión Europea",
+        3
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "14",
+        2
+      ],
+      [
+        "3",
+        1
+      ],
+      [
+        "4",
+        1
+      ],
+      [
+        "17",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        3
+      ],
+      [
+        "Competencias",
+        2
+      ],
+      [
+        "Órganos",
+        2
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G11",
+    "bloque": "Temario general",
+    "numero": 11,
+    "titulo": "Las fuentes del derecho de la Unión Europea. Derecho originario. Derecho derivado: Reglamentos, directivas y decisiones. Otras fuentes. Las relaciones entre el Derecho de la Unión Europea y el ordenamiento jurídico de los Estados miembros.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G11",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Tratado de Funcionamiento de la Unión Europea",
+        4
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "288",
+        2
+      ],
+      [
+        "218",
+        1
+      ],
+      [
+        "290",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        5
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G12",
+    "bloque": "Temario general",
+    "numero": 12,
+    "titulo": "El Ministerio de Inclusión, Seguridad Social y Migraciones. Organización. Estructura y funciones.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G12",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 501/2024",
+        5
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "7",
+        1
+      ],
+      [
+        "1",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "3",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        4
+      ],
+      [
+        "Órganos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G13",
+    "bloque": "Temario general",
+    "numero": 13,
+    "titulo": "Las fuentes del Derecho Administrativo. Concepto y clases. La jerarquía de las fuentes.",
+    "preguntas": 4,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G13",
+        4
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "1",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "94 y 96",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        4
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G14",
+    "bloque": "Temario general",
+    "numero": 14,
+    "titulo": "La Ley. Tipos de leyes. Disposiciones del Gobierno con fuerza de ley: decreto-ley y decreto legislativo. El Reglamento: concepto, clases y límites. Los principios generales del Derecho.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G14",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        2
+      ],
+      [
+        "Ley 50/1997",
+        2
+      ],
+      [
+        "Ley 39/2015",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "82",
+        1
+      ],
+      [
+        "24.1",
+        1
+      ],
+      [
+        "128",
+        1
+      ],
+      [
+        "24",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        4
+      ],
+      [
+        "Procedimientos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G15",
+    "bloque": "Temario general",
+    "numero": 15,
+    "titulo": "Los actos administrativos. Concepto y clases. Motivación, forma y eficacia de los actos administrativos. Notificación y publicación. Nulidad y anulabilidad. La revisión de oficio.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G15",
+        4
+      ],
+      [
+        "embargo",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 39/2015",
+        5
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "50",
+        1
+      ],
+      [
+        "108",
+        1
+      ],
+      [
+        "36",
+        1
+      ],
+      [
+        "35",
+        1
+      ],
+      [
+        "49",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Procedimientos",
+        5
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G16",
+    "bloque": "Temario general",
+    "numero": 16,
+    "titulo": "El procedimiento administrativo común. La capacidad de obrar y el concepto de interesado. Representación. Identificación y firma de los interesados. Derechos del interesado en el procedimiento administrativo. Obligación de resolver y silencio administrativo. Términos y plazos.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G16",
+        6
+      ],
+      [
+        "silencio administrativo",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 39/2015",
+        6
+      ],
+      [
+        "ley 39/2015",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "53",
+        1
+      ],
+      [
+        "24",
+        1
+      ],
+      [
+        "11",
+        1
+      ],
+      [
+        "21",
+        1
+      ],
+      [
+        "6",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Procedimientos",
+        6
+      ],
+      [
+        "Plazos",
+        1
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G17",
+    "bloque": "Temario general",
+    "numero": 17,
+    "titulo": "Las fases del procedimiento administrativo: Iniciación, ordenación, instrucción y finalización. La ejecución de los actos y resoluciones administrativas.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G17",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 39/2015",
+        4
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "63",
+        1
+      ],
+      [
+        "83",
+        1
+      ],
+      [
+        "100",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Procedimientos",
+        5
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G18",
+    "bloque": "Temario general",
+    "numero": 18,
+    "titulo": "Los recursos administrativos: concepto y clases. Recurso de alzada. Recurso potestativo de reposición. Recurso extraordinario de revisión. La jurisdicción contencioso-administrativa: objeto y plazos de interposición del recurso contencioso administrativo.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G18",
+        4
+      ],
+      [
+        "recurso de alzada",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 39/2015",
+        3
+      ],
+      [
+        "Ley 29/1998",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "122",
+        2
+      ],
+      [
+        "11",
+        1
+      ],
+      [
+        "126",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Procedimientos",
+        2
+      ],
+      [
+        "Plazos",
+        2
+      ],
+      [
+        "Órganos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G19",
+    "bloque": "Temario general",
+    "numero": 19,
+    "titulo": "El personal al servicio de las Administraciones Públicas: concepto y clases. Derechos y deberes de los funcionarios. La carrera administrativa. Las incompatibilidades. Régimen disciplinario: faltas, sanciones y procedimiento.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G19",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto Legislativo 5/2015",
+        4
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "8",
+        1
+      ],
+      [
+        "39",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        4
+      ],
+      [
+        "Órganos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G20",
+    "bloque": "Temario general",
+    "numero": 20,
+    "titulo": "Atención al público. Atención de personas con discapacidad. Los servicios de información administrativa. Información general y particular al ciudadano. Iniciativas. Reclamaciones. Quejas. Peticiones.",
+    "preguntas": 4,
+    "años": [
+      2024,
+      2025
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G20",
+        4
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley Orgánica 4/2001",
+        2
+      ],
+      [
+        "Real Decreto 208/1996",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "7",
+        1
+      ],
+      [
+        "5",
+        1
+      ],
+      [
+        "6",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Plazos",
+        2
+      ],
+      [
+        "Artículos literales",
+        2
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G21",
+    "bloque": "Temario general",
+    "numero": 21,
+    "titulo": "Políticas de igualdad y contra la violencia de género. Discapacidad y dependencia: régimen jurídico. La Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.",
+    "preguntas": 7,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G21",
+        7
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto Legislativo 1/2013",
+        2
+      ],
+      [
+        "Ley 4/2023",
+        1
+      ],
+      [
+        "ley 4/2023",
+        1
+      ],
+      [
+        "Ley Orgánica 3/2007",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "10",
+        2
+      ],
+      [
+        "87",
+        1
+      ],
+      [
+        "60",
+        1
+      ],
+      [
+        "56",
+        1
+      ],
+      [
+        "27",
+        1
+      ],
+      [
+        "37",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        6
+      ],
+      [
+        "Órganos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G22",
+    "bloque": "Temario general",
+    "numero": 22,
+    "titulo": "Normativa reguladora de la protección de datos personales: principios, derechos de las personas y ejercicios de los derechos.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G22",
+        5
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley Orgánica 3/2018",
+        3
+      ],
+      [
+        "Reglamento (UE) 2016/679",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "13",
+        2
+      ],
+      [
+        "12",
+        1
+      ],
+      [
+        "12.5",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        5
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "G23",
+    "bloque": "Temario general",
+    "numero": 23,
+    "titulo": "El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas, registros y archivo electrónico.",
+    "preguntas": 5,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "G23",
+        4
+      ],
+      [
+        "notificación",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 203/2021",
+        3
+      ],
+      [
+        "Ley 39/2015",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "53",
+        1
+      ],
+      [
+        "14",
+        1
+      ],
+      [
+        "43",
+        1
+      ],
+      [
+        "51",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        2
+      ],
+      [
+        "Procedimientos",
+        2
+      ],
+      [
+        "Plazos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S01",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 1,
+    "titulo": "La Seguridad Social en la Constitución española de 1978. El texto refundido de la Ley General de la Seguridad Social.",
+    "preguntas": 11,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S01",
+        11
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Constitución Española",
+        5
+      ],
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        5
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "41",
+        1
+      ],
+      [
+        "49",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "43",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        10
+      ],
+      [
+        "Competencias",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 1,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S02",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 2,
+    "titulo": "Campo de aplicación y composición del sistema de la Seguridad Social. Régimen general: ámbito subjetivo de aplicación, inclusiones y exclusiones. Regímenes especiales: enumeración, características generales, altas, bajas y cotización. Particularidades de la acción protectora. Sistemas especiales: enumeración y características generales. Altas, bajas y cotización. Particularidades de la acción protectora.",
+    "preguntas": 19,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S02",
+        17
+      ],
+      [
+        "incapacidad temporal",
+        1
+      ],
+      [
+        "baja",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        10
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        4
+      ],
+      [
+        "Real Decreto legislativo 8/2015",
+        1
+      ],
+      [
+        "Ley 47/2015",
+        1
+      ],
+      [
+        "Real Decreto 84/1996",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "253",
+        2
+      ],
+      [
+        "10",
+        2
+      ],
+      [
+        "7.3",
+        1
+      ],
+      [
+        "4",
+        1
+      ],
+      [
+        "8",
+        1
+      ],
+      [
+        "136.2",
+        1
+      ],
+      [
+        "10.2",
+        1
+      ],
+      [
+        "7",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        18
+      ],
+      [
+        "Requisitos",
+        1
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 1,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S03",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 3,
+    "titulo": "Normas sobre afiliación. Altas y bajas en el régimen general. Procedimiento y efectos. El convenio especial y otras situaciones asimiladas a la del alta. Encuadramiento e inscripción.",
+    "preguntas": 30,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S03",
+        11
+      ],
+      [
+        "afiliación",
+        8
+      ],
+      [
+        "baja",
+        5
+      ],
+      [
+        "alta",
+        4
+      ],
+      [
+        "incapacidad temporal",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 84/1996",
+        12
+      ],
+      [
+        "Real Decreto Legislativo 8/2015",
+        1
+      ],
+      [
+        "texto Refundido de la Ley General de la Seguridad Social",
+        1
+      ],
+      [
+        "Real Decreto Legislativo 5/2000",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "29",
+        2
+      ],
+      [
+        "63",
+        2
+      ],
+      [
+        "28",
+        1
+      ],
+      [
+        "6.1",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "33",
+        1
+      ],
+      [
+        "10",
+        1
+      ],
+      [
+        "24",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Afiliación, altas y bajas",
+        18
+      ],
+      [
+        "Procedimientos",
+        5
+      ],
+      [
+        "Plazos",
+        4
+      ],
+      [
+        "Competencias",
+        1
+      ],
+      [
+        "Causas de extinción",
+        1
+      ]
+    ],
+    "reservas": 3,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 11,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S04",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 4,
+    "titulo": "La cotización a la Seguridad Social: normas comunes del sistema. La liquidación de cuotas. El régimen general de la Seguridad Social. Supuestos especiales. Bases y tipos de cotización. Liquidación de otras deudas.",
+    "preguntas": 30,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S04",
+        18
+      ],
+      [
+        "base de cotización",
+        9
+      ],
+      [
+        "liquidación de cuotas",
+        1
+      ],
+      [
+        "jubilación",
+        1
+      ],
+      [
+        "alta",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 2064/1995",
+        6
+      ],
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        4
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        2
+      ],
+      [
+        "Real Decreto Legislativo 8/2015",
+        1
+      ],
+      [
+        "Ley 42/2006",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "18",
+        2
+      ],
+      [
+        "7.1",
+        1
+      ],
+      [
+        "255.3",
+        1
+      ],
+      [
+        "152",
+        1
+      ],
+      [
+        "57",
+        1
+      ],
+      [
+        "60",
+        1
+      ],
+      [
+        "34",
+        1
+      ],
+      [
+        "45",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Cotización",
+        17
+      ],
+      [
+        "Plazos",
+        7
+      ],
+      [
+        "Cálculos",
+        4
+      ],
+      [
+        "Definiciones",
+        1
+      ],
+      [
+        "Requisitos",
+        1
+      ]
+    ],
+    "reservas": 2,
+    "anuladas": 1,
+    "modificadas": 0,
+    "practicas": 14,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S05",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 5,
+    "titulo": "La gestión recaudatoria: concepto, competencia y objeto. Responsables del pago. Requisitos para el pago. Medios de pago. Control de recaudación. Revisión de los actos de gestión recaudatoria. La recaudación en periodo voluntario. Efectos de la falta de cotización en período reglamentario. Recaudación de otros recursos. Aplazamientos. Devolución de ingresos indebidos. Capital coste de pensiones.",
+    "preguntas": 32,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S05",
+        28
+      ],
+      [
+        "aplazamiento",
+        3
+      ],
+      [
+        "incapacidad temporal",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 1415/2004",
+        14
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        1
+      ],
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "8",
+        2
+      ],
+      [
+        "6",
+        1
+      ],
+      [
+        "19",
+        1
+      ],
+      [
+        "31",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "44",
+        1
+      ],
+      [
+        "32",
+        1
+      ],
+      [
+        "65",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Recaudación",
+        14
+      ],
+      [
+        "Plazos",
+        10
+      ],
+      [
+        "Cálculos",
+        4
+      ],
+      [
+        "Definiciones",
+        3
+      ],
+      [
+        "Causas de suspensión",
+        1
+      ]
+    ],
+    "reservas": 2,
+    "anuladas": 2,
+    "modificadas": 0,
+    "practicas": 11,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S06",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 6,
+    "titulo": "La recaudación en vía ejecutiva. Normas generales. Iniciación y título ejecutivo. La providencia de apremio. Oposición y efectos. El embargo de bienes. Enajenación de bienes: modalidades. Créditos incobrables. Tercerías.",
+    "preguntas": 29,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S06",
+        22
+      ],
+      [
+        "providencia de apremio",
+        4
+      ],
+      [
+        "embargo",
+        2
+      ],
+      [
+        "recurso de alzada",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Real Decreto 1415/2004",
+        19
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "84",
+        3
+      ],
+      [
+        "87",
+        3
+      ],
+      [
+        "135",
+        2
+      ],
+      [
+        "120",
+        2
+      ],
+      [
+        "90",
+        1
+      ],
+      [
+        "86",
+        1
+      ],
+      [
+        "88",
+        1
+      ],
+      [
+        "94",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Recaudación ejecutiva",
+        15
+      ],
+      [
+        "Plazos",
+        5
+      ],
+      [
+        "Cálculos",
+        5
+      ],
+      [
+        "Procedimientos",
+        3
+      ],
+      [
+        "Competencias",
+        1
+      ]
+    ],
+    "reservas": 2,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 6,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S07",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 7,
+    "titulo": "Acción protectora. Contenido y clasificación de las prestaciones. Caracteres de las prestaciones. Incompatibilidades. Reintegro de las prestaciones indebidas. Requisitos generales del derecho a las prestaciones. Responsabilidades en orden a las prestaciones por incumplimiento de las obligaciones de afiliación, altas, bajas y cotización. Automaticidad y anticipo de prestaciones. Riesgo protegido: contingencias comunes y profesionales.",
+    "preguntas": 19,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S07",
+        18
+      ],
+      [
+        "embargo",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        14
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        4
+      ],
+      [
+        "Real Decreto 1299/2006",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "54",
+        3
+      ],
+      [
+        "58",
+        3
+      ],
+      [
+        "46",
+        2
+      ],
+      [
+        "61",
+        2
+      ],
+      [
+        "59",
+        2
+      ],
+      [
+        "53",
+        1
+      ],
+      [
+        "51",
+        1
+      ],
+      [
+        "164",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        15
+      ],
+      [
+        "Cálculos",
+        3
+      ],
+      [
+        "Personas beneficiarias",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S08",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 8,
+    "titulo": "Incapacidad temporal: concepto y causas que motivan esta situación. Beneficiarios. Prestación económica: determinación y cuantía. Nacimiento, duración y extinción del derecho al subsidio. Reconocimiento y pago. Control de la incapacidad. Incapacidad permanente contributiva: concepto. Grados de incapacidad. Prestaciones. Determinación y cuantía. Beneficiarios. Nacimiento, duración y extinción del derecho. Lesiones permanentes no incapacitantes. La calificación y revisión de la incapacidad permanente.",
+    "preguntas": 32,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "incapacidad temporal",
+        12
+      ],
+      [
+        "incapacidad permanente",
+        8
+      ],
+      [
+        "S08",
+        7
+      ],
+      [
+        "alta",
+        3
+      ],
+      [
+        "baja",
+        2
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        12
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        3
+      ],
+      [
+        "Real Decreto 1300/1995",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "173",
+        3
+      ],
+      [
+        "174",
+        2
+      ],
+      [
+        "169.1",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "169",
+        1
+      ],
+      [
+        "195",
+        1
+      ],
+      [
+        "201",
+        1
+      ],
+      [
+        "23",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Incapacidad",
+        15
+      ],
+      [
+        "Plazos",
+        5
+      ],
+      [
+        "Personas beneficiarias",
+        4
+      ],
+      [
+        "Requisitos",
+        3
+      ],
+      [
+        "Órganos",
+        2
+      ]
+    ],
+    "reservas": 3,
+    "anuladas": 1,
+    "modificadas": 0,
+    "practicas": 14,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S09",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 9,
+    "titulo": "Nacimiento y cuidado de menor. Ejercicio corresponsable del cuidado del lactante. Prestación por riesgo durante el embarazo. Prestación por riesgo durante la lactancia natural. Asignación económica por hijo o menor acogido a cargo. Prestación económica por nacimiento o adopción de hijo en supuestos de familias numerosas o monoparentales y en los casos de madres o padres con discapacidad. Prestación por parto o adopción Subsidio por cuidado de menores afectados por cáncer u otra enfermedad grave.",
+    "preguntas": 30,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S09",
+        20
+      ],
+      [
+        "nacimiento y cuidado de menor",
+        7
+      ],
+      [
+        "incapacidad temporal",
+        2
+      ],
+      [
+        "base de cotización",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        11
+      ],
+      [
+        "Real Decreto 295/2009",
+        3
+      ],
+      [
+        "Real Decreto 1148/2011",
+        1
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "185",
+        2
+      ],
+      [
+        "48",
+        2
+      ],
+      [
+        "7",
+        1
+      ],
+      [
+        "360",
+        1
+      ],
+      [
+        "358",
+        1
+      ],
+      [
+        "182",
+        1
+      ],
+      [
+        "183",
+        1
+      ],
+      [
+        "189",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Prestaciones familiares",
+        15
+      ],
+      [
+        "Cálculos",
+        6
+      ],
+      [
+        "Personas beneficiarias",
+        4
+      ],
+      [
+        "Plazos",
+        3
+      ],
+      [
+        "Requisitos",
+        2
+      ]
+    ],
+    "reservas": 2,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 11,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S10",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 10,
+    "titulo": "Jubilación en la modalidad contributiva: concepto. Jubilación ordinaria: requisitos: especial referencia a la edad de jubilación. Determinación de la cuantía de la prestación: base reguladora y porcentaje. Jubilación anticipada, jubilación parcial y jubilación flexible. Compatibilidad de la pensión de jubilación y el trabajo. Suspensión y extinción de la prestación. Especial referencia a la aplicación de la normativa anterior a la Ley 27/2011.",
+    "preguntas": 32,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "jubilación",
+        19
+      ],
+      [
+        "jubilación anticipada",
+        7
+      ],
+      [
+        "S10",
+        5
+      ],
+      [
+        "alta",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        13
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        4
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "205",
+        3
+      ],
+      [
+        "215",
+        3
+      ],
+      [
+        "207",
+        3
+      ],
+      [
+        "213",
+        1
+      ],
+      [
+        "210",
+        1
+      ],
+      [
+        "153",
+        1
+      ],
+      [
+        "205.1",
+        1
+      ],
+      [
+        "206",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Jubilación",
+        18
+      ],
+      [
+        "Requisitos",
+        9
+      ],
+      [
+        "Cálculos",
+        4
+      ],
+      [
+        "Plazos",
+        1
+      ]
+    ],
+    "reservas": 8,
+    "anuladas": 1,
+    "modificadas": 0,
+    "practicas": 15,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S11",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 11,
+    "titulo": "La protección por muerte y supervivencia. Hecho causante. Requisitos para las prestaciones de viudedad, orfandad y en favor de familiares. Cuantía de las prestaciones. Compatibilidad. Suspensión y Extinción. Normas específicas en caso de muerte derivada de accidente de trabajo o enfermedad profesional. Efectividad económica de las prestaciones. El auxilio por defunción.",
+    "preguntas": 24,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S11",
+        8
+      ],
+      [
+        "orfandad",
+        7
+      ],
+      [
+        "viudedad",
+        6
+      ],
+      [
+        "incapacidad permanente",
+        2
+      ],
+      [
+        "alta",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        6
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        1
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "224",
+        2
+      ],
+      [
+        "31",
+        2
+      ],
+      [
+        "224.1",
+        1
+      ],
+      [
+        "232",
+        1
+      ],
+      [
+        "7.2",
+        1
+      ],
+      [
+        "231",
+        1
+      ],
+      [
+        "2",
+        1
+      ],
+      [
+        "9",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Muerte y supervivencia",
+        13
+      ],
+      [
+        "Cálculos",
+        5
+      ],
+      [
+        "Personas beneficiarias",
+        4
+      ],
+      [
+        "Causas de suspensión",
+        1
+      ],
+      [
+        "Procedimientos",
+        1
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 2,
+    "modificadas": 0,
+    "practicas": 7,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S12",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 12,
+    "titulo": "Prestaciones no contributivas y asistenciales. El ingreso mínimo vital: beneficiarios, requisitos y duración. Obligaciones de las personas beneficiarias. Cuantía, pago, reintegro de prestaciones indebidas. Prestaciones familiares múltiples. Prestaciones familiares en la modalidad contributiva. Las pensiones no contributivas: Invalidez no contributiva: Jubilación no contributiva.",
+    "preguntas": 25,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "ingreso mínimo vital",
+        11
+      ],
+      [
+        "S12",
+        11
+      ],
+      [
+        "incapacidad permanente",
+        1
+      ],
+      [
+        "jubilación",
+        1
+      ],
+      [
+        "base de cotización",
+        1
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "Ley 19/2021",
+        9
+      ],
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        5
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        3
+      ],
+      [
+        "Ley 26/1990",
+        2
+      ],
+      [
+        "ley 19/2021",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "3",
+        2
+      ],
+      [
+        "363",
+        2
+      ],
+      [
+        "5",
+        2
+      ],
+      [
+        "7",
+        2
+      ],
+      [
+        "4",
+        2
+      ],
+      [
+        "235",
+        1
+      ],
+      [
+        "6",
+        1
+      ],
+      [
+        "366",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Prestaciones no contributivas",
+        16
+      ],
+      [
+        "Personas beneficiarias",
+        4
+      ],
+      [
+        "Plazos",
+        2
+      ],
+      [
+        "Cálculos",
+        1
+      ],
+      [
+        "Definiciones",
+        1
+      ]
+    ],
+    "reservas": 1,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  },
+  {
+    "tema_id": "S13",
+    "bloque": "Temario específico Seguridad Social",
+    "numero": 13,
+    "titulo": "Recursos generales del sistema de la Seguridad Social. El patrimonio único de la seguridad social: titularidad, adscripción, administración y custodia. Los negocios jurídicos patrimoniales: adquisición, enajenación, arrendamiento y cesión. El Fondo de Reserva de la Seguridad Social: constitución, dotación y disposición. Gestión de los recursos financieros: atribución de funciones. Pago de prestaciones de la Seguridad Social.",
+    "preguntas": 16,
+    "años": [
+      2024,
+      2025,
+      2026
+    ],
+    "apartados_mas_preguntados": [
+      [
+        "S13",
+        14
+      ],
+      [
+        "Fondo de Reserva",
+        2
+      ]
+    ],
+    "normas_mas_preguntadas": [
+      [
+        "texto refundido de la Ley General de la Seguridad Social",
+        5
+      ],
+      [
+        "Real Decreto 1221/1992",
+        5
+      ],
+      [
+        "Texto Refundido de la Ley General de la Seguridad Social",
+        3
+      ],
+      [
+        "Real Decreto 696/2018",
+        2
+      ]
+    ],
+    "articulos_mas_preguntados": [
+      [
+        "12",
+        2
+      ],
+      [
+        "9",
+        2
+      ],
+      [
+        "117",
+        1
+      ],
+      [
+        "109.3",
+        1
+      ],
+      [
+        "104.1",
+        1
+      ],
+      [
+        "108",
+        1
+      ],
+      [
+        "123",
+        1
+      ],
+      [
+        "18",
+        1
+      ]
+    ],
+    "tipos_mas_frecuentes": [
+      [
+        "Artículos literales",
+        14
+      ],
+      [
+        "Competencias",
+        1
+      ],
+      [
+        "Procedimientos",
+        1
+      ]
+    ],
+    "reservas": 0,
+    "anuladas": 0,
+    "modificadas": 0,
+    "practicas": 0,
+    "clasificacion_baja_confianza": 0
+  }
+]

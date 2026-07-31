@@ -1,0 +1,72 @@
+{
+  "id": "g-19-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Procedimiento y prescripción",
+  "competency": "distinguir falta, sanción y procedimiento",
+  "difficulty": "high",
+  "prompt": "En un expediente disciplinario, ¿qué comprobación evita un error básico de análisis?",
+  "options": [
+    {
+      "text": "Separar la prescripción de la falta de la prescripción de la sanción y comprobar las garantías del expediente, incluida la audiencia y la resolución motivada.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son objetos y momentos distintos; además, la sanción exige respetar el procedimiento y sus garantías."
+    },
+    {
+      "text": "Usar siempre la fecha de la denuncia como inicio de toda prescripción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cómputo depende de si se trata de falta o sanción y de las reglas legales aplicables.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G19, artículo 97"
+    },
+    {
+      "text": "Imponer la sanción sin expediente si la Administración considera probados los hechos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Deben respetarse las garantías y el procedimiento disciplinario previsto.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G19, artículo 98"
+    },
+    {
+      "text": "Tratar la falta y la sanción como sinónimos para aplicar un único plazo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta es la conducta tipificada; la sanción es su consecuencia y tienen reglas de prescripción diferentes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, artículos 95 a 98"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-016",
+    "clm-g-19-017",
+    "clm-g-19-018",
+    "clm-g-19-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 94 a 98",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Prescripción y garantías disciplinarias."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

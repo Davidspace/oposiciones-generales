@@ -1,0 +1,77 @@
+{
+  "id": "ss-11-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Efectos",
+  "competency": "Distinguir suspensión y extinción",
+  "difficulty": "high",
+  "prompt": "Una viuda vuelve a contraer matrimonio y el caso plantea el efecto sobre su pensión. ¿Qué debe hacer el opositor?",
+  "options": [
+    {
+      "text": "Afirmar extinción automática en todos los casos sin excepción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley prevé condiciones y excepciones.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S11, efectos"
+    },
+    {
+      "text": "Afirmar que nunca cambia la pensión.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La situación puede tener efectos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S11, efectos"
+    },
+    {
+      "text": "Comprobar la regla de compatibilidad, suspensión o extinción específica y sus excepciones.",
+      "isCorrect": true,
+      "feedback": "Correcto. No debe afirmarse una consecuencia sin revisar el supuesto legal."
+    },
+    {
+      "text": "Convertirla en orfandad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cambio de vínculo no transforma la prestación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, efectos"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-012",
+    "clm-ss-11-013",
+    "clm-ss-11-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 223 y 232",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-09-017", "assetId": "G09", "version": "0.1.0",
+  "statement": "El municipio es la entidad local básica, tiene personalidad jurídica y plena capacidad, y sus elementos son el territorio, la población y la organización.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392", "sourceLocation": "artículo 11", "officialPublication": "BOE núm. 80, de 03-04-1985; texto consolidado con última actualización publicada el 03-06-2026",
+  "validFrom": "1985-04-23", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G09", "content-source/modules/G09/lesson.md", "content-source/modules/G09/review.md", "g-09-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre los elementos municipales."}]}
+}

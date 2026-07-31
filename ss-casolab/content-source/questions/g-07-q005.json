@@ -1,0 +1,69 @@
+{
+  "id": "g-07-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "Relaciones entre el Gobierno y las Cortes Generales",
+  "competency": "Seleccionar instrumentos parlamentarios de información, comparecencia, preguntas e interpelaciones.",
+  "difficulty": "basic",
+  "prompt": "Una Comisión del Congreso necesita documentación de un departamento ministerial y quiere que comparezca su titular. ¿Qué puede hacer conforme a la Constitución?",
+  "options": [
+    {
+      "text": "Puede recabar la información y ayuda precisas del Gobierno y de sus departamentos y reclamar la presencia del Ministro; además, el Gobierno y cada uno de sus miembros están sometidos a preguntas e interpelaciones.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los artículos 109 a 111 CE diferencian la petición de información, la comparecencia y las preguntas o interpelaciones."
+    },
+    {
+      "text": "Solo puede pedir la documentación al Senado, porque las Comisiones carecen de relación directa con los departamentos ministeriales.",
+      "isCorrect": false,
+      "feedback": "Las Cámaras y sus Comisiones pueden recabar directamente información y ayuda del Gobierno, sus departamentos y otras autoridades previstas constitucionalmente.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G07, facultad de información de Cámaras y Comisiones"
+    },
+    {
+      "text": "Puede exigir la comparecencia del Ministro, pero las preguntas e interpelaciones solo se dirigen colegiadamente al Consejo de Ministros.",
+      "isCorrect": false,
+      "feedback": "La Constitución somete tanto al Gobierno como a cada uno de sus miembros a preguntas e interpelaciones.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G07, destinatarios de preguntas e interpelaciones"
+    },
+    {
+      "text": "Debe presentar una moción de censura para obtener la documentación y lograr la comparecencia.",
+      "isCorrect": false,
+      "feedback": "La moción de censura persigue retirar la confianza al Gobierno; la información y comparecencia tienen instrumentos ordinarios propios en los artículos 109 y 110 CE.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G07, instrumentos ordinarios de control parlamentario"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 108 a 111",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

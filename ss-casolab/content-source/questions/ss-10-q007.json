@@ -1,0 +1,71 @@
+{
+  "id": "ss-10-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Flexible",
+  "competency": "Aplicar jubilación flexible",
+  "difficulty": "medium",
+  "prompt": "Una persona ya pensionista comienza un trabajo a tiempo parcial. ¿Qué modalidad debe analizarse?",
+  "options": [
+    {
+      "text": "Jubilación flexible, si cumple sus requisitos y límites.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 213 regula la compatibilidad de pensión ya reconocida con trabajo parcial."
+    },
+    {
+      "text": "Jubilación anticipada voluntaria.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa modalidad se refiere al acceso anticipado, no a una persona ya pensionista.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S10, flexible"
+    },
+    {
+      "text": "Nacimiento y cuidado de menor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una prestación distinta.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S10, flexible"
+    },
+    {
+      "text": "Incapacidad permanente total automáticamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No existe ese efecto automático.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, flexible"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-013",
+    "clm-ss-10-014",
+    "clm-ss-10-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 213",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q007."
+      }
+    ]
+  }
+}

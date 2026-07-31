@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-015",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "La baja comunicada en forma y plazo extingue la obligación de cotizar desde el cese; si falta o es tardía o se presenta por un medio distinto, la regla general mantiene esa obligación hasta que la Tesorería conoce el cese, sin perjuicio de que el interesado pruebe otra fecha por un medio admitido en derecho.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a35",
+  "sourceLocation": "Real Decreto 84/1996, artículo 35.2.1.º, 35.2.2.º y 35.2.4.º",
+  "officialPublication": "BOE-A-1996-4447; redacción consolidada del artículo 35",
+  "validFrom": "2018-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q006", "CP01", "ss-03-q209"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

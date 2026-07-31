@@ -1,0 +1,75 @@
+{
+  "id": "ss-09-q616",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "CP04 — decisión 16",
+  "competency": "Reconocer una prestaciÃ³n familiar adicional",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe hacerse si aparece una situaciÃ³n de cuidado distinta del nacimiento?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar reconocer una prestaciã³n familiar adicional.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 187 y 188.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP04: Reconocer una prestaciÃ³n familiar adicional"
+    },
+    {
+      "text": "Identificar el hecho causante y comprobar si corresponde una prestaciÃ³n familiar especÃ­fica.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Identificar el hecho causante y comprobar si corresponde una prestaciÃ³n familiar especÃ­fica."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 187 y 188.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP04: Reconocer una prestaciÃ³n familiar adicional"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 187 y 188.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP04: Reconocer una prestaciÃ³n familiar adicional"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-616"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culos 187 y 188",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP04, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

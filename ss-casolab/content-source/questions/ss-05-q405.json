@@ -1,0 +1,75 @@
+{
+  "id": "ss-05-q405",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "epigraph": "CP02 — decisión 5",
+  "competency": "Valorar los efectos de solicitar un aplazamiento",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© efecto tiene la mera solicitud de aplazamiento?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar valorar los efectos de solicitar un aplazamiento.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 23.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Valorar los efectos de solicitar un aplazamiento"
+    },
+    {
+      "text": "No extingue la deuda ni equivale a una concesiÃ³n; deben cumplirse las condiciones de la resoluciÃ³n que, en su caso, lo conceda.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: No extingue la deuda ni equivale a una concesiÃ³n; deben cumplirse las condiciones de la resoluciÃ³n que, en su caso, lo conceda."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 23.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Valorar los efectos de solicitar un aplazamiento"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 23.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Valorar los efectos de solicitar un aplazamiento"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-405"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artÃ­culo 23",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

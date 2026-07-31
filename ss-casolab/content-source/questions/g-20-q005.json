@@ -1,0 +1,76 @@
+{
+  "id": "g-20-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Información administrativa",
+  "competency": "comprobar legitimación para información particular",
+  "difficulty": "high",
+  "prompt": "Una persona solicita el estado de un expediente en el que no figura como interesada ni acredita representación. ¿Qué regla debe aplicar la oficina?",
+  "options": [
+    {
+      "text": "Facilitar siempre el expediente porque toda información administrativa es pública para cualquiera.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La información particular no se entrega sin legitimación y puede contener datos protegidos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, información particular"
+    },
+    {
+      "text": "No facilitar la información particular sin comprobar la condición de interesado o la representación legal, sin perjuicio de orientar sobre el cauce general.",
+      "isCorrect": true,
+      "feedback": "Correcto. El estado y contenido del expediente son información particular y exigen legitimación conforme al artículo 3."
+    },
+    {
+      "text": "Convertir automáticamente la consulta en una queja contra el órgano gestor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta de legitimación no convierte la consulta en queja; debe explicarse el cauce adecuado.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, clasificación del escrito"
+    },
+    {
+      "text": "Resolver el procedimiento a favor de la persona para evitar revelar datos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La oficina de información no sustituye al órgano competente ni puede alterar el expediente.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G20, funciones de atención"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-009",
+    "clm-g-20-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+      "location": "artículo 3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Legitimación para conocer un expediente."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "g-01-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Reforma constitucional: referéndum del artículo 167",
+  "competency": "Distinguir el referéndum facultativo por solicitud parlamentaria.",
+  "difficulty": "medium",
+  "prompt": "Las Cortes Generales han aprobado una reforma por el procedimiento del artículo 167. ¿Cuándo debe someterse a referéndum?",
+  "options": [
+    {
+      "text": "Siempre, porque toda reforma constitucional exige referéndum.",
+      "isCorrect": false,
+      "feedback": "El referéndum es obligatorio en el artículo 168. En el artículo 167 depende de una solicitud parlamentaria válida.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G01, comparación de referéndums"
+    },
+    {
+      "text": "Cuando lo solicite, en los quince días siguientes, una décima parte de los miembros de cualquiera de las Cámaras.",
+      "isCorrect": true,
+      "feedback": "Correcto. Deben coincidir la fracción de una décima parte, cualquiera de las dos Cámaras y el plazo de quince días."
+    },
+    {
+      "text": "Cuando lo solicite el Gobierno dentro de los quince días siguientes.",
+      "isCorrect": false,
+      "feedback": "El artículo 167.3 no atribuye esta solicitud al Gobierno. La atribuye a una fracción de los miembros de cualquiera de las Cámaras.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G01, artículo 167.3"
+    },
+    {
+      "text": "Cuando lo pidan conjuntamente una décima parte del Congreso y otra décima parte del Senado en el plazo de un mes.",
+      "isCorrect": false,
+      "feedback": "No se exige una petición conjunta de ambas Cámaras y el plazo no es un mes. Basta la décima parte de cualquiera de ellas dentro de quince días.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G01, artículo 167.3"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-006",
+    "clm-g-01-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículos 167.3 y 168.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

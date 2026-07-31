@@ -1,0 +1,76 @@
+{
+  "id": "ss-12-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Obligaciones",
+  "competency": "Reconocer la comunicación de cambios",
+  "difficulty": "basic",
+  "prompt": "Una persona beneficiaria cambia de composición familiar y de ingresos. ¿Qué obligación debe considerar?",
+  "options": [
+    {
+      "text": "No comunicar nada hasta la renovación anual.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cambio puede ser relevante desde que se produce.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S12, obligaciones"
+    },
+    {
+      "text": "Comunicar las variaciones que puedan afectar al derecho o a la cuantía.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Ley 19/2021 impone obligaciones de comunicación y colaboración."
+    },
+    {
+      "text": "Renunciar automáticamente al IMV.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe comunicarse y la entidad revisará la situación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, obligaciones"
+    },
+    {
+      "text": "Cambiar la prestación por jubilación no contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son prestaciones distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, obligaciones"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-012",
+    "clm-ss-12-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "art. 33 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

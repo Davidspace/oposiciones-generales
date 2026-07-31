@@ -1,0 +1,267 @@
+{
+  "id": "CP02",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "full-case",
+  "title": "Deuda empresarial, aplazamiento y vÃ­a ejecutiva",
+  "scenario": "Una empresa mantiene impagadas las cuotas de mayo de 2026 y presenta una liquidaciÃ³n complementaria con errores en la base. La TesorerÃ­a General de la Seguridad Social corrige la deuda y emite una reclamaciÃ³n. La empresa no ingresa dentro del plazo, recibe una providencia de apremio, solicita un aplazamiento y comunica que parte de sus bienes estÃ¡n depositados por un tercero. Al mismo tiempo, una persona trabajadora solicita una prestaciÃ³n y la empresa pretende que la deuda recaudatoria determine por sÃ­ sola la respuesta sobre esa prestaciÃ³n.",
+  "originality": "original",
+  "assumptions": [
+    "La deuda corresponde a cuotas del RÃ©gimen General y estÃ¡ identificada por periodo y sujeto responsable.",
+    "No existe pago completo, suspensiÃ³n cautelar ni resoluciÃ³n firme que deje sin efecto la deuda.",
+    "La solicitud de aplazamiento se presenta despuÃ©s de la providencia y no equivale por sÃ­ sola a una concesiÃ³n.",
+    "Los hechos se resuelven con la normativa vigente al 30 de julio de 2026.",
+    "La prestaciÃ³n de la persona trabajadora se analiza con sus propios requisitos y no se sustituye por la deuda empresarial."
+  ],
+  "themes": [
+    "ss-04",
+    "ss-05",
+    "ss-06",
+    "ss-07",
+    "g-15",
+    "g-17",
+    "g-18"
+  ],
+  "competencies": [
+    "Determinar el sujeto responsable del ingreso de las cuotas",
+    "Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible",
+    "Ordenar el paso del periodo voluntario al ejecutivo",
+    "Identificar la funciÃ³n de una reclamaciÃ³n de deuda",
+    "Valorar los efectos de solicitar un aplazamiento",
+    "Reconocer el inicio de la vÃ­a ejecutiva",
+    "Distinguir deuda principal, recargo e intereses",
+    "Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva",
+    "Ordenar el embargo de bienes",
+    "Motivar un acto administrativo recaudatorio",
+    "Distinguir ejecutividad y ejecuciÃ³n forzosa",
+    "Seleccionar el recurso administrativo procedente",
+    "Separar la deuda empresarial de la acciÃ³n protectora",
+    "Aplicar el principio de identificaciÃ³n del periodo",
+    "Distinguir la intervenciÃ³n de un tercero en el embargo",
+    "Ordenar una notificaciÃ³n administrativa",
+    "Reconocer la responsabilidad en la acciÃ³n protectora",
+    "Distinguir la vÃ­a administrativa y judicial"
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-04",
+      "competency": "Determinar el sujeto responsable del ingreso de las cuotas",
+      "questionIds": [
+        "ss-04-q401"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible",
+      "questionIds": [
+        "ss-04-q402"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Ordenar el paso del periodo voluntario al ejecutivo",
+      "questionIds": [
+        "ss-05-q403"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Identificar la funciÃ³n de una reclamaciÃ³n de deuda",
+      "questionIds": [
+        "ss-05-q404"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Valorar los efectos de solicitar un aplazamiento",
+      "questionIds": [
+        "ss-05-q405"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Reconocer el inicio de la vÃ­a ejecutiva",
+      "questionIds": [
+        "ss-06-q406"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Distinguir deuda principal, recargo e intereses",
+      "questionIds": [
+        "ss-06-q407"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva",
+      "questionIds": [
+        "ss-06-q408"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Ordenar el embargo de bienes",
+      "questionIds": [
+        "ss-06-q409"
+      ]
+    },
+    {
+      "themeId": "g-15",
+      "competency": "Motivar un acto administrativo recaudatorio",
+      "questionIds": [
+        "g-15-q410"
+      ]
+    },
+    {
+      "themeId": "g-17",
+      "competency": "Distinguir ejecutividad y ejecuciÃ³n forzosa",
+      "questionIds": [
+        "g-17-q411"
+      ]
+    },
+    {
+      "themeId": "g-18",
+      "competency": "Seleccionar el recurso administrativo procedente",
+      "questionIds": [
+        "g-18-q412"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Separar la deuda empresarial de la acciÃ³n protectora",
+      "questionIds": [
+        "ss-07-q413"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Aplicar el principio de identificaciÃ³n del periodo",
+      "questionIds": [
+        "ss-05-q414"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Distinguir la intervenciÃ³n de un tercero en el embargo",
+      "questionIds": [
+        "ss-06-q415"
+      ]
+    },
+    {
+      "themeId": "g-17",
+      "competency": "Ordenar una notificaciÃ³n administrativa",
+      "questionIds": [
+        "g-17-q416"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Reconocer la responsabilidad en la acciÃ³n protectora",
+      "questionIds": [
+        "ss-07-q417"
+      ]
+    },
+    {
+      "themeId": "g-18",
+      "competency": "Distinguir la vÃ­a administrativa y judicial",
+      "questionIds": [
+        "g-18-q418"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-04-q401",
+    "ss-04-q402",
+    "ss-05-q403",
+    "ss-05-q404",
+    "ss-05-q405",
+    "ss-06-q406",
+    "ss-06-q407",
+    "ss-06-q408",
+    "ss-06-q409",
+    "g-15-q410",
+    "g-17-q411",
+    "g-18-q412",
+    "ss-07-q413",
+    "ss-05-q414",
+    "ss-06-q415",
+    "g-17-q416",
+    "ss-07-q417",
+    "g-18-q418"
+  ],
+  "mainQuestionIds": [
+    "ss-04-q401",
+    "ss-04-q402",
+    "ss-05-q403",
+    "ss-05-q404",
+    "ss-05-q405",
+    "ss-06-q406",
+    "ss-06-q407",
+    "ss-06-q408",
+    "ss-06-q409",
+    "g-15-q410",
+    "g-17-q411",
+    "g-18-q412",
+    "ss-07-q413",
+    "ss-05-q414",
+    "ss-06-q415"
+  ],
+  "reserveQuestionIds": [
+    "g-17-q416",
+    "ss-07-q417",
+    "g-18-q418"
+  ],
+  "consistencyRules": [
+    "La reclamaciÃ³n y la providencia se ordenan segÃºn la fase recaudatoria que corresponde.",
+    "La solicitud de aplazamiento no extingue ni concede automÃ¡ticamente el aplazamiento.",
+    "Las actuaciones administrativas deben estar motivadas, notificadas y sujetas a los recursos procedentes.",
+    "La deuda de cotizaciÃ³n y el reconocimiento de una prestaciÃ³n son decisiones relacionadas, pero no intercambiables."
+  ],
+  "durationMinutes": 40,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "assessment-only",
+  "normativeClaimIds": [
+    "clm-ss-04-401",
+    "clm-ss-04-402",
+    "clm-ss-05-403",
+    "clm-ss-05-404",
+    "clm-ss-05-405",
+    "clm-ss-06-406",
+    "clm-ss-06-407",
+    "clm-ss-06-408",
+    "clm-ss-06-409",
+    "clm-g-15-410",
+    "clm-g-17-411",
+    "clm-g-18-412",
+    "clm-ss-07-413",
+    "clm-ss-05-414",
+    "clm-ss-06-415",
+    "clm-g-17-416",
+    "clm-ss-07-417",
+    "clm-g-18-418"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador original de CP02 con quince decisiones principales y tres reservas."
+      }
+    ]
+  }
+}

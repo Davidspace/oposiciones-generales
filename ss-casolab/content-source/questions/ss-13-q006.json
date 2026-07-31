@@ -1,0 +1,78 @@
+{
+  "id": "ss-13-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Pago",
+  "competency": "Separar reconocimiento y pago",
+  "difficulty": "medium",
+  "prompt": "Un órgano reconoce una pensión y otra entidad materializa el pago. ¿Qué debe concluirse?",
+  "options": [
+    {
+      "text": "El órgano que reconoce siempre paga materialmente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es una regla universal.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S13, pago"
+    },
+    {
+      "text": "El pago no requiere título de reconocimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe existir una prestación reconocida y ordenada.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S13, pago"
+    },
+    {
+      "text": "Reconocimiento y pago son fases diferenciables que pueden corresponder a órganos distintos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La competencia debe asignarse según la ley."
+    },
+    {
+      "text": "La Tesorería decide siempre el derecho material a la prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Su función financiera y de servicio común no sustituye toda competencia gestora.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S13, pago"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-013",
+    "clm-ss-13-014",
+    "clm-ss-13-015",
+    "clm-ss-13-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 74 y 120 a 125",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

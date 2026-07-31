@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-22-015",
+  "assetId": "G22",
+  "version": "0.1.0",
+  "statement": "Las categorías especiales de datos tienen la prohibición general del artículo 9.1 y solo pueden tratarse si concurre una excepción del artículo 9.2.",
+  "sourceUrl": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+  "sourceLocation": "art. 9",
+  "officialPublication": "Reglamento (UE) 2016/679",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G22",
+    "g-22-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G22."
+      }
+    ]
+  }
+}

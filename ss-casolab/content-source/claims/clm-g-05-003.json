@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-003",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "La ley electoral fija 350 Diputados, asigna dos inicialmente a cada provincia y uno a Ceuta y otro a Melilla; para el Senado mantiene cuatro por provincia, tres en cada isla mayor, uno en cada una de las demás islas enumeradas, incluida Formentera, y dos en Ceuta y dos en Melilla.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672&p=20260702&tn=1",
+  "sourceLocation": "artículos 161.2, 162.1 a 3 y 165.1 a 3",
+  "officialPublication": "BOE núm. 147, de 20-06-1985; texto consolidado con última actualización publicada el 02-07-2026",
+  "validFrom": "2026-07-03",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con la redacción electoral vigente desde el 03-07-2026."
+      }
+    ]
+  }
+}

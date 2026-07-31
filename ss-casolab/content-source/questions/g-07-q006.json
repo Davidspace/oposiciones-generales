@@ -1,0 +1,77 @@
+{
+  "id": "g-07-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "Relaciones entre el Gobierno y las Cortes Generales",
+  "competency": "Diferenciar cuestión de confianza y moción de censura por iniciativa, mayoría y efecto.",
+  "difficulty": "high",
+  "prompt": "¿Qué comparación entre cuestión de confianza y moción de censura es correcta?",
+  "options": [
+    {
+      "text": "Ambas las inicia el Presidente y ambas requieren mayoría absoluta; si fracasan, el candidato de la oposición queda investido.",
+      "isCorrect": false,
+      "feedback": "La censura nace de Diputados y la confianza se otorga por mayoría simple; solo la aprobación de la censura produce la investidura de su candidato.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G07, diferencias entre confianza y censura"
+    },
+    {
+      "text": "La cuestión la plantea el Presidente tras deliberación del Consejo de Ministros y se supera por mayoría simple; la censura la propone al menos una décima parte de los Diputados, incluye candidato y exige mayoría absoluta, cuya aprobación inviste a ese candidato.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción distingue iniciativa, deliberación, contenido, mayoría y efecto de ambos mecanismos."
+    },
+    {
+      "text": "La censura puede votarse el mismo día de su presentación y no necesita candidato si la firma una décima parte de los Diputados.",
+      "isCorrect": false,
+      "feedback": "La moción debe incluir candidato y no puede votarse hasta que transcurran cinco días desde su presentación.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G07, carácter constructivo y plazo de la moción de censura"
+    },
+    {
+      "text": "Si se niega la confianza, el Presidente queda sustituido automáticamente por quien haya obtenido más votos en esa votación.",
+      "isCorrect": false,
+      "feedback": "La negativa obliga al Gobierno a presentar su dimisión y abre la designación conforme al artículo 99; no existe sustitución automática por otro participante en la votación.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G07, efecto de la confianza denegada"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-011",
+    "clm-g-07-012",
+    "clm-g-07-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 112 a 114",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

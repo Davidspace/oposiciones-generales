@@ -1,0 +1,77 @@
+{
+  "id": "g-19-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Carrera administrativa",
+  "competency": "distinguir modalidades de carrera",
+  "difficulty": "medium",
+  "prompt": "Una Administración permite progresar al personal sin cambiar de puesto, mediante los sistemas previstos en su normativa. ¿Qué modalidad describe?",
+  "options": [
+    {
+      "text": "Carrera vertical.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La carrera vertical supone ascenso en la estructura de puestos mediante provisión.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, artículo 16.3"
+    },
+    {
+      "text": "Carrera horizontal.",
+      "isCorrect": true,
+      "feedback": "Correcto. La carrera horizontal permite progresar sin necesidad de cambiar de puesto de trabajo."
+    },
+    {
+      "text": "Promoción interna, porque siempre implica conservar el mismo puesto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La promoción interna se refiere al acceso a otro cuerpo o escala y se somete a requisitos y pruebas.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G19, carrera y promoción"
+    },
+    {
+      "text": "Evaluación del desempeño, que por sí sola crea un nuevo grado de carrera.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La evaluación mide conducta y resultados; no equivale por sí sola a una modalidad de carrera.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, artículo 20"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-009",
+    "clm-g-19-010",
+    "clm-g-19-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 16 y 20",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Diferencia entre carrera horizontal y vertical."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-16-017",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "El registro electrónico permite presentar todos los días durante veinticuatro horas y, para un plazo del interesado fijado en días hábiles, la presentación en inhábil se entiende realizada en la primera hora del primer hábil siguiente salvo norma que admita recepción en inhábil.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 31.2.a y 31.2.b",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

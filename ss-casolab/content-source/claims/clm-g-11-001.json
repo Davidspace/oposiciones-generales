@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-001", "assetId": "G11", "version": "0.1.0",
+  "statement": "La Unión se fundamenta en el Tratado de la Unión Europea y en el Tratado de Funcionamiento de la Unión Europea, y ambos Tratados tienen el mismo valor jurídico.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_1/oj/spa", "sourceLocation": "artículo 1 TUE, párrafo tercero", "officialPublication": "DO C 202, de 07-06-2016; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q001", "g-11-q002"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre el valor jurídico del TUE y el TFUE."}]}
+}

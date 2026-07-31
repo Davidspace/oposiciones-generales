@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-01-005",
+  "assetId": "S01",
+  "version": "0.1.0",
+  "statement": "El artículo 1 del TRLGSS dispone que el derecho de los españoles a la Seguridad Social establecido en el artículo 41 de la Constitución se ajustará a lo previsto en esa ley.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a1",
+  "sourceLocation": "TRLGSS, título I, capítulo I, artículo 1",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "S01",
+    "ss-01-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

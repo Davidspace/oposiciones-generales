@@ -1,0 +1,81 @@
+{
+  "id": "ss-04-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Cotización durante incapacidad temporal",
+  "competency": "Aplicar la continuidad de la obligación de cotizar y la base de referencia durante una incapacidad temporal",
+  "difficulty": "high",
+  "prompt": "Una persona con remuneración mensual inicia una incapacidad temporal el primer día de abril de 2026 y permanece en esa situación todo el mes. Estuvo de alta durante todo marzo y su base de cotización de marzo fue de 1.800 euros. Sin otras incidencias, ¿qué tratamiento procede para contingencias comunes en abril?",
+  "options": [
+    {
+      "text": "Cesa la obligación de cotizar porque la relación laboral queda suspendida durante la incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La obligación de cotizar permanece durante la incapacidad temporal aunque exista suspensión de la relación laboral.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S04, apartado 6.1: continuidad de la obligación de cotizar en situaciones protegidas."
+    },
+    {
+      "text": "La obligación continúa, pero la base es cero porque durante abril no se devenga salario ordinario por trabajo efectivo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base durante incapacidad temporal se determina mediante la referencia normativa al período anterior; no se reduce automáticamente a cero por falta de trabajo efectivo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S04, apartado 6.1: base de referencia durante incapacidad temporal frente a salario del mes."
+    },
+    {
+      "text": "La obligación continúa y la base de abril es 1.800 euros: se toma la base de marzo, se divide entre 30 y se multiplica por los 30 días de la situación.",
+      "isCorrect": true,
+      "feedback": "Correcto. Para una persona con remuneración mensual y alta durante todo el mes anterior, la base anterior se divide entre 30. Al permanecer todo abril en incapacidad temporal, 1.800 / 30 × 30 mantiene una base de 1.800 euros."
+    },
+    {
+      "text": "La base debe ser siempre la base máxima mensual de 2026 mientras dure la incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base máxima opera como límite, no como base automática para cualquier situación de incapacidad temporal.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S04, apartados 3.3 y 6.1: función de los límites y cálculo de la base en situaciones protegidas."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-004",
+    "clm-ss-04-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a144",
+      "location": "TRLGSS, artículo 144.4",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a6",
+      "location": "Orden PJC/297/2026, artículo 6.1 y 6.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de cálculo aplicado con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

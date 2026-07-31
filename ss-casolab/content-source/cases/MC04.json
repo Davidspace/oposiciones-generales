@@ -1,0 +1,108 @@
+{
+  "id": "MC04",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Deuda, periodo voluntario y apremio",
+  "scenario": "Una empresa deja pendiente la liquidación de cuotas de febrero de 2026. Recibe una reclamación de deuda y no acredita el pago dentro del periodo indicado. Más tarde recibe una providencia de apremio y solicita un aplazamiento.",
+  "originality": "original",
+  "assumptions": [
+    "La deuda está correctamente determinada y no existe un recurso que suspenda su exigibilidad.",
+    "No se declara una garantía, pago parcial o causa de fuerza mayor distinta de las descritas.",
+    "La empresa sigue de alta y mantiene actividad durante todo el caso.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-05",
+    "ss-06"
+  ],
+  "competencies": [
+    "Distinguir el periodo voluntario del periodo ejecutivo.",
+    "Identificar la función de la reclamación de deuda.",
+    "Reconocer la providencia de apremio como inicio de la vía ejecutiva.",
+    "Explicar el efecto de un aplazamiento concedido.",
+    "Separar la deuda de cotización de una sanción administrativa."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-05",
+      "competency": "Distinguir el periodo voluntario del periodo ejecutivo.",
+      "questionIds": [
+        "ss-05-q301"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Identificar la función de la reclamación de deuda.",
+      "questionIds": [
+        "ss-05-q302"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Reconocer la providencia de apremio como inicio de la vía ejecutiva.",
+      "questionIds": [
+        "ss-06-q303"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Explicar el efecto de un aplazamiento concedido.",
+      "questionIds": [
+        "ss-05-q304"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Separar la deuda de cotización de una sanción administrativa.",
+      "questionIds": [
+        "ss-06-q305"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-05-q301",
+    "ss-05-q302",
+    "ss-06-q303",
+    "ss-05-q304",
+    "ss-06-q305"
+  ],
+  "consistencyRules": [
+    "La empresa no puede tratar el periodo ejecutivo como una ampliación automática del periodo voluntario.",
+    "La providencia de apremio se analiza después de la falta de ingreso en plazo.",
+    "El aplazamiento solo produce los efectos que reconozca la resolución y la normativa aplicable."
+  ],
+  "durationMinutes": 12,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "medium",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-05-101",
+    "clm-ss-05-102",
+    "clm-ss-05-103",
+    "clm-ss-05-104",
+    "clm-ss-05-105"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC04 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "g-15-q410",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "CP02 — decisión 10",
+  "competency": "Motivar un acto administrativo recaudatorio",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe contener la resoluciÃ³n que rechaza la alegaciÃ³n de la empresa?",
+  "options": [
+    {
+      "text": "Los hechos, fundamentos y razones que permitan conocer por quÃ© se mantiene la deuda.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Los hechos, fundamentos y razones que permitan conocer por quÃ© se mantiene la deuda."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar motivar un acto administrativo recaudatorio.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culo 35.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Motivar un acto administrativo recaudatorio"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culo 35.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Motivar un acto administrativo recaudatorio"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culo 35.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Motivar un acto administrativo recaudatorio"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-410"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "Ley 39/2015, artÃ­culo 35",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

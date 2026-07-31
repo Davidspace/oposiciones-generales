@@ -1,0 +1,75 @@
+{
+  "id": "g-15-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "Publicación",
+  "competency": "aplicar la publicación en un procedimiento selectivo",
+  "difficulty": "medium",
+  "prompt": "En un procedimiento selectivo, la convocatoria indica el diario oficial donde se harán las publicaciones sucesivas. Una lista se difunde solo en una red social distinta. ¿Qué regla aplica?",
+  "options": [
+    {
+      "text": "Cualquier difusión pública sustituye al medio indicado si alcanza a muchas personas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El precepto niega validez a las publicaciones realizadas en lugares distintos del indicado en la convocatoria.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G15, apartado 3.3 «Publicación»"
+    },
+    {
+      "text": "Los actos del procedimiento selectivo deben publicarse en el medio indicado por la convocatoria y las publicaciones en lugares distintos carecen de validez a esos efectos.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 45.1.b hace que la publicación surta efectos de notificación y vincula las publicaciones sucesivas al medio señalado."
+    },
+    {
+      "text": "La publicación nunca puede producir efectos de notificación en procedimientos selectivos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es uno de los casos en que la ley establece expresamente esos efectos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G15, apartado 3.3 «Publicación»"
+    },
+    {
+      "text": "Debe notificarse individualmente a toda persona posible aunque la convocatoria haya fijado el medio válido.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. En este supuesto la publicación es la vía prevista por el artículo 45.1.b y la convocatoria determina su medio.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G15, apartado 3.3 «Publicación»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 45.1.b",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

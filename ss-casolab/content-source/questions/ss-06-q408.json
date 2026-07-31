@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q408",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "CP02 — decisión 8",
+  "competency": "Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe hacer la empresa si alega que la deuda ya fue pagada?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar identificar motivos de oposiciã³n a la vã­a ejecutiva.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 46.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 46.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 46.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Identificar motivos de oposiciÃ³n a la vÃ­a ejecutiva"
+    },
+    {
+      "text": "Acreditar el pago y plantear la oposiciÃ³n por el cauce y dentro del plazo previstos.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Acreditar el pago y plantear la oposiciÃ³n por el cauce y dentro del plazo previstos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-408"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artÃ­culo 46",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

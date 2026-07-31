@@ -1,0 +1,76 @@
+{
+  "id": "ss-07-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Incompatibilidad de pensiones",
+  "competency": "Resolver el pago inicial y el derecho de opción ante dos pensiones incompatibles",
+  "difficulty": "medium",
+  "prompt": "Una persona percibe una pensión del Régimen General de 11.200 euros anuales y causa otra pensión del mismo régimen de 14.000 euros anuales. No existe una excepción de compatibilidad. ¿Qué debe ocurrir?",
+  "options": [
+    {
+      "text": "La entidad abona la de 14.000 euros y suspende la de 11.200; el interesado puede optar por la suspendida, con efectos desde el primer día del mes siguiente a su solicitud.",
+      "isCorrect": true,
+      "feedback": "Correcto. Se aplica la mayor cuantía anual, sin eliminar el derecho del interesado a pedir la revocación y optar por la pensión suspendida."
+    },
+    {
+      "text": "La entidad mantiene siempre la pensión más antigua y extingue definitivamente la nueva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La antigüedad no decide. La entidad abona la pensión de mayor cuantía anual y suspende la incompatible; no la extingue por esa causa.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S07, apartado 3: cuantía anual, suspensión y opción."
+    },
+    {
+      "text": "La entidad abona ambas durante un año y después reclama al beneficiario la de menor cuantía.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Al constatar la incompatibilidad, la regla no autoriza un año de cobro simultáneo ni establece ese mecanismo de reclamación posterior.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S07, apartado 3: actuación inmediata ante la nueva pensión incompatible."
+    },
+    {
+      "text": "La persona puede acumular automáticamente ambas porque toda pensión causada en fechas distintas es compatible.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. En el Régimen General, la coincidencia de pensiones en un beneficiario determina incompatibilidad salvo excepción legal o reglamentaria expresa.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S07, apartado 3: presupuesto de la incompatibilidad y excepción expresa."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-006",
+    "clm-ss-07-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a163",
+      "location": "TRLGSS, artículo 163",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

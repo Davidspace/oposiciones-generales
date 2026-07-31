@@ -1,0 +1,76 @@
+{
+  "id": "g-04-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Posición constitucional del Rey",
+  "competency": "Distinguir la función arbitral y moderadora de una competencia política no atribuida expresamente.",
+  "difficulty": "medium",
+  "prompt": "Una nota institucional sostiene que, por su función de arbitrar y moderar, el Rey puede fijar por sí mismo una nueva política general aunque ninguna norma le atribuya esa decisión. ¿Qué valoración se ajusta al artículo 56?",
+  "options": [
+    {
+      "text": "No es correcta: el Rey arbitra y modera el funcionamiento regular de las instituciones, pero solo ejerce las funciones atribuidas expresamente por la Constitución y las leyes.",
+      "isCorrect": true,
+      "feedback": "Correcto. La condición de Jefe del Estado y la función arbitral deben leerse junto al límite de atribución expresa del artículo 56.1."
+    },
+    {
+      "text": "Es correcta, porque la función arbitral permite al Rey asumir cualquier competencia cuando considere que mejora el funcionamiento de las instituciones.",
+      "isCorrect": false,
+      "feedback": "La función de arbitrar y moderar no es una habilitación ilimitada. El artículo 56.1 exige una atribución expresa de la Constitución o de las leyes para cada función.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G04, posición constitucional y atribución expresa"
+    },
+    {
+      "text": "Es correcta si la política recibe después el refrendo de las Cortes Generales reunidas en sesión conjunta.",
+      "isCorrect": false,
+      "feedback": "El refrendo no crea una función real inexistente y las Cortes Generales en sesión conjunta no son el refrendante general del artículo 64.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G04, diferencia entre atribución de la función y refrendo"
+    },
+    {
+      "text": "No es correcta únicamente porque el Rey responde personalmente de todas las decisiones políticas que adopta.",
+      "isCorrect": false,
+      "feedback": "La conclusión parte de una razón equivocada: el artículo 56.3 declara inviolable a la persona del Rey y no sujeta a responsabilidad; la responsabilidad del acto refrendado corresponde al refrendante.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G04, inviolabilidad, responsabilidad y refrendo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-001",
+    "clm-g-04-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 56.1 a 56.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

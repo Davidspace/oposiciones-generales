@@ -1,0 +1,76 @@
+{
+  "id": "ss-11-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Accidente laboral",
+  "competency": "Aplicar una regla de contingencia",
+  "difficulty": "high",
+  "prompt": "El fallecimiento deriva de accidente de trabajo. ¿Qué comprobación adicional debe realizarse?",
+  "options": [
+    {
+      "text": "Aplicar siempre el régimen de enfermedad común.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La contingencia profesional tiene reglas propias.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, accidente de trabajo"
+    },
+    {
+      "text": "Ignorar el hecho causante porque solo importa el vínculo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La contingencia puede ser decisiva.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S11, accidente de trabajo"
+    },
+    {
+      "text": "Reconocer jubilación anticipada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El fallecimiento sitúa el caso en muerte y supervivencia.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S11, accidente de trabajo"
+    },
+    {
+      "text": "Revisar las reglas específicas de muerte derivada de contingencia profesional y sus efectos económicos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La contingencia profesional puede modificar requisitos y efectos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-006",
+    "clm-ss-11-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 217 y 219",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

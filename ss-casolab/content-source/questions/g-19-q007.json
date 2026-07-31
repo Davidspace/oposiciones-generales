@@ -1,0 +1,77 @@
+{
+  "id": "g-19-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Régimen disciplinario",
+  "competency": "aplicar principios disciplinarios",
+  "difficulty": "high",
+  "prompt": "Al calificar una conducta como infracción, ¿qué conjunto de principios debe respetar la potestad disciplinaria?",
+  "options": [
+    {
+      "text": "Solo oportunidad y eficacia, porque la disciplina es una potestad discrecional.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La potestad disciplinaria está sometida a principios de legalidad y garantías.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G19, artículo 94.2"
+    },
+    {
+      "text": "Tipicidad únicamente; la proporcionalidad no se aplica a las sanciones administrativas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La proporcionalidad es un límite expreso de la potestad disciplinaria.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, principios disciplinarios"
+    },
+    {
+      "text": "Presunción de culpabilidad hasta que la persona pruebe lo contrario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El TREBEP reconoce la presunción de inocencia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, artículo 94.2"
+    },
+    {
+      "text": "Legalidad, tipicidad, proporcionalidad, culpabilidad y presunción de inocencia, entre otros principios legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 94.2 enumera los principios que limitan la responsabilidad disciplinaria."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-015",
+    "clm-g-19-016",
+    "clm-g-19-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 94 y 95",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Principios de la potestad disciplinaria."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

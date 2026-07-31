@@ -1,0 +1,69 @@
+{
+  "id": "g-06-q003",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "Principio de unidad jurisdiccional",
+  "competency": "Aplicar los límites constitucionales de la jurisdicción militar y la prohibición de tribunales de excepción.",
+  "difficulty": "medium",
+  "prompt": "Se propone crear, después de unos hechos de gran repercusión, un tribunal especial ajeno a la organización ordinaria para juzgar exclusivamente a las personas implicadas. ¿Qué regla resulta decisiva?",
+  "options": [
+    {
+      "text": "Es admisible si el tribunal se crea por mayoría absoluta del Congreso.",
+      "isCorrect": false,
+      "feedback": "La mayoría parlamentaria no salva la prohibición constitucional de los tribunales de excepción.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G06, prohibición de tribunales de excepción"
+    },
+    {
+      "text": "Es admisible porque la unidad jurisdiccional solo impide que existan órdenes especializados.",
+      "isCorrect": false,
+      "feedback": "Los órdenes y la especialización legal son compatibles con la unidad. Lo prohibido aquí es crear un tribunal excepcional para hechos o personas determinados.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, unidad y especialización judicial"
+    },
+    {
+      "text": "Es contrario a la Constitución: la unidad jurisdiccional fundamenta la organización judicial y están prohibidos los tribunales de excepción.",
+      "isCorrect": true,
+      "feedback": "Correcto. La reacción a un caso concreto debe operar mediante los órganos y reglas de competencia preestablecidos, no creando un tribunal excepcional."
+    },
+    {
+      "text": "Debe conocer siempre la jurisdicción militar por tratarse de hechos de especial gravedad.",
+      "isCorrect": false,
+      "feedback": "La gravedad no determina la jurisdicción militar, que se limita al ámbito estrictamente castrense y a los supuestos de estado de sitio.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G06, límites de la jurisdicción militar"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 117, apartados 5 y 6",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

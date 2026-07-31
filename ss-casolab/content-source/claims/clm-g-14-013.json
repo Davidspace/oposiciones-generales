@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-14-013",
+  "assetId": "G14",
+  "version": "0.1.0",
+  "statement": "Los principios generales del derecho se aplican en defecto de ley o costumbre, sin perjuicio de su carácter informador del ordenamiento jurídico.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+  "sourceLocation": "artículo 1.4",
+  "officialPublication": "Decreto 1836/1974, BOE-A-1974-1083; concordancia vigente consultada en BOE-A-1889-4763",
+  "validFrom": "1974-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G14",
+    "g-14-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

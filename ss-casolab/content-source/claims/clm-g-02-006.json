@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-02-006",
+  "assetId": "G02",
+  "version": "0.1.0",
+  "statement": "El artículo 17 reconoce el derecho a la libertad y seguridad, limita la detención preventiva al tiempo estrictamente necesario y a un máximo de 72 horas, exige información y asistencia letrada en los términos constitucionales y ordena que la ley regule el habeas corpus.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "artículo 17, apartados 1 a 4",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G02",
+    "content-source/modules/G02/lesson.md",
+    "content-source/modules/G02/review.md",
+    "g-02-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

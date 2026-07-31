@@ -1,0 +1,70 @@
+{
+  "id": "ss-11-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Favor de familiares",
+  "competency": "Distinguir dependencia económica",
+  "difficulty": "medium",
+  "prompt": "Una hermana convivía con el causante y dependía económicamente de él. ¿Qué debe analizarse?",
+  "options": [
+    {
+      "text": "La prestación en favor de familiares y sus requisitos de parentesco, convivencia y dependencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es una prestación diferenciada de viudedad y orfandad."
+    },
+    {
+      "text": "Viudedad, porque cualquier convivencia equivale a matrimonio.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El vínculo debe ser el previsto para viudedad.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S11, familiares"
+    },
+    {
+      "text": "Orfandad, porque toda persona dependiente es descendiente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Dependencia y filiación son categorías distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, familiares"
+    },
+    {
+      "text": "Jubilación contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El hecho causante es el fallecimiento del familiar.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S11, familiares"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-009",
+    "clm-ss-11-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 226 y 229",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q004."
+      }
+    ]
+  }
+}

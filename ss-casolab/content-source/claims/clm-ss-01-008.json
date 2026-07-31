@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-ss-01-008",
+  "assetId": "S01",
+  "version": "0.1.0",
+  "statement": "Los títulos III, IV, V y VI del TRLGSS regulan, respectivamente, la protección por desempleo, el Régimen Especial de trabajadores por cuenta propia o autónomos, la protección por cese de actividad y las prestaciones no contributivas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "TRLGSS, rúbricas de los títulos III, IV, V y VI",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "S01",
+    "ss-01-q006",
+    "ss-01-q007",
+    "ss-01-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

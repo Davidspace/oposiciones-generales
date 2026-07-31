@@ -1,0 +1,65 @@
+{
+  "fecha_corte": "2026-07-30",
+  "variantes_cuestionario_analizadas": 6,
+  "sesiones_canonicas": 5,
+  "preguntas_registradas": 546,
+  "preguntas_canonicas_para_frecuencia": 455,
+  "variantes_paralelas_excluidas_de_frecuencia": 91,
+  "teoricas": 438,
+  "practicas": 108,
+  "reservas": 36,
+  "anuladas": 11,
+  "modificadas": 1,
+  "baja_confianza": 0,
+  "criterio_modelos": "La base conserva A de cada familia y los dos colores A de 2026 para trazabilidad. Los modelos B oficiales se conservan en PDF como variantes de orden/opciones. Las frecuencias cuentan una sola variante por sesión y no duplican Verde 2026.",
+  "parseo": [
+    {
+      "key": "2024_conv2023_ordinario_A",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": true
+    },
+    {
+      "key": "2025_conv2023_extraordinario",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": true
+    },
+    {
+      "key": "2025_conv2024_ordinario_A",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": true
+    },
+    {
+      "key": "2025_conv2024_extraordinario",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": true
+    },
+    {
+      "key": "2026_conv2025_rojo_A",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": true
+    },
+    {
+      "key": "2026_conv2025_verde_A",
+      "questions": 91,
+      "expected": 91,
+      "theory": 73,
+      "practical": 18,
+      "computada_en_frecuencia": false
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ss-13-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Recursos",
+  "competency": "Clasificar recursos del sistema",
+  "difficulty": "basic",
+  "prompt": "¿Cuál es un recurso general de la Seguridad Social?",
+  "options": [
+    {
+      "text": "Cualquier donación privada sin aceptación ni norma.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe existir un título y cauce legal.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S13, recursos"
+    },
+    {
+      "text": "Las cotizaciones y demás ingresos previstos legalmente.",
+      "isCorrect": true,
+      "feedback": "Correcto. Forman parte de los recursos del sistema."
+    },
+    {
+      "text": "Solo los rendimientos de edificios.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las cotizaciones son un recurso esencial.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S13, recursos"
+    },
+    {
+      "text": "Las multas de cualquier Administración sin conexión legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No todo ingreso público pertenece al sistema.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S13, recursos"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-001",
+    "clm-ss-13-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 109 y 110",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

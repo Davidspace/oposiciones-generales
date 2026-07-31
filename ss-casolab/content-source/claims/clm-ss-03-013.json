@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-013",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "El alta previa produce efectos desde el inicio de la actividad; el alta solicitada fuera de plazo produce, como regla general, efectos desde la solicitud, sin perjuicio de la excepción reglamentaria por ingreso en plazo de las primeras cuotas y de que la obligación de cotizar nace desde el inicio de la actividad.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a35",
+  "sourceLocation": "Real Decreto 84/1996, artículo 35.1.1.º y 35.1.3.º",
+  "officialPublication": "BOE-A-1996-4447; redacción consolidada del artículo 35",
+  "validFrom": "2015-07-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q005", "CP01", "ss-03-q205", "ss-03-q206"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

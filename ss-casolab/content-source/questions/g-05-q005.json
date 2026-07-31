@@ -1,0 +1,75 @@
+{
+  "id": "g-05-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Veto del Senado",
+  "competency": "Aplicar el plazo y la mayoría para superar un veto del Senado.",
+  "difficulty": "high",
+  "prompt": "El Senado veta por mayoría absoluta un proyecto no urgente cuarenta días después de recibirlo. El Congreso quiere mantener de inmediato su texto inicial. ¿Qué necesita?",
+  "options": [
+    {
+      "text": "Ratificar el texto inicial por mayoría absoluta; si esperase dos meses desde la interposición del veto, podría hacerlo por mayoría simple.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta distingue la superación inmediata por mayoría absoluta de la superación posterior por mayoría simple."
+    },
+    {
+      "text": "Mayoría simple del Congreso, porque el veto ya fue aprobado por el Senado.",
+      "isCorrect": false,
+      "feedback": "La mayoría simple solo basta cuando han transcurrido dos meses desde la interposición del veto. Para reaccionar de inmediato se exige mayoría absoluta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G05, mayoría para superar el veto"
+    },
+    {
+      "text": "Esperar necesariamente otros veinte días naturales, aunque obtenga mayoría absoluta.",
+      "isCorrect": false,
+      "feedback": "Los veinte días naturales son el plazo total del Senado para proyectos urgentes. Este proyecto no es urgente y el Congreso puede ratificar de inmediato por mayoría absoluta.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G05, plazo ordinario y plazo urgente del Senado"
+    },
+    {
+      "text": "Un acuerdo conjunto de Congreso y Senado, porque todo veto abre una sesión conjunta.",
+      "isCorrect": false,
+      "feedback": "El artículo 90 devuelve la decisión al Congreso. No prevé una sesión conjunta para superar el veto legislativo.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G05, secuencia Congreso-Senado-Congreso"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 90.2 y 90.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

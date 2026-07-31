@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q204",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "CP01 — Pregunta principal 6: sistemas especiales",
+  "competency": "Distinguir un sistema especial de una elección empresarial de encuadramiento",
+  "difficulty": "medium",
+  "prompt": "La sociedad de CP01 pretende declarar por sí sola un «sistema especial» para A, B, D y E y cambiar así sus reglas de afiliación. ¿Qué respuesta procede?",
+  "options": [
+    {
+      "text": "Puede hacerlo si todas las personas trabajadoras lo aceptan por escrito, aunque ninguna norma establezca el sistema.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El consentimiento no crea un sistema especial ni desplaza el encuadramiento legal aplicable a las actividades ordinarias descritas.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 4.1: establecimiento y materias de los sistemas especiales."
+    },
+    {
+      "text": "Puede hacerlo porque todo sistema especial constituye un régimen independiente elegido por el empresario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un sistema especial opera dentro del régimen correspondiente; no es un régimen independiente ni una elección unilateral.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartados 1.2 y 4.1: régimen frente a sistema especial."
+    },
+    {
+      "text": "Solo puede crearlo para modificar libremente la acción protectora, materia exclusiva de cualquier sistema especial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 11 enumera encuadramiento, afiliación, forma de cotización y recaudación; no atribuye a la empresa libertad para redefinir la acción protectora.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S02, apartado 4.1: cuatro materias del artículo 11."
+    },
+    {
+      "text": "No puede hacerlo: los sistemas especiales se establecen, cuando resultan necesarios, dentro del régimen correspondiente y solo en las materias delimitadas por el artículo 11.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 11 limita los sistemas especiales a encuadramiento, afiliación, forma de cotización o recaudación dentro del régimen; no autoriza a cada empresa a crear uno para su plantilla."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a11",
+      "location": "TRLGSS, artículo 11",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 6 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

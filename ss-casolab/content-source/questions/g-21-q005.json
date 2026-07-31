@@ -1,0 +1,77 @@
+{
+  "id": "g-21-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Dependencia",
+  "competency": "Diferenciar dependencia de discapacidad",
+  "difficulty": "medium",
+  "prompt": "Una persona necesita apoyo permanente para varias actividades básicas de la vida diaria por una enfermedad. ¿Qué concepto debe analizarse según la Ley 39/2006?",
+  "options": [
+    {
+      "text": "Incapacidad laboral permanente en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La dependencia y la incapacidad laboral tienen requisitos y efectos distintos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, dependencia"
+    },
+    {
+      "text": "Dependencia, sin que ello permita afirmar automáticamente incapacidad laboral.",
+      "isCorrect": true,
+      "feedback": "Correcto. La dependencia se refiere a la necesidad de apoyos para actividades básicas de la vida diaria."
+    },
+    {
+      "text": "Discriminación indirecta por razón de sexo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No hay datos para esa clasificación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G21, dependencia"
+    },
+    {
+      "text": "Violencia de género por existir una necesidad de apoyo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El apoyo no determina ese ámbito.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G21, dependencia"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-012",
+    "clm-g-21-013",
+    "clm-g-21-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2006-21990",
+      "location": "art. 2.2 Ley 39/2006",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

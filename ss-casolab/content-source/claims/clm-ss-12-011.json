@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-12-011",
+  "assetId": "S12",
+  "version": "0.1.0",
+  "statement": "La cuantía del IMV no se determina con una cifra fija universal, sino con la estructura legal y los datos de la unidad.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "arts. 10 a 17",
+  "officialPublication": "Ley 19/2021",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S12",
+    "ss-12-q004",
+    "ss-12-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S12."
+      }
+    ]
+  }
+}

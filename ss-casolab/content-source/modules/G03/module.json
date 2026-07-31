@@ -1,0 +1,138 @@
+{
+  "id": "G03",
+  "themeId": "g-03",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Tribunal Constitucional",
+  "learningOutcomes": [
+    "Describir la posición constitucional, composición y estatuto básico del Tribunal Constitucional.",
+    "Distinguir Pleno, Salas y Secciones y asignarles su función general.",
+    "Relacionar cada atribución con el proceso constitucional adecuado.",
+    "Diferenciar recurso y cuestión de inconstitucionalidad por objeto y promotor.",
+    "Identificar quién está legitimado para interponer un recurso de inconstitucionalidad o de amparo.",
+    "Aplicar el efecto suspensivo de la impugnación prevista en el artículo 161.2.",
+    "Reconocer la publicación, firmeza y efectos de las sentencias constitucionales."
+  ],
+  "decisions": [
+    "Distribuir los doce nombramientos entre Congreso, Senado, Gobierno y Consejo General del Poder Judicial.",
+    "Comprobar profesión jurídica, experiencia, mandato, renovación e incompatibilidades.",
+    "Distinguir la elección interna del Presidente de su nombramiento por el Rey.",
+    "Elegir entre Pleno, Sala y Sección según la función descrita.",
+    "Separar recurso de inconstitucionalidad, cuestión de inconstitucionalidad y amparo.",
+    "Comprobar si el actor tiene legitimación constitucional para iniciar el proceso.",
+    "Determinar si una impugnación suspende la norma o resolución recurrida.",
+    "Aplicar los efectos constitucionales de una sentencia publicada."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Organización",
+      "objective": "Distinguir la posición del Tribunal Constitucional de la jurisdicción ordinaria y reconocer su marco normativo.",
+      "sectionId": "g03-posicion",
+      "activityIds": [
+        "g-03-q004"
+      ]
+    },
+    {
+      "officialClause": "Composición",
+      "objective": "Aplicar la distribución de propuestas, los requisitos y la duración del mandato.",
+      "sectionId": "g03-composicion",
+      "activityIds": [
+        "g-03-q001",
+        "g-03-q002"
+      ]
+    },
+    {
+      "officialClause": "Organización",
+      "objective": "Distinguir Pleno, Salas y Secciones por composición y función.",
+      "sectionId": "g03-organizacion",
+      "activityIds": [
+        "g-03-q003"
+      ]
+    },
+    {
+      "officialClause": "Atribuciones",
+      "objective": "Elegir el procedimiento de control constitucional adecuado.",
+      "sectionId": "g03-atribuciones",
+      "activityIds": [
+        "g-03-q004"
+      ]
+    },
+    {
+      "officialClause": "Atribuciones",
+      "objective": "Identificar la legitimación para los recursos de inconstitucionalidad y amparo.",
+      "sectionId": "g03-legitimacion",
+      "activityIds": [
+        "g-03-q005",
+        "g-03-q006"
+      ]
+    },
+    {
+      "officialClause": "Atribuciones",
+      "objective": "Aplicar el efecto y el plazo constitucional de revisión de la impugnación del artículo 161.2.",
+      "sectionId": "g03-impugnacion-autonomica",
+      "activityIds": [
+        "g-03-q007"
+      ]
+    },
+    {
+      "officialClause": "Atribuciones",
+      "objective": "Reconocer la publicación, firmeza y alcance de las sentencias constitucionales.",
+      "sectionId": "g03-resoluciones",
+      "activityIds": [
+        "g-03-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G03/lesson.md",
+  "reviewSheetPath": "content-source/modules/G03/review.md",
+  "normativeClaimIds": [
+    "clm-g-03-001",
+    "clm-g-03-002",
+    "clm-g-03-003",
+    "clm-g-03-004",
+    "clm-g-03-005",
+    "clm-g-03-006",
+    "clm-g-03-007",
+    "clm-g-03-008",
+    "clm-g-03-009",
+    "clm-g-03-010",
+    "clm-g-03-011",
+    "clm-g-03-012",
+    "clm-g-03-013",
+    "clm-g-03-014",
+    "clm-g-03-015",
+    "clm-g-03-016",
+    "clm-g-03-017",
+    "clm-g-03-018",
+    "clm-g-03-019"
+  ],
+  "questionIds": [
+    "g-03-q001",
+    "g-03-q002",
+    "g-03-q003",
+    "g-03-q004",
+    "g-03-q005",
+    "g-03-q006",
+    "g-03-q007",
+    "g-03-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y de su mapa órgano-función-procedimiento."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

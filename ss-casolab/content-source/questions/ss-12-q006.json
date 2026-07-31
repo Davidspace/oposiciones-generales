@@ -1,0 +1,77 @@
+{
+  "id": "ss-12-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Cuantía",
+  "competency": "Aplicar estructura de cálculo",
+  "difficulty": "medium",
+  "prompt": "¿Qué estructura describe la cuantía del IMV?",
+  "options": [
+    {
+      "text": "Última nómina multiplicada por un porcentaje fijo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El IMV no se calcula así.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S12, cuantía"
+    },
+    {
+      "text": "La cuantía de la pensión contributiva más alta de la unidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es otra lógica de cálculo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, cuantía"
+    },
+    {
+      "text": "Renta garantizada aplicable menos ingresos computables, con los límites y complementos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La cuantía no es una cifra universal."
+    },
+    {
+      "text": "Una cantidad idéntica para todas las unidades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Depende de composición y recursos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, cuantía"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-010",
+    "clm-ss-12-011",
+    "clm-ss-12-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "art. 13 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

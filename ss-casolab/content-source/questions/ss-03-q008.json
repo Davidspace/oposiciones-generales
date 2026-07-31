@@ -1,0 +1,87 @@
+{
+  "id": "ss-03-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Convenio especial general: requisitos, cobertura y efectos",
+  "competency": "Aplicar los umbrales temporal y material del convenio especial",
+  "difficulty": "high",
+  "prompt": "Lucía causa baja, encaja en un supuesto habilitante del convenio especial general, acredita la carencia exigida y presenta la solicitud setenta y cinco días naturales después. ¿Qué afirmación es correcta?",
+  "options": [
+    {
+      "text": "La solicitud es tardía porque todo convenio debe pedirse dentro de los treinta días siguientes a la baja.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regulación general usa un plazo de un año para solicitar y un umbral de noventa días para determinar los efectos; no establece aquí un límite general de treinta días.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartados 5.2 y 5.3: año para solicitar y noventa días para efectos."
+    },
+    {
+      "text": "Produce efectos solo desde la solicitud porque cualquier presentación posterior al cese impide la retroacción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La presentación posterior no elimina la regla de efectos si se realiza dentro de los noventa días naturales.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S03, apartado 5.3: regla de efectos dentro de noventa días."
+    },
+    {
+      "text": "Produce efectos desde el día siguiente a la baja y cubre automáticamente desempleo, FOGASA y formación profesional.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La fecha puede ser correcta, pero la cobertura no: el artículo 1 excluye con carácter general desempleo, FOGASA y formación profesional.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S03, apartado 5.2: alcance y exclusiones del convenio."
+    },
+    {
+      "text": "Al presentar dentro de noventa días, el convenio produce efectos desde el día siguiente a la baja, en las contingencias y condiciones cubiertas por su regulación.",
+      "isCorrect": true,
+      "feedback": "Correcto. Setenta y cinco días está dentro del umbral que enlaza los efectos con el día siguiente a la baja; la cobertura sigue limitada por el convenio."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-018",
+    "clm-ss-03-019",
+    "clm-ss-03-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19281#a1",
+      "location": "Orden TAS/2865/2003, artículo 1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19281#a3",
+      "location": "Orden TAS/2865/2003, artículos 2 y 3",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19281#a5",
+      "location": "Orden TAS/2865/2003, artículo 5.2.1 y 5.2.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

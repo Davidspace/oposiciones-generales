@@ -1,0 +1,69 @@
+{
+  "id": "g-13-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "Concepto y clases",
+  "competency": "identificar la enumeración legal de fuentes",
+  "difficulty": "basic",
+  "prompt": "Según el artículo 1.1 del Código Civil, ¿qué elementos son fuentes del ordenamiento jurídico español?",
+  "options": [
+    {
+      "text": "La ley, la costumbre y los principios generales del derecho.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la enumeración del artículo 1.1. La pregunta pide la lista legal, no una clasificación doctrinal más amplia."
+    },
+    {
+      "text": "La ley, la jurisprudencia y la equidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Jurisprudencia y equidad no aparecen en la lista del artículo 1.1; esa lista incluye en su lugar la costumbre y los principios generales.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartados 3.1 y 4.2"
+    },
+    {
+      "text": "La Constitución, los reglamentos y los actos administrativos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esos términos no forman la enumeración cerrada que pide la pregunta: ley, costumbre y principios generales del derecho.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 1 «Una definición de trabajo»"
+    },
+    {
+      "text": "La ley, los tratados internacionales y la jurisprudencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La lista del artículo 1.1 no incluye tratados ni jurisprudencia; enumera ley, costumbre y principios generales del derecho.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G13, apartado 3.1 «La lista del Código Civil»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.1",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

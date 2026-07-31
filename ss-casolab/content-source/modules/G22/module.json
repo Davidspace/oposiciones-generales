@@ -1,0 +1,140 @@
+{
+  "id": "G22",
+  "themeId": "g-22",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Protección de datos personales",
+  "learningOutcomes": [
+    "Identificar cuándo existe un tratamiento sujeto al RGPD.",
+    "Aplicar los principios de protección de datos a una situación administrativa.",
+    "Elegir la base jurídica adecuada sin confundir consentimiento con cualquier tratamiento.",
+    "Distinguir los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición.",
+    "Separar las obligaciones del responsable y del encargado."
+  ],
+  "decisions": [
+    "Determinar si un dato identifica o hace identificable a una persona.",
+    "Comprobar la base jurídica y la finalidad antes de usar datos.",
+    "Aplicar minimización y limitación de conservación.",
+    "Elegir el derecho que corresponde a la petición.",
+    "Evaluar si una incidencia exige notificación o comunicación."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Ámbito y conceptos",
+      "objective": "El Reglamento general de protección de datos se aplica a tratamientos automatizados y a tratamientos no automatizados contenidos o destinados a incluirse en un fichero. Distingue dato personal, tratamiento, responsable, encargado y categorías especiales.",
+      "sectionId": "g22-ambito-1",
+      "activityIds": [
+        "g-22-q001"
+      ]
+    },
+    {
+      "officialClause": "Principios y bases jurídicas",
+      "objective": "Todo tratamiento debe respetar licitud, lealtad, transparencia, limitación de la finalidad, minimización, exactitud, limitación del plazo de conservación, integridad y confidencialidad. La base jurídica debe identificarse antes de tratar los datos.",
+      "sectionId": "g22-principios-2",
+      "activityIds": [
+        "g-22-q002"
+      ]
+    },
+    {
+      "officialClause": "Derechos de las personas",
+      "objective": "El responsable debe facilitar información clara y atender los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición en los términos y excepciones legales. No todos los derechos tienen el mismo presupuesto.",
+      "sectionId": "g22-derechos-3",
+      "activityIds": [
+        "g-22-q003"
+      ]
+    },
+    {
+      "officialClause": "Responsable, encargado y seguridad",
+      "objective": "El responsable aplica medidas técnicas y organizativas apropiadas y el encargado trata datos siguiendo instrucciones documentadas. La relación debe quedar regulada y debe existir seguridad adecuada al riesgo.",
+      "sectionId": "g22-responsables-4",
+      "activityIds": [
+        "g-22-q004"
+      ]
+    },
+    {
+      "officialClause": "Brechas, impacto y delegado",
+      "objective": "Las violaciones de seguridad pueden exigir notificación a la autoridad y comunicación a las personas. Las evaluaciones de impacto y el delegado de protección de datos dependen de los presupuestos legales.",
+      "sectionId": "g22-incidentes-5",
+      "activityIds": [
+        "g-22-q005"
+      ]
+    },
+    {
+      "officialClause": "Ámbito y conceptos",
+      "objective": "El Reglamento general de protección de datos se aplica a tratamientos automatizados y a tratamientos no automatizados contenidos o destinados a incluirse en un fichero. Distingue dato personal, tratamiento, responsable, encargado y categorías especiales.",
+      "sectionId": "g22-ambito-6",
+      "activityIds": [
+        "g-22-q006"
+      ]
+    },
+    {
+      "officialClause": "Principios y bases jurídicas",
+      "objective": "Todo tratamiento debe respetar licitud, lealtad, transparencia, limitación de la finalidad, minimización, exactitud, limitación del plazo de conservación, integridad y confidencialidad. La base jurídica debe identificarse antes de tratar los datos.",
+      "sectionId": "g22-principios-7",
+      "activityIds": [
+        "g-22-q007"
+      ]
+    },
+    {
+      "officialClause": "Derechos de las personas",
+      "objective": "El responsable debe facilitar información clara y atender los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición en los términos y excepciones legales. No todos los derechos tienen el mismo presupuesto.",
+      "sectionId": "g22-derechos-8",
+      "activityIds": [
+        "g-22-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G22/lesson.md",
+  "reviewSheetPath": "content-source/modules/G22/review.md",
+  "normativeClaimIds": [
+    "clm-g-22-001",
+    "clm-g-22-002",
+    "clm-g-22-003",
+    "clm-g-22-004",
+    "clm-g-22-005",
+    "clm-g-22-006",
+    "clm-g-22-007",
+    "clm-g-22-008",
+    "clm-g-22-009",
+    "clm-g-22-010",
+    "clm-g-22-011",
+    "clm-g-22-012",
+    "clm-g-22-013",
+    "clm-g-22-014",
+    "clm-g-22-015",
+    "clm-g-22-016",
+    "clm-g-22-017",
+    "clm-g-22-018",
+    "clm-g-22-019",
+    "clm-g-22-020"
+  ],
+  "questionIds": [
+    "g-22-q001",
+    "g-22-q002",
+    "g-22-q003",
+    "g-22-q004",
+    "g-22-q005",
+    "g-22-q006",
+    "g-22-q007",
+    "g-22-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G22 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

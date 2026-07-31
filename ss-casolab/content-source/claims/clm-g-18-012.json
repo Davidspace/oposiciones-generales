@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-18-012",
+  "assetId": "G18",
+  "version": "0.1.0",
+  "statement": "La reposición contra acto expreso se interpone en un mes, contra acto no expreso en cualquier momento desde el día siguiente al acto presunto, se resuelve y notifica en un mes y no cabe otra reposición contra su resolución.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 124",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["G18", "g-18-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

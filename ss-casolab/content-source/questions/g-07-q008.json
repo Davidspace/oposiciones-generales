@@ -1,0 +1,83 @@
+{
+  "id": "g-07-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "El Consejo de Estado",
+  "competency": "Aplicar la naturaleza consultiva, la organización y las modalidades de consulta del Consejo de Estado.",
+  "difficulty": "high",
+  "prompt": "Un Ministerio considera consultar al Consejo de Estado sobre un asunto que la ley no enumera como consulta preceptiva. ¿Qué regla debe aplicar?",
+  "options": [
+    {
+      "text": "Si la consulta no es preceptiva, ningún Ministro puede formularla y el Consejo de Estado debe inadmitirla.",
+      "isCorrect": false,
+      "feedback": "El artículo 25 permite al Presidente del Gobierno o a cualquier Ministro consultar facultativamente sobre otros asuntos.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G07, consultas facultativas al Consejo de Estado"
+    },
+    {
+      "text": "Todo dictamen del Consejo de Estado es vinculante por ser el supremo órgano consultivo del Gobierno.",
+      "isCorrect": false,
+      "feedback": "La supremacía consultiva no convierte todos los dictámenes en vinculantes: solo lo son cuando una ley disponga expresamente lo contrario a la regla general.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G07, carácter vinculante o no del dictamen"
+    },
+    {
+      "text": "El Consejo de Estado solo actúa en Pleno y está integrado exclusivamente por su Presidente y los Consejeros permanentes.",
+      "isCorrect": false,
+      "feedback": "La ley prevé Pleno, Comisión Permanente y Comisión de Estudios, y la composición del Consejo incluye también Consejeros natos y electivos y al Secretario General.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G07, órganos y composición del Consejo de Estado"
+    },
+    {
+      "text": "La consulta puede ser facultativa si la formula el Presidente del Gobierno o un Ministro; los dictámenes son, como regla, no vinculantes, y el órgano que despacha cada consulta preceptiva se determina por el reparto legal entre Pleno y Comisión Permanente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Ley Orgánica distingue consultas preceptivas y facultativas, mantiene como regla el carácter no vinculante y distribuye asuntos entre Pleno y Comisión Permanente."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-018",
+    "clm-g-07-019",
+    "clm-g-07-020",
+    "clm-g-07-021"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 107",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-8648&p=20240802&tn=1",
+      "location": "artículos 1 a 5, 21, 22 y 25",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

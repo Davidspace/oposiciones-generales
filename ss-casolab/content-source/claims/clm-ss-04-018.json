@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-018",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "La liquidación determina las distintas deudas con la Seguridad Social para permitir su cumplimiento voluntario o forzoso y alcanza, en los términos reglamentarios, recursos distintos de cuotas y conceptos como desempleo, FOGASA y formación profesional cuando se liquidan e ingresan conjuntamente.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-1579#a1",
+  "sourceLocation": "Real Decreto 2064/1995, artículos 1 y 2",
+  "officialPublication": "BOE-A-1996-1579; texto consolidado con última actualización publicada el 10-07-2024",
+  "validFrom": "1996-01-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q008"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S04."}]
+  }
+}

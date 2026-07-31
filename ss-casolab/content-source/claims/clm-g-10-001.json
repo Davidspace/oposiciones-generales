@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-001", "assetId": "G10", "version": "0.1.0",
+  "statement": "El Consejo ejerce conjuntamente con el Parlamento Europeo las funciones legislativa y presupuestaria, además de funciones de definición de políticas y coordinación, y se compone de un representante de rango ministerial por Estado miembro facultado para comprometer a su Gobierno y votar.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_16/oj/spa",
+  "sourceLocation": "artículo 16 TUE, apartados 1 y 2",
+  "officialPublication": "DO C 202, de 07-06-2016, p. 24; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q001"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre funciones y composición del Consejo."}]}
+}

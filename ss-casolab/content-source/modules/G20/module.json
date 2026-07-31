@@ -1,0 +1,75 @@
+{
+  "id": "G20",
+  "themeId": "g-20",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Atención al público e información administrativa",
+  "learningOutcomes": [
+    "Distinguir información general e información particular.",
+    "Elegir la función de atención adecuada ante una necesidad ciudadana.",
+    "Aplicar accesibilidad y no discriminación en la atención presencial y documental.",
+    "Diferenciar queja, sugerencia, iniciativa, reclamación, recurso y petición.",
+    "Aplicar los efectos y plazos básicos del sistema de quejas y sugerencias."
+  ],
+  "decisions": [
+    "Determinar si la consulta requiere información general o acceso a un procedimiento concreto.",
+    "Comprobar legitimación y representación antes de facilitar información particular.",
+    "Seleccionar recepción, orientación, información, gestión o asistencia como función de atención.",
+    "Incorporar medidas de accesibilidad y apoyos sin discriminación.",
+    "Clasificar el escrito ciudadano y evitar que una queja sustituya un recurso o una petición.",
+    "Calcular el plazo de contestación de una queja o sugerencia y sus efectos."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Atención al público",
+      "objective": "Aplicar las funciones de recepción, acogida, orientación e información al ciudadano.",
+      "sectionId": "g20-atencion",
+      "activityIds": ["g-20-q001", "g-20-q002"]
+    },
+    {
+      "officialClause": "Atención de personas con discapacidad",
+      "objective": "Aplicar accesibilidad universal, no discriminación y apoyos humanos o materiales.",
+      "sectionId": "g20-accesibilidad",
+      "activityIds": ["g-20-q003"]
+    },
+    {
+      "officialClause": "Los servicios de información administrativa. Información general y particular al ciudadano",
+      "objective": "Distinguir el alcance, la legitimación y los canales de la información general y particular.",
+      "sectionId": "g20-informacion",
+      "activityIds": ["g-20-q004", "g-20-q005"]
+    },
+    {
+      "officialClause": "Iniciativas. Reclamaciones. Quejas",
+      "objective": "Clasificar la manifestación y aplicar el sistema de quejas y sugerencias de calidad.",
+      "sectionId": "g20-quejas",
+      "activityIds": ["g-20-q006", "g-20-q007"]
+    },
+    {
+      "officialClause": "Peticiones",
+      "objective": "Diferenciar el derecho de petición de otros escritos y aplicar su cauce constitucional y legal.",
+      "sectionId": "g20-peticion",
+      "activityIds": ["g-20-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G20/lesson.md",
+  "reviewSheetPath": "content-source/modules/G20/review.md",
+  "normativeClaimIds": [
+    "clm-g-20-001", "clm-g-20-002", "clm-g-20-003", "clm-g-20-004", "clm-g-20-005",
+    "clm-g-20-006", "clm-g-20-007", "clm-g-20-008", "clm-g-20-009", "clm-g-20-010",
+    "clm-g-20-011", "clm-g-20-012", "clm-g-20-013", "clm-g-20-014", "clm-g-20-015",
+    "clm-g-20-016", "clm-g-20-017", "clm-g-20-018", "clm-g-20-019", "clm-g-20-020"
+  ],
+  "questionIds": ["g-20-q001", "g-20-q002", "g-20-q003", "g-20-q004", "g-20-q005", "g-20-q006", "g-20-q007", "g-20-q008"],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial del módulo con trazabilidad de información, atención, accesibilidad, quejas y petición."}]
+  }
+}

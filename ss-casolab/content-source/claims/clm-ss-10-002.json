@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-10-002",
+  "assetId": "S10",
+  "version": "0.1.0",
+  "statement": "La pensión de jubilación contributiva exige comprobar edad, periodo mínimo de cotización y demás requisitos legales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "arts. 205 y 206",
+  "officialPublication": "TRLGSS",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S10",
+    "ss-10-q001",
+    "ss-10-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S10."
+      }
+    ]
+  }
+}

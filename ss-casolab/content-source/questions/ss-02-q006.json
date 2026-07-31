@@ -1,0 +1,81 @@
+{
+  "id": "ss-02-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Regímenes especiales: norma general y peculiaridad propia",
+  "competency": "Aplicar la secuencia normativa de un régimen especial",
+  "difficulty": "medium",
+  "prompt": "Ya se ha comprobado que una persona queda encuadrada en el Régimen Especial de la Seguridad Social de los Trabajadores del Mar. ¿Qué método es correcto para resolver una cuestión sobre su afiliación y cotización?",
+  "options": [
+    {
+      "text": "Aplicar las reglas generales a las que remite la Ley 47/2015 y comprobar después las peculiaridades expresas que esa ley y su normativa de desarrollo establecen para el régimen.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los artículos 7 y 8 de la Ley 47/2015 parten de la regulación general de afiliación y cotización, pero preservan las peculiaridades expresamente previstas para el Régimen del Mar."
+    },
+    {
+      "text": "Aplicar literalmente todas las reglas del Régimen General, porque la remisión elimina cualquier especialidad del Régimen del Mar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La remisión a las reglas generales no elimina las particularidades que la Ley 47/2015 y sus normas de desarrollo establecen para este régimen especial.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S02, apartado 3.2: regla general seguida de peculiaridad expresa"
+    },
+    {
+      "text": "Tratar el Régimen del Mar como un sistema especial del Régimen General y limitar sus diferencias a la forma de cotización.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El Régimen de Trabajadores del Mar es un régimen especial, no un sistema especial del Régimen General, y su norma propia regula más materias que la forma de cotización.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartados 1.2 y 3.1: régimen especial frente a sistema especial"
+    },
+    {
+      "text": "Elegir entre la regulación general y la especial según cuál produzca una cotización más favorable para la persona interesada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La norma aplicable no es opcional: debe seguirse la remisión legal y aplicar las peculiaridades vigentes que correspondan al supuesto.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S02, apartado 3.2: fuentes obligatorias del régimen especial"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-004",
+    "clm-ss-02-005",
+    "clm-ss-02-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a10",
+      "location": "TRLGSS, artículo 10.2.b) y 10.3",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11346#a7",
+      "location": "Ley 47/2015, artículo 7",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11346#a8",
+      "location": "Ley 47/2015, artículo 8",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      }
+    ]
+  }
+}

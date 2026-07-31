@@ -1,0 +1,77 @@
+{
+  "id": "ss-08-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Concepto",
+  "competency": "Reconocer la incapacidad permanente",
+  "difficulty": "basic",
+  "prompt": "¿Qué elemento es esencial para hablar de incapacidad permanente contributiva?",
+  "options": [
+    {
+      "text": "Cualquier dolor de corta duración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe existir gravedad y previsibilidad de permanencia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, incapacidad permanente"
+    },
+    {
+      "text": "Solo la necesidad de asistencia para actividades básicas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ese dato se relaciona con gran incapacidad, no define todos los grados.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, incapacidad permanente"
+    },
+    {
+      "text": "La edad de jubilación, sin valorar la capacidad laboral.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La incapacidad permanente tiene otro presupuesto.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S08, incapacidad permanente"
+    },
+    {
+      "text": "Reducciones graves y previsiblemente definitivas que disminuyen o anulan la capacidad laboral.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la definición del artículo 193.1."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-010",
+    "clm-ss-08-011",
+    "clm-ss-08-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 193.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

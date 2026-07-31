@@ -1,0 +1,81 @@
+{
+  "id": "ss-06-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Valoración y modalidades de enajenación",
+  "competency": "Resolver la valoración contradictoria y elegir la modalidad ordinaria de realización",
+  "difficulty": "medium",
+  "prompt": "La unidad valora un bien en 100.000 euros y el deudor aporta dentro de plazo una valoración de 115.000 euros. No existen otras incidencias. ¿Qué consecuencia se ajusta al reglamento y cuál es la modalidad ordinaria de enajenación?",
+  "options": [
+    {
+      "text": "Se aplica la valoración más alta, 115.000 euros, porque la diferencia no supera el 20 % de la menor; la subasta pública es la modalidad ordinaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. Quince mil euros representan el 15 % de 100.000. No hace falta tercer perito y la subasta es la forma ordinaria de realización."
+    },
+    {
+      "text": "Debe nombrarse siempre un tercer perito y la adjudicación directa es la modalidad ordinaria cuando existen dos valoraciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La diferencia es del 15 % de la valoración menor, por debajo del umbral que exige tercer perito. La adjudicación directa es excepcional.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S06, apartados 5.1 y 5.2: umbral del 20 % y carácter excepcional de la adjudicación directa."
+    },
+    {
+      "text": "Se toma la media de 107.500 euros y el concurso debe utilizarse para cualquier bien cuyo valor exceda de 100.000 euros.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento no ordena promediar en este caso ni convierte el concurso en obligatorio por ese valor.",
+      "errorType": "calculo-incorrecto",
+      "reviewTarget": "S06, apartado 5.1: regla aplicable cuando la diferencia no supera el 20 % de la menor."
+    },
+    {
+      "text": "Prevalece necesariamente la valoración administrativa de 100.000 euros y solo cabe enajenación por concurso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Cuando la diferencia no supera el umbral, se usa la tasación más alta. El concurso solo se autoriza en los supuestos reglamentarios.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S06, apartados 5.1 y 5.2: valoración contradictoria y modalidades."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-014",
+    "clm-ss-06-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a110",
+      "location": "Real Decreto 1415/2004, artículo 110",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a113",
+      "location": "Real Decreto 1415/2004, artículo 113",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

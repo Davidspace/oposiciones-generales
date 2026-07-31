@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-009",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "El procedimiento se impulsa de oficio y electrónicamente; se respeta el orden de incoación en asuntos homogéneos salvo orden motivada, se concentran trámites simultáneos, los trámites del interesado tienen como regla diez días y las cuestiones incidentales no suspenden salvo recusación.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 71 a 74",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17", "g-17-q003"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

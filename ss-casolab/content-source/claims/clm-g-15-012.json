@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-15-012",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "Fuera de las causas de nulidad, son anulables los actos que incurren en infracción del ordenamiento, incluida la desviación de poder; un defecto de forma solo causa anulabilidad cuando falta un requisito indispensable para el fin del acto o produce indefensión, y actuar fuera de plazo solo cuando lo impone la naturaleza del término o plazo.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 48.1 a 48.3",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15",
+    "g-15-q007"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

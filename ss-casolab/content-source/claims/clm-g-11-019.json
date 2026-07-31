@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-019", "assetId": "G11", "version": "0.1.0",
+  "statement": "Al aplicar el Derecho nacional, anterior o posterior a una directiva, el órgano jurisdiccional nacional debe interpretarlo, en la medida de lo posible, a la luz de la letra y de la finalidad de la directiva para alcanzar el resultado perseguido por esta.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61989CJ0106", "sourceLocation": "sentencia de 13-11-1990, asunto C-106/89, Marleasing, apartado 8 y fallo", "officialPublication": "EUR-Lex, documento 61989CJ0106; ECLI:EU:C:1990:395",
+  "validFrom": "1990-11-13", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre interpretación conforme según Marleasing."}]}
+}

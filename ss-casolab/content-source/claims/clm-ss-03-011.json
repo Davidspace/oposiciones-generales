@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-011",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "Existe pluriactividad cuando las actividades de una persona dan lugar a su alta obligatoria en dos o más regímenes distintos; existe pluriempleo cuando trabaja por cuenta ajena para dos o más empresas en actividades que dan lugar al alta en un mismo régimen.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a7",
+  "sourceLocation": "Real Decreto 84/1996, artículo 7.4",
+  "officialPublication": "BOE-A-1996-4447; redacción consolidada del artículo 7",
+  "validFrom": "2005-10-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q004", "CP01", "ss-03-q207"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-22-003",
+  "assetId": "G22",
+  "version": "0.1.0",
+  "statement": "Dato personal es toda información sobre una persona física identificada o identificable.",
+  "sourceUrl": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+  "sourceLocation": "art. 4.1",
+  "officialPublication": "Reglamento (UE) 2016/679",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G22",
+    "g-22-q001"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G22."
+      }
+    ]
+  }
+}

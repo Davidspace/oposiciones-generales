@@ -1,0 +1,75 @@
+{
+  "id": "g-18-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Recurso de alzada: plazos",
+  "competency": "Distinguir plazo de interposición y plazo de resolución de la alzada.",
+  "difficulty": "medium",
+  "prompt": "Una alzada se dirige contra un acto expreso. ¿Qué combinación de plazos es correcta?",
+  "options": [
+    {
+      "text": "Tres meses para interponerla y un mes para resolver.",
+      "isCorrect": false,
+      "feedback": "Esos plazos están invertidos: el mes corresponde a la interposición contra acto expreso y tres meses a resolver.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G18, plazos de alzada"
+    },
+    {
+      "text": "Un mes para interponerla y seis meses para resolver porque toda alzada tiene silencio positivo.",
+      "isCorrect": false,
+      "feedback": "La resolución tiene un máximo general de tres meses y el silencio de la alzada es desestimatorio salvo excepción legal.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G18, resolución y silencio de alzada"
+    },
+    {
+      "text": "Un mes para interponerla y tres meses como máximo para dictar y notificar la resolución.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 122 distingue el mes de interposición frente a acto expreso y los tres meses de resolución."
+    },
+    {
+      "text": "No existe plazo de interposición para actos expresos porque la alzada puede presentarse en cualquier momento.",
+      "isCorrect": false,
+      "feedback": "El acto expreso tiene un plazo de un mes para interponer la alzada.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G18, acto expreso"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 122",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original para separar los plazos de alzada."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

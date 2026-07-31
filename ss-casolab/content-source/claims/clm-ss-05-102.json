@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-102",
+  "assetId": "MC04",
+  "version": "0.1.0",
+  "statement": "La reclamación de deuda es un acto de gestión recaudatoria que identifica y exige una deuda de Seguridad Social en los supuestos legalmente previstos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+  "sourceLocation": "TRLGSS, artículos 33 y 34",
+  "officialPublication": "BOE-A-2004-15221",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC04",
+    "ss-05-q302"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Afirmación normativa de borrador para MC04."
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "g-01-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01",
+    "g-05"
+  ],
+  "epigraph": "Contenido constitucional: versión vigente del artículo 69.3",
+  "competency": "Aplicar el corte normativo correcto a una disposición reformada.",
+  "difficulty": "high",
+  "prompt": "Atendiendo a la redacción vigente a 29 de julio de 2026 del artículo 69.3 y a la disposición transitoria única de la reforma, ¿qué afirmación es correcta?",
+  "options": [
+    {
+      "text": "La redacción vigente del artículo 69.3 sigue enumerando conjuntamente «Ibiza-Formentera» y le asigna un senador.",
+      "isCorrect": false,
+      "feedback": "Esa era la regla anterior y sirve para un banco histórico cerrado a 4 de marzo de 2026. La redacción vigente las enumera por separado.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G01, control de versión del artículo 69.3"
+    },
+    {
+      "text": "Ibiza y Formentera aparecen por separado y corresponde tres senadores a cada una.",
+      "isCorrect": false,
+      "feedback": "La opción altera el número. La redacción vigente asigna un senador a Ibiza y otro a Formentera.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G01, artículo 69.3 vigente"
+    },
+    {
+      "text": "La nueva redacción no entra en vigor hasta que se convoquen las siguientes elecciones al Senado.",
+      "isCorrect": false,
+      "feedback": "La reforma entró en vigor el día de su publicación. Lo que se aplazó fue la eficacia de la creación de las nuevas circunscripciones para las elecciones indicadas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G01, diferencia entre vigencia y eficacia electoral"
+    },
+    {
+      "text": "Ibiza y Formentera aparecen por separado y corresponde un senador a cada una; la eficacia electoral se rige por la disposición transitoria de la reforma.",
+      "isCorrect": true,
+      "feedback": "Correcto. El texto vigente separa ambas islas y asigna un senador a cada una. La eficacia de las nuevas circunscripciones queda pospuesta hasta la convocatoria de las primeras elecciones al Senado que se celebren tras la entrada en vigor."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-009",
+    "clm-g-01-010",
+    "clm-g-01-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 69.3, redacción publicada el 20-05-2026",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881",
+      "location": "artículo único, disposición transitoria única y disposición final única",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.seg-social.es/descarga/es/NIFEYCL_Administrativos_2025",
+      "location": "nota informativa del tribunal de 04-03-2026, apartado cuarto",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-29"
+}

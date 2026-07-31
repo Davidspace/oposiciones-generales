@@ -1,0 +1,71 @@
+{
+  "id": "ss-07-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Contenido y clasificación de la acción protectora",
+  "competency": "Clasificar una forma de protección sin confundir prestación, servicio y complemento asistencial",
+  "difficulty": "medium",
+  "prompt": "Una oficina debe clasificar cuatro actuaciones: asistencia sanitaria por accidente no laboral, recuperación profesional, una prestación familiar y una ayuda de asistencia social que complementa otra prestación. ¿Qué clasificación respeta el artículo 42 del TRLGSS?",
+  "options": [
+    {
+      "text": "Las cuatro son prestaciones económicas contributivas porque toda protección del sistema exige cotización previa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 42 distingue asistencia sanitaria, recuperación, prestaciones económicas, familiares, servicios sociales y asistencia social; además, no toda protección es contributiva ni exige siempre carencia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartado 1: formas de protección y modalidades que la ley distingue."
+    },
+    {
+      "text": "La asistencia sanitaria y la recuperación son servicios sociales, mientras que la prestación familiar es siempre asistencia social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley enumera por separado asistencia sanitaria, recuperación profesional, prestaciones familiares, servicios sociales y beneficios de asistencia social.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartado 1: categorías separadas del artículo 42.1."
+    },
+    {
+      "text": "Son, respectivamente, asistencia sanitaria, recuperación profesional, prestación familiar y asistencia social complementaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. La clasificación conserva las categorías legales y reconoce que la asistencia social se concede como complemento de las prestaciones del artículo 42.1."
+    },
+    {
+      "text": "La ayuda complementaria queda siempre fuera del sistema porque solo las prestaciones enumeradas de forma nominal pueden formar parte de la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 42.2 admite beneficios de asistencia social como complemento, y el apartado 4 integra también determinadas prestaciones públicas complementarias en el sistema.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S07, apartado 1: asistencia social complementaria y alcance del artículo 42.4."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-001",
+    "clm-ss-07-002",
+    "clm-ss-07-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a42",
+      "location": "TRLGSS, artículo 42",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      }
+    ]
+  }
+}

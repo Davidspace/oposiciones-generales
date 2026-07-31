@@ -1,0 +1,69 @@
+{
+  "id": "g-15-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "Notificación",
+  "competency": "distinguir la notificación electrónica de su aviso",
+  "difficulty": "medium",
+  "prompt": "Una notificación electrónica obligatoria se pone a disposición correctamente y el interesado accede al contenido íntegro, pero no recibe el aviso en el correo que había facilitado. ¿Qué afirma el artículo 41.6?",
+  "options": [
+    {
+      "text": "La falta del aviso no impide por sí sola que la notificación sea plenamente válida.",
+      "isCorrect": true,
+      "feedback": "Correcto. El aviso informa de la puesta a disposición, pero no es la notificación; la ley separa expresamente ambas actuaciones."
+    },
+    {
+      "text": "La notificación es nula en todo caso porque aviso y notificación son el mismo acto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El apartado 6 dispone expresamente que la falta de aviso no impide la plena validez de la notificación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G15, apartado 3.2 «Notificación electrónica y aviso»"
+    },
+    {
+      "text": "La Administración debe repetir siempre la notificación en papel antes de que pueda producir efectos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El supuesto parte de una notificación electrónica obligatoria y correctamente accesible; no existe esa repetición general por falta de aviso.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G15, apartado 3.2 «Notificación electrónica y aviso»"
+    },
+    {
+      "text": "El acceso al contenido carece de relevancia hasta que se envíe un SMS y un correo simultáneos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley permite identificar un dispositivo y/o correo para avisos y vincula la práctica electrónica al acceso, no a dos avisos simultáneos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G15, apartado 3.2 «Notificación electrónica y aviso»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 41.1 y 41.6",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

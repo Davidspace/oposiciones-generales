@@ -1,0 +1,75 @@
+{
+  "id": "g-02-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Derecho de reunión",
+  "competency": "Distinguir autorización, comunicación previa y causa constitucional de prohibición.",
+  "difficulty": "medium",
+  "prompt": "Un grupo convoca una manifestación pacífica y sin armas que recorrerá varias vías públicas. ¿Qué regla constitucional debe aplicar la autoridad?",
+  "options": [
+    {
+      "text": "La manifestación requiere autorización previa porque transcurre por vías públicas.",
+      "isCorrect": false,
+      "feedback": "El artículo 21 excluye la autorización previa. Para reuniones en lugares de tránsito público y manifestaciones exige comunicación previa.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G02, artículo 21: autorización y comunicación"
+    },
+    {
+      "text": "No requiere autorización ni comunicación previa, porque ambas figuras son incompatibles con el derecho de reunión.",
+      "isCorrect": false,
+      "feedback": "La Constitución prohíbe exigir autorización previa, pero sí exige comunicación previa en reuniones en lugares de tránsito público y manifestaciones.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G02, diferencia entre autorización y comunicación previa"
+    },
+    {
+      "text": "La autoridad puede prohibirla por razones de oportunidad o por molestias ordinarias al tráfico.",
+      "isCorrect": false,
+      "feedback": "El artículo 21.2 exige razones fundadas de alteración del orden público con peligro para personas o bienes. La mera oportunidad o molestia no reproduce ese presupuesto constitucional.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G02, causa constitucional de prohibición"
+    },
+    {
+      "text": "No requiere autorización previa; debe existir comunicación previa y solo puede prohibirse por razones fundadas de alteración del orden público con peligro para personas o bienes.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reproduce los tres elementos de decisión del artículo 21 para una manifestación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 21, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

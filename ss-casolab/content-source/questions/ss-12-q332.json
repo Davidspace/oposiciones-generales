@@ -1,0 +1,75 @@
+{
+  "id": "ss-12-q332",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Tema 12. Prestaciones no contributivas, asistenciales e IMV",
+  "competency": "Comprobar la residencia y la vulnerabilidad económica.",
+  "difficulty": "high",
+  "prompt": "¿Qué debe comprobarse antes de reconocer el IMV?",
+  "options": [
+    {
+      "text": "Solo la edad de quien presenta la solicitud.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 7 a 11.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Comprobar la residencia y la vulnerabilidad económica."
+    },
+    {
+      "text": "La residencia y la situación de vulnerabilidad económica conforme a los requisitos legales.",
+      "isCorrect": true,
+      "feedback": "El reconocimiento exige comprobar los requisitos subjetivos y económicos, no un único dato aislado."
+    },
+    {
+      "text": "La existencia de una deuda empresarial.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 7 a 11.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Comprobar la residencia y la vulnerabilidad económica."
+    },
+    {
+      "text": "El número de horas de clase semanal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 7 a 11.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Comprobar la residencia y la vulnerabilidad económica."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-132"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artículos 7 a 11",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC08, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

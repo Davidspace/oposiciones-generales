@@ -1,0 +1,148 @@
+{
+  "id": "G02",
+  "themeId": "g-02",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Derechos, garantías y suspensión",
+  "learningOutcomes": [
+    "Clasificar un derecho, deber o principio dentro del título I de la Constitución.",
+    "Distinguir las garantías del artículo 53 según la ubicación constitucional de la materia.",
+    "Aplicar la reserva de ley y la reserva de ley orgánica sin confundir sus ámbitos.",
+    "Reconocer las funciones constitucionales del Defensor del Pueblo.",
+    "Diferenciar la suspensión general de derechos de la suspensión individual.",
+    "Resolver escenarios breves sobre libertad personal, intimidad y reunión con el texto vigente."
+  ],
+  "decisions": [
+    "Localizar la materia en el capítulo y, cuando proceda, en la sección correctos.",
+    "Decidir si operan la tutela preferente y sumaria o el recurso de amparo.",
+    "Determinar si una regulación debe respetar el contenido esencial o requiere ley orgánica.",
+    "Separar un derecho del capítulo segundo de un principio rector del capítulo tercero.",
+    "Comprobar si un estado constitucional permite la suspensión general indicada.",
+    "Identificar los derechos y requisitos de la suspensión individual del artículo 55.2.",
+    "Descartar exigencias de autorización previa incompatibles con el derecho de reunión.",
+    "Aplicar la redacción vigente del artículo 49 desde el 17 de febrero de 2024."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Derechos y deberes fundamentales",
+      "objective": "Clasificar una materia dentro de la arquitectura del título I y asociarla con su nivel de garantía.",
+      "sectionId": "g02-mapa",
+      "activityIds": [
+        "g-02-q001"
+      ]
+    },
+    {
+      "officialClause": "Derechos y deberes fundamentales",
+      "objective": "Aplicar la función interpretativa del artículo 10.2.",
+      "sectionId": "g02-fundamento",
+      "activityIds": [
+        "g-02-q002"
+      ]
+    },
+    {
+      "officialClause": "Derechos y deberes fundamentales",
+      "objective": "Distinguir derechos personales y públicos a partir de su regla constitucional exacta.",
+      "sectionId": "g02-derechos",
+      "activityIds": [
+        "g-02-q008"
+      ]
+    },
+    {
+      "officialClause": "Derechos y deberes fundamentales",
+      "objective": "Reconocer la posición constitucional de los derechos y deberes de la sección segunda.",
+      "sectionId": "g02-deberes",
+      "activityIds": [
+        "g-02-q001"
+      ]
+    },
+    {
+      "officialClause": "Derechos y deberes fundamentales",
+      "objective": "Aplicar el régimen del capítulo tercero y la redacción vigente del artículo 49.",
+      "sectionId": "g02-principios",
+      "activityIds": [
+        "g-02-q004"
+      ]
+    },
+    {
+      "officialClause": "Su garantía",
+      "objective": "Elegir la tutela constitucional y la forma de regulación que corresponden.",
+      "sectionId": "g02-garantias",
+      "activityIds": [
+        "g-02-q003",
+        "g-02-q005"
+      ]
+    },
+    {
+      "officialClause": "Su suspensión",
+      "objective": "Identificar derechos, estados y excepciones de la suspensión general.",
+      "sectionId": "g02-suspension-general",
+      "activityIds": [
+        "g-02-q006"
+      ]
+    },
+    {
+      "officialClause": "Su suspensión",
+      "objective": "Identificar derechos, sujetos y controles de la suspensión individual.",
+      "sectionId": "g02-suspension-individual",
+      "activityIds": [
+        "g-02-q007"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G02/lesson.md",
+  "reviewSheetPath": "content-source/modules/G02/review.md",
+  "normativeClaimIds": [
+    "clm-g-02-001",
+    "clm-g-02-002",
+    "clm-g-02-003",
+    "clm-g-02-004",
+    "clm-g-02-005",
+    "clm-g-02-006",
+    "clm-g-02-007",
+    "clm-g-02-008",
+    "clm-g-02-009",
+    "clm-g-02-010",
+    "clm-g-02-011",
+    "clm-g-02-012",
+    "clm-g-02-013",
+    "clm-g-02-014",
+    "clm-g-02-015",
+    "clm-g-02-016",
+    "clm-g-02-017",
+    "clm-g-02-018",
+    "clm-g-02-019",
+    "clm-g-02-020",
+    "clm-g-02-021",
+    "clm-g-02-022",
+    "clm-g-02-023"
+  ],
+  "questionIds": [
+    "g-02-q001",
+    "g-02-q002",
+    "g-02-q003",
+    "g-02-q004",
+    "g-02-q005",
+    "g-02-q006",
+    "g-02-q007",
+    "g-02-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo, su matriz de garantías y su trazabilidad normativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

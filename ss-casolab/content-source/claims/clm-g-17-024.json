@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-024",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "Los medios de ejecución son apremio sobre el patrimonio para cantidades líquidas, ejecución subsidiaria para actos no personalísimos, multa coercitiva con autorización legal y compulsión para obligaciones personalísimas de no hacer o soportar con autorización legal y respeto a la dignidad y los derechos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 101 a 104",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17", "g-17-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

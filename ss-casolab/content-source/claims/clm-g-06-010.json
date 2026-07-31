@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-010",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "El artículo 26 LOPJ atribuye potestad jurisdiccional a jueces y juezas de paz, Tribunales de Instancia, Audiencias Provinciales, Tribunales Superiores de Justicia, Tribunal Central de Instancia, Audiencia Nacional y Tribunal Supremo.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+  "sourceLocation": "artículo 26",
+  "officialPublication": "BOE núm. 157, de 02-07-1985; texto consolidado con última actualización publicada el 17-02-2025",
+  "validFrom": "2025-01-23",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md", "g-06-q006"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre órganos con potestad jurisdiccional."}]}
+}

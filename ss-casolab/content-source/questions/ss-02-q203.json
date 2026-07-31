@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q203",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "CP01 — Pregunta principal 5: administradora sin control",
+  "competency": "Encuadrar a una administradora con funciones retribuidas de dirección sin control efectivo",
+  "difficulty": "high",
+  "prompt": "En CP01, C ejerce funciones retribuidas de dirección y gerencia como administradora y no posee el control efectivo de la sociedad. ¿Qué consecuencia establece el TRLGSS?",
+  "options": [
+    {
+      "text": "Queda incluida necesariamente en el RETA por el solo hecho de ser administradora, aunque no tenga control efectivo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El supuesto descarta el control efectivo y coincide con la asimilación específica del artículo 136.2.c; no basta el cargo para imponer el RETA.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 2.2: funciones de dirección y control efectivo."
+    },
+    {
+      "text": "Queda como trabajadora ordinaria del Régimen General con desempleo y FOGASA, sin ninguna peculiaridad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Omite las exclusiones expresas de desempleo y FOGASA que acompañan a esta asimilación.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S02, apartado 2.2: alcance protector de la asimilación."
+    },
+    {
+      "text": "Queda asimilada a trabajadora por cuenta ajena en el Régimen General, con exclusión de la protección por desempleo y del FOGASA.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 136.2.c incluye en ese encuadramiento a quien dirige y gestiona sin control efectivo, pero excluye desempleo y Fondo de Garantía Salarial."
+    },
+    {
+      "text": "Puede elegir entre Régimen General y RETA porque ambas opciones son equivalentes para el mismo cargo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley decide el encuadramiento según funciones y control; no concede en estos hechos una elección personal entre regímenes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 2.2: encuadramiento legal, no opcional."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.2.c), en relación con el artículo 305.2.b)",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 5 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

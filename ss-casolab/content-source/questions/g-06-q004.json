@@ -1,0 +1,81 @@
+{
+  "id": "g-06-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "CGPJ: composición y designación",
+  "competency": "Aplicar la composición y el sistema de elección de los vocales del CGPJ.",
+  "difficulty": "medium",
+  "prompt": "¿Qué propuesta reproduce correctamente la composición y la designación ordinaria de los veinte vocales del CGPJ?",
+  "options": [
+    {
+      "text": "Veinte vocales judiciales elegidos directamente por jueces y magistrados, y un presidente designado por el Gobierno.",
+      "isCorrect": false,
+      "feedback": "No todos los vocales pertenecen al turno judicial: son doce judiciales y ocho juristas. Además, las Cortes designan a los veinte vocales y el Presidente del Tribunal Supremo preside el CGPJ.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G06, sujetos y turnos de designación del CGPJ"
+    },
+    {
+      "text": "Diez vocales judiciales y diez juristas, elegidos conjuntamente por ambas Cámaras por mayoría absoluta.",
+      "isCorrect": false,
+      "feedback": "El reparto legal es 12+8, no 10+10, y cada Cámara elige sus diez vocales por tres quintos, no mediante una votación conjunta por mayoría absoluta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G06, reparto y mayoría de elección del CGPJ"
+    },
+    {
+      "text": "Doce vocales judiciales propuestos por el Senado y ocho juristas propuestos por el Congreso, todos por mayoría simple.",
+      "isCorrect": false,
+      "feedback": "Cada Cámara elige seis vocales judiciales y cuatro juristas. No se concentra cada turno en una Cámara y la mayoría exigida es de tres quintos.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G06, distribución de la elección entre Cámaras"
+    },
+    {
+      "text": "Doce vocales judiciales y ocho juristas; cada Cámara elige seis judiciales y cuatro juristas por mayoría de tres quintos.",
+      "isCorrect": true,
+      "feedback": "Correcto. El Congreso elige diez y el Senado otros diez con el mismo reparto 6+4 y mayoría de tres quintos; el Presidente del Tribunal Supremo preside además el Consejo."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-006",
+    "clm-g-06-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 122, apartados 2 y 3",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "location": "artículos 566 y 567",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

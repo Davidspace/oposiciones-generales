@@ -1,0 +1,127 @@
+{
+  "id": "G17",
+  "themeId": "g-17",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Fases del procedimiento y ejecución",
+  "learningOutcomes": [
+    "Distinguir la iniciación de oficio de la iniciación a solicitud y aplicar sus principales actuaciones preparatorias.",
+    "Ordenar la tramitación mediante las reglas sobre expediente, impulso, concentración, cumplimiento de trámites y cuestiones incidentales.",
+    "Seleccionar las actuaciones de instrucción adecuadas y aplicar sus garantías, plazos y efectos.",
+    "Identificar las formas de finalización y decidir cuándo proceden resolución, terminación convencional, desistimiento, renuncia o caducidad.",
+    "Aplicar la tramitación simplificada y elegir el medio de ejecución forzosa compatible con la obligación y sus límites."
+  ],
+  "decisions": [
+    "Determinar si el procedimiento se inicia de oficio o a solicitud y si caben actuaciones previas, medidas provisionales o acumulación.",
+    "Distinguir propia iniciativa, orden superior, petición razonada y denuncia sin atribuir automáticamente al denunciante la condición de interesado.",
+    "Comprobar si una solicitud requiere subsanación y separar solicitud, declaración responsable y comunicación.",
+    "Aplicar impulso de oficio, orden de incoación, concentración de trámites y el régimen de las cuestiones incidentales.",
+    "Decidir si procede abrir prueba, pedir informe, dar audiencia o acordar información pública.",
+    "Seleccionar la forma de finalización y preservar congruencia, contradicción y prohibición de agravar la situación inicial del solicitante.",
+    "Comprobar si procede la tramitación simplificada o debe continuarse por la ordinaria.",
+    "Verificar título, ejecutoriedad y apercibimiento antes de elegir un medio proporcionado de ejecución forzosa."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Iniciación",
+      "objective": "Distinguir las formas de inicio y aplicar actuaciones previas, medidas provisionales, acumulación, solicitud, subsanación, declaración responsable y comunicación.",
+      "sectionId": "g17-iniciacion",
+      "activityIds": [
+        "g-17-q001",
+        "g-17-q002"
+      ]
+    },
+    {
+      "officialClause": "Ordenación",
+      "objective": "Aplicar las reglas del expediente electrónico, impulso de oficio, orden, concentración, cumplimiento de trámites y cuestiones incidentales.",
+      "sectionId": "g17-ordenacion",
+      "activityIds": [
+        "g-17-q003"
+      ]
+    },
+    {
+      "officialClause": "Instrucción",
+      "objective": "Seleccionar y practicar alegaciones, prueba, informes, audiencia e información pública con sus garantías y plazos.",
+      "sectionId": "g17-instruccion",
+      "activityIds": [
+        "g-17-q004",
+        "g-17-q005"
+      ]
+    },
+    {
+      "officialClause": "Finalización",
+      "objective": "Distinguir las formas de terminación, el contenido de la resolución, las especialidades comunes y la tramitación simplificada.",
+      "sectionId": "g17-finalizacion",
+      "activityIds": [
+        "g-17-q006",
+        "g-17-q007"
+      ]
+    },
+    {
+      "officialClause": "La ejecución de los actos y resoluciones administrativas",
+      "objective": "Comprobar título y ejecutoriedad y elegir, con proporcionalidad, el medio de ejecución forzosa adecuado.",
+      "sectionId": "g17-ejecucion",
+      "activityIds": [
+        "g-17-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G17/lesson.md",
+  "reviewSheetPath": "content-source/modules/G17/review.md",
+  "normativeClaimIds": [
+    "clm-g-17-001",
+    "clm-g-17-002",
+    "clm-g-17-003",
+    "clm-g-17-004",
+    "clm-g-17-005",
+    "clm-g-17-006",
+    "clm-g-17-007",
+    "clm-g-17-008",
+    "clm-g-17-009",
+    "clm-g-17-010",
+    "clm-g-17-011",
+    "clm-g-17-012",
+    "clm-g-17-013",
+    "clm-g-17-014",
+    "clm-g-17-015",
+    "clm-g-17-016",
+    "clm-g-17-017",
+    "clm-g-17-018",
+    "clm-g-17-019",
+    "clm-g-17-020",
+    "clm-g-17-021",
+    "clm-g-17-022",
+    "clm-g-17-023",
+    "clm-g-17-024",
+    "clm-g-17-025"
+  ],
+  "questionIds": [
+    "g-17-q001",
+    "g-17-q002",
+    "g-17-q003",
+    "g-17-q004",
+    "g-17-q005",
+    "g-17-q006",
+    "g-17-q007",
+    "g-17-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo, su hoja de repaso y la trazabilidad completa con claims y preguntas."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

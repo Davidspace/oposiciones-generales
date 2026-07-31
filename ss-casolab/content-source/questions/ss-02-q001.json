@@ -1,0 +1,77 @@
+{
+  "id": "ss-02-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Campo de aplicación del sistema de la Seguridad Social",
+  "competency": "Distinguir el campo contributivo del no contributivo",
+  "difficulty": "basic",
+  "prompt": "Nadia, extranjera, reside legalmente en España y no realiza ninguna actividad profesional. ¿Qué conclusión puede obtenerse solo con esos datos sobre el campo de aplicación?",
+  "options": [
+    {
+      "text": "Queda automáticamente afiliada al sistema contributivo por residir legalmente en España.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La residencia legal no sustituye la actividad y la categoría exigidas por el artículo 7.1 ni equivale al acto de afiliación.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 1.1: contributivo frente a no contributivo"
+    },
+    {
+      "text": "Queda fuera de cualquier modalidad porque solo los españoles pueden acceder al campo no contributivo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 7.2 comprende también a extranjeros que residan legalmente en España, en los términos normativos aplicables.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S02, apartado 1.1: residencia legal en el campo no contributivo"
+    },
+    {
+      "text": "Puede elegir libremente el Régimen General aunque no realice actividad, porque la residencia sustituye el encuadramiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El régimen contributivo deriva de la actividad y de la regla de encuadramiento; no es una opción libre de la persona.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartados 1.1 y 1.2: campo frente a régimen"
+    },
+    {
+      "text": "La residencia legal permite analizar su inclusión a efectos de prestaciones no contributivas, pero no concede por sí sola una prestación; para el campo contributivo faltaría una actividad y categoría del artículo 7.1.",
+      "isCorrect": true,
+      "feedback": "Correcto. La pregunta separa los dos apartados del artículo 7: residencia legal para el campo no contributivo y actividad/categoría para el contributivo, sin anticipar los requisitos de una prestación concreta."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-001",
+    "clm-ss-02-002",
+    "clm-ss-02-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a7",
+      "location": "TRLGSS, artículo 7.1, 7.2 y 7.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

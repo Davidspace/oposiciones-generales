@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Afiliación única y altas posteriores",
+  "competency": "Distinguir la afiliación vitalicia del alta en un régimen",
+  "difficulty": "basic",
+  "prompt": "Mateo ya estuvo afiliado por un trabajo en el Régimen General. Ahora inicia una actividad que exige su alta en el RETA. ¿Qué actuación describe correctamente su situación?",
+  "options": [
+    {
+      "text": "Mantiene su afiliación y debe tramitar el alta que corresponda en el RETA.",
+      "isCorrect": true,
+      "feedback": "Correcto. Mateo conserva su afiliación única y la nueva actividad determina el alta en el régimen aplicable."
+    },
+    {
+      "text": "Debe obtener una afiliación nueva porque cambia de régimen.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación es única para toda la vida y para todo el sistema; el cambio de actividad puede exigir otra alta, no otra afiliación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 2.1: afiliación única frente a altas sucesivas."
+    },
+    {
+      "text": "Mantiene su afiliación y no necesita alta mientras conserve el mismo número de la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Conservar la afiliación no elimina las altas vinculadas a cada actividad incluida en un régimen.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S03, apartado 1: diferencia entre afiliación y alta."
+    },
+    {
+      "text": "Puede elegir entre mantener el alta anterior o crear una afiliación nueva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ni la afiliación se duplica ni el régimen se elige por conveniencia, salvo opción reconocida expresamente por una norma.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S03, apartados 2.1 y 3.2: afiliación y encuadramiento."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
+      "location": "TRLGSS, artículo 15",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-23-017",
+  "assetId": "G23",
+  "version": "0.1.0",
+  "statement": "El Esquema Nacional de Interoperabilidad establece criterios y recomendaciones para la interoperabilidad y la conservación de la información.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331",
+  "sourceLocation": "arts. 1 y 4 RD 4/2010",
+  "officialPublication": "RD 4/2010",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G23",
+    "g-23-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G23."
+      }
+    ]
+  }
+}

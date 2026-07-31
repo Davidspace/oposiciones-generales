@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-03-008",
+  "assetId": "G03",
+  "version": "0.1.0",
+  "statement": "El Pleno elige por votación secreta al Presidente entre sus miembros y propone al Rey su nombramiento por tres años, con una sola reelección; también elige por tres años al Vicepresidente, que sustituye al Presidente y preside la Sala Segunda.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+  "sourceLocation": "artículo 9; conexión con el artículo 160 de la Constitución",
+  "officialPublication": "BOE núm. 239, de 05-10-1979; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "1979-10-25",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G03",
+    "content-source/modules/G03/lesson.md",
+    "content-source/modules/G03/review.md"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

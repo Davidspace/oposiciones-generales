@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-011",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "En 2026, la cotización adicional de solidaridad del Régimen General se aplica por tres tramos solo sobre la retribución mensual que excede de la base máxima, con tipos del 1,15, 1,25 y 1,46 por ciento y la distribución fijada en la Orden anual.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a17",
+  "sourceLocation": "Orden PJC/297/2026, artículo 17.1 y 17.2",
+  "officialPublication": "BOE-A-2026-7296",
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q003"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de parámetro normativo anual para S04."}]
+  }
+}

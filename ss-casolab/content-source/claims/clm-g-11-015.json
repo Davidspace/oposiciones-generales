@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-015", "assetId": "G11", "version": "0.1.0",
+  "statement": "El juez nacional encargado de aplicar una norma de la Unión en el marco de su competencia debe garantizar su plena eficacia dejando inaplicada, si procede y por su propia iniciativa, cualquier disposición nacional contraria, aunque sea posterior, sin esperar su derogación legislativa o por otro procedimiento constitucional.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61977CJ0106", "sourceLocation": "sentencia de 09-03-1978, asunto 106/77, Simmenthal, apartados 21 a 24", "officialPublication": "EUR-Lex, documento 61977CJ0106; ECLI:EU:C:1978:49",
+  "validFrom": "1978-03-09", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre la consecuencia judicial de la primacía según Simmenthal."}]}
+}

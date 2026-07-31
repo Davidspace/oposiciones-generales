@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-014",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "La audiencia se practica tras la instrucción e inmediatamente antes de la propuesta de resolución, con un plazo de diez a quince días, y puede omitirse cuando no se consideren hechos, alegaciones o pruebas distintos de los aportados por el interesado.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 82",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17", "g-17-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

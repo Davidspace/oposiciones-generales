@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-009",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "La obligación de reintegrar prescribe a los cuatro años desde el cobro o desde que pudo ejercerse la acción de devolución, incluso si la revisión deriva de error de la entidad gestora, sin perjuicio de otras responsabilidades administrativas o penales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a55",
+  "sourceLocation": "TRLGSS, artículo 55.3 y 55.4",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

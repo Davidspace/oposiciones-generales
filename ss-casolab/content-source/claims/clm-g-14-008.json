@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-14-008",
+  "assetId": "G14",
+  "version": "0.1.0",
+  "statement": "El Gobierno ejerce la potestad reglamentaria de acuerdo con la Constitución y las leyes.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+  "sourceLocation": "artículo 97",
+  "officialPublication": "BOE-A-1978-31229; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G14",
+    "g-14-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

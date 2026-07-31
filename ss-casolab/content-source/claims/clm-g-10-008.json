@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-008", "assetId": "G10", "version": "0.1.0",
+  "statement": "La moción de censura contra la Comisión solo puede votarse tras al menos tres días y en votación pública; requiere dos tercios de los votos emitidos que representen además la mayoría de los miembros del Parlamento, y su aprobación obliga a la dimisión colectiva de la Comisión.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_234/oj/spa",
+  "sourceLocation": "artículo 234 TFUE",
+  "officialPublication": "DO C 202, de 07-06-2016, p. 152; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre censura parlamentaria de la Comisión."}]}
+}

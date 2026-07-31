@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-21-020",
+  "assetId": "G21",
+  "version": "0.1.0",
+  "statement": "Una respuesta de examen debe aplicar la norma específica del supuesto y no sumar automáticamente todas las leyes sociales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+  "sourceLocation": "principios de aplicación de las normas citadas",
+  "officialPublication": "LO 3/2007",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G21"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G21."
+      }
+    ]
+  }
+}

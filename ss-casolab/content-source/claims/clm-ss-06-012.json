@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-012",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "En cuentas con varios titulares, el embargo alcanza la parte del saldo correspondiente al deudor, presumida por partes iguales salvo prueba distinta; la entidad ingresa lo retenido tras diez días naturales desde el día siguiente a la traba si no recibe comunicación contraria.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a96",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 96.1.b, reglas 2.ª y 3.ª",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2009-06-16",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q005"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

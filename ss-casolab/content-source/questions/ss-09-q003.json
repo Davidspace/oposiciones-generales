@@ -1,0 +1,71 @@
+{
+  "id": "ss-09-q003",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Riesgo",
+  "competency": "Aplicar el presupuesto del riesgo durante embarazo",
+  "difficulty": "medium",
+  "prompt": "Una trabajadora embarazada ocupa un puesto con riesgo y no puede ser trasladada ni adaptada la actividad. ¿Qué figura debe analizarse?",
+  "options": [
+    {
+      "text": "Riesgo durante el embarazo.",
+      "isCorrect": true,
+      "feedback": "Correcto. La suspensión y el subsidio dependen del presupuesto del artículo 186."
+    },
+    {
+      "text": "Nacimiento y cuidado de menor, aunque no haya nacido.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El hecho causante es distinto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, riesgo"
+    },
+    {
+      "text": "Jubilación anticipada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se describe una situación de jubilación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S09, riesgo"
+    },
+    {
+      "text": "Desempleo por imposibilidad de trabajar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El riesgo tiene un régimen propio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, riesgo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-008",
+    "clm-ss-09-010",
+    "clm-ss-09-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 186",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q003."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ss-10-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Edad",
+  "competency": "Aplicar fecha y calendario",
+  "difficulty": "high",
+  "prompt": "Una persona pregunta por su edad ordinaria de jubilación en 2026. ¿Qué debe hacer el opositor?",
+  "options": [
+    {
+      "text": "Aplicar siempre 65 años.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La edad depende del calendario y de la cotización.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S10, edad"
+    },
+    {
+      "text": "Aplicar siempre 67 años.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Tampoco es una cifra universal.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S10, edad"
+    },
+    {
+      "text": "Consultar el calendario legal vigente y relacionarlo con el periodo de cotización acreditado.",
+      "isCorrect": true,
+      "feedback": "Correcto. La edad ordinaria no debe resolverse con una cifra aislada fuera de contexto."
+    },
+    {
+      "text": "Elegir la edad que prefiera la persona.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La edad es una condición legal.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S10, edad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-002",
+    "clm-ss-10-003",
+    "clm-ss-10-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 205.1.a",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

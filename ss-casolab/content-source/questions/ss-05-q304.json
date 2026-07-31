@@ -1,0 +1,75 @@
+{
+  "id": "ss-05-q304",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "epigraph": "Tema 5. Gestión recaudatoria en periodo voluntario",
+  "competency": "Explicar el efecto de un aplazamiento concedido.",
+  "difficulty": "medium",
+  "prompt": "Si la Tesorería concede un aplazamiento válido, ¿qué debe hacer la empresa?",
+  "options": [
+    {
+      "text": "Dejar de pagar hasta que termine la actividad.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 23; Reglamento general de recaudación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Explicar el efecto de un aplazamiento concedido."
+    },
+    {
+      "text": "Considerar extinguida la deuda desde la solicitud.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 23; Reglamento general de recaudación.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Explicar el efecto de un aplazamiento concedido."
+    },
+    {
+      "text": "Cumplir las condiciones, plazos y garantías fijados en la resolución.",
+      "isCorrect": true,
+      "feedback": "La solicitud no extingue la deuda; el aplazamiento concedido obliga a cumplir las condiciones de su resolución."
+    },
+    {
+      "text": "Aplicar el aplazamiento a cualquier sanción sin resolución.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 23; Reglamento general de recaudación.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Explicar el efecto de un aplazamiento concedido."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-104"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artículo 23; Reglamento general de recaudación",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC04, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-08-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Los servicios comunes de los ministerios",
+  "competency": "Identificar materias, dirección y gestión compartida de los servicios comunes.",
+  "difficulty": "medium",
+  "prompt": "Un Ministerio quiere organizar conjuntamente recursos humanos, sistemas de información, asistencia jurídica y publicaciones. ¿Qué encaje legal es correcto?",
+  "options": [
+    {
+      "text": "Son competencias exclusivas de cada Dirección General sectorial y nunca pueden gestionarse de forma compartida.",
+      "isCorrect": false,
+      "feedback": "La transversalidad las sitúa entre los servicios comunes y la ley permite expresamente una gestión compartida mediante real decreto.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G08, materias y gestión compartida de servicios comunes"
+    },
+    {
+      "text": "Son materias de servicios comunes, dirigidos por la Subsecretaría; un real decreto puede prever su gestión compartida y debe concretar la dependencia orgánica y funcional del personal afectado.",
+      "isCorrect": true,
+      "feedback": "Correcto. Las materias figuran en el artículo 68 y la dirección de los servicios comunes corresponde al Subsecretario conforme al artículo 63."
+    },
+    {
+      "text": "Los servicios comunes constituyen un Ministerio separado y su personal deja de depender orgánica y funcionalmente de cualquier órgano.",
+      "isCorrect": false,
+      "feedback": "Los servicios comunes forman parte de la organización central ministerial; la gestión compartida debe definir, no eliminar, las dependencias del personal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, posición organizativa de los servicios comunes"
+    },
+    {
+      "text": "Solo la asistencia jurídica es servicio común; recursos humanos, sistemas y publicaciones son siempre funciones territoriales.",
+      "isCorrect": false,
+      "feedback": "El artículo 68 enumera expresamente esas cuatro materias entre los servicios comunes; no se vuelven territoriales por prestarse a múltiples unidades.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G08, catálogo funcional de servicios comunes"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 63.1 y 68",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

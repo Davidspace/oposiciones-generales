@@ -1,0 +1,75 @@
+{
+  "id": "g-11-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Derecho derivado: decisiones",
+  "competency": "Determinar la obligatoriedad y los destinatarios de una decisión.",
+  "difficulty": "medium",
+  "prompt": "Una decisión de la Unión designa expresamente como destinatarias a dos empresas. Según el artículo 288 TFUE, ¿a quién obliga y con qué alcance?",
+  "options": [
+    {
+      "text": "Obliga en todos sus elementos únicamente a las dos empresas designadas como destinatarias.",
+      "isCorrect": true,
+      "feedback": "Correcto. La decisión obliga en todos sus elementos y, cuando designa destinatarios, solo obliga a estos."
+    },
+    {
+      "text": "Obliga a toda persona y empresa de la Unión porque toda decisión tiene alcance general.",
+      "isCorrect": false,
+      "feedback": "El artículo 288 no atribuye alcance general a toda decisión. Cuando esta designa destinatarios, limita a ellos su obligatoriedad.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G11, destinatarios de la decisión"
+    },
+    {
+      "text": "No obliga a nadie hasta que cada Estado la transforme en una ley nacional.",
+      "isCorrect": false,
+      "feedback": "La decisión es obligatoria en todos sus elementos. No se define como una directiva pendiente de transposición.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G11, decisión y transposición"
+    },
+    {
+      "text": "Solo orienta a las empresas, pues toda decisión tiene el mismo valor no vinculante que un dictamen.",
+      "isCorrect": false,
+      "feedback": "La decisión es vinculante; recomendaciones y dictámenes son los actos que el artículo 288 declara no vinculantes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, actos vinculantes y no vinculantes"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-007",
+    "clm-g-11-009"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_288/oj/spa",
+      "location": "artículo 288 TFUE, párrafo cuarto",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_297/oj/spa",
+      "location": "artículo 297 TFUE, apartado 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre obligatoriedad y destinatarios de las decisiones."
+      }
+    ]
+  }
+}

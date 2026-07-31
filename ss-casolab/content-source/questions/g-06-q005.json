@@ -1,0 +1,75 @@
+{
+  "id": "g-06-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "CGPJ: funciones de gobierno",
+  "competency": "Diferenciar las atribuciones gubernativas del CGPJ de la potestad jurisdiccional.",
+  "difficulty": "basic",
+  "prompt": "¿Cuál de las siguientes actuaciones pertenece al ámbito característico del CGPJ y no supone resolver jurisdiccionalmente un litigio?",
+  "options": [
+    {
+      "text": "Ejercer la alta inspección de tribunales y resolver en materia de destinos, ascensos o disciplina judicial conforme a la ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son funciones de gobierno de la carrera y de la organización judicial expresamente atribuidas al CGPJ por la LOPJ."
+    },
+    {
+      "text": "Anular una sentencia firme porque aprecia una interpretación jurídica incorrecta.",
+      "isCorrect": false,
+      "feedback": "El CGPJ no es una instancia procesal y no puede anular sentencias. La revisión de resoluciones corresponde a los órganos jurisdiccionales mediante los cauces legales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G06, límites jurisdiccionales del CGPJ"
+    },
+    {
+      "text": "Condenar penalmente a un juez como consecuencia directa de un expediente disciplinario.",
+      "isCorrect": false,
+      "feedback": "La potestad disciplinaria gubernativa no incluye dictar condenas penales. La responsabilidad penal exige el correspondiente proceso ante el órgano jurisdiccional competente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, disciplina y jurisdicción penal"
+    },
+    {
+      "text": "Resolver un recurso de casación para unificar la interpretación de la ley.",
+      "isCorrect": false,
+      "feedback": "Resolver la casación es una función jurisdiccional, no de gobierno judicial. El CGPJ no sustituye al Tribunal Supremo.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G06, CGPJ frente a Tribunal Supremo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "location": "artículo 560, apartado 1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

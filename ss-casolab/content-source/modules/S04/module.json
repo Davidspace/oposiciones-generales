@@ -1,0 +1,129 @@
+{
+  "id": "S04",
+  "themeId": "ss-04",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Cotización, bases, tipos y liquidación de deudas",
+  "learningOutcomes": [
+    "Identificar los sujetos obligados y el sujeto responsable de ingresar las cuotas del Régimen General.",
+    "Construir una base de cotización desde la remuneración computable, las prorratas y los límites aplicables.",
+    "Aplicar los tipos vigentes de 2026 sin confundir contingencias comunes, profesionales y cotizaciones adicionales.",
+    "Distinguir autoliquidación, liquidación directa y liquidación simplificada y reconocer las obligaciones de cada sistema.",
+    "Resolver los efectos de incapacidad temporal, horas extraordinarias, contratos breves, salarios retroactivos y vacaciones no disfrutadas sobre la cotización.",
+    "Separar la liquidación de cuotas de la liquidación de otros recursos y conceptos de recaudación conjunta."
+  ],
+  "decisions": [
+    "Fijar el régimen, el período de liquidación, los sujetos obligados y el responsable del ingreso.",
+    "Clasificar cada percepción como computable, excluida dentro de límites o sujeta a liquidación complementaria.",
+    "Añadir las prorratas y aplicar la base mínima, máxima o el tope que corresponda antes de usar un tipo.",
+    "Separar contingencias comunes, contingencias profesionales, recaudación conjunta y cotizaciones adicionales.",
+    "Elegir el sistema de liquidación y comprobar quién calcula, qué datos se transmiten y cuál es el último día operativo.",
+    "Comprobar una regla especial antes de aplicar la fórmula ordinaria.",
+    "Consultar la orden anual vigente cuando la respuesta dependa de una cuantía, un tipo o un tramo."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La cotización a la Seguridad Social: normas comunes del sistema",
+      "objective": "Determinar obligatoriedad, sujetos, responsabilidad y duración de la obligación de cotizar.",
+      "sectionId": "s04-normas-comunes",
+      "activityIds": [
+        "ss-04-q001"
+      ]
+    },
+    {
+      "officialClause": "La liquidación de cuotas",
+      "objective": "Distinguir los tres sistemas legales de liquidación y aplicar las obligaciones del sistema directo.",
+      "sectionId": "s04-liquidacion-cuotas",
+      "activityIds": [
+        "ss-04-q005"
+      ]
+    },
+    {
+      "officialClause": "El régimen general de la Seguridad Social. Bases y tipos de cotización",
+      "objective": "Construir la base, aplicar límites y distribuir los tipos vigentes entre empresa y persona trabajadora.",
+      "sectionId": "s04-regimen-general",
+      "activityIds": [
+        "ss-04-q002",
+        "ss-04-q003",
+        "ss-04-q004"
+      ]
+    },
+    {
+      "officialClause": "Supuestos especiales",
+      "objective": "Reconocer las reglas aplicables a situaciones protegidas y a percepciones que exigen liquidación complementaria.",
+      "sectionId": "s04-supuestos-especiales",
+      "activityIds": [
+        "ss-04-q006",
+        "ss-04-q007"
+      ]
+    },
+    {
+      "officialClause": "Liquidación de otras deudas",
+      "objective": "Delimitar el objeto de la gestión liquidatoria y los recursos distintos de las cuotas ordinarias.",
+      "sectionId": "s04-otras-deudas",
+      "activityIds": [
+        "ss-04-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S04/lesson.md",
+  "reviewSheetPath": "content-source/modules/S04/review.md",
+  "normativeClaimIds": [
+    "clm-ss-04-001",
+    "clm-ss-04-002",
+    "clm-ss-04-003",
+    "clm-ss-04-004",
+    "clm-ss-04-005",
+    "clm-ss-04-006",
+    "clm-ss-04-007",
+    "clm-ss-04-008",
+    "clm-ss-04-009",
+    "clm-ss-04-010",
+    "clm-ss-04-011",
+    "clm-ss-04-012",
+    "clm-ss-04-013",
+    "clm-ss-04-014",
+    "clm-ss-04-015",
+    "clm-ss-04-016",
+    "clm-ss-04-017",
+    "clm-ss-04-018",
+    "clm-ss-04-019"
+  ],
+  "questionIds": [
+    "ss-04-q001",
+    "ss-04-q002",
+    "ss-04-q003",
+    "ss-04-q004",
+    "ss-04-q005",
+    "ss-04-q006",
+    "ss-04-q007",
+    "ss-04-q008"
+  ],
+  "microcaseIds": [
+    "MC03"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S04 con ocho preguntas y parámetros oficiales de 2026; revisión humana pendiente."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

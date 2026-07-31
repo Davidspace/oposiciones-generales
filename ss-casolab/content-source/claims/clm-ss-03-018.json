@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-018",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "El convenio especial inicia o continúa una situación de alta o asimilada y tiene por objeto general la cotización y cobertura de contingencias comunes en los términos de la Orden, con las exclusiones generales que esta establece, entre ellas desempleo, FOGASA y formación profesional.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19281#a1",
+  "sourceLocation": "Orden TAS/2865/2003, artículo 1",
+  "officialPublication": "BOE-A-2003-19281; texto consolidado con última actualización publicada el 29-10-2025",
+  "validFrom": "2004-04-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q008"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-09-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Estatutos de autonomía",
+  "competency": "Reconocer el contenido necesario y la reforma de un estatuto de autonomía.",
+  "difficulty": "basic",
+  "prompt": "Una reforma estatutaria se aprueba por el parlamento autonómico sin seguir el procedimiento estatutario ni obtener aprobación de las Cortes. ¿Es suficiente?",
+  "options": [
+    {
+      "text": "Sí, porque el estatuto es una ley ordinaria exclusivamente autonómica.",
+      "isCorrect": false,
+      "feedback": "El estatuto es norma institucional básica y su reforma requiere aprobación estatal mediante ley orgánica.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G09, naturaleza del estatuto"
+    },
+    {
+      "text": "No, pero solo porque toda reforma estatutaria exige referéndum estatal aunque el estatuto no lo prevea.",
+      "isCorrect": false,
+      "feedback": "La Constitución remite al procedimiento del propio estatuto y exige ley orgánica; no establece esa fórmula general de referéndum estatal.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G09, procedimiento de reforma"
+    },
+    {
+      "text": "No. El estatuto es la norma institucional básica y su reforma debe seguir el procedimiento que establece y obtener aprobación de las Cortes Generales mediante ley orgánica.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 147 exige ambas garantías y enumera el contenido mínimo del estatuto."
+    },
+    {
+      "text": "Sí, si la reforma no cambia el territorio, porque el contenido mínimo solo incluye la sede institucional.",
+      "isCorrect": false,
+      "feedback": "El contenido mínimo incluye denominación, territorio, instituciones y sede, competencias y bases de traspaso; la garantía de reforma no depende solo del territorio.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G09, contenido estatutario"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 147",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre el contenido y la reforma estatutaria."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

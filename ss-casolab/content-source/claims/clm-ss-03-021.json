@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-03-021",
+  "assetId": "MC02",
+  "version": "0.1.0",
+  "statement": "Existe pluriactividad cuando las actividades por cuenta propia y/o ajena de una persona dan lugar a su alta obligatoria en dos o más regímenes distintos del sistema de la Seguridad Social.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a7",
+  "sourceLocation": "Real Decreto 84/1996, artículo 7.4.1.º",
+  "officialPublication": "BOE-A-1996-4447; redacción consolidada del artículo 7",
+  "validFrom": "2005-10-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC02",
+    "ss-02-q104"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable para MC02; revisión humana pendiente."
+      }
+    ]
+  }
+}

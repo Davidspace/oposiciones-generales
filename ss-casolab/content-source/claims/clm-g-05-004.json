@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-004",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "La reforma constitucional de 19 de mayo de 2026 convirtió Ibiza y Formentera en circunscripciones senatoriales separadas, con un Senador por cada isla, y pospuso la eficacia de la creación de ambas circunscripciones hasta las primeras elecciones al Senado celebradas después de la entrada en vigor de la reforma.",
+  "sourceUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881",
+  "sourceLocation": "artículo único, disposición transitoria única y disposición final única",
+  "officialPublication": "BOE núm. 123, de 20-05-2026; BOE-A-2026-10881; entrada en vigor el 20-05-2026",
+  "validFrom": "2026-05-20",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa con control transitorio de la reforma de 2026."
+      }
+    ]
+  }
+}

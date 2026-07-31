@@ -1,0 +1,70 @@
+{
+  "id": "g-16-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Representación",
+  "competency": "aplicar acreditación y subsanación de la representación",
+  "difficulty": "high",
+  "prompt": "Una persona interpone un recurso en nombre de otra, pero acredita de forma insuficiente la representación. ¿Qué debe hacerse conforme al artículo 5?",
+  "options": [
+    {
+      "text": "Exigir acreditación por tratarse de un recurso y conceder diez días para aportar o subsanar, o un plazo superior si las circunstancias lo requieren.",
+      "isCorrect": true,
+      "feedback": "Correcto. Interponer recursos exige acreditar representación y el defecto es subsanable en el plazo del artículo 5.6."
+    },
+    {
+      "text": "Presumir siempre la representación porque cualquier recurso es un acto de mero trámite.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 5.3 menciona expresamente los recursos entre las actuaciones que exigen acreditación.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G16, apartado 3 «Representación»"
+    },
+    {
+      "text": "Tener definitivamente por no presentado el recurso sin ofrecer posibilidad de subsanación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta o insuficiencia no impide tener por realizado el acto si se subsana en el plazo concedido.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G16, apartado 3 «Representación»"
+    },
+    {
+      "text": "Conceder siempre treinta días, pues la ley prohíbe fijar un plazo inferior.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El plazo ordinario que establece el artículo 5.6 es de diez días, aunque puede ser superior si las circunstancias lo requieren.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G16, apartado 3 «Representación»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-005",
+    "clm-g-16-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 5.3, 5.4 y 5.6",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

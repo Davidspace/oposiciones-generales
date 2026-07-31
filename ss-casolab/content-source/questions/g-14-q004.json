@@ -1,0 +1,75 @@
+{
+  "id": "g-14-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "Disposiciones del Gobierno con fuerza de ley: decreto-ley",
+  "competency": "reconocer el presupuesto y los límites del decreto-ley",
+  "difficulty": "medium",
+  "prompt": "¿Cuál de estas afirmaciones sobre el decreto-ley se ajusta al artículo 86.1 de la Constitución?",
+  "options": [
+    {
+      "text": "Es legislación delegada que siempre requiere una ley de bases previa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa descripción corresponde al decreto legislativo para textos articulados; el decreto-ley se basa en extraordinaria y urgente necesidad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G14, apartado 2 «Disposiciones del Gobierno con fuerza de ley»"
+    },
+    {
+      "text": "Puede afectar sin límite a cualquier contenido del título I si se justifica la urgencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 86.1 incluye entre sus límites los derechos, deberes y libertades de los ciudadanos regulados en el título I.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G14, apartado 2.2 «Decreto-ley»"
+    },
+    {
+      "text": "Solo puede dictarlo el Congreso por mayoría absoluta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El decreto-ley lo dicta el Gobierno; el Congreso interviene después mediante el control previsto en el artículo 86.2.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G14, apartado 2.2 «Decreto-ley»"
+    },
+    {
+      "text": "Es una disposición legislativa provisional del Gobierno para casos de extraordinaria y urgente necesidad y está sometida a límites materiales expresos.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 86.1 combina el presupuesto habilitante, el carácter provisional y cuatro ámbitos a los que no puede afectar."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 86.1",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

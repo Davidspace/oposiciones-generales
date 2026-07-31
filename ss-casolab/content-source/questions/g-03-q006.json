@@ -1,0 +1,69 @@
+{
+  "id": "g-03-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Legitimación en el recurso de amparo",
+  "competency": "Identificar quién puede interponer el recurso de amparo según la Constitución.",
+  "difficulty": "basic",
+  "prompt": "¿Quién está legitimado para interponer un recurso de amparo según el artículo 162.1.b?",
+  "options": [
+    {
+      "text": "Solo las personas físicas españolas que hayan sido parte en un proceso penal.",
+      "isCorrect": false,
+      "feedback": "La regla no se limita a personas físicas, nacionalidad española ni procesos penales. Incluye personas naturales o jurídicas que invoquen interés legítimo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G03, legitimación del amparo"
+    },
+    {
+      "text": "Toda persona natural o jurídica que invoque un interés legítimo, el Defensor del Pueblo y el Ministerio Fiscal.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa es la lista del artículo 162.1.b, sin perjuicio de los restantes requisitos procesales."
+    },
+    {
+      "text": "El Presidente del Gobierno, cincuenta Diputados y cincuenta Senadores.",
+      "isCorrect": false,
+      "feedback": "Esos sujetos forman parte de la legitimación del recurso de inconstitucionalidad. La pregunta se refiere al amparo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G03, recurso de inconstitucionalidad frente a amparo"
+    },
+    {
+      "text": "Cualquier persona, aunque no invoque ningún interés legítimo.",
+      "isCorrect": false,
+      "feedback": "La Constitución exige que la persona natural o jurídica invoque un interés legítimo. No elimina ese requisito.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G03, requisito de interés legítimo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 162.1.b",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

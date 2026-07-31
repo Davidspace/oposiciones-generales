@@ -1,0 +1,79 @@
+{
+  "id": "ss-12-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Modalidad",
+  "competency": "Distinguir contributiva y no contributiva",
+  "difficulty": "basic",
+  "prompt": "Una persona no reúne carrera de cotización suficiente pero acredita carencia de rentas y los demás requisitos legales. ¿Qué modalidad debe analizarse?",
+  "options": [
+    {
+      "text": "Siempre una pensión contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ausencia de cotización puede situar el análisis en la modalidad no contributiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, modalidad"
+    },
+    {
+      "text": "Una prestación no contributiva, si cumple sus requisitos propios.",
+      "isCorrect": true,
+      "feedback": "Correcto. La modalidad no contributiva no se construye sobre la misma carencia cotizada."
+    },
+    {
+      "text": "Una jubilación parcial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se describe compatibilidad de pensión y trabajo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, modalidad"
+    },
+    {
+      "text": "Una prestación de muerte y supervivencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No existe fallecimiento de causante.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, modalidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-001",
+    "clm-ss-12-002",
+    "clm-ss-12-017",
+    "clm-ss-12-018",
+    "clm-ss-12-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 363 a 372 TRLGSS",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

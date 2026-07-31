@@ -1,0 +1,81 @@
+{
+  "id": "ss-03-q206",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 12: alta previa",
+  "competency": "Aplicar la antelación máxima y la fecha de efectos del alta previa",
+  "difficulty": "medium",
+  "prompt": "El alta de B para comenzar el 1 de junio se solicitó el 20 de abril, cuarenta y dos días naturales antes. B empezó efectivamente el día previsto. ¿Desde cuándo produce efectos?",
+  "options": [
+    {
+      "text": "Desde el 20 de abril, porque toda solicitud previa anticipa inmediatamente derechos y obligaciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La presentación previa no adelanta los efectos al día de la solicitud; estos comienzan con la actividad.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.2: solicitud previa frente a fecha de efectos."
+    },
+    {
+      "text": "Desde el 19 de junio, al cumplirse sesenta días desde la solicitud.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los sesenta días son una antelación máxima, no un período de espera que deba agotarse.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.2: significado del límite de sesenta días."
+    },
+    {
+      "text": "Desde el 1 de junio, porque la solicitud fue previa, respetó el máximo de sesenta días y B inició la actividad en la fecha comunicada.",
+      "isCorrect": true,
+      "feedback": "Correcto. Cuarenta y dos días están dentro de la antelación máxima; el alta previa produce efectos desde el inicio real de la actividad."
+    },
+    {
+      "text": "No produce efectos porque cualquier alta presentada más de treinta días antes es inválida.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla general permite presentar el alta hasta sesenta días naturales antes; cuarenta y dos días no exceden ese límite.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S03, apartado 4.2: antelación máxima del alta."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-012",
+    "clm-ss-03-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.1.º",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a35",
+      "location": "Real Decreto 84/1996, artículo 35.1.1.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 12 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

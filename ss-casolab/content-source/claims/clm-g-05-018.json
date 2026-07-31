@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-05-018",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "Todos los poderes públicos deben auxiliar con carácter preferente y urgente al Defensor, que puede acceder a centros, expedientes y documentación; si solicita documentos secretos, su falta de remisión debe acordarla el Consejo de Ministros y acreditarse mediante certificación.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+  "sourceLocation": "artículos 19 a 22",
+  "officialPublication": "BOE núm. 109, de 07-05-1981; texto consolidado con última actualización publicada el 04-11-2009",
+  "validFrom": "1992-03-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

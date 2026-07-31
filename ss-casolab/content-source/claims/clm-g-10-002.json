@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-002", "assetId": "G10", "version": "0.1.0",
+  "statement": "La mayoría cualificada ordinaria del Consejo exige al menos el 55 % de sus miembros, incluidos al menos quince, que representen Estados con al menos el 65 % de la población de la Unión; una minoría de bloqueo requiere al menos cuatro miembros.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_16/oj/spa",
+  "sourceLocation": "artículo 16 TUE, apartados 3 y 4",
+  "officialPublication": "DO C 202, de 07-06-2016, p. 24; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2014-11-01", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q002"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre mayoría cualificada del Consejo."}]}
+}

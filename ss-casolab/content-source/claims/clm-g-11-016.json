@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-016", "assetId": "G11", "version": "0.1.0",
+  "statement": "La sentencia Van Gend en Loos declaró que la prohibición clara e incondicional entonces examinada, no subordinada a una actuación normativa interna, producía efecto directo y generaba derechos individuales que los órganos jurisdiccionales nacionales debían proteger.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61962CJ0026", "sourceLocation": "sentencia de 05-02-1963, asunto 26/62, fundamentos sobre la primera cuestión", "officialPublication": "EUR-Lex, documento 61962CJ0026; ECLI:EU:C:1963:1",
+  "validFrom": "1963-02-05", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre el reconocimiento jurisprudencial del efecto directo."}]}
+}

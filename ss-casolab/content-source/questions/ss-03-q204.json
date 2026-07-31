@@ -1,0 +1,69 @@
+{
+  "id": "ss-03-q204",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 10: sujeto obligado",
+  "competency": "Identificar la obligación empresarial de afiliación, alta y baja",
+  "difficulty": "basic",
+  "prompt": "En el Régimen General de CP01, ¿quién debía solicitar la afiliación inicial y el alta de A y comunicar la baja de D?",
+  "options": [
+    {
+      "text": "La sociedad empleadora, sin perjuicio de las vías subsidiaria de la persona interesada y de oficio ante su incumplimiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. El empresario debe solicitar la afiliación de quien ingresa a su servicio y comunicar el ingreso y el cese para las respectivas alta y baja."
+    },
+    {
+      "text": "A y D exclusivamente, porque los movimientos del Régimen General nunca corresponden al empresario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La posible actuación directa del trabajador ante incumplimiento es subsidiaria y no desplaza la obligación empresarial inicial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartados 2.2 y 4.1: empresario, trabajador y actuación de oficio."
+    },
+    {
+      "text": "El servicio público de empleo, porque afiliación y desempleo son el mismo procedimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Mezcla la protección por desempleo con los actos de afiliación, alta y baja ante la Administración de la Seguridad Social.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 2.2: organismo y acto competente."
+    },
+    {
+      "text": "La Inspección de Trabajo, como sujeto obligado ordinario desde antes de que exista incumplimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La Administración puede actuar de oficio tras constatar el incumplimiento, pero eso no convierte a la Inspección en el obligado inicial.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S03, apartado 2.2: vía empresarial antes de las vías subsidiaria y de oficio."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+      "location": "TRLGSS, artículo 139.1 y 139.2, en relación con el artículo 16",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 10 de CP01."
+      }
+    ]
+  }
+}

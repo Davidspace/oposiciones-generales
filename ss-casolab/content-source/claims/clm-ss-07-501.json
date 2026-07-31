@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-07-501",
+  "assetId": "CP03",
+  "version": "0.1.0",
+  "statement": "El accidente de trabajo es la lesiÃ³n corporal sufrida con ocasiÃ³n o por consecuencia del trabajo por cuenta ajena.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "TRLGSS, artÃ­culo 156",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP03",
+    "ss-07-q501"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP03."
+      }
+    ]
+  }
+}

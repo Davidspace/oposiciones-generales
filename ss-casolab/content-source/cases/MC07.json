@@ -1,0 +1,108 @@
+{
+  "id": "MC07",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Muerte y supervivencia",
+  "scenario": "Una persona fallece estando incluida en el sistema. Deja cónyuge, una hija de 19 años que estudia y un hijo adulto con una discapacidad reconocida. La familia solicita las prestaciones de muerte y supervivencia que considera aplicables.",
+  "originality": "original",
+  "assumptions": [
+    "El fallecimiento y la situación de alta cumplen las condiciones generales declaradas.",
+    "No existe sentencia de separación o divorcio con efectos distintos a los descritos.",
+    "La hija y el hijo acreditan las circunstancias personales indicadas.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-11"
+  ],
+  "competencies": [
+    "Identificar las prestaciones de muerte y supervivencia.",
+    "Distinguir la pensión de viudedad de la pensión de orfandad.",
+    "Aplicar los límites de edad y discapacidad en la orfandad.",
+    "Reconocer el auxilio por defunción como prestación diferente.",
+    "Evitar convertir la condición familiar en un reconocimiento automático."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-07",
+      "competency": "Identificar las prestaciones de muerte y supervivencia.",
+      "questionIds": [
+        "ss-07-q321"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Distinguir la pensión de viudedad de la pensión de orfandad.",
+      "questionIds": [
+        "ss-11-q322"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Aplicar los límites de edad y discapacidad en la orfandad.",
+      "questionIds": [
+        "ss-11-q323"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Reconocer el auxilio por defunción como prestación diferente.",
+      "questionIds": [
+        "ss-07-q324"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Evitar convertir la condición familiar en un reconocimiento automático.",
+      "questionIds": [
+        "ss-11-q325"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-07-q321",
+    "ss-11-q322",
+    "ss-11-q323",
+    "ss-07-q324",
+    "ss-11-q325"
+  ],
+  "consistencyRules": [
+    "Cada posible beneficiario se analiza por separado.",
+    "La relación familiar no sustituye los requisitos de la prestación.",
+    "La prestación de viudedad y la de orfandad tienen reglas propias."
+  ],
+  "durationMinutes": 14,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-07-121",
+    "clm-ss-07-122",
+    "clm-ss-07-123",
+    "clm-ss-07-124",
+    "clm-ss-07-125"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC07 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

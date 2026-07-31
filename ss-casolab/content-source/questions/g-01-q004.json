@@ -1,0 +1,75 @@
+{
+  "id": "g-01-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Reforma constitucional: iniciativa",
+  "competency": "Reconocer una vía válida de iniciativa de reforma.",
+  "difficulty": "medium",
+  "prompt": "¿Cuál de las siguientes actuaciones puede formar parte de la iniciativa de reforma constitucional conforme a los artículos 166 y 87?",
+  "options": [
+    {
+      "text": "Una iniciativa popular respaldada por quinientas mil firmas.",
+      "isCorrect": false,
+      "feedback": "El artículo 166 remite solo a los apartados 1 y 2 del artículo 87. No incorpora la iniciativa popular del apartado 3.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G01, remisión del artículo 166"
+    },
+    {
+      "text": "El Defensor del Pueblo mediante una propuesta directa al Senado.",
+      "isCorrect": false,
+      "feedback": "El Defensor del Pueblo no aparece entre los titulares de iniciativa a los que remite el artículo 166.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G01, sujetos con iniciativa de reforma"
+    },
+    {
+      "text": "El Tribunal Constitucional mediante un acuerdo de su Pleno.",
+      "isCorrect": false,
+      "feedback": "El Tribunal Constitucional no ejerce la iniciativa de reforma prevista en los artículos 166 y 87.1-2.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G01, sujetos con iniciativa de reforma"
+    },
+    {
+      "text": "Una asamblea autonómica que solicita al Gobierno un proyecto o remite una proposición al Congreso.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 87.2 reconoce esas dos vías a las asambleas de las comunidades autónomas y el artículo 166 se remite a ese apartado."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículos 166 y 87.1-2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

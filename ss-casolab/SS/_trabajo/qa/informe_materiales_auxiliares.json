@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-07-30T16:20:06",
+  "date_cutoff": "2026-07-30",
+  "documents": [],
+  "control": {
+    "output": "07. Informes de revisión\\Tabla final de control de entregables.docx",
+    "json": "_trabajo\\qa\\control_final_entregables.json",
+    "fecha_corte": "2026-07-30",
+    "programa_temas": 36,
+    "temas_docx": 36,
+    "tests_docx": 36,
+    "simulacros_sin_respuestas": 20,
+    "plantillas_simulacros": 20,
+    "simulacros_razonados": 20,
+    "pdf_oficiales": 60,
+    "guia_pdf": 1,
+    "pdf_normativa": 57,
+    "docx_normativa": 3,
+    "informes_analisis_docx": 1,
+    "informes_analisis_pdf": 1,
+    "libros_analisis_xlsx": 1,
+    "docx_verificados": 145,
+    "docx_invalidos": 0
+  }
+}

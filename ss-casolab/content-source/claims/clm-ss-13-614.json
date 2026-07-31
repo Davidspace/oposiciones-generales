@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-13-614",
+  "assetId": "CP04",
+  "version": "0.1.0",
+  "statement": "La vÃ­a de recurso se determina por la naturaleza del acto y por las reglas de la Ley 39/2015.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "Ley 39/2015, artÃ­culos 121 a 124",
+  "officialPublication": "BOE-A-2015-10565",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP04",
+    "ss-13-q614"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP04."
+      }
+    ]
+  }
+}

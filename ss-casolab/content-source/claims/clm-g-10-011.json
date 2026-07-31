@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-011", "assetId": "G10", "version": "0.1.0",
+  "statement": "El Consejo Europeo propone por mayoría cualificada la candidatura a presidir la Comisión teniendo en cuenta las elecciones; el Parlamento la elige, el Consejo adopta de común acuerdo con ella la lista de restantes miembros, el Parlamento aprueba colegiadamente el conjunto y el Consejo Europeo nombra la Comisión.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_17/oj/spa",
+  "sourceLocation": "artículo 17 TUE, apartado 7",
+  "officialPublication": "DO C 202, de 07-06-2016, pp. 25-26; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q006"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre designación de la Comisión."}]}
+}

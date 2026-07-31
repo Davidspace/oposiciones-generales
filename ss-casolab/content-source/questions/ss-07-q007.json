@@ -1,0 +1,69 @@
+{
+  "id": "ss-07-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Accidente de trabajo",
+  "competency": "Aplicar la presunción de laboralidad y distinguirla de una calificación irrebatible",
+  "difficulty": "medium",
+  "prompt": "Una trabajadora sufre una lesión dentro de su jornada y en el lugar de trabajo. Todavía no se ha acreditado la causa concreta. ¿Cuál es la regla inicial de calificación?",
+  "options": [
+    {
+      "text": "La lesión se presume accidente de trabajo, pero la presunción admite prueba en contrario.",
+      "isCorrect": true,
+      "feedback": "Correcto. La coincidencia de tiempo y lugar activa la presunción del artículo 156.3, que es rebatible."
+    },
+    {
+      "text": "La lesión nunca puede ser accidente de trabajo hasta que la trabajadora pruebe una orden escrita del empresario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley no exige una orden escrita para activar la presunción de las lesiones sufridas durante el tiempo y en el lugar de trabajo.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S07, apartado 8.1: presupuesto de la presunción de laboralidad."
+    },
+    {
+      "text": "La lesión es accidente de trabajo de forma irrebatible y ninguna prueba puede excluir su relación laboral.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 156.3 dice expresamente que la presunción opera salvo prueba en contrario.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S07, apartado 8.1: carácter rebatible de la presunción."
+    },
+    {
+      "text": "Toda lesión ocurrida en el centro es accidente no laboral si no provoca incapacidad permanente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El grado o duración de la incapacidad no convierte la lesión en común; la calificación depende del nexo con el trabajo y de las reglas del artículo 156.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartado 8.1: concepto de accidente de trabajo frente a sus consecuencias."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a156",
+      "location": "TRLGSS, artículo 156.1 y 156.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      }
+    ]
+  }
+}

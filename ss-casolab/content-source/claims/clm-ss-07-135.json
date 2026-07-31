@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-07-135",
+  "assetId": "MC08",
+  "version": "0.1.0",
+  "statement": "El derecho al IMV y su cuantía se revisan conforme a los datos económicos y familiares y a las reglas de la Ley 19/2021.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "Ley 19/2021, artículos 12, 13 y 17",
+  "officialPublication": "BOE-A-2021-21007",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC08",
+    "ss-12-q335"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Afirmación normativa de borrador para MC08."
+      }
+    ]
+  }
+}

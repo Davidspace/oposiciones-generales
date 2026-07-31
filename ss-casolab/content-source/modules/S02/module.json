@@ -1,0 +1,108 @@
+{
+  "id": "S02",
+  "themeId": "ss-02",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Campo de aplicación, regímenes y sistemas especiales",
+  "learningOutcomes": [
+    "Determinar si una persona queda dentro del campo contributivo o no contributivo sin confundir residencia, actividad y encuadramiento.",
+    "Distinguir el Régimen General, los regímenes especiales y los sistemas especiales y explicar qué función cumple cada nivel.",
+    "Aplicar la regla general de inclusión en el Régimen General y comprobar sus inclusiones expresas y exclusiones antes de decidir.",
+    "Reconocer qué norma de entrada corresponde a los principales regímenes y sistemas especiales sin trasladar automáticamente las reglas del Régimen General.",
+    "Relacionar el encuadramiento con las reglas posteriores de afiliación, alta, baja, cotización y acción protectora."
+  ],
+  "decisions": [
+    "Separar el campo de aplicación del sistema del régimen concreto en el que debe encuadrarse la actividad.",
+    "Identificar sujeto, residencia o situación legal, territorio y naturaleza de la actividad antes de elegir régimen.",
+    "Comprobar si una actividad por cuenta ajena entra en el Régimen General o debe quedar comprendida en un régimen especial.",
+    "Distinguir una inclusión expresa de una asimilación y revisar las exclusiones legales.",
+    "Decidir si una peculiaridad crea un régimen especial o solo un sistema especial dentro de un régimen.",
+    "Localizar las peculiaridades de alta, baja, cotización y protección en la norma específica, con su fecha de vigencia."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Campo de aplicación y composición del sistema de la Seguridad Social",
+      "objective": "Resolver el campo contributivo o no contributivo y distinguir la estructura de regímenes del sistema.",
+      "sectionId": "s02-campo-composicion",
+      "activityIds": [
+        "ss-02-q001",
+        "ss-02-q002"
+      ]
+    },
+    {
+      "officialClause": "Régimen general: ámbito subjetivo de aplicación, inclusiones y exclusiones",
+      "objective": "Aplicar la regla de inclusión del Régimen General, sus asimilaciones relevantes y sus exclusiones.",
+      "sectionId": "s02-regimen-general",
+      "activityIds": [
+        "ss-02-q003",
+        "ss-02-q004",
+        "ss-02-q005"
+      ]
+    },
+    {
+      "officialClause": "Regímenes especiales: enumeración, características generales, altas, bajas, cotización y particularidades de la acción protectora",
+      "objective": "Elegir la norma propia del régimen especial y no importar sin comprobación las reglas del Régimen General.",
+      "sectionId": "s02-regimenes-especiales",
+      "activityIds": [
+        "ss-02-q006"
+      ]
+    },
+    {
+      "officialClause": "Sistemas especiales: enumeración, características generales, altas, bajas, cotización y particularidades de la acción protectora",
+      "objective": "Distinguir los sistemas especiales integrados en el Régimen General y en el RETA y localizar sus peculiaridades.",
+      "sectionId": "s02-sistemas-especiales",
+      "activityIds": [
+        "ss-02-q007",
+        "ss-02-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S02/lesson.md",
+  "reviewSheetPath": "content-source/modules/S02/review.md",
+  "normativeClaimIds": [
+    "clm-ss-02-001",
+    "clm-ss-02-002",
+    "clm-ss-02-003",
+    "clm-ss-02-004",
+    "clm-ss-02-005",
+    "clm-ss-02-006",
+    "clm-ss-02-007",
+    "clm-ss-02-008",
+    "clm-ss-02-009",
+    "clm-ss-02-010",
+    "clm-ss-02-011",
+    "clm-ss-02-012",
+    "clm-ss-02-013",
+    "clm-ss-02-014",
+    "clm-ss-02-015"
+  ],
+  "questionIds": [
+    "ss-02-q001",
+    "ss-02-q002",
+    "ss-02-q003",
+    "ss-02-q004",
+    "ss-02-q005",
+    "ss-02-q006",
+    "ss-02-q007",
+    "ss-02-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S02 con cobertura, preguntas y trazabilidad normativa; revisión humana pendiente."
+      }
+    ]
+  }
+}

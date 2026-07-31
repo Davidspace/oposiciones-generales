@@ -1,0 +1,75 @@
+{
+  "id": "g-05-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Posición y atribuciones de las Cortes Generales",
+  "competency": "Reconocer la estructura y las atribuciones constitucionales básicas del poder legislativo.",
+  "difficulty": "basic",
+  "prompt": "Una ficha define las Cortes Generales solo como el órgano que aprueba leyes. ¿Qué formulación corrige y completa esa definición según el artículo 66 de la Constitución?",
+  "options": [
+    {
+      "text": "Representan al pueblo español, las forman el Congreso y el Senado, ejercen la potestad legislativa, aprueban los Presupuestos, controlan al Gobierno y ejercen las demás competencias constitucionales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La definición reúne representación, bicameralismo, potestad legislativa, función presupuestaria, control y competencias constitucionales adicionales."
+    },
+    {
+      "text": "Las forman el Gobierno y el Congreso; elaboran leyes y ejecutan los Presupuestos.",
+      "isCorrect": false,
+      "feedback": "El Gobierno no integra las Cortes Generales. Las Cámaras son el Congreso y el Senado, y la ejecución presupuestaria no sustituye sus atribuciones constitucionales.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G05, posición y estructura bicameral"
+    },
+    {
+      "text": "Las forma solo el Congreso, porque el Senado interviene únicamente en asuntos territoriales sin función legislativa.",
+      "isCorrect": false,
+      "feedback": "El Senado es una de las dos Cámaras de las Cortes y participa en el procedimiento legislativo, aunque el Congreso tenga una posición decisiva en varios trámites.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G05, Congreso y Senado"
+    },
+    {
+      "text": "El Congreso aprueba en exclusiva los Presupuestos y el Senado controla en exclusiva la acción del Gobierno.",
+      "isCorrect": false,
+      "feedback": "El artículo 66 atribuye esas funciones a las Cortes Generales. No establece ese reparto exclusivo entre las Cámaras.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G05, atribuciones de las Cortes Generales"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 66",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

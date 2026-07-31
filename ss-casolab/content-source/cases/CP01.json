@@ -1,0 +1,164 @@
+{
+  "id": "CP01",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "full-case",
+  "title": "Primera plantilla y movimientos de una sociedad",
+  "scenario": "Una sociedad de capital de nueva creación inicia el 1 de junio de 2026 una actividad comercial ordinaria en España. No había desarrollado actividad ni tenido personal antes de esa fecha. Solicita su inscripción ante la Tesorería General de la Seguridad Social el 2 de junio; al practicarla, la Tesorería le asigna su número de inscripción y el primer código de cuenta de cotización principal. La persona A, que nunca había estado afiliada, comienza a trabajar por cuenta ajena el 1 de junio; la sociedad solicita su afiliación y alta el 5 de junio. La persona B, ya afiliada, comienza ese mismo 1 de junio; su alta se había solicitado el 20 de abril. B trabaja simultáneamente por cuenta ajena para otra empresa en el Régimen General y, desde el 15 de junio, desarrolla además una actividad por cuenta propia que obliga a su alta en el RETA. La persona C ejerce desde el 1 de junio funciones retribuidas de dirección y gerencia como administradora, sin poseer el control efectivo de la sociedad. La persona D, ya afiliada y con alta previa válida, trabaja desde el 8 hasta el 30 de junio; la sociedad comunica su baja el 6 de julio, fecha en la que la Tesorería conoce por primera vez el cese. La persona E finaliza su contrato el 10 de julio y tiene pendientes cinco días de vacaciones anuales retribuidas no disfrutadas.",
+  "originality": "original",
+  "assumptions": [
+    "Todas las personas residen o se encuentran legalmente en España y las actividades descritas se realizan en territorio nacional.",
+    "Las prestaciones de servicios de A, B, D y E son trabajos ordinarios por cuenta ajena que no determinan la inclusión en un régimen especial ni en un sistema especial.",
+    "La actividad por cuenta propia de B reúne los requisitos de inclusión en el RETA y no existe una norma que permita optar entre ese régimen y el Régimen General.",
+    "C realiza funciones retribuidas de dirección y gerencia, no posee control efectivo en los términos legales y no concurre otra causa de encuadramiento.",
+    "Respecto del alta tardía de A no resulta aplicable la excepción por ingreso en plazo de las primeras cuotas.",
+    "Respecto de la baja tardía de D no existe conocimiento anterior de la Tesorería ni se aporta prueba admisible de una fecha de efectos distinta.",
+    "Los hechos se resuelven con la normativa vigente al 30 de julio de 2026 y sin añadir circunstancias no declaradas.",
+    "La puntuación es directa: una respuesta correcta suma 1, una errónea resta 0,25 y una en blanco suma 0; no se infiere la puntuación transformada que pueda fijar el tribunal."
+  ],
+  "themes": [
+    "ss-01",
+    "ss-02",
+    "ss-03"
+  ],
+  "competencies": [
+    "Localizar el marco constitucional y los bloques normativos aplicables sin sustituir la regla legal concreta.",
+    "Resolver el campo contributivo y el encuadramiento de cada actividad antes de tramitar sus movimientos.",
+    "Aplicar de forma coherente inscripción, afiliación, alta, baja y situaciones asimiladas sobre una línea temporal común."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-01",
+      "competency": "Localizar el marco constitucional y los bloques normativos aplicables sin sustituir la regla legal concreta.",
+      "questionIds": [
+        "ss-01-q201",
+        "ss-01-q202"
+      ]
+    },
+    {
+      "themeId": "ss-02",
+      "competency": "Resolver el campo contributivo y el encuadramiento de cada actividad antes de tramitar sus movimientos.",
+      "questionIds": [
+        "ss-02-q201",
+        "ss-02-q202",
+        "ss-02-q203",
+        "ss-02-q204"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Aplicar de forma coherente inscripción, afiliación, alta, baja y situaciones asimiladas sobre una línea temporal común.",
+      "questionIds": [
+        "ss-03-q201",
+        "ss-03-q202",
+        "ss-03-q203",
+        "ss-03-q204",
+        "ss-03-q205",
+        "ss-03-q206",
+        "ss-03-q207",
+        "ss-03-q208",
+        "ss-03-q209",
+        "ss-03-q210",
+        "ss-03-q211",
+        "ss-03-q212"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-01-q201",
+    "ss-01-q202",
+    "ss-02-q201",
+    "ss-02-q202",
+    "ss-02-q203",
+    "ss-02-q204",
+    "ss-03-q201",
+    "ss-03-q202",
+    "ss-03-q203",
+    "ss-03-q204",
+    "ss-03-q205",
+    "ss-03-q206",
+    "ss-03-q207",
+    "ss-03-q208",
+    "ss-03-q209",
+    "ss-03-q210",
+    "ss-03-q211",
+    "ss-03-q212"
+  ],
+  "mainQuestionIds": [
+    "ss-01-q201",
+    "ss-01-q202",
+    "ss-02-q201",
+    "ss-02-q202",
+    "ss-02-q203",
+    "ss-02-q204",
+    "ss-03-q201",
+    "ss-03-q202",
+    "ss-03-q203",
+    "ss-03-q204",
+    "ss-03-q205",
+    "ss-03-q206",
+    "ss-03-q207",
+    "ss-03-q208",
+    "ss-03-q209"
+  ],
+  "reserveQuestionIds": [
+    "ss-03-q210",
+    "ss-03-q211",
+    "ss-03-q212"
+  ],
+  "consistencyRules": [
+    "Las quince primeras referencias de questionIds son preguntas principales; las tres últimas son reservas 1, 2 y 3, por este orden.",
+    "Las reservas solo sustituyen, por orden, preguntas principales anuladas y no se suman a la puntuación mientras no se produzca esa sustitución.",
+    "Todas las decisiones deben usar las mismas fechas, sujetos y actividades del escenario; una respuesta no puede introducir una excepción descartada en assumptions.",
+    "La afiliación de cada persona se analiza una sola vez, mientras que las altas y bajas se vinculan a cada actividad o relación correspondiente.",
+    "Primero se decide el encuadramiento y después el sujeto obligado, el plazo y los efectos del movimiento.",
+    "La puntuación directa sigue +1/-0,25/0 conforme al apartado 6.2.1.c de la Resolución de 22 de diciembre de 2025 (BOE-A-2025-27158); no equivale a la puntuación transformada del tribunal."
+  ],
+  "durationMinutes": 35,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "assessment-only",
+  "normativeClaimIds": [
+    "clm-ss-01-001",
+    "clm-ss-01-002",
+    "clm-ss-01-007",
+    "clm-ss-01-010",
+    "clm-ss-02-001",
+    "clm-ss-02-006",
+    "clm-ss-02-007",
+    "clm-ss-02-009",
+    "clm-ss-03-006",
+    "clm-ss-03-007",
+    "clm-ss-03-008",
+    "clm-ss-03-009",
+    "clm-ss-03-011",
+    "clm-ss-03-012",
+    "clm-ss-03-013",
+    "clm-ss-03-014",
+    "clm-ss-03-015",
+    "clm-ss-03-016",
+    "clm-ss-03-017"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de CP01 con quince preguntas principales y tres reservas; revisiones humanas pendientes."
+      }
+    ]
+  }
+}

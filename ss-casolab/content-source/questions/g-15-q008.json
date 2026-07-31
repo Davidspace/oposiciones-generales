@@ -1,0 +1,76 @@
+{
+  "id": "g-15-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "La revisión de oficio",
+  "competency": "seleccionar revisión de oficio o lesividad",
+  "difficulty": "high",
+  "prompt": "La Administración detecta que un acto favorable de hace dos años incurre en una infracción que determina anulabilidad, no nulidad. ¿Cuál es la vía descrita por la Ley 39/2015 para impugnarlo?",
+  "options": [
+    {
+      "text": "Declararlo nulo directamente mediante el artículo 106, aunque no concurra una causa del artículo 47.1.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La revisión del artículo 106 exige una causa de nulidad; no convierte una infracción anulable en nula.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G15, apartados 5.1 y 5.2"
+    },
+    {
+      "text": "Revocarlo sin límite porque todo acto favorable puede retirarse por razones de oportunidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La revocación del artículo 109.1 se refiere a actos de gravamen o desfavorables y tiene límites; no es un atajo para retirar este acto favorable.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G15, apartado 5.3 «Revocación, rectificación y límites»"
+    },
+    {
+      "text": "Rectificarlo como error material, aunque sea necesario cambiar la valoración jurídica de fondo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La rectificación se limita a errores materiales, de hecho o aritméticos; cambiar el juicio jurídico no es ese supuesto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G15, apartado 5.3 «Revocación, rectificación y límites»"
+    },
+    {
+      "text": "Declararlo lesivo para el interés público, con audiencia y dentro de cuatro años, y después impugnarlo ante la jurisdicción contencioso-administrativa.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 107 regula los actos favorables anulables; el supuesto está dentro del límite de cuatro años y exige la declaración previa de lesividad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-013",
+    "clm-g-15-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 106.1 y 107.1-3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

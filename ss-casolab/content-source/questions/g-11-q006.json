@@ -1,0 +1,87 @@
+{
+  "id": "g-11-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Otras fuentes",
+  "competency": "Distinguir actos no vinculantes, acuerdos de la Unión y principios generales.",
+  "difficulty": "medium",
+  "prompt": "¿Qué combinación describe correctamente tres elementos estudiados como «otras fuentes» o fuentes complementarias del sistema de la Unión?",
+  "options": [
+    {
+      "text": "Las recomendaciones son vinculantes si son precisas; los acuerdos solo vinculan a terceros Estados; y la Carta es el único origen posible de principios generales.",
+      "isCorrect": false,
+      "feedback": "Las recomendaciones no son vinculantes, los acuerdos de la Unión vinculan también a instituciones y Estados miembros, y el artículo 6.3 TUE reconoce derechos fundamentales como principios generales.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, otras fuentes"
+    },
+    {
+      "text": "Recomendaciones y dictámenes no son vinculantes; los acuerdos celebrados por la Unión vinculan a sus instituciones y a los Estados miembros; y el artículo 6.3 TUE reconoce determinados derechos fundamentales como principios generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. Cada proposición tiene un apoyo distinto: artículos 288 y 216.2 TFUE y artículo 6.3 TUE."
+    },
+    {
+      "text": "Los dictámenes obligan en todos sus elementos; los acuerdos necesitan convertirse en reglamentos; y los principios generales carecen de reconocimiento en el TUE.",
+      "isCorrect": false,
+      "feedback": "El artículo 288 declara no vinculantes los dictámenes, el 216.2 atribuye fuerza vinculante a los acuerdos y el 6.3 TUE reconoce la categoría indicada de principios generales.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, dictámenes, acuerdos y principios generales"
+    },
+    {
+      "text": "Recomendación, dictamen y acuerdo son tres nombres de una misma clase de acto no vinculante del artículo 288 TFUE.",
+      "isCorrect": false,
+      "feedback": "El artículo 288 incluye recomendaciones y dictámenes como actos no vinculantes, pero los acuerdos celebrados por la Unión se regulan en el artículo 216.2 y vinculan a instituciones y Estados miembros.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, artículo 288 frente a artículo 216 TFUE"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-008",
+    "clm-g-11-010",
+    "clm-g-11-011"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_288/oj/spa",
+      "location": "artículo 288 TFUE, párrafo quinto",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_216/oj/spa",
+      "location": "artículo 216.2 TFUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_6/oj/spa",
+      "location": "artículo 6.3 TUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre actos no vinculantes, acuerdos y principios generales."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

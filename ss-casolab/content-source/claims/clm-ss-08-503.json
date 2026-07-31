@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-08-503",
+  "assetId": "CP03",
+  "version": "0.1.0",
+  "statement": "La incapacidad temporal protege la imposibilidad temporal de trabajar por accidente o enfermedad en los tÃ©rminos legales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "TRLGSS, artÃ­culos 169 y 172",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP03",
+    "ss-08-q503"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP03."
+      }
+    ]
+  }
+}

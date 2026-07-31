@@ -1,0 +1,140 @@
+{
+  "id": "G12",
+  "themeId": "g-12",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Ministerio de Inclusión, Seguridad Social y Migraciones",
+  "learningOutcomes": [
+    "Identificar las materias atribuidas al Ministerio y sus Secretarías de Estado.",
+    "Distinguir la Secretaría de Estado de la Seguridad Social y Pensiones de la Secretaría de Estado de Migraciones.",
+    "Relacionar INSS, ISM, TGSS, GISS y el Servicio Jurídico con su adscripción.",
+    "Aplicar las funciones básicas de ordenación e intervención.",
+    "Detectar cuándo una modificación normativa obliga a revisar el organigrama."
+  ],
+  "decisions": [
+    "Clasificar una función por materia antes de asignar órgano.",
+    "Distinguir órgano superior, dirección general, entidad gestora y servicio común.",
+    "Comprobar si una entidad está adscrita a la Secretaría de Estado de Seguridad Social y Pensiones.",
+    "Separar ordenación jurídica de control interno y contabilidad.",
+    "Verificar la fecha de actualización antes de responder."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Organización general",
+      "objective": "El Real Decreto 501/2024 desarrolla la estructura del departamento y debe leerse en su versión consolidada. El Ministerio formula y ejecuta la política del Gobierno en Seguridad Social y clases pasivas, extranjería, inmigración, emigración e inclusión. La estructura no se memoriza como una lista aislada: primero identifica la materia y después el órgano competente.",
+      "sectionId": "g12-organizacion-1",
+      "activityIds": [
+        "g-12-q001"
+      ]
+    },
+    {
+      "officialClause": "Seguridad Social y pensiones",
+      "objective": "La Secretaría de Estado de la Seguridad Social y Pensiones dirige y tutela las entidades gestoras y servicios comunes adscritos al departamento e impulsa la ordenación jurídica y la planificación del sistema. Entre los órganos adscritos aparecen INSS, ISM, TGSS, GISS y el Servicio Jurídico de la Administración de la Seguridad Social.",
+      "sectionId": "g12-seguridad-social-2",
+      "activityIds": [
+        "g-12-q002"
+      ]
+    },
+    {
+      "officialClause": "Ordenación, intervención y entidades",
+      "objective": "La Dirección General de Ordenación de la Seguridad Social ejerce funciones de ordenación jurídica e interpretación normativa. La Intervención General de la Seguridad Social controla internamente y dirige la contabilidad de las entidades del sistema.",
+      "sectionId": "g12-ordenacion-3",
+      "activityIds": [
+        "g-12-q003"
+      ]
+    },
+    {
+      "officialClause": "Migraciones",
+      "objective": "La Secretaría de Estado de Migraciones desarrolla la política de extranjería, inmigración y emigración. Sus órganos directivos deben distinguirse de los órganos de la Secretaría de Estado de la Seguridad Social y Pensiones.",
+      "sectionId": "g12-migraciones-4",
+      "activityIds": [
+        "g-12-q004"
+      ]
+    },
+    {
+      "officialClause": "Lectura de una estructura cambiante",
+      "objective": "La estructura orgánica es un contenido de actualización alta. Una modificación posterior puede cambiar adscripciones o funciones concretas. En una pregunta, comprueba siempre la fecha de consolidación y no conviertas una estructura anterior en la vigente.",
+      "sectionId": "g12-actualizacion-5",
+      "activityIds": [
+        "g-12-q005"
+      ]
+    },
+    {
+      "officialClause": "Organización general",
+      "objective": "El Real Decreto 501/2024 desarrolla la estructura del departamento y debe leerse en su versión consolidada. El Ministerio formula y ejecuta la política del Gobierno en Seguridad Social y clases pasivas, extranjería, inmigración, emigración e inclusión. La estructura no se memoriza como una lista aislada: primero identifica la materia y después el órgano competente.",
+      "sectionId": "g12-organizacion-6",
+      "activityIds": [
+        "g-12-q006"
+      ]
+    },
+    {
+      "officialClause": "Seguridad Social y pensiones",
+      "objective": "La Secretaría de Estado de la Seguridad Social y Pensiones dirige y tutela las entidades gestoras y servicios comunes adscritos al departamento e impulsa la ordenación jurídica y la planificación del sistema. Entre los órganos adscritos aparecen INSS, ISM, TGSS, GISS y el Servicio Jurídico de la Administración de la Seguridad Social.",
+      "sectionId": "g12-seguridad-social-7",
+      "activityIds": [
+        "g-12-q007"
+      ]
+    },
+    {
+      "officialClause": "Ordenación, intervención y entidades",
+      "objective": "La Dirección General de Ordenación de la Seguridad Social ejerce funciones de ordenación jurídica e interpretación normativa. La Intervención General de la Seguridad Social controla internamente y dirige la contabilidad de las entidades del sistema.",
+      "sectionId": "g12-ordenacion-8",
+      "activityIds": [
+        "g-12-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G12/lesson.md",
+  "reviewSheetPath": "content-source/modules/G12/review.md",
+  "normativeClaimIds": [
+    "clm-g-12-001",
+    "clm-g-12-002",
+    "clm-g-12-003",
+    "clm-g-12-004",
+    "clm-g-12-005",
+    "clm-g-12-006",
+    "clm-g-12-007",
+    "clm-g-12-008",
+    "clm-g-12-009",
+    "clm-g-12-010",
+    "clm-g-12-011",
+    "clm-g-12-012",
+    "clm-g-12-013",
+    "clm-g-12-014",
+    "clm-g-12-015",
+    "clm-g-12-016",
+    "clm-g-12-017",
+    "clm-g-12-018",
+    "clm-g-12-019",
+    "clm-g-12-020"
+  ],
+  "questionIds": [
+    "g-12-q001",
+    "g-12-q002",
+    "g-12-q003",
+    "g-12-q004",
+    "g-12-q005",
+    "g-12-q006",
+    "g-12-q007",
+    "g-12-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G12 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

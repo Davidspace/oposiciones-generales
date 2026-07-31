@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-017", "assetId": "G11", "version": "0.1.0",
+  "statement": "Cuando el Estado no adopta dentro de plazo las medidas de aplicación de una directiva, sus disposiciones incondicionales y suficientemente precisas pueden invocarse frente a una disposición nacional incompatible o para hacer valer derechos frente al Estado.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61981CJ0008", "sourceLocation": "sentencia de 19-01-1982, asunto 8/81, Becker, apartados 21 a 25", "officialPublication": "EUR-Lex, documento 61981CJ0008; ECLI:EU:C:1982:7",
+  "validFrom": "1982-01-19", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre invocación vertical de directivas no ejecutadas en plazo."}]}
+}

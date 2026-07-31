@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-13-010",
+  "assetId": "G13",
+  "version": "0.1.0",
+  "statement": "Son nulas de pleno derecho las disposiciones administrativas que vulneran la Constitución, las leyes u otras disposiciones administrativas de rango superior.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 47.2",
+  "officialPublication": "BOE-A-2015-10565",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G13",
+    "g-13-q006",
+    "g-13-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

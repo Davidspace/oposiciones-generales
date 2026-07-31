@@ -1,0 +1,752 @@
+{
+  "id": "SIM01",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "simulation",
+  "title": "Simulacro de consolidaciÃ³n",
+  "scenario": "ConfiguraciÃ³n de consolidaciÃ³n con 73 preguntas de los 36 mÃ³dulos y un supuesto completo asociado. La selecciÃ³n busca cubrir el programa completo y medir errores de regla, concepto, plazo y secuencia.",
+  "originality": "original",
+  "assumptions": [
+    "La selección de 73 preguntas se utiliza como configuración inicial y no como banco definitivo.",
+    "El supuesto completo asociado conserva sus 15 preguntas principales y 3 reservas en un activo separado.",
+    "La duración objetivo es de 120 minutos y la puntuación es directa +1/-0,25/0.",
+    "Los hechos se revisarán con la normativa vigente antes de cualquier publicación."
+  ],
+  "themes": [
+    "g-01",
+    "g-02",
+    "g-03",
+    "g-04",
+    "g-05",
+    "g-06",
+    "g-07",
+    "g-08",
+    "g-09",
+    "g-10",
+    "g-11",
+    "g-12",
+    "g-13",
+    "g-14",
+    "g-15",
+    "g-16",
+    "g-17",
+    "g-18",
+    "g-19",
+    "g-20",
+    "g-21",
+    "g-22",
+    "g-23",
+    "ss-01",
+    "ss-02",
+    "ss-03",
+    "ss-04",
+    "ss-05",
+    "ss-06",
+    "ss-07",
+    "ss-08",
+    "ss-09",
+    "ss-10",
+    "ss-11",
+    "ss-12",
+    "ss-13"
+  ],
+  "competencies": [
+    "Localizar una materia en el título constitucional correspondiente.",
+    "Distinguir modelo de Estado, soberanía y forma política.",
+    "Clasificar un derecho del título I y asignarle la garantía correcta.",
+    "Aplicar la regla interpretativa del artículo 10.2 sin alterar su alcance.",
+    "Distribuir los nombramientos del Tribunal entre los órganos proponentes.",
+    "Comprobar los requisitos profesionales, la duración y el estatuto de un Magistrado constitucional.",
+    "Distinguir la función arbitral y moderadora de una competencia política no atribuida expresamente.",
+    "Aplicar en su orden los criterios constitucionales de sucesión a la Corona.",
+    "Reconocer la estructura y las atribuciones constitucionales básicas del poder legislativo.",
+    "Aplicar la composición senatorial vigente a las circunscripciones de Ibiza y Formentera.",
+    "Aplicar las garantías constitucionales de independencia e inamovilidad judicial.",
+    "Distinguir la potestad jurisdiccional de otras funciones judiciales legalmente atribuidas.",
+    "Identificar la posición, composición y funciones constitucionales del Gobierno.",
+    "Asignar funciones a la Presidencia o al Consejo de Ministros y reconocer el carácter colegiado de este último.",
+    "Aplicar principios generales y específicos de organización y presencia equilibrada en la AGE.",
+    "Ubicar órganos y servicios en la organización central, territorial o exterior de la AGE.",
+    "Diferenciar autonomía territorial, solidaridad, igualdad y libre circulación.",
+    "Distinguir federación, convenio y acuerdo de cooperación autonómico.",
+    "Diferenciar Consejo y Consejo Europeo por composición y función.",
+    "Aplicar la mayoría cualificada ordinaria y la publicidad legislativa del Consejo.",
+    "Diferenciar una regla positiva de la clasificación editorial de las fuentes.",
+    "Reconocer el valor de Tratados, Carta, protocolos y anexos.",
+    "Identificar las materias propias del Ministerio",
+    "Distinguir órganos superiores del departamento",
+    "identificar la enumeración legal de fuentes",
+    "comprobar las condiciones de aplicación de la costumbre",
+    "identificar la reserva y la mayoría de una ley orgánica",
+    "seleccionar la forma de delegación legislativa",
+    "separar las reglas positivas del mapa editorial de clases de actos",
+    "identificar un supuesto de motivación obligatoria",
+    "distinguir trámites adicionales y especialidades reglamentarias",
+    "aplicar las categorías de capacidad administrativa",
+    "distinguir denuncia e iniciación de oficio",
+    "aplicar medidas provisionales anteriores al inicio",
+    "Distinguir actos de trámite cualificados y no cualificados.",
+    "Aplicar la regla de no suspensión automática y el silencio sobre la suspensión.",
+    "clasificar al empleado público",
+    "distinguir personal eventual y laboral",
+    "distinguir recepción y orientación",
+    "aplicar orientación e información",
+    "Distinguir discriminación directa e indirecta",
+    "Aplicar la finalidad de las medidas de acción positiva",
+    "Identificar un tratamiento sujeto al RGPD",
+    "Aplicar minimización",
+    "Identificar una persona obligada",
+    "Aplicar el Registro Electrónico General",
+    "Identificar el mandato constitucional sobre Seguridad Social",
+    "Distinguir un principio rector de una regla legal de acceso",
+    "Distinguir el campo contributivo del no contributivo",
+    "Distinguir régimen general, regímenes especiales y sistemas especiales",
+    "Distinguir la afiliación vitalicia del alta en un régimen",
+    "Elegir la vía procedente ante un incumplimiento empresarial",
+    "Distinguir la obligación de cotizar, la responsabilidad empresarial y el momento de descontar la aportación de la persona trabajadora",
+    "Calcular la remuneración mensual computable con la prorrata de percepciones de devengo superior al mensual",
+    "Distinguir la competencia recaudatoria de la TGSS de la colaboración material y reconocer sus facultades de control",
+    "Diferenciar los presupuestos para exigir una deuda a responsables solidarios y subsidiarios",
+    "Distinguir la providencia de los actos previos y reconocer cuándo puede emitirse directamente",
+    "Aplicar los motivos tasados y distinguir el efecto suspensivo según el acto impugnado",
+    "Clasificar una forma de protección sin confundir prestación, servicio y complemento asistencial",
+    "Aplicar las excepciones a la prohibición de retención, cesión, compensación y descuento",
+    "Identificar una incapacidad temporal",
+    "Aplicar base reguladora y porcentaje",
+    "Identificar el hecho causante",
+    "Distinguir prestaciones próximas",
+    "Aplicar fecha y calendario",
+    "Distinguir carencia genérica y específica",
+    "Elegir la prestación por vínculo",
+    "Comprobar requisitos del vínculo",
+    "Distinguir contributiva y no contributiva",
+    "Identificar el objeto del IMV",
+    "Clasificar recursos del sistema",
+    "Distinguir titularidad y adscripción",
+    "Aplicar el artículo 169 a la iniciación de una reforma."
+  ],
+  "coverage": [
+    {
+      "themeId": "g-01",
+      "competency": "Localizar una materia en el título constitucional correspondiente.",
+      "questionIds": [
+        "g-01-q001"
+      ]
+    },
+    {
+      "themeId": "g-01",
+      "competency": "Distinguir modelo de Estado, soberanía y forma política.",
+      "questionIds": [
+        "g-01-q002"
+      ]
+    },
+    {
+      "themeId": "g-02",
+      "competency": "Clasificar un derecho del título I y asignarle la garantía correcta.",
+      "questionIds": [
+        "g-02-q001"
+      ]
+    },
+    {
+      "themeId": "g-02",
+      "competency": "Aplicar la regla interpretativa del artículo 10.2 sin alterar su alcance.",
+      "questionIds": [
+        "g-02-q002"
+      ]
+    },
+    {
+      "themeId": "g-03",
+      "competency": "Distribuir los nombramientos del Tribunal entre los órganos proponentes.",
+      "questionIds": [
+        "g-03-q001"
+      ]
+    },
+    {
+      "themeId": "g-03",
+      "competency": "Comprobar los requisitos profesionales, la duración y el estatuto de un Magistrado constitucional.",
+      "questionIds": [
+        "g-03-q002"
+      ]
+    },
+    {
+      "themeId": "g-04",
+      "competency": "Distinguir la función arbitral y moderadora de una competencia política no atribuida expresamente.",
+      "questionIds": [
+        "g-04-q001"
+      ]
+    },
+    {
+      "themeId": "g-04",
+      "competency": "Aplicar en su orden los criterios constitucionales de sucesión a la Corona.",
+      "questionIds": [
+        "g-04-q002"
+      ]
+    },
+    {
+      "themeId": "g-05",
+      "competency": "Reconocer la estructura y las atribuciones constitucionales básicas del poder legislativo.",
+      "questionIds": [
+        "g-05-q001"
+      ]
+    },
+    {
+      "themeId": "g-05",
+      "competency": "Aplicar la composición senatorial vigente a las circunscripciones de Ibiza y Formentera.",
+      "questionIds": [
+        "g-05-q002"
+      ]
+    },
+    {
+      "themeId": "g-06",
+      "competency": "Aplicar las garantías constitucionales de independencia e inamovilidad judicial.",
+      "questionIds": [
+        "g-06-q001"
+      ]
+    },
+    {
+      "themeId": "g-06",
+      "competency": "Distinguir la potestad jurisdiccional de otras funciones judiciales legalmente atribuidas.",
+      "questionIds": [
+        "g-06-q002"
+      ]
+    },
+    {
+      "themeId": "g-07",
+      "competency": "Identificar la posición, composición y funciones constitucionales del Gobierno.",
+      "questionIds": [
+        "g-07-q001"
+      ]
+    },
+    {
+      "themeId": "g-07",
+      "competency": "Asignar funciones a la Presidencia o al Consejo de Ministros y reconocer el carácter colegiado de este último.",
+      "questionIds": [
+        "g-07-q002"
+      ]
+    },
+    {
+      "themeId": "g-08",
+      "competency": "Aplicar principios generales y específicos de organización y presencia equilibrada en la AGE.",
+      "questionIds": [
+        "g-08-q001"
+      ]
+    },
+    {
+      "themeId": "g-08",
+      "competency": "Ubicar órganos y servicios en la organización central, territorial o exterior de la AGE.",
+      "questionIds": [
+        "g-08-q002"
+      ]
+    },
+    {
+      "themeId": "g-09",
+      "competency": "Diferenciar autonomía territorial, solidaridad, igualdad y libre circulación.",
+      "questionIds": [
+        "g-09-q001"
+      ]
+    },
+    {
+      "themeId": "g-09",
+      "competency": "Distinguir federación, convenio y acuerdo de cooperación autonómico.",
+      "questionIds": [
+        "g-09-q002"
+      ]
+    },
+    {
+      "themeId": "g-10",
+      "competency": "Diferenciar Consejo y Consejo Europeo por composición y función.",
+      "questionIds": [
+        "g-10-q001"
+      ]
+    },
+    {
+      "themeId": "g-10",
+      "competency": "Aplicar la mayoría cualificada ordinaria y la publicidad legislativa del Consejo.",
+      "questionIds": [
+        "g-10-q002"
+      ]
+    },
+    {
+      "themeId": "g-11",
+      "competency": "Diferenciar una regla positiva de la clasificación editorial de las fuentes.",
+      "questionIds": [
+        "g-11-q001"
+      ]
+    },
+    {
+      "themeId": "g-11",
+      "competency": "Reconocer el valor de Tratados, Carta, protocolos y anexos.",
+      "questionIds": [
+        "g-11-q002"
+      ]
+    },
+    {
+      "themeId": "g-12",
+      "competency": "Identificar las materias propias del Ministerio",
+      "questionIds": [
+        "g-12-q001"
+      ]
+    },
+    {
+      "themeId": "g-12",
+      "competency": "Distinguir órganos superiores del departamento",
+      "questionIds": [
+        "g-12-q002"
+      ]
+    },
+    {
+      "themeId": "g-13",
+      "competency": "identificar la enumeración legal de fuentes",
+      "questionIds": [
+        "g-13-q001"
+      ]
+    },
+    {
+      "themeId": "g-13",
+      "competency": "comprobar las condiciones de aplicación de la costumbre",
+      "questionIds": [
+        "g-13-q002"
+      ]
+    },
+    {
+      "themeId": "g-14",
+      "competency": "identificar la reserva y la mayoría de una ley orgánica",
+      "questionIds": [
+        "g-14-q001"
+      ]
+    },
+    {
+      "themeId": "g-14",
+      "competency": "seleccionar la forma de delegación legislativa",
+      "questionIds": [
+        "g-14-q002"
+      ]
+    },
+    {
+      "themeId": "g-15",
+      "competency": "separar las reglas positivas del mapa editorial de clases de actos",
+      "questionIds": [
+        "g-15-q001"
+      ]
+    },
+    {
+      "themeId": "g-15",
+      "competency": "identificar un supuesto de motivación obligatoria",
+      "questionIds": [
+        "g-15-q002"
+      ]
+    },
+    {
+      "themeId": "g-16",
+      "competency": "distinguir trámites adicionales y especialidades reglamentarias",
+      "questionIds": [
+        "g-16-q001"
+      ]
+    },
+    {
+      "themeId": "g-16",
+      "competency": "aplicar las categorías de capacidad administrativa",
+      "questionIds": [
+        "g-16-q002"
+      ]
+    },
+    {
+      "themeId": "g-17",
+      "competency": "distinguir denuncia e iniciación de oficio",
+      "questionIds": [
+        "g-17-q001"
+      ]
+    },
+    {
+      "themeId": "g-17",
+      "competency": "aplicar medidas provisionales anteriores al inicio",
+      "questionIds": [
+        "g-17-q002"
+      ]
+    },
+    {
+      "themeId": "g-18",
+      "competency": "Distinguir actos de trámite cualificados y no cualificados.",
+      "questionIds": [
+        "g-18-q001"
+      ]
+    },
+    {
+      "themeId": "g-18",
+      "competency": "Aplicar la regla de no suspensión automática y el silencio sobre la suspensión.",
+      "questionIds": [
+        "g-18-q002"
+      ]
+    },
+    {
+      "themeId": "g-19",
+      "competency": "clasificar al empleado público",
+      "questionIds": [
+        "g-19-q001"
+      ]
+    },
+    {
+      "themeId": "g-19",
+      "competency": "distinguir personal eventual y laboral",
+      "questionIds": [
+        "g-19-q002"
+      ]
+    },
+    {
+      "themeId": "g-20",
+      "competency": "distinguir recepción y orientación",
+      "questionIds": [
+        "g-20-q001"
+      ]
+    },
+    {
+      "themeId": "g-20",
+      "competency": "aplicar orientación e información",
+      "questionIds": [
+        "g-20-q002"
+      ]
+    },
+    {
+      "themeId": "g-21",
+      "competency": "Distinguir discriminación directa e indirecta",
+      "questionIds": [
+        "g-21-q001"
+      ]
+    },
+    {
+      "themeId": "g-21",
+      "competency": "Aplicar la finalidad de las medidas de acción positiva",
+      "questionIds": [
+        "g-21-q002"
+      ]
+    },
+    {
+      "themeId": "g-22",
+      "competency": "Identificar un tratamiento sujeto al RGPD",
+      "questionIds": [
+        "g-22-q001"
+      ]
+    },
+    {
+      "themeId": "g-22",
+      "competency": "Aplicar minimización",
+      "questionIds": [
+        "g-22-q002"
+      ]
+    },
+    {
+      "themeId": "g-23",
+      "competency": "Identificar una persona obligada",
+      "questionIds": [
+        "g-23-q001"
+      ]
+    },
+    {
+      "themeId": "g-23",
+      "competency": "Aplicar el Registro Electrónico General",
+      "questionIds": [
+        "g-23-q002"
+      ]
+    },
+    {
+      "themeId": "ss-01",
+      "competency": "Identificar el mandato constitucional sobre Seguridad Social",
+      "questionIds": [
+        "ss-01-q001"
+      ]
+    },
+    {
+      "themeId": "ss-01",
+      "competency": "Distinguir un principio rector de una regla legal de acceso",
+      "questionIds": [
+        "ss-01-q002"
+      ]
+    },
+    {
+      "themeId": "ss-02",
+      "competency": "Distinguir el campo contributivo del no contributivo",
+      "questionIds": [
+        "ss-02-q001"
+      ]
+    },
+    {
+      "themeId": "ss-02",
+      "competency": "Distinguir régimen general, regímenes especiales y sistemas especiales",
+      "questionIds": [
+        "ss-02-q002"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Distinguir la afiliación vitalicia del alta en un régimen",
+      "questionIds": [
+        "ss-03-q001"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Elegir la vía procedente ante un incumplimiento empresarial",
+      "questionIds": [
+        "ss-03-q002"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Distinguir la obligación de cotizar, la responsabilidad empresarial y el momento de descontar la aportación de la persona trabajadora",
+      "questionIds": [
+        "ss-04-q001"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Calcular la remuneración mensual computable con la prorrata de percepciones de devengo superior al mensual",
+      "questionIds": [
+        "ss-04-q002"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Distinguir la competencia recaudatoria de la TGSS de la colaboración material y reconocer sus facultades de control",
+      "questionIds": [
+        "ss-05-q001"
+      ]
+    },
+    {
+      "themeId": "ss-05",
+      "competency": "Diferenciar los presupuestos para exigir una deuda a responsables solidarios y subsidiarios",
+      "questionIds": [
+        "ss-05-q002"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Distinguir la providencia de los actos previos y reconocer cuándo puede emitirse directamente",
+      "questionIds": [
+        "ss-06-q001"
+      ]
+    },
+    {
+      "themeId": "ss-06",
+      "competency": "Aplicar los motivos tasados y distinguir el efecto suspensivo según el acto impugnado",
+      "questionIds": [
+        "ss-06-q002"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Clasificar una forma de protección sin confundir prestación, servicio y complemento asistencial",
+      "questionIds": [
+        "ss-07-q001"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Aplicar las excepciones a la prohibición de retención, cesión, compensación y descuento",
+      "questionIds": [
+        "ss-07-q002"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Identificar una incapacidad temporal",
+      "questionIds": [
+        "ss-08-q001"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Aplicar base reguladora y porcentaje",
+      "questionIds": [
+        "ss-08-q002"
+      ]
+    },
+    {
+      "themeId": "ss-09",
+      "competency": "Identificar el hecho causante",
+      "questionIds": [
+        "ss-09-q001"
+      ]
+    },
+    {
+      "themeId": "ss-09",
+      "competency": "Distinguir prestaciones próximas",
+      "questionIds": [
+        "ss-09-q002"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Aplicar fecha y calendario",
+      "questionIds": [
+        "ss-10-q001"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Distinguir carencia genérica y específica",
+      "questionIds": [
+        "ss-10-q002"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Elegir la prestación por vínculo",
+      "questionIds": [
+        "ss-11-q001"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Comprobar requisitos del vínculo",
+      "questionIds": [
+        "ss-11-q002"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Distinguir contributiva y no contributiva",
+      "questionIds": [
+        "ss-12-q001"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Identificar el objeto del IMV",
+      "questionIds": [
+        "ss-12-q002"
+      ]
+    },
+    {
+      "themeId": "ss-13",
+      "competency": "Clasificar recursos del sistema",
+      "questionIds": [
+        "ss-13-q001"
+      ]
+    },
+    {
+      "themeId": "ss-13",
+      "competency": "Distinguir titularidad y adscripción",
+      "questionIds": [
+        "ss-13-q002"
+      ]
+    },
+    {
+      "themeId": "g-01",
+      "competency": "Aplicar el artículo 169 a la iniciación de una reforma.",
+      "questionIds": [
+        "g-01-q003"
+      ]
+    }
+  ],
+  "generalQuestionIds": [
+    "g-01-q001",
+    "g-01-q002",
+    "g-02-q001",
+    "g-02-q002",
+    "g-03-q001",
+    "g-03-q002",
+    "g-04-q001",
+    "g-04-q002",
+    "g-05-q001",
+    "g-05-q002",
+    "g-06-q001",
+    "g-06-q002",
+    "g-07-q001",
+    "g-07-q002",
+    "g-08-q001",
+    "g-08-q002",
+    "g-09-q001",
+    "g-09-q002",
+    "g-10-q001",
+    "g-10-q002",
+    "g-11-q001",
+    "g-11-q002",
+    "g-12-q001",
+    "g-12-q002",
+    "g-13-q001",
+    "g-13-q002",
+    "g-14-q001",
+    "g-14-q002",
+    "g-15-q001",
+    "g-15-q002",
+    "g-16-q001",
+    "g-16-q002",
+    "g-17-q001",
+    "g-17-q002",
+    "g-18-q001",
+    "g-18-q002",
+    "g-19-q001",
+    "g-19-q002",
+    "g-20-q001",
+    "g-20-q002",
+    "g-21-q001",
+    "g-21-q002",
+    "g-22-q001",
+    "g-22-q002",
+    "g-23-q001",
+    "g-23-q002",
+    "ss-01-q001",
+    "ss-01-q002",
+    "ss-02-q001",
+    "ss-02-q002",
+    "ss-03-q001",
+    "ss-03-q002",
+    "ss-04-q001",
+    "ss-04-q002",
+    "ss-05-q001",
+    "ss-05-q002",
+    "ss-06-q001",
+    "ss-06-q002",
+    "ss-07-q001",
+    "ss-07-q002",
+    "ss-08-q001",
+    "ss-08-q002",
+    "ss-09-q001",
+    "ss-09-q002",
+    "ss-10-q001",
+    "ss-10-q002",
+    "ss-11-q001",
+    "ss-11-q002",
+    "ss-12-q001",
+    "ss-12-q002",
+    "ss-13-q001",
+    "ss-13-q002",
+    "g-01-q003"
+  ],
+  "caseId": "CP01",
+  "consistencyRules": [
+    "La selección debe cubrir los 36 temas y mantener 73 preguntas generales únicas.",
+    "El supuesto completo se resuelve con su propia secuencia y sus reservas declaradas.",
+    "El simulacro informa puntuación directa, cobertura y rutas de repaso; no declara apto o no apto.",
+    "SIM02 requiere sustituir o etiquetar el banco assessment-only antes de la publicación."
+  ],
+  "durationMinutes": 120,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "assessment-only",
+  "normativeClaimIds": [
+    "clm-ss-01-701"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-simulation-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-simulation-draft",
+        "summary": "Borrador de SIM01 con 73 preguntas y CP01."
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "g-18-q418",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "CP02 — decisión 18",
+  "competency": "Distinguir la vÃ­a administrativa y judicial",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe comprobarse antes de acudir a la jurisdicciÃ³n contencioso-administrativa?",
+  "options": [
+    {
+      "text": "El acto impugnable, la legitimaciÃ³n y el cumplimiento de los requisitos y plazos procesales.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: El acto impugnable, la legitimaciÃ³n y el cumplimiento de los requisitos y plazos procesales."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir la vã­a administrativa y judicial.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 29/1998, artÃ­culos 25 y 46.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Distinguir la vÃ­a administrativa y judicial"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 29/1998, artÃ­culos 25 y 46.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Distinguir la vÃ­a administrativa y judicial"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 29/1998, artÃ­culos 25 y 46.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Distinguir la vÃ­a administrativa y judicial"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-418"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "location": "Ley 29/1998, artÃ­culos 25 y 46",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

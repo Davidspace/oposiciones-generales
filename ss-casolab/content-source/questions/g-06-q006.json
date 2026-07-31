@@ -1,0 +1,76 @@
+{
+  "id": "g-06-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "Organización judicial vigente tras la reforma de 2025",
+  "competency": "Reconocer el mapa de órganos judiciales aplicable en la fecha de corte.",
+  "difficulty": "medium",
+  "prompt": "Una ficha preparada en 2024 sigue presentando los antiguos juzgados unipersonales como estructura general de primer nivel. Para un examen con corte 30 de julio de 2026, ¿qué actualización es correcta?",
+  "options": [
+    {
+      "text": "Mantener la ficha, porque la constitución de los Tribunales de Instancia no empieza hasta 2027.",
+      "isCorrect": false,
+      "feedback": "La implantación empezó en 2025 y concluyó el 31 de diciembre de ese año; en julio de 2026 el mapa reformado ya está implantado.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G06, calendario de implantación de la reforma"
+    },
+    {
+      "text": "Sustituirla por Tribunales de Instancia en cada partido judicial e incluir el Tribunal Central de Instancia, constituido el 31 de diciembre de 2025.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la organización vigente resultante de los artículos 26, 84 y 95 LOPJ y de las disposiciones transitorias de la Ley Orgánica 1/2025."
+    },
+    {
+      "text": "Sustituir todos los órganos de primera instancia por Audiencias Provinciales, una por cada partido judicial.",
+      "isCorrect": false,
+      "feedback": "Las Audiencias Provinciales mantienen como referencia la provincia. El órgano existente en cada partido judicial es el Tribunal de Instancia.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G06, partido judicial y provincia"
+    },
+    {
+      "text": "Incluir al CGPJ entre los tribunales que ejercen potestad jurisdiccional en primera instancia.",
+      "isCorrect": false,
+      "feedback": "El CGPJ gobierna el Poder Judicial, pero no es un tribunal ni ejerce potestad jurisdiccional en primera instancia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, gobierno frente a jurisdicción"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-010",
+    "clm-g-06-011",
+    "clm-g-06-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "location": "artículos 26, 84 y 95",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-76",
+      "location": "disposiciones transitorias primera y segunda",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

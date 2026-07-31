@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-02-018",
+  "assetId": "MC02",
+  "version": "0.1.0",
+  "statement": "Quedan obligatoriamente incluidas en el RETA las personas físicas mayores de dieciocho años que realizan de forma habitual, personal, directa, por cuenta propia y fuera del ámbito de dirección y organización de otra persona una actividad económica o profesional a título lucrativo, en los términos legales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a305",
+  "sourceLocation": "TRLGSS, artículo 305.1",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC02",
+    "ss-02-q103"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable para MC02; revisión humana pendiente."
+      }
+    ]
+  }
+}

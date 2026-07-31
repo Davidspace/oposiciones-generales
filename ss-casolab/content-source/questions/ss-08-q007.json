@@ -1,0 +1,76 @@
+{
+  "id": "ss-08-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Revisión",
+  "competency": "Identificar presupuestos de revisión",
+  "difficulty": "high",
+  "prompt": "Una resolución de incapacidad permanente puede revisarse si aparece una agravación o una mejoría en las condiciones. ¿Qué debe hacer el opositor?",
+  "options": [
+    {
+      "text": "Afirmar que toda resolución es irreversible.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley regula la revisión.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S08, revisión"
+    },
+    {
+      "text": "Comprobar el artículo 200 y la causa y fecha de revisión aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. La revisión no es libre; depende de los supuestos y límites legales."
+    },
+    {
+      "text": "Aplicar automáticamente la edad de jubilación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es la regla general de revisión.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, revisión"
+    },
+    {
+      "text": "Tratarla como una nueva baja temporal sin más.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La revisión tiene su propio procedimiento.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S08, revisión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-012",
+    "clm-ss-08-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 200",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

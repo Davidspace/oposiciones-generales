@@ -1,0 +1,76 @@
+{
+  "id": "ss-10-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Transitoriedad",
+  "competency": "Detectar una regla transitoria",
+  "difficulty": "high",
+  "prompt": "Una pregunta pide aplicar una regla reformada por la Ley 27/2011. ¿Qué comprobación es esencial?",
+  "options": [
+    {
+      "text": "Aplicar siempre el texto anterior a 2011.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La norma vigente y el transitorio deben comprobarse.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S10, transitoriedad"
+    },
+    {
+      "text": "Aplicar siempre la redacción más favorable sin base legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La elección depende de la regla transitoria.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S10, transitoriedad"
+    },
+    {
+      "text": "La fecha del hecho causante y la disposición transitoria que resulte aplicable.",
+      "isCorrect": true,
+      "feedback": "Correcto. La reforma se aplica con transitorios y no con una fórmula única."
+    },
+    {
+      "text": "Ignorar la fecha porque todas las jubilaciones se calculan igual.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La fecha es decisiva.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S10, transitoriedad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-011",
+    "clm-ss-10-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13242",
+      "location": "disposiciones transitorias Ley 27/2011",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

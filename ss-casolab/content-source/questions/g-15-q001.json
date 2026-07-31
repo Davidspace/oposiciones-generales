@@ -1,0 +1,69 @@
+{
+  "id": "g-15-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "Los actos administrativos. Concepto y clases",
+  "competency": "separar las reglas positivas del mapa editorial de clases de actos",
+  "difficulty": "medium",
+  "prompt": "¿Qué afirmación distingue correctamente las reglas positivas de la Ley 39/2015 y la ordenación pedagógica usada en este módulo?",
+  "options": [
+    {
+      "text": "La ley exige órgano competente, procedimiento y contenido conforme, determinado y adecuado al fin; las parejas favorable/desfavorable o expreso/presunto son un mapa editorial para analizar el caso, no una lista cerrada del artículo 34.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta reproduce las reglas del artículo 34 y etiqueta como pedagógicas las clasificaciones que la lección usa para ordenar el análisis."
+    },
+    {
+      "text": "La ley define literalmente el acto como favorable o desfavorable y permite que cualquier órgano de la misma Administración lo dicte.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esas parejas son una ordenación editorial y el artículo 34 exige que el órgano sea competente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G15, apartado 1 «Concepto y clases: un mapa de trabajo»"
+    },
+    {
+      "text": "Toda clasificación doctrinal incluida en un manual se convierte automáticamente en una enumeración legal vinculante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una clasificación puede ayudar a estudiar sin ser una lista formulada por la ley; debe distinguirse de la regla positiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G15, apartado 1 «Clasificaciones útiles»"
+    },
+    {
+      "text": "El artículo 34 solo exige que el acto tenga un nombre formal, aunque su contenido sea indeterminado o ajeno a sus fines.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El precepto exige contenido conforme al ordenamiento, determinado y adecuado a los fines del acto.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G15, apartado 1 «Concepto y clases: un mapa de trabajo»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 34",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

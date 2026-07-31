@@ -1,0 +1,76 @@
+{
+  "id": "g-20-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Atención al público",
+  "competency": "distinguir recepción y orientación",
+  "difficulty": "basic",
+  "prompt": "Una persona llega por primera vez a una oficina y no sabe dónde presentar su solicitud. ¿Qué función de atención debe activarse inicialmente?",
+  "options": [
+    {
+      "text": "Resolución del expediente, aunque todavía no se haya presentado la solicitud.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La atención inicial no sustituye al órgano competente ni resuelve el fondo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, funciones de atención"
+    },
+    {
+      "text": "Recepción y acogida, para orientarla inicialmente y localizar la dependencia adecuada.",
+      "isCorrect": true,
+      "feedback": "Correcto. La recepción y acogida cubre la orientación inicial y la localización de dependencias y funcionarios."
+    },
+    {
+      "text": "Información particular, porque toda persona que entra tiene un expediente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe existir un procedimiento concreto y una persona legitimada para hablar de información particular.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G20, información general y particular"
+    },
+    {
+      "text": "Recurso administrativo contra la oficina por no conocer el edificio.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La situación se resuelve mediante acogida y orientación, no mediante un recurso.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, atención personalizada"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-001",
+    "clm-g-20-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+      "location": "artículo 4.a",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Recepción y acogida en una situación inicial."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

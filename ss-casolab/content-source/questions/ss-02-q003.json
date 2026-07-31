@@ -1,0 +1,76 @@
+{
+  "id": "ss-02-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Régimen General: ámbito subjetivo e inclusiones",
+  "competency": "Aplicar la regla de inclusión y reconocer un sistema integrado",
+  "difficulty": "medium",
+  "prompt": "Lucía es contratada directamente por la titular de un hogar familiar para prestar servicios domésticos. ¿Cuál es el encuadramiento inicial que debe comprobarse?",
+  "options": [
+    {
+      "text": "RETA, porque todo servicio prestado dentro de una vivienda se presume autónomo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El supuesto declara contratación directa y relación laboral doméstica; el lugar de trabajo no convierte por sí solo la actividad en autónoma.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S02, apartados 2.1 y 4.1: cuenta ajena y sistema de hogar"
+    },
+    {
+      "text": "Régimen General, dentro del Sistema Especial para Empleados de Hogar, con las peculiaridades previstas para ese sistema.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 136.2.a incluye expresamente este sistema en el Régimen General; después deben aplicarse sus reglas específicas."
+    },
+    {
+      "text": "Un régimen especial independiente llamado Régimen de Empleados de Hogar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Empleados de hogar es un sistema especial integrado en el Régimen General, no un régimen especial independiente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 4.1: régimen de pertenencia"
+    },
+    {
+      "text": "Ningún régimen, porque los servicios domésticos están excluidos de la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El TRLGSS incluye expresamente a las personas del Sistema Especial para Empleados de Hogar en el Régimen General.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S02, apartado 2.2: inclusiones expresas"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-007",
+    "clm-ss-02-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.1 y 136.2.a)",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

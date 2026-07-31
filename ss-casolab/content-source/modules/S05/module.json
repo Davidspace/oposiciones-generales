@@ -1,0 +1,156 @@
+{
+  "id": "S05",
+  "themeId": "ss-05",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Gestión recaudatoria en período voluntario",
+  "learningOutcomes": [
+    "Delimitar el concepto, el objeto y la competencia de la gestión recaudatoria de la Seguridad Social.",
+    "Distinguir al responsable directo de los responsables solidarios, subsidiarios y sucesores mortis causa.",
+    "Comprobar quién puede pagar, quién puede cobrar, qué importe extingue la deuda y qué medios de pago son válidos.",
+    "Determinar cuándo una impugnación suspende el procedimiento recaudatorio y cuándo no lo hace.",
+    "Separar el plazo reglamentario de ingreso del período voluntario y aplicar los efectos del pago tardío.",
+    "Reconocer la recaudación de recursos distintos de cuotas y el tratamiento del capital coste de pensiones.",
+    "Resolver una solicitud de aplazamiento sin incluir deudas inaplazables ni atribuir efecto suspensivo a la mera solicitud.",
+    "Aplicar el régimen de devolución de ingresos indebidos y sus reglas de imputación, intereses y prescripción."
+  ],
+  "decisions": [
+    "Identificar el crédito y la norma específica que fija su responsable, su plazo y su forma de ingreso.",
+    "Separar competencia exclusiva de la TGSS de la colaboración material de entidades autorizadas.",
+    "Clasificar la responsabilidad como directa, solidaria, subsidiaria o mortis causa antes de reclamar.",
+    "Comprobar legitimación, receptor autorizado, integridad, medio y fecha efectiva del pago.",
+    "Distinguir la interposición de un recurso de la suspensión del procedimiento.",
+    "Comprobar si se cumplieron en plazo las obligaciones de liquidación antes de elegir el recargo.",
+    "Excluir del aplazamiento las cuotas profesionales y la aportación de las personas trabajadoras.",
+    "Antes de devolver un ingreso erróneo, comprobar si existe deuda pendiente a la que deba aplicarse."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La gestión recaudatoria: concepto, competencia y objeto. Control de recaudación",
+      "objective": "Delimitar los recursos recaudados, la competencia de la TGSS y los instrumentos de control.",
+      "sectionId": "s05-concepto-competencia-control",
+      "activityIds": [
+        "ss-05-q001"
+      ]
+    },
+    {
+      "officialClause": "Responsables del pago",
+      "objective": "Diferenciar responsabilidad directa, solidaria, subsidiaria y mortis causa.",
+      "sectionId": "s05-responsables",
+      "activityIds": [
+        "ss-05-q002"
+      ]
+    },
+    {
+      "officialClause": "Requisitos para el pago. Medios de pago",
+      "objective": "Comprobar legitimación, receptor, integridad, medio y momento efectivo del pago.",
+      "sectionId": "s05-pago",
+      "activityIds": [
+        "ss-05-q003"
+      ]
+    },
+    {
+      "officialClause": "Revisión de los actos de gestión recaudatoria",
+      "objective": "Distinguir impugnación, suspensión y revisión de oficio.",
+      "sectionId": "s05-revision",
+      "activityIds": [
+        "ss-05-q004"
+      ]
+    },
+    {
+      "officialClause": "La recaudación en periodo voluntario. Efectos de la falta de cotización en período reglamentario",
+      "objective": "Aplicar plazos, obligaciones de liquidación, recargos y documentos recaudatorios.",
+      "sectionId": "s05-periodo-voluntario",
+      "activityIds": [
+        "ss-05-q005"
+      ]
+    },
+    {
+      "officialClause": "Recaudación de otros recursos. Capital coste de pensiones",
+      "objective": "Reconocer la reclamación de otros recursos y el ingreso del capital coste y sus intereses.",
+      "sectionId": "s05-otros-recursos-capital-coste",
+      "activityIds": [
+        "ss-05-q006"
+      ]
+    },
+    {
+      "officialClause": "Aplazamientos",
+      "objective": "Aplicar requisitos, efectos y exclusiones del aplazamiento.",
+      "sectionId": "s05-aplazamientos",
+      "activityIds": [
+        "ss-05-q007"
+      ]
+    },
+    {
+      "officialClause": "Devolución de ingresos indebidos",
+      "objective": "Determinar cuándo procede devolver, imputar o rechazar un ingreso erróneo.",
+      "sectionId": "s05-devolucion",
+      "activityIds": [
+        "ss-05-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S05/lesson.md",
+  "reviewSheetPath": "content-source/modules/S05/review.md",
+  "normativeClaimIds": [
+    "clm-ss-05-001",
+    "clm-ss-05-002",
+    "clm-ss-05-003",
+    "clm-ss-05-004",
+    "clm-ss-05-005",
+    "clm-ss-05-006",
+    "clm-ss-05-007",
+    "clm-ss-05-008",
+    "clm-ss-05-009",
+    "clm-ss-05-010",
+    "clm-ss-05-011",
+    "clm-ss-05-012",
+    "clm-ss-05-013",
+    "clm-ss-05-014",
+    "clm-ss-05-015",
+    "clm-ss-05-016",
+    "clm-ss-05-017",
+    "clm-ss-05-018",
+    "clm-ss-05-019",
+    "clm-ss-05-020",
+    "clm-ss-05-021",
+    "clm-ss-05-022"
+  ],
+  "questionIds": [
+    "ss-05-q001",
+    "ss-05-q002",
+    "ss-05-q003",
+    "ss-05-q004",
+    "ss-05-q005",
+    "ss-05-q006",
+    "ss-05-q007",
+    "ss-05-q008"
+  ],
+  "microcaseIds": [
+    "MC04"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S05 con ocho preguntas; revisión académica y jurídica pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

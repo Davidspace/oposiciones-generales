@@ -1,0 +1,81 @@
+{
+  "id": "ss-03-q103",
+  "version": "0.2.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Tema 3. Incumplimiento empresarial en afiliación y alta",
+  "competency": "Elegir la vía subsidiaria ante incumplimiento empresarial",
+  "difficulty": "medium",
+  "prompt": "La empresa no cumplió su obligación. ¿Qué puede hacer Irene al detectar la incidencia?",
+  "options": [
+    {
+      "text": "Esperar a que termine la relación laboral.",
+      "isCorrect": false,
+      "feedback": "El incumplimiento de la empresa no obliga a Irene a esperar. La LGSS le permite instar directamente la afiliación o el alta.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "Tema 3: solicitud subsidiaria de la persona trabajadora."
+    },
+    {
+      "text": "Presentar únicamente una reclamación ante el Servicio Público de Empleo Estatal.",
+      "isCorrect": false,
+      "feedback": "El SEPE no es la vía que sustituye la solicitud de afiliación o alta ante el organismo competente de la Seguridad Social.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 3: organismo competente y actuación subsidiaria."
+    },
+    {
+      "text": "Solicitar directamente su afiliación o alta al organismo competente.",
+      "isCorrect": true,
+      "feedback": "Si el empresario incumple, la persona trabajadora puede instar directamente su afiliación o alta; también cabe actuación de oficio.",
+      "reviewTarget": "Tema 3: vías subsidiaria y de oficio."
+    },
+    {
+      "text": "Crear una nueva afiliación en cada régimen por el que cotice.",
+      "isCorrect": false,
+      "feedback": "La afiliación es única para toda la vida y para todo el sistema. Lo que cambia son las altas y bajas que correspondan.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 3: diferencia entre afiliación y alta."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+      "location": "LGSS, artículo 139.2",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a16",
+      "location": "LGSS, artículo 16.4",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.2.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

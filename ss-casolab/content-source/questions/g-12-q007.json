@@ -1,0 +1,76 @@
+{
+  "id": "g-12-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Actualización",
+  "competency": "Detectar la necesidad de consultar una modificación",
+  "difficulty": "high",
+  "prompt": "Si una pregunta usa un organigrama anterior y existe una modificación posterior del Real Decreto 501/2024, ¿qué debe hacer el opositor?",
+  "options": [
+    {
+      "text": "Usar siempre el primer texto publicado, aunque haya sido modificado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ignorar una modificación puede llevar a una respuesta desactualizada.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G12, actualización"
+    },
+    {
+      "text": "Sustituir la norma por un organigrama comercial sin fuente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La fuente oficial debe prevalecer.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G12, actualización"
+    },
+    {
+      "text": "Comprobar la versión consolidada vigente y la fecha de la modificación antes de responder.",
+      "isCorrect": true,
+      "feedback": "Correcto. La estructura orgánica tiene riesgo alto de actualización."
+    },
+    {
+      "text": "Responder que todas las adscripciones se mantienen por principio.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una modificación puede cambiar funciones o adscripciones.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G12, actualización"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-017",
+    "clm-g-12-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16016",
+      "location": "modificación del RD 501/2024",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "fecha_corte": "2026-07-29",
+  "total": 57,
+  "correctos": 57,
+  "errores": 0,
+  "archivos": [
+    {
+      "index": 1,
+      "reference": "BOE-A-1978-31229",
+      "name": "Constitución Española",
+      "url": "https://www.boe.es/buscar/pdf/1978/BOE-A-1978-31229-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\01 - Constitución Española - BOE-A-1978-31229.pdf",
+      "status": "already_present",
+      "bytes": 330448,
+      "error": null
+    },
+    {
+      "index": 2,
+      "reference": "BOE-A-2024-3099",
+      "name": "Reforma constitucional del artículo 49",
+      "url": "https://www.boe.es/buscar/pdf/2024/BOE-A-2024-3099-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\02 - Reforma constitucional del artículo 49 - BOE-A-2024-3099.pdf",
+      "status": "already_present",
+      "bytes": 420509,
+      "error": null
+    },
+    {
+      "index": 3,
+      "reference": "BOE-A-2026-10881",
+      "name": "Reforma constitucional del artículo 69.3",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-10881-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\03 - Reforma constitucional del artículo 69.3 - BOE-A-2026-10881.pdf",
+      "status": "already_present",
+      "bytes": 344311,
+      "error": null
+    },
+    {
+      "index": 4,
+      "reference": "BOE-A-1979-23709",
+      "name": "LOTC",
+      "url": "https://www.boe.es/buscar/pdf/1979/BOE-A-1979-23709-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\04 - LOTC - BOE-A-1979-23709.pdf",
+      "status": "already_present",
+      "bytes": 330860,
+      "error": null
+    },
+    {
+      "index": 5,
+      "reference": "BOE-A-1981-10325",
+      "name": "LO del Defensor del Pueblo",
+      "url": "https://www.boe.es/buscar/pdf/1981/BOE-A-1981-10325-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\05 - LO del Defensor del Pueblo - BOE-A-1981-10325.pdf",
+      "status": "already_present",
+      "bytes": 176486,
+      "error": null
+    },
+    {
+      "index": 6,
+      "reference": "BOE-A-1985-12666",
+      "name": "LOPJ",
+      "url": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-12666-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\06 - LOPJ - BOE-A-1985-12666.pdf",
+      "status": "already_present",
+      "bytes": 1428634,
+      "error": null
+    },
+    {
+      "index": 7,
+      "reference": "BOE-A-2025-76",
+      "name": "LO 1/2025 de eficiencia judicial",
+      "url": "https://www.boe.es/buscar/pdf/2025/BOE-A-2025-76-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\07 - LO 1 2025 de eficiencia judicial - BOE-A-2025-76.pdf",
+      "status": "already_present",
+      "bytes": 1972123,
+      "error": null
+    },
+    {
+      "index": 8,
+      "reference": "BOE-A-1997-25336",
+      "name": "Ley del Gobierno",
+      "url": "https://www.boe.es/buscar/pdf/1997/BOE-A-1997-25336-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\08 - Ley del Gobierno - BOE-A-1997-25336.pdf",
+      "status": "already_present",
+      "bytes": 210497,
+      "error": null
+    },
+    {
+      "index": 9,
+      "reference": "BOE-A-2015-10566",
+      "name": "LRJSP",
+      "url": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10566-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\09 - LRJSP - BOE-A-2015-10566.pdf",
+      "status": "already_present",
+      "bytes": 775672,
+      "error": null
+    },
+    {
+      "index": 10,
+      "reference": "BOE-A-1985-5392",
+      "name": "LBRL",
+      "url": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-5392-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\10 - LBRL - BOE-A-1985-5392.pdf",
+      "status": "already_present",
+      "bytes": 563859,
+      "error": null
+    },
+    {
+      "index": 11,
+      "reference": "EUR-Lex-12016M-TXT",
+      "name": "TUE y TFUE",
+      "url": "https://eur-lex.europa.eu/resource.html?format=PDF&uri=cellar%3A9e8d52e1-2c70-11e6-b497-01aa75ed71a1.0023.01%2FDOC_1",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\11 - TUE y TFUE - EUR-Lex-12016M-TXT.pdf",
+      "status": "already_present",
+      "bytes": 772120,
+      "error": null
+    },
+    {
+      "index": 12,
+      "reference": "BOE-A-2015-10565",
+      "name": "LPAC",
+      "url": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-10565-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\12 - LPAC - BOE-A-2015-10565.pdf",
+      "status": "already_present",
+      "bytes": 579493,
+      "error": null
+    },
+    {
+      "index": 13,
+      "reference": "BOE-A-1998-16718",
+      "name": "LJCA",
+      "url": "https://www.boe.es/buscar/pdf/1998/BOE-A-1998-16718-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\13 - LJCA - BOE-A-1998-16718.pdf",
+      "status": "already_present",
+      "bytes": 532154,
+      "error": null
+    },
+    {
+      "index": 14,
+      "reference": "BOE-A-2015-11719",
+      "name": "TREBEP",
+      "url": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11719-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\14 - TREBEP - BOE-A-2015-11719.pdf",
+      "status": "already_present",
+      "bytes": 459621,
+      "error": null
+    },
+    {
+      "index": 15,
+      "reference": "BOE-A-1985-151",
+      "name": "Ley de incompatibilidades",
+      "url": "https://www.boe.es/buscar/pdf/1985/BOE-A-1985-151-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\15 - Ley de incompatibilidades - BOE-A-1985-151.pdf",
+      "status": "already_present",
+      "bytes": 184981,
+      "error": null
+    },
+    {
+      "index": 16,
+      "reference": "BOE-A-1986-1216",
+      "name": "Reglamento disciplinario AGE",
+      "url": "https://www.boe.es/buscar/pdf/1986/BOE-A-1986-1216-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\16 - Reglamento disciplinario AGE - BOE-A-1986-1216.pdf",
+      "status": "already_present",
+      "bytes": 185300,
+      "error": null
+    },
+    {
+      "index": 17,
+      "reference": "BOE-A-1996-4997",
+      "name": "Información administrativa y atención",
+      "url": "https://www.boe.es/buscar/pdf/1996/BOE-A-1996-4997-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\17 - Información administrativa y atención - BOE-A-1996-4997.pdf",
+      "status": "downloaded",
+      "bytes": 245553,
+      "error": null
+    },
+    {
+      "index": 18,
+      "reference": "BOE-A-2007-6115",
+      "name": "LO de igualdad",
+      "url": "https://www.boe.es/buscar/pdf/2007/BOE-A-2007-6115-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\18 - LO de igualdad - BOE-A-2007-6115.pdf",
+      "status": "already_present",
+      "bytes": 515380,
+      "error": null
+    },
+    {
+      "index": 19,
+      "reference": "BOE-A-2004-21760",
+      "name": "LO de violencia de género",
+      "url": "https://www.boe.es/buscar/pdf/2004/BOE-A-2004-21760-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\19 - LO de violencia de género - BOE-A-2004-21760.pdf",
+      "status": "already_present",
+      "bytes": 532847,
+      "error": null
+    },
+    {
+      "index": 20,
+      "reference": "BOE-A-2013-12632",
+      "name": "Ley General de Discapacidad",
+      "url": "https://www.boe.es/buscar/pdf/2013/BOE-A-2013-12632-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\20 - Ley General de Discapacidad - BOE-A-2013-12632.pdf",
+      "status": "already_present",
+      "bytes": 412036,
+      "error": null
+    },
+    {
+      "index": 21,
+      "reference": "BOE-A-2006-21990",
+      "name": "Ley de dependencia",
+      "url": "https://www.boe.es/buscar/pdf/2006/BOE-A-2006-21990-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\21 - Ley de dependencia - BOE-A-2006-21990.pdf",
+      "status": "already_present",
+      "bytes": 316069,
+      "error": null
+    },
+    {
+      "index": 22,
+      "reference": "BOE-A-2023-5366",
+      "name": "Ley 4/2023 LGTBI y trans",
+      "url": "https://www.boe.es/buscar/pdf/2023/BOE-A-2023-5366-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\22 - Ley 4 2023 LGTBI y trans - BOE-A-2023-5366.pdf",
+      "status": "already_present",
+      "bytes": 488977,
+      "error": null
+    },
+    {
+      "index": 23,
+      "reference": "EUR-Lex-32016R0679",
+      "name": "RGPD",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:32016R0679",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\23 - RGPD - EUR-Lex-32016R0679.pdf",
+      "status": "already_present",
+      "bytes": 1024768,
+      "error": null
+    },
+    {
+      "index": 24,
+      "reference": "BOE-A-2018-16673",
+      "name": "LOPDGDD",
+      "url": "https://www.boe.es/buscar/pdf/2018/BOE-A-2018-16673-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\24 - LOPDGDD - BOE-A-2018-16673.pdf",
+      "status": "already_present",
+      "bytes": 542839,
+      "error": null
+    },
+    {
+      "index": 25,
+      "reference": "BOE-A-2013-12887",
+      "name": "Ley de transparencia",
+      "url": "https://www.boe.es/buscar/pdf/2013/BOE-A-2013-12887-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\25 - Ley de transparencia - BOE-A-2013-12887.pdf",
+      "status": "already_present",
+      "bytes": 310588,
+      "error": null
+    },
+    {
+      "index": 26,
+      "reference": "BOE-A-2021-5032",
+      "name": "Reglamento de actuación electrónica",
+      "url": "https://www.boe.es/buscar/pdf/2021/BOE-A-2021-5032-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\26 - Reglamento de actuación electrónica - BOE-A-2021-5032.pdf",
+      "status": "already_present",
+      "bytes": 458017,
+      "error": null
+    },
+    {
+      "index": 27,
+      "reference": "BOE-A-2023-24840",
+      "name": "Estructura básica de departamentos",
+      "url": "https://www.boe.es/buscar/pdf/2023/BOE-A-2023-24840-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\27 - Estructura básica de departamentos - BOE-A-2023-24840.pdf",
+      "status": "already_present",
+      "bytes": 235130,
+      "error": null
+    },
+    {
+      "index": 28,
+      "reference": "BOE-A-2024-10237",
+      "name": "Estructura del MISSM",
+      "url": "https://www.boe.es/buscar/pdf/2024/BOE-A-2024-10237-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\28 - Estructura del MISSM - BOE-A-2024-10237.pdf",
+      "status": "already_present",
+      "bytes": 221834,
+      "error": null
+    },
+    {
+      "index": 29,
+      "reference": "BOE-A-2026-16016",
+      "name": "Reforma organizativa del Servicio Jurídico",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-16016-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\29 - Reforma organizativa del Servicio Jurídico - BOE-A-2026-16016.pdf",
+      "status": "already_present",
+      "bytes": 210422,
+      "error": null
+    },
+    {
+      "index": 30,
+      "reference": "BOE-A-2015-11724",
+      "name": "TRLGSS",
+      "url": "https://www.boe.es/buscar/pdf/2015/BOE-A-2015-11724-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\30 - TRLGSS - BOE-A-2015-11724.pdf",
+      "status": "already_present",
+      "bytes": 1828764,
+      "error": null
+    },
+    {
+      "index": 31,
+      "reference": "BOE-A-1996-4447",
+      "name": "Reglamento de inscripción, afiliación y altas",
+      "url": "https://www.boe.es/buscar/pdf/1996/BOE-A-1996-4447-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\31 - Reglamento de inscripción, afiliación y altas - BOE-A-1996-4447.pdf",
+      "status": "already_present",
+      "bytes": 393458,
+      "error": null
+    },
+    {
+      "index": 32,
+      "reference": "BOE-A-2003-19281",
+      "name": "Orden de convenio especial",
+      "url": "https://www.boe.es/buscar/pdf/2003/BOE-A-2003-19281-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\32 - Orden de convenio especial - BOE-A-2003-19281.pdf",
+      "status": "already_present",
+      "bytes": 265025,
+      "error": null
+    },
+    {
+      "index": 33,
+      "reference": "BOE-A-2025-21730",
+      "name": "Orden ISM/1199/2025",
+      "url": "https://www.boe.es/buscar/pdf/2025/BOE-A-2025-21730-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\33 - Orden ISM 1199 2025 - BOE-A-2025-21730.pdf",
+      "status": "already_present",
+      "bytes": 207399,
+      "error": null
+    },
+    {
+      "index": 34,
+      "reference": "BOE-A-1996-1579",
+      "name": "Reglamento de cotización",
+      "url": "https://www.boe.es/buscar/pdf/1996/BOE-A-1996-1579-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\34 - Reglamento de cotización - BOE-A-1996-1579.pdf",
+      "status": "already_present",
+      "bytes": 509399,
+      "error": null
+    },
+    {
+      "index": 35,
+      "reference": "BOE-A-2026-2548",
+      "name": "RDL 3/2026",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-2548-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\35 - RDL 3 2026 - BOE-A-2026-2548.pdf",
+      "status": "already_present",
+      "bytes": 300788,
+      "error": null
+    },
+    {
+      "index": 36,
+      "reference": "BOE-A-2026-7296",
+      "name": "Orden de cotización 2026",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-7296-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\36 - Orden de cotización 2026 - BOE-A-2026-7296.pdf",
+      "status": "already_present",
+      "bytes": 367470,
+      "error": null
+    },
+    {
+      "index": 37,
+      "reference": "BOE-A-2004-11836",
+      "name": "Reglamento General de Recaudación",
+      "url": "https://www.boe.es/buscar/pdf/2004/BOE-A-2004-11836-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\37 - Reglamento General de Recaudación - BOE-A-2004-11836.pdf",
+      "status": "downloaded",
+      "bytes": 530672,
+      "error": null
+    },
+    {
+      "index": 38,
+      "reference": "BOE-A-2005-8986",
+      "name": "Orden de desarrollo recaudatorio",
+      "url": "https://www.boe.es/buscar/pdf/2005/BOE-A-2005-8986-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\38 - Orden de desarrollo recaudatorio - BOE-A-2005-8986.pdf",
+      "status": "downloaded",
+      "bytes": 289463,
+      "error": null
+    },
+    {
+      "index": 39,
+      "reference": "BOE-A-2000-15060",
+      "name": "LISOS",
+      "url": "https://www.boe.es/buscar/pdf/2000/BOE-A-2000-15060-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\39 - LISOS - BOE-A-2000-15060.pdf",
+      "status": "already_present",
+      "bytes": 410777,
+      "error": null
+    },
+    {
+      "index": 40,
+      "reference": "BOE-A-2011-15936",
+      "name": "LRJS",
+      "url": "https://www.boe.es/buscar/pdf/2011/BOE-A-2011-15936-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\40 - LRJS - BOE-A-2011-15936.pdf",
+      "status": "already_present",
+      "bytes": 927431,
+      "error": null
+    },
+    {
+      "index": 41,
+      "reference": "BOE-A-1995-19848",
+      "name": "RD 1300/1995",
+      "url": "https://www.boe.es/buscar/pdf/1995/BOE-A-1995-19848-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\41 - RD 1300 1995 - BOE-A-1995-19848.pdf",
+      "status": "already_present",
+      "bytes": 153465,
+      "error": null
+    },
+    {
+      "index": 42,
+      "reference": "BOE-A-2014-7684",
+      "name": "RD 625/2014",
+      "url": "https://www.boe.es/buscar/pdf/2014/BOE-A-2014-7684-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\42 - RD 625 2014 - BOE-A-2014-7684.pdf",
+      "status": "already_present",
+      "bytes": 209909,
+      "error": null
+    },
+    {
+      "index": 43,
+      "reference": "BOE-A-2025-8567",
+      "name": "Ley 2/2025 sobre incapacidad permanente",
+      "url": "https://www.boe.es/buscar/pdf/2025/BOE-A-2025-8567-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\43 - Ley 2 2025 sobre incapacidad permanente - BOE-A-2025-8567.pdf",
+      "status": "already_present",
+      "bytes": 243962,
+      "error": null
+    },
+    {
+      "index": 44,
+      "reference": "BOE-A-2025-15741",
+      "name": "RDL 9/2025 de nacimiento y cuidado",
+      "url": "https://www.boe.es/buscar/pdf/2025/BOE-A-2025-15741-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\44 - RDL 9 2025 de nacimiento y cuidado - BOE-A-2025-15741.pdf",
+      "status": "already_present",
+      "bytes": 284768,
+      "error": null
+    },
+    {
+      "index": 45,
+      "reference": "BOE-A-2024-26917",
+      "name": "RDL 11/2024 de jubilación y trabajo",
+      "url": "https://www.boe.es/buscar/pdf/2024/BOE-A-2024-26917-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\45 - RDL 11 2024 de jubilación y trabajo - BOE-A-2024-26917.pdf",
+      "status": "already_present",
+      "bytes": 329352,
+      "error": null
+    },
+    {
+      "index": 46,
+      "reference": "BOE-A-2002-23038",
+      "name": "RD 1132/2002 de jubilación gradual y flexible",
+      "url": "https://www.boe.es/buscar/pdf/2002/BOE-A-2002-23038-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\46 - RD 1132 2002 de jubilación gradual y flexible - BOE-A-2002-23038.pdf",
+      "status": "already_present",
+      "bytes": 195477,
+      "error": null
+    },
+    {
+      "index": 47,
+      "reference": "BOE-A-2026-11474",
+      "name": "RD 416/2026 de jubilación flexible",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-11474-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\47 - RD 416 2026 de jubilación flexible - BOE-A-2026-11474.pdf",
+      "status": "already_present",
+      "bytes": 165932,
+      "error": null
+    },
+    {
+      "index": 48,
+      "reference": "BOE-A-2026-14113",
+      "name": "RDL 19/2026",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-14113-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\48 - RDL 19 2026 - BOE-A-2026-14113.pdf",
+      "status": "already_present",
+      "bytes": 147142,
+      "error": null
+    },
+    {
+      "index": 49,
+      "reference": "BOE-A-2026-6977",
+      "name": "RD 241/2026 de pensiones 2026",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-6977-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\49 - RD 241 2026 de pensiones 2026 - BOE-A-2026-6977.pdf",
+      "status": "already_present",
+      "bytes": 496578,
+      "error": null
+    },
+    {
+      "index": 50,
+      "reference": "BOE-A-2021-21007",
+      "name": "Ley del ingreso mínimo vital",
+      "url": "https://www.boe.es/buscar/pdf/2021/BOE-A-2021-21007-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\50 - Ley del ingreso mínimo vital - BOE-A-2021-21007.pdf",
+      "status": "already_present",
+      "bytes": 463550,
+      "error": null
+    },
+    {
+      "index": 51,
+      "reference": "BOE-A-2026-7967",
+      "name": "Ley 1/2026 de economía social",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-7967-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\51 - Ley 1 2026 de economía social - BOE-A-2026-7967.pdf",
+      "status": "already_present",
+      "bytes": 340099,
+      "error": null
+    },
+    {
+      "index": 52,
+      "reference": "BOE-A-2022-15764",
+      "name": "RD 789/2022 de compatibilidad del IMV",
+      "url": "https://www.boe.es/buscar/pdf/2022/BOE-A-2022-15764-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\52 - RD 789 2022 de compatibilidad del IMV - BOE-A-2022-15764.pdf",
+      "status": "already_present",
+      "bytes": 181720,
+      "error": null
+    },
+    {
+      "index": 53,
+      "reference": "BOE-A-2026-6976",
+      "name": "RD 240/2026 sobre compatibilidad del IMV",
+      "url": "https://www.boe.es/buscar/pdf/2026/BOE-A-2026-6976-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\53 - RD 240 2026 sobre compatibilidad del IMV - BOE-A-2026-6976.pdf",
+      "status": "already_present",
+      "bytes": 264686,
+      "error": null
+    },
+    {
+      "index": 54,
+      "reference": "BOE-A-1992-24743",
+      "name": "Patrimonio de la Seguridad Social",
+      "url": "https://www.boe.es/buscar/pdf/1992/BOE-A-1992-24743-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\54 - Patrimonio de la Seguridad Social - BOE-A-1992-24743.pdf",
+      "status": "already_present",
+      "bytes": 292023,
+      "error": null
+    },
+    {
+      "index": 55,
+      "reference": "BOE-A-2018-9030",
+      "name": "Gestión financiera de la Seguridad Social",
+      "url": "https://www.boe.es/buscar/pdf/2018/BOE-A-2018-9030-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\55 - Gestión financiera de la Seguridad Social - BOE-A-2018-9030.pdf",
+      "status": "already_present",
+      "bytes": 246784,
+      "error": null
+    },
+    {
+      "index": 56,
+      "reference": "BOE-A-2003-21614",
+      "name": "Ley General Presupuestaria",
+      "url": "https://www.boe.es/buscar/pdf/2003/BOE-A-2003-21614-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\56 - Ley General Presupuestaria - BOE-A-2003-21614.pdf",
+      "status": "already_present",
+      "bytes": 662616,
+      "error": null
+    },
+    {
+      "index": 57,
+      "reference": "BOE-A-2004-4220",
+      "name": "RD 337/2004 del Fondo de Reserva",
+      "url": "https://www.boe.es/buscar/pdf/2004/BOE-A-2004-4220-consolidado.pdf",
+      "relative_path": "05. Normativa\\Normas oficiales utilizadas\\57 - RD 337 2004 del Fondo de Reserva - BOE-A-2004-4220.pdf",
+      "status": "already_present",
+      "bytes": 139897,
+      "error": null
+    }
+  ]
+}

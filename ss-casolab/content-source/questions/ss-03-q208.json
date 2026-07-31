@@ -1,0 +1,69 @@
+{
+  "id": "ss-03-q208",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 14: plazo de baja",
+  "competency": "Computar el plazo general para comunicar una baja",
+  "difficulty": "medium",
+  "prompt": "D cesó el 30 de junio y la sociedad comunicó su baja el 6 de julio. ¿Cómo se califica la presentación respecto del plazo general?",
+  "options": [
+    {
+      "text": "Es tardía, porque debía presentarse dentro de los tres días naturales siguientes al cese.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los tres días naturales siguientes al 30 de junio eran el 1, 2 y 3 de julio; la comunicación del 6 de julio se realizó fuera de plazo."
+    },
+    {
+      "text": "Está en plazo porque los tres días son hábiles y el fin de semana nunca cuenta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento expresa el plazo en días naturales; sustituirlos por hábiles altera el cómputo.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.3: unidad de cómputo de la baja."
+    },
+    {
+      "text": "Está en plazo porque toda baja dispone de diez días naturales desde el cese.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla general no concede diez días; fija tres días naturales siguientes al cese.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S03, apartado 4.3: plazo general de tres días naturales."
+    },
+    {
+      "text": "No existe plazo para la baja si el alta de D se había presentado correctamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cumplimiento del alta no elimina la obligación independiente de comunicar el cese dentro del plazo de baja.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 4: separar alta y baja."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.2.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 14 de CP01."
+      }
+    ]
+  }
+}

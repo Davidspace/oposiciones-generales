@@ -1,0 +1,75 @@
+{
+  "id": "g-05-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Pleno y Comisiones",
+  "competency": "Aplicar los límites constitucionales de la delegación legislativa en Comisión.",
+  "difficulty": "medium",
+  "prompt": "El Pleno de una Cámara quiere delegar en una Comisión Legislativa Permanente la aprobación definitiva de un proyecto de ley orgánica. ¿Es posible?",
+  "options": [
+    {
+      "text": "Sí, si la Comisión aprueba el proyecto por mayoría simple y el Gobierno lo autoriza.",
+      "isCorrect": false,
+      "feedback": "La autorización del Gobierno no elimina una exclusión constitucional. Una Comisión no puede aprobar definitivamente una ley orgánica por delegación.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G05, materias no delegables en Comisión"
+    },
+    {
+      "text": "Sí, porque todo proyecto o proposición de ley puede delegarse sin excepción.",
+      "isCorrect": false,
+      "feedback": "La Constitución enumera cinco exclusiones: reforma constitucional, cuestiones internacionales, leyes orgánicas y de bases, y Presupuestos Generales del Estado.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G05, excepciones del artículo 75.3"
+    },
+    {
+      "text": "No, porque las Comisiones solo investigan asuntos de interés público y nunca tramitan leyes.",
+      "isCorrect": false,
+      "feedback": "Las Comisiones Legislativas Permanentes sí pueden recibir delegación para aprobar otras leyes. El impedimento deriva de que este proyecto es orgánico.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G05, funciones legislativas de las Comisiones"
+    },
+    {
+      "text": "No. Las leyes orgánicas están excluidas de la delegación legislativa en Comisión y su aprobación corresponde al Pleno.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 75.3 excluye expresamente las leyes orgánicas de la aprobación delegada en Comisión."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 75, apartados 1 a 3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

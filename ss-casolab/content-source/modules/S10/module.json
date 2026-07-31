@@ -1,0 +1,148 @@
+{
+  "id": "S10",
+  "themeId": "ss-10",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Jubilación contributiva",
+  "learningOutcomes": [
+    "Ordenar los requisitos de la jubilación contributiva.",
+    "Aplicar edad y cotización sin usar un dato numérico desactualizado.",
+    "Distinguir jubilación anticipada voluntaria y por cese no voluntario.",
+    "Separar jubilación parcial, flexible y compatibilidad de trabajo.",
+    "Identificar la relevancia de la Ley 27/2011 y sus disposiciones transitorias."
+  ],
+  "decisions": [
+    "Fijar fecha del hecho causante antes de consultar edad y cotización.",
+    "Comprobar alta, situación asimilada y carencia.",
+    "Calcular base reguladora y porcentaje en el orden correcto.",
+    "Elegir la modalidad de anticipación por su causa.",
+    "Distinguir suspensión de extinción y compatibilidad."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Jubilación ordinaria",
+      "objective": "La jubilación contributiva exige identificar el hecho causante, la edad aplicable, el periodo mínimo de cotización y la situación de alta o asimilada cuando proceda. La edad depende del calendario legal y de los años cotizados.",
+      "sectionId": "ss10-ordinaria-1",
+      "activityIds": [
+        "ss-10-q001"
+      ]
+    },
+    {
+      "officialClause": "Base reguladora y porcentaje",
+      "objective": "La cuantía se obtiene mediante la base reguladora y el porcentaje correspondiente a los años cotizados. Los periodos y reglas transitorias deben comprobarse con la fecha del hecho causante.",
+      "sectionId": "ss10-cuantia-2",
+      "activityIds": [
+        "ss-10-q002"
+      ]
+    },
+    {
+      "officialClause": "Jubilación anticipada",
+      "objective": "La jubilación anticipada voluntaria y la derivada del cese no voluntario tienen presupuestos distintos. No basta con afirmar que se tiene una edad inferior a la ordinaria.",
+      "sectionId": "ss10-anticipada-3",
+      "activityIds": [
+        "ss-10-q003"
+      ]
+    },
+    {
+      "officialClause": "Parcial y flexible",
+      "objective": "La jubilación parcial permite compatibilizar pensión y trabajo en las condiciones legales. La jubilación flexible opera sobre una pensión ya reconocida y un trabajo a tiempo parcial.",
+      "sectionId": "ss10-parcial-flexible-4",
+      "activityIds": [
+        "ss-10-q004"
+      ]
+    },
+    {
+      "officialClause": "Compatibilidad, suspensión y extinción",
+      "objective": "La compatibilidad entre pensión y trabajo es excepcional y debe encajar en una modalidad legal. La pensión puede suspenderse o extinguirse por causas diferentes.",
+      "sectionId": "ss10-compatibilidad-5",
+      "activityIds": [
+        "ss-10-q005"
+      ]
+    },
+    {
+      "officialClause": "Jubilación ordinaria",
+      "objective": "La jubilación contributiva exige identificar el hecho causante, la edad aplicable, el periodo mínimo de cotización y la situación de alta o asimilada cuando proceda. La edad depende del calendario legal y de los años cotizados.",
+      "sectionId": "ss10-ordinaria-6",
+      "activityIds": [
+        "ss-10-q006"
+      ]
+    },
+    {
+      "officialClause": "Base reguladora y porcentaje",
+      "objective": "La cuantía se obtiene mediante la base reguladora y el porcentaje correspondiente a los años cotizados. Los periodos y reglas transitorias deben comprobarse con la fecha del hecho causante.",
+      "sectionId": "ss10-cuantia-7",
+      "activityIds": [
+        "ss-10-q007"
+      ]
+    },
+    {
+      "officialClause": "Jubilación anticipada",
+      "objective": "La jubilación anticipada voluntaria y la derivada del cese no voluntario tienen presupuestos distintos. No basta con afirmar que se tiene una edad inferior a la ordinaria.",
+      "sectionId": "ss10-anticipada-8",
+      "activityIds": [
+        "ss-10-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S10/lesson.md",
+  "reviewSheetPath": "content-source/modules/S10/review.md",
+  "normativeClaimIds": [
+    "clm-ss-10-001",
+    "clm-ss-10-002",
+    "clm-ss-10-003",
+    "clm-ss-10-004",
+    "clm-ss-10-005",
+    "clm-ss-10-006",
+    "clm-ss-10-007",
+    "clm-ss-10-008",
+    "clm-ss-10-009",
+    "clm-ss-10-010",
+    "clm-ss-10-011",
+    "clm-ss-10-012",
+    "clm-ss-10-013",
+    "clm-ss-10-014",
+    "clm-ss-10-015",
+    "clm-ss-10-016",
+    "clm-ss-10-017",
+    "clm-ss-10-018",
+    "clm-ss-10-019",
+    "clm-ss-10-020"
+  ],
+  "questionIds": [
+    "ss-10-q001",
+    "ss-10-q002",
+    "ss-10-q003",
+    "ss-10-q004",
+    "ss-10-q005",
+    "ss-10-q006",
+    "ss-10-q007",
+    "ss-10-q008"
+  ],
+  "microcaseIds": [
+    "MC06"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S10 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

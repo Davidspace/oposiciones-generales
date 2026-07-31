@@ -1,0 +1,78 @@
+{
+  "id": "g-20-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Quejas y sugerencias",
+  "competency": "distinguir queja y recurso",
+  "difficulty": "high",
+  "prompt": "Una persona presenta una queja porque considera deficiente la atención recibida y afirma que así se interrumpe el plazo para recurrir. ¿Qué respuesta es correcta?",
+  "options": [
+    {
+      "text": "La queja sustituye al recurso y suspende automáticamente el plazo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe utilizarse el cauce del recurso si se pretende impugnar un acto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, artículo 19"
+    },
+    {
+      "text": "La queja nunca puede tramitarse porque solo se admiten recursos administrativos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las quejas y sugerencias tienen un programa propio de calidad.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G20, quejas y sugerencias"
+    },
+    {
+      "text": "La queja puede tramitarse como manifestación de insatisfacción, pero no es un recurso ni interrumpe los plazos.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 19 excluye la calificación de recurso y el efecto interruptivo."
+    },
+    {
+      "text": "La queja obliga a estimar la pretensión de fondo de la persona.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La queja permite revisar el servicio, no garantiza el resultado del procedimiento.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, efectos de la queja"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-011",
+    "clm-g-20-012",
+    "clm-g-20-015",
+    "clm-g-20-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836",
+      "location": "artículos 14 y 19",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Queja frente a recurso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

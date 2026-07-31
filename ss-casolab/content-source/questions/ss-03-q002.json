@@ -1,0 +1,74 @@
+{
+  "id": "ss-03-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Vías para promover afiliación, alta y baja",
+  "competency": "Elegir la vía procedente ante un incumplimiento empresarial",
+  "difficulty": "medium",
+  "prompt": "Una empresa incorpora a Nuria, pero no solicita su afiliación ni comunica el alta. Nuria comprueba el incumplimiento. ¿Cuál es la respuesta correcta?",
+  "options": [
+    {
+      "text": "Nuria debe esperar a que la empresa finalice la relación laboral.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El incumplimiento empresarial permite a la trabajadora instar directamente la afiliación o el alta; no debe esperar al cese.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S03, apartado 2.2: vía subsidiaria de la persona trabajadora."
+    },
+    {
+      "text": "Nuria puede instar directamente su afiliación y alta ante el organismo competente, y la Administración también puede actuar de oficio.",
+      "isCorrect": true,
+      "feedback": "Correcto. La obligación inicial es empresarial, pero la ley prevé la instancia del trabajador y la actuación de oficio."
+    },
+    {
+      "text": "Nuria sustituye definitivamente al empresario como sujeto obligado y elimina cualquier responsabilidad de este.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La vía de Nuria corrige su situación, pero no borra la obligación ni la posible responsabilidad del empresario.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartado 2.2: obligación principal y vías subsidiarias."
+    },
+    {
+      "text": "Solo la Inspección de Trabajo puede iniciar el alta y Nuria no puede dirigirse a la Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La trabajadora puede instar directamente el acto. La actuación inspectora no es la única vía prevista.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S03, apartado 2.2: tres formas de promover el acto."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+      "location": "TRLGSS, artículo 139.1 y 139.2",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a16",
+      "location": "TRLGSS, artículo 16.1 y 16.4",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      }
+    ]
+  }
+}

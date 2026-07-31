@@ -1,0 +1,75 @@
+{
+  "id": "ss-10-q314",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Tema 10. Jubilación contributiva",
+  "competency": "Aplicar la idea de compatibilidad condicionada del trabajo con la pensión.",
+  "difficulty": "high",
+  "prompt": "¿Cómo debe calificarse la posibilidad de trabajar y percibir una pensión en jubilación activa?",
+  "options": [
+    {
+      "text": "Como una compatibilidad absoluta sin límites.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 214.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Aplicar la idea de compatibilidad condicionada del trabajo con la pensión."
+    },
+    {
+      "text": "Como una prohibición absoluta en todo caso.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 214.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Aplicar la idea de compatibilidad condicionada del trabajo con la pensión."
+    },
+    {
+      "text": "Como una prestación de desempleo.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 214.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Aplicar la idea de compatibilidad condicionada del trabajo con la pensión."
+    },
+    {
+      "text": "Como una compatibilidad condicionada a los requisitos y efectos de la ley.",
+      "isCorrect": true,
+      "feedback": "La jubilación activa no elimina las condiciones legales: la compatibilidad, su porcentaje y sus efectos dependen de la modalidad y de los requisitos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-114"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículo 214",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC06, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

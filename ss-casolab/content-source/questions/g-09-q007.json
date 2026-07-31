@@ -1,0 +1,79 @@
+{
+  "id": "g-09-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "El municipio",
+  "competency": "Aplicar la organización municipal y los servicios mínimos por población.",
+  "difficulty": "medium",
+  "prompt": "Un municipio de 6.000 habitantes pregunta qué órgano debe existir y qué servicios se añaden al bloque común. ¿Qué respuesta es correcta?",
+  "options": [
+    {
+      "text": "La Junta de Gobierno Local solo existe si lo acuerda el pleno y el municipio no debe prestar biblioteca.",
+      "isCorrect": false,
+      "feedback": "En municipios de más de 5.000 habitantes la Junta existe necesariamente; la biblioteca pública se añade al bloque de servicios mínimos.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G09, Junta de Gobierno Local y umbral de 5.000"
+    },
+    {
+      "text": "Debe prestar transporte colectivo urbano y medio ambiente urbano porque supera 5.000 habitantes.",
+      "isCorrect": false,
+      "feedback": "Esos servicios se añaden para municipios de más de 50.000 habitantes, no de 5.000.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G09, umbrales de servicios"
+    },
+    {
+      "text": "Debe existir Junta de Gobierno Local y, además de los servicios comunes, parque público, biblioteca pública y tratamiento de residuos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Junta de Gobierno Local es necesaria por superar 5.000 habitantes y el artículo 26.1.b añade esos tres servicios."
+    },
+    {
+      "text": "La Diputación sustituye siempre al ayuntamiento en todos sus servicios por no superar 20.000 habitantes.",
+      "isCorrect": false,
+      "feedback": "La diputación coordina determinados servicios en municipios de menos de 20.000 habitantes, pero no sustituye globalmente al ayuntamiento.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, coordinación provincial"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-017",
+    "clm-g-09-018",
+    "clm-g-09-019",
+    "clm-g-09-020",
+    "clm-g-09-021"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "location": "artículos 11, 19, 20, 25 y 26",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre organización y servicios mínimos municipales."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

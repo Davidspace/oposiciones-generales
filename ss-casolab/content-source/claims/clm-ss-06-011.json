@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-011",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "Cada actuación de embargo se documenta en una diligencia notificada al apremiado y, si afecta a bienes gananciales, al cónyuge; sobre bienes indivisos, la traba se limita a la cuota del deudor y se notifica a los condóminos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a93",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 93",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2004-06-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q004"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

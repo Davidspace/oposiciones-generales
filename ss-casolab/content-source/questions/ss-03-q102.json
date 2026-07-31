@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q102",
+  "version": "0.2.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Tema 3. Plazo de presentación del alta",
+  "competency": "Aplicar el plazo de presentación del alta",
+  "difficulty": "medium",
+  "prompt": "¿Cuándo debía comunicarse el alta de Irene?",
+  "options": [
+    {
+      "text": "Dentro de los tres días naturales siguientes al inicio.",
+      "isCorrect": false,
+      "feedback": "Los tres días naturales corresponden a bajas y variaciones. El alta debe comunicarse antes de que empiece la relación laboral.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 3: separar plazos de alta, baja y variación."
+    },
+    {
+      "text": "Antes del inicio de la relación laboral, hasta 60 días naturales antes.",
+      "isCorrect": true,
+      "feedback": "En Régimen General, el alta se presenta antes del inicio y puede comunicarse con una antelación máxima de 60 días naturales.",
+      "reviewTarget": "Tema 3: plazo previo del alta en Régimen General."
+    },
+    {
+      "text": "Durante el mes natural en el que empieza a trabajar.",
+      "isCorrect": false,
+      "feedback": "La regla no concede todo el mes natural. Una comunicación posterior al inicio incumple el carácter previo del alta.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 3: momento en que produce efectos el alta."
+    },
+    {
+      "text": "Al presentar la primera liquidación de cuotas.",
+      "isCorrect": false,
+      "feedback": "El alta y la liquidación de cuotas son trámites distintos. La obligación de alta nace antes del inicio del trabajo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Temas 3 y 4: distinguir alta y liquidación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/Afiliacion/32765/32772?changeLanguage=es",
+      "location": "Seguridad Social: plazos de presentación",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.1.º",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.2.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

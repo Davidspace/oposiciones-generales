@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-21-009",
+  "assetId": "G21",
+  "version": "0.1.0",
+  "statement": "El RDL 1/2013 garantiza el derecho a la igualdad de oportunidades y de trato y el ejercicio real y efectivo de derechos por las personas con discapacidad.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+  "sourceLocation": "art. 1",
+  "officialPublication": "RDL 1/2013",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G21",
+    "g-21-q004",
+    "g-21-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G21."
+      }
+    ]
+  }
+}

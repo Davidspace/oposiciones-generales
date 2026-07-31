@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-016", "assetId": "G08", "version": "0.1.0",
+  "statement": "Existe una Delegación del Gobierno en cada comunidad autónoma; el Delegado representa al Gobierno de la Nación en el territorio, dirige y supervisa allí la Administración General del Estado, es órgano directivo con rango de Subsecretario y es nombrado y separado por real decreto del Consejo de Ministros a propuesta del Presidente del Gobierno.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1", "sourceLocation": "artículos 69.1 y 72.1 a 4", "officialPublication": "BOE núm. 236, de 02-10-2015; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "2016-10-02", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre Delegaciones del Gobierno."}]}
+}

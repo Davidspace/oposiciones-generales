@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Liquidación de otras deudas",
+  "competency": "Delimitar el objeto de la liquidación y distinguirlo del pago y de la recaudación",
+  "difficulty": "medium",
+  "prompt": "Al estudiar el Reglamento General sobre Cotización y Liquidación de otros Derechos de la Seguridad Social, ¿qué afirmación describe mejor el alcance de la gestión liquidatoria?",
+  "options": [
+    {
+      "text": "Determina las distintas deudas para posibilitar su cumplimiento voluntario o forzoso e incluye, en los términos reglamentarios, recursos distintos de cuotas y conceptos de recaudación conjunta como desempleo, FOGASA y formación profesional.",
+      "isCorrect": true,
+      "feedback": "Correcto. La función liquidatoria determina la deuda y su alcance reglamentario rebasa la cuota ordinaria, sin confundirse por ello con el acto posterior de pago o con todo el procedimiento recaudatorio."
+    },
+    {
+      "text": "Solo cuantifica cuotas por contingencias comunes del Régimen General y excluye cualquier concepto recaudado junto con ellas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento no limita la liquidación a las cuotas por contingencias comunes y contempla otros recursos y conceptos que se liquidan e ingresan conjuntamente.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S04, apartado 7.1: alcance objetivo de la liquidación."
+    },
+    {
+      "text": "La liquidación y el pago son el mismo acto: una deuda solo queda liquidada cuando el dinero entra efectivamente en la Tesorería.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Liquidar es determinar la deuda; pagar es cumplirla. Son operaciones relacionadas, pero no idénticas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S04, apartado 7.2: secuencia liquidar, ingresar y, en su caso, recaudar."
+    },
+    {
+      "text": "Toda liquidación exige siempre una actuación ejecutiva previa y nunca puede preceder al período voluntario de ingreso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La determinación de la deuda permite tanto su cumplimiento voluntario como, si procede, su exigencia forzosa posterior.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S04, apartado 7.2: liquidación anterior al cumplimiento voluntario o forzoso."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-1579#a1",
+      "location": "Real Decreto 2064/1995, artículos 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta conceptual con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ss-11-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Orfandad",
+  "competency": "Identificar beneficiarios",
+  "difficulty": "medium",
+  "prompt": "¿Qué relación sitúa el supuesto en la pensión de orfandad?",
+  "options": [
+    {
+      "text": "Ser cualquier familiar que conviviera con el causante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ese supuesto puede remitir a favor de familiares, no a orfandad automática.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S11, orfandad"
+    },
+    {
+      "text": "Ser compañero de trabajo del causante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es un vínculo protegido para orfandad.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S11, orfandad"
+    },
+    {
+      "text": "Ser acreedor de una deuda del causante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La deuda no crea derecho a orfandad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, orfandad"
+    },
+    {
+      "text": "Ser hijo o hija del sujeto causante y cumplir los requisitos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La condición de descendiente debe completarse con los requisitos del capítulo."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-007",
+    "clm-ss-11-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 224",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

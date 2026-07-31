@@ -1,0 +1,76 @@
+{
+  "id": "g-15-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "Nulidad y anulabilidad",
+  "competency": "clasificar un vicio por la causa legal aplicable",
+  "difficulty": "high",
+  "prompt": "¿Qué comparación entre nulidad y anulabilidad se ajusta a los artículos 47 y 48 de la Ley 39/2015?",
+  "options": [
+    {
+      "text": "Todo defecto de forma, por mínimo que sea, causa nulidad de pleno derecho.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 48.2 exige un requisito formal indispensable o indefensión para que el defecto determine anulabilidad; no establece nulidad automática.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G15, apartados 4.1 y 4.2"
+    },
+    {
+      "text": "Toda actuación fuera de plazo es siempre nula de pleno derecho.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 48.3 solo vincula anulabilidad a la actuación tardía cuando lo impone la naturaleza del término o plazo.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G15, apartado 4.2 «Anulabilidad»"
+    },
+    {
+      "text": "La incompetencia manifiesta por materia o territorio es causa de nulidad; un defecto de forma solo causa anulabilidad si falta un requisito indispensable para el fin o produce indefensión.",
+      "isCorrect": true,
+      "feedback": "Correcto. La primera regla procede del artículo 47.1.b y la segunda del matiz específico del artículo 48.2."
+    },
+    {
+      "text": "La desviación de poder nunca afecta a la validez de un acto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 48.1 incluye expresamente la desviación de poder entre las infracciones que producen anulabilidad.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G15, apartado 4.2 «Anulabilidad»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-011",
+    "clm-g-15-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 47.1.b y 48",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

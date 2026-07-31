@@ -1,0 +1,81 @@
+{
+  "id": "g-14-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "El Reglamento: concepto, clases y límites",
+  "competency": "aplicar los límites materiales de la potestad reglamentaria",
+  "difficulty": "medium",
+  "prompt": "Un reglamento pretende crear por sí solo una nueva infracción administrativa y su sanción, sin cobertura legal. ¿Qué regla resulta decisiva?",
+  "options": [
+    {
+      "text": "El reglamento puede hacerlo siempre que se publique antes de aplicarse.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La publicación no elimina la reserva de ley ni sana la prohibición material del artículo 128.2.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G14, apartado 3.1 «Límites materiales y jerárquicos»"
+    },
+    {
+      "text": "La potestad reglamentaria está sometida a la Constitución y las leyes, y el artículo 128.2 impide a los reglamentos tipificar infracciones o establecer sanciones en esos términos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Constitución subordina la potestad reglamentaria y la Ley 39/2015 formula la prohibición material específica."
+    },
+    {
+      "text": "Puede hacerlo si adopta la forma de orden ministerial, porque esa forma tiene rango de ley.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una orden ministerial es una forma de disposición o resolución ministerial y no adquiere rango de ley por su nombre.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G14, apartados 3.1 y 3.2"
+    },
+    {
+      "text": "Solo existe un problema si la sanción supera una cuantía fijada por la Constitución.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 128.2 no condiciona la prohibición a una cuantía constitucional; impide que el reglamento tipifique y sancione por sí solo en los términos descritos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G14, apartado 3.1 «Límites materiales y jerárquicos»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-008",
+    "clm-g-14-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 97",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 128.2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

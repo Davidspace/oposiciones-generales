@@ -1,0 +1,77 @@
+{
+  "id": "ss-08-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Extinción",
+  "competency": "Distinguir extinción de prórroga",
+  "difficulty": "medium",
+  "prompt": "¿Cuál es una causa legal que puede extinguir el subsidio de incapacidad temporal?",
+  "options": [
+    {
+      "text": "Cualquier cambio de domicilio.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es una causa general de extinción.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S08, extinción"
+    },
+    {
+      "text": "El alta médica o el transcurso del plazo máximo en el supuesto correspondiente.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son causas previstas, junto con otras, en el artículo 174."
+    },
+    {
+      "text": "La presentación de una consulta administrativa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una consulta no extingue el subsidio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, extinción"
+    },
+    {
+      "text": "La solicitud de información por un familiar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No produce ese efecto.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S08, extinción"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-006",
+    "clm-ss-08-007",
+    "clm-ss-08-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 174",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

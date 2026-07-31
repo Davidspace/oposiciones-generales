@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-13-011",
+  "assetId": "G13",
+  "version": "0.1.0",
+  "statement": "Las leyes solo se derogan por otras posteriores; la derogación alcanza lo expresamente previsto y lo incompatible sobre la misma materia, y la simple derogación no hace revivir las leyes que la norma derogada hubiera derogado.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+  "sourceLocation": "artículo 2.2",
+  "officialPublication": "Decreto 1836/1974, BOE-A-1974-1083 (redacción de 1974); concordancia vigente consultada en BOE-A-1889-4763",
+  "validFrom": "1974-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G13",
+    "g-13-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

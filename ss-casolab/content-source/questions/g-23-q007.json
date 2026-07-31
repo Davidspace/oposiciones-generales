@@ -1,0 +1,76 @@
+{
+  "id": "g-23-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Seguridad",
+  "competency": "Reconocer el objeto del ENS",
+  "difficulty": "high",
+  "prompt": "¿Qué persigue el Esquema Nacional de Seguridad?",
+  "options": [
+    {
+      "text": "Regular exclusivamente los plazos de los recursos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El ENS es un marco de seguridad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, seguridad"
+    },
+    {
+      "text": "Sustituir el RGPD en todos los tratamientos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son marcos distintos y complementarios.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, seguridad"
+    },
+    {
+      "text": "Definir la estructura del Ministerio de Inclusión.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa materia pertenece a otra norma.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G23, seguridad"
+    },
+    {
+      "text": "Establecer principios básicos y requisitos mínimos para proteger adecuadamente la información y los servicios.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ese es el objeto del RD 311/2022."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-018",
+    "clm-g-23-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191",
+      "location": "arts. 1 y 5 RD 311/2022",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

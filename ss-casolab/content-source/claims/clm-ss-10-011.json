@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-10-011",
+  "assetId": "S10",
+  "version": "0.1.0",
+  "statement": "La Ley 27/2011 introdujo reformas que se aplican con periodos transitorios y deben comprobarse por fecha.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-13242",
+  "sourceLocation": "disposiciones transitorias",
+  "officialPublication": "Ley 27/2011",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S10",
+    "ss-10-q001",
+    "ss-10-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S10."
+      }
+    ]
+  }
+}

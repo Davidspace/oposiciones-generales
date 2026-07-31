@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-02-009",
+  "assetId": "S02",
+  "version": "0.1.0",
+  "statement": "Los consejeros y administradores de sociedades de capital que realizan funciones retribuidas de dirección y gerencia sin poseer el control legal se asimilan a trabajadores por cuenta ajena en el Régimen General, con exclusión de desempleo y FOGASA.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+  "sourceLocation": "TRLGSS, artículo 136.2.c), en relación con el artículo 305.2.b)",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S02", "ss-02-q005", "CP01", "ss-02-q203"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa trazable; revisión humana pendiente."
+    }]
+  }
+}

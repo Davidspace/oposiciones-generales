@@ -1,0 +1,76 @@
+{
+  "id": "g-04-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Supuestos especiales de sucesión",
+  "competency": "Distinguir la exclusión matrimonial de las abdicaciones, renuncias y dudas sucesorias.",
+  "difficulty": "high",
+  "prompt": "Una persona con derecho a la sucesión contrae matrimonio pese a la prohibición expresa del Rey, pero las Cortes Generales no han formulado prohibición. ¿Qué consecuencia establece por ese solo hecho el artículo 57.4?",
+  "options": [
+    {
+      "text": "Queda excluida automáticamente junto con sus descendientes porque basta la prohibición expresa del Rey.",
+      "isCorrect": false,
+      "feedback": "El artículo 57.4 exige conjuntamente la prohibición expresa del Rey y de las Cortes Generales. La prohibición de uno solo no completa el supuesto constitucional.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G04, sujetos de la prohibición matrimonial"
+    },
+    {
+      "text": "Queda excluida solo la persona, pero sus descendientes conservan siempre el derecho sucesorio.",
+      "isCorrect": false,
+      "feedback": "Cuando concurren todos los requisitos, la exclusión alcanza a la persona y a sus descendientes. Aquí, además, falta la prohibición de las Cortes.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G04, alcance subjetivo de la exclusión"
+    },
+    {
+      "text": "No se produce la exclusión constitucional del artículo 57.4, porque falta la prohibición expresa de las Cortes Generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La exclusión de la persona y de sus descendientes requiere matrimonio contra la prohibición expresa de ambos sujetos constitucionales."
+    },
+    {
+      "text": "El Gobierno decide la exclusión mediante decreto, igual que resuelve una abdicación o una duda sucesoria.",
+      "isCorrect": false,
+      "feedback": "La Constitución no atribuye esa decisión al Gobierno. Las abdicaciones, renuncias y dudas sucesorias se resuelven por ley orgánica, y la exclusión matrimonial tiene sus propios requisitos.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G04, exclusión matrimonial frente a ley orgánica sucesoria"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-005",
+    "clm-g-04-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 57.4 y 57.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

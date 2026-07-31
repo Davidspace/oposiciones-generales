@@ -1,0 +1,75 @@
+{
+  "id": "ss-08-q508",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "CP03 — decisión 8",
+  "competency": "Distinguir revisiÃ³n y compatibilidad",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe hacerse si aparecen nuevas lesiones tras una resoluciÃ³n?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir revisiã³n y compatibilidad.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 200 y 201.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP03: Distinguir revisiÃ³n y compatibilidad"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 200 y 201.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP03: Distinguir revisiÃ³n y compatibilidad"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 200 y 201.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP03: Distinguir revisiÃ³n y compatibilidad"
+    },
+    {
+      "text": "Comprobar si procede una revisiÃ³n conforme a la causa, plazo y grado previstos.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Comprobar si procede una revisiÃ³n conforme a la causa, plazo y grado previstos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-508"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culos 200 y 201",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP03, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

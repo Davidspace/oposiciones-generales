@@ -1,0 +1,265 @@
+{
+  "id": "CP04",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "full-case",
+  "title": "Unidad familiar con cuidados, jubilaciÃ³n e IMV",
+  "scenario": "Una unidad familiar solicita una prestaciÃ³n por nacimiento y cuidado de menor mientras una de sus personas adultas trabaja a tiempo parcial. En la misma familia, otra persona se aproxima a la jubilaciÃ³n y pregunta por la modalidad anticipada y la compatibilidad con trabajo. Los ingresos familiares disminuyen y se estudia el acceso al ingreso mÃ­nimo vital. El expediente incluye cambios de convivencia, una reclamaciÃ³n frente a una resoluciÃ³n y una incidencia en el pago de una prestaciÃ³n ya reconocida.",
+  "originality": "original",
+  "assumptions": [
+    "La unidad familiar declara residencia, convivencia, ingresos y patrimonio con la documentaciÃ³n indicada.",
+    "La persona solicitante cumple las condiciones de afiliaciÃ³n y alta que correspondan a la prestaciÃ³n por nacimiento y cuidado.",
+    "La persona que consulta por jubilaciÃ³n no tiene todavÃ­a reconocida una pensiÃ³n y mantiene una actividad laboral parcial.",
+    "Los datos variables se deben comprobar con la normativa vigente al 30 de julio de 2026.",
+    "La reclamaciÃ³n y la incidencia de pago no alteran por sÃ­ solas el derecho hasta que exista resoluciÃ³n."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-09",
+    "ss-10",
+    "ss-12",
+    "ss-13"
+  ],
+  "competencies": [
+    "Identificar la prestaciÃ³n por nacimiento y cuidado",
+    "Comprobar el sujeto beneficiario",
+    "Aplicar la duraciÃ³n y los efectos",
+    "Clasificar la acciÃ³n protectora aplicable",
+    "Aplicar el periodo mÃ­nimo de cotizaciÃ³n para jubilaciÃ³n",
+    "Distinguir jubilaciÃ³n ordinaria y anticipada",
+    "Aplicar la compatibilidad de trabajo y pensiÃ³n",
+    "Identificar el ingreso mÃ­nimo vital",
+    "Definir la unidad de convivencia",
+    "Comprobar vulnerabilidad econÃ³mica",
+    "Aplicar la obligaciÃ³n de comunicar cambios",
+    "Reconocer la revisiÃ³n periÃ³dica",
+    "Distinguir reconocimiento y pago",
+    "Elegir el recurso administrativo",
+    "Separar compatibilidad e incompatibilidad",
+    "Reconocer una prestaciÃ³n familiar adicional",
+    "Distinguir jubilaciÃ³n parcial",
+    "Ordenar el pago a la persona beneficiaria"
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-09",
+      "competency": "Identificar la prestaciÃ³n por nacimiento y cuidado",
+      "questionIds": [
+        "ss-09-q601"
+      ]
+    },
+    {
+      "themeId": "ss-09",
+      "competency": "Comprobar el sujeto beneficiario",
+      "questionIds": [
+        "ss-09-q602"
+      ]
+    },
+    {
+      "themeId": "ss-09",
+      "competency": "Aplicar la duraciÃ³n y los efectos",
+      "questionIds": [
+        "ss-09-q603"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Clasificar la acciÃ³n protectora aplicable",
+      "questionIds": [
+        "ss-07-q604"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Aplicar el periodo mÃ­nimo de cotizaciÃ³n para jubilaciÃ³n",
+      "questionIds": [
+        "ss-10-q605"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Distinguir jubilaciÃ³n ordinaria y anticipada",
+      "questionIds": [
+        "ss-10-q606"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Aplicar la compatibilidad de trabajo y pensiÃ³n",
+      "questionIds": [
+        "ss-10-q607"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Identificar el ingreso mÃ­nimo vital",
+      "questionIds": [
+        "ss-12-q608"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Definir la unidad de convivencia",
+      "questionIds": [
+        "ss-12-q609"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Comprobar vulnerabilidad econÃ³mica",
+      "questionIds": [
+        "ss-12-q610"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Aplicar la obligaciÃ³n de comunicar cambios",
+      "questionIds": [
+        "ss-12-q611"
+      ]
+    },
+    {
+      "themeId": "ss-12",
+      "competency": "Reconocer la revisiÃ³n periÃ³dica",
+      "questionIds": [
+        "ss-12-q612"
+      ]
+    },
+    {
+      "themeId": "ss-13",
+      "competency": "Distinguir reconocimiento y pago",
+      "questionIds": [
+        "ss-13-q613"
+      ]
+    },
+    {
+      "themeId": "ss-13",
+      "competency": "Elegir el recurso administrativo",
+      "questionIds": [
+        "ss-13-q614"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Separar compatibilidad e incompatibilidad",
+      "questionIds": [
+        "ss-07-q615"
+      ]
+    },
+    {
+      "themeId": "ss-09",
+      "competency": "Reconocer una prestaciÃ³n familiar adicional",
+      "questionIds": [
+        "ss-09-q616"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Distinguir jubilaciÃ³n parcial",
+      "questionIds": [
+        "ss-10-q617"
+      ]
+    },
+    {
+      "themeId": "ss-13",
+      "competency": "Ordenar el pago a la persona beneficiaria",
+      "questionIds": [
+        "ss-13-q618"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-09-q601",
+    "ss-09-q602",
+    "ss-09-q603",
+    "ss-07-q604",
+    "ss-10-q605",
+    "ss-10-q606",
+    "ss-10-q607",
+    "ss-12-q608",
+    "ss-12-q609",
+    "ss-12-q610",
+    "ss-12-q611",
+    "ss-12-q612",
+    "ss-13-q613",
+    "ss-13-q614",
+    "ss-07-q615",
+    "ss-09-q616",
+    "ss-10-q617",
+    "ss-13-q618"
+  ],
+  "mainQuestionIds": [
+    "ss-09-q601",
+    "ss-09-q602",
+    "ss-09-q603",
+    "ss-07-q604",
+    "ss-10-q605",
+    "ss-10-q606",
+    "ss-10-q607",
+    "ss-12-q608",
+    "ss-12-q609",
+    "ss-12-q610",
+    "ss-12-q611",
+    "ss-12-q612",
+    "ss-13-q613",
+    "ss-13-q614",
+    "ss-07-q615"
+  ],
+  "reserveQuestionIds": [
+    "ss-09-q616",
+    "ss-10-q617",
+    "ss-13-q618"
+  ],
+  "consistencyRules": [
+    "Cada prestaciÃ³n se analiza por su hecho causante, beneficiario y requisitos.",
+    "El IMV exige valorar la unidad de convivencia y los datos econÃ³micos aplicables.",
+    "La jubilaciÃ³n, el IMV y el pago de prestaciones no se resuelven con una misma regla automÃ¡tica.",
+    "Los recursos se presentan contra el acto y dentro del plazo procedente."
+  ],
+  "durationMinutes": 42,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "assessment-only",
+  "normativeClaimIds": [
+    "clm-ss-09-601",
+    "clm-ss-09-602",
+    "clm-ss-09-603",
+    "clm-ss-07-604",
+    "clm-ss-10-605",
+    "clm-ss-10-606",
+    "clm-ss-10-607",
+    "clm-ss-12-608",
+    "clm-ss-12-609",
+    "clm-ss-12-610",
+    "clm-ss-12-611",
+    "clm-ss-12-612",
+    "clm-ss-13-613",
+    "clm-ss-13-614",
+    "clm-ss-07-615",
+    "clm-ss-09-616",
+    "clm-ss-10-617",
+    "clm-ss-13-618"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador original de CP04 con quince decisiones principales y tres reservas."
+      }
+    ]
+  }
+}

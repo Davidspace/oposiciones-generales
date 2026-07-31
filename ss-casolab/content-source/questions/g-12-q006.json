@@ -1,0 +1,76 @@
+{
+  "id": "g-12-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Migraciones",
+  "competency": "Separar ámbitos materiales",
+  "difficulty": "basic",
+  "prompt": "¿Qué materia corresponde a la Secretaría de Estado de Migraciones?",
+  "options": [
+    {
+      "text": "La tutela de INSS y TGSS.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa función pertenece al ámbito de la Secretaría de Estado de la Seguridad Social y Pensiones.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, migraciones"
+    },
+    {
+      "text": "La elaboración y desarrollo de la política del Gobierno en extranjería, inmigración y emigración.",
+      "isCorrect": true,
+      "feedback": "Correcto. Así lo establece el artículo 5.1."
+    },
+    {
+      "text": "La dirección de la contabilidad de las entidades gestoras.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa función corresponde a la Intervención General de la Seguridad Social.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, migraciones"
+    },
+    {
+      "text": "La resolución de todos los recursos administrativos del Estado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una atribución absoluta no prevista.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G12, migraciones"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-015",
+    "clm-g-12-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+      "location": "art. 5.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

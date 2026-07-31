@@ -1,0 +1,127 @@
+{
+  "id": "G04",
+  "themeId": "g-04",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Corona, sucesión, regencia y refrendo",
+  "learningOutcomes": [
+    "Describir la posición constitucional del Rey y los límites de sus funciones.",
+    "Aplicar el orden constitucional de sucesión a la Corona.",
+    "Resolver los supuestos especiales de exclusión, renuncia y extinción de líneas sucesorias.",
+    "Distinguir la Regencia por minoría de edad de la Regencia por inhabilitación.",
+    "Diferenciar Regencia y tutela del Rey menor.",
+    "Relacionar cada función constitucional con el sujeto o requisito correspondiente.",
+    "Determinar quién refrenda un acto y quién asume su responsabilidad."
+  ],
+  "decisions": [
+    "Identificar las funciones constitucionales expresamente atribuidas al Rey.",
+    "Ordenar línea, grado, sexo y edad al resolver una sucesión.",
+    "Comprobar los dos sujetos cuya prohibición matrimonial produce exclusión sucesoria.",
+    "Determinar quién ejerce la Regencia ante minoría o inhabilitación.",
+    "Comprobar composición, nacionalidad y mayoría de edad de la Regencia.",
+    "Aplicar el orden de designación del tutor del Rey menor.",
+    "Distinguir propuesta, nombramiento, autorización y refrendo.",
+    "Reconocer la excepción de refrendo del artículo 56.3 por remisión al artículo 65.2."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La Corona",
+      "objective": "Reconocer la posición constitucional del Rey, la inviolabilidad y el carácter expreso de sus funciones.",
+      "sectionId": "g04-posicion",
+      "activityIds": [
+        "g-04-q001"
+      ]
+    },
+    {
+      "officialClause": "Sucesión",
+      "objective": "Aplicar el orden sucesorio y resolver sus supuestos especiales.",
+      "sectionId": "g04-sucesion",
+      "activityIds": [
+        "g-04-q002",
+        "g-04-q003"
+      ]
+    },
+    {
+      "officialClause": "Regencia",
+      "objective": "Determinar quién ejerce la Regencia por minoría, inhabilitación o ausencia de persona llamada.",
+      "sectionId": "g04-regencia",
+      "activityIds": [
+        "g-04-q004",
+        "g-04-q005"
+      ]
+    },
+    {
+      "officialClause": "La Corona",
+      "objective": "Distinguir tutela, juramento y posición constitucional del consorte.",
+      "sectionId": "g04-tutela-y-otros",
+      "activityIds": [
+        "g-04-q008"
+      ]
+    },
+    {
+      "officialClause": "Funciones constitucionales del Rey",
+      "objective": "Relacionar una función del Rey con la propuesta o autorización constitucional exigida.",
+      "sectionId": "g04-funciones",
+      "activityIds": [
+        "g-04-q006"
+      ]
+    },
+    {
+      "officialClause": "El refrendo",
+      "objective": "Elegir al refrendante, reconocer la excepción y atribuir la responsabilidad.",
+      "sectionId": "g04-refrendo",
+      "activityIds": [
+        "g-04-q007"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G04/lesson.md",
+  "reviewSheetPath": "content-source/modules/G04/review.md",
+  "normativeClaimIds": [
+    "clm-g-04-001",
+    "clm-g-04-002",
+    "clm-g-04-003",
+    "clm-g-04-004",
+    "clm-g-04-005",
+    "clm-g-04-006",
+    "clm-g-04-007",
+    "clm-g-04-008",
+    "clm-g-04-009",
+    "clm-g-04-010",
+    "clm-g-04-011",
+    "clm-g-04-012",
+    "clm-g-04-013",
+    "clm-g-04-014",
+    "clm-g-04-015",
+    "clm-g-04-016"
+  ],
+  "questionIds": [
+    "g-04-q001",
+    "g-04-q002",
+    "g-04-q003",
+    "g-04-q004",
+    "g-04-q005",
+    "g-04-q006",
+    "g-04-q007",
+    "g-04-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y de su árbol acto-sujeto-refrendo."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

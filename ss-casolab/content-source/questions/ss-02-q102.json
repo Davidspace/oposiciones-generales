@@ -1,0 +1,69 @@
+{
+  "id": "ss-02-q102",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Régimen General: regla de inclusión",
+  "competency": "Encuadrar un trabajo ordinario por cuenta ajena en el Régimen General",
+  "difficulty": "medium",
+  "prompt": "¿En qué régimen debe encuadrarse el empleo de auxiliar administrativa descrito en el caso?",
+  "options": [
+    {
+      "text": "En el Régimen General, porque es trabajo por cuenta ajena y no se declara una actividad que lo desplace a un régimen especial.",
+      "isCorrect": true,
+      "feedback": "Correcto. La regla del artículo 136.1 incluye el trabajo por cuenta ajena en el Régimen General salvo que la actividad determine un régimen especial, excepción que el caso descarta."
+    },
+    {
+      "text": "En el RETA, porque la misma persona también desarrolla una actividad por cuenta propia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La segunda actividad no transforma el empleo subordinado en trabajo autónomo; cada actividad debe encuadrarse por su propia naturaleza.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S02, apartado 2.1: analizar por separado cada actividad."
+    },
+    {
+      "text": "En un régimen especial elegido por la persona para evitar dos altas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El encuadramiento no se elige por conveniencia y el caso no declara ninguna norma que permita optar entre regímenes.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartados 2.1 y 3: regla general y regímenes especiales."
+    },
+    {
+      "text": "Fuera del sistema, porque ya existe una actividad autónoma simultánea.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La simultaneidad no excluye el empleo del Régimen General; dará lugar al encuadramiento múltiple que se analiza después.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 2.1: inclusión en el Régimen General."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de decisión conectada con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

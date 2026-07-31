@@ -1,0 +1,69 @@
+{
+  "id": "g-05-q003",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Estatuto de Diputados y Senadores",
+  "competency": "Distinguir inmunidad, autorización de la Cámara y aforamiento penal.",
+  "difficulty": "medium",
+  "prompt": "Un Senador es investigado por hechos ajenos a sus opiniones parlamentarias y no existe flagrante delito. ¿Qué regla constitucional procede durante su mandato?",
+  "options": [
+    {
+      "text": "Puede ser detenido sin límite y juzgado por cualquier juzgado, porque la inmunidad solo protege discursos.",
+      "isCorrect": false,
+      "feedback": "La protección de las opiniones corresponde a la inviolabilidad. La inmunidad impide la detención salvo flagrante delito y se añade el aforamiento ante la Sala de lo Penal del Tribunal Supremo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G05, inviolabilidad frente a inmunidad"
+    },
+    {
+      "text": "No puede ser investigado ni juzgado nunca, incluso después de terminar su mandato.",
+      "isCorrect": false,
+      "feedback": "La inmunidad no crea impunidad absoluta ni perpetua. La Constitución regula detención, autorización de la Cámara y órgano judicial competente durante el mandato.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G05, alcance temporal de la inmunidad"
+    },
+    {
+      "text": "Solo puede ser detenido en flagrante delito; la inculpación o el procesamiento exige autorización previa del Senado y conoce la Sala de lo Penal del Tribunal Supremo.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta reúne inmunidad, autorización de la Cámara respectiva y aforamiento penal."
+    },
+    {
+      "text": "La autorización corresponde al Congreso, porque su Presidencia dirige las sesiones conjuntas de las Cortes.",
+      "isCorrect": false,
+      "feedback": "La autorización corresponde a la Cámara de la que forma parte el parlamentario. En este caso es el Senado; la presidencia de sesiones conjuntas no altera esa competencia.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G05, Cámara competente para la autorización"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 71.1 a 3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

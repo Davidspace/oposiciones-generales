@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-05-017",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "El Defensor no examina individualmente quejas pendientes de resolución judicial y suspende su actuación si después se interpone demanda o recurso, aunque puede investigar el problema general; admitida una queja, abre una investigación sumaria e informal y solicita un informe inicial en un máximo de quince días, ampliable.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+  "sourceLocation": "artículos 17 y 18",
+  "officialPublication": "BOE núm. 109, de 07-05-1981; texto consolidado con última actualización publicada el 04-11-2009",
+  "validFrom": "1981-05-27",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

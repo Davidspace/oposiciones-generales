@@ -1,0 +1,75 @@
+{
+  "id": "g-17-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Finalización",
+  "competency": "aplicar los efectos del desistimiento con terceros personados",
+  "difficulty": "medium",
+  "prompt": "El solicitante desiste. Un tercero ya personado insta la continuación dentro de los diez días siguientes a la notificación del desistimiento. ¿Cómo debe actuar la Administración?",
+  "options": [
+    {
+      "text": "Debe archivar necesariamente porque el desistimiento del solicitante vincula a todos los personados.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla de aceptación de plano tiene una excepción expresa para terceros personados que piden continuar en plazo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G17, apartado 4.3 «Desistimiento, renuncia y caducidad»"
+    },
+    {
+      "text": "Solo puede continuar si el tercero renuncia antes a los derechos que pudiera tener.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La continuación protege la posición del tercero; la ley no la condiciona a que renuncie a sus derechos.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G17, apartado 4.3 «Desistimiento, renuncia y caducidad»"
+    },
+    {
+      "text": "Debe continuar el procedimiento, porque el tercero personado lo ha pedido en plazo.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 94.4 exceptúa la conclusión cuando terceros personados instan la continuación dentro de diez días."
+    },
+    {
+      "text": "Debe declarar la caducidad, porque desistimiento y caducidad producen siempre el mismo presupuesto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El desistimiento es una manifestación del interesado; la caducidad exige paralización imputable y los requisitos del artículo 95.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 4.3 «Desistimiento, renuncia y caducidad»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 94.4",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

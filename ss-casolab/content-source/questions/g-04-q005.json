@@ -1,0 +1,76 @@
+{
+  "id": "g-04-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Regencia por inhabilitación",
+  "competency": "Aplicar el reconocimiento de la inhabilitación y el régimen de sustitución cuando el heredero es menor.",
+  "difficulty": "high",
+  "prompt": "Las Cortes Generales reconocen la imposibilidad del Rey para ejercer su autoridad. El Príncipe heredero tiene diecisiete años y no existe ninguna persona a quien corresponda la Regencia por el orden constitucional. ¿Qué solución procede?",
+  "options": [
+    {
+      "text": "Las Cortes Generales nombran una Regencia de una, tres o cinco personas españolas y mayores de edad, que actúa en nombre del Rey hasta que el Príncipe heredero alcance la mayoría de edad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Al ser menor el heredero se aplica el sistema del artículo 59.1; si nadie resulta llamado, las Cortes nombran la Regencia con la composición y requisitos del artículo 59.3 a 59.5."
+    },
+    {
+      "text": "El Príncipe heredero ejerce inmediatamente la Regencia pese a ser menor, porque su condición sucesoria elimina el requisito de mayoría de edad.",
+      "isCorrect": false,
+      "feedback": "El Príncipe heredero solo entra inmediatamente si es mayor de edad. Además, para ejercer cualquier Regencia se exige mayoría de edad.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G04, mayoría de edad del Regente"
+    },
+    {
+      "text": "El Gobierno nombra una Regencia de dos personas y esta asume temporalmente la titularidad de la Corona.",
+      "isCorrect": false,
+      "feedback": "El nombramiento corresponde a las Cortes Generales y la Regencia solo puede componerse de una, tres o cinco personas. Se ejerce en nombre del Rey y no traslada la titularidad de la Corona.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G04, nombramiento, composición y función de la Regencia"
+    },
+    {
+      "text": "El Tribunal Constitucional elige a un Regente hasta que confirme por sentencia la inhabilitación.",
+      "isCorrect": false,
+      "feedback": "La imposibilidad la reconocen las Cortes Generales y la Constitución no atribuye al Tribunal Constitucional la elección del Regente en este supuesto.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G04, órgano que reconoce la imposibilidad y nombra la Regencia"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-009",
+    "clm-g-04-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 59.2 a 59.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

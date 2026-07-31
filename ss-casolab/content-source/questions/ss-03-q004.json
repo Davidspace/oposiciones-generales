@@ -1,0 +1,76 @@
+{
+  "id": "ss-03-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Encuadramiento múltiple",
+  "competency": "Distinguir pluriempleo y pluriactividad",
+  "difficulty": "medium",
+  "prompt": "Ana trabaja por cuenta ajena para dos empresas distintas. Las dos actividades obligan a su alta en el Régimen General. ¿Cómo se clasifica la situación?",
+  "options": [
+    {
+      "text": "Pluriactividad, porque intervienen dos empresas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El número de empresas no basta para que exista pluriactividad; esta exige altas obligatorias en regímenes distintos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 3.2: criterio de pluriactividad."
+    },
+    {
+      "text": "Una única alta que permite omitir la comunicación de la segunda relación laboral.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación es única, pero deben comunicarse las altas vinculadas a cada relación que corresponda.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 2.1 y 3.2: afiliación única y altas múltiples."
+    },
+    {
+      "text": "Una situación de opción libre entre pluriempleo y pluriactividad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La naturaleza de las actividades y los regímenes aplicables determinan la categoría; no depende de una elección personal.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S03, apartado 3.2: encuadramiento por actividad."
+    },
+    {
+      "text": "Pluriempleo, porque presta servicios por cuenta ajena para varias empresas dentro del mismo régimen.",
+      "isCorrect": true,
+      "feedback": "Correcto. Dos o más empleos por cuenta ajena que conducen al mismo régimen constituyen pluriempleo."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-010",
+    "clm-ss-03-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a7",
+      "location": "Real Decreto 84/1996, artículo 7.1, 7.4 y 7.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

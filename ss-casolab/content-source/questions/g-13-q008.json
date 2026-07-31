@@ -1,0 +1,89 @@
+{
+  "id": "g-13-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "La jerarquía de las fuentes",
+  "competency": "distinguir rango normativo y sucesión temporal",
+  "difficulty": "high",
+  "prompt": "Una disposición general de naturaleza reglamentaria aprobada mediante orden ministerial y publicada en 2026 contradice un precepto legal de 2015 que continúa vigente. Con los datos del enunciado, ¿qué razonamiento es correcto?",
+  "options": [
+    {
+      "text": "La orden prevalece automáticamente porque toda norma posterior deroga a la anterior.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla temporal no permite a una disposición inferior derogar una ley superior vigente. Debes comprobar rango antes de aplicar el criterio cronológico.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G13, apartado 5.3 «Jerarquía y sucesión temporal»"
+    },
+    {
+      "text": "La orden prevalece automáticamente porque una disposición administrativa siempre es más específica que una ley.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El enunciado no aporta una regla de especialidad y, en todo caso, la Ley 39/2015 prohíbe que el reglamento vulnere la ley.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G13, apartados 2 y 5.2"
+    },
+    {
+      "text": "La publicación de la orden en el diario oficial sana cualquier conflicto de rango.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Publicidad y jerarquía son controles distintos. La publicación no convierte en válida una disposición administrativa contraria a la ley.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartados 2 y 5.1"
+    },
+    {
+      "text": "La fecha posterior de la orden no le permite vulnerar la ley; la disposición administrativa queda sometida a la jerarquía y a la nulidad prevista para la infracción de una norma superior.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los artículos 128.2 y 128.3 impiden que el reglamento vulnere la ley, y el artículo 47.2 prevé la nulidad de la disposición administrativa infractora."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-002",
+    "clm-g-13-004",
+    "clm-g-13-009",
+    "clm-g-13-010",
+    "clm-g-13-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículos 1.2 y 2.2",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 47.2, 128.2 y 128.3",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 9.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

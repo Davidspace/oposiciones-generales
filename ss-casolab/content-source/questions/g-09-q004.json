@@ -1,0 +1,77 @@
+{
+  "id": "g-09-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Distribución de competencias",
+  "competency": "Asignar la legislación básica de Seguridad Social y su ejecución en el marco constitucional.",
+  "difficulty": "medium",
+  "prompt": "Una pregunta atribuye a una comunidad autónoma la competencia para aprobar el régimen económico de la Seguridad Social y al Estado solo la gestión. ¿Qué opción es correcta?",
+  "options": [
+    {
+      "text": "La atribución es correcta porque toda materia social pertenece íntegramente a las comunidades autónomas.",
+      "isCorrect": false,
+      "feedback": "El artículo 149.1.17 reserva al Estado la legislación básica y el régimen económico de la Seguridad Social.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, Seguridad Social y reparto competencial"
+    },
+    {
+      "text": "La atribución es incorrecta porque las comunidades nunca pueden ejecutar servicios de Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "La misma regla constitucional permite la ejecución de servicios por las comunidades autónomas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G09, legislación y ejecución"
+    },
+    {
+      "text": "La atribución es correcta si el estatuto autonómico lo declara, aunque contradiga la reserva constitucional.",
+      "isCorrect": false,
+      "feedback": "El estatuto debe actuar dentro del marco constitucional y no puede desplazar una competencia exclusiva estatal reservada.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, Constitución y estatuto"
+    },
+    {
+      "text": "La atribución es incorrecta: el Estado conserva la legislación básica y el régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+      "isCorrect": true,
+      "feedback": "Correcto. La regla 17.ª del artículo 149.1 separa la reserva estatal de legislación básica y régimen económico de la posible ejecución autonómica."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-007",
+    "clm-g-09-008",
+    "clm-g-09-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 148, 149.1.17 y 149.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre legislación básica, régimen económico y ejecución."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-019",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "El Defensor no puede modificar ni anular actos administrativos, pero puede sugerir cambios, formular advertencias, recomendaciones y recordatorios, exigir respuesta escrita en un máximo de un mes e interponer recursos de inconstitucionalidad y de amparo.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+  "sourceLocation": "artículos 28 a 30",
+  "officialPublication": "BOE núm. 109, de 07-05-1981; texto consolidado con última actualización publicada el 04-11-2009",
+  "validFrom": "1981-05-27",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

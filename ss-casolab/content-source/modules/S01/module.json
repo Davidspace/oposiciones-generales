@@ -1,0 +1,93 @@
+{
+  "id": "S01",
+  "themeId": "ss-01",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Seguridad Social en la Constitución y mapa del TRLGSS",
+  "learningOutcomes": [
+    "Explicar el mandato del artículo 41 de la Constitución sin convertirlo en un derecho automático a cualquier prestación.",
+    "Distinguir el marco constitucional, la norma aprobatoria y el texto refundido que contiene las reglas del sistema.",
+    "Localizar una materia en uno de los seis títulos del TRLGSS antes de buscar el artículo aplicable.",
+    "Comprobar las disposiciones adicionales y transitorias cuando la fecha del hecho pueda cambiar la respuesta."
+  ],
+  "decisions": [
+    "Identificar si una pregunta pide mandato constitucional, reparto competencial o regulación legal.",
+    "Seleccionar el título funcional del TRLGSS que corresponde al sujeto y a la contingencia.",
+    "Separar las reglas generales del sistema de las reglas de un régimen o prestación concretos.",
+    "Fijar la fecha relevante y revisar la norma consolidada y el régimen transitorio antes de concluir."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La Seguridad Social en la Constitución española de 1978",
+      "objective": "Relacionar los artículos 41, 53.2, 53.3 y 149.1.17 de la Constitución.",
+      "sectionId": "s01-marco-constitucional",
+      "activityIds": [
+        "ss-01-q001",
+        "ss-01-q002",
+        "ss-01-q003"
+      ]
+    },
+    {
+      "officialClause": "El texto refundido de la Ley General de la Seguridad Social",
+      "objective": "Distinguir el Real Decreto Legislativo 8/2015 del texto refundido que aprueba y reconocer los principios iniciales de este.",
+      "sectionId": "s01-norma-aprobatoria",
+      "activityIds": [
+        "ss-01-q004",
+        "ss-01-q005"
+      ]
+    },
+    {
+      "officialClause": "El texto refundido de la Ley General de la Seguridad Social",
+      "objective": "Elegir el título de entrada y comprobar reglas generales, especiales y temporales.",
+      "sectionId": "s01-mapa-trlgss",
+      "activityIds": [
+        "ss-01-q006",
+        "ss-01-q007",
+        "ss-01-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S01/lesson.md",
+  "reviewSheetPath": "content-source/modules/S01/review.md",
+  "normativeClaimIds": [
+    "clm-ss-01-001",
+    "clm-ss-01-002",
+    "clm-ss-01-003",
+    "clm-ss-01-004",
+    "clm-ss-01-005",
+    "clm-ss-01-006",
+    "clm-ss-01-007",
+    "clm-ss-01-008",
+    "clm-ss-01-009",
+    "clm-ss-01-010"
+  ],
+  "questionIds": [
+    "ss-01-q001",
+    "ss-01-q002",
+    "ss-01-q003",
+    "ss-01-q004",
+    "ss-01-q005",
+    "ss-01-q006",
+    "ss-01-q007",
+    "ss-01-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

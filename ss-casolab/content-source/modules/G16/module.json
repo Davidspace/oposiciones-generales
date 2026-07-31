@@ -1,0 +1,133 @@
+{
+  "id": "G16",
+  "themeId": "g-16",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Procedimiento común: sujetos, silencio y plazos",
+  "learningOutcomes": [
+    "Identificar quién tiene capacidad de obrar y quién es interesado en un procedimiento concreto.",
+    "Determinar cuándo debe acreditarse la representación y cómo subsanar una acreditación insuficiente.",
+    "Distinguir identificación y firma y seleccionar cuándo la firma es obligatoria.",
+    "Aplicar los derechos del interesado, la obligación de resolver y los efectos del silencio según la forma de iniciación.",
+    "Computar plazos básicos y diferenciar ampliación de plazos y tramitación de urgencia."
+  ],
+  "decisions": [
+    "Comprobar si una especialidad procedimental puede establecerse por reglamento o exige ley.",
+    "Distinguir capacidad de obrar, condición de interesado y representación.",
+    "Decidir si un trámite requiere firma o basta la identificación previa.",
+    "Seleccionar el derecho del artículo 53 aplicable al caso.",
+    "Determinar el plazo máximo de resolución y el punto inicial del cómputo.",
+    "Distinguir silencio estimatorio, silencio desestimatorio y caducidad según la iniciación y los efectos del procedimiento.",
+    "Computar horas, días, meses o años y tratar el último día inhábil."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El procedimiento administrativo común",
+      "objective": "Reconocer su objeto y el rango necesario para añadir trámites o establecer especialidades.",
+      "sectionId": "g16-marco",
+      "activityIds": [
+        "g-16-q001"
+      ]
+    },
+    {
+      "officialClause": "La capacidad de obrar y el concepto de interesado",
+      "objective": "Separar capacidad general ante la Administración y posición jurídica dentro de un procedimiento.",
+      "sectionId": "g16-capacidad-interesado",
+      "activityIds": [
+        "g-16-q002",
+        "g-16-q003"
+      ]
+    },
+    {
+      "officialClause": "Representación",
+      "objective": "Identificar los actos que exigen acreditación y aplicar la subsanación de una representación insuficiente.",
+      "sectionId": "g16-representacion",
+      "activityIds": [
+        "g-16-q004"
+      ]
+    },
+    {
+      "officialClause": "Identificación y firma de los interesados",
+      "objective": "Diferenciar la identificación general de los cinco grupos de actuaciones que exigen firma.",
+      "sectionId": "g16-identificacion-firma",
+      "activityIds": [
+        "g-16-q005"
+      ]
+    },
+    {
+      "officialClause": "Derechos del interesado en el procedimiento administrativo",
+      "objective": "Aplicar los derechos del artículo 53 sin confundirlos con el catálogo general del artículo 13.",
+      "sectionId": "g16-derechos",
+      "activityIds": [
+        "g-16-q006"
+      ]
+    },
+    {
+      "officialClause": "Obligación de resolver y silencio administrativo",
+      "objective": "Determinar obligación, plazo y efecto de la falta de resolución en procedimientos iniciados a solicitud o de oficio.",
+      "sectionId": "g16-resolver-silencio",
+      "activityIds": [
+        "g-16-q007"
+      ]
+    },
+    {
+      "officialClause": "Términos y plazos",
+      "objective": "Aplicar las reglas generales de cómputo y distinguir registro electrónico, ampliación y urgencia.",
+      "sectionId": "g16-terminos-plazos",
+      "activityIds": [
+        "g-16-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G16/lesson.md",
+  "reviewSheetPath": "content-source/modules/G16/review.md",
+  "normativeClaimIds": [
+    "clm-g-16-001",
+    "clm-g-16-002",
+    "clm-g-16-003",
+    "clm-g-16-004",
+    "clm-g-16-005",
+    "clm-g-16-006",
+    "clm-g-16-007",
+    "clm-g-16-008",
+    "clm-g-16-009",
+    "clm-g-16-010",
+    "clm-g-16-011",
+    "clm-g-16-012",
+    "clm-g-16-013",
+    "clm-g-16-014",
+    "clm-g-16-015",
+    "clm-g-16-016",
+    "clm-g-16-017",
+    "clm-g-16-018"
+  ],
+  "questionIds": [
+    "g-16-q001",
+    "g-16-q002",
+    "g-16-q003",
+    "g-16-q004",
+    "g-16-q005",
+    "g-16-q006",
+    "g-16-q007",
+    "g-16-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

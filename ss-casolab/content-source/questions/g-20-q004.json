@@ -1,0 +1,72 @@
+{
+  "id": "g-20-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Información administrativa",
+  "competency": "distinguir información general y particular",
+  "difficulty": "medium",
+  "prompt": "¿Qué consulta es información general y puede facilitarse sin acreditar legitimación?",
+  "options": [
+    {
+      "text": "Qué órgano es competente, qué requisitos exige una solicitud y dónde se presenta.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es información sobre órganos, requisitos y trámites, incluida en el artículo 2 del Real Decreto 208/1996."
+    },
+    {
+      "text": "El estado del expediente de otra persona.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El estado de un expediente es información particular y exige interesado o representante.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G20, artículo 3"
+    },
+    {
+      "text": "La identidad del funcionario responsable de un expediente ajeno junto con sus documentos personales.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La información particular está limitada por legitimación y protección de datos.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G20, información particular"
+    },
+    {
+      "text": "La resolución que debe dictarse en un procedimiento concreto antes de revisar el expediente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Informar no equivale a anticipar o dictar una resolución.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G20, información y resolución"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-007",
+    "clm-g-20-008",
+    "clm-g-20-009",
+    "clm-g-20-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+      "location": "artículos 1 a 3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Clasificación de información general."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

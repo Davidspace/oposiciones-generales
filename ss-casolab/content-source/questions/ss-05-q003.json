@@ -1,0 +1,72 @@
+{
+  "id": "ss-05-q003",
+  "epigraph": "Requisitos y medios de pago",
+  "competency": "Determinar la eficacia temporal de un pago por transferencia realizado por un tercero",
+  "difficulty": "high",
+  "prompt": "El último día del plazo reglamentario, el hermano de la persona responsable ordena una transferencia por el importe total de la deuda a la cuenta de una entidad colaboradora autorizada. Los fondos entran en la cuenta de destino al día siguiente. ¿Qué consecuencia procede?",
+  "options": [
+    {
+      "text": "El pago se considera hecho el día de la orden, porque cualquier tercero puede pagar y la transferencia cubre toda la deuda.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un tercero puede pagar, pero en la transferencia la fecha relevante es la entrada de los fondos en la entidad de destino, no la fecha de la orden.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S05, apartado 3: fecha efectiva del pago mediante transferencia."
+    },
+    {
+      "text": "El pago no produce ningún efecto porque solo puede pagar la persona responsable de la deuda.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. En general, cualquier persona puede realizar el pago, tenga o no interés en el cumplimiento.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S05, apartado 3: legitimación para realizar el pago."
+    },
+    {
+      "text": "El pago total puede extinguir la deuda cuando los fondos llegan al receptor autorizado, pero se considera efectuado fuera del plazo reglamentario; el tercero no adquiere por ello los derechos administrativos del responsable.",
+      "isCorrect": true,
+      "feedback": "Correcto. El tercero está legitimado para pagar y la entidad colaboradora es un receptor válido. Sin embargo, la transferencia se entiende pagada al entrar los fondos en destino. Como entran al día siguiente, el ingreso es tardío. El tercero no se subroga ante la Administración en los derechos del responsable."
+    },
+    {
+      "text": "El pago es puntual porque la entidad colaboradora puede retrotraer la fecha de ingreso a la de la orden.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La colaboración recaudatoria no permite alterar la regla reglamentaria sobre la fecha de pago de la transferencia.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S05, apartado 3: receptor autorizado y momento de eficacia de la transferencia."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-007",
+    "clm-ss-05-008",
+    "clm-ss-05-009",
+    "clm-ss-05-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a17",
+      "location": "Real Decreto 1415/2004, artículos 17 a 23",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-01-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Reforma constitucional: límite temporal",
+  "competency": "Aplicar el artículo 169 a la iniciación de una reforma.",
+  "difficulty": "medium",
+  "prompt": "Durante la vigencia de uno de los estados previstos en el artículo 116 se quiere iniciar una nueva reforma constitucional. ¿Qué respuesta se ajusta al artículo 169?",
+  "options": [
+    {
+      "text": "Puede iniciarse si se tramita por el artículo 167.",
+      "isCorrect": false,
+      "feedback": "El límite del artículo 169 afecta a la iniciación de la reforma y no distingue entre el procedimiento ordinario y el agravado.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G01, límite temporal del artículo 169"
+    },
+    {
+      "text": "Puede iniciarse únicamente si se tramita por el artículo 168.",
+      "isCorrect": false,
+      "feedback": "El artículo 168 no elimina el límite temporal del artículo 169. La materia agravada también queda afectada.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G01, comparación de los artículos 168 y 169"
+    },
+    {
+      "text": "No puede iniciarse mientras ese estado siga vigente.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 169 impide iniciar una reforma durante la guerra o durante cualquiera de los estados del artículo 116."
+    },
+    {
+      "text": "No puede iniciarse y, además, el artículo 169 anula automáticamente toda reforma comenzada antes.",
+      "isCorrect": false,
+      "feedback": "La primera parte es correcta, pero la segunda añade un efecto que el artículo 169 no establece. El precepto se refiere a iniciar la reforma.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G01, lectura precisa del verbo iniciar"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 169",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

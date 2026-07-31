@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-15-015",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "La Administración puede revocar actos desfavorables dentro del plazo de prescripción y con los límites legales, y rectificar en cualquier momento errores materiales, de hecho o aritméticos; las facultades de revisión están además limitadas por equidad, buena fe, derechos de particulares y leyes en las circunstancias del artículo 110.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 109 y 110",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

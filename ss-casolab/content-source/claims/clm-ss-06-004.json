@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-004",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "En los supuestos reglamentarios de cuotas correctamente calculadas y de liquidación simplificada se dicta providencia sin reclamación de deuda ni acta previa; fuera de ellos, la providencia exige el vencimiento sin pago de la reclamación o acta y su firmeza administrativa.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a85",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 85",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2015-07-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q001"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

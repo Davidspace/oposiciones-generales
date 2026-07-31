@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-008",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "El empresario debe solicitar su inscripción ante la Tesorería General de la Seguridad Social como requisito previo e indispensable a la iniciación de sus actividades.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a5",
+  "sourceLocation": "Real Decreto 84/1996, artículo 5.1",
+  "officialPublication": "BOE-A-1996-4447; texto consolidado con última actualización publicada el 08-09-2022",
+  "validFrom": "1996-03-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q003", "CP01", "ss-03-q201"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

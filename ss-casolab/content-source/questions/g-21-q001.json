@@ -1,0 +1,76 @@
+{
+  "id": "g-21-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Igualdad",
+  "competency": "Distinguir discriminación directa e indirecta",
+  "difficulty": "medium",
+  "prompt": "Una convocatoria usa un criterio aparentemente neutro que perjudica especialmente a las mujeres sin justificación objetiva. ¿Qué categoría debe analizarse primero?",
+  "options": [
+    {
+      "text": "Discriminación directa, porque toda diferencia afecta a una mujer.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La discriminación directa exige un trato menos favorable por razón de sexo en situación comparable.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, igualdad"
+    },
+    {
+      "text": "Discriminación indirecta por razón de sexo.",
+      "isCorrect": true,
+      "feedback": "Correcto. La Ley Orgánica 3/2007 contempla la desventaja particular producida por una disposición, criterio o práctica aparentemente neutros."
+    },
+    {
+      "text": "Acción positiva automáticamente válida.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una medida de acción positiva busca corregir desigualdades y no describe por sí sola un perjuicio indirecto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, igualdad"
+    },
+    {
+      "text": "Ninguna discriminación si el criterio se aplica a todas las personas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La neutralidad formal no excluye la discriminación indirecta.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G21, igualdad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-003",
+    "clm-g-21-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115",
+      "location": "art. 6 LO 3/2007",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

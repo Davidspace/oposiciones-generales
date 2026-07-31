@@ -1,0 +1,75 @@
+{
+  "id": "ss-01-q201",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "CP01 — Pregunta principal 1: mapa del TRLGSS",
+  "competency": "Elegir el bloque normativo de entrada para encuadramiento y afiliación",
+  "difficulty": "medium",
+  "prompt": "En CP01 deben resolverse la inclusión de A en el Régimen General y sus actos de afiliación y alta. ¿Qué ruta normativa inicial es la más adecuada?",
+  "options": [
+    {
+      "text": "Aplicar solo el artículo 41 de la Constitución, porque contiene por sí mismo el régimen, el plazo y los efectos del alta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 41 fija el mandato constitucional, pero no determina el encuadramiento concreto ni el procedimiento y los efectos del alta de A.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartados 1 y 5: marco, bloque aplicable y regla concreta."
+    },
+    {
+      "text": "Entrar por el título II del TRLGSS para el Régimen General y contrastar las normas generales sobre afiliación del título I antes de aplicar la regulación procedimental.",
+      "isCorrect": true,
+      "feedback": "Correcto. El título II contiene el Régimen General y el capítulo III del título I contiene las normas comunes sobre afiliación, cotización y recaudación; esa localización precede a la aplicación del reglamento."
+    },
+    {
+      "text": "Consultar únicamente el título IV del TRLGSS, porque toda primera afiliación se tramita como trabajo autónomo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. A presta servicios por cuenta ajena y el título IV regula el régimen de trabajadores por cuenta propia; la primera afiliación no cambia la naturaleza de la actividad.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S01, apartado 4: título II frente a título IV según la actividad."
+    },
+    {
+      "text": "Empezar por el título III y prescindir de los títulos I y II, porque cualquier incidencia de alta pertenece a desempleo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El título III regula la protección por desempleo; no sustituye las reglas generales de afiliación ni las del Régimen General.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 4: función diferenciada de los títulos I, II y III."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, rúbricas del título I, capítulo III, y del título II",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 1 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

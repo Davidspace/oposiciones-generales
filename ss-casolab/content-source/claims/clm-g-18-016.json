@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-18-016",
+  "assetId": "G18",
+  "version": "0.1.0",
+  "statement": "El orden contencioso conoce también de las materias del artículo 2, incluida la responsabilidad patrimonial de las Administraciones cualquiera que sea la actividad o relación de la que derive, incluso con concurrencia de particulares o seguro.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+  "sourceLocation": "artículo 2, en especial letra e)",
+  "officialPublication": "BOE-A-1998-16718; texto consolidado con última actualización publicada el 03-01-2025",
+  "validFrom": "2004-01-15",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["G18", "g-18-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

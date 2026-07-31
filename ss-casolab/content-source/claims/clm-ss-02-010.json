@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-02-010",
+  "assetId": "S02",
+  "version": "0.1.1",
+  "statement": "No originan inclusión en el Régimen General los servicios amistosos, benévolos o de buena vecindad ejecutados ocasionalmente, los trabajos que dan lugar a la inclusión en un régimen especial y los realizados por profesores universitarios eméritos o por personal licenciado sanitario emérito en los términos legales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a137",
+  "sourceLocation": "TRLGSS, artículo 137.a), b) y c)",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S02", "ss-02-q004"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa trazable; revisión humana pendiente."
+    }, {
+      "version": "0.1.1",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Se nombran expresamente las dos categorías de personal emérito del artículo 137.c); revisión humana pendiente."
+    }]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "g-02-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Principios rectores y discapacidad",
+  "competency": "Aplicar la redacción vigente del artículo 49 y el régimen del artículo 53.3.",
+  "difficulty": "high",
+  "prompt": "¿Qué afirmación combina correctamente la redacción vigente del artículo 49 y su ubicación en el capítulo III?",
+  "options": [
+    {
+      "text": "Mantiene la redacción constitucional original de 1978 y reconoce por sí sola un recurso de amparo directo.",
+      "isCorrect": false,
+      "feedback": "El artículo 49 fue reformado en 2024. Además, su ubicación en el capítulo III no lo incorpora por sí sola al ámbito del amparo del artículo 53.2.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "G02, artículo 49 vigente y artículos 53.2 y 53.3"
+    },
+    {
+      "text": "Convierte todos los principios rectores en derechos directamente exigibles ante la jurisdicción ordinaria sin necesidad de leyes de desarrollo.",
+      "isCorrect": false,
+      "feedback": "El artículo 53.3 dice que los principios del capítulo III solo pueden alegarse ante la jurisdicción ordinaria de acuerdo con las leyes que los desarrollen.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G02, eficacia de los principios rectores"
+    },
+    {
+      "text": "Permite suspender las medidas de protección de las personas con discapacidad cuando se declare el estado de alarma.",
+      "isCorrect": false,
+      "feedback": "Ni el artículo 49 establece esa suspensión ni el estado de alarma activa la lista de suspensión general del artículo 55.1.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G02, artículo 49 y estados habilitantes del artículo 55.1"
+    },
+    {
+      "text": "Reconoce el ejercicio de los derechos del título I en condiciones de libertad e igualdad reales y efectivas y ordena políticas de autonomía, inclusión y accesibilidad; como principio del capítulo III, opera conforme al artículo 53.3.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reúne la redacción vigente desde 2024 y el régimen constitucional de los principios rectores."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-009",
+    "clm-g-02-010",
+    "clm-g-02-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-3099",
+      "location": "artículo único, nueva redacción del artículo 49",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 49 y 53.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

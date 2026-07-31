@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-020",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "En procedimientos a solicitud paralizados por causa imputable al interesado, la caducidad exige advertencia y tres meses sin reanudación cuando la actividad sea indispensable; no produce por sí sola prescripción, pero el procedimiento caducado no interrumpe esta.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 95",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

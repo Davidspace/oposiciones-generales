@@ -1,0 +1,77 @@
+{
+  "id": "g-04-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Refrendo",
+  "competency": "Determinar el refrendante y responsable de un acto y distinguir la excepción del artículo 65.2.",
+  "difficulty": "high",
+  "prompt": "Tras la investidura parlamentaria, el Rey nombra al Presidente del Gobierno. ¿Quién refrenda ese nombramiento y quién responde del acto?",
+  "options": [
+    {
+      "text": "Lo refrenda el Presidente saliente del Gobierno, pero responde personalmente el Rey.",
+      "isCorrect": false,
+      "feedback": "El nombramiento del Presidente del Gobierno es uno de los actos reservados al refrendo del Presidente del Congreso. La responsabilidad corresponde a quien refrenda, no al Rey.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G04, refrendo del nombramiento presidencial"
+    },
+    {
+      "text": "No necesita refrendo porque todo nombramiento efectuado libremente por el Rey entra en la excepción del artículo 65.2.",
+      "isCorrect": false,
+      "feedback": "La excepción se limita al nombramiento y relevo de los miembros civiles y militares de la Casa del Rey. No comprende el nombramiento del Presidente del Gobierno.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G04, alcance exacto de la excepción del artículo 65.2"
+    },
+    {
+      "text": "Lo refrenda el Presidente del Congreso y este responde del acto.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 64.1 atribuye ese refrendo al Presidente del Congreso y el artículo 64.2 hace responsable al refrendante."
+    },
+    {
+      "text": "Lo refrendan conjuntamente Congreso y Senado, que trasladan la responsabilidad al Consejo de Ministros.",
+      "isCorrect": false,
+      "feedback": "Las Cámaras no actúan como refrendante colectivo. La Constitución identifica al Presidente del Congreso y atribuye la responsabilidad a esa persona refrendante.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G04, sujeto y efecto del refrendo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-002",
+    "clm-g-04-015",
+    "clm-g-04-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 56.3, artículo 64.1 y 64.2 y artículo 65.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

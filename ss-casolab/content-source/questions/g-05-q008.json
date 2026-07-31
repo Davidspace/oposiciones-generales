@@ -1,0 +1,70 @@
+{
+  "id": "g-05-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Resoluciones e informes del Defensor del Pueblo",
+  "competency": "Distinguir las facultades del Defensor de la anulación administrativa y la potestad judicial.",
+  "difficulty": "medium",
+  "prompt": "Tras una investigación, el Defensor del Pueblo concluye que un criterio administrativo causa una situación injusta. ¿Qué actuación encaja en su Ley Orgánica?",
+  "options": [
+    {
+      "text": "Anular directamente el acto y sustituirlo por una resolución propia de cumplimiento inmediato.",
+      "isCorrect": false,
+      "feedback": "El Defensor no es competente para modificar ni anular actos o resoluciones administrativas. Puede sugerir cambios y formular recomendaciones.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G05, límite frente a la anulación administrativa"
+    },
+    {
+      "text": "Imponer una sentencia a la Administración y ejecutar por sí mismo la sanción correspondiente.",
+      "isCorrect": false,
+      "feedback": "El Defensor no es un tribunal y no dicta sentencias. Sus instrumentos incluyen advertencias, recomendaciones, recordatorios y sugerencias.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G05, Defensor del Pueblo frente a tribunal"
+    },
+    {
+      "text": "Archivar siempre el asunto, porque solo las Cortes pueden dirigirse a la Administración.",
+      "isCorrect": false,
+      "feedback": "El Defensor puede dirigirse a autoridades y funcionarios como resultado de su investigación. La rendición de cuentas a las Cortes no elimina esta facultad.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G05, facultades posteriores a la investigación"
+    },
+    {
+      "text": "Sugerir la modificación del criterio y formular recomendaciones o recordatorios; la autoridad debe responder por escrito en un máximo de un mes y la gestión puede reflejarse en sus informes a las Cortes.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta reúne instrumentos no anulatorios, deber de respuesta y rendición de cuentas parlamentaria."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-019",
+    "clm-g-05-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+      "location": "artículos 28, 30, 32 y 33",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

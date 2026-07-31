@@ -1,0 +1,76 @@
+{
+  "id": "ss-10-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Parcial",
+  "competency": "Distinguir jubilación parcial",
+  "difficulty": "medium",
+  "prompt": "¿Qué caracteriza a la jubilación parcial?",
+  "options": [
+    {
+      "text": "Una pensión completa sin relación con el trabajo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La modalidad combina pensión y trabajo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, parcial"
+    },
+    {
+      "text": "Una baja médica prolongada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Incapacidad temporal y jubilación parcial son figuras distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, parcial"
+    },
+    {
+      "text": "El trabajo a tiempo completo sin ninguna condición.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Existen requisitos de reducción y contrato.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S10, parcial"
+    },
+    {
+      "text": "La compatibilidad de pensión y trabajo dentro de una reducción de jornada y demás requisitos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 215 regula esta modalidad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-012",
+    "clm-ss-10-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 215",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

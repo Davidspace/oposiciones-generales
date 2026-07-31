@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-18-418",
+  "assetId": "CP02",
+  "version": "0.1.0",
+  "statement": "El acceso a la jurisdicciÃ³n contencioso-administrativa exige identificar el acto y cumplir sus requisitos procesales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+  "sourceLocation": "Ley 29/1998, artÃ­culos 25 y 46",
+  "officialPublication": "BOE-A-1998-16718",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP02",
+    "g-18-q418"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP02."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-008",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "El perceptor indebido debe reintegrar la prestación; quien por acción u omisión contribuyó a la percepción responde subsidiariamente con él, salvo buena fe probada.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a55",
+  "sourceLocation": "TRLGSS, artículo 55.1 y 55.2",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

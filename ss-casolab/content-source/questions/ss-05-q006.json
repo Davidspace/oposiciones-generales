@@ -1,0 +1,70 @@
+{
+  "id": "ss-05-q006",
+  "epigraph": "Otros recursos y capital coste de pensiones",
+  "competency": "Identificar el contenido y el plazo de una reclamación de capital coste de pensiones",
+  "difficulty": "high",
+  "prompt": "Una resolución administrativa firme declara a una empresa responsable de una pensión. La TGSS le notifica la correspondiente reclamación de deuda. ¿Qué contenido y plazo son correctos?",
+  "options": [
+    {
+      "text": "Solo se reclama una anualidad de la pensión y el plazo termina el mismo día de la notificación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La reclamación comprende el valor actual del capital coste y, cuando proceda, los intereses de capitalización. El plazo no termina el día de la notificación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S05, apartado 6: composición del capital coste de pensiones."
+    },
+    {
+      "text": "Se reclama el valor actual del capital coste y los intereses de capitalización que procedan; el plazo empieza al día siguiente de la notificación y termina el último día hábil del mes siguiente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La TGSS recauda de la empresa declarada responsable el capital coste actual y los intereses de capitalización aplicables. La reclamación fija un plazo que comienza al día siguiente de su notificación y finaliza el último día hábil del mes siguiente."
+    },
+    {
+      "text": "La empresa puede elegir entre ingresar el capital coste o pagar directamente cada mensualidad al pensionista.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Declarada la responsabilidad por resolución firme, la recaudación del capital coste corresponde a la TGSS en los términos reglamentarios.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S05, apartado 6: competencia de la TGSS para recaudar el capital coste."
+    },
+    {
+      "text": "La reclamación solo puede incluir intereses de demora, nunca intereses de capitalización.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento contempla expresamente los intereses de capitalización que procedan junto con el valor actual del capital coste.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S05, apartado 6: intereses asociados al capital coste."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-017",
+    "clm-ss-05-022"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a69",
+      "location": "Real Decreto 1415/2004, artículos 69 y 70",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

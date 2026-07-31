@@ -1,0 +1,75 @@
+{
+  "id": "g-04-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Regencia por minoría de edad",
+  "competency": "Determinar quién entra inmediatamente a ejercer la Regencia cuando el Rey es menor.",
+  "difficulty": "medium",
+  "prompt": "Un Rey de dieciséis años accede a la Corona. Viven su madre y un pariente adulto que sería el siguiente en el orden sucesorio. ¿Quién entra inmediatamente a ejercer la Regencia según el artículo 59.1?",
+  "options": [
+    {
+      "text": "El pariente adulto, porque el orden sucesorio prevalece siempre sobre la existencia del padre o de la madre.",
+      "isCorrect": false,
+      "feedback": "El pariente más próximo solo es llamado en defecto del padre o de la madre del Rey. La opción elimina indebidamente el primer escalón del artículo 59.1.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G04, orden de la Regencia por minoría"
+    },
+    {
+      "text": "El Presidente del Gobierno, hasta que las Cortes nombren al pariente adulto.",
+      "isCorrect": false,
+      "feedback": "El Presidente del Gobierno no figura en el orden constitucional de esta Regencia. La madre entra inmediatamente y no necesita nombramiento de las Cortes.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G04, sujetos llamados a la Regencia"
+    },
+    {
+      "text": "Nadie, porque la minoría de edad suspende la titularidad de la Corona hasta cumplir dieciocho años.",
+      "isCorrect": false,
+      "feedback": "La minoría no suspende la titularidad de la Corona. La Regencia permite ejercer la autoridad real en nombre del Rey durante su minoría.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G04, titularidad de la Corona y ejercicio por Regencia"
+    },
+    {
+      "text": "La madre del Rey, durante el tiempo de la minoría de edad.",
+      "isCorrect": true,
+      "feedback": "Correcto. El padre o la madre del Rey tienen prioridad; solo en su defecto entra el pariente mayor de edad más próximo a suceder."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 59.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

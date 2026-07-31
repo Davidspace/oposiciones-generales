@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-15-002",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "Los actos incluidos en los supuestos del artículo 35 deben motivarse con sucinta referencia de hechos y fundamentos de derecho; entre ellos están los que limitan derechos o intereses legítimos y los dictados en ejercicio de potestades discrecionales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 35.1, en especial letras a) e i)",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15",
+    "g-15-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

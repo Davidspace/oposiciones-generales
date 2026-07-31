@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-13-009",
+  "assetId": "G13",
+  "version": "0.1.0",
+  "statement": "Los reglamentos y disposiciones administrativas no pueden vulnerar la Constitución ni las leyes; además, las disposiciones administrativas deben respetar el orden jerárquico fijado por las leyes y no pueden vulnerar otra disposición de rango superior.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 128.2 y 128.3",
+  "officialPublication": "BOE-A-2015-10565",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G13",
+    "g-13-q006",
+    "g-13-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

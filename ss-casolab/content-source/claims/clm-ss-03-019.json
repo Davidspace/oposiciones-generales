@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-019",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "Para el convenio especial general debe concurrir un supuesto habilitante del artículo 2, solicitarse dentro del plazo de un año calculado según el artículo 3 y acreditarse, como regla general, 1.080 días de cotización en los doce años anteriores a la baja, con las reglas y excepciones de la Orden.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-19281#a3",
+  "sourceLocation": "Orden TAS/2865/2003, artículos 2 y 3",
+  "officialPublication": "BOE-A-2003-19281; redacción vigente del artículo 3 procedente de BOE-A-2011-19173",
+  "validFrom": "2011-12-07",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q008"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

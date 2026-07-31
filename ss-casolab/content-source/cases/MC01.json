@@ -1,0 +1,106 @@
+{
+  "id": "MC01",
+  "version": "0.2.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Un alta que llega tarde",
+  "scenario": "Nexo Archivo, S. L. contrata a Irene para trabajar en Régimen General. Irene nunca ha trabajado y no tiene número de la Seguridad Social. La empresa inicia la relación laboral sin completar todos los trámites. Dos semanas después, Irene detecta la incidencia. Meses más tarde, la relación laboral termina.",
+  "originality": "original",
+  "assumptions": [
+    "Irene presta servicios por cuenta ajena y está incluida en el Régimen General.",
+    "No concurre un sistema especial ni una autorización excepcional que altere los plazos generales.",
+    "La empresa no solicitó la afiliación ni comunicó el alta antes del inicio de la prestación de servicios."
+  ],
+  "themes": [
+    "ss-03"
+  ],
+  "competencies": [
+    "Identificar el sujeto obligado a solicitar la afiliación y comunicar el alta.",
+    "Aplicar el plazo general de presentación del alta.",
+    "Elegir la vía subsidiaria ante el incumplimiento empresarial.",
+    "Aplicar el plazo general de comunicación de la baja.",
+    "Distinguir la afiliación única de las altas sucesivas."
+  ],
+  "questionIds": [
+    "ss-03-q101",
+    "ss-03-q102",
+    "ss-03-q103",
+    "ss-03-q104",
+    "ss-03-q105"
+  ],
+  "consistencyRules": [
+    "Resolver todas las decisiones a partir de los mismos hechos y supuestos declarados.",
+    "Distinguir la afiliación, que es única, de las altas y bajas vinculadas a cada situación.",
+    "Aplicar los plazos generales del Régimen General porque el caso no declara una excepción."
+  ],
+  "durationMinutes": 8,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "normativeClaimIds": [
+    "clm-ss-03-001",
+    "clm-ss-03-002",
+    "clm-ss-03-003",
+    "clm-ss-03-004",
+    "clm-ss-03-005"
+  ],
+  "legislationCutoffAt": "2026-07-29",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.2.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del caso práctico canónico."
+      }
+    ]
+  },
+  "coverage": [
+    {
+      "themeId": "ss-03",
+      "competency": "Identificar el sujeto obligado a solicitar la afiliación y comunicar el alta.",
+      "questionIds": [
+        "ss-03-q101"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Aplicar el plazo general de presentación del alta.",
+      "questionIds": [
+        "ss-03-q102"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Elegir la vía subsidiaria ante el incumplimiento empresarial.",
+      "questionIds": [
+        "ss-03-q103"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Aplicar el plazo general de comunicación de la baja.",
+      "questionIds": [
+        "ss-03-q104"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Distinguir la afiliación única de las altas sucesivas.",
+      "questionIds": [
+        "ss-03-q105"
+      ]
+    }
+  ],
+  "difficulty": "basic",
+  "visibility": "practice",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "nextReviewAt": "2026-10-29",
+  "academicReviewStatus": "pending"
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ss-02-q105",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Afiliación única y altas por régimen",
+  "competency": "Distinguir la afiliación única de las altas simultáneas por régimen",
+  "difficulty": "medium",
+  "prompt": "La persona ya estaba afiliada antes de iniciar las dos actividades. ¿Qué resultado es coherente con el encuadramiento resuelto?",
+  "options": [
+    {
+      "text": "Necesita una afiliación nueva para cada régimen y una sola alta común.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Invierte los conceptos: la afiliación no se duplica y las altas sí deben reflejar cada régimen de encuadramiento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 1, 2.1 y 3.2: afiliación frente a altas."
+    },
+    {
+      "text": "Mantiene una sola alta en la actividad que genere más ingresos y puede omitir la otra.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los ingresos no permiten suprimir un alta obligatoria; el artículo 41.1 exige tantas altas como regímenes concurran en pluriactividad.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S03, apartado 3.2: altas en situación de pluriactividad."
+    },
+    {
+      "text": "Mantiene la afiliación y solo el alta en el Régimen General; la actividad autónoma se registra como una mera variación de esa alta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La reparación ha quedado encuadrada en el RETA y requiere su propia alta; no es una variación del empleo incluido en el Régimen General.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S03, apartados 3.2 y 4: régimen determinado por cada actividad."
+    },
+    {
+      "text": "Conserva su única afiliación y deben tramitarse un alta en el Régimen General y otra en el RETA.",
+      "isCorrect": true,
+      "feedback": "Correcto. La afiliación es única para toda la vida y para todo el sistema, mientras que la pluriactividad exige tantas altas como regímenes resulten aplicables."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-022",
+    "clm-ss-03-023"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
+      "location": "TRLGSS, artículo 15",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a41",
+      "location": "Real Decreto 84/1996, artículo 41.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de decisión conectada con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

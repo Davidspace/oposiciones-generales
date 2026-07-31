@@ -1,0 +1,76 @@
+{
+  "id": "g-19-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Clases de personal",
+  "competency": "clasificar al empleado público",
+  "difficulty": "medium",
+  "prompt": "Una persona es nombrada temporalmente para cubrir una necesidad urgente en uno de los supuestos del TREBEP. ¿Qué clase de personal corresponde identificar primero?",
+  "options": [
+    {
+      "text": "Funcionario de carrera, porque todo nombramiento administrativo es permanente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La permanencia es propia de la relación del funcionario de carrera; el supuesto describe una prestación temporal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, clases de personal"
+    },
+    {
+      "text": "Funcionario interino, sin convertir por ese nombramiento la relación en permanente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La temporalidad y la causa legal de necesidad y urgencia apuntan al funcionario interino."
+    },
+    {
+      "text": "Personal eventual, aunque no exista función de confianza o asesoramiento especial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El personal eventual se reserva a funciones expresamente calificadas de confianza o asesoramiento especial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G19, personal eventual"
+    },
+    {
+      "text": "Personal laboral fijo, porque la necesidad del servicio elimina la temporalidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La clase de personal depende del vínculo y de la función; la necesidad urgente no transforma el nombramiento en contrato laboral fijo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G19, funcionario interino"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-001",
+    "clm-g-19-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 8 y 10",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Clasificación de funcionario interino."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

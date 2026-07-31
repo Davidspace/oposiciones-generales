@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-15-010",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "La publicación produce efectos de notificación, entre otros casos, cuando el acto tiene una pluralidad indeterminada de destinatarios y cuando integra un procedimiento selectivo o de concurrencia competitiva; en este último caso la convocatoria debe indicar el medio de las publicaciones sucesivas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 45.1",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15",
+    "g-15-q006"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

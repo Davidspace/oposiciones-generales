@@ -1,0 +1,69 @@
+{
+  "id": "g-06-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "El Poder Judicial: potestad jurisdiccional",
+  "competency": "Distinguir la potestad jurisdiccional de otras funciones judiciales legalmente atribuidas.",
+  "difficulty": "medium",
+  "prompt": "Una ley atribuye expresamente a un tribunal una función adicional destinada a garantizar un derecho. Se objeta que los tribunales solo pueden dictar sentencias. ¿Cuál es la valoración constitucional correcta?",
+  "options": [
+    {
+      "text": "La atribución es necesariamente inconstitucional porque un tribunal nunca puede ejercer funciones distintas de juzgar.",
+      "isCorrect": false,
+      "feedback": "La regla no es absoluta: además de juzgar y ejecutar, la Constitución admite funciones expresamente atribuidas por ley en garantía de derechos.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G06, funciones judiciales adicionales"
+    },
+    {
+      "text": "La atribución puede encajar en el artículo 117.4 si es expresa, legal y está orientada a garantizar un derecho.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esos tres elementos delimitan la excepción constitucional a la función nuclear de juzgar y hacer ejecutar lo juzgado."
+    },
+    {
+      "text": "La atribución es válida aunque proceda de una instrucción administrativa, siempre que el tribunal la considere útil.",
+      "isCorrect": false,
+      "feedback": "La función adicional debe estar atribuida expresamente por ley; una instrucción administrativa o la mera utilidad no satisfacen ese requisito.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G06, reserva de ley para funciones adicionales"
+    },
+    {
+      "text": "La función pasa a ser jurisdiccional por el solo hecho de encargarse a un tribunal.",
+      "isCorrect": false,
+      "feedback": "Encargar una función a un tribunal no la convierte en juzgar y ejecutar lo juzgado. Hay que distinguir la potestad jurisdiccional de la función adicional legal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, contenido de la potestad jurisdiccional"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 117, apartados 3 y 4",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

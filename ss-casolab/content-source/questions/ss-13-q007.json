@@ -1,0 +1,78 @@
+{
+  "id": "ss-13-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Custodia",
+  "competency": "Distinguir funciones patrimoniales",
+  "difficulty": "medium",
+  "prompt": "¿Qué error debe evitarse al analizar un bien adscrito?",
+  "options": [
+    {
+      "text": "Comprobar el órgano responsable de la custodia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa comprobación sí es necesaria.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S13, custodia"
+    },
+    {
+      "text": "Consultar el procedimiento de adscripción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. También es una comprobación necesaria.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S13, custodia"
+    },
+    {
+      "text": "Revisar si el bien está afecto a un fin del sistema.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afectación es relevante.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S13, custodia"
+    },
+    {
+      "text": "Confundir custodia o administración con titularidad del patrimonio único.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son funciones diferentes."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-004",
+    "clm-ss-13-005",
+    "clm-ss-13-006",
+    "clm-ss-13-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 103 a 106",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "G07",
+  "themeId": "g-07",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Gobierno, relaciones con las Cortes y Consejo de Estado",
+  "learningOutcomes": [
+    "Explicar la posición constitucional del Gobierno y las funciones que integran el poder ejecutivo.",
+    "Distinguir las atribuciones del Presidente del Gobierno y del Consejo de Ministros.",
+    "Ordenar la propuesta, investidura y nombramiento del Presidente y de los demás miembros del Gobierno.",
+    "Identificar las causas de cese y los límites del Gobierno en funciones.",
+    "Aplicar los instrumentos ordinarios de información, comparecencia, preguntas e interpelaciones parlamentarias.",
+    "Diferenciar cuestión de confianza y moción de censura por iniciativa, mayoría y efecto.",
+    "Separar responsabilidad política, criminal, control jurídico y responsabilidad patrimonial de la Administración.",
+    "Reconocer la naturaleza, órganos y modalidades de consulta del Consejo de Estado."
+  ],
+  "decisions": [
+    "Determinar si una actuación corresponde al Gobierno como órgano constitucional o a la Administración que dirige.",
+    "Asignar una función al Presidente, al Consejo de Ministros o a un Ministro.",
+    "Resolver una secuencia de investidura atendiendo a mayoría, plazo y actor competente.",
+    "Decidir si una facultad puede ejercerse por un Gobierno en funciones.",
+    "Elegir el instrumento de control parlamentario coherente con la información o comparecencia requerida.",
+    "Calcular la mayoría y la consecuencia de una cuestión de confianza o moción de censura.",
+    "Identificar el tipo de responsabilidad o control sin trasladar automáticamente efectos entre planos distintos.",
+    "Decidir si la consulta al Consejo de Estado es preceptiva o facultativa y qué órgano debe dictaminar."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El poder ejecutivo",
+      "objective": "Reconocer la posición, dirección y funciones constitucionales del Gobierno.",
+      "sectionId": "g07-poder-ejecutivo",
+      "activityIds": ["g-07-q001"]
+    },
+    {
+      "officialClause": "El presidente del Gobierno y el Consejo de Ministros",
+      "objective": "Distinguir la dirección presidencial de las funciones colegiadas del Consejo de Ministros.",
+      "sectionId": "g07-presidente-consejo",
+      "activityIds": ["g-07-q002"]
+    },
+    {
+      "officialClause": "Designación del Gobierno",
+      "objective": "Ordenar la propuesta, investidura y nombramiento del Presidente y de los restantes miembros.",
+      "sectionId": "g07-designacion",
+      "activityIds": ["g-07-q003"]
+    },
+    {
+      "officialClause": "Causas de cese del Gobierno",
+      "objective": "Identificar las causas de cese y aplicar los límites del Gobierno en funciones.",
+      "sectionId": "g07-cese-funciones",
+      "activityIds": ["g-07-q004"]
+    },
+    {
+      "officialClause": "Relaciones entre el Gobierno y las Cortes Generales",
+      "objective": "Distinguir información, comparecencia, preguntas e interpelaciones como instrumentos de relación y control.",
+      "sectionId": "g07-relaciones-cortes",
+      "activityIds": ["g-07-q005"]
+    },
+    {
+      "officialClause": "Relaciones entre el Gobierno y las Cortes Generales",
+      "objective": "Comparar cuestión de confianza y moción de censura por sujeto, mayoría y consecuencia.",
+      "sectionId": "g07-confianza-censura",
+      "activityIds": ["g-07-q006"]
+    },
+    {
+      "officialClause": "Responsabilidad del Gobierno",
+      "objective": "Separar responsabilidad política y criminal, controles jurídicos y responsabilidad patrimonial administrativa.",
+      "sectionId": "g07-responsabilidad-disolucion",
+      "activityIds": ["g-07-q007"]
+    },
+    {
+      "officialClause": "El Consejo de Estado",
+      "objective": "Aplicar su naturaleza consultiva, su organización y las reglas básicas de consulta y dictamen.",
+      "sectionId": "g07-consejo-estado",
+      "activityIds": ["g-07-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G07/lesson.md",
+  "reviewSheetPath": "content-source/modules/G07/review.md",
+  "normativeClaimIds": [
+    "clm-g-07-001", "clm-g-07-002", "clm-g-07-003", "clm-g-07-004", "clm-g-07-005",
+    "clm-g-07-006", "clm-g-07-007", "clm-g-07-008", "clm-g-07-009", "clm-g-07-010",
+    "clm-g-07-011", "clm-g-07-012", "clm-g-07-013", "clm-g-07-014", "clm-g-07-015",
+    "clm-g-07-016", "clm-g-07-017", "clm-g-07-018", "clm-g-07-019", "clm-g-07-020",
+    "clm-g-07-021"
+  ],
+  "questionIds": [
+    "g-07-q001", "g-07-q002", "g-07-q003", "g-07-q004",
+    "g-07-q005", "g-07-q006", "g-07-q007", "g-07-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo con mapa actor-control-responsabilidad-consulta."
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ss-05-q005",
+  "epigraph": "Periodo voluntario y pago fuera del plazo reglamentario",
+  "competency": "Separar el periodo voluntario del plazo reglamentario y aplicar el recargo por pago tardío con liquidación presentada en plazo",
+  "difficulty": "high",
+  "prompt": "Una empresa cumple en plazo todas sus obligaciones de liquidación, pero no ingresa las cuotas antes de que termine el plazo reglamentario. Paga la totalidad dentro del primer mes natural siguiente al vencimiento y todavía no se ha emitido providencia de apremio. ¿Qué tratamiento corresponde?",
+  "options": [
+    {
+      "text": "La deuda continúa en periodo voluntario hasta la providencia de apremio, pero el pago es extemporáneo y lleva un recargo del 10 por ciento.",
+      "isCorrect": true,
+      "feedback": "Correcto. El vencimiento del plazo reglamentario genera las consecuencias del pago tardío, pero no inicia por sí solo el periodo ejecutivo. Como la empresa liquidó en plazo y paga dentro del primer mes natural siguiente, corresponde el recargo del 10 por ciento."
+    },
+    {
+      "text": "La deuda ya está en periodo ejecutivo desde el día siguiente al vencimiento y se aplica necesariamente un recargo del 20 por ciento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El periodo ejecutivo se inicia con la providencia de apremio. Además, cuando la liquidación se cumplió en plazo y se paga dentro del primer mes natural siguiente, el recargo es del 10 por ciento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S05, apartado 5: diferencia entre plazo reglamentario, periodo voluntario y periodo ejecutivo."
+    },
+    {
+      "text": "No se aplica recargo mientras no se emita la providencia de apremio, porque la deuda sigue en periodo voluntario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Que la deuda continúe en periodo voluntario no elimina el recargo nacido por no ingresar dentro del plazo reglamentario.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S05, apartado 5: efectos de incumplir el plazo reglamentario dentro del periodo voluntario."
+    },
+    {
+      "text": "Se aplica un recargo del 35 por ciento porque el ingreso se produjo después del plazo reglamentario.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El recargo del 35 por ciento corresponde al supuesto de incumplimiento de las obligaciones de liquidación y pago posterior al plazo de la reclamación o del acta. Aquí la liquidación se presentó en plazo.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S05, apartado 5: recargos según el cumplimiento previo de las obligaciones de liquidación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-012",
+    "clm-ss-05-013",
+    "clm-ss-05-014",
+    "clm-ss-05-015",
+    "clm-ss-05-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a6",
+      "location": "Real Decreto 1415/2004, artículos 6 y 55 a 61",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a30",
+      "location": "TRLGSS, artículo 30",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

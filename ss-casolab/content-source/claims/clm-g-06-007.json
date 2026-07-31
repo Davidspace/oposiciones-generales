@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-007",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "Cada Cámara elige por mayoría de tres quintos diez vocales del CGPJ —seis del turno judicial y cuatro juristas—, atendiendo al principio de presencia equilibrada; los juristas deben acreditar más de quince años de experiencia jurídica y méritos destacados.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+  "sourceLocation": "artículos 566 y 567, apartados 1 a 3",
+  "officialPublication": "BOE núm. 157, de 02-07-1985; texto consolidado con última actualización publicada el 17-02-2025",
+  "validFrom": "2024-08-06",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md", "g-06-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre designación de vocales del CGPJ."}]}
+}

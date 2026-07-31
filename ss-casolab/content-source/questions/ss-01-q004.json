@@ -1,0 +1,75 @@
+{
+  "id": "ss-01-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "Real Decreto Legislativo 8/2015",
+  "competency": "Distinguir la norma aprobatoria del texto refundido",
+  "difficulty": "basic",
+  "prompt": "¿Qué relación existe entre el Real Decreto Legislativo 8/2015 y el TRLGSS?",
+  "options": [
+    {
+      "text": "El artículo único del Real Decreto Legislativo 8/2015 aprueba el texto refundido de la Ley General de la Seguridad Social que se inserta a continuación.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esta es la función de la norma aprobatoria; su disposición final única fija la entrada en vigor general el 2 de enero de 2016."
+    },
+    {
+      "text": "El Real Decreto Legislativo 8/2015 es un reglamento que desarrolla un texto refundido aprobado por una orden ministerial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se trata de un reglamento de desarrollo ni el texto fue aprobado por orden ministerial; el artículo único del real decreto legislativo lo aprueba.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 3: norma aprobatoria y texto aprobado"
+    },
+    {
+      "text": "El TRLGSS aprobó el Real Decreto Legislativo 8/2015 y entró en vigor antes que este.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Invierte la relación: el real decreto legislativo aprueba el texto refundido, no al contrario.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S01, apartado 3: secuencia de aprobación"
+    },
+    {
+      "text": "Son dos normas sin relación formal: una regula desempleo y la otra solo pensiones no contributivas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No son normas independientes: el artículo único del Real Decreto Legislativo 8/2015 aprueba el TRLGSS que se inserta a continuación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartados 3 y 4: aprobación y estructura"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "Real Decreto Legislativo 8/2015, artículo único y disposición final única",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

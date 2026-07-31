@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-06-407",
+  "assetId": "CP02",
+  "version": "0.1.0",
+  "statement": "Los recargos y demÃ¡s conceptos accesorios se aplican conforme a la fase recaudatoria y no sustituyen la cuota principal.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+  "sourceLocation": "TRLGSS, artÃ­culos 30 y 31",
+  "officialPublication": "BOE-A-2004-15221",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP02",
+    "ss-06-q407"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP02."
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "id": "S08",
+  "themeId": "ss-08",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Incapacidad temporal y permanente",
+  "learningOutcomes": [
+    "Identificar la situación protegida de incapacidad temporal.",
+    "Distinguir nacimiento, duración, suspensión y extinción del subsidio.",
+    "Aplicar la base reguladora y el porcentaje sin inventar cuantías.",
+    "Diferenciar incapacidad permanente contributiva y lesiones permanentes no incapacitantes.",
+    "Reconocer los grados y la posibilidad de revisión."
+  ],
+  "decisions": [
+    "Clasificar la causa de la incapacidad temporal.",
+    "Comprobar beneficiario, alta y cotización cuando proceda.",
+    "Separar la fecha de nacimiento del subsidio de su duración máxima.",
+    "Determinar si una limitación es temporal, permanente o indemnizable sin grado.",
+    "Comprobar si procede revisión antes de afirmar que la calificación es definitiva."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Incapacidad temporal",
+      "objective": "La incapacidad temporal protege la situación en la que la persona trabajadora está temporalmente impedida para trabajar y recibe asistencia sanitaria, en los supuestos y con la duración previstos legalmente. La causa y la situación de alta o asimilada deben comprobarse antes de calcular el subsidio.",
+      "sectionId": "ss08-it-1",
+      "activityIds": [
+        "ss-08-q001"
+      ]
+    },
+    {
+      "officialClause": "Beneficiarios y subsidio",
+      "objective": "El reconocimiento exige los requisitos generales y específicos del régimen aplicable. La cuantía depende de la base reguladora y del porcentaje legal, por lo que no debe memorizarse una cifra sin identificar el hecho causante.",
+      "sectionId": "ss08-it-beneficio-2",
+      "activityIds": [
+        "ss-08-q002"
+      ]
+    },
+    {
+      "officialClause": "Duración, control y extinción",
+      "objective": "El subsidio nace, se prorroga, se suspende o se extingue por las causas legales. El control puede corresponder a la entidad gestora, la mutua o los servicios médicos en los términos normativos.",
+      "sectionId": "ss08-it-control-3",
+      "activityIds": [
+        "ss-08-q003"
+      ]
+    },
+    {
+      "officialClause": "Incapacidad permanente contributiva",
+      "objective": "La incapacidad permanente contributiva se refiere a reducciones anatómicas o funcionales graves, previsiblemente definitivas, que disminuyen o anulan la capacidad laboral. La calificación se realiza con grados y efectos diferentes.",
+      "sectionId": "ss08-ip-4",
+      "activityIds": [
+        "ss-08-q004"
+      ]
+    },
+    {
+      "officialClause": "Grados, revisión y lesiones no incapacitantes",
+      "objective": "Los grados de incapacidad permanente no son sinónimos de porcentajes médicos. La resolución puede revisarse y las lesiones permanentes no incapacitantes tienen su propio régimen indemnizatorio.",
+      "sectionId": "ss08-ip-grados-5",
+      "activityIds": [
+        "ss-08-q005"
+      ]
+    },
+    {
+      "officialClause": "Incapacidad temporal",
+      "objective": "La incapacidad temporal protege la situación en la que la persona trabajadora está temporalmente impedida para trabajar y recibe asistencia sanitaria, en los supuestos y con la duración previstos legalmente. La causa y la situación de alta o asimilada deben comprobarse antes de calcular el subsidio.",
+      "sectionId": "ss08-it-6",
+      "activityIds": [
+        "ss-08-q006"
+      ]
+    },
+    {
+      "officialClause": "Beneficiarios y subsidio",
+      "objective": "El reconocimiento exige los requisitos generales y específicos del régimen aplicable. La cuantía depende de la base reguladora y del porcentaje legal, por lo que no debe memorizarse una cifra sin identificar el hecho causante.",
+      "sectionId": "ss08-it-beneficio-7",
+      "activityIds": [
+        "ss-08-q007"
+      ]
+    },
+    {
+      "officialClause": "Duración, control y extinción",
+      "objective": "El subsidio nace, se prorroga, se suspende o se extingue por las causas legales. El control puede corresponder a la entidad gestora, la mutua o los servicios médicos en los términos normativos.",
+      "sectionId": "ss08-it-control-8",
+      "activityIds": [
+        "ss-08-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S08/lesson.md",
+  "reviewSheetPath": "content-source/modules/S08/review.md",
+  "normativeClaimIds": [
+    "clm-ss-08-001",
+    "clm-ss-08-002",
+    "clm-ss-08-003",
+    "clm-ss-08-004",
+    "clm-ss-08-005",
+    "clm-ss-08-006",
+    "clm-ss-08-007",
+    "clm-ss-08-008",
+    "clm-ss-08-009",
+    "clm-ss-08-010",
+    "clm-ss-08-011",
+    "clm-ss-08-012",
+    "clm-ss-08-013",
+    "clm-ss-08-014",
+    "clm-ss-08-015",
+    "clm-ss-08-016",
+    "clm-ss-08-017",
+    "clm-ss-08-018",
+    "clm-ss-08-019",
+    "clm-ss-08-020"
+  ],
+  "questionIds": [
+    "ss-08-q001",
+    "ss-08-q002",
+    "ss-08-q003",
+    "ss-08-q004",
+    "ss-08-q005",
+    "ss-08-q006",
+    "ss-08-q007",
+    "ss-08-q008"
+  ],
+  "microcaseIds": [
+    "MC05"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S08 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

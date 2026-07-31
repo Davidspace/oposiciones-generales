@@ -1,0 +1,76 @@
+{
+  "id": "g-19-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Derechos",
+  "competency": "distinguir derechos individuales y colectivos",
+  "difficulty": "medium",
+  "prompt": "¿Qué opción identifica un derecho individual ejercido colectivamente?",
+  "options": [
+    {
+      "text": "La inamovilidad de la condición de funcionario de carrera, que solo nace mediante acuerdo sindical.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La inamovilidad es un derecho individual del artículo 14.a.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, artículos 14 y 15"
+    },
+    {
+      "text": "La percepción de retribuciones, que solo puede reclamarse por una organización sindical.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La percepción de retribuciones figura entre los derechos individuales.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G19, derechos individuales"
+    },
+    {
+      "text": "La promoción interna, que no exige requisitos ni proceso selectivo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La promoción interna se sujeta a requisitos y procedimientos previstos legalmente.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G19, carrera y promoción"
+    },
+    {
+      "text": "La libertad sindical, ejercida conforme a su regulación legal y colectiva.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 15 incluye la libertad sindical entre los derechos individuales ejercidos colectivamente."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-006",
+    "clm-g-19-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 14 y 15",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Derechos individuales ejercidos colectivamente."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

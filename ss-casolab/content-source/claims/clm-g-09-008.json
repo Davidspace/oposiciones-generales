@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-09-008", "assetId": "G09", "version": "0.1.0",
+  "statement": "El Estado tiene competencia exclusiva sobre las materias del artículo 149.1, incluida la legislación básica y el régimen económico de la Seguridad Social, sin perjuicio de la ejecución de sus servicios por las comunidades autónomas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1", "sourceLocation": "artículo 149.1, especialmente regla 17.ª", "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G09", "content-source/modules/G09/lesson.md", "content-source/modules/G09/review.md", "g-09-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre competencia estatal y Seguridad Social."}]}
+}

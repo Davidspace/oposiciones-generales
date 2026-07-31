@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-010",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "En 2026, el mecanismo de equidad intergeneracional en el Régimen General aplica un 0,90 por ciento sobre la base de contingencias comunes: 0,75 por ciento a cargo de la empresa y 0,15 por ciento a cargo de la persona trabajadora.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a16",
+  "sourceLocation": "Orden PJC/297/2026, artículo 16",
+  "officialPublication": "BOE-A-2026-7296",
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q003"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de parámetro normativo anual para S04."}]
+  }
+}

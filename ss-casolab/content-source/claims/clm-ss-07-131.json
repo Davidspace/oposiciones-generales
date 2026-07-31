@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-07-131",
+  "assetId": "MC08",
+  "version": "0.1.0",
+  "statement": "El ingreso mínimo vital es una prestación económica de la Seguridad Social dirigida a prevenir el riesgo de pobreza y exclusión social.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "Ley 19/2021, artículos 1 y 2",
+  "officialPublication": "BOE-A-2021-21007",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC08",
+    "ss-07-q331"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Afirmación normativa de borrador para MC08."
+      }
+    ]
+  }
+}

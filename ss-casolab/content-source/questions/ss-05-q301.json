@@ -1,0 +1,69 @@
+{
+  "id": "ss-05-q301",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "epigraph": "Tema 5. Gestión recaudatoria en periodo voluntario",
+  "competency": "Distinguir el periodo voluntario del periodo ejecutivo.",
+  "difficulty": "medium",
+  "prompt": "¿Qué ocurre cuando termina el plazo voluntario sin que la empresa ingrese la deuda?",
+  "options": [
+    {
+      "text": "La deuda puede pasar a la vía ejecutiva conforme a las reglas de recaudación.",
+      "isCorrect": true,
+      "feedback": "La falta de ingreso en plazo permite iniciar la vía ejecutiva, con los actos y recargos que correspondan."
+    },
+    {
+      "text": "La deuda desaparece automáticamente.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 29 y 30.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Distinguir el periodo voluntario del periodo ejecutivo."
+    },
+    {
+      "text": "Se convierte en una prestación económica.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 29 y 30.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Distinguir el periodo voluntario del periodo ejecutivo."
+    },
+    {
+      "text": "Se mantiene indefinidamente en periodo voluntario sin consecuencias.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 29 y 30.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 5. Gestión recaudatoria en periodo voluntario: Distinguir el periodo voluntario del periodo ejecutivo."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-101"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artículos 29 y 30",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC04, pregunta conectada al caso."
+      }
+    ]
+  }
+}

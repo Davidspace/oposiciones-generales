@@ -1,0 +1,76 @@
+{
+  "id": "g-07-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "Designación del Gobierno",
+  "competency": "Ordenar la investidura y el nombramiento del Presidente y de los restantes miembros del Gobierno.",
+  "difficulty": "medium",
+  "prompt": "Una candidatura a la Presidencia no alcanza mayoría absoluta en la primera votación de investidura. ¿Qué secuencia constitucional procede?",
+  "options": [
+    {
+      "text": "Se repite la votación veinticuatro horas después y vuelve a exigirse mayoría absoluta; el plazo de dos meses comienza al terminar las elecciones.",
+      "isCorrect": false,
+      "feedback": "La segunda votación es a las cuarenta y ocho horas y requiere mayoría simple; además, el plazo constitucional empieza en la primera votación de investidura.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G07, segunda votación y plazo de investidura"
+    },
+    {
+      "text": "El Rey nombra automáticamente al candidato más votado en la primera votación y este elige directamente a los Ministros sin propuesta formal.",
+      "isCorrect": false,
+      "feedback": "Sin la confianza exigida no hay nombramiento automático; los demás miembros son nombrados por el Rey a propuesta del Presidente.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G07, investidura y nombramiento de miembros del Gobierno"
+    },
+    {
+      "text": "Se somete la misma propuesta a nueva votación cuarenta y ocho horas después y basta la mayoría simple; si pasan dos meses desde la primera votación sin investidura, el Rey disuelve ambas Cámaras y convoca elecciones con el refrendo del Presidente del Congreso.",
+      "isCorrect": true,
+      "feedback": "Correcto. La segunda votación se celebra a las cuarenta y ocho horas, exige mayoría simple y el plazo de dos meses comienza en la primera votación de investidura."
+    },
+    {
+      "text": "El Senado celebra la segunda votación y, si no hay investidura, se disuelve únicamente el Congreso.",
+      "isCorrect": false,
+      "feedback": "La investidura corresponde al Congreso y, agotado el plazo de dos meses, la Constitución ordena disolver ambas Cámaras.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G07, órgano competente y efecto del plazo de investidura"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-006",
+    "clm-g-07-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 99 y 100",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

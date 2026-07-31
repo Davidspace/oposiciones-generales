@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-018", "assetId": "G11", "version": "0.1.0",
+  "statement": "Una directiva no puede, por sí sola, crear obligaciones a cargo de un particular y no puede invocarse como tal contra esa persona.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61992CJ0091", "sourceLocation": "sentencia de 14-07-1994, asunto C-91/92, Faccini Dori, apartados 20 a 25", "officialPublication": "EUR-Lex, documento 61992CJ0091; ECLI:EU:C:1994:292",
+  "validFrom": "1994-07-14", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre ausencia de efecto directo horizontal de la directiva."}]}
+}

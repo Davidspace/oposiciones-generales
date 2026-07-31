@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-01-004",
+  "assetId": "S01",
+  "version": "0.1.0",
+  "statement": "El artículo único del Real Decreto Legislativo 8/2015 aprueba el texto refundido de la Ley General de la Seguridad Social, y la entrada en vigor general de ambos se produjo el 2 de enero de 2016.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "Real Decreto Legislativo 8/2015, artículo único y disposición final única",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "S01",
+    "ss-01-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

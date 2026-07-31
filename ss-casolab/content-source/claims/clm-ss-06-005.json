@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-005",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "El recurso contra la providencia solo admite los cinco motivos tasados y suspende el apremio sin garantía hasta su resolución; la impugnación de otros actos ejecutivos no suspende salvo pago, aval suficiente o consignación en los términos del artículo 38.4 del TRLGSS.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a38",
+  "sourceLocation": "TRLGSS, artículo 38.3 y 38.4; Real Decreto 1415/2004, artículo 86",
+  "officialPublication": "BOE-A-2015-11724 y BOE-A-2004-11836",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q002"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ss-02-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Régimen General: consejeros y administradores de sociedades de capital",
+  "competency": "Distinguir la asimilación al Régimen General de la inclusión en el RETA",
+  "difficulty": "medium",
+  "prompt": "Una administradora de una sociedad de capital ejerce funciones retribuidas de dirección y gerencia, pero no posee el control efectivo de la sociedad en los términos del artículo 305.2.b) del TRLGSS. ¿Cuál es la consecuencia de encuadramiento indicada por el artículo 136.2.c)?",
+  "options": [
+    {
+      "text": "Queda incluida como trabajadora ordinaria en el Régimen General con idéntica protección, incluido desempleo y FOGASA.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Aunque el encuadramiento se produce en el Régimen General por asimilación, el precepto excluye expresamente la protección por desempleo y FOGASA.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S02, apartado 2.3: efecto protector de la asimilación societaria"
+    },
+    {
+      "text": "Queda incluida necesariamente en el RETA por el solo hecho de ejercer funciones de administración y dirección.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cargo y las funciones no bastan para decidir RETA: en este supuesto falta el control efectivo que exige la regla de inclusión societaria del artículo 305.2.b).",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 2.3: funciones, retribución y control efectivo"
+    },
+    {
+      "text": "Puede elegir entre Régimen General y RETA porque ambos encuadramientos son compatibles para el mismo cargo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El encuadramiento deriva de los hechos y de la regla legal aplicable; no existe una elección general entre ambos regímenes por conveniencia.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S02, apartados 2.1 y 2.3: carácter obligatorio del encuadramiento"
+    },
+    {
+      "text": "Queda asimilada a trabajadora por cuenta ajena en el Régimen General, con exclusión de la protección por desempleo y del Fondo de Garantía Salarial.",
+      "isCorrect": true,
+      "feedback": "Correcto. La combinación relevante es dirección y gerencia, retribución y ausencia de control efectivo: el artículo 136.2.c) establece la asimilación al Régimen General y excluye expresamente desempleo y FOGASA."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.2.c)",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a305",
+      "location": "TRLGSS, artículo 305.2.b), regla de control efectivo",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

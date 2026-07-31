@@ -1,0 +1,82 @@
+{
+  "id": "g-10-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Parlamento Europeo: funciones, composición y elección",
+  "competency": "Distinguir límites del Tratado, composición vigente y forma de elección parlamentaria.",
+  "difficulty": "medium",
+  "prompt": "¿Qué ficha describe correctamente al Parlamento Europeo en la legislatura 2024-2029 sin confundir el límite del TUE con la composición vigente?",
+  "options": [
+    {
+      "text": "Representa a los Gobiernos; tiene obligatoriamente 750 miembros más la Presidencia en toda legislatura y su mandato dura seis años.",
+      "isCorrect": false,
+      "feedback": "El Parlamento representa a la ciudadanía, 750 más la Presidencia es un máximo y el mandato parlamentario es de cinco años.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G10, representación, límite y mandato parlamentarios"
+    },
+    {
+      "text": "Representa a la ciudadanía, pero cada Estado dispone del mismo número de escaños para asegurar igualdad absoluta.",
+      "isCorrect": false,
+      "feedback": "La representación es decrecientemente proporcional, con mínimo de seis y máximo de 96 por Estado; no existe igualdad numérica entre Estados.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G10, proporcionalidad decreciente"
+    },
+    {
+      "text": "Representa a la ciudadanía; tiene 720 escaños —61 de España—, dentro del límite de 750 más la Presidencia, y sus miembros son elegidos por sufragio universal directo, libre y secreto por cinco años.",
+      "isCorrect": true,
+      "feedback": "Correcto. Combina la regla estructural del TUE con el reparto vigente fijado por la Decisión 2023/2061."
+    },
+    {
+      "text": "Tiene 720 escaños porque el artículo 14 TUE fija ese número de manera permanente e inmodificable.",
+      "isCorrect": false,
+      "feedback": "El TUE fija un techo y principios de reparto. Los 720 escaños proceden de una decisión para la legislatura 2024-2029, no de un número permanente en el artículo 14.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G10, Tratado frente a composición vigente"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-005",
+    "clm-g-10-006",
+    "clm-g-10-007"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_14/oj/spa",
+      "location": "artículo 14 TUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/dec/2023/2061/oj?locale=es",
+      "location": "artículo 3 y reparto de escaños",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

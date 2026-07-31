@@ -1,0 +1,77 @@
+{
+  "id": "g-21-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "LGTBI",
+  "competency": "Aplicar el objeto de la Ley 4/2023",
+  "difficulty": "basic",
+  "prompt": "¿Qué finalidad corresponde a la Ley 4/2023?",
+  "options": [
+    {
+      "text": "Regular únicamente la pensión de jubilación de las personas trans.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley tiene un ámbito antidiscriminatorio y de derechos mucho más amplio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, LGTBI"
+    },
+    {
+      "text": "Sustituir la Ley Orgánica 3/2007 en toda materia de igualdad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las normas tienen ámbitos propios y complementarios.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G21, LGTBI"
+    },
+    {
+      "text": "Crear una categoría de dependencia para toda persona LGTBI.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es el objeto de la ley.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, LGTBI"
+    },
+    {
+      "text": "Garantizar y promover la igualdad real y efectiva de las personas trans y LGTBI.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ese es su objeto principal."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-016",
+    "clm-g-21-017",
+    "clm-g-21-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+      "location": "art. 1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

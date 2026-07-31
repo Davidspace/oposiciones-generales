@@ -1,0 +1,88 @@
+{
+  "id": "ss-07-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Requisitos generales del derecho a las prestaciones",
+  "competency": "Combinar alta, carencia, situación asimilada y situación al corriente sin generalizaciones",
+  "difficulty": "high",
+  "prompt": "Al revisar tres expedientes, aparecen estos datos: una persona afiliada y en alta sufre un accidente no laboral; otra percibe la prestación por desempleo total; y una trabajadora responsable de ingresar sus propias cuotas solicita una prestación económica. ¿Qué criterio conjunto es correcto?",
+  "options": [
+    {
+      "text": "El accidente no laboral exige siempre carencia; el desempleo nunca es situación asimilada y la deuda propia de cuotas no afecta al reconocimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El accidente no exige período previo salvo norma expresa, el desempleo total con prestación es asimilado y quien ingresa sus cuotas debe estar al corriente para prestaciones económicas.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S07, apartado 5: carencia, situaciones asimiladas y requisito de estar al corriente."
+    },
+    {
+      "text": "Basta la afiliación en los tres expedientes, porque el alta, los requisitos particulares y la cotización nunca condicionan una prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla general exige afiliación y alta o situación asimilada, además de los requisitos particulares; la cotización cuenta cuando la prestación la exige.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S07, apartado 5: acumulación de requisitos generales y particulares."
+    },
+    {
+      "text": "El accidente no laboral no exige período previo salvo previsión expresa; el desempleo total con prestación es asimilado al alta; y la responsable de sus cuotas debe estar al corriente, con la invitación al pago prevista.",
+      "isCorrect": true,
+      "feedback": "Correcto. Son tres reglas diferentes de los artículos 165, 166 y 47; ninguna sustituye los requisitos particulares de la prestación concreta."
+    },
+    {
+      "text": "Toda situación asimilada sirve para cualquier contingencia y elimina tanto la carencia como la obligación de estar al corriente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La asimilación opera con el alcance previsto para cada situación; no borra de forma universal la carencia, los requisitos particulares ni la situación al corriente.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S07, apartado 5: alcance limitado de cada situación asimilada."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-010",
+    "clm-ss-07-011",
+    "clm-ss-07-012",
+    "clm-ss-07-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a47",
+      "location": "TRLGSS, artículo 47.1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a165",
+      "location": "TRLGSS, artículo 165.1, 165.2 y 165.4",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+      "location": "TRLGSS, artículo 166.1 a 166.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

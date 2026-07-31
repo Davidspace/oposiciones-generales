@@ -1,0 +1,70 @@
+{
+  "id": "g-17-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "La ejecución de los actos y resoluciones administrativas",
+  "competency": "elegir el medio de ejecución forzosa según la obligación",
+  "difficulty": "medium",
+  "prompt": "Una resolución ejecutiva ordena retirar una instalación. Es una actuación no personalísima que puede realizar otra empresa y el obligado no cumple tras el apercibimiento. ¿Qué medio encaja directamente?",
+  "options": [
+    {
+      "text": "La ejecución subsidiaria, realizando la Administración la actuación por sí o por quien determine y a costa del obligado.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 102 reserva la ejecución subsidiaria a actos no personalísimos realizables por un sujeto distinto del obligado."
+    },
+    {
+      "text": "El apremio sobre el patrimonio como sustitución material de la retirada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El apremio sirve para exigir una cantidad líquida; no ejecuta por sí mismo la prestación material de retirada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 5.2 «Ejecución forzosa y elección del medio»"
+    },
+    {
+      "text": "La compulsión directa sobre la persona, aunque la obligación pueda cumplirla un tercero.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La compulsión exige una obligación personalísima de no hacer o soportar y autorización legal expresa; aquí la actuación no es personalísima.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G17, apartado 5.2 «Ejecución forzosa y elección del medio»"
+    },
+    {
+      "text": "Una sanción automática, porque todo incumplimiento de una resolución se convierte por sí solo en infracción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ejecución forzosa y la potestad sancionadora son figuras distintas; el supuesto describe el cumplimiento material por tercero.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 5.2 «Ejecución forzosa y elección del medio»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-023",
+    "clm-g-17-024"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 99, 100 y 102",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

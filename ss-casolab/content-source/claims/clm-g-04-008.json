@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-04-008",
+  "assetId": "G04",
+  "version": "0.1.0",
+  "statement": "Si el Rey es menor de edad, ejerce inmediatamente la Regencia el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona; la Regencia dura durante la minoría de edad.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "artículo 59.1",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G04",
+    "content-source/modules/G04/lesson.md",
+    "content-source/modules/G04/review.md",
+    "g-04-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

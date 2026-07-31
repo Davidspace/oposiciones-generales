@@ -1,0 +1,70 @@
+{
+  "id": "g-18-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Recurso extraordinario de revisión",
+  "competency": "Identificar firmeza, causa tasada y plazo de revisión extraordinaria.",
+  "difficulty": "high",
+  "prompt": "Se invoca un error de hecho que resulta de documentos del expediente contra un acto firme. ¿Qué régimen corresponde?",
+  "options": [
+    {
+      "text": "Puede estudiarse la revisión extraordinaria ante el órgano que dictó el acto; por error de hecho el plazo es de cuatro años desde la notificación.",
+      "isCorrect": true,
+      "feedback": "Correcto. La firmeza y la causa del artículo 125.1.a habilitan la revisión, con el plazo específico de cuatro años."
+    },
+    {
+      "text": "Procede siempre una nueva alzada porque el error de hecho elimina la firmeza del acto.",
+      "isCorrect": false,
+      "feedback": "La revisión extraordinaria parte de un acto firme y no convierte el acto en uno recurrible en alzada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, firmeza y revisión extraordinaria"
+    },
+    {
+      "text": "El plazo es siempre tres meses desde la notificación, cualquiera que sea la causa.",
+      "isCorrect": false,
+      "feedback": "Cuatro años corresponde al error de hecho; tres meses se aplica a las restantes causas desde el hecho legal relevante.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G18, plazos del artículo 125"
+    },
+    {
+      "text": "La revisión se presenta ante el Tribunal Supremo y permite reabrir cualquier desacuerdo jurídico.",
+      "isCorrect": false,
+      "feedback": "Se interpone ante el órgano que dictó el acto y exige una de las causas tasadas; no es una segunda instancia general.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G18, órgano y causas tasadas"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-013",
+    "clm-g-18-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 125 y 126",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre la revisión extraordinaria."
+      }
+    ]
+  }
+}

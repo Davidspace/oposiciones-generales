@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-14-011",
+  "assetId": "G14",
+  "version": "0.1.0",
+  "statement": "En la jerarquía reglamentaria estatal del artículo 24.2 de la Ley del Gobierno, las disposiciones aprobadas por real decreto del Presidente o acordado en Consejo de Ministros preceden a las aprobadas por orden ministerial.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+  "sourceLocation": "artículo 24.2",
+  "officialPublication": "BOE-A-1997-25336; redacción dada por BOE-A-2015-10566 y texto consolidado con última actualización publicada el 03-01-2025",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G14",
+    "g-14-q007"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

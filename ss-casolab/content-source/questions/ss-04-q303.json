@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q303",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Tema 4. Cotización y liquidación",
+  "competency": "Aplicar el periodo ordinario de liquidación y pago.",
+  "difficulty": "medium",
+  "prompt": "¿Cuál es el criterio general para el ingreso ordinario de las cuotas de noviembre?",
+  "options": [
+    {
+      "text": "El mismo día en que comienza cada relación laboral.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 29; Reglamento general de recaudación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Aplicar el periodo ordinario de liquidación y pago."
+    },
+    {
+      "text": "Solo cuando se publique la convocatoria de oposición.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 29; Reglamento general de recaudación.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Aplicar el periodo ordinario de liquidación y pago."
+    },
+    {
+      "text": "Al final del ejercicio natural, sin liquidaciones mensuales.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 29; Reglamento general de recaudación.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Aplicar el periodo ordinario de liquidación y pago."
+    },
+    {
+      "text": "Se ingresan dentro del plazo reglamentario del mes siguiente al periodo liquidado.",
+      "isCorrect": true,
+      "feedback": "El periodo de liquidación y el plazo reglamentario se aplican por mensualidades; no se espera al cierre del año."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-103"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 18 y 29; Reglamento general de recaudación",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC03, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

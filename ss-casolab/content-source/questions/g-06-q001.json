@@ -1,0 +1,75 @@
+{
+  "id": "g-06-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "El Poder Judicial: independencia y sometimiento a la ley",
+  "competency": "Aplicar las garantías constitucionales de independencia e inamovilidad judicial.",
+  "difficulty": "basic",
+  "prompt": "Un alto cargo remite a una magistrada una instrucción sobre el sentido en que debe resolver un proceso pendiente, alegando que así se protege mejor el interés general. ¿Qué respuesta se ajusta al artículo 117 de la Constitución?",
+  "options": [
+    {
+      "text": "Debe rechazar la instrucción y resolver con independencia, sometida únicamente al imperio de la ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. La independencia excluye instrucciones externas sobre la decisión, mientras que la sujeción exclusiva al imperio de la ley fija el marco de la resolución."
+    },
+    {
+      "text": "Debe seguir la instrucción porque la justicia se administra en nombre del Gobierno.",
+      "isCorrect": false,
+      "feedback": "La justicia se administra en nombre del Rey, no del Gobierno, y ningún alto cargo puede ordenar el sentido de una resolución judicial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G06, fundamento e independencia del Poder Judicial"
+    },
+    {
+      "text": "Puede elegir libremente entre la instrucción y la ley porque la independencia elimina toda vinculación jurídica.",
+      "isCorrect": false,
+      "feedback": "Independencia no equivale a libertad frente al ordenamiento: jueces y magistrados están sometidos únicamente al imperio de la ley.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G06, independencia y sujeción a la ley"
+    },
+    {
+      "text": "Solo debe rechazarla si es inamovible; un juez temporal sí puede recibir instrucciones del poder ejecutivo.",
+      "isCorrect": false,
+      "feedback": "La independencia caracteriza el ejercicio de la función judicial y no depende de aceptar instrucciones por el tipo de destino. La inamovilidad es una garantía distinta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G06, garantías judiciales diferenciadas"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 117, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

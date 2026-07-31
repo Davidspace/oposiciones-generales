@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-006",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "La afiliación a la Seguridad Social es obligatoria para las personas del artículo 7.1 del TRLGSS y es única para toda su vida y para todo el sistema, sin perjuicio de las altas, bajas y variaciones posteriores.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
+  "sourceLocation": "TRLGSS, artículo 15",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q001", "CP01", "ss-03-q203"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

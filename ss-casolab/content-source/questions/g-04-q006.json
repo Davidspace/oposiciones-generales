@@ -1,0 +1,76 @@
+{
+  "id": "g-04-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Funciones constitucionales del Rey",
+  "competency": "Relacionar funciones reales con la propuesta, petición o autorización exigida por la Constitución.",
+  "difficulty": "high",
+  "prompt": "¿Qué opción relaciona correctamente las tres funciones del Rey con su condición constitucional?",
+  "options": [
+    {
+      "text": "Nombra libremente a los miembros del Gobierno; preside siempre el Consejo de Ministros; y declara la guerra con autorización posterior del Gobierno.",
+      "isCorrect": false,
+      "feedback": "Los miembros del Gobierno requieren propuesta de su Presidente, la presidencia del Consejo se produce a petición de este y la guerra y la paz exigen autorización previa de las Cortes.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G04, condiciones de los artículos 62.e, 62.g y 63.3"
+    },
+    {
+      "text": "Nombra a los miembros del Gobierno a propuesta del Presidente del Gobierno; preside el Consejo de Ministros, a los efectos del artículo 62.g, a petición de este; y declara la guerra y hace la paz con autorización previa de las Cortes Generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción conserva las tres relaciones constitucionales: propuesta, petición y autorización previa."
+    },
+    {
+      "text": "Nombra a los miembros del Gobierno a propuesta del Congreso; preside el Consejo a petición del Senado; y declara la guerra con autorización del Tribunal Constitucional.",
+      "isCorrect": false,
+      "feedback": "La propuesta y la petición corresponden al Presidente del Gobierno, mientras que la autorización para declarar la guerra y hacer la paz corresponde a las Cortes Generales.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G04, sujeto de cada propuesta, petición y autorización"
+    },
+    {
+      "text": "Nombra a los miembros del Gobierno a propuesta de su Presidente; puede autorizar indultos generales; y manifiesta el consentimiento en tratados sin sujeción a la Constitución ni a las leyes.",
+      "isCorrect": false,
+      "feedback": "Aunque la primera relación es correcta, el derecho de gracia no puede autorizar indultos generales y el consentimiento en tratados se manifiesta conforme a la Constitución y las leyes.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G04, límites del derecho de gracia y de la función internacional"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-013",
+    "clm-g-04-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 62.e, 62.g, 62.i y artículo 63.2 y 63.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "g-17-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Instrucción",
+  "competency": "distinguir audiencia e información pública",
+  "difficulty": "high",
+  "prompt": "El órgano denomina «audiencia pública» a un trámite abierto a cualquier persona, fija quince días y afirma que comparecer convierte a todos en interesados. ¿Qué corrección procede?",
+  "options": [
+    {
+      "text": "Es audiencia: su plazo máximo es quince días y toda persona compareciente adquiere condición de interesado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La audiencia se dirige a interesados; una apertura a cualquiera es información pública y no atribuye automáticamente aquella condición.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 3.3 «Audiencia e información pública»"
+    },
+    {
+      "text": "Es información pública: el plazo no puede ser inferior a veinte días y comparecer no confiere por sí solo la condición de interesado.",
+      "isCorrect": true,
+      "feedback": "Correcto. La apertura general identifica la información pública del artículo 83, distinta de la audiencia a interesados del artículo 82."
+    },
+    {
+      "text": "Es información pública, pero su plazo puede reducirse a cinco días si el expediente es electrónico.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La disponibilidad electrónica no reduce el mínimo legal de veinte días para formular alegaciones.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G17, apartado 3.3 «Audiencia e información pública»"
+    },
+    {
+      "text": "No es ningún trámite legal, porque la información pública solo admite personas que ya sean interesadas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La información pública se abre precisamente a cualquier persona física o jurídica, sin conferir por sí sola condición de interesado.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G17, apartado 3.3 «Audiencia e información pública»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-014",
+    "clm-g-17-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 82 y 83.2 y 83.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

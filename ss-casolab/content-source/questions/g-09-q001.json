@@ -1,0 +1,71 @@
+{
+  "id": "g-09-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Principios de la organización territorial",
+  "competency": "Diferenciar autonomía territorial, solidaridad, igualdad y libre circulación.",
+  "difficulty": "basic",
+  "prompt": "Una norma autonómica afirma que la comunidad autónoma puede actuar como un Estado soberano y restringir la circulación de bienes de otra comunidad. ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "Es incorrecta: la autonomía se refiere a la gestión de intereses propios y la Constitución protege la solidaridad, la igualdad de derechos y la libre circulación territorial.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los artículos 137 a 139 reconocen autonomía territorial, pero no soberanía, y limitan las medidas que obstaculicen la circulación."
+    },
+    {
+      "text": "Es correcta porque toda autonomía territorial incluye soberanía y poder de frontera económica.",
+      "isCorrect": false,
+      "feedback": "La autonomía constitucional no equivale a soberanía y no permite crear barreras territoriales a la circulación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G09, autonomía frente a soberanía"
+    },
+    {
+      "text": "Es correcta si la medida protege a las empresas de la comunidad, porque la solidaridad solo vincula al Estado.",
+      "isCorrect": false,
+      "feedback": "La solidaridad y la libre circulación también limitan la actuación de las autoridades territoriales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, límites territoriales"
+    },
+    {
+      "text": "Es incorrecta solo porque la provincia, y no la comunidad, es la entidad con autonomía constitucional.",
+      "isCorrect": false,
+      "feedback": "Municipios, provincias y comunidades autónomas gozan de autonomía para gestionar sus intereses respectivos.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G09, entidades territoriales"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-001",
+    "clm-g-09-002",
+    "clm-g-09-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 137 a 139",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre los límites de la autonomía territorial."
+      }
+    ]
+  }
+}

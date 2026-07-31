@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ss-casolab.local/schema/case.schema.json",
+  "title": "SS CasoLab practical case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id", "version", "status", "type", "title", "scenario", "originality",
+    "assumptions", "themes", "competencies", "coverage", "consistencyRules",
+    "durationMinutes", "scoring", "difficulty", "visibility",
+    "normativeClaimIds", "validFrom", "validTo", "legislationCutoffAt",
+    "nextReviewAt", "academicReviewStatus", "legalReviewStatus", "provenance"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^(MC|CP|SIM)[0-9]{2}$" },
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "status": { "enum": ["pending", "draft", "reviewed", "external-review", "published", "retired"] },
+    "type": { "enum": ["microcase", "full-case", "simulation"] },
+    "title": { "type": "string", "minLength": 1 },
+    "scenario": { "type": "string", "minLength": 1 },
+    "originality": { "const": "original" },
+    "assumptions": { "$ref": "#/$defs/nonEmptyStrings" },
+    "themes": { "$ref": "#/$defs/nonEmptyStrings" },
+    "competencies": { "$ref": "#/$defs/nonEmptyStrings" },
+    "coverage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["themeId", "competency", "questionIds"],
+        "properties": {
+          "themeId": { "type": "string", "minLength": 1 },
+          "competency": { "type": "string", "minLength": 1 },
+          "questionIds": { "$ref": "#/$defs/nonEmptyStrings" }
+        }
+      }
+    },
+    "questionIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "mainQuestionIds": { "type": "array", "minItems": 15, "maxItems": 15, "uniqueItems": true, "items": { "type": "string" } },
+    "reserveQuestionIds": { "type": "array", "minItems": 3, "maxItems": 3, "uniqueItems": true, "items": { "type": "string" } },
+    "generalQuestionIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "caseId": { "type": "string", "pattern": "^CP[0-9]{2}$" },
+    "consistencyRules": { "$ref": "#/$defs/nonEmptyStrings" },
+    "durationMinutes": { "type": "integer", "minimum": 1 },
+    "difficulty": { "enum": ["basic", "medium", "high"] },
+    "visibility": { "enum": ["practice", "assessment-only"] },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["correct", "wrong", "blank"],
+      "properties": {
+        "correct": { "const": 1 },
+        "wrong": { "const": -0.25 },
+        "blank": { "const": 0 }
+      }
+    },
+    "normativeClaimIds": { "$ref": "#/$defs/nonEmptyStrings" },
+    "validFrom": { "$ref": "#/$defs/date" },
+    "validTo": { "oneOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+    "legislationCutoffAt": { "$ref": "#/$defs/date" },
+    "nextReviewAt": { "$ref": "#/$defs/date" },
+    "academicReviewStatus": { "enum": ["pending", "approved", "rejected"] },
+    "academicReviewer": { "type": "string", "minLength": 1 },
+    "academicReviewedAt": { "$ref": "#/$defs/date" },
+    "legalReviewStatus": { "enum": ["not-required", "pending", "approved", "rejected"] },
+    "legalReviewer": { "type": "string", "minLength": 1 },
+    "legalReviewedAt": { "$ref": "#/$defs/date" },
+    "provenance": { "$ref": "#/$defs/provenance" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "type": { "const": "full-case" } }, "required": ["type"] },
+      "then": { "required": ["questionIds", "mainQuestionIds", "reserveQuestionIds"] }
+    },
+    {
+      "if": { "properties": { "academicReviewStatus": { "const": "approved" } }, "required": ["academicReviewStatus"] },
+      "then": { "required": ["academicReviewer", "academicReviewedAt"] }
+    },
+    {
+      "if": { "properties": { "legalReviewStatus": { "const": "approved" } }, "required": ["legalReviewStatus"] },
+      "then": { "required": ["legalReviewer", "legalReviewedAt"] }
+    },
+    {
+      "if": { "properties": { "status": { "const": "published" } }, "required": ["status"] },
+      "then": {
+        "properties": {
+          "academicReviewStatus": { "const": "approved" },
+          "legalReviewStatus": { "const": "approved" }
+        },
+        "required": ["academicReviewer", "academicReviewedAt", "legalReviewer", "legalReviewedAt"]
+      }
+    }
+  ],
+  "$defs": {
+    "date": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" },
+    "nonEmptyStrings": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["createdBy", "createdAt", "changeLog"],
+      "properties": {
+        "createdBy": { "type": "string", "minLength": 1 },
+        "createdAt": { "$ref": "#/$defs/date" },
+        "changeLog": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["version", "date", "changedBy", "summary"],
+            "properties": {
+              "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+              "date": { "$ref": "#/$defs/date" },
+              "changedBy": { "type": "string", "minLength": 1 },
+              "summary": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  }
+}

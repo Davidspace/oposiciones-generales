@@ -1,0 +1,81 @@
+{
+  "id": "ss-04-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Bases máximas del Régimen General",
+  "competency": "Aplicar la base máxima mensual vigente al resultado previo de la base de cotización",
+  "difficulty": "medium",
+  "prompt": "En enero de 2026, la remuneración computable y las prorratas de una oficial administrativa del grupo 5 suman 5.400 euros. No concurre una regla especial. ¿Qué base mensual por contingencias comunes procede?",
+  "options": [
+    {
+      "text": "5.101,20 euros, que es la base máxima mensual del grupo 5 en 2026.",
+      "isCorrect": true,
+      "feedback": "Correcto. La base inicial de 5.400 euros supera el límite mensual de 5.101,20 euros vigente en 2026, por lo que se aplica la base máxima. Esto no elimina el análisis separado de una posible cotización adicional de solidaridad."
+    },
+    {
+      "text": "5.400 euros, porque la base debe coincidir siempre con la remuneración computable.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El resultado inicial debe compararse con los límites aplicables. Si supera la base máxima, se cotiza por esta última.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S04, apartado 3.3: contraste del resultado inicial con la base mínima y máxima."
+    },
+    {
+      "text": "1.424,40 euros, porque la norma fija esa única base para los grupos 4 a 7.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. 1.424,40 euros es la base mínima mensual de esos grupos en 2026, no una base única aplicable con independencia de la remuneración.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S04, tabla del apartado 3.3: diferencia entre base mínima y base máxima."
+    },
+    {
+      "text": "5.101,20 euros solo si la empresa y la persona trabajadora solicitan conjuntamente la aplicación del tope.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base máxima es un límite legal, no una opción sometida al acuerdo de las partes.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S04, apartado 3.3: carácter obligatorio de los límites de cotización."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-007",
+    "clm-ss-04-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a19",
+      "location": "TRLGSS, artículo 19",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a3",
+      "location": "Orden PJC/297/2026, artículos 2 y 3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de cálculo con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

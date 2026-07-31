@@ -1,0 +1,77 @@
+{
+  "id": "g-22-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Responsables",
+  "competency": "Distinguir responsable y encargado",
+  "difficulty": "medium",
+  "prompt": "Una empresa trata datos siguiendo instrucciones documentadas de una Administración, que decide las finalidades. ¿Qué relación describe mejor el supuesto?",
+  "options": [
+    {
+      "text": "La empresa es responsable porque toca los datos físicamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El acceso material no determina por sí solo la responsabilidad.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G22, responsables"
+    },
+    {
+      "text": "Ambas partes son siempre responsables independientes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La relación debe calificarse según sus funciones reales y el contrato.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G22, responsables"
+    },
+    {
+      "text": "La Administración es responsable y la empresa actúa como encargada del tratamiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. El responsable decide fines y medios; el encargado trata por cuenta del responsable."
+    },
+    {
+      "text": "Nadie tiene obligaciones si existe un contrato.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El contrato debe regular obligaciones, no eliminarlas.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G22, responsables"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-005",
+    "clm-g-22-006",
+    "clm-g-22-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "arts. 4.7, 4.8 y 28 RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

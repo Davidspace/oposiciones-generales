@@ -1,0 +1,76 @@
+{
+  "id": "ss-07-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Reintegro de prestaciones indebidas",
+  "competency": "Identificar obligados y plazo de prescripción cuando el pago indebido deriva de error gestor",
+  "difficulty": "medium",
+  "prompt": "Una entidad gestora detecta que, por un error propio, pagó indebidamente una prestación hace dos años. Otra persona contribuyó por omisión a ese pago y no ha probado su buena fe. ¿Qué regla debe aplicarse?",
+  "options": [
+    {
+      "text": "El error de la entidad libera al perceptor y desplaza toda la deuda a quien contribuyó por omisión.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El perceptor mantiene la obligación principal de reintegro incluso si el error fue de la entidad; la otra persona responde de forma subsidiaria.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S07, apartado 4: obligación principal y responsabilidad subsidiaria."
+    },
+    {
+      "text": "El perceptor debe reintegrar; la persona que contribuyó responde subsidiariamente salvo buena fe probada, y el error gestor no impide aplicar el plazo de cuatro años.",
+      "isCorrect": true,
+      "feedback": "Correcto. A los dos años la obligación no está prescrita por el solo transcurso indicado y las responsabilidades se ordenan como principal y subsidiaria."
+    },
+    {
+      "text": "La obligación ya prescribió porque todo error administrativo solo puede revisarse durante un año.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 55 fija cuatro años desde el cobro o desde que pudo ejercerse la acción, también para errores imputables a la entidad gestora.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S07, apartado 4: plazo y puntos de inicio de la prescripción."
+    },
+    {
+      "text": "Ambas personas responden siempre solidariamente y la buena fe carece de relevancia legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La responsabilidad de quien contribuye es subsidiaria y la ley permite excluirla cuando prueba su buena fe.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartado 4: naturaleza subsidiaria y excepción de buena fe."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-008",
+    "clm-ss-07-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a55",
+      "location": "TRLGSS, artículo 55",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

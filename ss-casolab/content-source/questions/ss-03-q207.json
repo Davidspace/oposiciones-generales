@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q207",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 13: pluriempleo y pluriactividad",
+  "competency": "Clasificar actividades simultáneas por el régimen al que conducen",
+  "difficulty": "high",
+  "prompt": "B trabaja por cuenta ajena para dos empresas, ambas en el Régimen General, y desde el 15 de junio mantiene además una actividad que obliga a su alta en el RETA. ¿Cómo se clasifica la situación?",
+  "options": [
+    {
+      "text": "Todo el conjunto es únicamente pluriempleo, porque basta con que exista más de una actividad, aunque intervengan regímenes distintos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ignora que la actividad por cuenta propia obliga al RETA y, por tanto, introduce altas en regímenes distintos.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S03, apartado 3.2: mismo régimen frente a regímenes distintos."
+    },
+    {
+      "text": "Todo el conjunto es únicamente pluriactividad y las dos relaciones por cuenta ajena dejan de ser pluriempleo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La aparición del RETA permite calificar la simultaneidad global como pluriactividad, pero no altera que las dos relaciones por cuenta ajena dentro del Régimen General responden a pluriempleo.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S03, apartado 3.2: clasificar cada relación antes del conjunto."
+    },
+    {
+      "text": "B puede elegir una sola de las dos categorías y omitir las altas restantes porque su afiliación ya era única.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación única no convierte en opcionales las altas que derivan de actividades simultáneas ni permite elegir la categoría más favorable.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 2.1 y 3.2: afiliación única y encuadramiento múltiple."
+    },
+    {
+      "text": "Las dos relaciones por cuenta ajena constituyen pluriempleo y la simultaneidad entre el Régimen General y el RETA constituye pluriactividad.",
+      "isCorrect": true,
+      "feedback": "Correcto. El pluriempleo exige varios trabajos por cuenta ajena en un mismo régimen; la pluriactividad aparece al coexistir actividades que obligan al alta en regímenes distintos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a7",
+      "location": "Real Decreto 84/1996, artículo 7.4.1.º y 7.4.2.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 13 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

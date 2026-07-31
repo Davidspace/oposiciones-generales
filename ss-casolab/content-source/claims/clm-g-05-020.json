@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-020",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "El Defensor presenta anualmente a las Cortes un informe de gestión y puede presentar informes extraordinarios, todos ellos publicados; además ejerce las funciones del Mecanismo Nacional de Prevención de la Tortura con un Consejo Asesor de cooperación técnica y jurídica.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+  "sourceLocation": "artículos 32 y 33 y disposición final única",
+  "officialPublication": "BOE núm. 109, de 07-05-1981; texto consolidado con última actualización publicada el 04-11-2009",
+  "validFrom": "2009-11-05",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

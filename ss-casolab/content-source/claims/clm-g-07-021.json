@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-07-021", "assetId": "G07", "version": "0.1.0",
+  "statement": "El Pleno y la Comisión Permanente despachan las consultas preceptivas que la Ley Orgánica del Consejo de Estado asigna respectivamente a cada órgano; fuera de esos supuestos, el Presidente del Gobierno o cualquier Ministro puede consultar al Consejo sobre otros asuntos y, cuando la consulta corresponda en principio a la Comisión Permanente, puede elevarse al Pleno en los casos legalmente previstos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-8648&p=20240802&tn=1", "sourceLocation": "artículos 21, 22 y 25", "officialPublication": "BOE núm. 100, de 25-04-1980; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "1980-05-15", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G07", "content-source/modules/G07/lesson.md", "content-source/modules/G07/review.md", "g-07-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre reparto de consultas y consulta facultativa."}]}
+}

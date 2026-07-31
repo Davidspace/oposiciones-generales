@@ -1,0 +1,76 @@
+{
+  "id": "ss-03-q101",
+  "version": "0.2.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Tema 3. Afiliación y alta en el Régimen General",
+  "competency": "Identificar el sujeto obligado a afiliar y dar de alta",
+  "difficulty": "basic",
+  "prompt": "¿Quién debe solicitar la afiliación y comunicar el alta de Irene?",
+  "options": [
+    {
+      "text": "La empresa que la contrata.",
+      "isCorrect": true,
+      "feedback": "La empresa debe solicitar la afiliación de quien ingresa a su servicio y comunicar el alta en el Régimen General.",
+      "reviewTarget": "Tema 3: obligación empresarial de afiliación y alta."
+    },
+    {
+      "text": "Irene, porque nunca ha trabajado.",
+      "isCorrect": false,
+      "feedback": "Que Irene no haya trabajado antes no traslada a la trabajadora la obligación inicial que la LGSS atribuye al empresario.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 3: sujeto obligado en afiliación y alta."
+    },
+    {
+      "text": "El Servicio Público de Empleo Estatal.",
+      "isCorrect": false,
+      "feedback": "El SEPE no sustituye al empresario en la solicitud inicial de afiliación y alta ante la Seguridad Social.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 3: organismo competente y sujeto obligado."
+    },
+    {
+      "text": "La Inspección de Trabajo y Seguridad Social.",
+      "isCorrect": false,
+      "feedback": "La Administración puede actuar de oficio ante un incumplimiento, pero la Inspección no es quien debe presentar inicialmente el alta empresarial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 3: vía empresarial, subsidiaria y de oficio."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+      "location": "LGSS, artículo 139.1",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.2.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

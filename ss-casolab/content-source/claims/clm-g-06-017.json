@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-017",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "La constitución escalonada de los Tribunales de Instancia terminó el 31 de diciembre de 2025 y el Tribunal Central de Instancia se constituyó ese mismo día, por lo que al corte de 30 de julio de 2026 resulta aplicable el mapa judicial reformado.",
+  "sourceUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2025-76",
+  "sourceLocation": "disposiciones transitorias primera y segunda",
+  "officialPublication": "BOE núm. 3, de 03-01-2025",
+  "validFrom": "2025-12-31",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md", "g-06-q006"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre la implantación de la reforma judicial de 2025."}]}
+}

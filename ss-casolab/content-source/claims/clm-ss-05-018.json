@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-05-018",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "Cuando desempleo, formación profesional, FOGASA u otros recursos ajenos se liquidan e ingresan junto con las cuotas, su recaudación voluntaria sigue los plazos, reglas y formalidades de estas, salvo norma expresa.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a83",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 83.1",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

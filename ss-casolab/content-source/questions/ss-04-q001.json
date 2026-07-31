@@ -1,0 +1,76 @@
+{
+  "id": "ss-04-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Sujetos obligados y responsable del ingreso",
+  "competency": "Distinguir la obligación de cotizar, la responsabilidad empresarial y el momento de descontar la aportación de la persona trabajadora",
+  "difficulty": "medium",
+  "prompt": "Una empresa paga la nómina sin descontar la aportación de la persona trabajadora a la Seguridad Social. Después pretende recuperarla mediante una deducción en la nómina siguiente. ¿Qué solución es correcta?",
+  "options": [
+    {
+      "text": "Puede descontarla íntegramente en cualquier nómina posterior porque la persona trabajadora también está obligada a cotizar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La aportación de la persona trabajadora debe descontarse al hacer efectiva la retribución. Si la empresa no lo hace en ese momento, no puede efectuar después ese descuento.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S04, apartado 2.2: descuento de la aportación de la persona trabajadora en el momento del pago salarial."
+    },
+    {
+      "text": "La empresa pierde el derecho a efectuar después ese descuento y sigue obligada a ingresar la totalidad de las cuotas.",
+      "isCorrect": true,
+      "feedback": "Correcto. En el Régimen General, empresa y persona trabajadora son sujetos obligados, pero la empresa es responsable del ingreso de ambas aportaciones. Si no descuenta la aportación de la persona trabajadora al pagar la retribución, no puede descontarla más tarde."
+    },
+    {
+      "text": "La Tesorería debe reclamar directamente a la persona trabajadora su aportación y a la empresa solo la aportación empresarial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La empresa es el sujeto responsable del cumplimiento de la obligación de cotizar e ingresa tanto su aportación como la de sus trabajadores.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S04, apartado 2.1: sujetos obligados frente a sujeto responsable del ingreso."
+    },
+    {
+      "text": "La empresa puede trasladar también su propia aportación a la persona trabajadora si ambas partes lo pactan por escrito.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es nulo el pacto por el que la persona trabajadora asuma la parte de cuota que corresponde a la empresa.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S04, apartado 2.3: nulidad de los pactos que alteran la distribución legal de la cotización."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-001",
+    "clm-ss-04-002",
+    "clm-ss-04-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a18",
+      "location": "TRLGSS, artículo 18",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a142",
+      "location": "TRLGSS, artículos 141 a 143",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

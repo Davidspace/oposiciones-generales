@@ -1,0 +1,69 @@
+{
+  "id": "g-04-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Orden de sucesión",
+  "competency": "Aplicar en su orden los criterios constitucionales de sucesión a la Corona.",
+  "difficulty": "medium",
+  "prompt": "Al comparar a varias personas con derecho sucesorio aparecen diferencias de línea, grado, sexo y edad. ¿En qué orden deben aplicarse los criterios del artículo 57.1?",
+  "options": [
+    {
+      "text": "Edad, sexo, grado y línea.",
+      "isCorrect": false,
+      "feedback": "La edad es el último criterio, no el primero. Solo se compara después de línea, grado y sexo.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G04, secuencia línea-grado-sexo-edad"
+    },
+    {
+      "text": "Línea, grado, sexo y edad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Se prefiere la línea anterior; en ella, el grado más próximo; en el mismo grado, el varón; y, dentro del mismo sexo, la persona de más edad."
+    },
+    {
+      "text": "Grado, edad, línea y sexo.",
+      "isCorrect": false,
+      "feedback": "El grado no desplaza a la línea anterior y la edad no se aplica antes que el sexo. La Constitución fija una secuencia acumulativa distinta.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G04, prioridad de la línea anterior"
+    },
+    {
+      "text": "Sexo, línea, edad y grado.",
+      "isCorrect": false,
+      "feedback": "La preferencia por sexo solo opera en el mismo grado, después de haber resuelto la línea y el grado. La opción la convierte indebidamente en criterio inicial.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G04, ámbito de cada criterio sucesorio"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 57.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

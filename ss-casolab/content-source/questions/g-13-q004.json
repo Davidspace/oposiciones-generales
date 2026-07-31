@@ -1,0 +1,76 @@
+{
+  "id": "g-13-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "Las fuentes del Derecho Administrativo",
+  "competency": "identificar la función legal de la jurisprudencia",
+  "difficulty": "medium",
+  "prompt": "¿Cuál de estas afirmaciones reproduce correctamente la función de la jurisprudencia descrita en el artículo 1.6 del Código Civil?",
+  "options": [
+    {
+      "text": "Es una fuente enumerada en el artículo 1.1 con el mismo tratamiento que la ley.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La jurisprudencia se regula en el artículo 1.6 como complemento; no aparece en la enumeración del artículo 1.1.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartados 3.1 y 4.2"
+    },
+    {
+      "text": "Se forma con cualquier sentencia firme, aunque sea aislada y proceda de cualquier órgano judicial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.6 exige doctrina reiterada del Tribunal Supremo; una sentencia aislada de cualquier órgano no reproduce esa regla.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G13, apartado 4.2 «Jurisprudencia»"
+    },
+    {
+      "text": "Deroga la ley interpretada cuando la doctrina judicial es posterior.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Complementar e interpretar no equivale a derogar. El artículo 1.6 no atribuye a la jurisprudencia una potestad derogatoria.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 4.2 «Jurisprudencia»"
+    },
+    {
+      "text": "Complementa el ordenamiento con la doctrina reiterada del Tribunal Supremo al interpretar y aplicar la ley, la costumbre y los principios generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta conserva tanto la función complementaria como los requisitos de reiteración, órgano y objeto interpretado."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-003",
+    "clm-g-13-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículos 1.1 y 1.6",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

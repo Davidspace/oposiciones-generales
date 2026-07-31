@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-12-001",
+  "assetId": "S12",
+  "version": "0.1.0",
+  "statement": "Las pensiones no contributivas de invalidez y jubilación se reconocen con los requisitos legales de residencia, edad o discapacidad y carencia de rentas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "arts. 363 a 372 TRLGSS",
+  "officialPublication": "TRLGSS",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S12",
+    "ss-12-q001"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S12."
+      }
+    ]
+  }
+}

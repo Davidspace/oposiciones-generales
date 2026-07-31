@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-016",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "El incumplimiento de afiliación, altas, bajas o cotización puede determinar responsabilidad en el pago; la entidad gestora competente declara en vía administrativa esa responsabilidad y, cuando proceda, quién anticipa o constituye el capital coste.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a167",
+  "sourceLocation": "TRLGSS, artículo 167.2 y 167.4",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q006"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

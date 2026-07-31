@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-21-006",
+  "assetId": "G21",
+  "version": "0.1.0",
+  "statement": "La Ley Orgánica 1/2004 establece medidas de protección integral frente a la violencia de género.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+  "sourceLocation": "art. 1.1",
+  "officialPublication": "LO 1/2004",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "G21",
+    "g-21-q003"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G21."
+      }
+    ]
+  }
+}

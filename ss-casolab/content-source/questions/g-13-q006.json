@@ -1,0 +1,82 @@
+{
+  "id": "g-13-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "La jerarquía de las fuentes",
+  "competency": "determinar la consecuencia de vulnerar una disposición administrativa superior",
+  "difficulty": "medium",
+  "prompt": "Una disposición administrativa de carácter general vulnera otra disposición administrativa de rango superior. ¿Qué consecuencia establece para ese supuesto el artículo 47.2 de la Ley 39/2015?",
+  "options": [
+    {
+      "text": "La disposición infractora prevalece si es posterior.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La fecha posterior no elimina el límite jerárquico de los artículos 1.2 del Código Civil y 128.3 de la Ley 39/2015.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G13, apartados 5.2 y 5.3"
+    },
+    {
+      "text": "La disposición infractora es nula de pleno derecho.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 47.2 incluye las disposiciones administrativas que vulneran otras de rango superior entre las nulas de pleno derecho."
+    },
+    {
+      "text": "La disposición conserva su validez y solo genera una recomendación de corrección.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 47.2 fija una consecuencia de nulidad de pleno derecho, no una mera recomendación.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G13, apartado 5.2 «Aplicación a disposiciones administrativas»"
+    },
+    {
+      "text": "La disposición es únicamente anulable si una persona demuestra un perjuicio económico.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La norma no condiciona esta nulidad de la disposición a que una persona pruebe un perjuicio económico.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G13, apartado 5.2 «Aplicación a disposiciones administrativas»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-004",
+    "clm-g-13-009",
+    "clm-g-13-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.2",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 47.2 y 128.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

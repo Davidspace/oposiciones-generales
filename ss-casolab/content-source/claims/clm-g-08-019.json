@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-019", "assetId": "G08", "version": "0.1.0",
+  "statement": "El Real Decreto 617/1997 enumera Direcciones Insulares en Menorca, Ibiza-Formentera, Lanzarote, Fuerteventura, La Palma, El Hierro y La Gomera, con el ámbito adicional de las islas agregadas administrativamente que precisa su artículo 6; esta enumeración reglamentaria corresponde al corte de 30-07-2026 y requiere revalidación antes de cada convocatoria.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-9547&p=19970503&tn=1", "sourceLocation": "artículo 6, apartados 1 y 2", "officialPublication": "BOE núm. 106, de 03-05-1997; texto consolidado con última actualización publicada el 03-05-1997",
+  "validFrom": "1997-05-05", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable y fechada sobre el despliegue insular reglamentario."}]}
+}

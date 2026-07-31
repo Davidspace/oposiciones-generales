@@ -1,0 +1,81 @@
+{
+  "id": "g-14-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "El Reglamento: concepto, clases y límites",
+  "competency": "resolver un conflicto de jerarquía reglamentaria estatal",
+  "difficulty": "medium",
+  "prompt": "Una orden ministerial posterior contradice una disposición reglamentaria vigente aprobada por real decreto del Consejo de Ministros. Con esos datos, ¿qué razonamiento es correcto?",
+  "options": [
+    {
+      "text": "La orden prevalece automáticamente porque toda norma posterior deroga a la anterior.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El criterio temporal no autoriza a una disposición inferior a vulnerar otra superior vigente.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G14, apartados 3.1 y 3.2"
+    },
+    {
+      "text": "Ambas tienen idéntico rango porque proceden del Gobierno de la Nación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 24.2 establece una jerarquía entre disposiciones aprobadas por real decreto y por orden ministerial.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G14, apartado 3.2 «Clases por su forma en el Gobierno de la Nación»"
+    },
+    {
+      "text": "La orden no puede vulnerar la disposición superior: la Ley del Gobierno sitúa los reales decretos reglamentarios por encima de las órdenes ministeriales y la Ley 39/2015 exige respetar la jerarquía.",
+      "isCorrect": true,
+      "feedback": "Correcto. La fecha posterior no invierte el orden de rango previsto en el artículo 24.2 ni la prohibición del artículo 128.3."
+    },
+    {
+      "text": "La orden prevalece si su contenido es más detallado, sin necesidad de analizar el rango.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El mayor detalle no elimina el límite jerárquico; además habría que comprobar competencia, materia y vigencia.",
+      "errorType": "gestion-riesgo",
+      "reviewTarget": "G14, apartado 3.1 y método de resolución"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-010",
+    "clm-g-14-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 128.3",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "location": "artículo 24.2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

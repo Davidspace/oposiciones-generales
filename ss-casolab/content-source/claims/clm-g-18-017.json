@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-18-017",
+  "assetId": "G18",
+  "version": "0.1.0",
+  "statement": "No corresponden al orden contencioso las materias atribuidas a los órdenes civil, penal y social y las demás exclusiones del artículo 3; su jurisdicción es improrrogable y la falta de jurisdicción se aprecia de oficio con audiencia previa.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+  "sourceLocation": "artículos 3 a 5",
+  "officialPublication": "BOE-A-1998-16718; texto consolidado con última actualización publicada el 03-01-2025",
+  "validFrom": "1998-12-14",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["G18", "g-18-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

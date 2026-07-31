@@ -1,0 +1,75 @@
+{
+  "id": "g-16-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "La capacidad de obrar",
+  "competency": "aplicar las categorías de capacidad administrativa",
+  "difficulty": "medium",
+  "prompt": "¿Qué afirmación sobre capacidad de obrar ante las Administraciones se ajusta al artículo 3 de la Ley 39/2015?",
+  "options": [
+    {
+      "text": "Ningún menor puede actuar ante una Administración en ningún caso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 3.b reconoce capacidad a menores en los supuestos que delimita.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G16, apartado 2.1 «Capacidad de obrar»"
+    },
+    {
+      "text": "Toda entidad sin personalidad jurídica tiene capacidad automática para cualquier procedimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Para grupos, uniones, entidades sin personalidad y patrimonios autónomos, el artículo 3.c exige que una ley lo declare expresamente.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G16, apartado 2.1 «Capacidad de obrar»"
+    },
+    {
+      "text": "Un menor puede actuar para ejercer y defender derechos e intereses cuando el ordenamiento permite hacerlo sin asistencia, con la excepción prevista en el propio artículo.",
+      "isCorrect": true,
+      "feedback": "Correcto. La ley no excluye a todos los menores; vincula su capacidad al ámbito en que el ordenamiento permite actuación sin asistencia."
+    },
+    {
+      "text": "Solo las personas físicas españolas tienen capacidad administrativa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 3.a incluye personas físicas o jurídicas con capacidad conforme a las normas civiles y no formula esa limitación nacional.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G16, apartado 2.1 «Capacidad de obrar»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

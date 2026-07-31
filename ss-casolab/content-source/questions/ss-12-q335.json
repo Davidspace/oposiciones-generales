@@ -1,0 +1,75 @@
+{
+  "id": "ss-12-q335",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Tema 12. Prestaciones no contributivas, asistenciales e IMV",
+  "competency": "Aplicar la revisión periódica de la prestación.",
+  "difficulty": "high",
+  "prompt": "¿Cómo se mantiene el IMV cuando cambian los datos económicos?",
+  "options": [
+    {
+      "text": "La cuantía queda congelada para siempre.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 12, 13 y 17.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Aplicar la revisión periódica de la prestación."
+    },
+    {
+      "text": "Se transforma automáticamente en jubilación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 12, 13 y 17.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Aplicar la revisión periódica de la prestación."
+    },
+    {
+      "text": "Solo se revisa si la persona renuncia.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 12, 13 y 17.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Aplicar la revisión periódica de la prestación."
+    },
+    {
+      "text": "La entidad gestora revisa el derecho y la cuantía con los datos y reglas aplicables.",
+      "isCorrect": true,
+      "feedback": "El IMV no queda inalterado: el derecho y la cuantía pueden revisarse con los datos económicos y familiares."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-135"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artículos 12, 13 y 17",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC08, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

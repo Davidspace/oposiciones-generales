@@ -1,0 +1,81 @@
+{
+  "id": "ss-07-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Enfermedad profesional y contingencias comunes",
+  "competency": "Calificar una enfermedad mediante el cuadro oficial, la causalidad exclusiva y las reglas residuales",
+  "difficulty": "high",
+  "prompt": "Una persona contrae, por cuenta ajena, una enfermedad incluida en el cuadro oficial por exposición al agente previsto para su actividad. Otra contrae una dolencia no incluida en el cuadro, pero prueba que el trabajo fue su causa exclusiva. ¿Cómo se califican?",
+  "options": [
+    {
+      "text": "Las dos son enfermedades comunes porque solo un accidente súbito puede tener origen profesional.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La primera reúne los elementos de enfermedad profesional y la segunda puede ser accidente de trabajo por enfermedad causada exclusivamente por su ejecución.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartados 8.1 y 8.2: enfermedad profesional frente a enfermedad asimilada a accidente de trabajo."
+    },
+    {
+      "text": "La primera es enfermedad profesional; la segunda puede calificarse como accidente de trabajo conforme al artículo 156.2.e), aunque no figure en el cuadro.",
+      "isCorrect": true,
+      "feedback": "Correcto. El cuadro, la actividad y el agente determinan la primera; la causalidad exclusiva probada permite encuadrar la segunda como accidente de trabajo."
+    },
+    {
+      "text": "La primera es accidente no laboral y la segunda enfermedad profesional, porque la prueba individual sustituye siempre al cuadro oficial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La primera cumple el artículo 157. La prueba de causalidad exclusiva no convierte una dolencia fuera del cuadro en enfermedad profesional, sino que permite tratarla como accidente de trabajo.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S07, apartado 8.2: función del cuadro oficial y del artículo 156.2.e)."
+    },
+    {
+      "text": "Ambas son enfermedades profesionales con solo demostrar una relación parcial con el trabajo, sin comprobar actividad ni agente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 157 exige la actividad y el elemento o sustancia del cuadro; para la vía del artículo 156.2.e) se exige que el trabajo sea la causa exclusiva.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S07, apartado 8.2: requisitos acumulativos de cada calificación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-018",
+    "clm-ss-07-019",
+    "clm-ss-07-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a156",
+      "location": "TRLGSS, artículo 156.2.e)",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a157",
+      "location": "TRLGSS, artículo 157",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a158",
+      "location": "TRLGSS, artículos 158 y 159",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "id": "G11",
+  "themeId": "g-11",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Fuentes del Derecho de la Unión Europea",
+  "learningOutcomes": [
+    "Ordenar las fuentes de la Unión mediante un mapa de estudio que separe Derecho originario, Derecho derivado y otras fuentes.",
+    "Reconocer el TUE, el TFUE, la Carta y los protocolos y anexos por su posición en el Derecho originario.",
+    "Distinguir reglamentos, directivas y decisiones por sus destinatarios, fuerza vinculante y modo de aplicación.",
+    "Diferenciar los actos vinculantes del artículo 288 TFUE de las recomendaciones y los dictámenes.",
+    "Identificar el valor vinculante de los acuerdos celebrados por la Unión.",
+    "Relacionar la integración española con los artículos 93 y 96 de la Constitución.",
+    "Aplicar la primacía sin confundir inaplicación en el litigio con anulación general de la norma nacional.",
+    "Separar aplicabilidad directa, efecto directo e interpretación conforme, especialmente ante una directiva no transpuesta en plazo."
+  ],
+  "decisions": [
+    "Determinar si una proposición reproduce una regla positiva o expresa una clasificación editorial para el estudio.",
+    "Clasificar una fuente como originaria, derivada u otra fuente sin atribuir esa taxonomía a un único artículo.",
+    "Elegir entre reglamento, directiva y decisión atendiendo al alcance y a los destinatarios definidos en el artículo 288 TFUE.",
+    "Descartar fuerza vinculante en una recomendación o un dictamen por su sola forma jurídica.",
+    "Comprobar si un acuerdo de la Unión vincula a sus instituciones y a los Estados miembros.",
+    "Localizar el fundamento constitucional español para atribuir el ejercicio de competencias y para incorporar tratados publicados.",
+    "Resolver un conflicto entre una norma de la Unión aplicable y una norma nacional mediante la doctrina de primacía.",
+    "Valorar si una disposición de directiva puede invocarse frente al Estado y qué alternativas existen en un litigio entre particulares."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Las fuentes del derecho de la Unión Europea",
+      "objective": "Distinguir la regla positiva de la ordenación editorial de las fuentes y reconocer sus principales apoyos normativos.",
+      "sectionId": "g11-fuentes",
+      "activityIds": ["g-11-q001"]
+    },
+    {
+      "officialClause": "Derecho originario",
+      "objective": "Reconocer el valor de los Tratados, la Carta y los protocolos y anexos dentro del nivel fundacional de la Unión.",
+      "sectionId": "g11-originario",
+      "activityIds": ["g-11-q002"]
+    },
+    {
+      "officialClause": "Derecho derivado: Reglamentos, directivas y decisiones",
+      "objective": "Aplicar a cada acto vinculante sus rasgos de alcance, destinatarios y modo de aplicación conforme al artículo 288 TFUE.",
+      "sectionId": "g11-derivado",
+      "activityIds": ["g-11-q003", "g-11-q004", "g-11-q005"]
+    },
+    {
+      "officialClause": "Otras fuentes",
+      "objective": "Distinguir recomendaciones y dictámenes no vinculantes, acuerdos de la Unión y principios generales reconocidos por los Tratados.",
+      "sectionId": "g11-otras-fuentes",
+      "activityIds": ["g-11-q006"]
+    },
+    {
+      "officialClause": "Las relaciones entre el Derecho de la Unión Europea y el ordenamiento jurídico de los Estados miembros",
+      "objective": "Aplicar integración constitucional, primacía, efecto directo e interpretación conforme sin confundir sus consecuencias.",
+      "sectionId": "g11-relaciones-ordenamientos",
+      "activityIds": ["g-11-q007", "g-11-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G11/lesson.md",
+  "reviewSheetPath": "content-source/modules/G11/review.md",
+  "normativeClaimIds": [
+    "clm-g-11-001", "clm-g-11-002", "clm-g-11-003", "clm-g-11-004",
+    "clm-g-11-005", "clm-g-11-006", "clm-g-11-007", "clm-g-11-008",
+    "clm-g-11-009", "clm-g-11-010", "clm-g-11-011", "clm-g-11-012",
+    "clm-g-11-013", "clm-g-11-014", "clm-g-11-015", "clm-g-11-016",
+    "clm-g-11-017", "clm-g-11-018", "clm-g-11-019"
+  ],
+  "questionIds": [
+    "g-11-q001", "g-11-q002", "g-11-q003", "g-11-q004",
+    "g-11-q005", "g-11-q006", "g-11-q007", "g-11-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial del módulo sobre fuentes originarias, actos del artículo 288 y relaciones con los ordenamientos nacionales."
+    }]
+  }
+}

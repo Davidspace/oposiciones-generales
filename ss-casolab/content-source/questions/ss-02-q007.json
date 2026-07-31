@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Sistemas especiales: materias legalmente delimitadas",
+  "competency": "Identificar las materias en las que puede establecerse un sistema especial",
+  "difficulty": "basic",
+  "prompt": "Según el artículo 11 del TRLGSS, ¿en qué materias pueden establecerse sistemas especiales cuando resulten necesarios dentro de un régimen de la Seguridad Social?",
+  "options": [
+    {
+      "text": "Solo acción protectora y reconocimiento de prestaciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Acción protectora y reconocimiento de prestaciones no forman parte de la enumeración del artículo 11.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S02, apartado 4: materias tasadas del artículo 11"
+    },
+    {
+      "text": "Encuadramiento, afiliación, forma de cotización o recaudación.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 11 enumera de forma expresa esas cuatro materias para la creación de sistemas especiales dentro del régimen correspondiente."
+    },
+    {
+      "text": "Encuadramiento, afiliación, forma de cotización, recaudación y cualquier prestación que decida añadir la Administración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La opción añade una materia que el artículo 11 no incluye; la enumeración no permite ampliar libremente el contenido de un sistema especial.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S02, apartado 4: carácter delimitado de la enumeración"
+    },
+    {
+      "text": "Únicamente cotización y recaudación, porque el encuadramiento y la afiliación nunca admiten peculiaridades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 11 menciona expresamente también el encuadramiento y la afiliación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 4: las cuatro materias de los sistemas especiales"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a11",
+      "location": "TRLGSS, artículo 11",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ss-03-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Alta previa y fecha de efectos",
+  "competency": "Relacionar plazo de presentación y fecha de efectos del alta",
+  "difficulty": "medium",
+  "prompt": "Una empresa solicita el alta de Leo cuarenta y cinco días naturales antes de la fecha prevista de inicio. Leo empieza a trabajar en la fecha comunicada. ¿Desde cuándo produce efectos el alta?",
+  "options": [
+    {
+      "text": "Desde el día en que Leo inicia la prestación de servicios.",
+      "isCorrect": true,
+      "feedback": "Correcto. Cuarenta y cinco días está dentro de la antelación máxima de sesenta, y el alta previa produce efectos desde el inicio real."
+    },
+    {
+      "text": "Desde el día en que se presentó la solicitud, porque toda alta genera efectos inmediatos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una solicitud previa válida no anticipa los derechos y obligaciones a la fecha del trámite; produce efectos al comenzar la actividad.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.2: plazo de solicitud frente a fecha de efectos."
+    },
+    {
+      "text": "Sesenta días después de la solicitud, aunque Leo empiece antes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los sesenta días son la antelación máxima permitida, no un período de espera para los efectos.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.2: significado del límite de sesenta días."
+    },
+    {
+      "text": "Desde la primera liquidación de cuotas, con independencia del inicio del trabajo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla de un alta previa válida vincula sus efectos al inicio de la actividad; no los aplaza a la liquidación.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S03, apartado 4.2: inicio de actividad y efectos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-012",
+    "clm-ss-03-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.1.º",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a35",
+      "location": "Real Decreto 84/1996, artículo 35.1.1.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  }
+}

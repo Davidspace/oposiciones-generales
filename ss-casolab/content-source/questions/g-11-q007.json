@@ -1,0 +1,88 @@
+{
+  "id": "g-11-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Relaciones entre el Derecho de la Unión y los ordenamientos nacionales: primacía",
+  "competency": "Aplicar integración constitucional y primacía con su consecuencia procesal correcta.",
+  "difficulty": "high",
+  "prompt": "En un litigio en España, una disposición nacional posterior contradice una norma de la Unión que debe desplegar plenos efectos en el asunto. ¿Qué debe hacer el juez nacional dentro de su competencia?",
+  "options": [
+    {
+      "text": "Aplicar la disposición nacional porque, al ser posterior, deroga para España cualquier norma de la Unión anterior.",
+      "isCorrect": false,
+      "feedback": "La regla lex posterior nacional no desplaza el Derecho de la Unión aplicable. La primacía exige garantizar su plena eficacia.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, primacía frente a norma nacional posterior"
+    },
+    {
+      "text": "Suspender siempre el litigio hasta que el legislador derogue la disposición nacional o el Tribunal Constitucional la anule.",
+      "isCorrect": false,
+      "feedback": "Simmenthal niega que el juez deba esperar la derogación legislativa o cualquier otro procedimiento constitucional para dejar inaplicada la norma incompatible.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G11, consecuencia de Simmenthal"
+    },
+    {
+      "text": "Garantizar la plena eficacia de la norma de la Unión y dejar inaplicada la disposición nacional incompatible en el asunto, sin esperar su derogación; ello no equivale a anularla con efectos generales.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la consecuencia operativa de Simmenthal, asentada sobre la primacía formulada por Costa/ENEL."
+    },
+    {
+      "text": "Declarar nula la disposición nacional para todos los casos, porque la primacía atribuye al juez ordinario potestad derogatoria general.",
+      "isCorrect": false,
+      "feedback": "La consecuencia exigida es la inaplicación en el marco de la competencia judicial, no una derogación o anulación general de la norma.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, alcance procesal de la primacía"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-012",
+    "clm-g-11-013",
+    "clm-g-11-014",
+    "clm-g-11-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "Constitución Española, artículos 93 y 96.1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61964CJ0006",
+      "location": "sentencia Costa/ENEL, asunto 6/64",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61977CJ0106",
+      "location": "sentencia Simmenthal, asunto 106/77, apartados 21 a 24",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre primacía e inaplicación de la norma nacional incompatible."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

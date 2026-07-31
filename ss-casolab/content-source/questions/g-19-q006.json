@@ -1,0 +1,77 @@
+{
+  "id": "g-19-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Incompatibilidades",
+  "competency": "detectar compatibilidad previa",
+  "difficulty": "high",
+  "prompt": "Una funcionaria desea aceptar una actividad privada relacionada con el ámbito en el que decide expedientes. ¿Qué debe hacer antes de iniciar esa actividad?",
+  "options": [
+    {
+      "text": "Comenzar la actividad fuera de su horario sin ninguna autorización.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El horario fuera del puesto no elimina los límites materiales ni la exigencia de reconocimiento previo cuando proceda.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G19, Ley 53/1984"
+    },
+    {
+      "text": "Solicitar solo permiso de vacaciones, porque la actividad es privada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un permiso de vacaciones no sustituye al régimen de compatibilidad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, compatibilidad"
+    },
+    {
+      "text": "Comprobar el régimen de incompatibilidades y obtener, si procede, el reconocimiento previo; la relación con sus funciones puede comprometer imparcialidad.",
+      "isCorrect": true,
+      "feedback": "Correcto. La dedicación a un solo puesto es la regla de partida y la actividad no puede menoscabar deberes ni independencia."
+    },
+    {
+      "text": "Aceptar siempre si la actividad no genera ingresos públicos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley también controla actividades privadas que comprometan imparcialidad o cumplimiento de deberes.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G19, artículo 1.3"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-012",
+    "clm-g-19-013",
+    "clm-g-19-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-151",
+      "location": "artículos 1, 3, 11 y 12",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Análisis de actividad privada y compatibilidad."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

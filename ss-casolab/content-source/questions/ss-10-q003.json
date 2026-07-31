@@ -1,0 +1,71 @@
+{
+  "id": "ss-10-q003",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Anticipada",
+  "competency": "Distinguir modalidades anticipadas",
+  "difficulty": "high",
+  "prompt": "Una persona cesa por una causa ajena a su voluntad y pretende jubilarse antes de la edad ordinaria. ¿Qué debe comprobarse?",
+  "options": [
+    {
+      "text": "Los requisitos específicos de la jubilación anticipada por cese no voluntario del artículo 207.",
+      "isCorrect": true,
+      "feedback": "Correcto. La causa de cese determina la modalidad a analizar."
+    },
+    {
+      "text": "Solo que tenga menos edad que la ordinaria.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La edad inferior no basta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S10, anticipada"
+    },
+    {
+      "text": "Los requisitos del artículo 208 sin atender al cese.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 208 regula otra modalidad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, anticipada"
+    },
+    {
+      "text": "La jubilación flexible automáticamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La flexible parte de una pensión reconocida y trabajo parcial.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, anticipada"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-006",
+    "clm-ss-10-007",
+    "clm-ss-10-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 207",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q003."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Tercerías de dominio y mejor derecho",
+  "competency": "Clasificar la pretensión del tercero y aplicar su efecto sobre el bien y el producto",
+  "difficulty": "high",
+  "prompt": "Un tercero acredita ante la TGSS que es propietario de un vehículo embargado. En otro expediente, un acreedor sostiene que su crédito debe cobrarse antes que el de la Seguridad Social. ¿Cómo se clasifican y tramitan ambas pretensiones?",
+  "options": [
+    {
+      "text": "Las dos son tercerías de dominio y suspenden íntegramente todos los expedientes del mismo deudor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La propiedad y la preferencia de cobro son fundamentos distintos. La suspensión por dominio se limita al bien controvertido, no a todo el patrimonio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S06, apartado 7: objeto y alcance de las dos tercerías."
+    },
+    {
+      "text": "La primera es de mejor derecho y la segunda de dominio; ambas deben presentarse directamente ante el juzgado civil sin reclamación administrativa previa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las clases están invertidas y la reclamación ante la TGSS es previa a la demanda civil.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S06, apartado 7: clasificación y reclamación previa ante la TGSS."
+    },
+    {
+      "text": "La propiedad origina una tercería de dominio que suspende respecto del vehículo; la preferencia origina una de mejor derecho, continúa la realización y reserva el producto a la resolución.",
+      "isCorrect": true,
+      "feedback": "Correcto. Si se estima el dominio, se alza el embargo del vehículo. Si se estima el mejor derecho, se paga al tercerista hasta cubrir su crédito preferente."
+    },
+    {
+      "text": "Ninguna es una tercería porque el procedimiento de apremio de la Seguridad Social no admite derechos de terceros sobre bienes o créditos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El TRLGSS y el reglamento reconocen expresamente las tercerías de dominio y de mejor derecho y atribuyen su resolución inicial a la TGSS.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S06, apartado 7: competencia de la TGSS y clases de tercería."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-018",
+    "clm-ss-06-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a39",
+      "location": "TRLGSS, artículo 39",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a132",
+      "location": "Real Decreto 1415/2004, artículos 132 a 135",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

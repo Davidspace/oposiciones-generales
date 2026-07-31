@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-014",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "Las obligaciones de liquidación deben cumplirse aunque no se ingresen las cuotas en plazo, y la falta de recepción de documentos expedidos por la Tesorería no libera al responsable de pagar dentro del plazo reglamentario.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a59",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 59",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

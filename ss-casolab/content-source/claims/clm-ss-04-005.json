@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-005",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "La base del Régimen General comprende la remuneración total en dinero o especie que el trabajador tenga derecho a percibir o la efectivamente percibida si es superior, y las percepciones de vencimiento superior al mes se prorratean en los doce meses.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a147",
+  "sourceLocation": "TRLGSS, artículo 147.1, párrafos primero y segundo",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q002"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S04."}]
+  }
+}

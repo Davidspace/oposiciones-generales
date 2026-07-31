@@ -1,0 +1,76 @@
+{
+  "id": "ss-08-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Lesiones",
+  "competency": "Separar indemnización y pensión",
+  "difficulty": "medium",
+  "prompt": "Una lesión permanente no alcanza un grado de incapacidad, pero está incluida en el régimen legal correspondiente. ¿Qué consecuencia debe analizarse?",
+  "options": [
+    {
+      "text": "La pensión de incapacidad permanente absoluta siempre.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No alcanzar un grado impide afirmar esa pensión.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, lesiones"
+    },
+    {
+      "text": "El subsidio de incapacidad temporal indefinido.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El régimen de lesiones es distinto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, lesiones"
+    },
+    {
+      "text": "La indemnización específica por lesión permanente no incapacitante.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los artículos 201 a 203 regulan ese supuesto diferenciado."
+    },
+    {
+      "text": "La jubilación flexible.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No guarda relación con el supuesto.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S08, lesiones"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-018",
+    "clm-ss-08-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 201 a 203",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q008."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

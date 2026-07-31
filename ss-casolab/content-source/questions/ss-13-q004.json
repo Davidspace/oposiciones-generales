@@ -1,0 +1,72 @@
+{
+  "id": "ss-13-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Fondo",
+  "competency": "Reconocer la finalidad del Fondo de Reserva",
+  "difficulty": "basic",
+  "prompt": "¿Cuál es la finalidad general del Fondo de Reserva?",
+  "options": [
+    {
+      "text": "Atender necesidades futuras del sistema en los términos y límites legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. No es una cuenta disponible para cualquier gasto."
+    },
+    {
+      "text": "Financiar cualquier inversión de una entidad gestora.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La disposición tiene finalidad y límites específicos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S13, Fondo de Reserva"
+    },
+    {
+      "text": "Pagar automáticamente toda prestación atrasada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es su finalidad general.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S13, Fondo de Reserva"
+    },
+    {
+      "text": "Sustituir las cotizaciones ordinarias.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No elimina la financiación ordinaria.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S13, Fondo de Reserva"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-010",
+    "clm-ss-13-011",
+    "clm-ss-13-012",
+    "clm-ss-13-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 117 a 121",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q004."
+      }
+    ]
+  }
+}

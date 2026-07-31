@@ -1,0 +1,262 @@
+{
+  "id": "CP03",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "full-case",
+  "title": "Accidente, incapacidad y protecciÃ³n familiar",
+  "scenario": "Una persona trabajadora sufre un accidente durante su jornada y comienza una situaciÃ³n de incapacidad temporal. La baja se prolonga, pasa el control de la duraciÃ³n ordinaria y posteriormente se estudia una posible incapacidad permanente. Durante el proceso fallece el causante. Quedan cÃ³nyuge, una hija menor y un hijo mayor con discapacidad acreditada, que solicitan prestaciones de muerte y supervivencia.",
+  "originality": "original",
+  "assumptions": [
+    "El accidente ocurre con ocasiÃ³n o por consecuencia del trabajo y la relaciÃ³n laboral estÃ¡ vigente.",
+    "Los partes mÃ©dicos y la situaciÃ³n de alta son vÃ¡lidos en las fechas indicadas.",
+    "El fallecimiento se produce antes de cerrar todas las actuaciones de incapacidad permanente.",
+    "Los familiares acreditan las relaciones declaradas, sin circunstancias adicionales de separaciÃ³n o exclusiÃ³n.",
+    "Los hechos se resuelven con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-08",
+    "ss-11"
+  ],
+  "competencies": [
+    "Clasificar el accidente como contingencia profesional",
+    "Distinguir contingencia profesional y comÃºn",
+    "Identificar la incapacidad temporal protegida",
+    "Aplicar la duraciÃ³n mÃ¡xima ordinaria",
+    "Reconocer el control tras los 365 dÃ­as",
+    "Distinguir las causas de extinciÃ³n de la incapacidad temporal",
+    "Clasificar la incapacidad permanente",
+    "Distinguir revisiÃ³n y compatibilidad",
+    "Separar la prestaciÃ³n y la responsabilidad empresarial",
+    "Identificar la pensiÃ³n de viudedad",
+    "Identificar la pensiÃ³n de orfandad",
+    "Aplicar la discapacidad en la orfandad",
+    "Distinguir el auxilio por defunciÃ³n",
+    "Comprobar los requisitos de la acciÃ³n protectora",
+    "Distinguir efectos de una contingencia profesional",
+    "Ordenar la transiciÃ³n entre incapacidad temporal y permanente",
+    "Acreditar la condiciÃ³n de beneficiario",
+    "Distinguir reconocimiento, pago y revisiÃ³n"
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-07",
+      "competency": "Clasificar el accidente como contingencia profesional",
+      "questionIds": [
+        "ss-07-q501"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Distinguir contingencia profesional y comÃºn",
+      "questionIds": [
+        "ss-07-q502"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Identificar la incapacidad temporal protegida",
+      "questionIds": [
+        "ss-08-q503"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Aplicar la duraciÃ³n mÃ¡xima ordinaria",
+      "questionIds": [
+        "ss-08-q504"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Reconocer el control tras los 365 dÃ­as",
+      "questionIds": [
+        "ss-08-q505"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Distinguir las causas de extinciÃ³n de la incapacidad temporal",
+      "questionIds": [
+        "ss-08-q506"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Clasificar la incapacidad permanente",
+      "questionIds": [
+        "ss-08-q507"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Distinguir revisiÃ³n y compatibilidad",
+      "questionIds": [
+        "ss-08-q508"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Separar la prestaciÃ³n y la responsabilidad empresarial",
+      "questionIds": [
+        "ss-07-q509"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Identificar la pensiÃ³n de viudedad",
+      "questionIds": [
+        "ss-11-q510"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Identificar la pensiÃ³n de orfandad",
+      "questionIds": [
+        "ss-11-q511"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Aplicar la discapacidad en la orfandad",
+      "questionIds": [
+        "ss-11-q512"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Distinguir el auxilio por defunciÃ³n",
+      "questionIds": [
+        "ss-11-q513"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Comprobar los requisitos de la acciÃ³n protectora",
+      "questionIds": [
+        "ss-07-q514"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Distinguir efectos de una contingencia profesional",
+      "questionIds": [
+        "ss-08-q515"
+      ]
+    },
+    {
+      "themeId": "ss-08",
+      "competency": "Ordenar la transiciÃ³n entre incapacidad temporal y permanente",
+      "questionIds": [
+        "ss-08-q516"
+      ]
+    },
+    {
+      "themeId": "ss-11",
+      "competency": "Acreditar la condiciÃ³n de beneficiario",
+      "questionIds": [
+        "ss-11-q517"
+      ]
+    },
+    {
+      "themeId": "ss-07",
+      "competency": "Distinguir reconocimiento, pago y revisiÃ³n",
+      "questionIds": [
+        "ss-07-q518"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-07-q501",
+    "ss-07-q502",
+    "ss-08-q503",
+    "ss-08-q504",
+    "ss-08-q505",
+    "ss-08-q506",
+    "ss-08-q507",
+    "ss-08-q508",
+    "ss-07-q509",
+    "ss-11-q510",
+    "ss-11-q511",
+    "ss-11-q512",
+    "ss-11-q513",
+    "ss-07-q514",
+    "ss-08-q515",
+    "ss-08-q516",
+    "ss-11-q517",
+    "ss-07-q518"
+  ],
+  "mainQuestionIds": [
+    "ss-07-q501",
+    "ss-07-q502",
+    "ss-08-q503",
+    "ss-08-q504",
+    "ss-08-q505",
+    "ss-08-q506",
+    "ss-08-q507",
+    "ss-08-q508",
+    "ss-07-q509",
+    "ss-11-q510",
+    "ss-11-q511",
+    "ss-11-q512",
+    "ss-11-q513",
+    "ss-07-q514",
+    "ss-08-q515"
+  ],
+  "reserveQuestionIds": [
+    "ss-08-q516",
+    "ss-11-q517",
+    "ss-07-q518"
+  ],
+  "consistencyRules": [
+    "La contingencia profesional se identifica antes de aplicar la duraciÃ³n y el control de la incapacidad temporal.",
+    "El alta mÃ©dica, la incapacidad permanente y el fallecimiento son hitos diferentes.",
+    "Cada familiar se analiza con la prestaciÃ³n, edad y requisitos que le correspondan."
+  ],
+  "durationMinutes": 40,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "assessment-only",
+  "normativeClaimIds": [
+    "clm-ss-07-501",
+    "clm-ss-07-502",
+    "clm-ss-08-503",
+    "clm-ss-08-504",
+    "clm-ss-08-505",
+    "clm-ss-08-506",
+    "clm-ss-08-507",
+    "clm-ss-08-508",
+    "clm-ss-07-509",
+    "clm-ss-11-510",
+    "clm-ss-11-511",
+    "clm-ss-11-512",
+    "clm-ss-11-513",
+    "clm-ss-07-514",
+    "clm-ss-08-515",
+    "clm-ss-08-516",
+    "clm-ss-11-517",
+    "clm-ss-07-518"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador original de CP03 con quince decisiones principales y tres reservas."
+      }
+    ]
+  }
+}

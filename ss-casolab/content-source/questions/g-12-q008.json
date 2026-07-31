@@ -1,0 +1,76 @@
+{
+  "id": "g-12-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Jerarquía",
+  "competency": "Distinguir adscripción de naturaleza orgánica",
+  "difficulty": "medium",
+  "prompt": "¿Qué afirmación evita confundir una entidad adscrita con un órgano directivo del Ministerio?",
+  "options": [
+    {
+      "text": "Toda entidad adscrita es una dirección general.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Adscripción y naturaleza orgánica no son sinónimos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G12, jerarquía"
+    },
+    {
+      "text": "La adscripción elimina la personalidad jurídica de la entidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La adscripción no produce ese efecto por sí sola.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G12, jerarquía"
+    },
+    {
+      "text": "La adscripción permite a la entidad ejercer cualquier competencia ministerial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Las competencias siguen delimitadas por la norma.",
+      "errorType": "exceso-duda",
+      "reviewTarget": "G12, jerarquía"
+    },
+    {
+      "text": "La adscripción relaciona la entidad con la Secretaría competente, pero no la convierte por ello en una dirección general.",
+      "isCorrect": true,
+      "feedback": "Correcto. La norma distingue órganos del departamento y entidades adscritas."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-019",
+    "clm-g-12-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+      "location": "arts. 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q008."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

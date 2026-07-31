@@ -1,0 +1,105 @@
+{
+  "id": "G14",
+  "themeId": "g-14",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Leyes, normas con fuerza de ley y reglamentos",
+  "learningOutcomes": [
+    "Distinguir una ley orgánica, un decreto legislativo, un decreto-ley y un reglamento por sus presupuestos y límites.",
+    "Seleccionar la forma de delegación legislativa que corresponde a un texto articulado o a un texto refundido.",
+    "Resolver conflictos básicos de reserva de ley y jerarquía reglamentaria sin confundir rango, órgano y nombre formal.",
+    "Separar los principios generales del derecho de los principios de buena regulación."
+  ],
+  "decisions": [
+    "Comprobar si la materia está reservada a ley orgánica.",
+    "Determinar si el Gobierno actúa por delegación legislativa, por extraordinaria y urgente necesidad o mediante potestad reglamentaria.",
+    "Identificar la ley habilitante y los límites temporales y materiales de una delegación.",
+    "Comprobar la convalidación o derogación parlamentaria de un decreto-ley dentro del plazo constitucional.",
+    "Comparar el rango de dos reglamentos estatales antes de aplicar uno.",
+    "Distinguir una fuente subsidiaria del ordenamiento de un principio que guía la elaboración normativa."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La Ley. Tipos de leyes",
+      "objective": "Reconocer la ley orgánica por su materia y por la mayoría exigida para su aprobación, modificación o derogación.",
+      "sectionId": "g14-leyes",
+      "activityIds": [
+        "g-14-q001"
+      ]
+    },
+    {
+      "officialClause": "Disposiciones del Gobierno con fuerza de ley: decreto-ley y decreto legislativo",
+      "objective": "Diferenciar legislación delegada y legislación provisional, con sus presupuestos, límites y controles.",
+      "sectionId": "g14-fuerza-ley",
+      "activityIds": [
+        "g-14-q002",
+        "g-14-q003",
+        "g-14-q004",
+        "g-14-q005"
+      ]
+    },
+    {
+      "officialClause": "El Reglamento: concepto, clases y límites",
+      "objective": "Aplicar la potestad reglamentaria, la reserva de ley y la jerarquía entre reales decretos y órdenes ministeriales.",
+      "sectionId": "g14-reglamentos",
+      "activityIds": [
+        "g-14-q006",
+        "g-14-q007"
+      ]
+    },
+    {
+      "officialClause": "Los principios generales del Derecho",
+      "objective": "Distinguir su función jurídica de los principios de buena regulación que ordenan la iniciativa normativa.",
+      "sectionId": "g14-principios",
+      "activityIds": [
+        "g-14-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G14/lesson.md",
+  "reviewSheetPath": "content-source/modules/G14/review.md",
+  "normativeClaimIds": [
+    "clm-g-14-001",
+    "clm-g-14-002",
+    "clm-g-14-003",
+    "clm-g-14-004",
+    "clm-g-14-005",
+    "clm-g-14-006",
+    "clm-g-14-007",
+    "clm-g-14-008",
+    "clm-g-14-009",
+    "clm-g-14-010",
+    "clm-g-14-011",
+    "clm-g-14-012",
+    "clm-g-14-013"
+  ],
+  "questionIds": [
+    "g-14-q001",
+    "g-14-q002",
+    "g-14-q003",
+    "g-14-q004",
+    "g-14-q005",
+    "g-14-q006",
+    "g-14-q007",
+    "g-14-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

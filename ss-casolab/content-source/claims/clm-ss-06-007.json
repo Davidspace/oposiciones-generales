@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-007",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "Las providencias contra un mismo responsable se acumulan salvo segregación necesaria; la previsión de intereses y costas tiene límites reglamentarios y el exceso de cobro se restituye inmediatamente salvo embargo u orden de retención.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a87",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 87.2 a 87.4",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2015-07-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q003"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

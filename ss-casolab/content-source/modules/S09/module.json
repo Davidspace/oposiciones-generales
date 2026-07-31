@@ -1,0 +1,140 @@
+{
+  "id": "S09",
+  "themeId": "ss-09",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Nacimiento, cuidados y prestaciones familiares",
+  "learningOutcomes": [
+    "Identificar las situaciones protegidas de nacimiento y cuidado de menor.",
+    "Distinguir corresponsabilidad, riesgo durante embarazo y riesgo durante lactancia.",
+    "Clasificar las prestaciones familiares por su modalidad.",
+    "Aplicar el presupuesto del subsidio por cuidado de menor con enfermedad grave.",
+    "Evitar confundir permiso laboral, suspensión contractual y prestación económica."
+  ],
+  "decisions": [
+    "Nombrar el hecho causante antes de buscar la prestación.",
+    "Comprobar la persona beneficiaria y la situación de alta.",
+    "Separar nacimiento y cuidado de menor de corresponsabilidad del lactante.",
+    "Verificar si el puesto se puede adaptar antes de reconocer un riesgo protegido.",
+    "Comprobar reducción de jornada y cuidado directo en enfermedad grave."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Nacimiento y cuidado de menor",
+      "objective": "La prestación protege las situaciones de nacimiento, adopción, guarda con fines de adopción y acogimiento en los términos de la ley. Identifica primero el hecho causante y después el periodo de suspensión y la prestación.",
+      "sectionId": "ss09-nacimiento-1",
+      "activityIds": [
+        "ss-09-q001"
+      ]
+    },
+    {
+      "officialClause": "Corresponsabilidad y lactante",
+      "objective": "El ejercicio corresponsable del cuidado del lactante tiene un presupuesto y una prestación propios. No se confunde con el nacimiento y cuidado de menor ni con el permiso retribuido general.",
+      "sectionId": "ss09-corresponsable-2",
+      "activityIds": [
+        "ss-09-q002"
+      ]
+    },
+    {
+      "officialClause": "Riesgo durante embarazo y lactancia",
+      "objective": "El riesgo durante el embarazo o la lactancia natural protege la suspensión del contrato cuando el puesto presenta un riesgo y no es posible adaptar o cambiar el puesto en los términos legales.",
+      "sectionId": "ss09-riesgos-3",
+      "activityIds": [
+        "ss-09-q003"
+      ]
+    },
+    {
+      "officialClause": "Prestaciones familiares",
+      "objective": "Las prestaciones familiares deben clasificarse por modalidad y presupuesto: contributiva, no contributiva o pago único. No atribuyas una prestación por el mero hecho de existir una carga familiar.",
+      "sectionId": "ss09-familia-4",
+      "activityIds": [
+        "ss-09-q004"
+      ]
+    },
+    {
+      "officialClause": "Cuidado de menor con enfermedad grave",
+      "objective": "El subsidio por cuidado de menores afectados por cáncer u otra enfermedad grave exige reducción de jornada y los demás requisitos legales. Su hecho causante no es idéntico al de nacimiento y cuidado.",
+      "sectionId": "ss09-cuidados-5",
+      "activityIds": [
+        "ss-09-q005"
+      ]
+    },
+    {
+      "officialClause": "Nacimiento y cuidado de menor",
+      "objective": "La prestación protege las situaciones de nacimiento, adopción, guarda con fines de adopción y acogimiento en los términos de la ley. Identifica primero el hecho causante y después el periodo de suspensión y la prestación.",
+      "sectionId": "ss09-nacimiento-6",
+      "activityIds": [
+        "ss-09-q006"
+      ]
+    },
+    {
+      "officialClause": "Corresponsabilidad y lactante",
+      "objective": "El ejercicio corresponsable del cuidado del lactante tiene un presupuesto y una prestación propios. No se confunde con el nacimiento y cuidado de menor ni con el permiso retribuido general.",
+      "sectionId": "ss09-corresponsable-7",
+      "activityIds": [
+        "ss-09-q007"
+      ]
+    },
+    {
+      "officialClause": "Riesgo durante embarazo y lactancia",
+      "objective": "El riesgo durante el embarazo o la lactancia natural protege la suspensión del contrato cuando el puesto presenta un riesgo y no es posible adaptar o cambiar el puesto en los términos legales.",
+      "sectionId": "ss09-riesgos-8",
+      "activityIds": [
+        "ss-09-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S09/lesson.md",
+  "reviewSheetPath": "content-source/modules/S09/review.md",
+  "normativeClaimIds": [
+    "clm-ss-09-001",
+    "clm-ss-09-002",
+    "clm-ss-09-003",
+    "clm-ss-09-004",
+    "clm-ss-09-005",
+    "clm-ss-09-006",
+    "clm-ss-09-007",
+    "clm-ss-09-008",
+    "clm-ss-09-009",
+    "clm-ss-09-010",
+    "clm-ss-09-011",
+    "clm-ss-09-012",
+    "clm-ss-09-013",
+    "clm-ss-09-014",
+    "clm-ss-09-015",
+    "clm-ss-09-016",
+    "clm-ss-09-017",
+    "clm-ss-09-018",
+    "clm-ss-09-019",
+    "clm-ss-09-020"
+  ],
+  "questionIds": [
+    "ss-09-q001",
+    "ss-09-q002",
+    "ss-09-q003",
+    "ss-09-q004",
+    "ss-09-q005",
+    "ss-09-q006",
+    "ss-09-q007",
+    "ss-09-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S09 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

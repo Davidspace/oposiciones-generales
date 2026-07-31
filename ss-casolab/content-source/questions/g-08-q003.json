@@ -1,0 +1,76 @@
+{
+  "id": "g-08-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+  "competency": "Clasificar órganos centrales y ordenar su dependencia y categoría.",
+  "difficulty": "medium",
+  "prompt": "¿Qué afirmación sobre la estructura interna de un Ministerio es correcta?",
+  "options": [
+    {
+      "text": "El Subdirector general es órgano superior y alto cargo en todo caso, por situarse al frente de una unidad.",
+      "isCorrect": false,
+      "feedback": "El Subdirector general es órgano directivo y está exceptuado de la condición de alto cargo junto con sus asimilados.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, clasificación y condición del Subdirector general"
+    },
+    {
+      "text": "Todo Ministerio debe contar con una Secretaría General, pero la Subsecretaría es facultativa.",
+      "isCorrect": false,
+      "feedback": "La regla es la inversa: todo Ministerio tiene Subsecretaría y Secretaría General Técnica; la Secretaría General puede existir si la estructura la prevé.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G08, órganos obligatorios y facultativos del Ministerio"
+    },
+    {
+      "text": "Ministro y Secretario de Estado son órganos superiores; el Subsecretario es directivo, el Secretario general tiene categoría de Subsecretario y el Secretario general técnico categoría de Director general.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción combina la clasificación del artículo 55 con las categorías y el orden jerárquico del artículo 60."
+    },
+    {
+      "text": "El Secretario general técnico es superior jerárquico directo del Ministro por su función normativa.",
+      "isCorrect": false,
+      "feedback": "El Ministro encabeza el departamento; el Secretario general técnico depende inmediatamente del Subsecretario y tiene categoría de Director general.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G08, jerarquía del Secretario general técnico"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-005",
+    "clm-g-08-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 55 y 57 a 60",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

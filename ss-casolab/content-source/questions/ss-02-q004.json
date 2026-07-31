@@ -1,0 +1,76 @@
+{
+  "id": "ss-02-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Régimen General: exclusiones",
+  "competency": "Aplicar conjuntamente los elementos de una exclusión",
+  "difficulty": "medium",
+  "prompt": "Una vecina ayuda una única tarde, sin retribución, a trasladar muebles por buena vecindad. ¿Qué dato resulta decisivo para aplicar el artículo 137.a del TRLGSS?",
+  "options": [
+    {
+      "text": "Que dura menos de una jornada, porque todo trabajo breve está excluido del Régimen General.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La duración breve no basta; un servicio laboral de corta duración puede generar inclusión si no reúne los caracteres del artículo 137.a.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S02, apartado 2.4: elementos acumulativos de la exclusión"
+    },
+    {
+      "text": "Que se presta en una vivienda, porque todos los trabajos domésticos están excluidos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los servicios domésticos contratados pueden quedar incluidos en el Sistema Especial para Empleados de Hogar; el lugar no decide solo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartados 2.4 y 4.1: exclusión frente a sistema de hogar"
+    },
+    {
+      "text": "Que concurren conjuntamente la ejecución ocasional y el carácter amistoso, benévolo o de buena vecindad del servicio.",
+      "isCorrect": true,
+      "feedback": "Correcto. La exclusión no depende de una sola etiqueta: el precepto combina ocasionalidad y naturaleza amistosa, benévola o vecinal."
+    },
+    {
+      "text": "Que la persona interesada declare unilateralmente que su trabajo es marginal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La exclusión por marginalidad del artículo 7.5 no nace de una declaración unilateral y, además, es distinta de la exclusión del artículo 137.a.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S02, apartados 1.1 y 2.4: marginalidad frente a servicio benévolo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-007",
+    "clm-ss-02-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a137",
+      "location": "TRLGSS, artículo 137.a), en relación con el artículo 7.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial con cuatro feedbacks específicos; revisiones humanas pendientes."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

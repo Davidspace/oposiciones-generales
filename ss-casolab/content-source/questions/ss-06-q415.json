@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q415",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "CP02 — decisión 15",
+  "competency": "Distinguir la intervenciÃ³n de un tercero en el embargo",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe comprobarse si los bienes embargados estÃ¡n depositados por un tercero?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir la intervenciã³n de un tercero en el embargo.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, embargo y depÃ³sito.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Distinguir la intervenciÃ³n de un tercero en el embargo"
+    },
+    {
+      "text": "La titularidad, la custodia y las obligaciones del tercero dentro del procedimiento de apremio.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La titularidad, la custodia y las obligaciones del tercero dentro del procedimiento de apremio."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, embargo y depÃ³sito.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Distinguir la intervenciÃ³n de un tercero en el embargo"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, embargo y depÃ³sito.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Distinguir la intervenciÃ³n de un tercero en el embargo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-415"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "Reglamento general de recaudaciÃ³n, embargo y depÃ³sito",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

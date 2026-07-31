@@ -1,0 +1,76 @@
+{
+  "id": "g-23-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Documento",
+  "competency": "Distinguir documento electrónico y archivo",
+  "difficulty": "medium",
+  "prompt": "Un órgano genera una resolución en formato electrónico con identificación y metadatos. ¿Qué debe comprobar?",
+  "options": [
+    {
+      "text": "Que se imprima siempre para ser válida.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La impresión no es requisito universal.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G23, documento"
+    },
+    {
+      "text": "Que se publique en una red social.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Publicación y documento electrónico son planos distintos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, documento"
+    },
+    {
+      "text": "Que no pueda ser firmado ni identificado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La identificación y autenticidad son esenciales.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G23, documento"
+    },
+    {
+      "text": "Que cumple los requisitos legales de documento administrativo electrónico y se conserva en soporte electrónico.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 26 exige forma electrónica y archivo conforme al ordenamiento."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-007",
+    "clm-g-23-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "art. 26 Ley 39/2015",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

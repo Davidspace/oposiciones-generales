@@ -1,0 +1,146 @@
+{
+  "id": "G05",
+  "themeId": "g-05",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Cortes Generales y Defensor del Pueblo",
+  "learningOutcomes": [
+    "Explicar la posición constitucional y las atribuciones básicas de las Cortes Generales.",
+    "Distinguir la composición y el sistema de elección del Congreso y del Senado.",
+    "Aplicar las reglas básicas del estatuto de Diputados y Senadores.",
+    "Diferenciar Pleno, Comisiones y Diputaciones Permanentes y aplicar sus reglas de funcionamiento.",
+    "Ordenar la iniciativa y la tramitación legislativa entre Congreso, Senado y Rey.",
+    "Describir la elección, el estatuto y los adjuntos del Defensor del Pueblo.",
+    "Determinar quién puede solicitar la intervención del Defensor del Pueblo y cómo se tramita una queja.",
+    "Distinguir las recomendaciones e informes del Defensor del Pueblo de una resolución judicial o administrativa."
+  ],
+  "decisions": [
+    "Asignar una atribución al Congreso, al Senado, a ambas Cámaras o a las Cortes reunidas conjuntamente.",
+    "Calcular la representación constitucional básica de una circunscripción del Congreso o del Senado.",
+    "Separar inviolabilidad, inmunidad, autorización de la Cámara y aforamiento.",
+    "Elegir entre Pleno, Comisión y Diputación Permanente según el asunto y el momento parlamentario.",
+    "Comprobar convocatoria, cuórum, mayoría y carácter personal del voto.",
+    "Ordenar iniciativa, deliberación del Senado, superación del veto y sanción real.",
+    "Aplicar las mayorías y los plazos de elección del Defensor del Pueblo.",
+    "Decidir si una queja es admisible y qué actuación puede adoptar el Defensor del Pueblo."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El poder legislativo",
+      "objective": "Reconocer la representación, la estructura bicameral y las atribuciones constitucionales básicas de las Cortes Generales.",
+      "sectionId": "g05-posicion-atribuciones",
+      "activityIds": [
+        "g-05-q001"
+      ]
+    },
+    {
+      "officialClause": "Composición",
+      "objective": "Distinguir la composición del Congreso y del Senado, incluida la reforma insular vigente en 2026.",
+      "sectionId": "g05-composicion",
+      "activityIds": [
+        "g-05-q002"
+      ]
+    },
+    {
+      "officialClause": "Composición",
+      "objective": "Aplicar el estatuto constitucional de Diputados y Senadores.",
+      "sectionId": "g05-estatuto-parlamentario",
+      "activityIds": [
+        "g-05-q003"
+      ]
+    },
+    {
+      "officialClause": "Funcionamiento",
+      "objective": "Distinguir órganos, períodos de sesiones, delegación legislativa, continuidad y reglas de adopción de acuerdos.",
+      "sectionId": "g05-organizacion-funcionamiento",
+      "activityIds": [
+        "g-05-q004"
+      ]
+    },
+    {
+      "officialClause": "Atribuciones",
+      "objective": "Ordenar la iniciativa y el procedimiento legislativo, incluido el veto del Senado.",
+      "sectionId": "g05-procedimiento-legislativo",
+      "activityIds": [
+        "g-05-q005"
+      ]
+    },
+    {
+      "officialClause": "El Defensor del Pueblo",
+      "objective": "Aplicar la naturaleza, elección, estatuto y sustitución del Defensor del Pueblo.",
+      "sectionId": "g05-defensor-eleccion-estatuto",
+      "activityIds": [
+        "g-05-q006"
+      ]
+    },
+    {
+      "officialClause": "El Defensor del Pueblo",
+      "objective": "Determinar la legitimación, los requisitos y la tramitación básica de una queja.",
+      "sectionId": "g05-defensor-procedimiento",
+      "activityIds": [
+        "g-05-q007"
+      ]
+    },
+    {
+      "officialClause": "El Defensor del Pueblo",
+      "objective": "Distinguir investigación, colaboración, recomendaciones, recursos constitucionales e informes.",
+      "sectionId": "g05-defensor-resoluciones",
+      "activityIds": [
+        "g-05-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G05/lesson.md",
+  "reviewSheetPath": "content-source/modules/G05/review.md",
+  "normativeClaimIds": [
+    "clm-g-05-001",
+    "clm-g-05-002",
+    "clm-g-05-003",
+    "clm-g-05-004",
+    "clm-g-05-005",
+    "clm-g-05-006",
+    "clm-g-05-007",
+    "clm-g-05-008",
+    "clm-g-05-009",
+    "clm-g-05-010",
+    "clm-g-05-011",
+    "clm-g-05-012",
+    "clm-g-05-013",
+    "clm-g-05-014",
+    "clm-g-05-015",
+    "clm-g-05-016",
+    "clm-g-05-017",
+    "clm-g-05-018",
+    "clm-g-05-019",
+    "clm-g-05-020"
+  ],
+  "questionIds": [
+    "g-05-q001",
+    "g-05-q002",
+    "g-05-q003",
+    "g-05-q004",
+    "g-05-q005",
+    "g-05-q006",
+    "g-05-q007",
+    "g-05-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y de su mapa Cámara-órgano-procedimiento-Defensor del Pueblo."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

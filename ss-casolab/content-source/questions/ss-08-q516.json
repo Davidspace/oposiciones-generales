@@ -1,0 +1,75 @@
+{
+  "id": "ss-08-q516",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "CP03 — decisión 16",
+  "competency": "Ordenar la transiciÃ³n entre incapacidad temporal y permanente",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© orden de anÃ¡lisis es correcto?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar ordenar la transiciã³n entre incapacidad temporal y permanente.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 169, 174 y 193.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP03: Ordenar la transiciÃ³n entre incapacidad temporal y permanente"
+    },
+    {
+      "text": "Primero se identifica la situaciÃ³n temporal y sus efectos; despuÃ©s se valora si procede iniciar o resolver la permanente.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Primero se identifica la situaciÃ³n temporal y sus efectos; despuÃ©s se valora si procede iniciar o resolver la permanente."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 169, 174 y 193.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP03: Ordenar la transiciÃ³n entre incapacidad temporal y permanente"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 169, 174 y 193.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP03: Ordenar la transiciÃ³n entre incapacidad temporal y permanente"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-516"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culos 169, 174 y 193",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP03, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

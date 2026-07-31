@@ -1,0 +1,79 @@
+Quiero que actúes como *diseñador/a web + UX writer + SEO* y me entregues una *landing responsive* (una sola página) para *LORMAN ACADEMIA* (escrito sin tilde: “ACADEMIA”), servicio de *suscripción mensual para preparar TCAE (SAS Andalucía)*.
+
+### Marca, tono y diseño
+
+* Nombre: *LORMAN ACADEMIA* (sin tilde).
+* Tono: cercano, claro, motivador.
+* Estilo: moderno, limpio, mobile-first, con micro-interacciones suaves.
+* Accesibilidad: contraste AA, foco visible, textos alternativos.
+* Incluye *Title SEO (≤60)* y *Meta description (≤160)*.
+* Paleta sugerida: Verde principal #0EA5A4, Gris oscuro #1F2937, Gris claro #F3F4F6, Acento #F59E0B.
+
+Propuesta de valor y el precio del curso
+
+* *22,50 €/mes*.
+* Cada mes: *3 temas* del temario TCAE Andalucía → *1 común + 2 específicos*.
+
+### Contenidos de cada tema (detállalos en la web con iconos)
+
+* *Clase de explicación en vídeo*.
+* *Tema en PDF, **resumen* y *esquema*.
+* *Reglas nemotécnicas*.
+* *Recursos extra* de las partes más difíciles usando *técnicas de memorización* (explica y ejemplifica):
+
+  * códigos de *colores* por epígrafes,
+  * *mapas mentales*,
+  * *palacio de la memoria*,
+  * *acró nimos* y reglas,
+  * *dual coding* (texto + pictogramas),
+  * *repetición espaciada* y *flashcards*.
+* *MUCHÍSIMOS test tipo examen: **2 autoevaluaciones por tema, **mínimo 100 preguntas cada una* lo que da *200+ preguntas por tema*
+
+  * Resalta que están *redactadas y calibradas como en los exámenes del SAS*.
+
+### Clases extra y adaptación a convocatoria
+
+* *Dos clases extra al mes*:
+
+  1. *Directo de dudas* desde el aula virtual. Si alguien no puede asistir o quiere repasar, **la clase se graba y se sube* para acceso de todo el alumnado.
+  2. *Repaso de fallos más comunes* y *preguntas típicas de examen* de los temas del mes.
+* *Si la convocatoria sale antes* de terminar el plan, *ajustad el calendario* para cubrir lo exigido.
+* *Si sale después, dedicar **los meses siguientes a simulacros completos*.
+
+### Soporte y contacto (obligatorio mostrar)
+
+* *Asistencia técnica 24/7*.
+* *Teléfono/WhatsApp de información: 640 786 806* (muestra el número y añade *botón* que abra https://wa.me/34640786806?text=Hola%20LORMAN%20ACADEMIA%2C%20quisiera%20informaci%C3%B3n).
+* *Correo de información:* manuelaprofesas@gmail.com.
+
+### Pagos (integrar en la sección “Precio”)
+
+* Plan único: *22,50 €/mes* con lista de todo lo incluido.
+* *PayPal: botón de pago a la cuenta *albamay99@gmail.com**.
+* *Bizum: **incrusta el número 627091426 pero NO lo muestres en pantalla*.
+
+  * Implementa botón “*Copiar Bizum” que copia el número al portapapeles (sin revelarlo visualmente) y otro botón “Pedir enlace por WhatsApp*” que abre el chat al 640 786 806.
+* (Opcional) texto “sin permanencia” si encaja.
+* Indicar que diferentes métodos de pago se pueden estudiar hablando por WhatsApp. Añadir otro botón que mande al WhatsApp mencionado previamente
+
+### Estructura de la landing (con anclas)
+
+1. *Hero* — titular potente, subtítulo y CTA “Empezar por 22,50 €/mes”.
+2. *Cómo funciona* — pasos mensuales (publicación de 3 temas → estudio con materiales → 200+ preguntas/tema → directos y repaso).
+3. *Qué incluye cada tema* — tarjetas con iconos.
+4. *Metodología de memorización* — explica técnicas y beneficios.
+5. *Calendario y adaptación a convocatoria* — bloque claro.
+6. *Precio y métodos de pago* — PayPal + Bizum (oculto/copia), recordatorio de *muchísimos test tipo examen*.
+7. *Testimonios* (placeholders).
+8. *FAQ* (mín. 6): directos grabados, baja, nivel, cuándo se publican los temas, cómo son los test, simulacros.
+9. *CTA final* — botón a pago y botón WhatsApp.
+10. *Contacto* — teléfono/WhatsApp, email, mención *asistencia técnica 24/7*.
+
+### Requisitos técnicos
+
+* Código *limpio, semántico y **responsive*.
+* Botón WhatsApp funcional al número *640 786 806*.
+* Formulario/botón *PayPal* operativo con albamay99@gmail.com.
+* Lógica JS para *copiar Bizum (627091426) sin mostrarlo* y feedback “copiado”.
+* Anchors: #como, #incluye, #metodo, #precio, #faq, #contacto.
+* Texto “LORMAN ACADEMIA” siempre *sin tilde*.

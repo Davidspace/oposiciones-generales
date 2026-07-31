@@ -1,0 +1,107 @@
+{
+  "id": "MC03",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Primera liquidación de una plantilla",
+  "scenario": "Una empresa de nueva creación inicia su actividad el 1 de noviembre de 2026. Tiene tres personas trabajadoras en el Régimen General y abona una paga extraordinaria en junio y diciembre. La empresa debe preparar la primera liquidación de cuotas y comunicar cualquier incidencia de la plantilla.",
+  "originality": "original",
+  "assumptions": [
+    "Las tres personas están incluidas en el Régimen General y no pertenecen a un sistema especial.",
+    "La empresa está inscrita y dispone de un código de cuenta de cotización válido.",
+    "Las retribuciones descritas son salariales y no existe una bonificación no indicada.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-04"
+  ],
+  "competencies": [
+    "Identificar el sujeto responsable del ingreso de las cuotas.",
+    "Determinar los conceptos retributivos que integran la base de cotización.",
+    "Aplicar el periodo ordinario de liquidación y pago.",
+    "Distinguir la aportación empresarial de la aportación de la persona trabajadora.",
+    "Reconocer la obligación de comunicar una variación relevante de la plantilla."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-04",
+      "competency": "Identificar el sujeto responsable del ingreso de las cuotas.",
+      "questionIds": [
+        "ss-04-q301"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Determinar los conceptos retributivos que integran la base de cotización.",
+      "questionIds": [
+        "ss-04-q302"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Aplicar el periodo ordinario de liquidación y pago.",
+      "questionIds": [
+        "ss-04-q303"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Distinguir la aportación empresarial de la aportación de la persona trabajadora.",
+      "questionIds": [
+        "ss-04-q304"
+      ]
+    },
+    {
+      "themeId": "ss-04",
+      "competency": "Reconocer la obligación de comunicar una variación relevante de la plantilla.",
+      "questionIds": [
+        "ss-04-q305"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-04-q301",
+    "ss-04-q302",
+    "ss-04-q303",
+    "ss-04-q304",
+    "ss-04-q305"
+  ],
+  "consistencyRules": [
+    "Todas las decisiones usan noviembre de 2026 como primer periodo liquidable.",
+    "La paga extraordinaria se integra mediante la prorrata que corresponda.",
+    "El empresario mantiene la responsabilidad del ingreso de las cuotas propias y de las personas trabajadoras."
+  ],
+  "durationMinutes": 12,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "medium",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-04-101",
+    "clm-ss-04-102",
+    "clm-ss-04-103",
+    "clm-ss-04-104",
+    "clm-ss-04-105"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC03 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

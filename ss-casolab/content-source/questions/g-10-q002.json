@@ -1,0 +1,76 @@
+{
+  "id": "g-10-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Consejo: votación y funcionamiento",
+  "competency": "Aplicar la mayoría cualificada ordinaria y la publicidad legislativa del Consejo.",
+  "difficulty": "medium",
+  "prompt": "En una votación ordinaria del Consejo sobre un proyecto legislativo se alcanzan el 55 % de miembros —al menos quince— y el 65 % de población. Solo tres miembros forman la oposición. ¿Qué conclusión es correcta?",
+  "options": [
+    {
+      "text": "La propuesta queda bloqueada porque cualquier grupo de tres Estados constituye minoría de bloqueo.",
+      "isCorrect": false,
+      "feedback": "La minoría de bloqueo ordinaria exige al menos cuatro miembros del Consejo. Tres no bastan si se cumplen los umbrales de mayoría.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G10, minoría de bloqueo"
+    },
+    {
+      "text": "La mayoría cualificada se alcanza y la deliberación y el voto sobre el proyecto legislativo deben ser públicos.",
+      "isCorrect": true,
+      "feedback": "Correcto. Se cumplen los dos umbrales y tres miembros no forman la minoría de bloqueo mínima de cuatro; además, la fase legislativa es pública."
+    },
+    {
+      "text": "La votación exige unanimidad por tratarse de un acto legislativo.",
+      "isCorrect": false,
+      "feedback": "La regla general del Consejo es la mayoría cualificada. La unanimidad solo se exige cuando un precepto específico de los Tratados así lo dispone.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G10, regla general de votación"
+    },
+    {
+      "text": "Puede alcanzarse la mayoría, pero toda deliberación del Consejo es secreta, también la legislativa.",
+      "isCorrect": false,
+      "feedback": "El Consejo debe reunirse en público cuando delibera y vota sobre un proyecto de acto legislativo.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G10, publicidad del Consejo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-002",
+    "clm-g-10-003"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_16/oj/spa",
+      "location": "artículo 16 TUE, apartados 3, 4 y 8",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

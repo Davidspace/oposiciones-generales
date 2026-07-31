@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q103",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "RETA: actividad habitual por cuenta propia",
+  "competency": "Encuadrar una actividad habitual por cuenta propia en el RETA",
+  "difficulty": "medium",
+  "prompt": "¿En qué régimen debe encuadrarse el servicio propio de reparación de bicicletas?",
+  "options": [
+    {
+      "text": "En el Régimen General, porque toda segunda actividad de una persona asalariada se acumula a su empleo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La existencia del empleo no altera la naturaleza autónoma de la reparación; el artículo 305.1 exige encuadrarla por sus propios rasgos.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S02, apartado 3.1: norma de entrada del trabajo por cuenta propia."
+    },
+    {
+      "text": "En el RETA, porque se realiza de forma habitual, personal, directa, lucrativa, por cuenta propia y fuera de la organización de otra persona.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los hechos reproducen los elementos generales de inclusión obligatoria que establece el artículo 305.1 para el RETA."
+    },
+    {
+      "text": "En el Sistema Especial para Trabajadores por Cuenta Propia Agrarios, porque todos los autónomos pertenecen a ese sistema.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El caso no contiene actividad agraria y ese sistema especial no comprende a todas las personas incluidas en el RETA.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 4.1: sistemas especiales y régimen de pertenencia."
+    },
+    {
+      "text": "En el régimen que la persona prefiera, porque ya está incluida en el Régimen General.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El alta se determina por la naturaleza de la actividad; la afiliación previa o el alta en otro régimen no crean una opción libre.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartados 2.1 y 3.1: encuadramiento por actividad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a305",
+      "location": "TRLGSS, artículo 305.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de decisión conectada con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

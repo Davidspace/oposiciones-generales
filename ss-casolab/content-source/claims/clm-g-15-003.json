@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-15-003",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "Los actos administrativos se producen por escrito a través de medios electrónicos, salvo que su naturaleza exija otra forma más adecuada de expresión y constancia; la ley regula además la constancia de actos verbales y la agrupación de actos homogéneos con efectos individualizados.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 36.1 a 36.3",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15",
+    "g-15-q003"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

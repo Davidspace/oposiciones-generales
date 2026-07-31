@@ -1,0 +1,69 @@
+{
+  "id": "g-13-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "Las fuentes del Derecho Administrativo",
+  "competency": "aplicar la regla de incorporación de normas contenidas en tratados",
+  "difficulty": "medium",
+  "prompt": "Según el artículo 1.5 del Código Civil, ¿qué dato es necesario para que las normas jurídicas contenidas en un tratado internacional sean de aplicación directa en España?",
+  "options": [
+    {
+      "text": "Que hayan pasado a formar parte del ordenamiento interno mediante su publicación íntegra en el BOE.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la condición formulada por el artículo 1.5 para la aplicación directa."
+    },
+    {
+      "text": "Que el tratado haya sido firmado, aunque todavía no se haya publicado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La mera firma no satisface la incorporación mediante publicación íntegra que exige el artículo 1.5.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G13, apartado 4.1 «Tratados internacionales»"
+    },
+    {
+      "text": "Que una Administración lo mencione en una resolución individual.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una resolución administrativa individual no sustituye el requisito de incorporación y publicación íntegra previsto en el Código Civil.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G13, apartado 4.1 «Tratados internacionales»"
+    },
+    {
+      "text": "Que cada uno de sus artículos se reproduzca después en una ley española distinta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.5 exige incorporación mediante publicación íntegra en el BOE; no exige que otra ley reproduzca artículo por artículo el tratado.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G13, apartado 4.1 «Tratados internacionales»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.5",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

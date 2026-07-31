@@ -1,0 +1,146 @@
+{
+  "id": "S06",
+  "themeId": "ss-06",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Recaudación en vía ejecutiva",
+  "learningOutcomes": [
+    "Situar el inicio del período ejecutivo y reconocer la competencia de la Tesorería General de la Seguridad Social.",
+    "Distinguir la providencia de apremio de la reclamación de deuda y del acta de liquidación.",
+    "Aplicar los motivos tasados de oposición y sus efectos suspensivos.",
+    "Ordenar la ejecución de garantías y el embargo con criterios de suficiencia, proporcionalidad y menor onerosidad.",
+    "Diferenciar valoración, tipo de enajenación y modalidades de realización de los bienes embargados.",
+    "Explicar por qué la calificación de un crédito como incobrable no extingue por sí sola la deuda.",
+    "Resolver los efectos distintos de la tercería de dominio y la tercería de mejor derecho."
+  ],
+  "decisions": [
+    "Comprobar si existe una providencia de apremio válida y qué deuda identifica.",
+    "Determinar si la providencia puede dictarse directamente o exige una reclamación de deuda o acta de liquidación firme.",
+    "Clasificar la impugnación como recurso contra la providencia o contra otro acto ejecutivo antes de decidir si suspende.",
+    "Ejecutar primero la garantía suficiente y después seleccionar bienes embargables hasta cubrir la deuda y sus accesorios.",
+    "Aplicar el orden de embargo por facilidad de enajenación y menor onerosidad, respetando los límites legales.",
+    "Separar la valoración del bien, el tipo de enajenación y la modalidad elegida.",
+    "Tratar el crédito incobrable como una situación revisable hasta que prescriba la acción de cobro.",
+    "Identificar si el tercero reivindica el dominio del bien o la preferencia de su crédito y aplicar el efecto correspondiente."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La recaudación en vía ejecutiva. Normas generales",
+      "objective": "Identificar la competencia de la TGSS, el comienzo del período ejecutivo y el impulso de oficio.",
+      "sectionId": "s06-normas-generales",
+      "activityIds": [
+        "ss-06-q001"
+      ]
+    },
+    {
+      "officialClause": "Iniciación y título ejecutivo. La providencia de apremio",
+      "objective": "Distinguir los presupuestos, la naturaleza y el contenido mínimo de la providencia de apremio.",
+      "sectionId": "s06-iniciacion-providencia",
+      "activityIds": [
+        "ss-06-q001"
+      ]
+    },
+    {
+      "officialClause": "Oposición y efectos",
+      "objective": "Aplicar los motivos tasados y diferenciar la suspensión del recurso contra la providencia de la impugnación de otros actos.",
+      "sectionId": "s06-oposicion",
+      "activityIds": [
+        "ss-06-q002"
+      ]
+    },
+    {
+      "officialClause": "El embargo de bienes",
+      "objective": "Resolver la ejecución de garantías, la selección de bienes, los límites y las diligencias de embargo.",
+      "sectionId": "s06-embargo",
+      "activityIds": [
+        "ss-06-q003",
+        "ss-06-q004",
+        "ss-06-q005"
+      ]
+    },
+    {
+      "officialClause": "Enajenación de bienes: modalidades",
+      "objective": "Distinguir valoración, tipo y formas ordinarias o excepcionales de enajenación.",
+      "sectionId": "s06-enajenacion",
+      "activityIds": [
+        "ss-06-q006"
+      ]
+    },
+    {
+      "officialClause": "Créditos incobrables",
+      "objective": "Determinar cuándo procede la calificación y qué efectos produce mientras no prescriba el cobro.",
+      "sectionId": "s06-incobrables",
+      "activityIds": [
+        "ss-06-q007"
+      ]
+    },
+    {
+      "officialClause": "Tercerías",
+      "objective": "Diferenciar clases, tramitación y efectos de las tercerías de dominio y de mejor derecho.",
+      "sectionId": "s06-tercerias",
+      "activityIds": [
+        "ss-06-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S06/lesson.md",
+  "reviewSheetPath": "content-source/modules/S06/review.md",
+  "normativeClaimIds": [
+    "clm-ss-06-001",
+    "clm-ss-06-002",
+    "clm-ss-06-003",
+    "clm-ss-06-004",
+    "clm-ss-06-005",
+    "clm-ss-06-006",
+    "clm-ss-06-007",
+    "clm-ss-06-008",
+    "clm-ss-06-009",
+    "clm-ss-06-010",
+    "clm-ss-06-011",
+    "clm-ss-06-012",
+    "clm-ss-06-013",
+    "clm-ss-06-014",
+    "clm-ss-06-015",
+    "clm-ss-06-016",
+    "clm-ss-06-017",
+    "clm-ss-06-018",
+    "clm-ss-06-019"
+  ],
+  "questionIds": [
+    "ss-06-q001",
+    "ss-06-q002",
+    "ss-06-q003",
+    "ss-06-q004",
+    "ss-06-q005",
+    "ss-06-q006",
+    "ss-06-q007",
+    "ss-06-q008"
+  ],
+  "microcaseIds": [
+    "MC04"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S06 con diecinueve afirmaciones y ocho preguntas; revisión humana pendiente."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

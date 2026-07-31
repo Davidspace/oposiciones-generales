@@ -1,0 +1,69 @@
+{
+  "id": "g-16-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Términos y plazos",
+  "competency": "aplicar las reglas generales de un plazo señalado por días",
+  "difficulty": "medium",
+  "prompt": "Una notificación fija un plazo de diez días sin declarar que sean naturales y no existe una regla legal o europea de cómputo distinta. ¿Cómo se computa?",
+  "options": [
+    {
+      "text": "Como días hábiles, excluyendo sábados, domingos y festivos, desde el día siguiente a la notificación; si el último es inhábil, se prorroga al primer hábil.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta combina las reglas de los apartados 2, 3 y 5 del artículo 30."
+    },
+    {
+      "text": "Como diez períodos de veinticuatro horas desde el minuto exacto de la notificación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa lógica se aproxima al cómputo por horas; el enunciado fija días y aplica la regla de días hábiles.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G16, apartados 7.1 y 7.2"
+    },
+    {
+      "text": "Como días naturales porque todos los plazos administrativos incluyen sábados y domingos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Sin una declaración legal o europea de días naturales, los días se entienden hábiles y se excluyen sábados, domingos y festivos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G16, apartado 7.1 «Horas y días»"
+    },
+    {
+      "text": "Desde el mismo día de la notificación y sin prórroga si el último día es inhábil.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cómputo empieza al día siguiente y el último día inhábil se desplaza al primer hábil siguiente.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G16, apartados 7.1 y 7.2"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 30.2, 30.3 y 30.5",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

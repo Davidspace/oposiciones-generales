@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-16-015",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "En procedimientos iniciados de oficio, la falta de resolución permite a comparecidos entender desestimadas sus pretensiones en procedimientos favorables y produce caducidad en procedimientos sancionadores o de intervención con posibles efectos desfavorables, sin eliminar la obligación de resolver.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 25.1",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16",
+    "g-16-q007"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

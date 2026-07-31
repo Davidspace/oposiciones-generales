@@ -1,0 +1,71 @@
+{
+  "id": "g-12-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-12"
+  ],
+  "epigraph": "Ordenación",
+  "competency": "Aplicar la función de la Dirección General de Ordenación",
+  "difficulty": "medium",
+  "prompt": "Una pregunta pide identificar quién interpreta las normas que afectan al sistema de Seguridad Social. ¿Qué respuesta es adecuada?",
+  "options": [
+    {
+      "text": "La Dirección General de Ordenación de la Seguridad Social.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 3.1.a le atribuye la ordenación jurídica y la elaboración e interpretación normativa."
+    },
+    {
+      "text": "La Intervención General, por ser el órgano contable.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El control contable no equivale a interpretar las normas del sistema.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G12, ordenación"
+    },
+    {
+      "text": "La Secretaría de Estado de Migraciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No tiene esa competencia material.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G12, ordenación"
+    },
+    {
+      "text": "La Tesorería General, por ser servicio común.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La adscripción no sustituye la competencia normativa atribuida.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G12, ordenación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-12-011",
+    "clm-g-12-012",
+    "clm-g-12-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-10237",
+      "location": "art. 3.1.a",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-12-q005."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "g-20-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Atención al público",
+  "competency": "aplicar orientación e información",
+  "difficulty": "medium",
+  "prompt": "Una ciudadana pregunta qué documentos y requisitos debe preparar para solicitar una prestación. ¿Qué respuesta encaja con la función de orientación e información?",
+  "options": [
+    {
+      "text": "Negarse siempre porque solo puede informar quien ya sea interesada en un expediente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La consulta es información general y no exige acreditar legitimación.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G20, información general"
+    },
+    {
+      "text": "Dictar una resolución favorable sobre la prestación durante la conversación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Orientar no equivale a resolver el procedimiento.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G20, funciones de atención"
+    },
+    {
+      "text": "Ofrecer aclaraciones prácticas sobre procedimiento, requisitos y documentación, sin resolver el expediente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La orientación e información explica trámites, requisitos y documentos; la decisión del expediente corresponde al órgano competente."
+    },
+    {
+      "text": "Exigir primero un recurso administrativo para poder explicar los requisitos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La información general se facilita sin recurso y sin legitimación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, artículo 2"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-002",
+    "clm-g-20-003",
+    "clm-g-20-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4997",
+      "location": "artículos 2 y 4.b",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Orientación sobre requisitos y documentación."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

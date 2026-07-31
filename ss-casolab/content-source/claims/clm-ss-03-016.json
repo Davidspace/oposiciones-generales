@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-016",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "El desempleo total con percepción de la prestación es situación asimilada al alta; también lo son, con cotización y con las excepciones legales, las vacaciones anuales retribuidas no disfrutadas antes de finalizar el contrato, mientras que excedencia forzosa, traslado al extranjero por la empresa y convenio especial pueden asimilarse para determinadas contingencias y condiciones.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+  "sourceLocation": "TRLGSS, artículo 166.1, 166.2 y 166.3",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q007", "CP01", "ss-03-q211"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "g-09-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "Instrumentos del artículo 150",
+  "competency": "Diferenciar ley marco, transferencia o delegación y armonización.",
+  "difficulty": "high",
+  "prompt": "El Estado quiere atribuir facultades estatales a una comunidad autónoma y asegurar medios financieros y controles. ¿Qué instrumento describe la Constitución?",
+  "options": [
+    {
+      "text": "Una ley orgánica de transferencia o delegación, que debe prever medios financieros y las formas de control reservadas al Estado.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa es la estructura del artículo 150.2; no debe confundirse con una ley marco ni con una ley de armonización."
+    },
+    {
+      "text": "Una ley marco ordinaria, porque toda atribución competencial requiere principios y directrices pero no medios financieros.",
+      "isCorrect": false,
+      "feedback": "La ley marco permite dictar normas legislativas dentro de directrices; la transferencia o delegación exige ley orgánica, medios financieros y controles.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G09, ley marco y transferencia"
+    },
+    {
+      "text": "Una ley de armonización, que siempre transfiere la titularidad estatal a la comunidad.",
+      "isCorrect": false,
+      "feedback": "La armonización fija principios por interés general; no transfiere por sí misma la titularidad ni las facultades estatales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, armonización"
+    },
+    {
+      "text": "Un acuerdo de cooperación entre comunidades, porque el Estado no puede reservar controles tras delegar.",
+      "isCorrect": false,
+      "feedback": "El artículo 150.2 permite al Estado reservar controles y exige ley orgánica; no es un acuerdo de cooperación autonómica.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G09, artículo 150.2"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-010",
+    "clm-g-09-011",
+    "clm-g-09-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 150",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original para separar los tres instrumentos del artículo 150."
+      }
+    ]
+  }
+}

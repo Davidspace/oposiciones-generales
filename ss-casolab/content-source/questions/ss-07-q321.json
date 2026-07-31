@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q321",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Tema 11. Muerte y supervivencia",
+  "competency": "Identificar las prestaciones de muerte y supervivencia.",
+  "difficulty": "high",
+  "prompt": "¿Qué bloque de acción protectora debe analizar la familia?",
+  "options": [
+    {
+      "text": "Solo la jubilación ordinaria.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, capítulo XIV del título II.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Identificar las prestaciones de muerte y supervivencia."
+    },
+    {
+      "text": "La cotización por desempleo.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, capítulo XIV del título II.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Identificar las prestaciones de muerte y supervivencia."
+    },
+    {
+      "text": "Las prestaciones de muerte y supervivencia.",
+      "isCorrect": true,
+      "feedback": "El fallecimiento activa el análisis de viudedad, orfandad y otras prestaciones de muerte y supervivencia."
+    },
+    {
+      "text": "La incapacidad temporal de la persona fallecida.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, capítulo XIV del título II.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Identificar las prestaciones de muerte y supervivencia."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-121"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, capítulo XIV del título II",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC07, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

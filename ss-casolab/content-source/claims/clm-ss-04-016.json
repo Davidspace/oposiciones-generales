@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-016",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "Las vacaciones devengadas, no disfrutadas y pagadas al finalizar el contrato generan liquidación y cotización complementaria por todos sus días, aunque alcancen otro mes o se inicie una nueva relación laboral durante ellos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a30",
+  "sourceLocation": "Orden PJC/297/2026, artículo 30, en relación con TRLGSS, artículo 147.1",
+  "officialPublication": "BOE-A-2026-7296; BOE-A-2015-11724",
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q007"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de parámetro normativo anual para S04."}]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-008", "assetId": "G08", "version": "0.1.0",
+  "statement": "Las unidades administrativas son los elementos básicos de las estructuras orgánicas, se establecen mediante relaciones de puestos de trabajo y se integran en un órgano; tienen consideración de órgano administrativo cuando se les atribuyen funciones con efectos jurídicos frente a terceros o actuación preceptiva, y la creación de un órgano exige determinar integración y dependencia, funciones y competencias y dotación de créditos, sin duplicar otro órgano existente.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1", "sourceLocation": "artículos 5 y 56", "officialPublication": "BOE núm. 236, de 02-10-2015; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "2016-10-02", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre unidades administrativas."}]}
+}

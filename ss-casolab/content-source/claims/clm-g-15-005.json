@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-15-005",
+  "assetId": "G15",
+  "version": "0.1.0",
+  "statement": "Los actos sujetos al Derecho Administrativo son ejecutivos conforme a la Ley 39/2015, se presumen válidos y producen efectos desde que se dictan salvo disposición distinta; su eficacia se demora si lo exige el contenido o depende de notificación, publicación o aprobación superior.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 38 y 39.1-2",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G15",
+    "g-15-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

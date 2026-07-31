@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-019",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "Los salarios abonados con carácter retroactivo generan liquidación complementaria y se calculan con las bases, topes, tipos y condiciones vigentes en los meses a los que correspondan.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a29",
+  "sourceLocation": "Orden PJC/297/2026, artículo 29.1 y 29.3",
+  "officialPublication": "BOE-A-2026-7296",
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de parámetro normativo anual para S04."}]
+  }
+}

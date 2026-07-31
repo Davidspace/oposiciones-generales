@@ -1,0 +1,87 @@
+{
+  "id": "g-11-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Derecho originario",
+  "competency": "Reconocer el valor de Tratados, Carta, protocolos y anexos.",
+  "difficulty": "basic",
+  "prompt": "Al clasificar materiales del nivel fundacional de la Unión, ¿qué afirmación reproduce correctamente las reglas de los Tratados?",
+  "options": [
+    {
+      "text": "El TFUE prevalece sobre el TUE y la Carta solo tiene el valor de una recomendación.",
+      "isCorrect": false,
+      "feedback": "TUE y TFUE tienen el mismo valor jurídico, y la Carta también tiene el mismo valor jurídico que los Tratados.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, valor del TUE, TFUE y Carta"
+    },
+    {
+      "text": "El TUE y el TFUE tienen el mismo valor jurídico, la Carta tiene ese mismo valor y los protocolos y anexos forman parte integrante de los Tratados.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esos tres datos proceden, respectivamente, de los artículos 1 y 6 TUE y 51 TFUE."
+    },
+    {
+      "text": "Los protocolos son orientaciones no vinculantes porque no forman parte del texto articulado principal.",
+      "isCorrect": false,
+      "feedback": "El artículo 51 TFUE declara que protocolos y anexos forman parte integrante de los Tratados.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, protocolos y anexos"
+    },
+    {
+      "text": "La Carta amplía por sí misma las competencias de la Unión siempre que proteja un derecho fundamental.",
+      "isCorrect": false,
+      "feedback": "El artículo 6.1 TUE atribuye a la Carta el mismo valor jurídico, pero precisa que sus disposiciones no amplían las competencias definidas en los Tratados.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G11, Carta y competencias de la Unión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-001",
+    "clm-g-11-002",
+    "clm-g-11-003"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_1/oj/spa",
+      "location": "artículo 1 TUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_6/oj/spa",
+      "location": "artículo 6.1 TUE",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_51/oj/spa",
+      "location": "artículo 51 TFUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre los componentes normativos del Derecho originario."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

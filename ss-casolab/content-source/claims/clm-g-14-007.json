@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-14-007",
+  "assetId": "G14",
+  "version": "0.1.0",
+  "statement": "Los decretos-leyes deben someterse inmediatamente al debate y votación de totalidad del Congreso, que debe pronunciarse expresamente sobre su convalidación o derogación dentro de los treinta días siguientes a su promulgación; durante ese plazo las Cortes pueden tramitarlos como proyectos de ley por el procedimiento de urgencia.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+  "sourceLocation": "artículo 86.2 y 86.3",
+  "officialPublication": "BOE-A-1978-31229; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G14",
+    "g-14-q005"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

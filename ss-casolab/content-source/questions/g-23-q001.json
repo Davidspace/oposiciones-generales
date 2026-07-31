@@ -1,0 +1,77 @@
+{
+  "id": "g-23-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Obligación",
+  "competency": "Identificar una persona obligada",
+  "difficulty": "basic",
+  "prompt": "Una sociedad mercantil presenta una solicitud administrativa. ¿Qué regla general debe aplicar?",
+  "options": [
+    {
+      "text": "Puede elegir siempre papel porque es una persona privada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La personalidad jurídica determina la obligación general.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G23, obligación"
+    },
+    {
+      "text": "Debe relacionarse electrónicamente con la Administración.",
+      "isCorrect": true,
+      "feedback": "Correcto. Las personas jurídicas están obligadas por el artículo 14.2.a de la Ley 39/2015."
+    },
+    {
+      "text": "Solo está obligada si lo decide el funcionario receptor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La obligación deriva de la ley.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G23, obligación"
+    },
+    {
+      "text": "Nunca puede usar un registro electrónico.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La obligación implica precisamente relación electrónica.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G23, obligación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-001",
+    "clm-g-23-002",
+    "clm-g-23-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "art. 14.2.a Ley 39/2015",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

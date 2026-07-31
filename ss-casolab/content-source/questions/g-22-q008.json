@@ -1,0 +1,71 @@
+{
+  "id": "g-22-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Categorías especiales",
+  "competency": "Reconocer la regla del artículo 9",
+  "difficulty": "medium",
+  "prompt": "Una aplicación recopila datos de salud para un servicio público. ¿Qué afirmación es más precisa?",
+  "options": [
+    {
+      "text": "Los datos de salud son una categoría especial y el tratamiento exige una excepción del artículo 9.2 además de una base del artículo 6.",
+      "isCorrect": true,
+      "feedback": "Correcto. La doble comprobación evita tratar el artículo 9 como una autorización general."
+    },
+    {
+      "text": "Los datos de salud son siempre datos ordinarios si los trata una Administración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El carácter especial depende de la categoría del dato, no del responsable.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G22, categorías especiales"
+    },
+    {
+      "text": "Basta con publicar una política de privacidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La información no sustituye la base jurídica y la excepción aplicable.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G22, categorías especiales"
+    },
+    {
+      "text": "El artículo 9 prohíbe cualquier tratamiento, incluso con excepción legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El apartado 2 contempla excepciones.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G22, categorías especiales"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-015",
+    "clm-g-22-013",
+    "clm-g-22-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "art. 9 RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q008."
+      }
+    ]
+  }
+}

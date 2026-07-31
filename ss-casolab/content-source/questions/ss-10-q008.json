@@ -1,0 +1,77 @@
+{
+  "id": "ss-10-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Compatibilidad",
+  "competency": "Separar suspensión y extinción",
+  "difficulty": "high",
+  "prompt": "Si el trabajo es incompatible con la pensión, ¿qué debe distinguirse?",
+  "options": [
+    {
+      "text": "Toda incompatibilidad produce extinción inmediata.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley distingue efectos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, compatibilidad"
+    },
+    {
+      "text": "La suspensión durante la incompatibilidad frente a la extinción definitiva por sus causas propias.",
+      "isCorrect": true,
+      "feedback": "Correcto. No toda incompatibilidad extingue la pensión."
+    },
+    {
+      "text": "La suspensión y la extinción son sinónimos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Tienen consecuencias diferentes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, compatibilidad"
+    },
+    {
+      "text": "La pensión se convierte en una prestación familiar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No existe esa conversión.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S10, compatibilidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-014",
+    "clm-ss-10-015",
+    "clm-ss-10-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 213 y 214",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q008."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

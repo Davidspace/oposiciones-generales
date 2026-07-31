@@ -1,0 +1,75 @@
+{
+  "id": "g-15-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-15"
+  ],
+  "epigraph": "Forma de los actos administrativos",
+  "competency": "distinguir la regla de forma y su excepción",
+  "difficulty": "basic",
+  "prompt": "¿Cuál es la regla general de forma de los actos administrativos en el artículo 36.1?",
+  "options": [
+    {
+      "text": "Deben ser siempre verbales para que la actuación administrativa sea ágil.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla general es la forma escrita por medios electrónicos; lo verbal tiene un régimen específico de constancia.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G15, apartado 2.2 «Forma»"
+    },
+    {
+      "text": "Deben constar siempre en papel con firma manuscrita, sin excepción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 36.1 establece medios electrónicos y admite otra forma cuando la naturaleza del acto la haga más adecuada.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G15, apartado 2.2 «Forma»"
+    },
+    {
+      "text": "Se producen por escrito a través de medios electrónicos, salvo que su naturaleza exija otra forma más adecuada de expresión y constancia.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta incluye tanto la regla general como la excepción formulada por el precepto."
+    },
+    {
+      "text": "La forma queda a la libre elección del interesado en todos los procedimientos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley fija la regla; el interesado no elige de manera universal la forma en que la Administración produce el acto.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G15, apartado 2.2 «Forma»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-15-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 36",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

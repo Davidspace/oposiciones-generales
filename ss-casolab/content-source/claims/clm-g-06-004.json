@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-004",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "La justicia es gratuita en los casos legales y siempre ante insuficiencia acreditada de recursos; las actuaciones judiciales son públicas con excepciones procesales, el procedimiento es predominantemente oral, las sentencias son siempre motivadas y públicas, y el error judicial o funcionamiento anormal da derecho a indemnización estatal conforme a la ley.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "artículos 119 a 121",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre garantías de la justicia."}]}
+}

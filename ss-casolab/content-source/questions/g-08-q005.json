@@ -1,0 +1,79 @@
+{
+  "id": "g-08-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+  "competency": "Relacionar órganos centrales con su función, autoridad de nombramiento y requisito profesional.",
+  "difficulty": "high",
+  "prompt": "¿Qué resumen aplica correctamente las reglas básicas de nombramiento y función de los órganos centrales?",
+  "options": [
+    {
+      "text": "El Rey nombra al Ministro a propuesta del Presidente; el Consejo de Ministros nombra por real decreto al Secretario de Estado y a los órganos directivos hasta Director general según su propuesta legal; el Subsecretario dirige servicios comunes, el Secretario general puede proceder de responsabilidad pública o privada, el Secretario general técnico asume normativa, asistencia jurídica y publicaciones, y el Subdirector A1 es nombrado por el superior del que dependa.",
+      "isCorrect": true,
+      "feedback": "Correcto. El resumen conserva las diferencias de autoridad, función y perfil profesional de las Leyes 50/1997 y 40/2015."
+    },
+    {
+      "text": "Todos los órganos superiores y directivos son nombrados por el Rey y deben ser funcionarios A1 en servicio activo.",
+      "isCorrect": false,
+      "feedback": "Solo los Ministros siguen el nombramiento real descrito; los restantes usan real decreto o decisión del superior según el órgano, y el perfil profesional tampoco es idéntico para todos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G08, diversidad de autoridades y requisitos de nombramiento"
+    },
+    {
+      "text": "El Secretario general técnico dirige siempre un sector político y el Subsecretario se limita a ejecutar proyectos de una Subdirección.",
+      "isCorrect": false,
+      "feedback": "Se intercambian funciones: el Secretario general técnico tiene el núcleo normativo-jurídico y el Subsecretario representa ordinariamente al Ministerio y dirige los servicios comunes.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, funciones de Subsecretaría y Secretaría General Técnica"
+    },
+    {
+      "text": "El Director general nunca puede ser nombrado fuera del funcionariado A1, aunque el real decreto de estructura motive características especiales.",
+      "isCorrect": false,
+      "feedback": "La regla general es funcionarial A1 o jubilación desde esa condición, pero la ley admite una excepción estructural expresamente motivada, manteniendo la idoneidad.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G08, excepción motivada en el nombramiento de Director general"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-009",
+    "clm-g-08-010",
+    "clm-g-08-011",
+    "clm-g-08-012",
+    "clm-g-08-013",
+    "clm-g-08-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336&p=20240802&tn=1",
+      "location": "artículos 12 y 15",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 61 a 67",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

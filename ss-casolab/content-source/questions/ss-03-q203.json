@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q203",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 9: afiliación única",
+  "competency": "Distinguir la afiliación inicial de las altas sucesivas o simultáneas",
+  "difficulty": "medium",
+  "prompt": "A nunca había estado afiliada, mientras que B ya lo estaba. ¿Qué diferencia operativa debe respetarse en CP01?",
+  "options": [
+    {
+      "text": "A y B necesitan una afiliación nueva por cada empresa y otra distinta por cada régimen.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Confunde el vínculo único de afiliación con las altas que pueden sucederse o coexistir en distintos regímenes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 2.1: afiliación única y altas posteriores."
+    },
+    {
+      "text": "A solo necesita alta, porque la afiliación inicial se reserva a las personas trabajadoras por cuenta propia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación es obligatoria para las personas del artículo 7.1; que A sea trabajadora por cuenta ajena no elimina su afiliación inicial.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartado 2.1: obligatoriedad de la afiliación."
+    },
+    {
+      "text": "B no necesita ningún movimiento nuevo, porque una afiliación previa cubre automáticamente todas sus actividades futuras.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación se conserva, pero no sustituye las altas que exige cada actividad o relación.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S03, apartados 2.1 y 3.2: afiliación única frente a altas múltiples."
+    },
+    {
+      "text": "Para A procede la afiliación inicial junto con el alta; B conserva su afiliación única y solo requiere las altas que correspondan a sus actividades.",
+      "isCorrect": true,
+      "feedback": "Correcto. La afiliación es obligatoria y única para toda la vida y el sistema; las altas posteriores reflejan cada actividad o situación sin crear otra afiliación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
+      "location": "TRLGSS, artículo 15",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 9 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

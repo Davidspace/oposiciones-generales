@@ -1,0 +1,75 @@
+{
+  "id": "g-10-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Tribunal de Justicia: cuestión prejudicial",
+  "competency": "Determinar cuándo un órgano jurisdiccional nacional puede o debe plantear una cuestión prejudicial.",
+  "difficulty": "medium",
+  "prompt": "Un órgano jurisdiccional nacional cuya decisión no admite ulterior recurso interno necesita interpretar un artículo del TUE para resolver el litigio. ¿Qué debe hacer según el artículo 267 TFUE?",
+  "options": [
+    {
+      "text": "Debe pedir al Consejo que sustituya al juez nacional y dicte la sentencia definitiva.",
+      "isCorrect": false,
+      "feedback": "El Consejo no interviene en la cooperación prejudicial. El Tribunal de Justicia responde sobre el Derecho de la Unión y el juez nacional mantiene la resolución del litigio.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G10, actores de la cuestión prejudicial"
+    },
+    {
+      "text": "Puede ignorar la cuestión porque solo los órganos cuyas decisiones admiten recurso están obligados a plantearla.",
+      "isCorrect": false,
+      "feedback": "La regla es la contraria: cuando la respuesta es necesaria, el deber se impone al órgano cuyas decisiones no son susceptibles de ulterior recurso interno.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G10, planteamiento facultativo y obligatorio"
+    },
+    {
+      "text": "La parte interesada debe interponer directamente una apelación prejudicial ante el Tribunal de Justicia.",
+      "isCorrect": false,
+      "feedback": "La cuestión prejudicial la plantea el órgano jurisdiccional nacional; no es una apelación directa de las partes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G10, naturaleza de la cuestión prejudicial"
+    },
+    {
+      "text": "Debe plantear la cuestión al Tribunal de Justicia; este interpreta el Derecho de la Unión y el órgano nacional resuelve después el litigio.",
+      "isCorrect": true,
+      "feedback": "Correcto. La necesidad de interpretación y la ausencia de recurso interno activan el deber de planteamiento prejudicial."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-016"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_267/oj/spa",
+      "location": "artículo 267 TFUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

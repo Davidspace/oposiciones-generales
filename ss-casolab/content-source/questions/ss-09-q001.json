@@ -1,0 +1,77 @@
+{
+  "id": "ss-09-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Nacimiento",
+  "competency": "Identificar el hecho causante",
+  "difficulty": "basic",
+  "prompt": "¿Qué supuesto pertenece a nacimiento y cuidado de menor?",
+  "options": [
+    {
+      "text": "Cualquier enfermedad común del progenitor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La enfermedad común tiene su propio régimen.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, nacimiento"
+    },
+    {
+      "text": "Una jubilación parcial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una prestación distinta.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S09, nacimiento"
+    },
+    {
+      "text": "Nacimiento, adopción, guarda con fines de adopción o acogimiento en los términos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es el ámbito del artículo 177."
+    },
+    {
+      "text": "Una lesión permanente no incapacitante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se refiere al cuidado de menor.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, nacimiento"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-001",
+    "clm-ss-09-002",
+    "clm-ss-09-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 177",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

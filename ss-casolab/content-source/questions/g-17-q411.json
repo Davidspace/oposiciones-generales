@@ -1,0 +1,75 @@
+{
+  "id": "g-17-q411",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "CP02 — decisión 11",
+  "competency": "Distinguir ejecutividad y ejecuciÃ³n forzosa",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© relaciÃ³n existe entre la resoluciÃ³n y la ejecuciÃ³n de la deuda?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir ejecutividad y ejecuciã³n forzosa.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culos 98 y 99.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Distinguir ejecutividad y ejecuciÃ³n forzosa"
+    },
+    {
+      "text": "La ejecutividad permite exigir el cumplimiento y la ejecuciÃ³n forzosa requiere respetar sus presupuestos y procedimiento.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La ejecutividad permite exigir el cumplimiento y la ejecuciÃ³n forzosa requiere respetar sus presupuestos y procedimiento."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culos 98 y 99.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Distinguir ejecutividad y ejecuciÃ³n forzosa"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 39/2015, artÃ­culos 98 y 99.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Distinguir ejecutividad y ejecuciÃ³n forzosa"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-411"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "Ley 39/2015, artÃ­culos 98 y 99",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

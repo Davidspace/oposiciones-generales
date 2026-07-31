@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-17-411",
+  "assetId": "CP02",
+  "version": "0.1.0",
+  "statement": "La ejecutividad y la ejecuciÃ³n forzosa son efectos diferenciados de los actos administrativos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "Ley 39/2015, artÃ­culos 98 y 99",
+  "officialPublication": "BOE-A-2015-10565",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "CP02",
+    "g-17-q411"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "AfirmaciÃ³n normativa de borrador para CP02."
+      }
+    ]
+  }
+}

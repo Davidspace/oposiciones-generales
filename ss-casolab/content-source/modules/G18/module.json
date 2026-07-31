@@ -1,0 +1,122 @@
+{
+  "id": "G18",
+  "themeId": "g-18",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Recursos administrativos y contencioso-administrativo",
+  "learningOutcomes": [
+    "Identificar las resoluciones y actos de trámite recurribles y seleccionar la clase de recurso administrativo aplicable.",
+    "Determinar el órgano, plazo de interposición y plazo de resolución del recurso de alzada.",
+    "Aplicar el carácter potestativo y la secuencia de la reposición respecto del recurso contencioso-administrativo.",
+    "Reconocer las causas tasadas y los plazos del recurso extraordinario de revisión.",
+    "Delimitar el objeto básico de la jurisdicción contencioso-administrativa y aplicar los plazos de interposición previstos legalmente."
+  ],
+  "decisions": [
+    "Comprobar si se impugna una resolución, un acto de trámite cualificado, un acto de trámite ordinario o una disposición general.",
+    "Determinar si el acto pone fin a la vía administrativa o todavía admite alzada.",
+    "Elegir entre alzada, reposición potestativa, impugnación contenciosa directa o revisión extraordinaria.",
+    "Identificar el órgano de interposición y resolución y tratar correctamente una calificación errónea del recurso.",
+    "Distinguir el plazo de interposición del plazo máximo para resolver y notificar.",
+    "Decidir si la interposición suspende la ejecución y aplicar los presupuestos de suspensión.",
+    "Comprobar si la pretensión pertenece al objeto de la jurisdicción contencioso-administrativa o a otro orden.",
+    "Seleccionar el plazo contencioso según disposición, acto expreso o presunto, inactividad, vía de hecho, reposición, lesividad o litigio entre Administraciones."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Los recursos administrativos: concepto y clases",
+      "objective": "Identificar objeto recurrible, clases, fin de la vía administrativa y reglas generales de interposición, suspensión y resolución.",
+      "sectionId": "g18-concepto-clases",
+      "activityIds": [
+        "g-18-q001",
+        "g-18-q002"
+      ]
+    },
+    {
+      "officialClause": "Recurso de alzada",
+      "objective": "Aplicar objeto, órgano, forma de presentación y plazos de interposición y resolución de la alzada.",
+      "sectionId": "g18-alzada",
+      "activityIds": [
+        "g-18-q003",
+        "g-18-q004"
+      ]
+    },
+    {
+      "officialClause": "Recurso potestativo de reposición",
+      "objective": "Elegir reposición o impugnación judicial directa y respetar su órgano, secuencia y plazos.",
+      "sectionId": "g18-reposicion",
+      "activityIds": [
+        "g-18-q005"
+      ]
+    },
+    {
+      "officialClause": "Recurso extraordinario de revisión",
+      "objective": "Reconocer el acto firme, la causa tasada, el órgano y el plazo que habilitan la revisión extraordinaria.",
+      "sectionId": "g18-revision-extraordinaria",
+      "activityIds": [
+        "g-18-q006"
+      ]
+    },
+    {
+      "officialClause": "La jurisdicción contencioso-administrativa: objeto y plazos de interposición del recurso contencioso administrativo",
+      "objective": "Delimitar el ámbito jurisdiccional y seleccionar el plazo de interposición según la actuación impugnada.",
+      "sectionId": "g18-contencioso",
+      "activityIds": [
+        "g-18-q007",
+        "g-18-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G18/lesson.md",
+  "reviewSheetPath": "content-source/modules/G18/review.md",
+  "normativeClaimIds": [
+    "clm-g-18-001",
+    "clm-g-18-002",
+    "clm-g-18-003",
+    "clm-g-18-004",
+    "clm-g-18-005",
+    "clm-g-18-006",
+    "clm-g-18-007",
+    "clm-g-18-008",
+    "clm-g-18-009",
+    "clm-g-18-010",
+    "clm-g-18-011",
+    "clm-g-18-012",
+    "clm-g-18-013",
+    "clm-g-18-014",
+    "clm-g-18-015",
+    "clm-g-18-016",
+    "clm-g-18-017",
+    "clm-g-18-018",
+    "clm-g-18-019",
+    "clm-g-18-020"
+  ],
+  "questionIds": [
+    "g-18-q001",
+    "g-18-q002",
+    "g-18-q003",
+    "g-18-q004",
+    "g-18-q005",
+    "g-18-q006",
+    "g-18-q007",
+    "g-18-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo, su hoja de repaso y la trazabilidad completa con claims y preguntas."
+      }
+    ]
+  }
+}

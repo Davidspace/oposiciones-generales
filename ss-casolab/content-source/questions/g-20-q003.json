@@ -1,0 +1,77 @@
+{
+  "id": "g-20-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Accesibilidad",
+  "competency": "aplicar accesibilidad y apoyos",
+  "difficulty": "medium",
+  "prompt": "Una persona con discapacidad necesita un apoyo adicional para comunicarse con la oficina. ¿Qué criterio debe aplicar la Administración?",
+  "options": [
+    {
+      "text": "Exigir que la persona consiga por su cuenta cualquier apoyo, porque la oficina solo debe tener una rampa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La accesibilidad incluye servicios, documentos, medios y apoyos, no solo barreras físicas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, accesibilidad"
+    },
+    {
+      "text": "Conceder automáticamente cualquier resultado solicitado como compensación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El apoyo facilita el ejercicio de derechos, pero no altera el fondo ni garantiza un resultado favorable.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, apoyos y decisión administrativa"
+    },
+    {
+      "text": "Rechazar la atención presencial y derivar siempre a un canal electrónico.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La medida debe facilitar la relación y respetar las necesidades de la persona, no imponer una barrera adicional.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G20, prestación accesible"
+    },
+    {
+      "text": "Garantizar igualdad, no discriminación y accesibilidad universal, proporcionando apoyos humanos o materiales cuando proceda.",
+      "isCorrect": true,
+      "feedback": "Correcto. El Real Decreto 366/2007 prevé medidas y apoyos para hacer efectivos los derechos en la relación con la Administración."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-004",
+    "clm-g-20-005",
+    "clm-g-20-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6239",
+      "location": "artículos 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Apoyo accesible en la atención."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

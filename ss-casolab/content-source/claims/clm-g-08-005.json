@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-005", "assetId": "G08", "version": "0.1.0",
+  "statement": "La Administración General del Estado se organiza en Presidencia del Gobierno y Ministerios; estos pueden tener Secretarías de Estado y Secretarías Generales, pero deben contar en todo caso con una Subsecretaría y, bajo ella, una Secretaría General Técnica; las Direcciones Generales gestionan áreas homogéneas y normalmente se organizan en Subdirecciones Generales.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1", "sourceLocation": "artículos 57 y 58", "officialPublication": "BOE núm. 236, de 02-10-2015; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "2016-10-02", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q003"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre estructura interna ministerial."}]}
+}

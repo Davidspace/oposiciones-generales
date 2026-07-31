@@ -1,0 +1,77 @@
+{
+  "id": "g-16-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Obligación de resolver y silencio administrativo",
+  "competency": "distinguir silencio desestimatorio y caducidad",
+  "difficulty": "high",
+  "prompt": "Vence el plazo sin resolución en dos procedimientos: A, una solicitud cuya estimación transferiría facultades sobre dominio público; B, un procedimiento sancionador iniciado de oficio. ¿Qué combinación es correcta?",
+  "options": [
+    {
+      "text": "En A hay estimación automática y en B una sanción firme por silencio.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El dominio público tiene silencio desestimatorio y el procedimiento sancionador de oficio caduca; el silencio no crea una sanción firme.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G16, apartados 6.2 y 6.3"
+    },
+    {
+      "text": "Ambos terminan por silencio estimatorio porque esa es una regla sin excepciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La regla estimatoria se refiere a solicitudes y contiene excepciones; los procedimientos de oficio tienen el régimen del artículo 25.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G16, apartado 6 «Obligación de resolver y silencio»"
+    },
+    {
+      "text": "En ambos desaparece la obligación de dictar resolución expresa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La Ley 39/2015 mantiene la obligación de resolver; el silencio y la caducidad regulan consecuencias de su incumplimiento temporal.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G16, apartados 6.1 a 6.3"
+    },
+    {
+      "text": "En A el silencio es desestimatorio; en B se produce caducidad; en ambos casos subsiste la obligación legal de resolver en los términos aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. A es una excepción expresa a la regla estimatoria del artículo 24.1 y B encaja en la caducidad del artículo 25.1.b."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-011",
+    "clm-g-16-013",
+    "clm-g-16-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 21.1, 24.1 y 25.1",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

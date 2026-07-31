@@ -1,0 +1,69 @@
+{
+  "id": "ss-02-q201",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "CP01 — Pregunta principal 3: campo contributivo",
+  "competency": "Identificar la categoría contributiva de una persona trabajadora por cuenta ajena",
+  "difficulty": "basic",
+  "prompt": "Atendiendo a los hechos de CP01, ¿qué dato sitúa a A dentro del campo contributivo del artículo 7.1 del TRLGSS?",
+  "options": [
+    {
+      "text": "Que presta por cuenta ajena una actividad en territorio nacional y reúne la categoría legal correspondiente, sin que su primera afiliación sea el hecho que crea esa categoría.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 7.1 atiende a la actividad en territorio nacional y a una de sus categorías, entre ellas el trabajo por cuenta ajena; la afiliación formaliza su relación con el sistema, pero no cambia la naturaleza del trabajo."
+    },
+    {
+      "text": "Que la sociedad obtuvo un código de cuenta de cotización, aunque A no llegara a prestar servicios.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El código identifica obligaciones empresariales, pero no sustituye la actividad ni la categoría personal exigidas por el artículo 7.1.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S02, apartado 1.1: sujeto, actividad y categoría contributiva."
+    },
+    {
+      "text": "Que A nunca estuvo afiliada, pues la ausencia de afiliación previa es una categoría contributiva autónoma.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ser una primera afiliación no es una categoría del campo contributivo; el dato decisivo es la actividad por cuenta ajena descrita.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 1.1: campo de aplicación frente a acto de afiliación."
+    },
+    {
+      "text": "Que toda persona residente queda incluida automáticamente en el campo contributivo aunque no realice actividad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La residencia no sustituye la actividad y la categoría exigidas para el campo contributivo del artículo 7.1.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 1.1: campo contributivo frente a no contributivo."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-001"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a7",
+      "location": "TRLGSS, artículo 7.1, especialmente letra a)",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 3 de CP01."
+      }
+    ]
+  }
+}

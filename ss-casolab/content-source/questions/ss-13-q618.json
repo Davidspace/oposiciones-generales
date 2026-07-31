@@ -1,0 +1,75 @@
+{
+  "id": "ss-13-q618",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "CP04 — decisión 18",
+  "competency": "Ordenar el pago a la persona beneficiaria",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe verificarse antes de materializar el pago?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar ordenar el pago a la persona beneficiaria.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, tÃ­tulo I, gestiÃ³n financiera y pago.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP04: Ordenar el pago a la persona beneficiaria"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, tÃ­tulo I, gestiÃ³n financiera y pago.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP04: Ordenar el pago a la persona beneficiaria"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, tÃ­tulo I, gestiÃ³n financiera y pago.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP04: Ordenar el pago a la persona beneficiaria"
+    },
+    {
+      "text": "La resolución firme o ejecutiva, la persona destinataria, la cuantÃ­a y la forma de pago aplicable.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La resolución firme o ejecutiva, la persona destinataria, la cuantÃ­a y la forma de pago aplicable."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-618"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, tÃ­tulo I, gestiÃ³n financiera y pago",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP04, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

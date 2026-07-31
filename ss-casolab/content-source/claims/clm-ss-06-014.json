@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-014",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "La valoración se refiere al mercado y se notifica al deudor, que puede presentar valoración contradictoria en quince días; si la diferencia no supera el veinte por ciento de la menor prevalece la más alta y, si lo supera, interviene un tercer perito dentro de los límites anteriores.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a110",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 110",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2004-06-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q006"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

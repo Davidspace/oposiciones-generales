@@ -1,0 +1,11 @@
+server/
+shared/
+node_modules/
+.git/
+.env*
+.replit
+repl.nix
+*.log
+dist/index.js
+drizzle.config.ts
+*.md

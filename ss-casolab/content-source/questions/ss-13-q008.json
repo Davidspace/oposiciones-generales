@@ -1,0 +1,76 @@
+{
+  "id": "ss-13-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Método",
+  "competency": "Resolver el bloque patrimonial y financiero",
+  "difficulty": "high",
+  "prompt": "¿Qué secuencia ordena mejor un supuesto del tema 13?",
+  "options": [
+    {
+      "text": "Identificar recurso o bien → titularidad y afectación → negocio o fondo → órgano competente → pago o efecto.",
+      "isCorrect": true,
+      "feedback": "Correcto. La secuencia evita confundir financiación, patrimonio y prestaciones."
+    },
+    {
+      "text": "Elegir primero el órgano pagador y después inventar el título.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El título y la competencia deben preceder al pago.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S13, método"
+    },
+    {
+      "text": "Tratar todo ingreso como patrimonio y todo bien como recurso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son categorías distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S13, método"
+    },
+    {
+      "text": "Disponer del Fondo de Reserva si existe cualquier necesidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La disposición está limitada.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S13, método"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-001",
+    "clm-ss-13-003",
+    "clm-ss-13-007",
+    "clm-ss-13-010",
+    "clm-ss-13-012",
+    "clm-ss-13-013",
+    "clm-ss-13-015",
+    "clm-ss-13-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 74 y 103 a 125",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q008."
+      }
+    ]
+  }
+}

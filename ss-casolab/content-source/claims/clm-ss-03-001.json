@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-03-001",
+  "assetId": "MC01",
+  "version": "0.1.0",
+  "statement": "En el Régimen General, el empresario debe solicitar la afiliación de los trabajadores que ingresen a su servicio y comunicar su ingreso y, en su caso, su cese para que sean dados de alta y de baja.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+  "sourceLocation": "TRLGSS, artículo 139.1",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "MC01",
+    "ss-03-q101"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

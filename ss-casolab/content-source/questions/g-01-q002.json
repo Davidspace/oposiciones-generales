@@ -1,0 +1,70 @@
+{
+  "id": "g-01-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Contenido constitucional: artículo 1",
+  "competency": "Distinguir modelo de Estado, soberanía y forma política.",
+  "difficulty": "basic",
+  "prompt": "¿Cuál es la forma política del Estado español según el artículo 1 de la Constitución?",
+  "options": [
+    {
+      "text": "El Estado social y democrático de Derecho.",
+      "isCorrect": false,
+      "feedback": "Esta expresión define el modelo de Estado en el artículo 1.1, pero no su forma política.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G01, ficha de orientación del artículo 1"
+    },
+    {
+      "text": "La Monarquía parlamentaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 1.3 identifica la Monarquía parlamentaria como forma política del Estado."
+    },
+    {
+      "text": "La soberanía nacional del pueblo español.",
+      "isCorrect": false,
+      "feedback": "El artículo 1.2 atribuye la soberanía nacional al pueblo español. Esa regla no define la forma política.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G01, ficha de orientación del artículo 1"
+    },
+    {
+      "text": "La República parlamentaria.",
+      "isCorrect": false,
+      "feedback": "La Constitución no establece una república. El artículo 1.3 usa de forma expresa la categoría Monarquía parlamentaria.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G01, artículo 1.3"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-002",
+    "clm-g-01-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 1.1 a 1.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

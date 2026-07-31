@@ -1,0 +1,76 @@
+{
+  "id": "g-08-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Órganos centrales",
+  "competency": "Ubicar órganos y servicios en la organización central, territorial o exterior de la AGE.",
+  "difficulty": "basic",
+  "prompt": "¿Qué clasificación respeta la estructura de la Administración General del Estado?",
+  "options": [
+    {
+      "text": "Las Delegaciones del Gobierno forman parte de los servicios comunes centrales porque coordinan varios Ministerios.",
+      "isCorrect": false,
+      "feedback": "Las Delegaciones pertenecen a la organización territorial, aunque coordinen la actuación estatal de distintos departamentos en su ámbito.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, organización territorial de la AGE"
+    },
+    {
+      "text": "Ministerios y servicios comunes: organización central; Delegados y Subdelegados: organización territorial; Embajadores y Representantes Permanentes: órganos directivos en el exterior.",
+      "isCorrect": true,
+      "feedback": "Correcto. La clasificación reproduce los tres planos del artículo 55 y la condición directiva territorial y exterior."
+    },
+    {
+      "text": "Las sociedades mercantiles estatales son órganos centrales integrados en los Ministerios.",
+      "isCorrect": false,
+      "feedback": "Una sociedad mercantil estatal pertenece al sector público institucional, pero no es por ello un órgano central ministerial.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, AGE frente a sector público institucional"
+    },
+    {
+      "text": "Las Oficinas Consulares son órganos territoriales provinciales porque prestan servicios a ciudadanos.",
+      "isCorrect": false,
+      "feedback": "Las Oficinas Consulares forman parte de la organización exterior; su función ciudadana no las convierte en órganos provinciales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, organización exterior frente a territorial"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-003",
+    "clm-g-08-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículo 55",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

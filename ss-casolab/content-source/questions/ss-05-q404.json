@@ -1,0 +1,69 @@
+{
+  "id": "ss-05-q404",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "epigraph": "CP02 — decisión 4",
+  "competency": "Identificar la funciÃ³n de una reclamaciÃ³n de deuda",
+  "difficulty": "high",
+  "prompt": "Â¿CÃ³mo debe calificarse la reclamaciÃ³n emitida por la TesorerÃ­a?",
+  "options": [
+    {
+      "text": "Como un acto recaudatorio que identifica y exige una deuda en los supuestos legalmente previstos.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Como un acto recaudatorio que identifica y exige una deuda en los supuestos legalmente previstos."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar identificar la funciã³n de una reclamaciã³n de deuda.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 33 y 34.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Identificar la funciÃ³n de una reclamaciÃ³n de deuda"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 33 y 34.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Identificar la funciÃ³n de una reclamaciÃ³n de deuda"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 33 y 34.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Identificar la funciÃ³n de una reclamaciÃ³n de deuda"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-404"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artÃ­culos 33 y 34",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

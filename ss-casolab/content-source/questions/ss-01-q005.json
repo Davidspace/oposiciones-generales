@@ -1,0 +1,76 @@
+{
+  "id": "ss-01-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "TRLGSS, artículos 1 y 2",
+  "competency": "Reconocer modalidades, principios y enlace constitucional",
+  "difficulty": "medium",
+  "prompt": "¿Cuál de estas afirmaciones coincide con los artículos 1 y 2 del TRLGSS?",
+  "options": [
+    {
+      "text": "La ley desvincula el derecho a la Seguridad Social del artículo 41 de la Constitución y limita la acción protectora a su modalidad contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1 enlaza expresamente con el artículo 41 y el artículo 2 contempla modalidades contributiva y no contributiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 3.1: enlace constitucional y modalidades"
+    },
+    {
+      "text": "La acción protectora tiene modalidades contributiva y no contributiva, y el sistema se fundamenta en universalidad, unidad, solidaridad e igualdad.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reproduce la distinción de modalidades y los cuatro principios que contiene el artículo 2."
+    },
+    {
+      "text": "El sistema se fundamenta en territorialidad, capitalización, voluntariedad y especialidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa enumeración no es la del artículo 2; debes recordar universalidad, unidad, solidaridad e igualdad.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S01, apartado 3.1: cuatro principios del sistema"
+    },
+    {
+      "text": "La modalidad no contributiva solo existe fuera del sistema de la Seguridad Social y se rige exclusivamente por asistencia privada.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 2 incluye la modalidad no contributiva dentro de la acción protectora del sistema.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 3.1: acción contributiva y no contributiva"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-005",
+    "clm-ss-01-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a1",
+      "location": "TRLGSS, artículos 1 y 2",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-012",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "Quien sea responsable del ingreso de sus cotizaciones debe estar al corriente para obtener prestaciones económicas, incluso cuando el cómputo recíproco permita reconocerlas en un régimen de trabajadores por cuenta ajena; resulta aplicable la invitación al pago a la que remite el artículo 47.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a47",
+  "sourceLocation": "TRLGSS, artículo 47.1",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-13-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "Concepto y clases",
+  "competency": "distinguir las funciones de los principios generales del derecho",
+  "difficulty": "medium",
+  "prompt": "¿Qué función atribuye el artículo 1.4 del Código Civil a los principios generales del derecho?",
+  "options": [
+    {
+      "text": "Se aplican antes que la costumbre siempre que no exista una norma escrita.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.4 sitúa su aplicación en defecto de ley o costumbre; no los antepone a la costumbre.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G13, apartados 3.3 y 3.4"
+    },
+    {
+      "text": "Se aplican cuando falta ley, aunque exista una costumbre aplicable, y no informan el ordenamiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.4 exige que falten tanto la ley como la costumbre y mantiene expresamente su función informadora.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G13, apartado 3.3 «Los principios generales del derecho»"
+    },
+    {
+      "text": "Se aplican en defecto de ley o costumbre y, además, informan el ordenamiento jurídico.",
+      "isCorrect": true,
+      "feedback": "Correcto. El precepto combina una función subsidiaria con una función informadora."
+    },
+    {
+      "text": "Son criterios morales sin aplicación jurídica directa y solo orientan al legislador.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo prevé expresamente su aplicación en defecto de ley o costumbre, además de su carácter informador.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 3.3 «Los principios generales del derecho»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.4",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

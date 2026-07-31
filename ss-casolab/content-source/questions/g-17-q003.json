@@ -1,0 +1,75 @@
+{
+  "id": "g-17-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Ordenación",
+  "competency": "aplicar el efecto de las cuestiones incidentales",
+  "difficulty": "medium",
+  "prompt": "Durante la tramitación se plantea una cuestión incidental relativa a la nulidad de una actuación. ¿Cuál es la regla sobre la continuidad del procedimiento?",
+  "options": [
+    {
+      "text": "Toda cuestión de nulidad suspende automáticamente hasta que exista resolución firme.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley menciona expresamente la nulidad entre las cuestiones incidentales que no suspenden la tramitación.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G17, apartado 2.2 «Impulso, orden y concentración»"
+    },
+    {
+      "text": "Solo suspende si la plantea un interesado y no si la aprecia el órgano instructor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 74 no hace depender la suspensión de quién plantee el incidente; identifica una excepción material: la recusación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 2.2 «Impulso, orden y concentración»"
+    },
+    {
+      "text": "Suspende siempre durante diez días, que es el plazo general de los trámites del interesado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El plazo de cumplimiento de trámites del artículo 73 no convierte los incidentes en causas de suspensión.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G17, apartado 2.2 «Impulso, orden y concentración»"
+    },
+    {
+      "text": "La cuestión no suspende la tramitación; la excepción expresa es la recusación.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 74 incluye incluso las cuestiones de nulidad en la regla de no suspensión y exceptúa únicamente la recusación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 74",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

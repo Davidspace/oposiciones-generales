@@ -1,0 +1,115 @@
+{
+  "id": "G06",
+  "themeId": "g-06",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Poder Judicial y organización judicial",
+  "learningOutcomes": [
+    "Explicar el fundamento constitucional del Poder Judicial y las garantías de independencia e inamovilidad judicial.",
+    "Distinguir la potestad jurisdiccional de las demás funciones que la ley puede atribuir a juzgados y tribunales.",
+    "Aplicar el principio de unidad jurisdiccional y sus reglas sobre jurisdicción militar y tribunales de excepción.",
+    "Describir la naturaleza, composición, designación y funciones esenciales del Consejo General del Poder Judicial.",
+    "Reconocer los cuatro órdenes jurisdiccionales y asignarles sus materias básicas.",
+    "Identificar los órganos que integran la organización judicial española vigente tras la reforma de 2025.",
+    "Relacionar partido judicial, provincia, comunidad autónoma y territorio nacional con los órganos judiciales correspondientes.",
+    "Diferenciar Tribunal Supremo, Audiencia Nacional, Tribunal Central de Instancia y Tribunal Constitucional."
+  ],
+  "decisions": [
+    "Valorar si una actuación externa respeta la independencia y la sujeción exclusiva del juez al imperio de la ley.",
+    "Decidir si una función corresponde a la potestad de juzgar y ejecutar lo juzgado o requiere atribución legal expresa.",
+    "Detectar una vulneración de la unidad jurisdiccional, una extensión indebida de la jurisdicción militar o un tribunal de excepción.",
+    "Separar las funciones de gobierno judicial del CGPJ de la función jurisdiccional de juzgados y tribunales.",
+    "Comprobar la composición y el sistema de elección de los vocales del CGPJ.",
+    "Asignar un asunto al orden civil, penal, contencioso-administrativo o social.",
+    "Elegir el órgano judicial territorialmente coherente con partido, provincia, comunidad autónoma o toda España.",
+    "Evitar confundir la superioridad del Tribunal Supremo con la función de garantías constitucionales del Tribunal Constitucional."
+  ],
+  "coverage": [
+    {
+      "officialClause": "El Poder Judicial",
+      "objective": "Comprender su fundamento, las garantías judiciales y el contenido exclusivo de la potestad jurisdiccional.",
+      "sectionId": "g06-poder-judicial",
+      "activityIds": [
+        "g-06-q001",
+        "g-06-q002"
+      ]
+    },
+    {
+      "officialClause": "El principio de unidad jurisdiccional",
+      "objective": "Aplicar la unidad jurisdiccional y sus límites constitucionales respecto de la jurisdicción militar y los tribunales de excepción.",
+      "sectionId": "g06-unidad-jurisdiccional",
+      "activityIds": [
+        "g-06-q003"
+      ]
+    },
+    {
+      "officialClause": "El Consejo General del Poder Judicial",
+      "objective": "Distinguir su naturaleza gubernativa, su composición, la designación de sus vocales y sus atribuciones principales.",
+      "sectionId": "g06-cgpj",
+      "activityIds": [
+        "g-06-q004",
+        "g-06-q005"
+      ]
+    },
+    {
+      "officialClause": "La organización judicial española",
+      "objective": "Manejar los órdenes jurisdiccionales y el mapa de órganos vigente tras la implantación de la reforma organizativa de 2025.",
+      "sectionId": "g06-organizacion-judicial",
+      "activityIds": [
+        "g-06-q006",
+        "g-06-q007",
+        "g-06-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G06/lesson.md",
+  "reviewSheetPath": "content-source/modules/G06/review.md",
+  "normativeClaimIds": [
+    "clm-g-06-001",
+    "clm-g-06-002",
+    "clm-g-06-003",
+    "clm-g-06-004",
+    "clm-g-06-005",
+    "clm-g-06-006",
+    "clm-g-06-007",
+    "clm-g-06-008",
+    "clm-g-06-009",
+    "clm-g-06-010",
+    "clm-g-06-011",
+    "clm-g-06-012",
+    "clm-g-06-013",
+    "clm-g-06-014",
+    "clm-g-06-015",
+    "clm-g-06-016",
+    "clm-g-06-017"
+  ],
+  "questionIds": [
+    "g-06-q001",
+    "g-06-q002",
+    "g-06-q003",
+    "g-06-q004",
+    "g-06-q005",
+    "g-06-q006",
+    "g-06-q007",
+    "g-06-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo con mapa constitucional, CGPJ y organización judicial vigente tras la reforma de 2025."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

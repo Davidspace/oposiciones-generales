@@ -1,0 +1,77 @@
+{
+  "id": "ss-10-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Cálculo",
+  "competency": "Ordenar base reguladora y porcentaje",
+  "difficulty": "medium",
+  "prompt": "¿Qué orden respeta el cálculo de la pensión?",
+  "options": [
+    {
+      "text": "Aplicar primero el porcentaje a la última nómina y después buscar la base.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base reguladora se calcula conforme a bases y periodos legales.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S10, cálculo"
+    },
+    {
+      "text": "Determinar la base reguladora y aplicar después el porcentaje por años de cotización.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la estructura de los artículos 209 y 210."
+    },
+    {
+      "text": "Usar siempre la base de cotización del último mes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base reguladora usa reglas temporales y bases computables.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S10, cálculo"
+    },
+    {
+      "text": "Calcular sobre la cuantía de una prestación familiar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una prestación distinta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S10, cálculo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-10-008",
+    "clm-ss-10-009",
+    "clm-ss-10-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 209 y 210",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-10-q004."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

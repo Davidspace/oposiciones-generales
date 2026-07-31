@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q509",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "CP03 — decisión 9",
+  "competency": "Separar la prestaciÃ³n y la responsabilidad empresarial",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© anÃ¡lisis es independiente del reconocimiento de la prestaciÃ³n?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar separar la prestaciã³n y la responsabilidad empresarial.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 167.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP03: Separar la prestaciÃ³n y la responsabilidad empresarial"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 167.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP03: Separar la prestaciÃ³n y la responsabilidad empresarial"
+    },
+    {
+      "text": "La posible responsabilidad empresarial por incumplimientos y el derecho de la persona a la protecciÃ³n deben analizarse separadamente.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La posible responsabilidad empresarial por incumplimientos y el derecho de la persona a la protecciÃ³n deben analizarse separadamente."
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culo 167.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP03: Separar la prestaciÃ³n y la responsabilidad empresarial"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-509"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culo 167",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP03, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

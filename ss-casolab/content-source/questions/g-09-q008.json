@@ -1,0 +1,82 @@
+{
+  "id": "g-09-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-09"
+  ],
+  "epigraph": "La provincia",
+  "competency": "Diferenciar la naturaleza y las funciones de la provincia y la diputación.",
+  "difficulty": "medium",
+  "prompt": "Una pregunta describe la provincia como una simple división territorial del Estado sin personalidad jurídica ni función de asistencia municipal. ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "Es correcta porque la provincia carece de autonomía y la diputación solo ejecuta instrucciones estatales.",
+      "isCorrect": false,
+      "feedback": "La provincia es entidad local y su gobierno y administración autónoma corresponden a la diputación u otra corporación representativa.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G09, provincia como entidad local"
+    },
+    {
+      "text": "Es incorrecta solo porque los límites provinciales los cambia libremente la diputación.",
+      "isCorrect": false,
+      "feedback": "La alteración de límites provinciales requiere ley orgánica de las Cortes Generales; además, la provincia tiene personalidad y fines locales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, límites provinciales"
+    },
+    {
+      "text": "Es correcta porque la coordinación de servicios municipales pertenece exclusivamente a cada ayuntamiento.",
+      "isCorrect": false,
+      "feedback": "La diputación tiene competencias propias de coordinación, asistencia y servicios supramunicipales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G09, funciones provinciales"
+    },
+    {
+      "text": "Es incorrecta: la provincia es también una entidad local con personalidad jurídica propia, agrupación de municipios y fines de solidaridad, coordinación y asistencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. La provincia tiene dimensión estatal y local; la diputación coordina y asiste a los municipios conforme a la Ley 7/1985."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-09-022",
+    "clm-g-09-023",
+    "clm-g-09-024"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 141",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "location": "artículos 31, 32 y 36",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre la doble dimensión y las funciones de la provincia."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

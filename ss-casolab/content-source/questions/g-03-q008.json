@@ -1,0 +1,75 @@
+{
+  "id": "g-03-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Sentencias y efectos",
+  "competency": "Aplicar la publicación, firmeza y alcance de las sentencias constitucionales.",
+  "difficulty": "high",
+  "prompt": "El Tribunal Constitucional declara inconstitucional una parte de una ley. ¿Qué afirmación se ajusta al artículo 164?",
+  "options": [
+    {
+      "text": "La sentencia solo produce efectos tras confirmación del Tribunal Supremo.",
+      "isCorrect": false,
+      "feedback": "Las sentencias del Tribunal Constitucional no admiten recurso. El Tribunal Supremo no confirma una sentencia constitucional.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G03, firmeza e irrecurribilidad"
+    },
+    {
+      "text": "La declaración parcial elimina siempre toda la ley, aunque el fallo no lo disponga.",
+      "isCorrect": false,
+      "feedback": "El artículo 164.2 establece la regla contraria: subsiste la vigencia de la parte no afectada, salvo que el fallo disponga otra cosa.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G03, efecto sobre la parte no afectada"
+    },
+    {
+      "text": "La sentencia tiene valor de cosa juzgada desde su firma y no necesita publicación oficial.",
+      "isCorrect": false,
+      "feedback": "La Constitución exige publicación en el BOE y sitúa la cosa juzgada desde el día siguiente a esa publicación.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G03, publicación y momento de la cosa juzgada"
+    },
+    {
+      "text": "La sentencia se publica en el BOE con los votos particulares, si existen; tiene valor de cosa juzgada desde el día siguiente, no admite recurso, produce efectos frente a todos y, salvo decisión distinta del fallo, subsiste la parte no afectada.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reúne publicación, cosa juzgada, irrecurribilidad, efectos generales de la declaración de inconstitucionalidad y conservación de la parte no afectada."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-018"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 164, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

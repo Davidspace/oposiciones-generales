@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-014", "assetId": "G11", "version": "0.1.0",
+  "statement": "La sentencia Costa/ENEL fundamentó la primacía en la naturaleza propia del ordenamiento creado por el Tratado y rechazó que una medida nacional posterior pudiera prevalecer frente a ese Derecho sin poner en cuestión su carácter y su base jurídica.",
+  "sourceUrl": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61964CJ0006", "sourceLocation": "sentencia de 15-07-1964, asunto 6/64, fundamentos sobre la relación entre Derecho comunitario y Derecho nacional", "officialPublication": "EUR-Lex, documento 61964CJ0006; ECLI:EU:C:1964:66",
+  "validFrom": "1964-07-15", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial trazable sobre el fundamento jurisprudencial de la primacía."}]}
+}

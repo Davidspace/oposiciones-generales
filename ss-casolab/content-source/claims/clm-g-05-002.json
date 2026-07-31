@@ -1,0 +1,34 @@
+{
+  "claimId": "clm-g-05-002",
+  "assetId": "G05",
+  "version": "0.1.0",
+  "statement": "La Constitución fija un Congreso de 300 a 400 Diputados elegidos por cuatro años con la provincia como circunscripción y representación proporcional, y configura un Senado territorial con Senadores elegidos en provincias, islas, Ceuta y Melilla y otros designados por las comunidades autónomas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "artículos 68 y 69",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "2026-05-20",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "G05",
+    "content-source/modules/G05/lesson.md",
+    "content-source/modules/G05/review.md",
+    "g-05-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa con la composición constitucional vigente."
+      }
+    ]
+  }
+}

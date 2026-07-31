@@ -1,0 +1,76 @@
+{
+  "id": "g-18-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Recurso potestativo de reposición",
+  "competency": "Aplicar la elección y la secuencia de reposición y contencioso.",
+  "difficulty": "high",
+  "prompt": "Un acto expreso pone fin a la vía administrativa. El interesado interpone reposición. ¿Qué secuencia debe respetar?",
+  "options": [
+    {
+      "text": "Debe interponer reposición y contencioso el mismo día para conservar ambas opciones.",
+      "isCorrect": false,
+      "feedback": "La Ley 39/2015 impide interponer el contencioso mientras la reposición no se resuelva expresa o presuntamente.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G18, reposición y contencioso"
+    },
+    {
+      "text": "La reposición se presenta ante el superior jerárquico y se resuelve en tres meses.",
+      "isCorrect": false,
+      "feedback": "La reposición se interpone y resuelve por el mismo órgano y el plazo máximo de resolución es un mes.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G18, órgano de reposición"
+    },
+    {
+      "text": "La reposición es obligatoria frente a todo acto que ponga fin a la vía administrativa.",
+      "isCorrect": false,
+      "feedback": "Es potestativa: también puede acudirse directamente al orden contencioso-administrativo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G18, carácter potestativo"
+    },
+    {
+      "text": "La reposición es potestativa ante el mismo órgano; mientras no se resuelva expresamente o se produzca su desestimación presunta, no puede interponerse el contencioso contra el mismo acto.",
+      "isCorrect": true,
+      "feedback": "Correcto. La reposición permite elegir, pero una vez elegida debe agotarse su secuencia antes del contencioso."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-011",
+    "clm-g-18-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 123 y 124",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre la secuencia reposición-contencioso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

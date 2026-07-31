@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Sistema de liquidación directa",
+  "competency": "Asignar el cálculo y la transmisión de datos en el sistema de liquidación directa",
+  "difficulty": "medium",
+  "prompt": "Una empresa está incorporada al sistema de liquidación directa. Para incluir a una persona trabajadora en la liquidación del mes, ¿qué actuación se ajusta al TRLGSS?",
+  "options": [
+    {
+      "text": "La empresa calcula definitivamente la cuota agregada de toda la plantilla y la Tesorería se limita a recibir el importe.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa descripción no corresponde a la liquidación directa: en este sistema la Tesorería calcula las cuotas por cada persona trabajadora a solicitud del responsable.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S04, apartado 5.1: diferencias entre autoliquidación y liquidación directa."
+    },
+    {
+      "text": "La empresa solicita a la Tesorería el cálculo por persona trabajadora y transmite los datos necesarios hasta el penúltimo día natural del plazo reglamentario; la persona debe figurar de alta en el período.",
+      "isCorrect": true,
+      "feedback": "Correcto. La liquidación directa combina el cálculo individual por la Tesorería con la solicitud y transmisión de datos por el responsable dentro del plazo operativo previsto. Además, exige que la persona trabajadora figure de alta durante el período que se liquida."
+    },
+    {
+      "text": "La Tesorería calcula de oficio sin solicitud ni datos de la empresa, aunque la persona trabajadora no figure de alta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El responsable debe solicitar el cálculo y aportar los datos que la Tesorería no tenga; tampoco procede este cálculo respecto de una persona que no figure en alta durante el período.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S04, apartado 5.2: solicitud, datos necesarios y condición de alta."
+    },
+    {
+      "text": "La empresa puede transmitir por primera vez los datos después de terminar el plazo reglamentario sin que cambie el sistema ni se produzca ningún efecto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La solicitud y la transmisión inicial de los datos necesarios tienen un límite temporal dentro del plazo reglamentario.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S04, apartado 5.2: penúltimo día natural del plazo reglamentario."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-012",
+    "clm-ss-04-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a22",
+      "location": "TRLGSS, artículo 22.1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a29",
+      "location": "TRLGSS, artículo 29.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta procedimental con feedback por alternativa."
+      }
+    ]
+  }
+}

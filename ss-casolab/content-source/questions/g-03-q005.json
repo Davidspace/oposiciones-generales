@@ -1,0 +1,74 @@
+{
+  "id": "g-03-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Legitimación en el recurso de inconstitucionalidad",
+  "competency": "Reconocer los sujetos constitucionalmente legitimados para el recurso de inconstitucionalidad.",
+  "difficulty": "medium",
+  "prompt": "¿Qué grupo contiene solo sujetos legitimados para interponer un recurso de inconstitucionalidad?",
+  "options": [
+    {
+      "text": "El Presidente del Gobierno, el Defensor del Pueblo, cincuenta Diputados y cincuenta Senadores.",
+      "isCorrect": true,
+      "feedback": "Correcto. Todos figuran en el artículo 162.1.a. La Constitución y la Ley Orgánica también contemplan la legitimación autonómica con su alcance propio."
+    },
+    {
+      "text": "El Ministerio Fiscal, cualquier persona jurídica y un Diputado.",
+      "isCorrect": false,
+      "feedback": "El Ministerio Fiscal y la persona jurídica con interés legítimo aparecen en la legitimación del amparo, no en la del recurso de inconstitucionalidad. Un solo Diputado no alcanza el número exigido.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G03, comparación de legitimación entre recurso y amparo"
+    },
+    {
+      "text": "El Consejo General del Poder Judicial, el Tribunal Supremo y cincuenta eurodiputados.",
+      "isCorrect": false,
+      "feedback": "Ninguno de esos sujetos integra la lista del artículo 162.1.a por esa condición. No confundas órganos que proponen Magistrados con actores de un proceso constitucional.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G03, lista cerrada del artículo 162.1.a"
+    },
+    {
+      "text": "Cualquier Ayuntamiento, veinticinco Senadores y una asociación con interés legítimo.",
+      "isCorrect": false,
+      "feedback": "La Constitución exige cincuenta Senadores. Los Ayuntamientos y asociaciones no obtienen por esa sola condición legitimación para este recurso.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G03, sujetos y umbrales del recurso de inconstitucionalidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 162.1.a",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+      "location": "artículo 32",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

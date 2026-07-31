@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-03-002",
+  "assetId": "MC01",
+  "version": "0.1.0",
+  "statement": "Con carácter general, la solicitud de alta debe presentarse antes del comienzo de la prestación de servicios y no puede presentarse con más de 60 días naturales de antelación.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+  "sourceLocation": "Real Decreto 84/1996, artículo 32.3.1.º",
+  "officialPublication": "BOE-A-1996-4447; redacción del artículo 32 dada por BOE-A-2015-8339",
+  "validFrom": "2015-07-26",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "MC01",
+    "ss-03-q102"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

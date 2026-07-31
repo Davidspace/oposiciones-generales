@@ -1,0 +1,78 @@
+{
+  "id": "g-20-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Quejas y sugerencias",
+  "competency": "aplicar plazo y canales de queja",
+  "difficulty": "high",
+  "prompt": "Una queja se presenta correctamente y no necesita aclaraciones. ¿Qué plazo debe tener presente la unidad responsable para informar de las actuaciones realizadas?",
+  "options": [
+    {
+      "text": "Diez días naturales, porque toda queja es un trámite de subsanación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Diez días hábiles es el plazo para aclaraciones cuando proceda; la contestación ordinaria es de veinte días hábiles.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G20, artículo 16"
+    },
+    {
+      "text": "Un mes natural y, si no hay respuesta, la queja se convierte en recurso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta de respuesta no convierte la queja en recurso.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G20, efectos y seguimiento"
+    },
+    {
+      "text": "No existe plazo porque las quejas no generan constancia ni respuesta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La unidad debe tramitar y responder sobre las actuaciones realizadas.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, artículos 14 a 16"
+    },
+    {
+      "text": "Veinte días hábiles desde la recepción, salvo suspensión por requerir aclaraciones en los términos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 16 fija veinte días hábiles y prevé suspensión si se piden aclaraciones por diez días hábiles."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-012",
+    "clm-g-20-013",
+    "clm-g-20-014",
+    "clm-g-20-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14836",
+      "location": "artículos 14 a 16",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Plazo de contestación."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

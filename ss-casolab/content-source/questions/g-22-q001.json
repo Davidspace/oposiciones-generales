@@ -1,0 +1,77 @@
+{
+  "id": "g-22-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Ámbito",
+  "competency": "Identificar un tratamiento sujeto al RGPD",
+  "difficulty": "basic",
+  "prompt": "Una entidad almacena en un fichero electrónico nombres y teléfonos de personas usuarias. ¿Qué marco debe aplicar?",
+  "options": [
+    {
+      "text": "Ninguna norma, porque un teléfono no es un dato personal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un teléfono puede identificar o hacer identificable a una persona.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G22, ámbito"
+    },
+    {
+      "text": "El RGPD, porque existe tratamiento automatizado de datos personales.",
+      "isCorrect": true,
+      "feedback": "Correcto. El tratamiento automatizado de datos personales entra en el ámbito del artículo 2.1."
+    },
+    {
+      "text": "Solo la Ley 39/2015, porque el responsable es una Administración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La condición pública no excluye la normativa de protección de datos.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G22, ámbito"
+    },
+    {
+      "text": "Solo las normas de archivo, sin protección de datos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El archivo puede coexistir con obligaciones de protección de datos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G22, ámbito"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-001",
+    "clm-g-22-003",
+    "clm-g-22-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "arts. 2.1 y 4.1 RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q001."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

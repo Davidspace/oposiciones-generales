@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-g-03-011",
+  "assetId": "G03",
+  "version": "0.1.0",
+  "statement": "El Tribunal Constitucional conoce del control de normas con fuerza de ley, el amparo, conflictos competenciales y entre órganos constitucionales, conflictos en defensa de la autonomía local, tratados, control previo estatutario, impugnaciones del artículo 161.2 y otras materias atribuidas por la Constitución o leyes orgánicas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+  "sourceLocation": "artículo 2.1; conexión con el artículo 161.1 de la Constitución",
+  "officialPublication": "BOE núm. 239, de 05-10-1979; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "2015-09-24",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G03",
+    "content-source/modules/G03/lesson.md",
+    "g-03-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

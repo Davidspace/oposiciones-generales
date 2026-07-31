@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-024", "assetId": "G08", "version": "0.1.0",
+  "statement": "Las Oficinas Consulares ejercen funciones consulares y especialmente prestan asistencia y protección a españoles en el exterior; pueden ser de carrera u honorarias, las de carrera se crean y suprimen por real decreto del Consejo de Ministros y las honorarias por orden del Ministro competente en asuntos exteriores.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3248&p=20180612&tn=1", "sourceLocation": "artículos 47 y 48", "officialPublication": "BOE núm. 74, de 26-03-2014; texto consolidado con última actualización publicada el 12-06-2018",
+  "validFrom": "2014-03-27", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre Oficinas Consulares."}]}
+}

@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-03-022",
+  "assetId": "MC02",
+  "version": "0.1.0",
+  "statement": "La afiliación a la Seguridad Social es obligatoria para las personas del artículo 7.1 del TRLGSS y única para toda su vida y para todo el sistema, sin perjuicio de las altas y bajas en los distintos regímenes.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
+  "sourceLocation": "TRLGSS, artículo 15",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC02",
+    "ss-02-q105"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable para MC02; revisión humana pendiente."
+      }
+    ]
+  }
+}

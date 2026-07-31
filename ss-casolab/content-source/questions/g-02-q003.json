@@ -1,0 +1,76 @@
+{
+  "id": "g-02-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Tutela reforzada",
+  "competency": "Seleccionar las vías constitucionales de tutela del artículo 14.",
+  "difficulty": "medium",
+  "prompt": "Una persona considera vulnerado el derecho a la igualdad del artículo 14. ¿Qué sistema de tutela describe el artículo 53.2?",
+  "options": [
+    {
+      "text": "Solo el procedimiento judicial ordinario común, sin preferencia, sumariedad ni posible amparo.",
+      "isCorrect": false,
+      "feedback": "El artículo 53.2 añade un procedimiento basado en preferencia y sumariedad y contempla, en su caso, el recurso de amparo.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G02, artículo 53.2"
+    },
+    {
+      "text": "Solo una queja ante el Defensor del Pueblo, porque este sustituye a los tribunales en la defensa de los derechos.",
+      "isCorrect": false,
+      "feedback": "El Defensor del Pueblo supervisa la actividad administrativa para la defensa de los derechos, pero no sustituye la tutela de los tribunales ni el recurso de amparo.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G02, garantías y Defensor del Pueblo"
+    },
+    {
+      "text": "Tutela ante los tribunales ordinarios mediante un procedimiento basado en preferencia y sumariedad y, en su caso, recurso de amparo ante el Tribunal Constitucional.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 14 está incluido expresamente en el ámbito de tutela del artículo 53.2."
+    },
+    {
+      "text": "Un recurso directo ante el Tribunal Supremo, sin actuación previa de los tribunales ordinarios.",
+      "isCorrect": false,
+      "feedback": "La Constitución no establece esa vía en el artículo 53.2. El precepto menciona tribunales ordinarios y, en su caso, amparo ante el Tribunal Constitucional.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G02, órgano y vía de tutela"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-004",
+    "clm-g-02-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 14, 53.2 y 161.1.b",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

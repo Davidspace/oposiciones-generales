@@ -1,0 +1,81 @@
+{
+  "id": "ss-09-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Método",
+  "competency": "Separar figuras jurídicas",
+  "difficulty": "basic",
+  "prompt": "¿Cuál es la secuencia más segura para resolver un supuesto del tema 9?",
+  "options": [
+    {
+      "text": "Elegir primero una cuantía y después buscar el hecho causante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El cálculo depende de la prestación identificada.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S09, método"
+    },
+    {
+      "text": "Identificar hecho causante → prestación → beneficiario → requisitos → duración y extinción.",
+      "isCorrect": true,
+      "feedback": "Correcto. La secuencia evita mezclar nacimiento, riesgo, familia y enfermedad grave."
+    },
+    {
+      "text": "Aplicar siempre el régimen de nacimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El supuesto puede ser de riesgo, familia o cuidado de enfermedad grave.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, método"
+    },
+    {
+      "text": "Usar el vínculo familiar como único requisito.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Cada prestación tiene requisitos propios.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S09, método"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-001",
+    "clm-ss-09-006",
+    "clm-ss-09-008",
+    "clm-ss-09-011",
+    "clm-ss-09-013",
+    "clm-ss-09-017",
+    "clm-ss-09-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 177 a 192 y 351 a 356",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q008."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "key": "2024_conv2023_ordinario_A",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": true
+  },
+  {
+    "key": "2025_conv2023_extraordinario",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": true
+  },
+  {
+    "key": "2025_conv2024_ordinario_A",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": true
+  },
+  {
+    "key": "2025_conv2024_extraordinario",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": true
+  },
+  {
+    "key": "2026_conv2025_rojo_A",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": true
+  },
+  {
+    "key": "2026_conv2025_verde_A",
+    "questions": 91,
+    "expected": 91,
+    "theory": 73,
+    "practical": 18,
+    "computada_en_frecuencia": false
+  }
+]

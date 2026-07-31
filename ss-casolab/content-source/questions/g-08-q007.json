@@ -1,0 +1,84 @@
+{
+  "id": "g-08-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Órganos territoriales",
+  "competency": "Asignar nivel, nombramiento, dependencia y función a los órganos y servicios territoriales.",
+  "difficulty": "high",
+  "prompt": "Se cubren puestos territoriales y se reorganiza un servicio estatal integrado. ¿Qué secuencia es correcta con el corte normativo indicado?",
+  "options": [
+    {
+      "text": "El Rey nombra directamente al Subdelegado, que tiene rango de Subsecretario y dirige todos los servicios no integrados sin intervención del órgano central.",
+      "isCorrect": false,
+      "feedback": "El Subdelegado lo nombra el Delegado, tiene nivel de Subdirector general y los servicios no integrados dependen del órgano central sectorial.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, nombramiento y nivel del Subdelegado y dependencia de servicios"
+    },
+    {
+      "text": "El Director Insular es elegido por la entidad local de la isla y puede proceder de cualquier grupo profesional porque el real decreto de 1997 prevalece sobre la Ley 40/2015.",
+      "isCorrect": false,
+      "feedback": "Lo nombra el Delegado y la regla legal posterior exige funcionario A1; no debe trasladarse sin contraste una formulación reglamentaria anterior.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G08, regla vigente de nombramiento de Directores Insulares"
+    },
+    {
+      "text": "El Consejo de Ministros nombra al Delegado por real decreto a propuesta del Presidente; el Delegado nombra por libre designación A1 al Subdelegado y al Director Insular, este último existe reglamentariamente en ámbitos como La Gomera, y el servicio integrado depende del Delegado o Subdelegado a través de la Secretaría General con instrucciones técnicas del Ministerio competente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La secuencia distingue autoridad de nombramiento, requisito A1, despliegue insular reglamentario y doble componente territorial-técnico del servicio integrado."
+    },
+    {
+      "text": "Los servicios integrados dependen únicamente del órgano central y los no integrados del Delegado del Gobierno.",
+      "isCorrect": false,
+      "feedback": "La opción invierte la dependencia: el integrado se encuadra en Delegación o Subdelegación y el no integrado depende del órgano central competente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, servicios territoriales integrados y no integrados"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-016",
+    "clm-g-08-017",
+    "clm-g-08-018",
+    "clm-g-08-019",
+    "clm-g-08-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 69 a 75",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-9547&p=19970503&tn=1",
+      "location": "artículo 6",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

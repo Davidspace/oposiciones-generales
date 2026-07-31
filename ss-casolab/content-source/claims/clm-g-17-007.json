@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-007",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "La solicitud de responsabilidad patrimonial incorpora las exigencias del artículo 67; declaración responsable y comunicación tienen el contenido y efectos del artículo 69 y no pueden exigirse acumulativamente para una misma actividad o derecho.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 67 y 69",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

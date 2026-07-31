@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q101",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "Campo contributivo: sujeto, actividad y territorio",
+  "competency": "Identificar las categorías contributivas presentes en dos actividades simultáneas",
+  "difficulty": "basic",
+  "prompt": "A partir de los hechos del caso, ¿qué lectura inicial del campo contributivo es correcta?",
+  "options": [
+    {
+      "text": "Solo el empleo por cuenta ajena puede quedar en el campo contributivo, porque el trabajo por cuenta propia queda siempre fuera del sistema.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 7.1.b incluye expresamente a los trabajadores por cuenta propia o autónomos que reúnan los requisitos legales.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S02, apartado 1.1: categorías del campo contributivo."
+    },
+    {
+      "text": "Solo cuenta la actividad que produzca más ingresos y la otra deja de ser relevante para el encuadramiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El caso exige analizar cada actividad; el artículo 7.1 no convierte el mayor ingreso en un criterio para eliminar la otra categoría.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartados 1.1 y 2.1: actividad y encuadramiento."
+    },
+    {
+      "text": "La residencia en España decide por sí sola el régimen aplicable, sin atender a la naturaleza de las actividades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La residencia es solo una parte del análisis; para el campo contributivo también deben comprobarse la actividad, el territorio y la categoría legal correspondiente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 1.1: residencia, actividad y categoría."
+    },
+    {
+      "text": "Las dos actividades encajan en categorías del campo contributivo: una por cuenta ajena y otra por cuenta propia; después debe resolverse el régimen de cada una.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 7.1 contempla tanto el trabajo por cuenta ajena como el trabajo por cuenta propia, junto con los requisitos de residencia o situación legal, territorio y encuadramiento."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a7",
+      "location": "TRLGSS, artículo 7.1.a) y b)",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de decisión conectada con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

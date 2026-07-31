@@ -1,0 +1,75 @@
+{
+  "id": "ss-07-q304",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Tema 7. Acción protectora",
+  "competency": "Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control.",
+  "difficulty": "high",
+  "prompt": "¿Qué organismo tiene atribuidas funciones decisorias en las fases finales de control de la incapacidad temporal?",
+  "options": [
+    {
+      "text": "El ayuntamiento del domicilio.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 170 y 174.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 7. Acción protectora: Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control."
+    },
+    {
+      "text": "La empresa sin intervención del sistema.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 170 y 174.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 7. Acción protectora: Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control."
+    },
+    {
+      "text": "El Servicio Público de Empleo Estatal en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 170 y 174.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 7. Acción protectora: Reconocer el papel del Instituto Nacional de la Seguridad Social en las fases de control."
+    },
+    {
+      "text": "El Instituto Nacional de la Seguridad Social, en los términos previstos legalmente.",
+      "isCorrect": true,
+      "feedback": "La gestión y control de la incapacidad temporal se distribuyen, pero el INSS tiene atribuciones decisorias en las fases previstas por la ley."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-104"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 170 y 174",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC05, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

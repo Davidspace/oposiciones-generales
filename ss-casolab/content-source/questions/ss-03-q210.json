@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q210",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Reserva 1: actuación subsidiaria",
+  "competency": "Elegir la vía de la persona trabajadora ante el incumplimiento empresarial",
+  "difficulty": "medium",
+  "prompt": "Reserva 1 de CP01. Si A detectó el 3 de junio que la sociedad no había solicitado su afiliación y alta, ¿qué podía hacer sin esperar a que la empresa actuara?",
+  "options": [
+    {
+      "text": "Nada hasta que finalizara el contrato, porque solo el empresario puede actuar en cualquier circunstancia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley reconoce expresamente la actuación directa del trabajador cuando el empresario incumple.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S03, apartado 2.2: vía subsidiaria de la persona interesada."
+    },
+    {
+      "text": "Solicitar una afiliación distinta en cada régimen futuro para evitar cualquier nuevo incumplimiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación es única; el remedio consiste en instar los actos omitidos, no en multiplicar afiliaciones.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 2.1 y 2.2: afiliación única y actuación directa."
+    },
+    {
+      "text": "Instar directamente su afiliación y alta ante el organismo competente, sin que ello borre la obligación ni la eventual responsabilidad empresarial.",
+      "isCorrect": true,
+      "feedback": "Correcto. El incumplimiento permite a la persona interesada promover directamente los actos; la vía subsidiaria no convierte en cumplida la obligación original del empresario."
+    },
+    {
+      "text": "Dirigirse exclusivamente al servicio público de empleo para que este sustituya a la TGSS.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación y el alta se instan ante el organismo competente de la Administración de la Seguridad Social; no se trasladan al servicio de empleo.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartado 2.2: organismo competente."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a139",
+      "location": "TRLGSS, artículo 139.2, en relación con el artículo 16.3 y 16.4",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la reserva 1 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

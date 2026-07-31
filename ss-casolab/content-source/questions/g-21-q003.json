@@ -1,0 +1,77 @@
+{
+  "id": "g-21-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Violencia de género",
+  "competency": "Delimitar el ámbito subjetivo de la Ley Orgánica 1/2004",
+  "difficulty": "medium",
+  "prompt": "¿Qué relación describe el ámbito principal de la violencia de género de la Ley Orgánica 1/2004?",
+  "options": [
+    {
+      "text": "Cualquier conflicto laboral entre dos personas, sin relación afectiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La norma exige el vínculo previsto en su ámbito subjetivo.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G21, violencia de género"
+    },
+    {
+      "text": "Solo violencia ejercida por un desconocido en un espacio público.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa descripción no coincide con el artículo 1.1.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G21, violencia de género"
+    },
+    {
+      "text": "Solo violencia económica entre Administraciones.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es el ámbito de la Ley Orgánica 1/2004.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G21, violencia de género"
+    },
+    {
+      "text": "Violencia ejercida sobre una mujer por quien sea o haya sido su cónyuge o esté o haya estado ligado por relación similar de afectividad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ese es el ámbito subjetivo descrito en el artículo 1.1."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-006",
+    "clm-g-21-007",
+    "clm-g-21-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-21760",
+      "location": "art. 1.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

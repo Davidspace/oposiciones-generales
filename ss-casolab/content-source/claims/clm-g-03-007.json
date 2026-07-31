@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-03-007",
+  "assetId": "G03",
+  "version": "0.1.0",
+  "statement": "La reforma de 2024 exige que cada órgano proponente incluya al menos un 40 % de cada sexo, mantiene que el Senado elija entre candidaturas autonómicas y demora la aplicación de la modificación hasta la primera renovación o nombramiento posterior a la entrada en vigor.",
+  "sourceUrl": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-15936",
+  "sourceLocation": "artículo 2 y disposición transitoria segunda.1",
+  "officialPublication": "BOE núm. 186, de 02-08-2024; BOE-A-2024-15936; entrada en vigor el 22-08-2024",
+  "validFrom": "2024-08-22",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G03",
+    "content-source/modules/G03/lesson.md"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa con control de vigencia temporal."
+      }
+    ]
+  }
+}

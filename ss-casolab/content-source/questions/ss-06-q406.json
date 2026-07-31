@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q406",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "CP02 — decisión 6",
+  "competency": "Reconocer el inicio de la vÃ­a ejecutiva",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© acto inicia la vÃ­a ejecutiva descrita en el caso?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar reconocer el inicio de la vã­a ejecutiva.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 38 y 39.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Reconocer el inicio de la vÃ­a ejecutiva"
+    },
+    {
+      "text": "La providencia de apremio, cuando concurren los presupuestos legales.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: La providencia de apremio, cuando concurren los presupuestos legales."
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 38 y 39.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Reconocer el inicio de la vÃ­a ejecutiva"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 38 y 39.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Reconocer el inicio de la vÃ­a ejecutiva"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-406"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artÃ­culos 38 y 39",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

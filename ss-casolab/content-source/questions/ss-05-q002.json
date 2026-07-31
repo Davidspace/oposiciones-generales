@@ -1,0 +1,77 @@
+{
+  "id": "ss-05-q002",
+  "epigraph": "Responsables del pago",
+  "competency": "Diferenciar los presupuestos para exigir una deuda a responsables solidarios y subsidiarios",
+  "difficulty": "high",
+  "prompt": "Existe una deuda líquida, vencida y exigible. Una resolución identifica a Ana como responsable solidaria y a Bruno como responsable subsidiario. No se ha declarado insolvente al deudor principal. ¿Qué actuación se ajusta al régimen recaudatorio?",
+  "options": [
+    {
+      "text": "La TGSS debe declarar insolvente al deudor principal antes de reclamar tanto a Ana como a Bruno.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La previa insolvencia es un presupuesto de la responsabilidad subsidiaria, no de la solidaria.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S05, apartado 2: diferencias entre responsabilidad solidaria y subsidiaria."
+    },
+    {
+      "text": "La TGSS puede reclamar la deuda a Ana sin esperar la insolvencia del deudor principal, pero no puede exigirla a Bruno mientras no constate esa insolvencia y tramite el procedimiento correspondiente.",
+      "isCorrect": true,
+      "feedback": "Correcto. La responsabilidad solidaria permite reclamar a cualquiera de los responsables hasta extinguir el crédito. La responsabilidad subsidiaria exige la previa constatación de la insolvencia del principal y, como regla, un expediente con audiencia durante quince días."
+    },
+    {
+      "text": "La TGSS solo puede reclamar a Ana después de agotar el procedimiento contra Bruno.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La responsabilidad solidaria no queda subordinada a la persecución previa del responsable subsidiario.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S05, apartado 2: orden de exigencia según el tipo de responsabilidad."
+    },
+    {
+      "text": "La TGSS puede reclamar de inmediato a Bruno porque basta con que la deuda sea líquida, vencida y exigible.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esos requisitos no sustituyen la constatación de insolvencia del deudor principal ni el procedimiento previo aplicable al responsable subsidiario.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S05, apartado 2: presupuestos y audiencia de la responsabilidad subsidiaria."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-004",
+    "clm-ss-05-005",
+    "clm-ss-05-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a12",
+      "location": "Real Decreto 1415/2004, artículos 12 a 14",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

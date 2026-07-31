@@ -1,0 +1,76 @@
+{
+  "id": "ss-01-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "TRLGSS, títulos IV y V",
+  "competency": "Relacionar encuadramiento autónomo y protección por cese",
+  "difficulty": "medium",
+  "prompt": "Una persona incluida en el régimen de trabajadores autónomos solicita protección tras cesar en su actividad. ¿Qué mapa de consulta evita mezclar encuadramiento y contingencia?",
+  "options": [
+    {
+      "text": "Título V para decidir también cualquier cuestión de encuadramiento, porque desplaza por completo al título IV.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El título V regula la protección por cese, pero no sustituye todas las reglas del régimen de encuadramiento del título IV.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 4.1: título de entrada y comprobaciones adicionales"
+    },
+    {
+      "text": "Título III exclusivamente, porque cese de actividad y desempleo son la misma figura jurídica.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El TRLGSS dedica el título III al desempleo y el título V a la protección por cese de actividad; no son el mismo bloque normativo.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S01, apartado 4: materias de los títulos III y V"
+    },
+    {
+      "text": "Título VI exclusivamente, porque toda prestación solicitada por un autónomo tiene naturaleza no contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La condición de autónomo no convierte cualquier protección en no contributiva; el cese tiene su regulación específica en el título V.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S01, apartados 3.1 y 4: modalidad y bloque material"
+    },
+    {
+      "text": "Título IV para situar el régimen de la persona y título V para analizar la protección por cese, sin olvidar las normas generales aplicables.",
+      "isCorrect": true,
+      "feedback": "Correcto. El título IV regula el régimen de trabajo autónomo y el V contiene la protección específica por cese de actividad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-007",
+    "clm-ss-01-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, título IV y título V, artículos 327 y 328",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

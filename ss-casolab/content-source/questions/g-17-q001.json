@@ -1,0 +1,75 @@
+{
+  "id": "g-17-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Iniciación",
+  "competency": "distinguir denuncia e iniciación de oficio",
+  "difficulty": "medium",
+  "prompt": "Una persona denuncia ante el órgano competente unos hechos que podrían justificar un procedimiento. Solo por presentar la denuncia, ¿qué efecto produce según la Ley 39/2015?",
+  "options": [
+    {
+      "text": "Inicia automáticamente un procedimiento a solicitud del denunciante y le convierte en interesado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La denuncia puede provocar una iniciación de oficio, pero no equivale a una solicitud iniciadora ni atribuye automáticamente la condición de interesado.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 1.4 «Iniciación de oficio»"
+    },
+    {
+      "text": "Puede dar lugar a que el órgano competente acuerde iniciar de oficio, pero no confiere por sí sola la condición de interesado.",
+      "isCorrect": true,
+      "feedback": "Correcto. La denuncia es uno de los posibles orígenes del inicio de oficio, que exige acuerdo del órgano competente, y el artículo 62.5 niega que atribuya por sí sola condición de interesado."
+    },
+    {
+      "text": "Obliga siempre al órgano a incoar, aunque carezca de competencia para iniciar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La incoación requiere acuerdo del órgano competente; la presentación de la denuncia no sustituye esa decisión.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G17, apartado 1.4 «Iniciación de oficio»"
+    },
+    {
+      "text": "Solo puede presentarla quien ya tenga la condición de interesado en un procedimiento abierto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Cualquier persona puede poner en conocimiento hechos que pudieran justificar la iniciación de oficio; precisamente puede no existir todavía procedimiento.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G17, apartado 1.4 «Iniciación de oficio»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 58 y 62.1 y 62.5",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

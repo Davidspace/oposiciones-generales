@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-08-013", "assetId": "G08", "version": "0.1.0",
+  "statement": "El Secretario general técnico, bajo la dependencia inmediata del Subsecretario y con categoría de Director general, tiene en todo caso competencias de producción normativa, asistencia jurídica y publicaciones; es nombrado y separado por real decreto del Consejo de Ministros a propuesta del Ministro entre funcionarios de carrera del Subgrupo A1 con idoneidad legal.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1", "sourceLocation": "artículo 65, apartados 1 a 3", "officialPublication": "BOE núm. 236, de 02-10-2015; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "2016-10-02", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G08", "content-source/modules/G08/lesson.md", "content-source/modules/G08/review.md", "g-08-q005"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre Secretaría General Técnica."}]}
+}

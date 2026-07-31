@@ -1,0 +1,69 @@
+{
+  "id": "g-02-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Interpretación de derechos",
+  "competency": "Aplicar la regla interpretativa del artículo 10.2 sin alterar su alcance.",
+  "difficulty": "basic",
+  "prompt": "Según el artículo 10.2 de la Constitución, ¿con qué referentes se interpretan las normas relativas a los derechos fundamentales y a las libertades reconocidas por la Constitución?",
+  "options": [
+    {
+      "text": "Solo con el Derecho de la Unión Europea que tenga efecto directo.",
+      "isCorrect": false,
+      "feedback": "El artículo 10.2 no limita la referencia al Derecho de la Unión Europea ni exige efecto directo. Nombra la Declaración Universal y los tratados y acuerdos ratificados por España sobre esas materias.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G02, artículo 10.2"
+    },
+    {
+      "text": "Con la Declaración Universal de Derechos Humanos y con los tratados y acuerdos internacionales sobre esas materias ratificados por España.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa es la regla interpretativa que establece el artículo 10.2."
+    },
+    {
+      "text": "Con cualquier declaración internacional, que pasa automáticamente a tener rango constitucional.",
+      "isCorrect": false,
+      "feedback": "El artículo 10.2 formula una regla de interpretación y se refiere a instrumentos concretos; no atribuye automáticamente rango constitucional a cualquier declaración.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G02, naturaleza interpretativa del artículo 10.2"
+    },
+    {
+      "text": "Con esos referentes solo mientras no esté declarado un estado de excepción o de sitio.",
+      "isCorrect": false,
+      "feedback": "El artículo 10.2 no contiene esa excepción. La suspensión de determinados derechos se regula separadamente en el artículo 55.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G02, diferencia entre interpretación y suspensión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 10.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

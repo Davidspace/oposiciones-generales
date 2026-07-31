@@ -1,0 +1,81 @@
+{
+  "id": "ss-06-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Cuentas compartidas y prestaciones",
+  "competency": "Delimitar el alcance del embargo en cotitularidad y calcular la protección conjunta de varias prestaciones",
+  "difficulty": "high",
+  "prompt": "Una persona apremiada comparte con otra una cuenta con 8.000 euros, sin prueba de una titularidad material distinta, y cobra dos prestaciones periódicas. ¿Qué criterio debe aplicar la unidad de recaudación?",
+  "options": [
+    {
+      "text": "Puede atribuir al deudor los 8.000 euros por figurar como cotitular y calcular por separado la parte inembargable de cada prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Sin otra prueba, el saldo se presume dividido por partes iguales. Las prestaciones se acumulan para determinar la parte inembargable.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S06, apartados 4.4 y 4.5: cotitularidad y acumulación de prestaciones."
+    },
+    {
+      "text": "No puede embargar una cuenta con cotitulares ni una prestación pública, aunque la deuda no quede cubierta con otros bienes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ambos bienes pueden ser objeto de embargo, pero solo en la parte atribuible al deudor y dentro de los límites legales aplicables.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S06, apartados 4.4 y 4.5: bienes embargables con límites."
+    },
+    {
+      "text": "Debe dividir el saldo según el número de prestaciones del deudor y considerar íntegramente embargable la prestación de menor cuantía.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reparto de la cuenta depende de sus titulares y de la titularidad material, no del número de prestaciones. Estas se acumulan para aplicar la escala protectora.",
+      "errorType": "criterio-inconsistente",
+      "reviewTarget": "S06, apartados 4.4 y 4.5: reglas independientes para cuenta y prestaciones."
+    },
+    {
+      "text": "Debe presumir que al deudor le corresponde la mitad del saldo y acumular las dos prestaciones para calcular la parte protegida por los límites de embargo.",
+      "isCorrect": true,
+      "feedback": "Correcto. La presunción de partes iguales puede ceder ante prueba distinta, y la protección de varias prestaciones se calcula sobre su importe acumulado."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-012",
+    "clm-ss-06-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a96",
+      "location": "Real Decreto 1415/2004, artículo 96.1.b",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a101",
+      "location": "Real Decreto 1415/2004, artículos 92.2 y 101",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

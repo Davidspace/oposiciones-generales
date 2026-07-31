@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-16-018",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "La ampliación ordinaria no excede de la mitad, exige circunstancias favorables, ausencia de perjuicio a terceros y decisión antes del vencimiento; la urgencia reduce a la mitad los plazos ordinarios salvo los de presentación de solicitudes y recursos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 32.1, 32.3 y 33.1",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

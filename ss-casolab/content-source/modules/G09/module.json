@@ -1,0 +1,109 @@
+{
+  "id": "G09",
+  "themeId": "g-09",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Organización territorial, comunidades autónomas y Administración local",
+  "learningOutcomes": [
+    "Explicar los principios constitucionales de autonomía, solidaridad, igualdad y libre circulación territorial.",
+    "Identificar la posición constitucional de las comunidades autónomas y el contenido mínimo de sus estatutos.",
+    "Distinguir las competencias que pueden asumir las comunidades autónomas de las competencias exclusivas del Estado.",
+    "Aplicar las leyes marco, de transferencia o delegación y de armonización a un supuesto de distribución competencial.",
+    "Reconocer la organización institucional autonómica y los controles constitucionales sobre su actividad.",
+    "Distinguir la autonomía financiera autonómica de una potestad tributaria territorial ilimitada.",
+    "Identificar los elementos, órganos y servicios mínimos del municipio.",
+    "Identificar la naturaleza, organización y funciones básicas de la provincia y de la diputación provincial."
+  ],
+  "decisions": [
+    "Clasificar una entidad territorial y determinar el interés cuya gestión autónoma le corresponde.",
+    "Decidir si una diferencia territorial vulnera la solidaridad, la igualdad o la libre circulación.",
+    "Comprobar si una regla pertenece al contenido necesario o al procedimiento de reforma de un estatuto de autonomía.",
+    "Asignar una materia al Estado, a una comunidad autónoma o al mecanismo constitucional de ampliación o transferencia.",
+    "Elegir entre ley marco, ley orgánica de transferencia o delegación y ley de armonización.",
+    "Asignar el control de una actuación autonómica al órgano constitucional competente.",
+    "Determinar qué órganos municipales existen y qué servicios mínimos corresponden por población.",
+    "Diferenciar la función municipal de la función provincial de coordinación, asistencia y prestación supramunicipal."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La organización territorial del Estado",
+      "objective": "Aplicar autonomía, solidaridad, igualdad y libre circulación a las entidades territoriales.",
+      "sectionId": "g09-principios-territoriales",
+      "activityIds": ["g-09-q001"]
+    },
+    {
+      "officialClause": "Las Comunidades Autónomas",
+      "objective": "Reconocer el acceso al autogobierno y las relaciones de cooperación entre comunidades autónomas.",
+      "sectionId": "g09-comunidades-autonomas",
+      "activityIds": ["g-09-q002"]
+    },
+    {
+      "officialClause": "Los Estatutos de Autonomía",
+      "objective": "Identificar la naturaleza, contenido necesario y reforma de un estatuto.",
+      "sectionId": "g09-estatutos",
+      "activityIds": ["g-09-q003"]
+    },
+    {
+      "officialClause": "La delimitación de competencias entre el Estado y las Comunidades Autónomas en la Constitución y en los Estatutos de Autonomía",
+      "objective": "Distinguir competencias asumibles, exclusivas estatales y reglas de cierre.",
+      "sectionId": "g09-reparto-competencias",
+      "activityIds": ["g-09-q004"]
+    },
+    {
+      "officialClause": "La delimitación de competencias entre el Estado y las Comunidades Autónomas en la Constitución y en los Estatutos de Autonomía",
+      "objective": "Aplicar los instrumentos extraestatutarios y los controles constitucionales.",
+      "sectionId": "g09-instrumentos-control",
+      "activityIds": ["g-09-q005"]
+    },
+    {
+      "officialClause": "Las Comunidades Autónomas",
+      "objective": "Reconocer la organización institucional y la autonomía financiera autonómicas.",
+      "sectionId": "g09-instituciones-financiacion",
+      "activityIds": ["g-09-q006"]
+    },
+    {
+      "officialClause": "La Administración local: El municipio",
+      "objective": "Aplicar la naturaleza, organización, competencias y servicios mínimos municipales.",
+      "sectionId": "g09-municipio",
+      "activityIds": ["g-09-q007"]
+    },
+    {
+      "officialClause": "La Administración local: La provincia",
+      "objective": "Aplicar la naturaleza, organización y funciones de coordinación y asistencia provinciales.",
+      "sectionId": "g09-provincia",
+      "activityIds": ["g-09-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G09/lesson.md",
+  "reviewSheetPath": "content-source/modules/G09/review.md",
+  "normativeClaimIds": [
+    "clm-g-09-001", "clm-g-09-002", "clm-g-09-003", "clm-g-09-004", "clm-g-09-005",
+    "clm-g-09-006", "clm-g-09-007", "clm-g-09-008", "clm-g-09-009", "clm-g-09-010",
+    "clm-g-09-011", "clm-g-09-012", "clm-g-09-013", "clm-g-09-014", "clm-g-09-015",
+    "clm-g-09-016", "clm-g-09-017", "clm-g-09-018", "clm-g-09-019", "clm-g-09-020",
+    "clm-g-09-021", "clm-g-09-022", "clm-g-09-023", "clm-g-09-024"
+  ],
+  "questionIds": [
+    "g-09-q001", "g-09-q002", "g-09-q003", "g-09-q004",
+    "g-09-q005", "g-09-q006", "g-09-q007", "g-09-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo con mapa de autonomía, competencia y nivel territorial."
+      }
+    ]
+  }
+}

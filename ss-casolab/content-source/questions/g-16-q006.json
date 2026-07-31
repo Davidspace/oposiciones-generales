@@ -1,0 +1,75 @@
+{
+  "id": "g-16-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Derechos del interesado en el procedimiento administrativo",
+  "competency": "reconocer los derechos del artículo 53",
+  "difficulty": "basic",
+  "prompt": "¿Cuál de estos es un derecho del interesado reconocido por el artículo 53.1 de la Ley 39/2015?",
+  "options": [
+    {
+      "text": "Elegir libremente el órgano competente para resolver.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El interesado puede conocer el órgano competente, pero no sustituir las reglas de competencia por una elección libre.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G16, apartado 5 «Derechos del interesado»"
+    },
+    {
+      "text": "Impedir que se tengan en cuenta todas las alegaciones de otras personas interesadas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo reconoce medios de defensa y alegaciones propias, no un veto general a la participación de otros interesados.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G16, apartado 5 «Derechos del interesado»"
+    },
+    {
+      "text": "Conocer el estado de tramitación y acceder y obtener copia de los documentos del procedimiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ambos contenidos aparecen en la letra a) del artículo 53.1."
+    },
+    {
+      "text": "Exigir resolución favorable por el solo hecho de haber presentado documentos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Aportar documentos y formular alegaciones es un derecho procedimental, no una garantía del sentido favorable de la resolución.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G16, apartado 5 «Derechos del interesado»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 53.1.a",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

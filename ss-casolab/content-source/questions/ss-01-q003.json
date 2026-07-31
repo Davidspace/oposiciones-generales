@@ -1,0 +1,75 @@
+{
+  "id": "ss-01-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-01"
+  ],
+  "epigraph": "Constitución Española, artículo 149.1.17",
+  "competency": "Identificar el reparto constitucional de competencias",
+  "difficulty": "medium",
+  "prompt": "Según el artículo 149.1.17 de la Constitución, ¿qué combinación competencial es correcta?",
+  "options": [
+    {
+      "text": "El Estado conserva la legislación básica, pero el régimen económico corresponde en exclusiva a las comunidades autónomas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El precepto atribuye al Estado tanto la legislación básica como el régimen económico de la Seguridad Social.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S01, apartado 2.3: materias reservadas al Estado"
+    },
+    {
+      "text": "Las comunidades autónomas tienen competencia legislativa plena y el Estado se limita a ejecutar los servicios.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Invierte el reparto del artículo 149.1.17: la legislación básica y el régimen económico son materias estatales.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S01, apartado 2.3: legislación y ejecución"
+    },
+    {
+      "text": "Toda función ejecutiva autonómica queda excluida porque la competencia estatal es exclusiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El propio precepto incluye la salvedad de la ejecución de servicios por las comunidades autónomas.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S01, apartado 2.3: salvedad de ejecución autonómica"
+    },
+    {
+      "text": "El Estado tiene competencia exclusiva sobre legislación básica y régimen económico, sin perjuicio de la ejecución autonómica de servicios.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción recoge las dos materias estatales y la salvedad relativa a la ejecución de servicios por las comunidades autónomas."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-01-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149",
+      "location": "Constitución Española, artículo 149.1.17",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

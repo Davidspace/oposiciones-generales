@@ -1,0 +1,140 @@
+{
+  "id": "G23",
+  "themeId": "g-23",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Funcionamiento electrónico del sector público",
+  "learningOutcomes": [
+    "Distinguir derecho y obligación de relacionarse por medios electrónicos.",
+    "Aplicar reglas básicas de registro, documento, copia y notificación electrónica.",
+    "Separar sede electrónica, registro, archivo y carpeta ciudadana.",
+    "Reconocer el papel del Esquema Nacional de Interoperabilidad y del Esquema Nacional de Seguridad.",
+    "Resolver cuándo existe actuación administrativa automatizada."
+  ],
+  "decisions": [
+    "Comprobar si la persona está obligada a relacionarse electrónicamente.",
+    "Elegir el canal correcto para registro, notificación o consulta.",
+    "Identificar los requisitos mínimos de un documento electrónico.",
+    "Aplicar interoperabilidad y seguridad como condiciones del sistema.",
+    "Distinguir actuación automatizada de actuación de un empleado público."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Relación electrónica",
+      "objective": "La Ley 39/2015 reconoce el derecho a relacionarse electrónicamente y establece colectivos obligados. La obligación de las personas jurídicas no debe extenderse sin más a toda persona física.",
+      "sectionId": "g23-relacion-1",
+      "activityIds": [
+        "g-23-q001"
+      ]
+    },
+    {
+      "officialClause": "Registros y documentos",
+      "objective": "Las Administraciones disponen de registros electrónicos y deben garantizar la interoperabilidad. Los documentos administrativos electrónicos deben conservar formato, identificación, integridad y metadatos en los términos aplicables.",
+      "sectionId": "g23-registro-2",
+      "activityIds": [
+        "g-23-q002"
+      ]
+    },
+    {
+      "officialClause": "Notificaciones y sede",
+      "objective": "La sede electrónica y la notificación electrónica tienen reglas propias de identificación, puesta a disposición, acceso y rechazo. No confundas publicación con notificación.",
+      "sectionId": "g23-notificacion-3",
+      "activityIds": [
+        "g-23-q003"
+      ]
+    },
+    {
+      "officialClause": "Interoperabilidad",
+      "objective": "El Esquema Nacional de Interoperabilidad establece criterios y recomendaciones para que sistemas y aplicaciones intercambien información y mantengan la reutilización documental.",
+      "sectionId": "g23-interoperabilidad-4",
+      "activityIds": [
+        "g-23-q004"
+      ]
+    },
+    {
+      "officialClause": "Seguridad y actuación automatizada",
+      "objective": "El Esquema Nacional de Seguridad fija principios y requisitos para proteger información y servicios. La actuación administrativa automatizada exige identificar órgano responsable y sistemas de firma o sello.",
+      "sectionId": "g23-seguridad-5",
+      "activityIds": [
+        "g-23-q005"
+      ]
+    },
+    {
+      "officialClause": "Relación electrónica",
+      "objective": "La Ley 39/2015 reconoce el derecho a relacionarse electrónicamente y establece colectivos obligados. La obligación de las personas jurídicas no debe extenderse sin más a toda persona física.",
+      "sectionId": "g23-relacion-6",
+      "activityIds": [
+        "g-23-q006"
+      ]
+    },
+    {
+      "officialClause": "Registros y documentos",
+      "objective": "Las Administraciones disponen de registros electrónicos y deben garantizar la interoperabilidad. Los documentos administrativos electrónicos deben conservar formato, identificación, integridad y metadatos en los términos aplicables.",
+      "sectionId": "g23-registro-7",
+      "activityIds": [
+        "g-23-q007"
+      ]
+    },
+    {
+      "officialClause": "Notificaciones y sede",
+      "objective": "La sede electrónica y la notificación electrónica tienen reglas propias de identificación, puesta a disposición, acceso y rechazo. No confundas publicación con notificación.",
+      "sectionId": "g23-notificacion-8",
+      "activityIds": [
+        "g-23-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G23/lesson.md",
+  "reviewSheetPath": "content-source/modules/G23/review.md",
+  "normativeClaimIds": [
+    "clm-g-23-001",
+    "clm-g-23-002",
+    "clm-g-23-003",
+    "clm-g-23-004",
+    "clm-g-23-005",
+    "clm-g-23-006",
+    "clm-g-23-007",
+    "clm-g-23-008",
+    "clm-g-23-009",
+    "clm-g-23-010",
+    "clm-g-23-011",
+    "clm-g-23-012",
+    "clm-g-23-013",
+    "clm-g-23-014",
+    "clm-g-23-015",
+    "clm-g-23-016",
+    "clm-g-23-017",
+    "clm-g-23-018",
+    "clm-g-23-019",
+    "clm-g-23-020"
+  ],
+  "questionIds": [
+    "g-23-q001",
+    "g-23-q002",
+    "g-23-q003",
+    "g-23-q004",
+    "g-23-q005",
+    "g-23-q006",
+    "g-23-q007",
+    "g-23-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de G23 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-002", "assetId": "G11", "version": "0.1.0",
+  "statement": "La Carta de los Derechos Fundamentales de la Unión Europea tiene el mismo valor jurídico que los Tratados y sus disposiciones no amplían las competencias de la Unión definidas en ellos.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_6/oj/spa", "sourceLocation": "artículo 6 TUE, apartado 1", "officialPublication": "DO C 202, de 07-06-2016; versión consolidada vigente de EUR-Lex",
+  "validFrom": "2009-12-01", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q001", "g-11-q002"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre valor jurídico y límite competencial de la Carta."}]}
+}

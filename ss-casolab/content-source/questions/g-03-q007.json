@@ -1,0 +1,80 @@
+{
+  "id": "g-03-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Impugnación autonómica",
+  "competency": "Aplicar el efecto suspensivo y el plazo del artículo 161.2.",
+  "difficulty": "medium",
+  "prompt": "El Gobierno impugna una resolución de un órgano autonómico por el cauce del artículo 161.2. ¿Qué efecto constitucional se produce?",
+  "options": [
+    {
+      "text": "La impugnación no produce suspensión y la resolución solo deja de aplicarse tras sentencia firme.",
+      "isCorrect": false,
+      "feedback": "El artículo 161.2 atribuye efecto suspensivo a la impugnación. No exige esperar a una sentencia firme para que opere.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G03, efecto inicial del artículo 161.2"
+    },
+    {
+      "text": "El Gobierno decide de forma definitiva si mantiene la suspensión durante cinco años.",
+      "isCorrect": false,
+      "feedback": "La decisión de ratificar o levantar corresponde al Tribunal Constitucional y el plazo máximo es de cinco meses, no de cinco años.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G03, órgano decisor y plazo"
+    },
+    {
+      "text": "La impugnación suspende la resolución y el Tribunal Constitucional debe ratificar o levantar la suspensión, en su caso, en un plazo máximo de cinco meses.",
+      "isCorrect": true,
+      "feedback": "Correcto. El Gobierno inicia la impugnación, pero el Tribunal controla la continuidad de la suspensión dentro del plazo constitucional."
+    },
+    {
+      "text": "La resolución queda anulada de forma automática e irreversible desde la presentación de la impugnación.",
+      "isCorrect": false,
+      "feedback": "Suspensión no equivale a anulación. El Tribunal debe resolver sobre la suspensión y, después, sobre el fondo conforme al procedimiento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G03, diferencia entre suspensión y anulación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 161.2",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+      "location": "artículos 76 y 77",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

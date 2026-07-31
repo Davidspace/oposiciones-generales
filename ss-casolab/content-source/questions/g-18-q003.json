@@ -1,0 +1,77 @@
+{
+  "id": "g-18-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Recurso de alzada: objeto y órgano",
+  "competency": "Seleccionar la alzada y el órgano superior jerárquico.",
+  "difficulty": "medium",
+  "prompt": "Una dirección general dicta una resolución que no pone fin a la vía administrativa. ¿Qué recurso y órgano corresponden como regla?",
+  "options": [
+    {
+      "text": "Reposición ante la misma dirección general porque todo acto administrativo se revisa por su autor.",
+      "isCorrect": false,
+      "feedback": "La reposición se reserva a actos que ponen fin a la vía; para el acto descrito procede estudiar la alzada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, alzada frente a reposición"
+    },
+    {
+      "text": "Recurso de alzada ante el superior jerárquico, que puede presentarse ante el órgano autor o ante el competente para resolver.",
+      "isCorrect": true,
+      "feedback": "Correcto. La alzada procede contra actos recurribles que no ponen fin a la vía y la resuelve el superior jerárquico."
+    },
+    {
+      "text": "Revisión extraordinaria ante el Tribunal Supremo porque toda resolución de una dirección general es firme.",
+      "isCorrect": false,
+      "feedback": "La resolución no es necesariamente firme y la revisión extraordinaria exige una causa legal tasada y se interpone ante el órgano que dictó el acto.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G18, revisión extraordinaria"
+    },
+    {
+      "text": "Recurso contencioso directo ante cualquier juzgado sin comprobar la vía administrativa.",
+      "isCorrect": false,
+      "feedback": "Debe comprobarse si el acto pone fin a la vía; si no la pone, la alzada es el cauce administrativo previsto.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G18, fin de vía y contencioso"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-003",
+    "clm-g-18-004",
+    "clm-g-18-009"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículos 114 y 121",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre objeto y órgano del recurso de alzada."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

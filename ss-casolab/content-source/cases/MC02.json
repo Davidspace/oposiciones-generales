@@ -1,0 +1,110 @@
+{
+  "id": "MC02",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Dos actividades, dos altas",
+  "scenario": "Una persona española, mayor de edad y ya afiliada a la Seguridad Social, reside y trabaja en España. Una sociedad mercantil la contrata como auxiliar administrativa, con retribución y bajo su organización y dirección. El mismo día inicia, de forma habitual, personal, directa y con ánimo de lucro, un servicio propio de reparación de bicicletas para clientes propios, fuera de la organización de esa sociedad. Ambas actividades continúan simultáneamente.",
+  "originality": "original",
+  "assumptions": [
+    "La relación con la sociedad es un trabajo ordinario por cuenta ajena y su actividad no determina la inclusión en un régimen especial.",
+    "El servicio de reparación reúne los requisitos generales de inclusión en el RETA y no pertenece a un sistema especial.",
+    "No existe una norma que permita optar entre los dos regímenes ni una exclusión no declarada en el escenario.",
+    "La afiliación previa de la persona es válida y los hechos se analizan conforme a la normativa vigente al corte indicado."
+  ],
+  "themes": [
+    "ss-02",
+    "ss-03"
+  ],
+  "competencies": [
+    "Identificar las categorías contributivas presentes en dos actividades simultáneas.",
+    "Encuadrar un trabajo ordinario por cuenta ajena en el Régimen General.",
+    "Encuadrar una actividad habitual por cuenta propia en el RETA.",
+    "Calificar como pluriactividad el alta obligatoria en dos regímenes distintos.",
+    "Distinguir la afiliación única de las altas simultáneas por régimen."
+  ],
+  "questionIds": [
+    "ss-02-q101",
+    "ss-02-q102",
+    "ss-02-q103",
+    "ss-02-q104",
+    "ss-02-q105"
+  ],
+  "consistencyRules": [
+    "Resolver las cinco decisiones con los mismos hechos y supuestos declarados.",
+    "Encuadrar cada actividad por separado antes de calificar su simultaneidad.",
+    "No convertir la afiliación previa en una dispensa de las altas que correspondan.",
+    "No introducir un régimen, sistema especial, exclusión u opción que el escenario no declara."
+  ],
+  "durationMinutes": 10,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "normativeClaimIds": [
+    "clm-ss-02-016",
+    "clm-ss-02-017",
+    "clm-ss-02-018",
+    "clm-ss-03-021",
+    "clm-ss-03-022",
+    "clm-ss-03-023"
+  ],
+  "legislationCutoffAt": "2026-07-30",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial original de cinco decisiones conectadas sobre encuadramiento; revisiones humanas pendientes."
+      }
+    ]
+  },
+  "coverage": [
+    {
+      "themeId": "ss-02",
+      "competency": "Identificar las categorías contributivas presentes en dos actividades simultáneas.",
+      "questionIds": [
+        "ss-02-q101"
+      ]
+    },
+    {
+      "themeId": "ss-02",
+      "competency": "Encuadrar un trabajo ordinario por cuenta ajena en el Régimen General.",
+      "questionIds": [
+        "ss-02-q102"
+      ]
+    },
+    {
+      "themeId": "ss-02",
+      "competency": "Encuadrar una actividad habitual por cuenta propia en el RETA.",
+      "questionIds": [
+        "ss-02-q103"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Calificar como pluriactividad el alta obligatoria en dos regímenes distintos.",
+      "questionIds": [
+        "ss-02-q104"
+      ]
+    },
+    {
+      "themeId": "ss-03",
+      "competency": "Distinguir la afiliación única de las altas simultáneas por régimen.",
+      "questionIds": [
+        "ss-02-q105"
+      ]
+    }
+  ],
+  "difficulty": "medium",
+  "visibility": "practice",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending"
+}

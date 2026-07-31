@@ -1,0 +1,75 @@
+{
+  "id": "ss-12-q333",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Tema 12. Prestaciones no contributivas, asistenciales e IMV",
+  "competency": "Distinguir la unidad de convivencia de la persona individual.",
+  "difficulty": "high",
+  "prompt": "¿Qué debe identificarse en la solicitud presentada por varias personas que conviven?",
+  "options": [
+    {
+      "text": "Solo el miembro que presenta el formulario.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 6 y 8.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Distinguir la unidad de convivencia de la persona individual."
+    },
+    {
+      "text": "La empresa en la que trabajó cada miembro.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 6 y 8.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Distinguir la unidad de convivencia de la persona individual."
+    },
+    {
+      "text": "La unidad de convivencia y las personas que la integran, con sus relaciones y circunstancias.",
+      "isCorrect": true,
+      "feedback": "La unidad de convivencia es relevante para determinar el ámbito subjetivo, los ingresos y la cuantía del IMV."
+    },
+    {
+      "text": "Únicamente el domicilio de la entidad gestora.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa Ley 19/2021, artículos 6 y 8.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 12. Prestaciones no contributivas, asistenciales e IMV: Distinguir la unidad de convivencia de la persona individual."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-133"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artículos 6 y 8",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC08, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

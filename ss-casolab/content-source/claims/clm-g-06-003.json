@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-003",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "Es obligatorio cumplir las sentencias y demás resoluciones firmes de jueces y tribunales y prestar la colaboración que estos requieran durante el proceso y en la ejecución de lo resuelto.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "artículo 118",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre cumplimiento y colaboración."}]}
+}

@@ -1,0 +1,140 @@
+{
+  "id": "S13",
+  "themeId": "ss-13",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Recursos, patrimonio y pagos de la Seguridad Social",
+  "learningOutcomes": [
+    "Clasificar los recursos generales del sistema.",
+    "Distinguir patrimonio único, titularidad, adscripción, administración y custodia.",
+    "Aplicar el cauce de los negocios jurídicos patrimoniales.",
+    "Reconocer la finalidad y límites del Fondo de Reserva.",
+    "Separar reconocimiento, ordenación y pago de prestaciones."
+  ],
+  "decisions": [
+    "Determinar si un ingreso es recurso del sistema o rendimiento patrimonial.",
+    "Identificar quién administra o custodia un bien.",
+    "Comprobar el negocio jurídico y su procedimiento.",
+    "Verificar si una disposición del Fondo de Reserva tiene presupuesto legal.",
+    "Asignar correctamente la función de reconocimiento, ordenación y pago."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Recursos generales",
+      "objective": "Los recursos del sistema incluyen cotizaciones, aportaciones, recursos patrimoniales y otros ingresos previstos. La respuesta debe distinguir financiación del sistema y patrimonio único.",
+      "sectionId": "ss13-recursos-1",
+      "activityIds": [
+        "ss-13-q001"
+      ]
+    },
+    {
+      "officialClause": "Patrimonio único",
+      "objective": "La Seguridad Social tiene un patrimonio único afecto a sus fines. Deben diferenciarse titularidad, adscripción, administración y custodia, así como los bienes y derechos que lo integran.",
+      "sectionId": "ss13-patrimonio-2",
+      "activityIds": [
+        "ss-13-q002"
+      ]
+    },
+    {
+      "officialClause": "Negocios jurídicos patrimoniales",
+      "objective": "La adquisición, enajenación, arrendamiento y cesión de bienes patrimoniales exigen competencia y procedimiento conforme a la ley y a sus normas de desarrollo.",
+      "sectionId": "ss13-negocios-3",
+      "activityIds": [
+        "ss-13-q003"
+      ]
+    },
+    {
+      "officialClause": "Fondo de Reserva",
+      "objective": "El Fondo de Reserva se constituye y dota con excedentes en los términos legales y solo puede disponerse para las finalidades y con los límites previstos.",
+      "sectionId": "ss13-reserva-4",
+      "activityIds": [
+        "ss-13-q004"
+      ]
+    },
+    {
+      "officialClause": "Recursos financieros y pago",
+      "objective": "La gestión financiera y el pago de prestaciones requieren identificar la entidad competente, la ordenación y las reglas de pago. No confundas órgano pagador con órgano que reconoce el derecho.",
+      "sectionId": "ss13-pagos-5",
+      "activityIds": [
+        "ss-13-q005"
+      ]
+    },
+    {
+      "officialClause": "Recursos generales",
+      "objective": "Los recursos del sistema incluyen cotizaciones, aportaciones, recursos patrimoniales y otros ingresos previstos. La respuesta debe distinguir financiación del sistema y patrimonio único.",
+      "sectionId": "ss13-recursos-6",
+      "activityIds": [
+        "ss-13-q006"
+      ]
+    },
+    {
+      "officialClause": "Patrimonio único",
+      "objective": "La Seguridad Social tiene un patrimonio único afecto a sus fines. Deben diferenciarse titularidad, adscripción, administración y custodia, así como los bienes y derechos que lo integran.",
+      "sectionId": "ss13-patrimonio-7",
+      "activityIds": [
+        "ss-13-q007"
+      ]
+    },
+    {
+      "officialClause": "Negocios jurídicos patrimoniales",
+      "objective": "La adquisición, enajenación, arrendamiento y cesión de bienes patrimoniales exigen competencia y procedimiento conforme a la ley y a sus normas de desarrollo.",
+      "sectionId": "ss13-negocios-8",
+      "activityIds": [
+        "ss-13-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S13/lesson.md",
+  "reviewSheetPath": "content-source/modules/S13/review.md",
+  "normativeClaimIds": [
+    "clm-ss-13-001",
+    "clm-ss-13-002",
+    "clm-ss-13-003",
+    "clm-ss-13-004",
+    "clm-ss-13-005",
+    "clm-ss-13-006",
+    "clm-ss-13-007",
+    "clm-ss-13-008",
+    "clm-ss-13-009",
+    "clm-ss-13-010",
+    "clm-ss-13-011",
+    "clm-ss-13-012",
+    "clm-ss-13-013",
+    "clm-ss-13-014",
+    "clm-ss-13-015",
+    "clm-ss-13-016",
+    "clm-ss-13-017",
+    "clm-ss-13-018",
+    "clm-ss-13-019",
+    "clm-ss-13-020"
+  ],
+  "questionIds": [
+    "ss-13-q001",
+    "ss-13-q002",
+    "ss-13-q003",
+    "ss-13-q004",
+    "ss-13-q005",
+    "ss-13-q006",
+    "ss-13-q007",
+    "ss-13-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S13 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      }
+    ]
+  }
+}

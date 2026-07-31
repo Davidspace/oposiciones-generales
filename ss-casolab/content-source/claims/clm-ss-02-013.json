@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-02-013",
+  "assetId": "S02",
+  "version": "0.1.0",
+  "statement": "El Sistema Especial para Trabajadores por Cuenta Propia Agrarios se integra en el RETA, aplica el título IV del TRLGSS y añade requisitos y especialidades propias de inclusión, cotización y cobertura.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a323",
+  "sourceLocation": "TRLGSS, artículos 323 a 326",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2023-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S02", "ss-02-q008"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa trazable; revisión humana pendiente."
+    }]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "g-08-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+  "competency": "Elegir el instrumento de creación o modificación según el nivel organizativo.",
+  "difficulty": "medium",
+  "prompt": "Un Ministerio quiere crear una Dirección General, un órgano inferior a Subdirección General y una unidad interna sin condición de órgano. ¿Qué instrumentos corresponden?",
+  "options": [
+    {
+      "text": "Una única relación de puestos de trabajo basta para crear los tres elementos porque todos tendrán personal asignado.",
+      "isCorrect": false,
+      "feedback": "La relación de puestos solo crea o modifica unidades sin condición de órgano; una Dirección General y un órgano inferior exigen normas específicas.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G08, órgano frente a unidad administrativa"
+    },
+    {
+      "text": "Orden del Ministro para la Dirección General y real decreto del Consejo de Ministros para la unidad interna.",
+      "isCorrect": false,
+      "feedback": "La opción invierte los instrumentos: la Dirección General exige real decreto del Consejo y la unidad sin condición de órgano se articula en la relación de puestos.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G08, instrumentos de creación por nivel"
+    },
+    {
+      "text": "Real decreto del Presidente del Gobierno para los tres, porque toda estructura ministerial depende de la Presidencia.",
+      "isCorrect": false,
+      "feedback": "El real decreto del Presidente fija Ministerios y Secretarías de Estado; no sustituye los instrumentos del artículo 59 para órganos directivos, inferiores y unidades.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, real decreto presidencial frente a real decreto del Consejo"
+    },
+    {
+      "text": "Real decreto del Consejo de Ministros para la Dirección General; orden ministerial con autorización previa para el órgano inferior; relación de puestos de trabajo para la unidad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Cada elemento sigue uno de los tres cauces diferenciados por el artículo 59."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-007",
+    "clm-g-08-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 5, 56, 57.3 y 59",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

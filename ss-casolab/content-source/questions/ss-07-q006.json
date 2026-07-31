@@ -1,0 +1,83 @@
+{
+  "id": "ss-07-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-07"
+  ],
+  "epigraph": "Responsabilidad, automaticidad y anticipo",
+  "competency": "Separar el alta de pleno derecho, la responsabilidad empresarial y el anticipo",
+  "difficulty": "high",
+  "prompt": "Un trabajador del Régimen General sufre un accidente de trabajo. La empresa había omitido su alta y su cotización. ¿Qué análisis respeta los artículos 166 y 167 del TRLGSS?",
+  "options": [
+    {
+      "text": "La omisión impide toda protección porque nunca existe alta de pleno derecho frente a un accidente profesional.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Para accidente de trabajo el trabajador se considera de pleno derecho en alta aunque el empresario haya incumplido.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S07, apartado 7: automaticidad del alta para contingencias profesionales."
+    },
+    {
+      "text": "El alta de pleno derecho convierte el alta formal en innecesaria y exonera a la empresa de cualquier responsabilidad por la prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La automaticidad protege al trabajador, pero no elimina la obligación empresarial de alta ni la responsabilidad que pueda declararse por el incumplimiento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S07, apartados 6 y 7: protección del beneficiario frente a responsabilidad del empresario."
+    },
+    {
+      "text": "La entidad debe anticipar siempre cualquier cuantía sin límite y después renuncia a reclamar a la empresa.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El anticipo procede en los casos reglamentarios, está sujeto al límite legal referido al IPREM o al capital coste y produce subrogación, no renuncia.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S07, apartado 7: presupuesto, límite y efecto del anticipo."
+    },
+    {
+      "text": "Opera el alta de pleno derecho; puede declararse responsabilidad por el incumplimiento y, en los casos reglamentarios, la entidad anticipa y se subroga sin borrar esa responsabilidad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Automaticidad, imputación de responsabilidad y anticipo son decisiones separadas. El anticipo protege el pago y permite la subrogación frente al responsable."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-014",
+    "clm-ss-07-015",
+    "clm-ss-07-016",
+    "clm-ss-07-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+      "location": "TRLGSS, artículo 166.4 a 166.6",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a167",
+      "location": "TRLGSS, artículo 167",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

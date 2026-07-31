@@ -1,0 +1,72 @@
+{
+  "id": "g-21-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-21"
+  ],
+  "epigraph": "Discapacidad",
+  "competency": "Aplicar accesibilidad universal y ajustes razonables",
+  "difficulty": "medium",
+  "prompt": "Una oficina adapta un puesto de atención con una medida necesaria que no impone una carga desproporcionada. ¿Cómo debe calificarse?",
+  "options": [
+    {
+      "text": "Como un ajuste razonable compatible con la accesibilidad universal.",
+      "isCorrect": true,
+      "feedback": "Correcto. El ajuste razonable es una modificación necesaria y adecuada que no impone carga desproporcionada o indebida."
+    },
+    {
+      "text": "Como una prestación de incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Accesibilidad y prestaciones de Seguridad Social son planos distintos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, discapacidad"
+    },
+    {
+      "text": "Como un privilegio incompatible con la igualdad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El ajuste permite ejercer derechos en igualdad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G21, discapacidad"
+    },
+    {
+      "text": "Como una medida válida solo si cambia la capacidad jurídica.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La accesibilidad no exige alterar la capacidad jurídica.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G21, discapacidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-21-009",
+    "clm-g-21-010",
+    "clm-g-21-011",
+    "clm-g-21-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12632",
+      "location": "art. 2.m RDL 1/2013",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-21-q004."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "g-14-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "Disposiciones del Gobierno con fuerza de ley: decreto legislativo",
+  "competency": "seleccionar la forma de delegación legislativa",
+  "difficulty": "medium",
+  "prompt": "Las Cortes quieren delegar en el Gobierno la refundición de varios textos legales en uno solo. ¿Qué instrumento corresponde y qué nombre recibe la disposición resultante?",
+  "options": [
+    {
+      "text": "Una ley de bases y, en todo caso, un decreto-ley.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley de bases se usa para formar textos articulados y el decreto-ley responde a extraordinaria y urgente necesidad, no a delegación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G14, apartado 2.1 «Decreto legislativo»"
+    },
+    {
+      "text": "Una ley ordinaria de autorización y, para la disposición del Gobierno con legislación delegada, un decreto legislativo.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 82.2 reserva la ley ordinaria a la refundición y el artículo 85 denomina decreto legislativo al resultado de la delegación."
+    },
+    {
+      "text": "Una orden ministerial, porque refundir no produce una norma con rango de ley.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La delegación del artículo 82 permite dictar una norma con rango de ley y no se otorga mediante orden ministerial.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G14, apartado 2 «Disposiciones del Gobierno con fuerza de ley»"
+    },
+    {
+      "text": "Una ley orgánica de delegación y, para el resultado, un reglamento ejecutivo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Para refundir, el artículo 82.2 exige ley ordinaria; el resultado contiene legislación delegada y se denomina decreto legislativo.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G14, apartado 2.1 «Decreto legislativo»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-002",
+    "clm-g-14-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículos 82.2 y 85",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

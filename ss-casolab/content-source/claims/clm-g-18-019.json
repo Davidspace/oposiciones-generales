@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-18-019",
+  "assetId": "G18",
+  "version": "0.1.0",
+  "statement": "Para inactividad del artículo 29 el plazo es de dos meses desde el vencimiento legal; frente a vía de hecho es de diez días tras el plazo del requerimiento o de veinte días desde el inicio si no hubo requerimiento.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+  "sourceLocation": "artículo 46.2 y 46.3",
+  "officialPublication": "BOE-A-1998-16718; texto consolidado con última actualización publicada el 03-01-2025",
+  "validFrom": "1998-12-14",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["G18", "g-18-q008"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

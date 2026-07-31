@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-16-016",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "Salvo regla legal o europea distinta, las horas y días se entienden hábiles, los días excluyen sábados, domingos y festivos y comienzan al día siguiente; meses y años vencen en el mismo ordinal, o el último día si no existe equivalente, y un último día inhábil se prorroga al primer hábil siguiente.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 29 y 30.1 a 30.5",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16",
+    "g-16-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

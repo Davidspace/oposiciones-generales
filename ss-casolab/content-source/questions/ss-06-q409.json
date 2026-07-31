@@ -1,0 +1,69 @@
+{
+  "id": "ss-06-q409",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "CP02 — decisión 9",
+  "competency": "Ordenar el embargo de bienes",
+  "difficulty": "high",
+  "prompt": "Â¿En quÃ© momento puede analizarse el embargo de bienes de la empresa?",
+  "options": [
+    {
+      "text": "DespuÃ©s de iniciarse la vÃ­a ejecutiva y conforme al orden y lÃ­mites reglamentarios.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: DespuÃ©s de iniciarse la vÃ­a ejecutiva y conforme al orden y lÃ­mites reglamentarios."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar ordenar el embargo de bienes.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, procedimiento de apremio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Ordenar el embargo de bienes"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, procedimiento de apremio.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Ordenar el embargo de bienes"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Reglamento general de recaudaciÃ³n, procedimiento de apremio.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Ordenar el embargo de bienes"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-409"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "Reglamento general de recaudaciÃ³n, procedimiento de apremio",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

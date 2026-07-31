@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-021",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "El ingreso realizado por error puede dar derecho a devolución con interés de demora, pero si al efectuarlo el pagador ya es deudor o tiene aplazamiento o moratoria, se aplica a la deuda pendiente salvo la excepción del aval genérico; el derecho a devolver cuotas prescribe a los cuatro años desde el día siguiente al ingreso.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a44",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 44.1 y 44.3, en relación con TRLGSS, artículo 26",
+  "officialPublication": "BOE-A-2004-11836; BOE-A-2015-11724",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

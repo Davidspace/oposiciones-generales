@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-015",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "Los bienes embargados se enajenan mediante subasta pública, concurso o adjudicación directa; la subasta es el procedimiento ordinario, el concurso requiere los presupuestos reglamentarios y la adjudicación directa es excepcional.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a113",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 113",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2011-11-18",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q006"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-07-017", "assetId": "G07", "version": "0.1.0",
+  "statement": "Los particulares tienen derecho a ser indemnizados por toda lesión sufrida en sus bienes y derechos, salvo fuerza mayor, cuando sea consecuencia del funcionamiento de los servicios públicos, en los términos establecidos por la ley.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1", "sourceLocation": "artículo 106.2", "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G07", "content-source/modules/G07/lesson.md", "content-source/modules/G07/review.md", "g-07-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre responsabilidad patrimonial administrativa."}]}
+}

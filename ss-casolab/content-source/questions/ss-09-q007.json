@@ -1,0 +1,70 @@
+{
+  "id": "ss-09-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Extinción",
+  "competency": "Distinguir duración y extinción",
+  "difficulty": "high",
+  "prompt": "El menor deja de necesitar el cuidado directo, continuo y permanente que justificó el subsidio. ¿Qué debe analizarse?",
+  "options": [
+    {
+      "text": "La extinción o modificación del subsidio conforme a las reglas del artículo 192.",
+      "isCorrect": true,
+      "feedback": "Correcto. La prestación depende de la persistencia del hecho causante."
+    },
+    {
+      "text": "La conversión automática en jubilación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No existe esa conversión.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S09, extinción"
+    },
+    {
+      "text": "La prórroga indefinida sin revisión.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La prestación está sujeta a duración y control.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S09, extinción"
+    },
+    {
+      "text": "La portabilidad de datos del menor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una materia distinta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, extinción"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-015",
+    "clm-ss-09-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 192",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q007."
+      }
+    ]
+  }
+}

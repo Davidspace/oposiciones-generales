@@ -1,0 +1,69 @@
+{
+  "id": "g-10-q005",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "La Comisión: funciones e iniciativa",
+  "competency": "Distinguir la iniciativa de la Comisión de la aprobación legislativa.",
+  "difficulty": "basic",
+  "prompt": "La Comisión considera necesaria una norma de la Unión y presenta una propuesta legislativa. ¿Qué afirmación describe correctamente su papel ordinario?",
+  "options": [
+    {
+      "text": "Promueve el interés general y ejerce ordinariamente la iniciativa, pero la adopción legislativa corresponde a las instituciones y al procedimiento previstos en los Tratados.",
+      "isCorrect": true,
+      "feedback": "Correcto. La propuesta abre el procedimiento; no convierte a la Comisión en legislador único."
+    },
+    {
+      "text": "La propuesta se convierte automáticamente en ley porque la Comisión reúne la iniciativa y la aprobación final.",
+      "isCorrect": false,
+      "feedback": "La Comisión tiene la iniciativa ordinaria, pero no aprueba por sí sola el acto legislativo. Parlamento y Consejo ejercen conjuntamente la función legislativa en el procedimiento ordinario.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G10, propuesta frente a adopción legislativa"
+    },
+    {
+      "text": "La Comisión carece de iniciativa y solo ejecuta actos que le remite el Consejo Europeo.",
+      "isCorrect": false,
+      "feedback": "El artículo 17 TUE atribuye a la Comisión la iniciativa legislativa ordinaria, además de funciones de ejecución, gestión y vigilancia del Derecho.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G10, funciones de la Comisión"
+    },
+    {
+      "text": "Todo acto legislativo exige propuesta de la Comisión sin excepción posible en los Tratados.",
+      "isCorrect": false,
+      "feedback": "La regla admite los supuestos en que los propios Tratados dispongan otra cosa; formularla como absoluta elimina esa excepción expresa.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G10, alcance de la iniciativa legislativa"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-009"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_17/oj/spa",
+      "location": "artículo 17 TUE, apartados 1 y 2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  }
+}

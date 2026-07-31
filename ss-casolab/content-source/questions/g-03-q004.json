@@ -1,0 +1,84 @@
+{
+  "id": "g-03-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Cuestión de inconstitucionalidad",
+  "competency": "Identificar el promotor, los presupuestos y los dos efectos suspensivos de la cuestión.",
+  "difficulty": "high",
+  "prompt": "En un proceso judicial, una ley aplicable al caso es decisiva para el fallo y el órgano judicial considera que puede ser contraria a la Constitución. ¿Qué actuación es correcta?",
+  "options": [
+    {
+      "text": "Una de las partes presenta directamente la cuestión ante el Tribunal Constitucional y la ley queda suspendida para todos.",
+      "isCorrect": false,
+      "feedback": "La cuestión la plantea el órgano judicial, aunque una parte pueda instarlo. Su planteamiento no suspende la vigencia general de la ley.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G03, promotor y efecto de la cuestión"
+    },
+    {
+      "text": "El órgano judicial debe inaplicar definitivamente la ley sin acudir al Tribunal Constitucional.",
+      "isCorrect": false,
+      "feedback": "Cuando concurren los presupuestos del artículo 163, el cauce es la cuestión ante el Tribunal Constitucional. El órgano judicial no sustituye ese control por una declaración propia de invalidez.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G03, función del órgano judicial y del Tribunal Constitucional"
+    },
+    {
+      "text": "Debe interponerse un recurso de inconstitucionalidad por el Ministerio Fiscal y su admisión suspende automáticamente la ley.",
+      "isCorrect": false,
+      "feedback": "El Ministerio Fiscal no figura entre los legitimados para ese recurso. En este supuesto actúa el órgano judicial mediante cuestión y la admisión no suspende como regla la ley.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G03, recurso frente a cuestión de inconstitucionalidad"
+    },
+    {
+      "text": "El órgano judicial puede plantear la cuestión en los términos legales; se suspenden las actuaciones del proceso judicial, pero no por ello la vigencia o aplicación general de la ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción separa la suspensión del proceso judicial prevista en el artículo 35.3 de la regla del artículo 30 sobre vigencia y aplicación de la norma."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-002",
+    "clm-g-03-011",
+    "clm-g-03-015",
+    "clm-g-03-016",
+    "clm-g-03-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 163",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+      "location": "artículos 29, 30 y 35",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

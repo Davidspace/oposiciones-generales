@@ -1,0 +1,71 @@
+{
+  "id": "ss-11-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Auxilio",
+  "competency": "Separar pago único y pensión",
+  "difficulty": "basic",
+  "prompt": "¿Qué describe mejor el auxilio por defunción?",
+  "options": [
+    {
+      "text": "Una prestación diferenciada vinculada a los gastos ocasionados por el fallecimiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. No es una pensión periódica de viudedad u orfandad."
+    },
+    {
+      "text": "Una pensión vitalicia para cualquier familiar.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No tiene esa naturaleza.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S11, auxilio"
+    },
+    {
+      "text": "Un subsidio de incapacidad temporal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El hecho causante es distinto.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S11, auxilio"
+    },
+    {
+      "text": "Una prestación que exige siempre convivencia con el causante.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Deben revisarse sus requisitos específicos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S11, auxilio"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-11-010",
+    "clm-ss-11-011",
+    "clm-ss-11-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 218",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-11-q008."
+      }
+    ]
+  }
+}

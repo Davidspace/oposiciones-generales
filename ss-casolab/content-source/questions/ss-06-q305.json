@@ -1,0 +1,69 @@
+{
+  "id": "ss-06-q305",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Tema 6. Recaudación en vía ejecutiva",
+  "competency": "Separar la deuda de cotización de una sanción administrativa.",
+  "difficulty": "medium",
+  "prompt": "¿Cómo debe calificarse la cantidad pendiente por cuotas no ingresadas?",
+  "options": [
+    {
+      "text": "Como deuda de cotización exigible por los procedimientos recaudatorios.",
+      "isCorrect": true,
+      "feedback": "La deuda de cuotas tiene naturaleza recaudatoria; pueden existir responsabilidades adicionales, pero no se transforma por ello en una prestación."
+    },
+    {
+      "text": "Como una prestación contributiva a favor de la empresa.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 30.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Separar la deuda de cotización de una sanción administrativa."
+    },
+    {
+      "text": "Como una sanción penal automática.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 30.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Separar la deuda de cotización de una sanción administrativa."
+    },
+    {
+      "text": "Como una tasa municipal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 18 y 30.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Separar la deuda de cotización de una sanción administrativa."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-105"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artículos 18 y 30",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC04, pregunta conectada al caso."
+      }
+    ]
+  }
+}

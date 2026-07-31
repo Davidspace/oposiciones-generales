@@ -1,0 +1,75 @@
+{
+  "id": "ss-02-q202",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02"
+  ],
+  "epigraph": "CP01 — Pregunta principal 4: inclusión en el Régimen General",
+  "competency": "Aplicar la regla general de encuadramiento por cuenta ajena",
+  "difficulty": "medium",
+  "prompt": "CP01 declara que las actividades de A, B, D y E son trabajos ordinarios por cuenta ajena y no conducen a un régimen especial. ¿Cuál es su encuadramiento?",
+  "options": [
+    {
+      "text": "Quedan en el RETA porque la sociedad empezó su actividad el mismo día que ellas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La fecha de inicio de la empresa no transforma en trabajo autónomo unas prestaciones que el escenario califica como ordinarias por cuenta ajena.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S02, apartado 2.1: naturaleza de la actividad y Régimen General."
+    },
+    {
+      "text": "Quedan obligatoriamente incluidas en el Régimen General como trabajadoras por cuenta ajena.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 136.1 incluye a las personas trabajadoras por cuenta ajena y asimiladas, salvo que por razón de la actividad deban quedar comprendidas en un régimen especial; el supuesto descarta esa excepción."
+    },
+    {
+      "text": "Pueden elegir entre Régimen General y RETA al tratarse de la primera plantilla de la sociedad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El encuadramiento deriva de la actividad y de la norma; la condición de primera plantilla no crea una opción entre regímenes.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S02, apartado 2.1: inclusión obligatoria y excepción de régimen especial."
+    },
+    {
+      "text": "Quedan fuera del sistema hasta que la sociedad complete correctamente todos sus trámites de inscripción.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El incumplimiento formal del empresario no elimina la naturaleza por cuenta ajena ni la regla legal de encuadramiento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S02, apartado 2.1: campo subjetivo frente a incumplimiento formal."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-02-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+      "location": "TRLGSS, artículo 136.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 4 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

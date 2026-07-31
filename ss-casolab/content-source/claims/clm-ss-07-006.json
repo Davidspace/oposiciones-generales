@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-006",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "Las pensiones del Régimen General son incompatibles entre sí cuando coinciden en un mismo beneficiario, salvo excepción legal o reglamentaria expresa; la regla se aplica también a la indemnización a tanto alzado sustitutiva de la pensión de incapacidad permanente total.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a163",
+  "sourceLocation": "TRLGSS, artículo 163.1, párrafo primero, y 163.2",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q003"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

@@ -1,0 +1,69 @@
+{
+  "id": "g-17-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Instrucción",
+  "competency": "aplicar el período y la admisión de prueba",
+  "difficulty": "medium",
+  "prompt": "El instructor no tiene por ciertos los hechos alegados y abre prueba. ¿Qué combinación se ajusta al artículo 77?",
+  "options": [
+    {
+      "text": "Período ordinario entre diez y treinta días; extraordinario, a petición del interesado, de hasta diez días; rechazo motivado solo si la prueba es manifiestamente improcedente o innecesaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reúne los límites temporales del artículo 77.2 y la garantía de admisión y motivación del apartado 3."
+    },
+    {
+      "text": "Período ordinario fijo de quince días y rechazo libre de cualquier prueba que alargue el expediente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El período no es fijo y la duración del expediente no permite rechazar libremente una prueba propuesta.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G17, apartado 3.1 «Prueba»"
+    },
+    {
+      "text": "Período ordinario de uno a diez días y extraordinario de otros treinta días.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Invierte los límites: el ordinario es de diez a treinta días y el extraordinario no supera diez.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G17, apartado 3.1 «Prueba»"
+    },
+    {
+      "text": "No puede abrirse prueba porque solo corresponde cuando la solicita expresamente un interesado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El instructor abre de oficio el período cuando no tiene por ciertos los hechos o la naturaleza del procedimiento lo exige.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G17, apartado 3.1 «Prueba»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 77.2 y 77.3",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

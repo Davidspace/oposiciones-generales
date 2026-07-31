@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q201",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Pregunta principal 7: inscripción empresarial",
+  "competency": "Aplicar el carácter previo de la inscripción del empresario",
+  "difficulty": "basic",
+  "prompt": "La sociedad de CP01 inició su actividad el 1 de junio y solicitó su inscripción el 2 de junio. ¿Cómo debe valorarse esa secuencia?",
+  "options": [
+    {
+      "text": "Es correcta, porque la inscripción solo debe existir antes de la primera baja de una persona trabajadora.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La referencia temporal es el inicio de la actividad empresarial, no la primera baja de la plantilla.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S03, apartado 3.1: inscripción antes de iniciar actividades."
+    },
+    {
+      "text": "Es incorrecta, porque la inscripción ante la TGSS debía solicitarse antes de iniciar la actividad.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 5.1 del Real Decreto 84/1996 configura la inscripción como requisito previo e indispensable a la iniciación de las actividades."
+    },
+    {
+      "text": "Es correcta si la sociedad comunica todas las altas dentro de los tres días siguientes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los actos relativos a la plantilla no sustituyen la inscripción previa del empresario y el plazo de tres días no es el del alta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 1 y 3.1: inscripción frente a altas y bajas."
+    },
+    {
+      "text": "Es irrelevante, porque afiliar por primera vez a A inscribe automáticamente a la sociedad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación identifica a A dentro del sistema; la inscripción individualiza al empresario y es un acto distinto.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S03, apartado 1: sujeto identificado por cada acto."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a5",
+      "location": "Real Decreto 84/1996, artículo 5.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la pregunta principal 7 de CP01."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

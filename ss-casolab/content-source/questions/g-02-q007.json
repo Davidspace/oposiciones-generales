@@ -1,0 +1,70 @@
+{
+  "id": "g-02-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Suspensión individual",
+  "competency": "Comprobar derechos, sujetos, contexto y controles de la suspensión del artículo 55.2.",
+  "difficulty": "high",
+  "prompt": "¿Qué supuesto encaja en la habilitación de suspensión individual del artículo 55.2?",
+  "options": [
+    {
+      "text": "Una suspensión general del artículo 21 para toda una provincia ante cualquier alteración del orden público.",
+      "isCorrect": false,
+      "feedback": "El artículo 55.2 no incluye el derecho de reunión ni autoriza medidas generales. Se refiere a derechos concretos y a personas determinadas en un contexto específico.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G02, diferencia entre suspensión general e individual"
+    },
+    {
+      "text": "La suspensión automática de todos los derechos del artículo 17 a cualquier investigado, sin intervención judicial.",
+      "isCorrect": false,
+      "feedback": "La regla se limita al artículo 17.2 y exige intervención judicial necesaria. Tampoco se aplica a cualquier investigación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G02, derechos y controles del artículo 55.2"
+    },
+    {
+      "text": "La suspensión, en los casos y forma que determine una ley orgánica, de los artículos 17.2, 18.2 y 18.3 para personas determinadas en investigaciones sobre bandas armadas o elementos terroristas, con intervención judicial y control parlamentario.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción reúne los derechos, sujetos, contexto, norma habilitante y dos controles exigidos por el artículo 55.2."
+    },
+    {
+      "text": "Una decisión administrativa discrecional sobre el domicilio y las comunicaciones de toda persona que participe en una protesta.",
+      "isCorrect": false,
+      "feedback": "La Constitución exige personas determinadas, el contexto de investigación indicado, ley orgánica, intervención judicial y control parlamentario. Una decisión discrecional de ese alcance no satisface la regla.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G02, cinco requisitos acumulativos de la suspensión individual"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-007",
+    "clm-g-02-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 17.2, 18.2, 18.3 y 55.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

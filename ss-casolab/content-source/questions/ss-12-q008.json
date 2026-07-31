@@ -1,0 +1,76 @@
+{
+  "id": "ss-12-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Método",
+  "competency": "Resolver un caso completo",
+  "difficulty": "high",
+  "prompt": "¿Qué secuencia es más segura para resolver un caso de IMV?",
+  "options": [
+    {
+      "text": "Unidad y titular → residencia → ingresos y patrimonio → cuantía → obligaciones y efectos.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ordena los presupuestos antes de calcular o decidir reintegro."
+    },
+    {
+      "text": "Cuantía máxima → unidad → residencia, sin revisar ingresos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La cuantía depende de los presupuestos previos.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S12, método"
+    },
+    {
+      "text": "Prestación contributiva → cotización → patrimonio, siempre.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El IMV no se resuelve con la estructura contributiva.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, método"
+    },
+    {
+      "text": "Reintegro → titular → residencia, aunque no exista cobro indebido.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reintegro exige un presupuesto previo.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S12, método"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-003",
+    "clm-ss-12-006",
+    "clm-ss-12-008",
+    "clm-ss-12-010",
+    "clm-ss-12-012",
+    "clm-ss-12-015",
+    "clm-ss-12-016",
+    "clm-ss-12-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "arts. 1 a 40 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q008."
+      }
+    ]
+  }
+}

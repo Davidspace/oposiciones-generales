@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Construcción de la base de cotización",
+  "competency": "Calcular la remuneración mensual computable con la prorrata de percepciones de devengo superior al mensual",
+  "difficulty": "medium",
+  "prompt": "Una oficial administrativa del grupo 5 percibe 1.300 euros mensuales y dos pagas extraordinarias de 1.200 euros cada una. No existen otras percepciones ni exclusiones. ¿Cuál es la base mensual inicial por contingencias comunes antes de aplicar los límites de 2026?",
+  "options": [
+    {
+      "text": "1.300 euros, porque las pagas extraordinarias solo cotizan en el mes en que se abonan.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. A la remuneración del mes se añade la parte proporcional de las gratificaciones extraordinarias, aunque se paguen en otros meses.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S04, apartado 3.2: prorrata mensual de gratificaciones extraordinarias."
+    },
+    {
+      "text": "1.400 euros, porque solo se prorratea una de las dos pagas extraordinarias.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe prorratearse el importe anual estimado completo: 2.400 euros divididos entre 12 meses son 200 euros mensuales.",
+      "errorType": "calculo-incorrecto",
+      "reviewTarget": "S04, apartado 3.2: importe anual sujeto a prorrata y divisor aplicable a remuneración mensual."
+    },
+    {
+      "text": "1.500 euros: 1.300 euros de remuneración mensual más 200 euros de prorrata.",
+      "isCorrect": true,
+      "feedback": "Correcto. La base inicial es 1.300 + (2.400 / 12) = 1.500 euros. Después se contrasta con la base mínima y la máxima del grupo; en 2026, 1.500 euros queda dentro de esos límites para el grupo 5."
+    },
+    {
+      "text": "3.700 euros, porque deben sumarse completas las dos pagas extraordinarias al mes analizado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se incorpora de una vez el importe anual: se añade su parte proporcional mensual.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S04, apartado 3.2: remuneración del mes frente a prorrata de conceptos de devengo superior al mensual."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-005",
+    "clm-ss-04-006"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a147",
+      "location": "TRLGSS, artículo 147.1",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a1",
+      "location": "Orden PJC/297/2026, artículo 1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de cálculo con feedback por alternativa."
+      }
+    ]
+  }
+}

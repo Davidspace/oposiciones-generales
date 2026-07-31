@@ -1,0 +1,81 @@
+{
+  "id": "g-14-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-14"
+  ],
+  "epigraph": "Los principios generales del Derecho",
+  "competency": "distinguir principios generales y principios de buena regulación",
+  "difficulty": "high",
+  "prompt": "¿Qué distinción entre principios generales del derecho y principios de buena regulación es correcta?",
+  "options": [
+    {
+      "text": "Son dos nombres de la misma lista cerrada y tienen siempre idéntica función.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Proceden de preceptos diferentes y cumplen funciones distintas; confundirlas impide responder qué regla opera en cada contexto.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G14, apartados 3.3 y 4"
+    },
+    {
+      "text": "Los principios generales desplazan cualquier ley aplicable y los de buena regulación solo se aplican a sentencias.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los principios generales operan en defecto de ley o costumbre y la buena regulación se refiere a la iniciativa normativa, no a la función judicial.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G14, apartado 4 «Los principios generales del derecho»"
+    },
+    {
+      "text": "Los principios generales son meras recomendaciones sin función jurídica y los de buena regulación son fuentes subsidiarias.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.4 reconoce a los principios generales aplicación subsidiaria y carácter informador; el artículo 129 no los sustituye por sus principios de buena regulación.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G14, apartados 3.3 y 4"
+    },
+    {
+      "text": "Los primeros se aplican en defecto de ley o costumbre e informan el ordenamiento; los segundos guían la iniciativa legislativa y la potestad reglamentaria en los términos del artículo 129.",
+      "isCorrect": true,
+      "feedback": "Correcto. El Código Civil asigna funciones de integración e información a los principios generales, mientras la Ley 39/2015 usa otra lista para la buena regulación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-14-012",
+    "clm-g-14-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 129.1 y nota de la STC 55/2018",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.4",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

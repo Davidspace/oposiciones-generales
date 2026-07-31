@@ -1,0 +1,83 @@
+{
+  "id": "g-07-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "Responsabilidad del Gobierno",
+  "competency": "Separar responsabilidad política, criminal, control jurídico y responsabilidad patrimonial, aplicando además los límites de la disolución.",
+  "difficulty": "high",
+  "prompt": "Se tramita una moción de censura, se investiga un posible delito de un miembro del Gobierno y un particular reclama por una lesión causada por un servicio público. ¿Qué análisis es correcto?",
+  "options": [
+    {
+      "text": "La moción de censura suspende automáticamente cualquier proceso penal y convierte toda lesión administrativa en responsabilidad política solidaria del Gobierno.",
+      "isCorrect": false,
+      "feedback": "La censura no suspende el plano penal ni transforma la responsabilidad patrimonial administrativa en responsabilidad política; cada mecanismo tiene presupuesto y cauce propios.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G07, separación entre responsabilidad política, criminal y patrimonial"
+    },
+    {
+      "text": "El Presidente puede neutralizar la moción proponiendo inmediatamente la disolución del Congreso y el delito se juzga por una Comisión parlamentaria.",
+      "isCorrect": false,
+      "feedback": "La propuesta de disolución está prohibida mientras se tramita la moción, y la responsabilidad criminal se exige ante la Sala de lo Penal del Tribunal Supremo, no ante una Comisión.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G07, disolución durante la censura y fuero penal"
+    },
+    {
+      "text": "Mientras la censura esté en trámite el Presidente no puede proponer la disolución; la eventual responsabilidad criminal del miembro se exige ante la Sala de lo Penal del Tribunal Supremo, y la reclamación del particular pertenece al plano de la responsabilidad patrimonial de la Administración si concurren sus requisitos.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción mantiene separados el límite político-constitucional a la disolución, el fuero penal gubernamental y la responsabilidad patrimonial por el funcionamiento de los servicios públicos."
+    },
+    {
+      "text": "Solo existe control político de los actos del Gobierno; su inactividad y sus vías de hecho no pueden impugnarse ante la jurisdicción contencioso-administrativa.",
+      "isCorrect": false,
+      "feedback": "La Ley 50/1997 contempla, además del control político, la impugnación contencioso-administrativa de actos, inactividad y actuaciones materiales constitutivas de vía de hecho.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G07, controles jurídicos de la actuación gubernamental"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-014",
+    "clm-g-07-015",
+    "clm-g-07-016",
+    "clm-g-07-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 102, 106.2 y 115",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336",
+      "location": "artículo 29",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

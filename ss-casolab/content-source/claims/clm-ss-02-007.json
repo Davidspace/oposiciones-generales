@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-02-007",
+  "assetId": "S02",
+  "version": "0.1.0",
+  "statement": "El Régimen General incluye obligatoriamente a los trabajadores por cuenta ajena y asimilados del artículo 7.1.a), salvo que por razón de su actividad deban quedar comprendidos en un régimen especial.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a136",
+  "sourceLocation": "TRLGSS, artículo 136.1",
+  "officialPublication": "BOE-A-2015-11724; texto consolidado, última actualización publicada el 04-02-2026",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S02", "ss-02-q003", "ss-02-q004", "CP01", "ss-02-q202"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa trazable; revisión humana pendiente."
+    }]
+  }
+}

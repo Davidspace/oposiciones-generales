@@ -1,0 +1,76 @@
+{
+  "id": "ss-12-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Reintegro",
+  "competency": "Distinguir revisión y devolución",
+  "difficulty": "high",
+  "prompt": "Una revisión detecta que se cobraron cantidades del IMV sin reunir los requisitos durante parte del periodo. ¿Qué debe analizarse?",
+  "options": [
+    {
+      "text": "La conservación de todo lo cobrado porque existió buena fe.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La buena fe no elimina automáticamente el régimen de reintegro.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S12, reintegro"
+    },
+    {
+      "text": "La conversión automática en pensión no contributiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No existe esa conversión automática.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, reintegro"
+    },
+    {
+      "text": "La imposibilidad de revisar la prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley prevé revisión.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S12, reintegro"
+    },
+    {
+      "text": "La revisión de la situación y el reintegro de las cantidades indebidas conforme a la ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. Revisión, suspensión, extinción y reintegro son efectos diferentes."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-015",
+    "clm-ss-12-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "arts. 19 y 36 a 40 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "ss-04-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Vacaciones no disfrutadas al extinguirse el contrato",
+  "competency": "Reconocer la liquidación complementaria por vacaciones pagadas y no disfrutadas",
+  "difficulty": "medium",
+  "prompt": "Un contrato termina el 28 de abril de 2026. La empresa abona diez días de vacaciones devengadas y no disfrutadas, de modo que parte del período alcanza mayo. La persona inicia otro trabajo durante esos días. ¿Cómo se cotiza ese importe?",
+  "options": [
+    {
+      "text": "Solo se cotiza por los días comprendidos en abril; los que alcanzan mayo se pierden al haber terminado el contrato.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La liquidación complementaria alcanza todos los días de vacaciones pagadas y no disfrutadas, incluso cuando el período se extiende al mes siguiente.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S04, apartado 6.5: extensión de la liquidación a días del mes siguiente."
+    },
+    {
+      "text": "No se cotiza porque las vacaciones se pagan después de la extinción y ya no existe prestación efectiva de servicios.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta de trabajo efectivo no excluye esta percepción: la norma ordena una liquidación y cotización complementaria específica.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S04, apartado 6.5: regla especial para vacaciones retribuidas y no disfrutadas."
+    },
+    {
+      "text": "Solo se cotiza hasta el día anterior al inicio del nuevo trabajo para evitar cualquier solapamiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La existencia de una nueva relación laboral durante esos días no reduce la liquidación complementaria por las vacaciones pendientes del contrato extinguido.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S04, apartado 6.5: compatibilidad de la liquidación complementaria con una nueva relación laboral."
+    },
+    {
+      "text": "Se efectúa una liquidación complementaria por los diez días, aunque parte corresponda a mayo y exista una nueva relación laboral durante ellos.",
+      "isCorrect": true,
+      "feedback": "Correcto. Las vacaciones devengadas, no disfrutadas y retribuidas al terminar el contrato cotizan mediante liquidación complementaria por todos sus días; la nueva relación laboral no elimina esa obligación."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-7296#a30",
+      "location": "Orden PJC/297/2026, artículo 30",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a147",
+      "location": "TRLGSS, artículo 147.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-01-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

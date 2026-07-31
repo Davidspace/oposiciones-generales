@@ -1,0 +1,25 @@
+{
+  "fecha_corte": "2026-07-30",
+  "normas_registradas": 57,
+  "documentos": {
+    "05. Normativa\\Normativa esencial para Administrativo de la Administración de la Seguridad Social, C1, turno libre.docx": {
+      "integrity": true,
+      "message": "Correcto",
+      "words": 7001,
+      "bytes": 60676
+    },
+    "05. Normativa\\Cuadro de vigencia normativa.docx": {
+      "integrity": true,
+      "message": "Correcto",
+      "words": 1593,
+      "bytes": 45207
+    },
+    "05. Normativa\\Tabla de actualización anual 2026.docx": {
+      "integrity": true,
+      "message": "Correcto",
+      "words": 690,
+      "bytes": 43043
+    }
+  },
+  "registro": "06. Fuentes y control de actualización\\Registro de normativa esencial.json"
+}

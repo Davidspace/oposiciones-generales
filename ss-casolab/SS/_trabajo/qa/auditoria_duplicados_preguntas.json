@@ -1,0 +1,16 @@
+{
+  "questions": 1080,
+  "unique_exact_stems": 1080,
+  "duplicate_exact_stems": 0,
+  "exact_groups": [],
+  "near_duplicate_pairs_090": [
+    {
+      "left": "S12-21",
+      "right": "S12-22",
+      "similarity": 0.9078,
+      "left_stem": "La incapacidad no contributiva exige residencia legal en España durante:",
+      "right_stem": "La jubilación no contributiva exige residencia legal en España durante:"
+    }
+  ],
+  "method": "Normalización Unicode y de puntuación para duplicados exactos; prefiltro de longitud y Jaccard, seguido de SequenceMatcher >= 0,90 para pares similares."
+}

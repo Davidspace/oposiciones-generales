@@ -1,0 +1,81 @@
+{
+  "id": "g-11-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Derecho derivado: reglamentos",
+  "competency": "Aplicar los rasgos jurídicos del reglamento y separarlos de su publicación y vigencia.",
+  "difficulty": "medium",
+  "prompt": "La Unión adopta un acto de alcance general, obligatorio en todos sus elementos y que no necesita una ley nacional de transposición. ¿Qué acto es y qué cautela sigue siendo correcta?",
+  "options": [
+    {
+      "text": "Una directiva; toda directiva es directamente aplicable desde su adopción, aunque no se publique.",
+      "isCorrect": false,
+      "feedback": "La directiva vincula en cuanto al resultado y opera ordinariamente mediante transposición. La publicación o notificación y la eficacia no pueden ignorarse.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, reglamento y directiva"
+    },
+    {
+      "text": "Un reglamento; la aplicabilidad directa significa que cada disposición produce automáticamente efecto directo en cualquier litigio.",
+      "isCorrect": false,
+      "feedback": "La aplicabilidad directa evita la transposición, mientras que el efecto directo exige analizar la invocabilidad de la disposición concreta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, aplicabilidad directa frente a efecto directo"
+    },
+    {
+      "text": "Un reglamento; su aplicabilidad directa no elimina la necesidad de comprobar su publicación y entrada en vigor conforme al artículo 297 TFUE.",
+      "isCorrect": true,
+      "feedback": "Correcto. Los tres rasgos identifican el reglamento, pero aplicabilidad directa y entrada en vigor son cuestiones distintas."
+    },
+    {
+      "text": "Una decisión; cualquier acto de alcance general es una decisión y solo surte efecto tras transposición.",
+      "isCorrect": false,
+      "feedback": "El alcance general y la aplicabilidad directa son rasgos del reglamento. La decisión se define por su obligatoriedad en todos sus elementos y, si designa destinatarios, por obligar solo a ellos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, reglamento y decisión"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-005",
+    "clm-g-11-009"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_288/oj/spa",
+      "location": "artículo 288 TFUE, párrafo segundo",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_297/oj/spa",
+      "location": "artículo 297 TFUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre reglamento, aplicabilidad directa y vigencia."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

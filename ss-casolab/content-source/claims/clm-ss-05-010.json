@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-010",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "Las deudas pueden pagarse mediante dinero de curso legal, cheque, transferencia, domiciliación u otro medio autorizado por la Tesorería; en una transferencia, el pago se entiende realizado cuando los fondos entran en la entidad financiera de destino.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a21",
+  "sourceLocation": "Real Decreto 1415/2004, artículos 21.1 y 23.5",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q003"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

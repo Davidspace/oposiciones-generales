@@ -1,0 +1,69 @@
+{
+  "id": "g-19-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-19"
+  ],
+  "epigraph": "Deberes y conducta",
+  "competency": "aplicar el código de conducta",
+  "difficulty": "medium",
+  "prompt": "Una empleada interviene en un asunto privado de una persona con la que mantiene un interés personal. ¿Qué principio debe activar primero el análisis?",
+  "options": [
+    {
+      "text": "Imparcialidad y objetividad, junto con el deber de abstenerse cuando proceda.",
+      "isCorrect": true,
+      "feedback": "Correcto. El código de conducta exige objetividad e imparcialidad; el supuesto debe conectarse además con las reglas de abstención aplicables."
+    },
+    {
+      "text": "Libertad de actuación, porque el código de conducta solo orienta a los órganos políticos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El código se aplica al personal empleado público en los términos del TREBEP.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G19, código de conducta"
+    },
+    {
+      "text": "Confidencialidad únicamente, aunque la decisión sea parcial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La confidencialidad no sustituye el análisis de objetividad e imparcialidad.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G19, deberes"
+    },
+    {
+      "text": "Ningún principio, si la persona interesada no presenta una queja.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los deberes orientan la actuación con independencia de que exista una queja posterior.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G19, artículos 52 a 54"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-19-008"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "location": "artículos 52 a 54",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Aplicación del código de conducta."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

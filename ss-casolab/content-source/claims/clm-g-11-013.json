@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-11-013", "assetId": "G11", "version": "0.1.0",
+  "statement": "Los tratados internacionales válidamente celebrados, una vez publicados oficialmente en España, forman parte del ordenamiento interno, y sus disposiciones solo pueden ser derogadas, modificadas o suspendidas en la forma prevista en los propios tratados o conforme a las normas generales del Derecho internacional.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229", "sourceLocation": "Constitución Española, artículo 96.1", "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado actualizado el 20-05-2026",
+  "validFrom": "1978-12-29", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G11", "content-source/modules/G11/lesson.md", "content-source/modules/G11/review.md", "g-11-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial sobre incorporación de tratados publicados al ordenamiento interno."}]}
+}

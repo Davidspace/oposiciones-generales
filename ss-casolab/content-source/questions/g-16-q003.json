@@ -1,0 +1,75 @@
+{
+  "id": "g-16-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-16"
+  ],
+  "epigraph": "Concepto de interesado",
+  "competency": "reconocer la personación de un titular de interés legítimo",
+  "difficulty": "medium",
+  "prompt": "Una persona no inició el procedimiento. Tiene un interés legítimo que puede resultar afectado y se persona antes de que recaiga resolución definitiva. ¿Qué condición le atribuye el artículo 4.1?",
+  "options": [
+    {
+      "text": "No puede ser interesada porque solo lo es quien presenta la solicitud inicial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 4 incluye categorías de personas que no promovieron el procedimiento.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G16, apartado 2.2 «Concepto de interesado»"
+    },
+    {
+      "text": "Solo sería interesada si se persona después de la resolución definitiva.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La personación exigida por la letra c debe ocurrir mientras no haya recaído resolución definitiva.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G16, apartado 2.2 «Concepto de interesado»"
+    },
+    {
+      "text": "La condición depende de que el órgano le conceda discrecionalmente capacidad civil.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Capacidad y condición de interesado son conceptos distintos; el artículo 4 fija los vínculos con el procedimiento.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G16, apartado 2 «Capacidad de obrar e interesado»"
+    },
+    {
+      "text": "Es interesada en el procedimiento por concurrir el interés legítimo afectable y la personación en tiempo.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es el supuesto del artículo 4.1.c: interés legítimo individual o colectivo y personación antes de la resolución definitiva."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-16-003"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 4.1.c",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

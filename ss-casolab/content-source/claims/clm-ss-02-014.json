@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-02-014",
+  "assetId": "S02",
+  "version": "0.1.0",
+  "statement": "La Ley 47/2015 delimita el Régimen Especial de Trabajadores del Mar y, para inscripción, afiliación y cotización, parte de las reglas generales de Seguridad Social con las peculiaridades expresamente establecidas para ese régimen.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11346#a2",
+  "sourceLocation": "Ley 47/2015, artículos 2, 7 y 8",
+  "officialPublication": "BOE-A-2015-11346; texto consolidado, última actualización publicada el 30-04-2025",
+  "validFrom": "2015-11-01",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S02", "ss-02-q006"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa trazable; revisión humana pendiente."
+    }]
+  }
+}

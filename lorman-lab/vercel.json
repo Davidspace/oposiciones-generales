@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "buildCommand": "npx vite build --config vite.config.prod.ts",
+  "outputDirectory": "dist/public",
+  "redirects": [
+    {
+      "source": "/aula",
+      "destination": "https://aula.86.48.3.134.sslip.io/course/view.php?id=2",
+      "permanent": false
+    }
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}

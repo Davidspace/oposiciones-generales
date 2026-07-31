@@ -1,0 +1,69 @@
+{
+  "id": "ss-04-q304",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Tema 4. Cotización y liquidación",
+  "competency": "Distinguir la aportación empresarial de la aportación de la persona trabajadora.",
+  "difficulty": "medium",
+  "prompt": "¿Qué puede hacer la empresa con la aportación de la persona trabajadora?",
+  "options": [
+    {
+      "text": "Puede descontarla de la nómina en los términos legalmente establecidos, pero debe ingresar el conjunto.",
+      "isCorrect": true,
+      "feedback": "El descuento en nómina no elimina la responsabilidad empresarial de ingresar el conjunto de la cotización."
+    },
+    {
+      "text": "Puede dejar de ingresarla si la persona firma una renuncia.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 142.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Distinguir la aportación empresarial de la aportación de la persona trabajadora."
+    },
+    {
+      "text": "Debe pagarla siempre la persona directamente a la Tesorería.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 142.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Distinguir la aportación empresarial de la aportación de la persona trabajadora."
+    },
+    {
+      "text": "Debe transferirla a la entidad gestora de la prestación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 142.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Distinguir la aportación empresarial de la aportación de la persona trabajadora."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-104"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículo 142",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC03, pregunta conectada al caso."
+      }
+    ]
+  }
+}

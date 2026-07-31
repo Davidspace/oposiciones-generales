@@ -1,0 +1,77 @@
+{
+  "id": "ss-12-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "IMV",
+  "competency": "Identificar el objeto del IMV",
+  "difficulty": "basic",
+  "prompt": "¿Qué finalidad corresponde al ingreso mínimo vital?",
+  "options": [
+    {
+      "text": "Sustituir cualquier salario del mercado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El IMV tiene una finalidad y requisitos delimitados.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, IMV"
+    },
+    {
+      "text": "Financiar exclusivamente pensiones contributivas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El IMV es una prestación distinta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, IMV"
+    },
+    {
+      "text": "Prevenir el riesgo de pobreza y exclusión y garantizar un nivel mínimo de renta en situación de vulnerabilidad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es el objeto de la Ley 19/2021."
+    },
+    {
+      "text": "Cubrir cualquier gasto sin prueba de vulnerabilidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La vulnerabilidad económica es un presupuesto.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S12, IMV"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-003",
+    "clm-ss-12-004",
+    "clm-ss-12-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "arts. 1 a 3 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q002."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

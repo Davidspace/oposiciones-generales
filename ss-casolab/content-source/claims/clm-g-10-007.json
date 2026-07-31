@@ -1,0 +1,11 @@
+{
+  "claimId": "clm-g-10-007", "assetId": "G10", "version": "0.1.0",
+  "statement": "La Decisión (UE) 2023/2061 fija para la legislatura 2024-2029 un total de 720 escaños en el Parlamento Europeo, de los que 61 corresponden a España.",
+  "sourceUrl": "https://eur-lex.europa.eu/eli/dec/2023/2061/oj?locale=es",
+  "sourceLocation": "artículo 3 y reparto de escaños",
+  "officialPublication": "DO L 238, de 27-09-2023, pp. 114-116",
+  "validFrom": "2023-09-28", "validTo": null, "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G10", "content-source/modules/G10/lesson.md", "content-source/modules/G10/review.md", "g-10-q003"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre composición parlamentaria 2024-2029."}]}
+}

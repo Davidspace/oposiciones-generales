@@ -1,0 +1,75 @@
+{
+  "id": "ss-08-q302",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Tema 8. Incapacidad temporal y permanente",
+  "competency": "Aplicar la duración máxima ordinaria de la incapacidad temporal.",
+  "difficulty": "high",
+  "prompt": "¿Cuál es la duración máxima ordinaria de la incapacidad temporal por enfermedad común?",
+  "options": [
+    {
+      "text": "30 días en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 169.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Aplicar la duración máxima ordinaria de la incapacidad temporal."
+    },
+    {
+      "text": "180 días sin posibilidad de prórroga.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 169.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Aplicar la duración máxima ordinaria de la incapacidad temporal."
+    },
+    {
+      "text": "Indefinidamente hasta que la persona solicite jubilación.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 169.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Aplicar la duración máxima ordinaria de la incapacidad temporal."
+    },
+    {
+      "text": "365 días, con la posible prórroga legal de 180 días cuando proceda.",
+      "isCorrect": true,
+      "feedback": "La regla general combina 365 días y, si se cumplen las condiciones, una prórroga de 180 días."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-102"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículo 169",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC05, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

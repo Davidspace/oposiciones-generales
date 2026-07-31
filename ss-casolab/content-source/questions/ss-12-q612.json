@@ -1,0 +1,69 @@
+{
+  "id": "ss-12-q612",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "CP04 — decisión 12",
+  "competency": "Reconocer la revisiÃ³n periÃ³dica",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© puede hacer la entidad gestora con los nuevos datos econÃ³micos?",
+  "options": [
+    {
+      "text": "Revisar el derecho y la cuantÃ­a conforme a las reglas aplicables.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Revisar el derecho y la cuantÃ­a conforme a las reglas aplicables."
+    },
+    {
+      "text": "Aplicar la regla contraria sin comprobar reconocer la revisiã³n periã³dica.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 12, 13 y 17.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP04: Reconocer la revisiÃ³n periÃ³dica"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 12, 13 y 17.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP04: Reconocer la revisiÃ³n periÃ³dica"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar Ley 19/2021, artÃ­culos 12, 13 y 17.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP04: Reconocer la revisiÃ³n periÃ³dica"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-612"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "Ley 19/2021, artÃ­culos 12, 13 y 17",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP04, decisiÃ³n conectada al supuesto."
+      }
+    ]
+  }
+}

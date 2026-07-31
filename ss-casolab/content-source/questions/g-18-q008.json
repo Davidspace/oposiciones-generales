@@ -1,0 +1,77 @@
+{
+  "id": "g-18-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Plazos del recurso contencioso-administrativo",
+  "competency": "Seleccionar el plazo judicial según el objeto impugnado.",
+  "difficulty": "high",
+  "prompt": "Una persona impugna un acto expreso que pone fin a la vía administrativa. ¿Qué plazo general debe estudiar?",
+  "options": [
+    {
+      "text": "Seis meses desde la notificación porque todo acto administrativo se considera presunto ante los tribunales.",
+      "isCorrect": false,
+      "feedback": "Los seis meses del artículo 46.1 se refieren al acto no expreso; el acto expreso tiene plazo general de dos meses.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G18, plazo de acto expreso"
+    },
+    {
+      "text": "Diez días desde la notificación porque ese es el plazo de toda vía de hecho.",
+      "isCorrect": false,
+      "feedback": "La vía de hecho tiene reglas específicas y no se confunde con un acto expreso notificado.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, vía de hecho y acto expreso"
+    },
+    {
+      "text": "Dos meses desde el día siguiente a la notificación o publicación del acto, sin aplicar automáticamente ese plazo a la inactividad o a la vía de hecho.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 46.1 fija dos meses para disposición o acto expreso y establece reglas distintas para actos presuntos, inactividad y vía de hecho."
+    },
+    {
+      "text": "Dos meses siempre, incluso si se impugna una inactividad o una vía de hecho sin requerimiento.",
+      "isCorrect": false,
+      "feedback": "El plazo depende del objeto: inactividad y vía de hecho tienen reglas específicas en el artículo 46.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G18, plazos especiales"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-018",
+    "clm-g-18-019",
+    "clm-g-18-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1998-16718",
+      "location": "artículo 46",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre los plazos contencioso-administrativos."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ss-10-q315",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-10"
+  ],
+  "epigraph": "Tema 10. Jubilación contributiva",
+  "competency": "Separar la modalidad de jubilación del cálculo de la cuantía.",
+  "difficulty": "high",
+  "prompt": "¿Qué orden de análisis es correcto en un expediente de jubilación?",
+  "options": [
+    {
+      "text": "Primero se comprueba la modalidad y los requisitos; después se calcula la cuantía aplicable.",
+      "isCorrect": true,
+      "feedback": "El derecho y la modalidad deben estar determinados antes de aplicar las reglas de cálculo y porcentajes."
+    },
+    {
+      "text": "Se calcula la cuantía antes de saber si existe derecho.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 205 y 209.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Separar la modalidad de jubilación del cálculo de la cuantía."
+    },
+    {
+      "text": "Se concede siempre la cuantía máxima.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 205 y 209.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Separar la modalidad de jubilación del cálculo de la cuantía."
+    },
+    {
+      "text": "La cuantía decide por sí sola la modalidad.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 205 y 209.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 10. Jubilación contributiva: Separar la modalidad de jubilación del cálculo de la cuantía."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-115"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 205 y 209",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC06, pregunta conectada al caso."
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "g-23-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Notificación",
+  "competency": "Separar notificación de publicación",
+  "difficulty": "medium",
+  "prompt": "Una resolución debe notificarse a una persona interesada por medios electrónicos. ¿Qué debe dejarse constancia?",
+  "options": [
+    {
+      "text": "De la puesta a disposición y del acceso o rechazo en los términos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La notificación electrónica debe permitir acreditar esos momentos."
+    },
+    {
+      "text": "Solo de que el órgano redactó la resolución.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La redacción no prueba la puesta a disposición ni el acceso.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G23, notificación"
+    },
+    {
+      "text": "Solo de la publicación en el boletín oficial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Publicación y notificación no son equivalentes.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, notificación"
+    },
+    {
+      "text": "De que la persona leyó el correo, aunque no se use el sistema legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Deben aplicarse los medios y constancias previstos.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G23, notificación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-009",
+    "clm-g-23-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "arts. 41 y 43 Ley 39/2015",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q004."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-g-14-012",
+  "assetId": "G14",
+  "version": "0.1.0",
+  "statement": "El artículo 129.1 enumera como principios de buena regulación la necesidad, eficacia, proporcionalidad, seguridad jurídica, transparencia y eficiencia, y exige justificar la adecuación a ellos en la exposición de motivos o el preámbulo; su alcance competencial debe leerse con la STC 55/2018.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 129.1 y nota de vigencia de la STC 55/2018",
+  "officialPublication": "BOE-A-2015-10565; STC 55/2018 publicada como BOE-A-2018-8574",
+  "validFrom": "2018-06-22",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G14",
+    "g-14-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

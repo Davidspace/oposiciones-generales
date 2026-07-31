@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-06-013",
+  "assetId": "G06",
+  "version": "0.1.0",
+  "statement": "El Tribunal Superior de Justicia toma el nombre de la comunidad autónoma, extiende a ella su jurisdicción y culmina la organización judicial en ese territorio sin perjuicio de la jurisdicción del Tribunal Supremo; cuenta con Salas de lo Civil y Penal, de lo Contencioso-Administrativo y de lo Social.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+  "sourceLocation": "artículos 70 a 72",
+  "officialPublication": "BOE núm. 157, de 02-07-1985; texto consolidado con última actualización publicada el 17-02-2025",
+  "validFrom": "1985-07-03",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["G06", "content-source/modules/G06/lesson.md", "content-source/modules/G06/review.md", "g-06-q007"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre Tribunales Superiores de Justicia."}]}
+}

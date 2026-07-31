@@ -1,0 +1,77 @@
+{
+  "id": "g-23-q005",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Actuación automatizada",
+  "competency": "Identificar los elementos de la actuación automatizada",
+  "difficulty": "high",
+  "prompt": "Un sistema dicta automáticamente una resolución sin intervención directa de un empleado en cada caso. ¿Qué debe estar definido previamente?",
+  "options": [
+    {
+      "text": "Solo el nombre del proveedor tecnológico.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El proveedor no sustituye la determinación legal del órgano responsable.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G23, actuación automatizada"
+    },
+    {
+      "text": "El órgano responsable de especificaciones, programación, mantenimiento, supervisión y control de calidad.",
+      "isCorrect": true,
+      "feedback": "Correcto. Así lo exige el artículo 41.2 de la Ley 40/2015."
+    },
+    {
+      "text": "Nada, porque el algoritmo es responsable.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ley exige identificar órgano responsable.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G23, actuación automatizada"
+    },
+    {
+      "text": "Únicamente el horario de funcionamiento.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El horario no cubre las responsabilidades exigidas.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G23, actuación automatizada"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-012",
+    "clm-g-23-013",
+    "clm-g-23-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "location": "art. 41.2 Ley 40/2015",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q005."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

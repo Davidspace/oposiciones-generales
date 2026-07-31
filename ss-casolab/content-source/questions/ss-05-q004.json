@@ -1,0 +1,75 @@
+{
+  "id": "ss-05-q004",
+  "epigraph": "Revisión de actos de gestión recaudatoria",
+  "competency": "Distinguir la mera impugnación de la suspensión del procedimiento recaudatorio",
+  "difficulty": "medium",
+  "prompt": "Una empresa interpone un recurso administrativo contra un acto ordinario de gestión recaudatoria. No se trata de una tercería ni de una impugnación de la providencia de apremio. La empresa no aporta aval ni consigna cantidad alguna y pide que el recurso paralice automáticamente la recaudación. ¿Qué respuesta es correcta?",
+  "options": [
+    {
+      "text": "La interposición del recurso suspende siempre la recaudación hasta que exista una resolución firme.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La mera interposición de un recurso administrativo no produce, como regla general, la suspensión automática del procedimiento recaudatorio.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S05, apartado 4: diferencia entre recurrir y obtener la suspensión."
+    },
+    {
+      "text": "La suspensión solo exige consignar el principal, aunque existan recargos, intereses o costas exigibles.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La consignación prevista para suspender debe cubrir la deuda exigible e incluir los conceptos accesorios indicados por el reglamento.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S05, apartado 4: importe que debe cubrir la garantía o consignación."
+    },
+    {
+      "text": "El recurso es inadmisible mientras la empresa no pague por completo la deuda.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La falta de pago no convierte por sí sola el recurso en inadmisible; lo que falta en el supuesto es el presupuesto para suspender la recaudación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S05, apartado 4: impugnación del acto frente a suspensión de su ejecución."
+    },
+    {
+      "text": "La interposición del recurso no suspende por sí sola; para obtener la suspensión conforme a la regla general debe aportarse aval suficiente o consignarse la deuda exigible, incluidos recargos, intereses y costas.",
+      "isCorrect": true,
+      "feedback": "Correcto. Recurrir y suspender son decisiones distintas. Fuera de las especialidades aplicables, la suspensión exige garantizar mediante aval suficiente o consignar el importe exigible con sus recargos, intereses y costas."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a46",
+      "location": "Real Decreto 1415/2004, artículo 46",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-12-012",
+  "assetId": "S12",
+  "version": "0.1.0",
+  "statement": "Las personas beneficiarias deben comunicar cambios que puedan afectar al derecho o a la cuantía.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+  "sourceLocation": "art. 33",
+  "officialPublication": "Ley 19/2021",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S12",
+    "ss-12-q005",
+    "ss-12-q008"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S12."
+      }
+    ]
+  }
+}

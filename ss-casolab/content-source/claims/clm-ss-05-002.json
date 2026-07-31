@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-002",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "La Tesorería General de la Seguridad Social, como caja única, es competente para la gestión liquidatoria y recaudatoria de los recursos del sistema y de los conceptos de recaudación conjunta tanto en período voluntario como en vía ejecutiva; la colaboración autorizada no desplaza esa competencia.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a21",
+  "sourceLocation": "TRLGSS, artículo 21, y Real Decreto 1415/2004, artículo 2",
+  "officialPublication": "BOE-A-2015-11724; BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q001"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,148 @@
+{
+  "id": "S11",
+  "themeId": "ss-11",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Muerte y supervivencia",
+  "learningOutcomes": [
+    "Identificar el hecho causante de muerte y supervivencia.",
+    "Distinguir viudedad, orfandad, favor de familiares y auxilio por defunción.",
+    "Aplicar los requisitos de cónyuge, pareja de hecho, descendiente y familiar.",
+    "Separar compatibilidad, suspensión, extinción y efectividad económica.",
+    "Resolver los casos derivados de accidente de trabajo o enfermedad profesional."
+  ],
+  "decisions": [
+    "Determinar la prestación posible según el vínculo con la persona fallecida.",
+    "Comprobar la situación de alta o asimilada y la cotización del causante.",
+    "Verificar vínculo, convivencia, dependencia y edad sin mezclar categorías.",
+    "Aplicar la fecha de efectos y la compatibilidad propia de cada prestación.",
+    "Distinguir auxilio por defunción de una pensión periódica."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Hecho causante y acción protectora",
+      "objective": "La protección por muerte y supervivencia parte del fallecimiento o desaparición legalmente relevante y puede incluir viudedad, orfandad, favor de familiares y auxilio por defunción. Identifica la situación antes de calcular.",
+      "sectionId": "ss11-marco-1",
+      "activityIds": [
+        "ss-11-q001"
+      ]
+    },
+    {
+      "officialClause": "Viudedad",
+      "objective": "La pensión de viudedad exige comprobar quién causa la prestación, la relación con la persona fallecida, la duración o formalización del vínculo y las excepciones legales. Matrimonio y pareja de hecho tienen requisitos propios.",
+      "sectionId": "ss11-viudedad-2",
+      "activityIds": [
+        "ss-11-q002"
+      ]
+    },
+    {
+      "officialClause": "Orfandad",
+      "objective": "La orfandad protege a hijos e hijas en los términos de edad, filiación, convivencia o dependencia económica y demás requisitos. No toda descendencia genera automáticamente pensión.",
+      "sectionId": "ss11-orfandad-3",
+      "activityIds": [
+        "ss-11-q003"
+      ]
+    },
+    {
+      "officialClause": "Favor de familiares",
+      "objective": "La prestación en favor de familiares exige parentesco, convivencia, dependencia económica y carencia de medios en los términos legales. Es una prestación distinta de viudedad y orfandad.",
+      "sectionId": "ss11-familia-4",
+      "activityIds": [
+        "ss-11-q004"
+      ]
+    },
+    {
+      "officialClause": "Cuantía, compatibilidad y efectos",
+      "objective": "La cuantía, compatibilidad, suspensión, extinción y efectividad económica dependen de la prestación. El auxilio por defunción tiene un presupuesto y finalidad propios.",
+      "sectionId": "ss11-efectos-5",
+      "activityIds": [
+        "ss-11-q005"
+      ]
+    },
+    {
+      "officialClause": "Hecho causante y acción protectora",
+      "objective": "La protección por muerte y supervivencia parte del fallecimiento o desaparición legalmente relevante y puede incluir viudedad, orfandad, favor de familiares y auxilio por defunción. Identifica la situación antes de calcular.",
+      "sectionId": "ss11-marco-6",
+      "activityIds": [
+        "ss-11-q006"
+      ]
+    },
+    {
+      "officialClause": "Viudedad",
+      "objective": "La pensión de viudedad exige comprobar quién causa la prestación, la relación con la persona fallecida, la duración o formalización del vínculo y las excepciones legales. Matrimonio y pareja de hecho tienen requisitos propios.",
+      "sectionId": "ss11-viudedad-7",
+      "activityIds": [
+        "ss-11-q007"
+      ]
+    },
+    {
+      "officialClause": "Orfandad",
+      "objective": "La orfandad protege a hijos e hijas en los términos de edad, filiación, convivencia o dependencia económica y demás requisitos. No toda descendencia genera automáticamente pensión.",
+      "sectionId": "ss11-orfandad-8",
+      "activityIds": [
+        "ss-11-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S11/lesson.md",
+  "reviewSheetPath": "content-source/modules/S11/review.md",
+  "normativeClaimIds": [
+    "clm-ss-11-001",
+    "clm-ss-11-002",
+    "clm-ss-11-003",
+    "clm-ss-11-004",
+    "clm-ss-11-005",
+    "clm-ss-11-006",
+    "clm-ss-11-007",
+    "clm-ss-11-008",
+    "clm-ss-11-009",
+    "clm-ss-11-010",
+    "clm-ss-11-011",
+    "clm-ss-11-012",
+    "clm-ss-11-013",
+    "clm-ss-11-014",
+    "clm-ss-11-015",
+    "clm-ss-11-016",
+    "clm-ss-11-017",
+    "clm-ss-11-018",
+    "clm-ss-11-019",
+    "clm-ss-11-020"
+  ],
+  "questionIds": [
+    "ss-11-q001",
+    "ss-11-q002",
+    "ss-11-q003",
+    "ss-11-q004",
+    "ss-11-q005",
+    "ss-11-q006",
+    "ss-11-q007",
+    "ss-11-q008"
+  ],
+  "microcaseIds": [
+    "MC07"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S11 con veinte afirmaciones y ocho preguntas; revisiones pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

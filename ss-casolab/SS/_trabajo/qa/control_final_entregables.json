@@ -1,0 +1,892 @@
+{
+  "resumen": {
+    "fecha_corte": "2026-07-30",
+    "programa_temas": 36,
+    "temas_docx": 36,
+    "tests_docx": 36,
+    "simulacros_sin_respuestas": 20,
+    "plantillas_simulacros": 20,
+    "simulacros_razonados": 20,
+    "pdf_oficiales": 60,
+    "guia_pdf": 1,
+    "pdf_normativa": 57,
+    "docx_normativa": 3,
+    "informes_analisis_docx": 1,
+    "informes_analisis_pdf": 1,
+    "libros_analisis_xlsx": 1,
+    "docx_verificados": 145,
+    "docx_invalidos": 0
+  },
+  "archivos_docx": [
+    {
+      "path": "01. Información oficial de la oposición\\Aviso legal y condiciones de uso.docx",
+      "integridad": "Sí",
+      "palabras": "388",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "01. Información oficial de la oposición\\Guía completa de la oposición.docx",
+      "integridad": "Sí",
+      "palabras": "8.230",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "01. Información oficial de la oposición\\Metodología de estudio y planificación.docx",
+      "integridad": "Sí",
+      "palabras": "2.086",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 1. La Constitución Española de 1978 - Estructura y contenido. La reforma de la Constitución.docx",
+      "integridad": "Sí",
+      "palabras": "6.817",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 10. Las Instituciones de la Unión Europea - El Consejo, el Parlamento Europeo, la Comisión, el Tribunal de Justicia.docx",
+      "integridad": "Sí",
+      "palabras": "6.520",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 11. Las fuentes del derecho de la Unión Europea. Derecho originario. Derecho derivado - Reglamentos, directivas y decisiones. Otras fuentes. Las….docx",
+      "integridad": "Sí",
+      "palabras": "7.515",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 12. El Ministerio de Inclusión, Seguridad Social y Migraciones. Organización. Estructura y funciones.docx",
+      "integridad": "Sí",
+      "palabras": "7.032",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 13. Las fuentes del Derecho Administrativo. Concepto y clases. La jerarquía de las fuentes.docx",
+      "integridad": "Sí",
+      "palabras": "7.309",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 14. La Ley. Tipos de leyes. Disposiciones del Gobierno con fuerza de ley - decreto-ley y decreto legislativo. El Reglamento - concepto, clases y….docx",
+      "integridad": "Sí",
+      "palabras": "7.264",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 15. Los actos administrativos. Concepto y clases. Motivación, forma y eficacia de los actos administrativos. Notificación y publicación. Nulidad….docx",
+      "integridad": "Sí",
+      "palabras": "7.317",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 16. El procedimiento administrativo común. La capacidad de obrar y el concepto de interesado. Representación. Identificación y firma de los inte….docx",
+      "integridad": "Sí",
+      "palabras": "6.434",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 17. Las fases del procedimiento administrativo - Iniciación, ordenación, instrucción y finalización. La ejecución de los actos y resoluciones ad….docx",
+      "integridad": "Sí",
+      "palabras": "7.346",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 18. Los recursos administrativos - concepto y clases. Recurso de alzada. Recurso potestativo de reposición. Recurso extraordinario de revisión….docx",
+      "integridad": "Sí",
+      "palabras": "6.397",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 19. El personal al servicio de las Administraciones Públicas - concepto y clases. Derechos y deberes de los funcionarios. La carrera administrat….docx",
+      "integridad": "Sí",
+      "palabras": "6.449",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 2. Derechos y deberes fundamentales. Su garantía y suspensión.docx",
+      "integridad": "Sí",
+      "palabras": "7.277",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 20. Atención al público. Atención de personas con discapacidad. Los servicios de información administrativa. Información general y particular al….docx",
+      "integridad": "Sí",
+      "palabras": "6.456",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 21. Políticas de igualdad y contra la violencia de género. Discapacidad y dependencia - régimen jurídico. La Ley 4 -2023, de 28 de febrero, para….docx",
+      "integridad": "Sí",
+      "palabras": "7.535",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 22. Normativa reguladora de la protección de datos personales - principios, derechos de las personas y ejercicios de los derechos.docx",
+      "integridad": "Sí",
+      "palabras": "7.089",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 23. El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públicas, r….docx",
+      "integridad": "Sí",
+      "palabras": "6.770",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 3. El Tribunal Constitucional. Organización, composición y atribuciones.docx",
+      "integridad": "Sí",
+      "palabras": "6.640",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 4. La Corona. Funciones constitucionales del Rey. Sucesión y regencia. El refrendo.docx",
+      "integridad": "Sí",
+      "palabras": "7.118",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 5. El poder legislativo. Las Cortes Generales - Composición, atribuciones y funcionamiento. El Defensor del Pueblo.docx",
+      "integridad": "Sí",
+      "palabras": "7.281",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 6. El Poder Judicial. El principio de unidad jurisdiccional. El Consejo General del Poder Judicial. La organización judicial española.docx",
+      "integridad": "Sí",
+      "palabras": "7.022",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 7. El poder ejecutivo. El presidente del Gobierno y el Consejo de Ministros. Relaciones entre el Gobierno y las Cortes Generales. Designación, c….docx",
+      "integridad": "Sí",
+      "palabras": "7.584",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 8. La Administración General del Estado. Principios de organización y funcionamiento. Órganos centrales. Órganos superiores y órganos directivos….docx",
+      "integridad": "Sí",
+      "palabras": "6.522",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\A. Temario general\\Tema 9. La organización territorial del Estado. Las Comunidades Autónomas. Los Estatutos de Autonomía. La delimitación de competencias entre el Estad….docx",
+      "integridad": "Sí",
+      "palabras": "7.329",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 1. La Seguridad Social en la Constitución española de 1978. El texto refundido de la Ley General de la Seguridad Social.docx",
+      "integridad": "Sí",
+      "palabras": "6.448",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 10. Jubilación en la modalidad contributiva - concepto. Jubilación ordinaria - requisitos - especial referencia a la edad de jubilación. Determi….docx",
+      "integridad": "Sí",
+      "palabras": "6.699",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 11. La protección por muerte y supervivencia. Hecho causante. Requisitos para las prestaciones de viudedad, orfandad y en favor de familiares. C….docx",
+      "integridad": "Sí",
+      "palabras": "6.341",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 12. Prestaciones no contributivas y asistenciales. El ingreso mínimo vital - beneficiarios, requisitos y duración. Obligaciones de las personas….docx",
+      "integridad": "Sí",
+      "palabras": "6.427",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 13. Recursos generales del sistema de la Seguridad Social. El patrimonio único de la seguridad social - titularidad, adscripción, administración….docx",
+      "integridad": "Sí",
+      "palabras": "6.116",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 2. Campo de aplicación y composición del sistema de la Seguridad Social. Régimen general - ámbito subjetivo de aplicación, inclusiones y exclusi….docx",
+      "integridad": "Sí",
+      "palabras": "7.219",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 3. Normas sobre afiliación. Altas y bajas en el régimen general. Procedimiento y efectos. El convenio especial y otras situaciones asimiladas a….docx",
+      "integridad": "Sí",
+      "palabras": "6.663",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 4. La cotización a la Seguridad Social - normas comunes del sistema. La liquidación de cuotas. El régimen general de la Seguridad Social. Supues….docx",
+      "integridad": "Sí",
+      "palabras": "6.487",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 5. La gestión recaudatoria - concepto, competencia y objeto. Responsables del pago. Requisitos para el pago. Medios de pago. Control de recaudac….docx",
+      "integridad": "Sí",
+      "palabras": "6.124",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 6. La recaudación en vía ejecutiva. Normas generales. Iniciación y título ejecutivo. La providencia de apremio. Oposición y efectos. El embargo….docx",
+      "integridad": "Sí",
+      "palabras": "7.178",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 7. Acción protectora. Contenido y clasificación de las prestaciones. Caracteres de las prestaciones. Incompatibilidades. Reintegro de las presta….docx",
+      "integridad": "Sí",
+      "palabras": "8.441",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 8. Incapacidad temporal - concepto y causas que motivan esta situación. Beneficiarios. Prestación económica - determinación y cuantía. Nacimient….docx",
+      "integridad": "Sí",
+      "palabras": "6.772",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "02. Temas redactados\\B. Temario específico Seguridad Social\\Tema 9. Nacimiento y cuidado de menor. Ejercicio corresponsable del cuidado del lactante. Prestación por riesgo durante el embarazo. Prestación por r….docx",
+      "integridad": "Sí",
+      "palabras": "7.012",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 1. La Constitución Española de 1978 - Estructura y contenido. La reforma de la Constitución.docx",
+      "integridad": "Sí",
+      "palabras": "2.646",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 10. Las Instituciones de la Unión Europea - El Consejo, el Parlamento Europeo, la Comisión, el Tribunal de Justicia.docx",
+      "integridad": "Sí",
+      "palabras": "2.690",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 11. Las fuentes del derecho de la Unión Europea. Derecho originario. Derecho derivado - Reglamentos, directivas y decisiones. Otras fuentes….docx",
+      "integridad": "Sí",
+      "palabras": "2.981",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 12. El Ministerio de Inclusión, Seguridad Social y Migraciones. Organización. Estructura y funciones.docx",
+      "integridad": "Sí",
+      "palabras": "2.678",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 13. Las fuentes del Derecho Administrativo. Concepto y clases. La jerarquía de las fuentes.docx",
+      "integridad": "Sí",
+      "palabras": "2.914",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 14. La Ley. Tipos de leyes. Disposiciones del Gobierno con fuerza de ley - decreto-ley y decreto legislativo. El Reglamento - concepto, cla….docx",
+      "integridad": "Sí",
+      "palabras": "2.684",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 15. Los actos administrativos. Concepto y clases. Motivación, forma y eficacia de los actos administrativos. Notificación y publicación. Nu….docx",
+      "integridad": "Sí",
+      "palabras": "2.807",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 16. El procedimiento administrativo común. La capacidad de obrar y el concepto de interesado. Representación. Identificación y firma de los….docx",
+      "integridad": "Sí",
+      "palabras": "2.640",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 17. Las fases del procedimiento administrativo - Iniciación, ordenación, instrucción y finalización. La ejecución de los actos y resolucion….docx",
+      "integridad": "Sí",
+      "palabras": "2.570",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 18. Los recursos administrativos - concepto y clases. Recurso de alzada. Recurso potestativo de reposición. Recurso extraordinario de revis….docx",
+      "integridad": "Sí",
+      "palabras": "2.885",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 19. El personal al servicio de las Administraciones Públicas - concepto y clases. Derechos y deberes de los funcionarios. La carrera admini….docx",
+      "integridad": "Sí",
+      "palabras": "2.486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 2. Derechos y deberes fundamentales. Su garantía y suspensión.docx",
+      "integridad": "Sí",
+      "palabras": "2.612",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 20. Atención al público. Atención de personas con discapacidad. Los servicios de información administrativa. Información general y particul….docx",
+      "integridad": "Sí",
+      "palabras": "2.650",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 21. Políticas de igualdad y contra la violencia de género. Discapacidad y dependencia - régimen jurídico. La Ley 4 -2023, de 28 de febrero,….docx",
+      "integridad": "Sí",
+      "palabras": "2.825",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 22. Normativa reguladora de la protección de datos personales - principios, derechos de las personas y ejercicios de los derechos.docx",
+      "integridad": "Sí",
+      "palabras": "2.581",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 23. El funcionamiento electrónico del sector público. Derecho y obligación de relacionarse electrónicamente con las Administraciones Públic….docx",
+      "integridad": "Sí",
+      "palabras": "2.605",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 3. El Tribunal Constitucional. Organización, composición y atribuciones.docx",
+      "integridad": "Sí",
+      "palabras": "2.389",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 4. La Corona. Funciones constitucionales del Rey. Sucesión y regencia. El refrendo.docx",
+      "integridad": "Sí",
+      "palabras": "2.634",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 5. El poder legislativo. Las Cortes Generales - Composición, atribuciones y funcionamiento. El Defensor del Pueblo.docx",
+      "integridad": "Sí",
+      "palabras": "2.622",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 6. El Poder Judicial. El principio de unidad jurisdiccional. El Consejo General del Poder Judicial. La organización judicial española.docx",
+      "integridad": "Sí",
+      "palabras": "2.613",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 7. El poder ejecutivo. El presidente del Gobierno y el Consejo de Ministros. Relaciones entre el Gobierno y las Cortes Generales. Designaci….docx",
+      "integridad": "Sí",
+      "palabras": "2.546",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 8. La Administración General del Estado. Principios de organización y funcionamiento. Órganos centrales. Órganos superiores y órganos direc….docx",
+      "integridad": "Sí",
+      "palabras": "2.736",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\A. Temario general\\Test Tema 9. La organización territorial del Estado. Las Comunidades Autónomas. Los Estatutos de Autonomía. La delimitación de competencias entre el….docx",
+      "integridad": "Sí",
+      "palabras": "2.883",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 1. La Seguridad Social en la Constitución española de 1978. El texto refundido de la Ley General de la Seguridad Social.docx",
+      "integridad": "Sí",
+      "palabras": "2.344",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 10. Jubilación en la modalidad contributiva - concepto. Jubilación ordinaria - requisitos - especial referencia a la edad de jubilación. De….docx",
+      "integridad": "Sí",
+      "palabras": "2.971",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 11. La protección por muerte y supervivencia. Hecho causante. Requisitos para las prestaciones de viudedad, orfandad y en favor de familiar….docx",
+      "integridad": "Sí",
+      "palabras": "3.089",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 12. Prestaciones no contributivas y asistenciales. El ingreso mínimo vital - beneficiarios, requisitos y duración. Obligaciones de las pers….docx",
+      "integridad": "Sí",
+      "palabras": "2.738",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 13. Recursos generales del sistema de la Seguridad Social. El patrimonio único de la seguridad social - titularidad, adscripción, administr….docx",
+      "integridad": "Sí",
+      "palabras": "2.814",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 2. Campo de aplicación y composición del sistema de la Seguridad Social. Régimen general - ámbito subjetivo de aplicación, inclusiones y ex….docx",
+      "integridad": "Sí",
+      "palabras": "3.235",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 3. Normas sobre afiliación. Altas y bajas en el régimen general. Procedimiento y efectos. El convenio especial y otras situaciones asimilad….docx",
+      "integridad": "Sí",
+      "palabras": "3.154",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 4. La cotización a la Seguridad Social - normas comunes del sistema. La liquidación de cuotas. El régimen general de la Seguridad Social. S….docx",
+      "integridad": "Sí",
+      "palabras": "2.437",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 5. La gestión recaudatoria - concepto, competencia y objeto. Responsables del pago. Requisitos para el pago. Medios de pago. Control de rec….docx",
+      "integridad": "Sí",
+      "palabras": "2.766",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 6. La recaudación en vía ejecutiva. Normas generales. Iniciación y título ejecutivo. La providencia de apremio. Oposición y efectos. El emb….docx",
+      "integridad": "Sí",
+      "palabras": "2.715",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 7. Acción protectora. Contenido y clasificación de las prestaciones. Caracteres de las prestaciones. Incompatibilidades. Reintegro de las p….docx",
+      "integridad": "Sí",
+      "palabras": "2.395",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 8. Incapacidad temporal - concepto y causas que motivan esta situación. Beneficiarios. Prestación económica - determinación y cuantía. Naci….docx",
+      "integridad": "Sí",
+      "palabras": "2.546",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "03. Test por temas\\B. Temario específico Seguridad Social\\Test Tema 9. Nacimiento y cuidado de menor. Ejercicio corresponsable del cuidado del lactante. Prestación por riesgo durante el embarazo. Prestación….docx",
+      "integridad": "Sí",
+      "palabras": "2.448",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 01 - básico-medio - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.539",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 02 - básico-medio - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.698",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 03 - básico-medio - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.644",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 04 - básico-medio - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.679",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 05 - básico-medio - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.695",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 06 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.933",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 07 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.928",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 08 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.754",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 09 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.748",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 10 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.609",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 11 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.788",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 12 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.546",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 13 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.733",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 14 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.724",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 15 - nivel oficial - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.630",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 16 - alta - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.900",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 17 - alta - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "6.228",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 18 - alta - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.974",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 19 - alta - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "6.127",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\01. Sin respuestas\\Simulacro 20 - alta - sin respuestas.docx",
+      "integridad": "Sí",
+      "palabras": "5.883",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 01 - básico-medio.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 02 - básico-medio.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 03 - básico-medio.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 04 - básico-medio.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 05 - básico-medio.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 06 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 07 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 08 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 09 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 10 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 11 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 12 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 13 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 14 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 15 - nivel oficial.docx",
+      "integridad": "Sí",
+      "palabras": "486",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 16 - alta.docx",
+      "integridad": "Sí",
+      "palabras": "485",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 17 - alta.docx",
+      "integridad": "Sí",
+      "palabras": "485",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 18 - alta.docx",
+      "integridad": "Sí",
+      "palabras": "485",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 19 - alta.docx",
+      "integridad": "Sí",
+      "palabras": "485",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 20 - alta.docx",
+      "integridad": "Sí",
+      "palabras": "485",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 01 - básico-medio - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "7.983",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 02 - básico-medio - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.162",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 03 - básico-medio - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.107",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 04 - básico-medio - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.122",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 05 - básico-medio - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.170",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 06 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.409",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 07 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.412",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 08 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.239",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 09 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.251",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 10 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.069",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 11 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.310",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 12 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.036",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 13 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.174",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 14 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.194",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 15 - nivel oficial - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.105",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 16 - alta - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.406",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 17 - alta - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.714",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 18 - alta - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.457",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 19 - alta - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.622",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 20 - alta - versión razonada profesorado.docx",
+      "integridad": "Sí",
+      "palabras": "8.385",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "05. Normativa\\Cuadro de vigencia normativa.docx",
+      "integridad": "Sí",
+      "palabras": "1.593",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "05. Normativa\\Normativa esencial para Administrativo de la Administración de la Seguridad Social, C1, turno libre.docx",
+      "integridad": "Sí",
+      "palabras": "7.001",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "05. Normativa\\Tabla de actualización anual 2026.docx",
+      "integridad": "Sí",
+      "palabras": "690",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "06. Fuentes y control de actualización\\Fichas de fuentes oficiales por tema.docx",
+      "integridad": "Sí",
+      "palabras": "8.559",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "06. Fuentes y control de actualización\\Índice y ficha técnica del archivo oficial.docx",
+      "integridad": "Sí",
+      "palabras": "1.083",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "07. Informes de revisión\\Informe de incidencias y decisiones editoriales.docx",
+      "integridad": "Sí",
+      "palabras": "768",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "07. Informes de revisión\\Informe de revisión editorial y técnica.docx",
+      "integridad": "Sí",
+      "palabras": "648",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "07. Informes de revisión\\Informe de revisión jurídica y actualización normativa.docx",
+      "integridad": "Sí",
+      "palabras": "1.640",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "07. Informes de revisión\\Tabla final de control de entregables.docx",
+      "integridad": "Sí",
+      "palabras": "3.752",
+      "resultado": "Correcto"
+    },
+    {
+      "path": "08. Análisis de exámenes y preguntas\\Informe de tendencias de exámenes oficiales.docx",
+      "integridad": "Sí",
+      "palabras": "2.852",
+      "resultado": "Correcto"
+    }
+  ]
+}

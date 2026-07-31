@@ -1,0 +1,76 @@
+{
+  "id": "g-22-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Brechas",
+  "competency": "Aplicar el plazo de notificación",
+  "difficulty": "high",
+  "prompt": "La Administración detecta una violación de seguridad que puede suponer riesgo para las personas. ¿Qué debe valorar primero?",
+  "options": [
+    {
+      "text": "Esperar siempre a que termine el expediente administrativo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La obligación de notificación tiene su propio plazo.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G22, brechas"
+    },
+    {
+      "text": "Comunicarla solo si ya existe una sentencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No se exige sentencia para valorar la notificación.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G22, brechas"
+    },
+    {
+      "text": "Borrar todos los registros para evitar responsabilidad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe preservarse la información y gestionar el incidente.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G22, brechas"
+    },
+    {
+      "text": "Si debe notificar a la autoridad de control sin dilación indebida y, cuando proceda, en setenta y dos horas.",
+      "isCorrect": true,
+      "feedback": "Correcto. Ese es el marco del artículo 33.1, sin perjuicio de documentar la incidencia."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-019",
+    "clm-g-22-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "art. 33.1 RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q007."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

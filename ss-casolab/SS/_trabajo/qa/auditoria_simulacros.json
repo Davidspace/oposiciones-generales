@@ -1,0 +1,2000 @@
+{
+  "fecha_corte": "2026-07-30",
+  "official_format": {
+    "time_minutes": 120,
+    "part1": {
+      "ordinary": 70,
+      "reserve": 3
+    },
+    "part2": {
+      "ordinary": 15,
+      "reserve": 3
+    },
+    "wrong_penalty": "-1/4",
+    "blank_penalty": 0
+  },
+  "simulations": [
+    {
+      "number": 1,
+      "level": "básico-medio",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 34,
+          "básica": 30,
+          "alta": 9
+        },
+        "answers": {
+          "A": 19,
+          "C": 18,
+          "B": 18,
+          "D": 18
+        },
+        "themes": {
+          "G15": 1,
+          "S05": 1,
+          "G09": 2,
+          "S07": 3,
+          "G11": 1,
+          "S04": 3,
+          "S08": 4,
+          "G05": 5,
+          "S12": 3,
+          "G12": 3,
+          "G03": 2,
+          "S02": 3,
+          "G08": 2,
+          "G01": 2,
+          "S06": 2,
+          "G02": 2,
+          "G07": 2,
+          "G19": 5,
+          "S11": 2,
+          "G14": 1,
+          "G18": 2,
+          "G10": 4,
+          "S01": 1,
+          "S13": 3,
+          "G21": 2,
+          "G04": 1,
+          "S09": 1,
+          "G17": 1,
+          "G22": 1,
+          "G16": 1,
+          "G23": 1,
+          "G06": 1,
+          "S10": 2,
+          "G20": 1,
+          "G13": 1,
+          "S03": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "básica": 7,
+          "alta": 2
+        },
+        "answers": {
+          "C": 4,
+          "B": 5,
+          "A": 5,
+          "D": 4
+        },
+        "themes": {
+          "S07": 3,
+          "S04": 2,
+          "S01": 2,
+          "S13": 1,
+          "S06": 1,
+          "S08": 1,
+          "S02": 1,
+          "S05": 1,
+          "S03": 1,
+          "S09": 1,
+          "S12": 1,
+          "S11": 2,
+          "S10": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 01 - básico-medio - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 01 - básico-medio.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 01 - básico-medio - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 2,
+      "level": "básico-medio",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 34,
+          "básica": 30,
+          "alta": 9
+        },
+        "answers": {
+          "B": 18,
+          "D": 18,
+          "A": 19,
+          "C": 18
+        },
+        "themes": {
+          "G11": 2,
+          "G12": 4,
+          "G20": 2,
+          "S06": 2,
+          "S13": 3,
+          "G14": 1,
+          "G19": 3,
+          "S01": 2,
+          "S11": 3,
+          "G15": 1,
+          "S07": 3,
+          "G18": 4,
+          "G16": 1,
+          "G17": 2,
+          "G22": 3,
+          "G21": 1,
+          "G02": 2,
+          "S12": 5,
+          "G23": 3,
+          "G10": 1,
+          "S05": 2,
+          "G05": 2,
+          "S02": 2,
+          "G08": 2,
+          "G09": 2,
+          "G04": 2,
+          "G06": 1,
+          "S08": 1,
+          "S04": 2,
+          "G13": 2,
+          "S09": 1,
+          "G07": 2,
+          "S03": 1,
+          "S10": 1,
+          "G03": 1,
+          "G01": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "básica": 7,
+          "alta": 2
+        },
+        "answers": {
+          "D": 4,
+          "A": 5,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S01": 1,
+          "S07": 2,
+          "S05": 1,
+          "S03": 1,
+          "S12": 3,
+          "S06": 1,
+          "S13": 2,
+          "S11": 1,
+          "S04": 1,
+          "S08": 2,
+          "S10": 1,
+          "S02": 1,
+          "S09": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 02 - básico-medio - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 02 - básico-medio.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 02 - básico-medio - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 3,
+      "level": "básico-medio",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 30,
+          "media": 34,
+          "alta": 9
+        },
+        "answers": {
+          "D": 18,
+          "B": 18,
+          "A": 19,
+          "C": 18
+        },
+        "themes": {
+          "G20": 2,
+          "G16": 4,
+          "G08": 2,
+          "S03": 2,
+          "G10": 2,
+          "G17": 2,
+          "S12": 2,
+          "S09": 3,
+          "S08": 2,
+          "S04": 2,
+          "S11": 2,
+          "G05": 1,
+          "G04": 2,
+          "G22": 4,
+          "G19": 2,
+          "G23": 2,
+          "G09": 2,
+          "G02": 2,
+          "G07": 3,
+          "G03": 2,
+          "S07": 1,
+          "S02": 1,
+          "G01": 1,
+          "S13": 2,
+          "G15": 2,
+          "S05": 2,
+          "G13": 1,
+          "S10": 2,
+          "S01": 2,
+          "G06": 1,
+          "S06": 1,
+          "G11": 2,
+          "G14": 3,
+          "G12": 2,
+          "G21": 2,
+          "G18": 3
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "básica": 7,
+          "alta": 2
+        },
+        "answers": {
+          "B": 5,
+          "D": 4,
+          "C": 4,
+          "A": 5
+        },
+        "themes": {
+          "S03": 1,
+          "S01": 1,
+          "S06": 2,
+          "S05": 3,
+          "S08": 1,
+          "S09": 1,
+          "S02": 2,
+          "S10": 1,
+          "S04": 1,
+          "S12": 1,
+          "S07": 1,
+          "S13": 2,
+          "S11": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 03 - básico-medio - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 03 - básico-medio.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 03 - básico-medio - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 4,
+      "level": "básico-medio",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 34,
+          "básica": 30,
+          "alta": 9
+        },
+        "answers": {
+          "A": 19,
+          "C": 18,
+          "D": 18,
+          "B": 18
+        },
+        "themes": {
+          "G16": 4,
+          "S10": 1,
+          "G22": 1,
+          "G23": 3,
+          "G04": 3,
+          "G03": 3,
+          "G20": 2,
+          "S04": 1,
+          "S01": 1,
+          "G14": 1,
+          "G06": 2,
+          "G07": 4,
+          "S09": 2,
+          "G13": 4,
+          "S13": 3,
+          "S12": 2,
+          "S03": 3,
+          "S05": 3,
+          "S02": 2,
+          "S08": 1,
+          "G17": 1,
+          "G09": 1,
+          "G18": 1,
+          "G12": 1,
+          "S07": 2,
+          "G19": 1,
+          "G08": 2,
+          "G01": 2,
+          "G15": 3,
+          "S11": 3,
+          "G05": 2,
+          "G11": 2,
+          "G21": 2,
+          "G10": 2,
+          "S06": 1,
+          "G02": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "básica": 7,
+          "alta": 2
+        },
+        "answers": {
+          "C": 4,
+          "D": 4,
+          "B": 5,
+          "A": 5
+        },
+        "themes": {
+          "S11": 2,
+          "S06": 1,
+          "S07": 3,
+          "S03": 1,
+          "S05": 1,
+          "S08": 1,
+          "S04": 3,
+          "S10": 1,
+          "S01": 1,
+          "S13": 1,
+          "S02": 1,
+          "S09": 1,
+          "S12": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 04 - básico-medio - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 04 - básico-medio.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 04 - básico-medio - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 5,
+      "level": "básico-medio",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 34,
+          "alta": 9,
+          "básica": 30
+        },
+        "answers": {
+          "D": 18,
+          "B": 18,
+          "A": 19,
+          "C": 18
+        },
+        "themes": {
+          "S05": 3,
+          "G03": 1,
+          "G09": 3,
+          "S03": 2,
+          "G07": 2,
+          "G08": 2,
+          "G18": 3,
+          "G12": 3,
+          "S08": 2,
+          "G05": 3,
+          "S01": 2,
+          "G10": 4,
+          "S10": 2,
+          "S02": 5,
+          "S12": 4,
+          "G01": 1,
+          "G06": 2,
+          "G16": 2,
+          "G20": 2,
+          "G17": 2,
+          "S07": 2,
+          "G14": 1,
+          "S13": 2,
+          "G13": 2,
+          "G11": 1,
+          "G23": 2,
+          "G15": 1,
+          "G19": 1,
+          "G21": 1,
+          "S06": 1,
+          "G02": 1,
+          "S04": 1,
+          "G22": 1,
+          "S11": 3,
+          "G04": 2,
+          "S09": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "básica": 7,
+          "alta": 2
+        },
+        "answers": {
+          "A": 5,
+          "D": 4,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S11": 1,
+          "S13": 1,
+          "S10": 2,
+          "S07": 1,
+          "S04": 3,
+          "S01": 1,
+          "S09": 1,
+          "S03": 2,
+          "S02": 1,
+          "S08": 2,
+          "S12": 1,
+          "S06": 1,
+          "S05": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 05 - básico-medio - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 05 - básico-medio.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 05 - básico-medio - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 6,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 20,
+          "media": 36,
+          "alta": 17
+        },
+        "answers": {
+          "C": 18,
+          "B": 18,
+          "A": 19,
+          "D": 18
+        },
+        "themes": {
+          "G13": 2,
+          "G19": 3,
+          "S05": 1,
+          "G08": 2,
+          "G10": 1,
+          "S11": 4,
+          "S03": 2,
+          "S06": 1,
+          "S01": 2,
+          "G23": 3,
+          "S10": 2,
+          "G01": 3,
+          "G02": 2,
+          "S12": 1,
+          "G05": 2,
+          "G07": 1,
+          "G16": 3,
+          "S13": 2,
+          "S02": 1,
+          "G21": 2,
+          "G04": 1,
+          "S09": 4,
+          "G09": 4,
+          "G12": 3,
+          "G06": 2,
+          "G22": 2,
+          "G11": 3,
+          "G14": 1,
+          "G20": 2,
+          "S07": 3,
+          "G18": 1,
+          "G15": 3,
+          "S08": 1,
+          "G03": 1,
+          "G17": 1,
+          "S04": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 4,
+          "alta": 5,
+          "media": 9
+        },
+        "answers": {
+          "D": 4,
+          "A": 5,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S04": 1,
+          "S11": 1,
+          "S09": 2,
+          "S13": 1,
+          "S10": 2,
+          "S08": 1,
+          "S05": 2,
+          "S02": 2,
+          "S01": 1,
+          "S12": 2,
+          "S03": 1,
+          "S06": 1,
+          "S07": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 06 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 06 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 06 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 7,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 36,
+          "básica": 20,
+          "alta": 17
+        },
+        "answers": {
+          "B": 18,
+          "D": 18,
+          "A": 19,
+          "C": 18
+        },
+        "themes": {
+          "S09": 3,
+          "G20": 2,
+          "G07": 2,
+          "G02": 1,
+          "G14": 2,
+          "S13": 4,
+          "G17": 3,
+          "G05": 2,
+          "G09": 4,
+          "S04": 1,
+          "G10": 1,
+          "G12": 1,
+          "S05": 2,
+          "G13": 2,
+          "S02": 3,
+          "G11": 2,
+          "G23": 4,
+          "G21": 3,
+          "G18": 2,
+          "S08": 2,
+          "G03": 3,
+          "G04": 3,
+          "G08": 2,
+          "G16": 2,
+          "G06": 1,
+          "G15": 1,
+          "S07": 1,
+          "G22": 1,
+          "G19": 1,
+          "S10": 1,
+          "G01": 2,
+          "S06": 4,
+          "S01": 1,
+          "S12": 2,
+          "S11": 1,
+          "S03": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "D": 4,
+          "A": 5,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S05": 2,
+          "S08": 2,
+          "S03": 1,
+          "S01": 3,
+          "S02": 1,
+          "S09": 1,
+          "S07": 2,
+          "S13": 1,
+          "S04": 1,
+          "S12": 1,
+          "S11": 1,
+          "S06": 1,
+          "S10": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 07 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 07 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 07 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 8,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 20,
+          "media": 36,
+          "alta": 17
+        },
+        "answers": {
+          "D": 18,
+          "B": 18,
+          "A": 19,
+          "C": 18
+        },
+        "themes": {
+          "G19": 1,
+          "G09": 3,
+          "G06": 1,
+          "G10": 4,
+          "G04": 3,
+          "G14": 3,
+          "S07": 1,
+          "G12": 5,
+          "G20": 3,
+          "S08": 3,
+          "G22": 4,
+          "G13": 2,
+          "G08": 1,
+          "S01": 2,
+          "S09": 1,
+          "S06": 2,
+          "S03": 2,
+          "G18": 2,
+          "G15": 2,
+          "G17": 1,
+          "G23": 1,
+          "S11": 2,
+          "G02": 1,
+          "S02": 3,
+          "G05": 2,
+          "G03": 2,
+          "G07": 2,
+          "S04": 2,
+          "S10": 2,
+          "S12": 1,
+          "S05": 3,
+          "S13": 1,
+          "G11": 1,
+          "G16": 1,
+          "G01": 2,
+          "G21": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "D": 4,
+          "C": 4,
+          "A": 5,
+          "B": 5
+        },
+        "themes": {
+          "S06": 2,
+          "S04": 2,
+          "S08": 1,
+          "S11": 2,
+          "S09": 1,
+          "S07": 1,
+          "S10": 2,
+          "S12": 1,
+          "S01": 1,
+          "S03": 1,
+          "S05": 2,
+          "S02": 1,
+          "S13": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 08 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 08 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 08 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 9,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 36,
+          "básica": 20,
+          "alta": 17
+        },
+        "answers": {
+          "D": 18,
+          "A": 19,
+          "B": 18,
+          "C": 18
+        },
+        "themes": {
+          "S04": 2,
+          "G14": 3,
+          "G09": 1,
+          "G15": 3,
+          "S06": 3,
+          "S05": 6,
+          "G06": 1,
+          "S03": 3,
+          "S09": 2,
+          "G16": 5,
+          "G23": 1,
+          "S12": 2,
+          "G20": 1,
+          "G07": 3,
+          "G05": 2,
+          "S11": 2,
+          "G11": 4,
+          "S08": 2,
+          "G13": 1,
+          "G08": 1,
+          "G10": 2,
+          "G12": 1,
+          "S10": 2,
+          "G18": 2,
+          "S02": 2,
+          "G02": 3,
+          "S07": 2,
+          "G21": 2,
+          "S01": 1,
+          "G04": 2,
+          "G03": 1,
+          "G01": 1,
+          "G19": 1,
+          "G22": 1,
+          "S13": 1,
+          "G17": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 5,
+          "media": 9,
+          "básica": 4
+        },
+        "answers": {
+          "A": 5,
+          "C": 4,
+          "B": 5,
+          "D": 4
+        },
+        "themes": {
+          "S08": 1,
+          "S04": 3,
+          "S03": 2,
+          "S12": 1,
+          "S02": 2,
+          "S09": 2,
+          "S11": 1,
+          "S10": 1,
+          "S05": 1,
+          "S13": 1,
+          "S07": 1,
+          "S06": 1,
+          "S01": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 09 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 09 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 09 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 10,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 36,
+          "básica": 20,
+          "alta": 17
+        },
+        "answers": {
+          "B": 18,
+          "C": 18,
+          "A": 19,
+          "D": 18
+        },
+        "themes": {
+          "G04": 3,
+          "S06": 2,
+          "S09": 2,
+          "S01": 3,
+          "S02": 3,
+          "S07": 2,
+          "S03": 2,
+          "G13": 2,
+          "S10": 2,
+          "G15": 2,
+          "G11": 2,
+          "G05": 2,
+          "G07": 2,
+          "G10": 2,
+          "G01": 2,
+          "G17": 2,
+          "G14": 3,
+          "G18": 1,
+          "S04": 2,
+          "G16": 1,
+          "G08": 2,
+          "G02": 2,
+          "G22": 2,
+          "G03": 2,
+          "S05": 1,
+          "S13": 4,
+          "G09": 3,
+          "S12": 1,
+          "G12": 5,
+          "S08": 2,
+          "G06": 1,
+          "G21": 1,
+          "G23": 1,
+          "G19": 2,
+          "S11": 1,
+          "G20": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "D": 4,
+          "A": 5,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S12": 2,
+          "S09": 1,
+          "S08": 2,
+          "S05": 3,
+          "S03": 1,
+          "S04": 1,
+          "S01": 1,
+          "S10": 1,
+          "S11": 1,
+          "S07": 2,
+          "S13": 1,
+          "S06": 1,
+          "S02": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 10 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 10 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 10 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 11,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 20,
+          "media": 36,
+          "alta": 17
+        },
+        "answers": {
+          "D": 18,
+          "A": 19,
+          "C": 18,
+          "B": 18
+        },
+        "themes": {
+          "S11": 1,
+          "S07": 3,
+          "S12": 2,
+          "G10": 3,
+          "G17": 2,
+          "S13": 2,
+          "G11": 3,
+          "S08": 2,
+          "S04": 2,
+          "G12": 4,
+          "S01": 2,
+          "S05": 1,
+          "G03": 3,
+          "G19": 1,
+          "G20": 4,
+          "G07": 1,
+          "G14": 3,
+          "S09": 4,
+          "G01": 1,
+          "G05": 2,
+          "G18": 3,
+          "G02": 2,
+          "G21": 2,
+          "G08": 2,
+          "G04": 3,
+          "S03": 1,
+          "G23": 2,
+          "S10": 2,
+          "G15": 1,
+          "G16": 2,
+          "G22": 1,
+          "G09": 1,
+          "G06": 2,
+          "S02": 1,
+          "G13": 1,
+          "S06": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 4,
+          "media": 9,
+          "alta": 5
+        },
+        "answers": {
+          "D": 4,
+          "A": 5,
+          "B": 5,
+          "C": 4
+        },
+        "themes": {
+          "S13": 2,
+          "S04": 1,
+          "S11": 1,
+          "S03": 1,
+          "S12": 1,
+          "S07": 1,
+          "S08": 2,
+          "S06": 2,
+          "S01": 1,
+          "S05": 1,
+          "S10": 3,
+          "S02": 1,
+          "S09": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 11 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 11 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 11 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 12,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 20,
+          "alta": 17,
+          "media": 36
+        },
+        "answers": {
+          "C": 18,
+          "B": 18,
+          "A": 19,
+          "D": 18
+        },
+        "themes": {
+          "G05": 3,
+          "G20": 4,
+          "S04": 3,
+          "G22": 2,
+          "S02": 2,
+          "G07": 3,
+          "S06": 2,
+          "G16": 1,
+          "S07": 2,
+          "G21": 1,
+          "S10": 3,
+          "G19": 4,
+          "G17": 2,
+          "G02": 1,
+          "G15": 4,
+          "G12": 3,
+          "S11": 1,
+          "G23": 2,
+          "G09": 2,
+          "G14": 2,
+          "G13": 1,
+          "S01": 3,
+          "G03": 1,
+          "S13": 1,
+          "S09": 3,
+          "G18": 1,
+          "G08": 3,
+          "S12": 1,
+          "S03": 2,
+          "G11": 2,
+          "G10": 1,
+          "S05": 1,
+          "G06": 2,
+          "S08": 1,
+          "G01": 1,
+          "G04": 2
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 4,
+          "alta": 5,
+          "media": 9
+        },
+        "answers": {
+          "C": 4,
+          "D": 4,
+          "A": 5,
+          "B": 5
+        },
+        "themes": {
+          "S04": 1,
+          "S07": 1,
+          "S05": 1,
+          "S13": 1,
+          "S10": 1,
+          "S01": 4,
+          "S06": 1,
+          "S08": 2,
+          "S12": 1,
+          "S03": 2,
+          "S09": 1,
+          "S02": 1,
+          "S11": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 12 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 12 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 12 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 13,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 36,
+          "básica": 20,
+          "alta": 17
+        },
+        "answers": {
+          "B": 18,
+          "D": 18,
+          "C": 18,
+          "A": 19
+        },
+        "themes": {
+          "G19": 2,
+          "G07": 6,
+          "G14": 2,
+          "G13": 3,
+          "G11": 1,
+          "G01": 3,
+          "S10": 3,
+          "G22": 2,
+          "G10": 3,
+          "G02": 3,
+          "G05": 2,
+          "G17": 2,
+          "S09": 2,
+          "S05": 3,
+          "G12": 3,
+          "S08": 1,
+          "S04": 1,
+          "G09": 3,
+          "S03": 2,
+          "G18": 2,
+          "G23": 1,
+          "S13": 2,
+          "G16": 3,
+          "S06": 1,
+          "G21": 1,
+          "G06": 2,
+          "S07": 2,
+          "G04": 2,
+          "S12": 1,
+          "S02": 2,
+          "G03": 1,
+          "G15": 2,
+          "G08": 1,
+          "S01": 1,
+          "S11": 1,
+          "G20": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "D": 4,
+          "B": 5,
+          "C": 4,
+          "A": 5
+        },
+        "themes": {
+          "S02": 2,
+          "S03": 1,
+          "S04": 1,
+          "S05": 2,
+          "S12": 1,
+          "S11": 1,
+          "S07": 3,
+          "S08": 1,
+          "S10": 2,
+          "S09": 1,
+          "S06": 1,
+          "S13": 1,
+          "S01": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 13 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 13 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 13 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 14,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 36,
+          "alta": 17,
+          "básica": 20
+        },
+        "answers": {
+          "D": 18,
+          "C": 18,
+          "B": 18,
+          "A": 19
+        },
+        "themes": {
+          "G19": 2,
+          "S08": 1,
+          "S03": 3,
+          "G10": 3,
+          "G18": 1,
+          "S11": 1,
+          "G09": 5,
+          "G21": 3,
+          "S06": 3,
+          "G05": 1,
+          "S01": 2,
+          "S04": 2,
+          "G02": 1,
+          "G23": 2,
+          "G13": 2,
+          "G07": 2,
+          "S12": 2,
+          "G06": 2,
+          "S07": 2,
+          "S10": 1,
+          "S05": 3,
+          "G04": 1,
+          "G12": 2,
+          "S02": 4,
+          "G17": 3,
+          "G14": 1,
+          "G01": 1,
+          "G15": 3,
+          "G22": 1,
+          "G20": 1,
+          "G03": 3,
+          "G08": 1,
+          "G16": 2,
+          "G11": 2,
+          "S09": 2,
+          "S13": 2
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "A": 5,
+          "B": 5,
+          "D": 4,
+          "C": 4
+        },
+        "themes": {
+          "S07": 1,
+          "S08": 1,
+          "S01": 2,
+          "S05": 3,
+          "S10": 1,
+          "S09": 1,
+          "S06": 1,
+          "S04": 1,
+          "S02": 2,
+          "S13": 1,
+          "S03": 2,
+          "S12": 1,
+          "S11": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 14 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 14 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 14 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 15,
+      "level": "nivel oficial",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 17,
+          "básica": 20,
+          "media": 36
+        },
+        "answers": {
+          "D": 18,
+          "C": 18,
+          "A": 19,
+          "B": 18
+        },
+        "themes": {
+          "S07": 2,
+          "S04": 1,
+          "S08": 4,
+          "G16": 2,
+          "G10": 2,
+          "G12": 4,
+          "S09": 2,
+          "S03": 2,
+          "G21": 1,
+          "G06": 2,
+          "G15": 1,
+          "G23": 4,
+          "S06": 2,
+          "S13": 2,
+          "G04": 2,
+          "G22": 2,
+          "G20": 3,
+          "S11": 2,
+          "S02": 1,
+          "G02": 2,
+          "S12": 3,
+          "G09": 1,
+          "G01": 2,
+          "G13": 2,
+          "G14": 2,
+          "G11": 2,
+          "G19": 2,
+          "G17": 1,
+          "S10": 2,
+          "G07": 2,
+          "G03": 2,
+          "S05": 2,
+          "G05": 3,
+          "G08": 2,
+          "G18": 1,
+          "S01": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 9,
+          "alta": 5,
+          "básica": 4
+        },
+        "answers": {
+          "B": 5,
+          "D": 4,
+          "C": 4,
+          "A": 5
+        },
+        "themes": {
+          "S01": 1,
+          "S10": 1,
+          "S09": 1,
+          "S12": 3,
+          "S13": 1,
+          "S07": 2,
+          "S06": 1,
+          "S03": 1,
+          "S04": 1,
+          "S05": 1,
+          "S08": 2,
+          "S11": 2,
+          "S02": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 15 - nivel oficial - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 15 - nivel oficial.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 15 - nivel oficial - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 16,
+      "level": "alta",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 30,
+          "alta": 33,
+          "básica": 10
+        },
+        "answers": {
+          "A": 19,
+          "D": 18,
+          "C": 18,
+          "B": 18
+        },
+        "themes": {
+          "G02": 3,
+          "S11": 1,
+          "G11": 2,
+          "G23": 1,
+          "G20": 2,
+          "S05": 5,
+          "G05": 3,
+          "G04": 3,
+          "G06": 3,
+          "S10": 2,
+          "G16": 3,
+          "G15": 2,
+          "G17": 2,
+          "S09": 3,
+          "G12": 2,
+          "G22": 2,
+          "G08": 2,
+          "G13": 1,
+          "G19": 2,
+          "G21": 2,
+          "S12": 2,
+          "S04": 3,
+          "G01": 1,
+          "S06": 2,
+          "S07": 2,
+          "S03": 2,
+          "S13": 1,
+          "S08": 1,
+          "S01": 1,
+          "G14": 3,
+          "G10": 1,
+          "G03": 1,
+          "G09": 2,
+          "G07": 1,
+          "S02": 2,
+          "G18": 2
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 7,
+          "alta": 9,
+          "básica": 2
+        },
+        "answers": {
+          "A": 5,
+          "C": 4,
+          "D": 4,
+          "B": 5
+        },
+        "themes": {
+          "S06": 1,
+          "S03": 1,
+          "S09": 2,
+          "S08": 1,
+          "S11": 3,
+          "S04": 2,
+          "S05": 1,
+          "S02": 1,
+          "S13": 1,
+          "S10": 1,
+          "S12": 2,
+          "S01": 1,
+          "S07": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 16 - alta - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 16 - alta.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 16 - alta - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 17,
+      "level": "alta",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "básica": 10,
+          "media": 30,
+          "alta": 33
+        },
+        "answers": {
+          "D": 18,
+          "A": 19,
+          "C": 18,
+          "B": 18
+        },
+        "themes": {
+          "G18": 3,
+          "G15": 3,
+          "S11": 3,
+          "G19": 1,
+          "G12": 2,
+          "S13": 2,
+          "G11": 2,
+          "G04": 3,
+          "G10": 2,
+          "G21": 3,
+          "G14": 2,
+          "G09": 3,
+          "G20": 2,
+          "S04": 3,
+          "S10": 2,
+          "S03": 2,
+          "S02": 2,
+          "G17": 1,
+          "S05": 2,
+          "G16": 3,
+          "G23": 2,
+          "G06": 2,
+          "G22": 1,
+          "S09": 3,
+          "G07": 2,
+          "S12": 1,
+          "G03": 3,
+          "S07": 1,
+          "S06": 1,
+          "G05": 4,
+          "S08": 1,
+          "G01": 1,
+          "G08": 1,
+          "G02": 2,
+          "G13": 1,
+          "S01": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 7,
+          "alta": 9,
+          "básica": 2
+        },
+        "answers": {
+          "C": 4,
+          "D": 4,
+          "B": 5,
+          "A": 5
+        },
+        "themes": {
+          "S04": 3,
+          "S03": 3,
+          "S10": 1,
+          "S02": 1,
+          "S08": 1,
+          "S11": 1,
+          "S06": 1,
+          "S09": 1,
+          "S07": 1,
+          "S12": 1,
+          "S05": 1,
+          "S01": 2,
+          "S13": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 17 - alta - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 17 - alta.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 17 - alta - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 18,
+      "level": "alta",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 33,
+          "media": 30,
+          "básica": 10
+        },
+        "answers": {
+          "A": 19,
+          "D": 18,
+          "C": 18,
+          "B": 18
+        },
+        "themes": {
+          "G09": 1,
+          "S03": 2,
+          "G12": 1,
+          "G08": 3,
+          "G23": 2,
+          "G06": 1,
+          "S11": 3,
+          "G13": 1,
+          "G17": 5,
+          "S07": 4,
+          "G03": 5,
+          "G20": 3,
+          "G21": 1,
+          "S09": 2,
+          "G19": 2,
+          "G18": 3,
+          "G16": 3,
+          "G01": 2,
+          "S05": 2,
+          "G07": 1,
+          "S06": 2,
+          "S01": 2,
+          "S04": 3,
+          "S02": 1,
+          "G22": 1,
+          "S08": 1,
+          "S13": 1,
+          "G11": 1,
+          "G10": 1,
+          "G04": 3,
+          "S12": 2,
+          "G15": 3,
+          "S10": 2,
+          "G14": 1,
+          "G02": 1,
+          "G05": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "media": 7,
+          "alta": 9,
+          "básica": 2
+        },
+        "answers": {
+          "B": 5,
+          "A": 5,
+          "D": 4,
+          "C": 4
+        },
+        "themes": {
+          "S11": 1,
+          "S05": 2,
+          "S06": 1,
+          "S09": 1,
+          "S10": 1,
+          "S13": 1,
+          "S08": 2,
+          "S01": 1,
+          "S02": 1,
+          "S03": 2,
+          "S12": 2,
+          "S07": 1,
+          "S04": 2
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 18 - alta - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 18 - alta.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 18 - alta - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 19,
+      "level": "alta",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "media": 30,
+          "básica": 10,
+          "alta": 33
+        },
+        "answers": {
+          "C": 18,
+          "B": 18,
+          "A": 19,
+          "D": 18
+        },
+        "themes": {
+          "G05": 2,
+          "G06": 3,
+          "G17": 2,
+          "G09": 4,
+          "S03": 3,
+          "G18": 5,
+          "G08": 3,
+          "S06": 4,
+          "G03": 3,
+          "G14": 2,
+          "S10": 2,
+          "G04": 1,
+          "S11": 1,
+          "G13": 1,
+          "S12": 1,
+          "G10": 3,
+          "S01": 3,
+          "S08": 2,
+          "S13": 1,
+          "S07": 2,
+          "G19": 1,
+          "S09": 2,
+          "G23": 2,
+          "G11": 1,
+          "S02": 3,
+          "G21": 2,
+          "G02": 2,
+          "G15": 1,
+          "S04": 1,
+          "G20": 3,
+          "G16": 2,
+          "G12": 1,
+          "G22": 1,
+          "S05": 1,
+          "G07": 1,
+          "G01": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 9,
+          "básica": 2,
+          "media": 7
+        },
+        "answers": {
+          "A": 5,
+          "B": 5,
+          "D": 4,
+          "C": 4
+        },
+        "themes": {
+          "S12": 1,
+          "S06": 2,
+          "S13": 2,
+          "S03": 2,
+          "S10": 1,
+          "S04": 1,
+          "S05": 2,
+          "S02": 1,
+          "S11": 1,
+          "S09": 2,
+          "S08": 1,
+          "S07": 1,
+          "S01": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 19 - alta - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 19 - alta.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 19 - alta - versión razonada profesorado.docx"
+      ]
+    },
+    {
+      "number": 20,
+      "level": "alta",
+      "theory": {
+        "questions": 73,
+        "ordinary": 70,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 33,
+          "media": 30,
+          "básica": 10
+        },
+        "answers": {
+          "A": 19,
+          "C": 18,
+          "B": 18,
+          "D": 18
+        },
+        "themes": {
+          "G20": 2,
+          "G18": 4,
+          "S07": 2,
+          "G10": 2,
+          "G13": 1,
+          "G04": 3,
+          "G11": 2,
+          "S11": 2,
+          "S03": 4,
+          "G21": 1,
+          "G12": 1,
+          "G08": 3,
+          "G09": 2,
+          "S10": 1,
+          "S09": 3,
+          "S08": 3,
+          "G19": 1,
+          "S05": 2,
+          "S02": 2,
+          "G02": 3,
+          "G14": 2,
+          "S06": 2,
+          "G15": 1,
+          "G17": 3,
+          "G05": 2,
+          "G23": 2,
+          "G22": 1,
+          "G06": 2,
+          "G03": 1,
+          "S13": 1,
+          "G07": 2,
+          "S04": 3,
+          "G01": 1,
+          "G16": 2,
+          "S01": 3,
+          "S12": 1
+        }
+      },
+      "practical": {
+        "questions": 18,
+        "ordinary": 15,
+        "reserve": 3,
+        "difficulty": {
+          "alta": 9,
+          "media": 7,
+          "básica": 2
+        },
+        "answers": {
+          "A": 5,
+          "B": 5,
+          "C": 4,
+          "D": 4
+        },
+        "themes": {
+          "S08": 2,
+          "S01": 2,
+          "S05": 3,
+          "S10": 1,
+          "S11": 1,
+          "S09": 1,
+          "S03": 2,
+          "S13": 1,
+          "S06": 1,
+          "S12": 1,
+          "S04": 1,
+          "S07": 1,
+          "S02": 1
+        }
+      },
+      "source_exact_matches": 0,
+      "files": [
+        "04. Simulacros\\01. Sin respuestas\\Simulacro 20 - alta - sin respuestas.docx",
+        "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 20 - alta.docx",
+        "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 20 - alta - versión razonada profesorado.docx"
+      ]
+    }
+  ],
+  "files": [
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 01 - básico-medio - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 01 - básico-medio.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 01 - básico-medio - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 02 - básico-medio - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 02 - básico-medio.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 02 - básico-medio - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 03 - básico-medio - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 03 - básico-medio.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 03 - básico-medio - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 04 - básico-medio - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 04 - básico-medio.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 04 - básico-medio - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 05 - básico-medio - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 05 - básico-medio.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 05 - básico-medio - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 06 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 06 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 06 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 07 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 07 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 07 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 08 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 08 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 08 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 09 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 09 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 09 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 10 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 10 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 10 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 11 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 11 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 11 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 12 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 12 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 12 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 13 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 13 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 13 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 14 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 14 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 14 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 15 - nivel oficial - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 15 - nivel oficial.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 15 - nivel oficial - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 16 - alta - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 16 - alta.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 16 - alta - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 17 - alta - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 17 - alta.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 17 - alta - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 18 - alta - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 18 - alta.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 18 - alta - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 19 - alta - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 19 - alta.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 19 - alta - versión razonada profesorado.docx",
+    "04. Simulacros\\01. Sin respuestas\\Simulacro 20 - alta - sin respuestas.docx",
+    "04. Simulacros\\02. Plantillas de respuestas\\Plantilla Simulacro 20 - alta.docx",
+    "04. Simulacros\\03. Versiones razonadas profesorado\\Simulacro 20 - alta - versión razonada profesorado.docx"
+  ],
+  "audit": {
+    "simulations": 20,
+    "student_versions": 20,
+    "answer_templates": 20,
+    "teacher_versions": 20,
+    "questions_total_including_reserves": 1820,
+    "unique_rendered_stems": 1820,
+    "duplicate_rendered_stems": 0,
+    "exact_matches_with_topic_test_stems": 0,
+    "source_question_usage_max": 6,
+    "source_question_usage_distribution": {
+      "1": 319,
+      "2": 285,
+      "4": 62,
+      "5": 28,
+      "3": 163,
+      "6": 9
+    },
+    "invalid_docx": []
+  }
+}

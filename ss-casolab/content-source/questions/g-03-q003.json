@@ -1,0 +1,76 @@
+{
+  "id": "g-03-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-03"
+  ],
+  "epigraph": "Organización interna",
+  "competency": "Distinguir la composición del Pleno, las Salas y las Secciones.",
+  "difficulty": "medium",
+  "prompt": "¿Qué esquema describe correctamente las formaciones del Tribunal Constitucional?",
+  "options": [
+    {
+      "text": "El Pleno reúne a seis Magistrados, cada Sala a doce y cada Sección a cinco.",
+      "isCorrect": false,
+      "feedback": "La opción invierte las composiciones. El Pleno reúne a todos, cada Sala tiene seis y cada Sección se forma con tres miembros.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G03, mapa Pleno-Sala-Sección"
+    },
+    {
+      "text": "Existen tres Salas de cuatro Magistrados y no hay Secciones.",
+      "isCorrect": false,
+      "feedback": "La Ley Orgánica establece dos Salas de seis y prevé Secciones para despacho ordinario, admisión y determinados amparos delegados.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G03, artículos 7 y 8"
+    },
+    {
+      "text": "El Pleno reúne a todos los Magistrados; existen dos Salas de seis Magistrados y las Secciones se componen del Presidente correspondiente o su sustituto y dos Magistrados.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es la estructura de los artículos 6 a 8 de la Ley Orgánica 2/1979."
+    },
+    {
+      "text": "Las Secciones están integradas por el Presidente del Tribunal y los doce Magistrados cuando deciden sobre admisión.",
+      "isCorrect": false,
+      "feedback": "Una Sección se compone del Presidente correspondiente o quien lo sustituya y dos Magistrados. La descripción dada corresponde a una composición que la ley no establece.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G03, composición de las Secciones"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-03-009",
+    "clm-g-03-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802&tn=1",
+      "location": "artículos 5 a 13",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

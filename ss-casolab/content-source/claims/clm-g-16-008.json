@@ -1,0 +1,31 @@
+{
+  "claimId": "clm-g-16-008",
+  "assetId": "G16",
+  "version": "0.1.0",
+  "statement": "La firma debe acreditar autenticidad de voluntad y consentimiento e integridad e inalterabilidad del documento; cuando se utiliza un sistema de firma admitido, la identidad queda acreditada mediante el propio acto de firma.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículo 10.1 y 10.5",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado del artículo 10 con última modificación publicada en BOE-A-2022-10757",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "dependentAssetIds": [
+    "G16"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-ss-07-005",
+  "assetId": "S07",
+  "version": "0.1.0",
+  "statement": "Las percepciones de la acción protectora tributan según la normativa de cada impuesto, y no se exige tasa fiscal ni derecho por las informaciones o certificaciones que deban facilitarse sobre las prestaciones y beneficios protegidos.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a44",
+  "sourceLocation": "TRLGSS, artículo 44.2 y 44.3",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": ["S07", "content-source/modules/S07/lesson.md", "content-source/modules/S07/review.md", "ss-07-q002"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S07."}]}
+}

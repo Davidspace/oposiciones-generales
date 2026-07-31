@@ -1,0 +1,27 @@
+{
+  "claimId": "clm-ss-03-017",
+  "assetId": "S03",
+  "version": "0.1.0",
+  "statement": "El artículo 166 del TRLGSS distingue el alta de pleno derecho para las contingencias que enumera pese al incumplimiento empresarial y el alta especial durante la huelga y el cierre patronal; el alta de pleno derecho no elimina la obligación empresarial de solicitar el alta.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+  "sourceLocation": "TRLGSS, artículo 166.4, 166.6 y 166.7",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S03", "ss-03-q007", "CP01", "ss-03-q211", "ss-03-q212"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{
+      "version": "0.1.0",
+      "date": "2026-07-30",
+      "changedBy": "codex-assisted-editorial-draft",
+      "summary": "Borrador inicial de afirmación normativa para S03."
+    }]
+  }
+}

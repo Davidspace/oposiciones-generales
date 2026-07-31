@@ -1,0 +1,81 @@
+{
+  "id": "ss-03-q104",
+  "version": "0.2.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Tema 3. Plazo de presentación de la baja",
+  "competency": "Aplicar el plazo de comunicación de la baja",
+  "difficulty": "medium",
+  "prompt": "Cuando termina la relación laboral, ¿qué plazo tiene la empresa para comunicar la baja?",
+  "options": [
+    {
+      "text": "El mismo día del cese, sin excepción.",
+      "isCorrect": false,
+      "feedback": "La baja puede comunicarse el día del cese, pero la regla no exige que sea siempre ese mismo día: existe un plazo de tres días naturales.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "Tema 3: detectar expresiones absolutas en los plazos."
+    },
+    {
+      "text": "Tres días hábiles.",
+      "isCorrect": false,
+      "feedback": "El plazo oficial se expresa en días naturales. Sustituirlos por días hábiles cambia el cómputo y hace incorrecta la alternativa.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 3: unidades de cómputo de los plazos."
+    },
+    {
+      "text": "Diez días naturales.",
+      "isCorrect": false,
+      "feedback": "La información oficial no concede diez días para la baja en Régimen General; fija tres días naturales desde el cese.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 3: memorizar el plazo de baja."
+    },
+    {
+      "text": "Tres días naturales.",
+      "isCorrect": true,
+      "feedback": "La baja en Régimen General debe comunicarse dentro de los tres días naturales siguientes al cese en el trabajo.",
+      "reviewTarget": "Tema 3: plazo de baja y variación de datos."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.seg-social.es/wps/portal/wss/internet/Trabajadores/Afiliacion/32765/32772?changeLanguage=es",
+      "location": "Seguridad Social: plazos de presentación",
+      "consultedAt": "2026-07-29"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.2.º",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.2.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.2.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

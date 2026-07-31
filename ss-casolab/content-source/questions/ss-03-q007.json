@@ -1,0 +1,76 @@
+{
+  "id": "ss-03-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Situaciones asimiladas y alta especial",
+  "competency": "Clasificar una situación posterior al contrato",
+  "difficulty": "medium",
+  "prompt": "Tras finalizar su contrato, Elena tiene un período correspondiente a vacaciones anuales retribuidas que no disfrutó antes del cese. ¿Cómo califica el artículo 166 del TRLGSS ese período?",
+  "options": [
+    {
+      "text": "Como alta especial por huelga, porque ya no existe prestación de servicios.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El alta especial se vincula a huelga y cierre patronal; no describe las vacaciones retribuidas no disfrutadas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 5.1: alta especial frente a situación asimilada."
+    },
+    {
+      "text": "Como desempleo total con prestación, aunque Elena no haya solicitado ninguna prestación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Desempleo con prestación y vacaciones no disfrutadas son supuestos distintos dentro del artículo 166.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 5.1: supuestos expresos del artículo 166."
+    },
+    {
+      "text": "Como situación asimilada al alta con cotización, con las excepciones que el propio artículo establece para determinados subsidios.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 166.2 reconoce esa situación asimilada con cotización y exceptúa los subsidios por riesgo durante el embarazo y la lactancia natural."
+    },
+    {
+      "text": "Como una afiliación nueva que sustituye la baja del contrato.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La afiliación sigue siendo única y este período no crea otra afiliación; la norma le atribuye una situación asimilada.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 2.1 y 5.1: afiliación y situación asimilada."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-016",
+    "clm-ss-03-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+      "location": "TRLGSS, artículo 166.1 a 166.7",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

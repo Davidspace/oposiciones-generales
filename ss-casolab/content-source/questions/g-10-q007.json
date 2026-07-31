@@ -1,0 +1,77 @@
+{
+  "id": "g-10-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-10"
+  ],
+  "epigraph": "El Tribunal de Justicia: estructura y misión",
+  "competency": "Distinguir la institución TJUE, sus órganos y sus reglas básicas de composición.",
+  "difficulty": "medium",
+  "prompt": "¿Qué descripción del Tribunal de Justicia de la Unión Europea se ajusta al artículo 19 TUE?",
+  "options": [
+    {
+      "text": "Se identifica únicamente con el Tribunal General y sus jueces son elegidos por el Parlamento para cinco años.",
+      "isCorrect": false,
+      "feedback": "El Tribunal General es solo uno de los componentes del TJUE. El nombramiento corresponde de común acuerdo a los Gobiernos y el período es de seis años.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G10, institución, órganos y mandato del TJUE"
+    },
+    {
+      "text": "El Tribunal de Justicia carece de un juez por Estado porque solo representa a los seis Estados con menor población.",
+      "isCorrect": false,
+      "feedback": "El Tribunal de Justicia está compuesto por un juez por Estado miembro; la población no restringe esa composición.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G10, composición del Tribunal de Justicia"
+    },
+    {
+      "text": "Comprende Tribunal de Justicia, Tribunal General y tribunales especializados; garantiza el respeto del Derecho, y sus jueces son nombrados de común acuerdo por los Gobiernos por seis años, renovables.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción distingue la institución de sus órganos y recoge misión y mandato básicos."
+    },
+    {
+      "text": "Su única función es emitir opiniones consultivas sin resolver recursos ni cuestiones prejudiciales.",
+      "isCorrect": false,
+      "feedback": "El TJUE resuelve las vías previstas por los Tratados, incluidos recursos y cuestiones prejudiciales; no es un mero órgano consultivo.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G10, formas de actuación del TJUE"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-10-013",
+    "clm-g-10-014",
+    "clm-g-10-015"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_19/oj/spa",
+      "location": "artículo 19 TUE",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "g-02-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Clasificación constitucional y garantías",
+  "competency": "Clasificar un derecho del título I y asignarle la garantía correcta.",
+  "difficulty": "medium",
+  "prompt": "Una pregunta sitúa el derecho de propiedad del artículo 33 en la sección segunda del capítulo II del título I. ¿Qué consecuencia constitucional es correcta?",
+  "options": [
+    {
+      "text": "Vincula a todos los poderes públicos y su ejercicio solo puede regularse por ley respetando su contenido esencial, pero su ubicación no activa por sí sola la tutela especial del artículo 53.2.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 33 está en el capítulo segundo y queda bajo el artículo 53.1. Al estar en la sección segunda, no entra por esa sola ubicación en el ámbito reforzado del artículo 53.2."
+    },
+    {
+      "text": "Por estar en el título I, recibe siempre la tutela preferente y sumaria y el recurso de amparo del artículo 53.2.",
+      "isCorrect": false,
+      "feedback": "El artículo 53.2 no se extiende a todo el título I. Su ámbito es el artículo 14 y la sección primera del capítulo II, con la excepción de amparo prevista para la objeción de conciencia del artículo 30.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G02, mapa del título I y artículo 53.2"
+    },
+    {
+      "text": "Es un principio rector del capítulo III y solo puede alegarse conforme a su ley de desarrollo.",
+      "isCorrect": false,
+      "feedback": "El derecho de propiedad está en la sección segunda del capítulo II, no en el capítulo III. El artículo 53.3 regula los principios rectores.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G02, secciones del capítulo II y capítulo III"
+    },
+    {
+      "text": "Puede suspenderse durante el estado de alarma porque todos los derechos de la sección segunda son suspendibles.",
+      "isCorrect": false,
+      "feedback": "El artículo 55.1 no habilita la suspensión general en el estado de alarma y contiene una lista cerrada que no incluye el artículo 33.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G02, suspensión general del artículo 55.1"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-001",
+    "clm-g-02-009",
+    "clm-g-02-011",
+    "clm-g-02-013"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 33 y 53",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

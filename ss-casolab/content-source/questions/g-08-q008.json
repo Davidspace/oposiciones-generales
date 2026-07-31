@@ -1,0 +1,83 @@
+{
+  "id": "g-08-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-08"
+  ],
+  "epigraph": "La Administración del Estado en el Exterior",
+  "competency": "Diferenciar Servicio Exterior, Misión Diplomática, Representación Permanente y Oficina Consular.",
+  "difficulty": "high",
+  "prompt": "España necesita representación política ante un Estado y asistencia consular a sus nacionales. ¿Qué reparto organizativo es correcto?",
+  "options": [
+    {
+      "text": "La Oficina Consular dirige toda la política exterior ante el Estado receptor y la Embajada se limita a expedir documentos consulares.",
+      "isCorrect": false,
+      "feedback": "La opción invierte las funciones: la Misión representa y coordina, mientras la Oficina Consular ejerce las funciones consulares y de asistencia.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G08, Misión Diplomática frente a Oficina Consular"
+    },
+    {
+      "text": "Una Representación Permanente actúa necesariamente ante una provincia extranjera y no ante organizaciones internacionales.",
+      "isCorrect": false,
+      "feedback": "Las Representaciones Permanentes actúan ante la Unión Europea u otras organizaciones internacionales, no como órganos territoriales provinciales.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G08, destinatario de la Representación Permanente"
+    },
+    {
+      "text": "Todas las Oficinas Consulares, incluidas las honorarias, se crean exclusivamente por real decreto del Consejo de Ministros.",
+      "isCorrect": false,
+      "feedback": "Las oficinas de carrera siguen el real decreto, pero las honorarias se crean por orden del Ministro competente en asuntos exteriores.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G08, creación de oficinas consulares de carrera y honorarias"
+    },
+    {
+      "text": "La Misión Diplomática Permanente representa a España ante el Estado y su Embajador dirige y coordina allí la acción exterior; la Oficina Consular ejerce funciones consulares y presta especialmente asistencia y protección, dentro del Servicio Exterior regido prioritariamente por la Ley 2/2014.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción separa representación diplomática, jefatura exterior y función consular, y aplica la norma especial indicada por el artículo 80 de la Ley 40/2015."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-08-021",
+    "clm-g-08-022",
+    "clm-g-08-023",
+    "clm-g-08-024"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566&p=20240802&tn=1",
+      "location": "artículos 55.5 y 80",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-3248&p=20180612&tn=1",
+      "location": "artículos 41 a 48",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

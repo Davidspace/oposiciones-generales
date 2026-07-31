@@ -1,0 +1,109 @@
+{
+  "id": "G08",
+  "themeId": "g-08",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Administración General del Estado: estructura central, territorial y exterior",
+  "learningOutcomes": [
+    "Aplicar los principios de organización y funcionamiento de la Administración General del Estado.",
+    "Distinguir organización central, territorial y exterior sin confundirlas con el sector público institucional.",
+    "Clasificar los órganos centrales como superiores o directivos y ordenar su dependencia jerárquica.",
+    "Determinar la norma adecuada para crear, modificar o suprimir órganos y unidades administrativas.",
+    "Relacionar los órganos superiores y directivos con sus funciones y reglas básicas de nombramiento y cese.",
+    "Reconocer el contenido y las formas de gestión de los servicios comunes ministeriales.",
+    "Asignar nivel, nombramiento y función a Delegados, Subdelegados, Directores Insulares y servicios territoriales.",
+    "Diferenciar Servicio Exterior, Misión Diplomática, Representación Permanente y Oficina Consular."
+  ],
+  "decisions": [
+    "Elegir el principio organizativo o de funcionamiento que resuelve una situación administrativa.",
+    "Ubicar un órgano o servicio en la organización central, territorial o exterior.",
+    "Determinar si un órgano es superior o directivo y qué nivel o categoría le corresponde.",
+    "Seleccionar real decreto, orden ministerial o relación de puestos de trabajo según el elemento que cambia.",
+    "Asignar a cada órgano central su función, autoridad de nombramiento y condición funcionarial cuando proceda.",
+    "Decidir si una tarea pertenece a los servicios comunes y cómo puede organizarse su gestión compartida.",
+    "Distinguir Delegado, Subdelegado, Director Insular y servicio integrado o no integrado por territorio y dependencia.",
+    "Seleccionar la estructura exterior competente sin convertir una denominación coyuntural en regla permanente."
+  ],
+  "coverage": [
+    {
+      "officialClause": "La Administración General del Estado. Principios de organización y funcionamiento",
+      "objective": "Aplicar los principios generales, los específicos de la AGE y la presencia equilibrada en nombramientos.",
+      "sectionId": "g08-age-principios",
+      "activityIds": ["g-08-q001"]
+    },
+    {
+      "officialClause": "Órganos centrales",
+      "objective": "Distinguir la organización central de las organizaciones territorial y exterior.",
+      "sectionId": "g08-organos-centrales",
+      "activityIds": ["g-08-q002"]
+    },
+    {
+      "officialClause": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+      "objective": "Clasificar los órganos superiores y directivos y ordenar su jerarquía ministerial.",
+      "sectionId": "g08-superiores-directivos",
+      "activityIds": ["g-08-q003"]
+    },
+    {
+      "officialClause": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+      "objective": "Elegir el instrumento de creación, modificación o supresión de órganos y unidades.",
+      "sectionId": "g08-creacion-organos",
+      "activityIds": ["g-08-q004"]
+    },
+    {
+      "officialClause": "Órganos superiores y órganos directivos: creación, nombramiento, cese y funciones",
+      "objective": "Relacionar cada órgano con su función, nombramiento, cese y requisitos básicos.",
+      "sectionId": "g08-nombramiento-funciones",
+      "activityIds": ["g-08-q005"]
+    },
+    {
+      "officialClause": "Los servicios comunes de los ministerios",
+      "objective": "Identificar sus materias, dirección y formas de gestión compartida.",
+      "sectionId": "g08-servicios-comunes",
+      "activityIds": ["g-08-q006"]
+    },
+    {
+      "officialClause": "Órganos territoriales",
+      "objective": "Distinguir Delegados, Subdelegados, Directores Insulares y servicios territoriales por nivel, ámbito y dependencia.",
+      "sectionId": "g08-organos-territoriales",
+      "activityIds": ["g-08-q007"]
+    },
+    {
+      "officialClause": "La Administración del Estado en el Exterior",
+      "objective": "Diferenciar composición, dirección y funciones básicas de las estructuras del Servicio Exterior.",
+      "sectionId": "g08-administracion-exterior",
+      "activityIds": ["g-08-q008"]
+    }
+  ],
+  "lessonPath": "content-source/modules/G08/lesson.md",
+  "reviewSheetPath": "content-source/modules/G08/review.md",
+  "normativeClaimIds": [
+    "clm-g-08-001", "clm-g-08-002", "clm-g-08-003", "clm-g-08-004", "clm-g-08-005",
+    "clm-g-08-006", "clm-g-08-007", "clm-g-08-008", "clm-g-08-009", "clm-g-08-010",
+    "clm-g-08-011", "clm-g-08-012", "clm-g-08-013", "clm-g-08-014", "clm-g-08-015",
+    "clm-g-08-016", "clm-g-08-017", "clm-g-08-018", "clm-g-08-019", "clm-g-08-020",
+    "clm-g-08-021", "clm-g-08-022", "clm-g-08-023", "clm-g-08-024"
+  ],
+  "questionIds": [
+    "g-08-q001", "g-08-q002", "g-08-q003", "g-08-q004",
+    "g-08-q005", "g-08-q006", "g-08-q007", "g-08-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo con mapa nivel-territorio-función-nombramiento."
+      }
+    ]
+  }
+}

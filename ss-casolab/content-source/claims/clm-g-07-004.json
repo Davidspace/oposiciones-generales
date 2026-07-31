@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-07-004", "assetId": "G07", "version": "0.1.0",
+  "statement": "Al Consejo de Ministros, como órgano colegiado, le corresponde entre otras funciones aprobar proyectos de ley y de Presupuestos, reales decretos-leyes y legislativos, adoptar decisiones sobre tratados y ejercer las competencias constitucionales relativas a los estados de alarma, excepción y sitio.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336", "sourceLocation": "artículo 5, apartado 1", "officialPublication": "BOE núm. 285, de 28-11-1997; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "1997-12-18", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G07", "content-source/modules/G07/lesson.md", "content-source/modules/G07/review.md", "g-07-q002"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre funciones del Consejo de Ministros."}]}
+}

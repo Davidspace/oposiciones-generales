@@ -1,0 +1,110 @@
+{
+  "id": "S03",
+  "themeId": "ss-03",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Afiliación, altas, bajas, inscripción y situaciones asimiladas",
+  "learningOutcomes": [
+    "Distinguir afiliación, alta, baja, inscripción empresarial y código de cuenta de cotización antes de resolver un supuesto.",
+    "Determinar quién debe promover la afiliación, el alta o la baja y qué vías existen si el empresario incumple.",
+    "Aplicar los plazos y efectos generales de las altas y bajas del Régimen General sin confundir la fecha del trámite con la fecha de efectos.",
+    "Resolver el encuadramiento múltiple mediante las categorías de pluriempleo y pluriactividad.",
+    "Clasificar una situación como alta real, asimilada al alta, alta de pleno derecho o alta especial y limitar sus efectos a la contingencia prevista.",
+    "Comprobar los requisitos y la fecha de efectos del convenio especial general antes de atribuirle cobertura."
+  ],
+  "decisions": [
+    "Identificar si el supuesto afecta a la persona trabajadora, al empresario o a ambos.",
+    "Separar el vínculo vitalicio de afiliación de cada alta o baja vinculada a una actividad.",
+    "Comprobar si la empresa estaba inscrita antes de iniciar su actividad y si el trabajador fue encuadrado en el régimen correcto.",
+    "Fijar la fecha real de inicio o cese, la fecha de comunicación y la fecha en que la Tesorería conoció el hecho.",
+    "Distinguir dos empleos dentro de un mismo régimen de dos actividades que obligan al alta en regímenes distintos.",
+    "No extender una situación asimilada, de pleno derecho o especial más allá de las contingencias y condiciones que establece su norma.",
+    "Para un convenio especial, comprobar primero el supuesto habilitante, después el plazo anual y la carencia general y, por último, la regla de efectos de noventa días."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Normas sobre afiliación",
+      "objective": "Distinguir la afiliación única de las altas sucesivas y elegir la vía empresarial, subsidiaria o de oficio.",
+      "sectionId": "s03-afiliacion",
+      "activityIds": [
+        "ss-03-q001",
+        "ss-03-q002"
+      ]
+    },
+    {
+      "officialClause": "Encuadramiento e inscripción",
+      "objective": "Aplicar la inscripción previa del empresario y clasificar el encuadramiento múltiple.",
+      "sectionId": "s03-inscripcion-encuadramiento",
+      "activityIds": [
+        "ss-03-q003",
+        "ss-03-q004"
+      ]
+    },
+    {
+      "officialClause": "Altas y bajas en el régimen general. Procedimiento y efectos",
+      "objective": "Relacionar plazo, comunicación y efectos del alta y de la baja en el Régimen General.",
+      "sectionId": "s03-altas-bajas",
+      "activityIds": [
+        "ss-03-q005",
+        "ss-03-q006"
+      ]
+    },
+    {
+      "officialClause": "El convenio especial y otras situaciones asimiladas a la del alta",
+      "objective": "Diferenciar situaciones asimiladas, alta de pleno derecho y alta especial y aplicar los requisitos y efectos del convenio especial general.",
+      "sectionId": "s03-asimiladas-convenio",
+      "activityIds": [
+        "ss-03-q007",
+        "ss-03-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S03/lesson.md",
+  "reviewSheetPath": "content-source/modules/S03/review.md",
+  "normativeClaimIds": [
+    "clm-ss-03-006",
+    "clm-ss-03-007",
+    "clm-ss-03-008",
+    "clm-ss-03-009",
+    "clm-ss-03-010",
+    "clm-ss-03-011",
+    "clm-ss-03-012",
+    "clm-ss-03-013",
+    "clm-ss-03-014",
+    "clm-ss-03-015",
+    "clm-ss-03-016",
+    "clm-ss-03-017",
+    "clm-ss-03-018",
+    "clm-ss-03-019",
+    "clm-ss-03-020"
+  ],
+  "questionIds": [
+    "ss-03-q001",
+    "ss-03-q002",
+    "ss-03-q003",
+    "ss-03-q004",
+    "ss-03-q005",
+    "ss-03-q006",
+    "ss-03-q007",
+    "ss-03-q008"
+  ],
+  "microcaseIds": [],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S03 con ocho preguntas y trazabilidad normativa; revisión humana pendiente."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ss-05-q007",
+  "epigraph": "Aplazamientos",
+  "competency": "Excluir deudas inaplazables y valorar los efectos de la solicitud y de la concesión",
+  "difficulty": "high",
+  "prompt": "Una empresa solicita aplazar una deuda que incluye cuotas por accidentes de trabajo y enfermedades profesionales, la aportación de las personas trabajadoras y cuotas empresariales por contingencias comunes. Desde la presentación deja de pagar porque entiende suspendida toda la recaudación. ¿Qué solución es correcta?",
+  "options": [
+    {
+      "text": "La mera solicitud suspende toda la recaudación durante tres meses y permite aplazar cualquier concepto incluido en la deuda.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La solicitud no suspende por sí sola el procedimiento y existen conceptos legalmente inaplazables.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S05, apartado 7: efectos de la solicitud y deudas excluidas del aplazamiento."
+    },
+    {
+      "text": "Solo es inaplazable la aportación empresarial por contingencias comunes; las cuotas profesionales y la aportación de las personas trabajadoras pueden diferirse.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento excluye precisamente las cuotas profesionales y la aportación de las personas trabajadoras.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S05, apartado 7: conceptos que no pueden aplazarse."
+    },
+    {
+      "text": "No pueden aplazarse las cuotas profesionales ni la aportación de las personas trabajadoras; la solicitud no suspende por sí sola, aunque la concesión puede suspender la recaudación de la deuda aplazada si se cumplen sus condiciones.",
+      "isCorrect": true,
+      "feedback": "Correcto. Las cuotas por accidentes de trabajo y enfermedades profesionales y la aportación de las personas trabajadoras son inaplazables. La mera solicitud no paraliza el procedimiento. La concesión sí puede suspenderlo respecto de la deuda aplazada cuando se cumplen sus condiciones."
+    },
+    {
+      "text": "Ninguna deuda de Seguridad Social puede aplazarse, aunque existan dificultades económico-financieras.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La TGSS puede conceder aplazamientos por dificultades económico-financieras respecto de las deudas legalmente aplazables.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S05, apartado 7: finalidad y ámbito del aplazamiento."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-019",
+    "clm-ss-05-020"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a31",
+      "location": "Real Decreto 1415/2004, artículos 31 a 36",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

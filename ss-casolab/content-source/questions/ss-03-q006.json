@@ -1,0 +1,75 @@
+{
+  "id": "ss-03-q006",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "Baja tardía y obligación de cotizar",
+  "competency": "Aplicar la regla general de efectos de una baja fuera de plazo",
+  "difficulty": "high",
+  "prompt": "Una empresa comunica la baja fuera del plazo de tres días naturales y la TGSS no había conocido antes el cese. ¿Qué regla general se aplica a la obligación de cotizar?",
+  "options": [
+    {
+      "text": "Se extingue siempre en la fecha de cese que indique la empresa, aunque no aporte prueba.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La baja tardía no recibe automáticamente los efectos de una baja en plazo. La prueba de otra fecha es una posibilidad, no una presunción incondicionada.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S03, apartado 4.3: baja tardía, conocimiento y prueba."
+    },
+    {
+      "text": "No se extingue hasta el día en que la TGSS conoce el cese, sin perjuicio de que el interesado pruebe otra fecha por un medio admitido en derecho.",
+      "isCorrect": true,
+      "feedback": "Correcto. Esa es la regla general para una baja omitida, tardía o presentada por un medio distinto, con la salvedad probatoria del reglamento."
+    },
+    {
+      "text": "Se extingue tres días naturales después de que la TGSS conozca el cese.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Los tres días son el plazo para comunicar la baja; no se añaden al día de conocimiento para fijar su efecto.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "S03, apartado 4.3: distinguir plazo de comunicación y efecto."
+    },
+    {
+      "text": "Nunca puede extinguirse si la comunicación fue tardía.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La tardanza no perpetúa la cotización: la regla general atiende al conocimiento de la TGSS y permite acreditar otra fecha.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S03, apartado 4.3: consecuencias, no sanción perpetua."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-014",
+    "clm-ss-03-015"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "location": "Real Decreto 84/1996, artículo 32.3.2.º",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a35",
+      "location": "Real Decreto 84/1996, artículo 35.2.1.º, 35.2.2.º y 35.2.4.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta de aplicación con feedback por alternativa."
+      }
+    ]
+  }
+}

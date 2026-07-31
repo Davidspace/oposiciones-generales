@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q003",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Ejecución de garantías y acumulación",
+  "competency": "Ordenar la ejecución patrimonial y aplicar suficiencia, acumulación y restitución del sobrante",
+  "difficulty": "medium",
+  "prompt": "Hay dos providencias firmes contra el mismo responsable y una garantía real suficiente para cubrir la deuda. ¿Cuál es la secuencia correcta?",
+  "options": [
+    {
+      "text": "Se embargan primero otros bienes, se ejecuta la garantía solo si aquellos no bastan y cada providencia debe permanecer siempre en un expediente separado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La garantía suficiente se ejecuta primero y las providencias contra el mismo responsable se acumulan como regla general.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S06, apartado 4.1: garantía previa y acumulación de providencias."
+    },
+    {
+      "text": "Se ejecuta primero la garantía y se acumulan las providencias, salvo segregación necesaria; si se cobra de más, se devuelve el sobrante salvo embargo u orden de retención.",
+      "isCorrect": true,
+      "feedback": "Correcto. La garantía ocupa el primer lugar, la acumulación es la regla y el exceso no puede conservarse para la TGSS fuera de una retención legítima."
+    },
+    {
+      "text": "La existencia de garantía impide toda actuación administrativa y obliga a la TGSS a acudir a un proceso civil de ejecución hipotecaria.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La garantía se ejecuta por el procedimiento administrativo de apremio y por los órganos recaudatorios competentes.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "S06, apartado 4.1: ejecución administrativa de las garantías."
+    },
+    {
+      "text": "La TGSS puede retener cualquier exceso obtenido como reserva general para futuras deudas aún no apremiadas del responsable.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El sobrante se restituye inmediatamente, salvo que exista un embargo u orden de retención que lo justifique.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S06, apartado 4.1: restitución del exceso de cobro."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-006",
+    "clm-ss-06-007"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a38",
+      "location": "TRLGSS, artículo 38.5",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a87",
+      "location": "Real Decreto 1415/2004, artículos 87 y 88",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      }
+    ]
+  }
+}

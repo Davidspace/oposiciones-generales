@@ -1,0 +1,80 @@
+{
+  "id": "ss-05-q008",
+  "epigraph": "Devolución de ingresos indebidos",
+  "competency": "Aplicar un ingreso erróneo a una deuda pendiente antes de reconocer su devolución",
+  "difficulty": "medium",
+  "prompt": "Una empresa duplica por error un ingreso de 1.000 euros. En ese momento mantiene otra deuda vencida de 1.500 euros con la Seguridad Social y no existe un aval genérico que cubra el pago. Solicita la devolución dos meses después. ¿Qué actuación procede?",
+  "options": [
+    {
+      "text": "La TGSS debe devolver de inmediato los 1.000 euros con interés porque la solicitud se presentó dentro del plazo de cuatro años.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El plazo de prescripción no impide aplicar primero el ingreso erróneo a una deuda pendiente cuando concurren los presupuestos reglamentarios.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S05, apartado 8: relación entre prescripción e imputación del ingreso erróneo."
+    },
+    {
+      "text": "El ingreso duplicado se considera una donación irrevocable a la Seguridad Social y nunca puede dar derecho a devolución.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Un ingreso indebido puede dar derecho a devolución con interés de demora; aquí no se devuelve porque debe imputarse a una deuda pendiente.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S05, apartado 8: derecho a la devolución de ingresos indebidos."
+    },
+    {
+      "text": "La empresa puede elegir libremente entre la devolución y la aplicación a la deuda, porque ambas solicitudes tienen el mismo efecto.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La existencia de deuda pendiente activa la regla de aplicación del ingreso erróneo; no es una opción libre del pagador.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S05, apartado 8: imputación obligatoria a deuda pendiente y excepción del aval genérico."
+    },
+    {
+      "text": "Los 1.000 euros se aplican a la deuda pendiente, que queda reducida a 500 euros; no procede devolver esa cantidad mientras resulte absorbida por dicha imputación.",
+      "isCorrect": true,
+      "feedback": "Correcto. Si quien realizó el ingreso erróneo ya era deudor, la cantidad se aplica a la deuda pendiente, salvo la excepción reglamentaria del aval genérico. En este caso, la deuda restante es de 500 euros."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-021"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a44",
+      "location": "Real Decreto 1415/2004, artículos 44 y 45",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a26",
+      "location": "TRLGSS, artículo 26",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-05"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

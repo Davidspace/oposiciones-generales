@@ -1,0 +1,77 @@
+{
+  "id": "ss-09-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Enfermedad grave",
+  "competency": "Aplicar reducción de jornada",
+  "difficulty": "medium",
+  "prompt": "Para el subsidio por cuidado de menor afectado por enfermedad grave, ¿qué elemento debe aparecer?",
+  "options": [
+    {
+      "text": "Solo una petición de teletrabajo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El teletrabajo no sustituye el presupuesto del subsidio.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S09, enfermedad grave"
+    },
+    {
+      "text": "El nacimiento del menor en el mismo mes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El hecho causante es la enfermedad grave y el cuidado.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S09, enfermedad grave"
+    },
+    {
+      "text": "Una jubilación del cuidador.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es un requisito de esta prestación.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S09, enfermedad grave"
+    },
+    {
+      "text": "Reducción de jornada y cuidado directo, continuo y permanente en los términos legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. Es un elemento central del artículo 190."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-013",
+    "clm-ss-09-014",
+    "clm-ss-09-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "art. 190",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q006."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

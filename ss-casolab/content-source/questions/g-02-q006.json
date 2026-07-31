@@ -1,0 +1,76 @@
+{
+  "id": "g-02-q006",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-02"
+  ],
+  "epigraph": "Suspensión general",
+  "competency": "Aplicar los estados habilitantes, la lista de derechos y la excepción del artículo 55.1.",
+  "difficulty": "high",
+  "prompt": "Se declara un estado de excepción. ¿Qué afirmación respeta la regla constitucional de suspensión general?",
+  "options": [
+    {
+      "text": "El estado de alarma habría permitido la misma suspensión, porque los tres estados del artículo 116 tienen idénticos efectos sobre los derechos.",
+      "isCorrect": false,
+      "feedback": "El artículo 55.1 solo menciona los estados de excepción y de sitio. No atribuye ese efecto general al estado de alarma.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G02, estados habilitantes del artículo 55.1"
+    },
+    {
+      "text": "Pueden suspenderse los derechos y apartados que enumera el artículo 55.1, pero el artículo 17.3 queda exceptuado durante el estado de excepción.",
+      "isCorrect": true,
+      "feedback": "Correcto. La respuesta aplica la lista constitucional y conserva la excepción expresa relativa al artículo 17.3."
+    },
+    {
+      "text": "Puede suspenderse cualquier derecho de la sección primera, incluidos los artículos 14 y 24.",
+      "isCorrect": false,
+      "feedback": "La suspensión no alcanza en bloque a toda la sección primera. El artículo 55.1 enumera artículos y apartados concretos y no incluye los artículos 14 ni 24.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G02, lista cerrada de suspensión general"
+    },
+    {
+      "text": "Puede suspenderse todo el artículo 17, incluido su apartado 3, porque la mención global al artículo prevalece sobre cualquier excepción.",
+      "isCorrect": false,
+      "feedback": "El propio artículo 55.1 exceptúa expresamente el artículo 17.3 en el estado de excepción. La mención general no elimina esa precisión.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G02, excepción del artículo 17.3"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-02-006",
+    "clm-g-02-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 17.3 y 55.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

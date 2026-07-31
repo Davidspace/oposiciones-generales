@@ -1,0 +1,77 @@
+{
+  "id": "g-20-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-20"
+  ],
+  "epigraph": "Peticiones",
+  "competency": "distinguir petición, solicitud y recurso",
+  "difficulty": "high",
+  "prompt": "¿Qué afirmación evita confundir el derecho de petición con otros escritos administrativos?",
+  "options": [
+    {
+      "text": "La petición está reconocida constitucionalmente y regulada por la Ley Orgánica 4/2001; no sustituye una solicitud reglada ni un recurso cuando estos son exigibles.",
+      "isCorrect": true,
+      "feedback": "Correcto. El objeto y el cauce determinan si procede petición, solicitud o recurso."
+    },
+    {
+      "text": "Toda solicitud de una prestación es siempre una petición del artículo 29 de la Constitución.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una prestación reglada se tramita por el procedimiento y requisitos que la regulan.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, petición y solicitud reglada"
+    },
+    {
+      "text": "Toda queja es un recurso porque expresa desacuerdo con el funcionamiento administrativo.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El programa de quejas excluye su calificación como recurso.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G20, queja y recurso"
+    },
+    {
+      "text": "La petición garantiza que la Administración acepte lo solicitado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El derecho de petición garantiza el cauce legal, no un resultado favorable automático.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G20, efectos del derecho de petición"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-20-016",
+    "clm-g-20-017",
+    "clm-g-20-018",
+    "clm-g-20-019"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 29",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2001-21090",
+      "location": "artículos 1 a 12",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Petición frente a solicitud y recurso."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-020",
+  "assetId": "S05",
+  "version": "0.1.0",
+  "statement": "No pueden aplazarse las cuotas por accidentes de trabajo y enfermedades profesionales ni la aportación de las personas trabajadoras correspondiente a las cuotas aplazadas.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a32",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 32.1",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S05",
+    "ss-05-q007"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa para S05."
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,75 @@
+{
+  "id": "g-17-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-17"
+  ],
+  "epigraph": "Finalización",
+  "competency": "decidir la continuidad de la tramitación simplificada",
+  "difficulty": "high",
+  "prompt": "En un procedimiento simplificado resulta necesario practicar un trámite que no figura entre los enumerados en el artículo 96.6. ¿Qué debe hacerse?",
+  "options": [
+    {
+      "text": "Añadir el trámite y conservar siempre el plazo simplificado de treinta días.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La necesidad de un trámite adicional impide mantener la tramitación simplificada como si la lista fuera abierta.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G17, apartado 4.4 «Tramitación simplificada»"
+    },
+    {
+      "text": "Omitir el trámite, porque la simplificación prevalece sobre cualquier exigencia procedimental.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Simplificar no autoriza a suprimir un trámite necesario; obliga a continuar por la vía ordinaria.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G17, apartado 4.4 «Tramitación simplificada»"
+    },
+    {
+      "text": "Declarar la caducidad y exigir que el interesado presente una nueva solicitud.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La aparición de un trámite adicional no es causa de caducidad ni exige reiniciar; cambia la modalidad de tramitación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G17, apartado 4.4 «Tramitación simplificada»"
+    },
+    {
+      "text": "Continuar la tramitación por la vía ordinaria.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 96.7 obliga a tramitar de manera ordinaria cuando el procedimiento exige un trámite no previsto en la lista tasada."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-17-021"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 96.6 y 96.7",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta original con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

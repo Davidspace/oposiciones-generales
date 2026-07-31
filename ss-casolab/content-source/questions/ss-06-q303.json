@@ -1,0 +1,75 @@
+{
+  "id": "ss-06-q303",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Tema 6. Recaudación en vía ejecutiva",
+  "competency": "Reconocer la providencia de apremio como inicio de la vía ejecutiva.",
+  "difficulty": "medium",
+  "prompt": "¿Qué expresa la providencia de apremio recibida por la empresa?",
+  "options": [
+    {
+      "text": "La apertura de un periodo voluntario nuevo sin límite.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 38 y 39; Reglamento general de recaudación.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Reconocer la providencia de apremio como inicio de la vía ejecutiva."
+    },
+    {
+      "text": "La afiliación de oficio de la plantilla.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 38 y 39; Reglamento general de recaudación.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Reconocer la providencia de apremio como inicio de la vía ejecutiva."
+    },
+    {
+      "text": "La concesión automática de un aplazamiento.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 38 y 39; Reglamento general de recaudación.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 6. Recaudación en vía ejecutiva: Reconocer la providencia de apremio como inicio de la vía ejecutiva."
+    },
+    {
+      "text": "El inicio del procedimiento ejecutivo para cobrar la deuda no ingresada.",
+      "isCorrect": true,
+      "feedback": "La providencia de apremio dirige la ejecución recaudatoria; no concede por sí misma un nuevo periodo voluntario ni un aplazamiento."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-05-103"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+      "location": "TRLGSS, artículos 38 y 39; Reglamento general de recaudación",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC04, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "g-04-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-04"
+  ],
+  "epigraph": "Tutela, juramento y consorte",
+  "competency": "Distinguir las reglas constitucionales sobre el tutor del Rey menor, los juramentos y el consorte.",
+  "difficulty": "high",
+  "prompt": "¿Qué opción reúne únicamente reglas constitucionales correctas sobre la tutela, los juramentos y el consorte?",
+  "options": [
+    {
+      "text": "El tutor testamentario puede ser menor si es español; el Príncipe heredero jura solo al ser proclamado Rey; y el consorte preside ordinariamente el Consejo de Ministros.",
+      "isCorrect": false,
+      "feedback": "El tutor testamentario debe ser mayor de edad y español de nacimiento; el heredero jura al alcanzar la mayoría de edad y el consorte no recibe esa función de gobierno.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G04, requisitos del tutor y juramento del heredero"
+    },
+    {
+      "text": "A falta de tutor testamentario, las Cortes nombran siempre al tutor antes que el padre o la madre; los Regentes no juran fidelidad al Rey; y el consorte puede asumir cualquier función delegada.",
+      "isCorrect": false,
+      "feedback": "A falta de tutor testamentario se prefiere al padre o la madre mientras permanezcan viudos; los Regentes añaden fidelidad al Rey y el consorte solo tiene la salvedad constitucional de la Regencia.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G04, orden de tutela, juramento y límite del consorte"
+    },
+    {
+      "text": "Los cargos de Regente y tutor pueden acumularse en cualquier persona nombrada por las Cortes; la tutela es compatible con cargos políticos; y el consorte nunca puede ejercer la Regencia.",
+      "isCorrect": false,
+      "feedback": "La acumulación solo cabe en el padre, la madre o ascendientes directos; la tutela es incompatible con cargos o representación política y el artículo 58 salva expresamente lo dispuesto para la Regencia.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G04, incompatibilidades y excepciones de tutela y consorte"
+    },
+    {
+      "text": "El tutor testamentario debe ser mayor de edad y español de nacimiento; el Príncipe heredero al alcanzar la mayoría y los Regentes al asumir sus funciones prestan el juramento previsto y añaden fidelidad al Rey; el consorte no asume funciones constitucionales salvo lo dispuesto para la Regencia.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción integra los requisitos del artículo 60.1, el juramento adicional del artículo 61.2 y la excepción relativa a la Regencia del artículo 58."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-04-007",
+    "clm-g-04-011",
+    "clm-g-04-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 58, artículo 60.1 y 60.2 y artículo 61.1 y 61.2",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

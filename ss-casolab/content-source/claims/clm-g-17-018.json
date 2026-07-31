@@ -1,0 +1,18 @@
+{
+  "claimId": "clm-g-17-018",
+  "assetId": "G17",
+  "version": "0.1.0",
+  "statement": "Los artículos 89 a 92 establecen especialidades de propuesta y resolución en procedimientos sancionadores y de responsabilidad patrimonial, incluida la prohibición de aceptar hechos distintos en la resolución sancionadora y el contenido específico de la resolución patrimonial.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+  "sourceLocation": "artículos 89 a 92",
+  "officialPublication": "BOE-A-2015-10565; texto consolidado con última actualización publicada el 06-11-2024",
+  "validFrom": "2016-10-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "Equipo editorial SS CasoLab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G17"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable."}]}
+}

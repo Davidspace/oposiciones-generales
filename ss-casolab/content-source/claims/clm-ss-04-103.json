@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-04-103",
+  "assetId": "MC03",
+  "version": "0.1.0",
+  "statement": "Las cuotas del Régimen General se liquidan por mensualidades y se ingresan dentro del plazo reglamentario correspondiente al periodo liquidado.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "TRLGSS, artículos 18 y 29; Reglamento general de recaudación",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC03",
+    "ss-04-q303"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Afirmación normativa de borrador para MC03."
+      }
+    ]
+  }
+}

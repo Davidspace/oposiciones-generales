@@ -1,0 +1,158 @@
+{
+  "id": "S07",
+  "themeId": "ss-07",
+  "version": "0.2.0",
+  "status": "draft",
+  "title": "Acción protectora",
+  "learningOutcomes": [
+    "Ordenar el contenido de la acción protectora y distinguir prestaciones económicas, prestaciones familiares, servicios y asistencia social.",
+    "Aplicar los caracteres legales de las prestaciones sin convertir sus excepciones en reglas generales.",
+    "Resolver la incompatibilidad entre pensiones del Régimen General y el derecho de opción del beneficiario.",
+    "Determinar quién debe reintegrar una prestación indebida y cuándo prescribe la obligación.",
+    "Comprobar los requisitos generales de afiliación, alta, cotización y situación al corriente sin omitir los requisitos particulares.",
+    "Separar responsabilidad por incumplimiento empresarial, alta de pleno derecho y anticipo de la prestación.",
+    "Calificar un riesgo como accidente de trabajo, enfermedad profesional, accidente no laboral o enfermedad común.",
+    "Distinguir la regla vigente de los datos sujetos a actualización, en especial el límite del anticipo referido al IPREM."
+  ],
+  "decisions": [
+    "Identificar si la protección consiste en asistencia sanitaria, recuperación profesional, prestación económica, prestación familiar, servicio social o asistencia social complementaria.",
+    "Comprobar si una retención, cesión, compensación, descuento o embargo encaja en la regla legal y en sus excepciones.",
+    "Antes de declarar incompatibilidad, verificar que coinciden pensiones del Régimen General en un mismo beneficiario y que no existe excepción expresa.",
+    "Separar la obligación principal del perceptor de la responsabilidad subsidiaria de quien contribuyó a la percepción indebida.",
+    "Aplicar primero los requisitos generales y después los requisitos particulares de la prestación concreta.",
+    "No exigir un período previo de cotización por accidente o enfermedad profesional, salvo previsión legal expresa.",
+    "Distinguir la automaticidad del alta de pleno derecho del anticipo y de la responsabilidad empresarial subsistente.",
+    "Calificar el riesgo mediante el nexo con el trabajo, el cuadro de enfermedades profesionales y las reglas residuales de las contingencias comunes."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Acción protectora. Contenido y clasificación de las prestaciones",
+      "objective": "Clasificar las formas de protección y reconocer el alcance legal del catálogo del sistema.",
+      "sectionId": "s07-contenido-clasificacion",
+      "activityIds": [
+        "ss-07-q001"
+      ]
+    },
+    {
+      "officialClause": "Caracteres de las prestaciones",
+      "objective": "Aplicar las reglas sobre retención, cesión, compensación, descuento, embargo, tributación y gratuidad documental.",
+      "sectionId": "s07-caracteres",
+      "activityIds": [
+        "ss-07-q002"
+      ]
+    },
+    {
+      "officialClause": "Incompatibilidades",
+      "objective": "Resolver la incompatibilidad de pensiones del Régimen General y el derecho de opción.",
+      "sectionId": "s07-incompatibilidades",
+      "activityIds": [
+        "ss-07-q003"
+      ]
+    },
+    {
+      "officialClause": "Reintegro de las prestaciones indebidas",
+      "objective": "Identificar obligados, responsabilidad subsidiaria, plazo de prescripción y responsabilidades concurrentes.",
+      "sectionId": "s07-reintegro",
+      "activityIds": [
+        "ss-07-q004"
+      ]
+    },
+    {
+      "officialClause": "Requisitos generales del derecho a las prestaciones",
+      "objective": "Comprobar afiliación, alta o situación asimilada, cotizaciones computables, carencia y situación al corriente.",
+      "sectionId": "s07-requisitos",
+      "activityIds": [
+        "ss-07-q005"
+      ]
+    },
+    {
+      "officialClause": "Responsabilidades en orden a las prestaciones por incumplimiento de las obligaciones de afiliación, altas, bajas y cotización",
+      "objective": "Distinguir la imputación ordinaria de la responsabilidad derivada del incumplimiento y su declaración administrativa.",
+      "sectionId": "s07-responsabilidad",
+      "activityIds": [
+        "ss-07-q006"
+      ]
+    },
+    {
+      "officialClause": "Automaticidad y anticipo de prestaciones",
+      "objective": "Separar alta de pleno derecho, anticipo, subrogación y responsabilidad empresarial.",
+      "sectionId": "s07-automaticidad-anticipo",
+      "activityIds": [
+        "ss-07-q006"
+      ]
+    },
+    {
+      "officialClause": "Riesgo protegido: contingencias comunes y profesionales",
+      "objective": "Calificar accidentes y enfermedades mediante las definiciones y presunciones del Régimen General.",
+      "sectionId": "s07-contingencias",
+      "activityIds": [
+        "ss-07-q007",
+        "ss-07-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/S07/lesson.md",
+  "reviewSheetPath": "content-source/modules/S07/review.md",
+  "normativeClaimIds": [
+    "clm-ss-07-001",
+    "clm-ss-07-002",
+    "clm-ss-07-003",
+    "clm-ss-07-004",
+    "clm-ss-07-005",
+    "clm-ss-07-006",
+    "clm-ss-07-007",
+    "clm-ss-07-008",
+    "clm-ss-07-009",
+    "clm-ss-07-010",
+    "clm-ss-07-011",
+    "clm-ss-07-012",
+    "clm-ss-07-013",
+    "clm-ss-07-014",
+    "clm-ss-07-015",
+    "clm-ss-07-016",
+    "clm-ss-07-017",
+    "clm-ss-07-018",
+    "clm-ss-07-019",
+    "clm-ss-07-020"
+  ],
+  "questionIds": [
+    "ss-07-q001",
+    "ss-07-q002",
+    "ss-07-q003",
+    "ss-07-q004",
+    "ss-07-q005",
+    "ss-07-q006",
+    "ss-07-q007",
+    "ss-07-q008"
+  ],
+  "microcaseIds": [
+    "MC05",
+    "MC06",
+    "MC07",
+    "MC08"
+  ],
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial completo de S07 con veinte afirmaciones y ocho preguntas; revisión académica, jurídica y normativa pendientes."
+      },
+      {
+        "version": "0.2.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Asociación de microcasos prácticos adicionales; revisiones pendientes."
+      }
+    ]
+  }
+}

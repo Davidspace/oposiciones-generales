@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q302",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "Tema 4. Cotización y liquidación",
+  "competency": "Determinar los conceptos retributivos que integran la base de cotización.",
+  "difficulty": "medium",
+  "prompt": "¿Cómo debe tratarse la paga extraordinaria de junio y diciembre al calcular la base mensual?",
+  "options": [
+    {
+      "text": "Solo se computa en el mes en que se cobra.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 147.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Determinar los conceptos retributivos que integran la base de cotización."
+    },
+    {
+      "text": "Nunca forma parte de la base de cotización.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 147.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Determinar los conceptos retributivos que integran la base de cotización."
+    },
+    {
+      "text": "Debe computarse mediante la prorrata mensual de las pagas extraordinarias.",
+      "isCorrect": true,
+      "feedback": "Las percepciones de vencimiento superior al mensual se prorratean para determinar la base mensual, con las reglas y límites aplicables."
+    },
+    {
+      "text": "Se sustituye siempre por una cantidad fija ajena a la retribución.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículo 147.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 4. Cotización y liquidación: Determinar los conceptos retributivos que integran la base de cotización."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-102"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículo 147",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC03, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-06-016",
+  "assetId": "S06",
+  "version": "0.1.0",
+  "statement": "Se califica como incobrable el crédito no cobrado totalmente tras agotar el apremio sobre bienes conocidos y embargables, o con ingresos futuros notoriamente insuficientes; no procede mientras el responsable ejerza una actividad que determine inclusión y alta de trabajadores.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a129",
+  "sourceLocation": "Real Decreto 1415/2004, artículo 129",
+  "officialPublication": "BOE-A-2004-11836",
+  "validFrom": "2009-06-16",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["S06", "content-source/modules/S06/lesson.md", "content-source/modules/S06/review.md", "ss-06-q007"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S06."}]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "MC06",
+  "version": "0.1.0",
+  "status": "draft",
+  "type": "microcase",
+  "title": "Modalidad de jubilación",
+  "scenario": "Una persona trabajadora del Régimen General cumple la edad ordinaria y acredita una larga carrera de cotización. Valora jubilarse de forma ordinaria, solicitar una modalidad anticipada o compatibilizar parte del trabajo con la pensión.",
+  "originality": "original",
+  "assumptions": [
+    "La persona reúne los periodos de cotización que se indican en cada pregunta.",
+    "No se declara una profesión con coeficientes reductores ni una discapacidad específica.",
+    "Las decisiones se refieren al régimen general de la pensión contributiva.",
+    "El caso se resuelve con la normativa vigente al 30 de julio de 2026."
+  ],
+  "themes": [
+    "ss-07",
+    "ss-10"
+  ],
+  "competencies": [
+    "Identificar los requisitos generales de la jubilación contributiva.",
+    "Distinguir jubilación ordinaria y anticipada voluntaria.",
+    "Reconocer que la jubilación anticipada exige requisitos adicionales.",
+    "Aplicar la idea de compatibilidad condicionada del trabajo con la pensión.",
+    "Separar la modalidad de jubilación del cálculo de la cuantía."
+  ],
+  "coverage": [
+    {
+      "themeId": "ss-07",
+      "competency": "Identificar los requisitos generales de la jubilación contributiva.",
+      "questionIds": [
+        "ss-07-q311"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Distinguir jubilación ordinaria y anticipada voluntaria.",
+      "questionIds": [
+        "ss-10-q312"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Reconocer que la jubilación anticipada exige requisitos adicionales.",
+      "questionIds": [
+        "ss-07-q313"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Aplicar la idea de compatibilidad condicionada del trabajo con la pensión.",
+      "questionIds": [
+        "ss-10-q314"
+      ]
+    },
+    {
+      "themeId": "ss-10",
+      "competency": "Separar la modalidad de jubilación del cálculo de la cuantía.",
+      "questionIds": [
+        "ss-10-q315"
+      ]
+    }
+  ],
+  "questionIds": [
+    "ss-07-q311",
+    "ss-10-q312",
+    "ss-07-q313",
+    "ss-10-q314",
+    "ss-10-q315"
+  ],
+  "consistencyRules": [
+    "No se aplican coeficientes especiales que el escenario no declare.",
+    "La modalidad se decide antes de calcular la cuantía.",
+    "La compatibilidad entre trabajo y pensión siempre queda sujeta a las condiciones legales."
+  ],
+  "durationMinutes": 14,
+  "scoring": {
+    "correct": 1,
+    "wrong": -0.25,
+    "blank": 0
+  },
+  "difficulty": "high",
+  "visibility": "practice",
+  "normativeClaimIds": [
+    "clm-ss-07-111",
+    "clm-ss-07-112",
+    "clm-ss-07-113",
+    "clm-ss-07-114",
+    "clm-ss-07-115"
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador original de MC06 con cinco decisiones conectadas."
+      }
+    ]
+  }
+}

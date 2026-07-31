@@ -1,0 +1,70 @@
+{
+  "id": "g-05-q007",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-05"
+  ],
+  "epigraph": "Acceso y queja ante el Defensor del Pueblo",
+  "competency": "Aplicar la legitimación, el plazo y los requisitos básicos de una queja.",
+  "difficulty": "medium",
+  "prompt": "Una persona extranjera de 17 años, internada en un centro, presenta sin abogado una queja firmada y razonada ocho meses después de conocer los hechos. Invoca un interés legítimo. ¿Qué valoración es correcta?",
+  "options": [
+    {
+      "text": "La minoría de edad y la nacionalidad extranjera impiden que pueda dirigirse al Defensor del Pueblo.",
+      "isCorrect": false,
+      "feedback": "Ni la nacionalidad ni la minoría de edad son impedimentos cuando la persona invoca un interés legítimo.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G05, ausencia de restricciones personales"
+    },
+    {
+      "text": "Necesita abogado y procurador porque está internada y la queja afecta a una Administración.",
+      "isCorrect": false,
+      "feedback": "Las actuaciones son gratuitas y no exigen abogado ni procurador. El internamiento tampoco impide el acceso.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G05, gratuidad y asistencia no preceptiva"
+    },
+    {
+      "text": "Puede presentar la queja: las circunstancias indicadas no son barreras, no necesita abogado y los ocho meses están dentro del plazo máximo de un año.",
+      "isCorrect": true,
+      "feedback": "Correcto. Hay interés legítimo, forma identificada y razonada, gratuidad y presentación dentro del año desde el conocimiento de los hechos."
+    },
+    {
+      "text": "Solo podría actuar el Defensor de oficio, porque una persona internada no puede iniciar una actuación a petición de parte.",
+      "isCorrect": false,
+      "feedback": "El Defensor puede actuar de oficio o a petición de parte. La relación especial de sujeción o el internamiento no excluyen la petición personal.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G05, inicio de oficio o a petición de parte"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-05-015",
+    "clm-g-05-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325&p=20091104&tn=1",
+      "location": "artículos 9.1, 10.1 y 15",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de supuesto breve con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

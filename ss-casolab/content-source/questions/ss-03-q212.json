@@ -1,0 +1,69 @@
+{
+  "id": "ss-03-q212",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-03"
+  ],
+  "epigraph": "CP01 — Reserva 3: alta de pleno derecho",
+  "competency": "Limitar el alta de pleno derecho a sus contingencias y mantener la obligación empresarial",
+  "difficulty": "high",
+  "prompt": "Reserva 3 de CP01. Durante la omisión inicial del alta de A se invoca el alta de pleno derecho del artículo 166.4. ¿Cuál es su alcance correcto?",
+  "options": [
+    {
+      "text": "Opera para las contingencias que enumera la ley pese al incumplimiento, pero no elimina la obligación empresarial de solicitar el alta ni las responsabilidades que procedan.",
+      "isCorrect": true,
+      "feedback": "Correcto. El alta de pleno derecho protege en el ámbito legalmente delimitado y no convierte el incumplimiento de la sociedad en un cumplimiento regular."
+    },
+    {
+      "text": "Equivale a un alta ordinaria previa para toda contingencia y borra cualquier responsabilidad de la sociedad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Extiende la figura más allá de las contingencias enumeradas y elimina indebidamente la obligación y responsabilidad empresariales.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S03, apartado 5.1: alcance limitado del alta de pleno derecho."
+    },
+    {
+      "text": "Crea una afiliación nueva para A cada vez que se materializa una contingencia protegida.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Alta de pleno derecho y afiliación son conceptos distintos; la figura no multiplica la afiliación personal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartados 2.1 y 5.1: afiliación frente a alta de pleno derecho."
+    },
+    {
+      "text": "Solo existe durante huelga y cierre patronal, porque es otro nombre del alta especial.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 166 distingue el alta de pleno derecho de la situación de alta especial durante huelga o cierre patronal.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 5.1: alta de pleno derecho frente a alta especial."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a166",
+      "location": "TRLGSS, artículo 166.4, 166.6 y 166.7",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de la reserva 3 de CP01."
+      }
+    ]
+  }
+}

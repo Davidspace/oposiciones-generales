@@ -1,0 +1,75 @@
+{
+  "id": "ss-11-q322",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-11"
+  ],
+  "epigraph": "Tema 11. Muerte y supervivencia",
+  "competency": "Distinguir la pensión de viudedad de la pensión de orfandad.",
+  "difficulty": "high",
+  "prompt": "¿Qué prestación se analiza para el cónyuge superviviente?",
+  "options": [
+    {
+      "text": "La pensión de orfandad.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 219 y 220.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Distinguir la pensión de viudedad de la pensión de orfandad."
+    },
+    {
+      "text": "La pensión de viudedad, si se cumplen sus requisitos.",
+      "isCorrect": true,
+      "feedback": "La viudedad protege a quien mantiene la relación familiar o de pareja reconocida por la ley; la orfandad se analiza para hijos y asimilados."
+    },
+    {
+      "text": "El ingreso mínimo vital como prestación derivada.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 219 y 220.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Distinguir la pensión de viudedad de la pensión de orfandad."
+    },
+    {
+      "text": "La incapacidad permanente del causante.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 219 y 220.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 11. Muerte y supervivencia: Distinguir la pensión de viudedad de la pensión de orfandad."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-122"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 219 y 220",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC07, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

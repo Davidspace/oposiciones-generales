@@ -1,0 +1,35 @@
+{
+  "claimId": "clm-g-02-009",
+  "assetId": "G02",
+  "version": "0.1.0",
+  "statement": "La sección segunda del capítulo II contiene los derechos y deberes de los ciudadanos en los artículos 30 a 38, mientras que el capítulo III contiene los principios rectores de la política social y económica en los artículos 39 a 52.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+  "sourceLocation": "título I, capítulo II, sección segunda, y capítulo III",
+  "officialPublication": "BOE núm. 311, de 29-12-1978; texto consolidado con última actualización publicada el 20-05-2026",
+  "validFrom": "1978-12-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": [
+    "G02",
+    "content-source/modules/G02/lesson.md",
+    "content-source/modules/G02/review.md",
+    "g-02-q001",
+    "g-02-q004"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de afirmación normativa trazable."
+      }
+    ]
+  }
+}

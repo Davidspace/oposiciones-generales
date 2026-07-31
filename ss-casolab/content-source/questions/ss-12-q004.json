@@ -1,0 +1,72 @@
+{
+  "id": "ss-12-q004",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-12"
+  ],
+  "epigraph": "Vulnerabilidad",
+  "competency": "Ordenar ingresos y patrimonio",
+  "difficulty": "medium",
+  "prompt": "¿Cómo se determina principalmente la vulnerabilidad económica del IMV?",
+  "options": [
+    {
+      "text": "Comparando ingresos y patrimonio computables con los umbrales legales.",
+      "isCorrect": true,
+      "feedback": "Correcto. La ley utiliza una comparación con renta garantizada y límites."
+    },
+    {
+      "text": "Solo preguntando por el salario del último mes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Deben computarse los datos y periodos previstos.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "S12, vulnerabilidad"
+    },
+    {
+      "text": "Solo comprobando la edad.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La edad no sustituye a la valoración económica.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S12, vulnerabilidad"
+    },
+    {
+      "text": "Aplicando la cuantía máxima a todas las unidades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La cuantía depende de los datos concretos.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S12, vulnerabilidad"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-12-008",
+    "clm-ss-12-009",
+    "clm-ss-12-010",
+    "clm-ss-12-011"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-21007",
+      "location": "arts. 10 a 13 Ley 19/2021",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-12-q004."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "g-23-q008",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-23"
+  ],
+  "epigraph": "Sede",
+  "competency": "Distinguir sede electrónica y registro",
+  "difficulty": "medium",
+  "prompt": "¿Cuál es la mejor definición de sede electrónica?",
+  "options": [
+    {
+      "text": "Una dirección electrónica cuya titularidad corresponde a una Administración u organismo y que está disponible para la ciudadanía.",
+      "isCorrect": true,
+      "feedback": "Correcto. La sede es un punto de acceso institucional con responsabilidad identificada."
+    },
+    {
+      "text": "Cualquier página web privada que mencione un trámite.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La sede requiere titularidad administrativa.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G23, sede"
+    },
+    {
+      "text": "El archivo interno de expedientes.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Archivo y sede cumplen funciones distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G23, sede"
+    },
+    {
+      "text": "El buzón personal del funcionario instructor.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. No es un punto institucional de acceso.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G23, sede"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-23-010",
+    "clm-g-23-015",
+    "clm-g-23-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032",
+      "location": "art. 38.1 Ley 40/2015",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-23-q008."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "g-13-q002",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "Concepto y clases",
+  "competency": "comprobar las condiciones de aplicación de la costumbre",
+  "difficulty": "medium",
+  "prompt": "En un asunto existe una práctica social alegada como costumbre. ¿Qué conjunto de condiciones recoge el artículo 1.3 del Código Civil para que esa costumbre rija?",
+  "options": [
+    {
+      "text": "Que se haya seguido durante al menos diez años y sea conocida por la Administración.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El artículo 1.3 no fija un plazo de diez años ni convierte el conocimiento administrativo en requisito.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G13, apartado 3.2 «La costumbre»"
+    },
+    {
+      "text": "Que no exista ley aplicable, que la costumbre no sea contraria a la moral o al orden público y que resulte probada.",
+      "isCorrect": true,
+      "feedback": "Correcto. Las tres condiciones deben comprobarse de forma acumulativa conforme al artículo 1.3."
+    },
+    {
+      "text": "Que no exista ley aplicable y que sea notoria, aunque quien la alega no consiga probarla.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La ausencia de ley aplicable no basta: el artículo 1.3 exige también que la costumbre resulte probada y que no sea contraria a la moral ni al orden público.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G13, apartado 3.2 «La costumbre»"
+    },
+    {
+      "text": "Que sea más específica que la ley aplicable, aunque sea contraria al orden público.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La costumbre opera en defecto de ley aplicable y no puede ser contraria a la moral o al orden público.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "G13, apartado 3.2 «La costumbre»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "location": "artículo 1.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "g-22-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-22"
+  ],
+  "epigraph": "Base jurídica",
+  "competency": "Distinguir licitud y consentimiento",
+  "difficulty": "medium",
+  "prompt": "Una Administración trata datos porque una ley le atribuye una obligación concreta. ¿Qué debe identificar antes de tratar?",
+  "options": [
+    {
+      "text": "Consentimiento siempre, aunque exista una obligación legal.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El consentimiento no es la única base y puede no ser la adecuada.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "G22, bases jurídicas"
+    },
+    {
+      "text": "Una autorización verbal de cualquier empleado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Una autorización interna no sustituye la base jurídica del artículo 6.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G22, bases jurídicas"
+    },
+    {
+      "text": "La publicación del dato en Internet.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La publicidad no convierte por sí sola el tratamiento en lícito.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G22, bases jurídicas"
+    },
+    {
+      "text": "La base jurídica correspondiente, que puede ser el cumplimiento de una obligación legal o una misión de interés público según el caso.",
+      "isCorrect": true,
+      "feedback": "Correcto. El tratamiento debe apoyarse en una de las bases del artículo 6."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-22-013",
+    "clm-g-22-014"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807",
+      "location": "art. 6.1.c y e RGPD",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta g-22-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

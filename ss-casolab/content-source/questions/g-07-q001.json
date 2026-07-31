@@ -1,0 +1,70 @@
+{
+  "id": "g-07-q001",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "g-07"
+  ],
+  "epigraph": "El poder ejecutivo",
+  "competency": "Identificar la posición, composición y funciones constitucionales del Gobierno.",
+  "difficulty": "basic",
+  "prompt": "¿Qué afirmación describe correctamente la posición constitucional y la composición del Gobierno?",
+  "options": [
+    {
+      "text": "El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado, ejerce la función ejecutiva y la potestad reglamentaria, y se compone del Presidente, los Vicepresidentes en su caso, los Ministros y los demás miembros que establezca la ley.",
+      "isCorrect": true,
+      "feedback": "Correcto. La opción integra las funciones del artículo 97 CE y la composición abierta que establece el artículo 98.1 CE."
+    },
+    {
+      "text": "El Gobierno solo ejecuta las leyes aprobadas por las Cortes; la política exterior y la potestad reglamentaria corresponden exclusivamente al Rey.",
+      "isCorrect": false,
+      "feedback": "El artículo 97 CE atribuye al Gobierno la dirección de la política exterior y la potestad reglamentaria; el Rey no asume en exclusiva esas funciones gubernamentales.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G07, funciones constitucionales del Gobierno"
+    },
+    {
+      "text": "Los Secretarios de Estado forman parte necesaria del Gobierno junto al Presidente y los Ministros.",
+      "isCorrect": false,
+      "feedback": "La Constitución no incluye a los Secretarios de Estado entre los miembros necesarios del Gobierno; la composición parte del Presidente, los Vicepresidentes en su caso y los Ministros.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G07, composición del Gobierno"
+    },
+    {
+      "text": "El Gobierno depende jerárquicamente del Congreso, que puede sustituir sus decisiones administrativas mediante instrucciones vinculantes.",
+      "isCorrect": false,
+      "feedback": "El Gobierno está sometido al control político parlamentario, pero ese control no convierte al Congreso en su superior jerárquico ni le atribuye la dirección ordinaria de la Administración.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G07, posición constitucional del Gobierno"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-07-001",
+    "clm-g-07-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículos 97 y 98",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30"
+}

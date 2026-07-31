@@ -1,0 +1,93 @@
+{
+  "id": "g-11-q008",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-11"
+  ],
+  "epigraph": "Relaciones entre el Derecho de la Unión y los ordenamientos nacionales: efecto directo e interpretación conforme",
+  "competency": "Aplicar los requisitos y límites de invocación de una directiva y distinguir la interpretación conforme.",
+  "difficulty": "high",
+  "prompt": "Ha vencido el plazo de transposición de una directiva. Una disposición es incondicional y suficientemente precisa, y una persona pretende invocarla frente a un ministerio. ¿Cuál es la respuesta más completa?",
+  "options": [
+    {
+      "text": "No puede invocarla nunca, porque solo los reglamentos pueden producir cualquier clase de efecto directo.",
+      "isCorrect": false,
+      "feedback": "Becker admite que disposiciones de directiva incondicionales y suficientemente precisas se invoquen frente al Estado cuando este incumple el plazo de transposición.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, Becker y efecto directo vertical"
+    },
+    {
+      "text": "Puede invocarla frente al ministerio y, por idéntica razón, imponer directamente la misma obligación a cualquier particular.",
+      "isCorrect": false,
+      "feedback": "La invocación vertical frente al Estado no se transforma en efecto directo horizontal. Faccini Dori impide que la directiva cree por sí sola obligaciones a cargo de otro particular.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G11, Faccini Dori y límite horizontal"
+    },
+    {
+      "text": "Solo puede invocarla si el ministerio ha elegido previamente la forma y los medios nacionales, pues el vencimiento del plazo carece de relevancia.",
+      "isCorrect": false,
+      "feedback": "Precisamente el incumplimiento del plazo por el Estado activa la posibilidad descrita en Becker cuando la disposición es incondicional y suficientemente precisa.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "G11, requisitos de invocación de una directiva"
+    },
+    {
+      "text": "Puede invocarla frente al Estado bajo esas condiciones; además, el Derecho nacional debe interpretarse en lo posible conforme a la letra y finalidad de la directiva, sin deducir por ello que la directiva pueda imponer por sí sola obligaciones a otro particular.",
+      "isCorrect": true,
+      "feedback": "Correcto. Becker sustenta la invocación vertical tras vencer el plazo, Marleasing la interpretación conforme y Faccini Dori excluye que la directiva imponga por sí sola obligaciones a un particular."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-11-016",
+    "clm-g-11-017",
+    "clm-g-11-018",
+    "clm-g-11-019"
+  ],
+  "sources": [
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61962CJ0026",
+      "location": "sentencia Van Gend en Loos, asunto 26/62",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61981CJ0008",
+      "location": "sentencia Becker, asunto 8/81, apartados 21 a 25",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61992CJ0091",
+      "location": "sentencia Faccini Dori, asunto C-91/92, apartados 20 a 25",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:61989CJ0106",
+      "location": "sentencia Marleasing, asunto C-106/89, apartado 8",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre efecto directo vertical, límite horizontal e interpretación conforme."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "ss-08-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Control",
+  "competency": "Aplicar el control de la incapacidad",
+  "difficulty": "medium",
+  "prompt": "Una persona recibe una citación médica de la entidad competente durante una baja. ¿Qué debe considerar?",
+  "options": [
+    {
+      "text": "Que solo el empresario puede decidir el alta.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El control y el alta se distribuyen entre entidades competentes según el caso.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S08, control"
+    },
+    {
+      "text": "Que una citación nunca puede afectar al derecho.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La incomparecencia o el resultado pueden tener efectos legales.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S08, control"
+    },
+    {
+      "text": "Que el control de la incapacidad forma parte del régimen legal y puede producir efectos sobre el subsidio.",
+      "isCorrect": true,
+      "feedback": "Correcto. El control está regulado y no es una actuación voluntaria sin efectos."
+    },
+    {
+      "text": "Que la baja se convierte en incapacidad permanente automáticamente.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Son situaciones distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, control"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-009",
+    "clm-ss-08-010"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 170 y 174 a 176",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q004."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  }
+}

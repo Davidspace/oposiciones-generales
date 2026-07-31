@@ -1,0 +1,76 @@
+{
+  "id": "g-18-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-18"
+  ],
+  "epigraph": "Recursos administrativos: objeto",
+  "competency": "Distinguir actos de trámite cualificados y no cualificados.",
+  "difficulty": "medium",
+  "prompt": "Durante un procedimiento, una persona quiere recurrir separadamente un trámite que solo ordena la documentación y no decide el fondo, no impide continuar ni causa indefensión. ¿Qué regla aplica?",
+  "options": [
+    {
+      "text": "Todo trámite es recurrible de forma independiente porque afecta al interesado.",
+      "isCorrect": false,
+      "feedback": "Solo son impugnables separadamente los trámites que deciden el fondo, impiden continuar, causan indefensión o perjuicio irreparable.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "G18, actos de trámite cualificados"
+    },
+    {
+      "text": "Debe interponer siempre reposición ante el órgano que ordenó la documentación.",
+      "isCorrect": false,
+      "feedback": "La clase de recurso depende también de si el acto pone fin a la vía y de que el acto sea recurrible; no todo trámite habilita reposición.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "G18, selección del recurso"
+    },
+    {
+      "text": "Solo puede alegarlo en un recurso extraordinario de revisión cuando el acto sea firme.",
+      "isCorrect": false,
+      "feedback": "La alegación puede formularse en el procedimiento para que se valore en la resolución final; la revisión extraordinaria exige presupuestos distintos.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G18, trámite ordinario y revisión"
+    },
+    {
+      "text": "No procede un recurso separado por ese trámite ordinario; puede alegarse para que se considere en la resolución que termine el procedimiento.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 112.1 reserva la impugnación separada a resoluciones y actos de trámite cualificados."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-18-001",
+    "clm-g-18-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "location": "artículo 112.1",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original sobre el objeto de los recursos administrativos."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

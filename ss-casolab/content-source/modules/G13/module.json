@@ -1,0 +1,97 @@
+{
+  "id": "G13",
+  "themeId": "g-13",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Fuentes del Derecho Administrativo",
+  "learningOutcomes": [
+    "Distinguir las reglas positivas sobre fuentes de las clasificaciones usadas solo para ordenar el estudio.",
+    "Identificar la función de la ley, la costumbre, los principios generales del derecho, los tratados y la jurisprudencia conforme al Código Civil.",
+    "Resolver un conflicto básico de jerarquía normativa sin confundirlo con la sucesión temporal de normas."
+  ],
+  "decisions": [
+    "Determinar si una afirmación reproduce una regla legal o una explicación editorial.",
+    "Seleccionar qué fuente puede operar cuando no existe ley aplicable.",
+    "Distinguir una fuente aplicable de un elemento que complementa el ordenamiento.",
+    "Comprobar si una disposición administrativa contradice una norma de rango superior.",
+    "Separar jerarquía, publicación, vigencia y derogación antes de resolver un conflicto."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Las fuentes del Derecho Administrativo",
+      "objective": "Reconocer las reglas positivas que estructuran el sistema de fuentes y su aplicación en el ámbito administrativo.",
+      "sectionId": "g13-sistema-fuentes",
+      "activityIds": [
+        "g-13-q001",
+        "g-13-q002",
+        "g-13-q003",
+        "g-13-q004",
+        "g-13-q005"
+      ]
+    },
+    {
+      "officialClause": "Concepto y clases",
+      "objective": "Usar una definición de trabajo y una clasificación pedagógica sin presentarlas como cita literal de una norma.",
+      "sectionId": "g13-concepto-clases",
+      "activityIds": [
+        "g-13-q001",
+        "g-13-q004",
+        "g-13-q005"
+      ]
+    },
+    {
+      "officialClause": "La jerarquía de las fuentes",
+      "objective": "Aplicar la jerarquía normativa y reconocer la consecuencia prevista para una disposición administrativa contraria a otra superior.",
+      "sectionId": "g13-jerarquia",
+      "activityIds": [
+        "g-13-q006",
+        "g-13-q007",
+        "g-13-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G13/lesson.md",
+  "reviewSheetPath": "content-source/modules/G13/review.md",
+  "normativeClaimIds": [
+    "clm-g-13-001",
+    "clm-g-13-002",
+    "clm-g-13-003",
+    "clm-g-13-004",
+    "clm-g-13-005",
+    "clm-g-13-006",
+    "clm-g-13-007",
+    "clm-g-13-008",
+    "clm-g-13-009",
+    "clm-g-13-010",
+    "clm-g-13-011"
+  ],
+  "questionIds": [
+    "g-13-q001",
+    "g-13-q002",
+    "g-13-q003",
+    "g-13-q004",
+    "g-13-q005",
+    "g-13-q006",
+    "g-13-q007",
+    "g-13-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

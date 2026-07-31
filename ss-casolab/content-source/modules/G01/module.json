@@ -1,0 +1,126 @@
+{
+  "id": "G01",
+  "themeId": "g-01",
+  "version": "0.1.0",
+  "status": "draft",
+  "title": "Constitución: estructura, contenido y reforma",
+  "learningOutcomes": [
+    "Ubicar una materia en la estructura básica de la Constitución Española.",
+    "Reconocer los principios esenciales del artículo 1 sin confundir soberanía, valores superiores y forma política.",
+    "Elegir el procedimiento de reforma constitucional que corresponde a la materia afectada.",
+    "Distinguir iniciativa, mayorías, disolución y referéndum en los artículos 166 a 169.",
+    "Aplicar la versión constitucional vigente en la fecha indicada por la pregunta."
+  ],
+  "decisions": [
+    "Identificar el título constitucional en el que se regula una materia.",
+    "Determinar si una reforma sigue el artículo 167 o el artículo 168.",
+    "Comprobar si un sujeto puede iniciar una reforma constitucional.",
+    "Distinguir el referéndum facultativo del referéndum obligatorio.",
+    "Detectar cuándo no puede iniciarse una reforma constitucional.",
+    "Separar la versión vigente a 2026-07-29 del corte histórico de 2026-03-04."
+  ],
+  "coverage": [
+    {
+      "officialClause": "Estructura y contenido",
+      "objective": "Reconocer los bloques principales de la Constitución y localizar el Título X.",
+      "sectionId": "g01-estructura",
+      "activityIds": [
+        "g-01-q001"
+      ]
+    },
+    {
+      "officialClause": "Estructura y contenido",
+      "objective": "Distinguir los elementos del artículo 1: Estado, valores, soberanía y forma política.",
+      "sectionId": "g01-principios",
+      "activityIds": [
+        "g-01-q002"
+      ]
+    },
+    {
+      "officialClause": "La reforma de la Constitución",
+      "objective": "Identificar los sujetos con iniciativa de reforma.",
+      "sectionId": "g01-iniciativa",
+      "activityIds": [
+        "g-01-q004"
+      ]
+    },
+    {
+      "officialClause": "La reforma de la Constitución",
+      "objective": "Aplicar las mayorías y el referéndum del procedimiento ordinario.",
+      "sectionId": "g01-reforma-ordinaria",
+      "activityIds": [
+        "g-01-q005",
+        "g-01-q006"
+      ]
+    },
+    {
+      "officialClause": "La reforma de la Constitución",
+      "objective": "Reconocer los supuestos y pasos esenciales del procedimiento agravado.",
+      "sectionId": "g01-reforma-agravada",
+      "activityIds": [
+        "g-01-q007"
+      ]
+    },
+    {
+      "officialClause": "La reforma de la Constitución",
+      "objective": "Aplicar el límite temporal del artículo 169 sin ampliarlo por inferencia.",
+      "sectionId": "g01-limites",
+      "activityIds": [
+        "g-01-q003"
+      ]
+    },
+    {
+      "officialClause": "Estructura y contenido",
+      "objective": "Resolver una pregunta afectada por la reforma del artículo 69.3 con el corte normativo correcto.",
+      "sectionId": "g01-versionado",
+      "activityIds": [
+        "g-01-q008"
+      ]
+    }
+  ],
+  "lessonPath": "content-source/modules/G01/lesson.md",
+  "reviewSheetPath": "content-source/modules/G01/review.md",
+  "normativeClaimIds": [
+    "clm-g-01-001",
+    "clm-g-01-002",
+    "clm-g-01-003",
+    "clm-g-01-004",
+    "clm-g-01-005",
+    "clm-g-01-006",
+    "clm-g-01-007",
+    "clm-g-01-008",
+    "clm-g-01-009",
+    "clm-g-01-010",
+    "clm-g-01-011",
+    "clm-g-01-012"
+  ],
+  "questionIds": [
+    "g-01-q001",
+    "g-01-q002",
+    "g-01-q003",
+    "g-01-q004",
+    "g-01-q005",
+    "g-01-q006",
+    "g-01-q007",
+    "g-01-q008"
+  ],
+  "microcaseIds": [],
+  "legalReviewStatus": "pending",
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "nextReviewAt": "2026-10-29",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial del módulo y su trazabilidad."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending"
+}

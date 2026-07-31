@@ -1,0 +1,77 @@
+{
+  "id": "ss-09-q004",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-09"
+  ],
+  "epigraph": "Riesgo",
+  "competency": "Comprobar adaptación del puesto",
+  "difficulty": "high",
+  "prompt": "¿Qué dato impide reconocer automáticamente el riesgo durante embarazo o lactancia?",
+  "options": [
+    {
+      "text": "Que la empresa tenga más de una persona trabajadora.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Ese dato no decide por sí solo.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S09, adaptación"
+    },
+    {
+      "text": "Que exista un puesto compatible y pueda realizarse la adaptación o el cambio previsto.",
+      "isCorrect": true,
+      "feedback": "Correcto. La protección se activa cuando no es posible eliminar el riesgo mediante esas medidas."
+    },
+    {
+      "text": "Que la trabajadora tenga contrato indefinido.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La duración del contrato no sustituye al análisis preventivo.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S09, adaptación"
+    },
+    {
+      "text": "Que exista un informe médico de cualquier materia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe acreditarse el riesgo y la imposibilidad de adaptación o cambio.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S09, adaptación"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-09-008",
+    "clm-ss-09-009",
+    "clm-ss-09-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 186 y 188",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-09-q004."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}

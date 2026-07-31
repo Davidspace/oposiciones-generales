@@ -1,0 +1,33 @@
+{
+  "claimId": "clm-ss-05-105",
+  "assetId": "MC04",
+  "version": "0.1.0",
+  "statement": "Las cuotas no ingresadas constituyen una deuda de Seguridad Social que se exige mediante el procedimiento recaudatorio correspondiente.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-15221",
+  "sourceLocation": "TRLGSS, artículos 18 y 30",
+  "officialPublication": "BOE-A-2004-15221",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "reviewedAt": null,
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": [
+    "MC04",
+    "ss-06-q305"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Afirmación normativa de borrador para MC04."
+      }
+    ]
+  }
+}

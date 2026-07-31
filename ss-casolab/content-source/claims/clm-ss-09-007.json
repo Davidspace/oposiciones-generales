@@ -1,0 +1,32 @@
+{
+  "claimId": "clm-ss-09-007",
+  "assetId": "S09",
+  "version": "0.1.0",
+  "statement": "La corresponsabilidad del cuidado del lactante no es sinónimo de la prestación por nacimiento y cuidado de menor.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+  "sourceLocation": "arts. 177 y 183",
+  "officialPublication": "TRLGSS",
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-09-30",
+  "dependentAssetIds": [
+    "S09",
+    "ss-09-q002"
+  ],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de S09."
+      }
+    ]
+  }
+}

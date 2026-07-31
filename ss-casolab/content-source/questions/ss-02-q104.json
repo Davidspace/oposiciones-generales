@@ -1,0 +1,76 @@
+{
+  "id": "ss-02-q104",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-02",
+    "ss-03"
+  ],
+  "epigraph": "Encuadramiento múltiple: pluriactividad",
+  "competency": "Calificar el alta obligatoria simultánea en regímenes distintos",
+  "difficulty": "medium",
+  "prompt": "Una vez encuadrada cada actividad, ¿cómo se califica su realización simultánea?",
+  "options": [
+    {
+      "text": "Pluriempleo, porque la persona obtiene ingresos de dos actividades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El pluriempleo exige trabajo por cuenta ajena para varias empresas con alta en el mismo régimen; aquí concurren Régimen General y RETA.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S03, apartado 3.2: pluriempleo frente a pluriactividad."
+    },
+    {
+      "text": "Una única actividad a efectos de Seguridad Social, porque ambas comenzaron el mismo día.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La coincidencia temporal no fusiona actividades de distinta naturaleza ni los regímenes a los que conducen.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S03, apartado 3.2: naturaleza de cada actividad y régimen."
+    },
+    {
+      "text": "Pluriactividad, porque las actividades obligan al alta en dos regímenes distintos.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 7.4 del Real Decreto 84/1996 define la pluriactividad por la concurrencia de altas obligatorias en dos o más regímenes distintos."
+    },
+    {
+      "text": "Una incompatibilidad que obliga a abandonar una de las dos actividades.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El reglamento contempla expresamente el encuadramiento múltiple; no establece en este supuesto una obligación general de elegir una sola actividad.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S03, apartado 3.2: encuadramiento múltiple."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-03-021"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a7",
+      "location": "Real Decreto 84/1996, artículo 7.4.1.º",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de decisión conectada con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

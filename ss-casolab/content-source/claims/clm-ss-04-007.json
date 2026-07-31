@@ -1,0 +1,22 @@
+{
+  "claimId": "clm-ss-04-007",
+  "assetId": "S04",
+  "version": "0.1.0",
+  "statement": "Las bases y tipos se determinan cada año por la norma presupuestaria aplicable; las bases tienen un tope máximo anual y un mínimo vinculado al salario mínimo incrementado en un sexto, salvo disposición expresa en contrario.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a19",
+  "sourceLocation": "TRLGSS, artículo 19.1 y 19.2",
+  "officialPublication": "BOE-A-2015-11724",
+  "validFrom": "2016-01-02",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "owner": "equipo-editorial-ss-casolab",
+  "reviewStatus": "pending",
+  "sourceCheckedAt": "2026-07-30",
+  "nextReviewAt": "2026-08-30",
+  "dependentAssetIds": ["S04", "ss-04-q004"],
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa para S04."}]
+  }
+}

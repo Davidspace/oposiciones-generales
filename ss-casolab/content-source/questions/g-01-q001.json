@@ -1,0 +1,76 @@
+{
+  "id": "g-01-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-01"
+  ],
+  "epigraph": "Estructura de la Constitución",
+  "competency": "Localizar una materia en el título constitucional correspondiente.",
+  "difficulty": "basic",
+  "prompt": "¿En qué título de la Constitución Española se regula la reforma constitucional?",
+  "options": [
+    {
+      "text": "En el título X.",
+      "isCorrect": true,
+      "feedback": "Correcto. El título X reúne los artículos 166 a 169 sobre iniciativa, procedimientos y límite temporal de la reforma."
+    },
+    {
+      "text": "En el título VIII.",
+      "isCorrect": false,
+      "feedback": "El título VIII regula la organización territorial del Estado, no el procedimiento de reforma.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G01, mapa de la Constitución"
+    },
+    {
+      "text": "En el título IX.",
+      "isCorrect": false,
+      "feedback": "El título IX se dedica al Tribunal Constitucional. La reforma aparece en el título siguiente.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "G01, mapa de la Constitución"
+    },
+    {
+      "text": "En el título preliminar.",
+      "isCorrect": false,
+      "feedback": "El título preliminar contiene principios básicos. Puede ser objeto del procedimiento agravado, pero no regula el procedimiento de reforma.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G01, apartados de estructura y reforma agravada"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-01-007",
+    "clm-g-01-012"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "índice sistemático y título X, artículos 166 a 169",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 1."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-29"
+}

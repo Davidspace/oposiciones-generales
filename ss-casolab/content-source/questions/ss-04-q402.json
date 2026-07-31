@@ -1,0 +1,75 @@
+{
+  "id": "ss-04-q402",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-04"
+  ],
+  "epigraph": "CP02 — decisión 2",
+  "competency": "Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible",
+  "difficulty": "high",
+  "prompt": "Â¿QuÃ© debe comprobarse al detectar un error en la base de mayo?",
+  "options": [
+    {
+      "text": "Aplicar la regla contraria sin comprobar distinguir una liquidaciã³n complementaria de una deuda ya exigible.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 18 y 29.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "CP02: Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible"
+    },
+    {
+      "text": "Resolver el punto solo con la fecha del caso y sin consultar la norma aplicable.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 18 y 29.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "CP02: Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible"
+    },
+    {
+      "text": "Trasladar la decisiÃ³n a otra prestaciÃ³n, sujeto u Ã³rgano sin justificaciÃ³n legal.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no aplica correctamente el supuesto. Revisar TRLGSS, artÃ­culos 18 y 29.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "CP02: Distinguir una liquidaciÃ³n complementaria de una deuda ya exigible"
+    },
+    {
+      "text": "Debe identificarse el periodo, la base correcta y la diferencia que procede liquidar conforme a las reglas aplicables.",
+      "isCorrect": true,
+      "feedback": "Respuesta propuesta: Debe identificarse el periodo, la base correcta y la diferencia que procede liquidar conforme a las reglas aplicables."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-04-402"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artÃ­culos 18 y 29",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "assessment-only",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-full-case-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-full-case-draft",
+        "summary": "Borrador de CP02, decisiÃ³n conectada al supuesto."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ss-06-q001",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-06"
+  ],
+  "epigraph": "Inicio y título ejecutivo",
+  "competency": "Distinguir la providencia de los actos previos y reconocer cuándo puede emitirse directamente",
+  "difficulty": "medium",
+  "prompt": "Una empresa transmitió en plazo una autoliquidación con las cuotas de sus trabajadores dados de alta y la deuda estaba correctamente calculada, pero no ingresó su importe. ¿Qué actuación describe correctamente el inicio de la vía ejecutiva?",
+  "options": [
+    {
+      "text": "La TGSS debe emitir siempre una reclamación de deuda, esperar su firmeza y solo después puede expedir la providencia.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Para cuotas correctamente calculadas de trabajadores incluidos en liquidaciones presentadas en plazo, el reglamento permite dictar providencia sin reclamación ni acta previa.",
+      "errorType": "distractor-absoluto",
+      "reviewTarget": "S06, apartado 2.3: casos de providencia directa frente a casos con acto previo."
+    },
+    {
+      "text": "La deuda entra en vía ejecutiva con el primer embargo, por lo que la providencia puede emitirse después para documentar la traba.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La providencia precede al embargo, inicia el período ejecutivo y su omisión hace improcedente la vía de apremio.",
+      "errorType": "confusion-secuencia",
+      "reviewTarget": "S06, apartados 1 y 2.1: providencia antes de la ejecución patrimonial."
+    },
+    {
+      "text": "La autoliquidación presentada es por sí sola el título ejecutivo y permite embargar sin providencia ni otra actuación de la TGSS.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La liquidación identifica la deuda, pero el título que abre el procedimiento de apremio es la providencia emitida por el órgano competente.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S06, apartado 2.1: diferencia entre liquidación y providencia de apremio."
+    },
+    {
+      "text": "La TGSS puede dictar directamente la providencia de apremio; esta inicia el período ejecutivo y constituye el título para la ejecución.",
+      "isCorrect": true,
+      "feedback": "Correcto. El supuesto entra en los casos del artículo 85.1. La providencia inicia el período ejecutivo y tiene fuerza de título ejecutivo suficiente."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-06-001",
+    "clm-ss-06-002",
+    "clm-ss-06-003",
+    "clm-ss-06-004"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a38",
+      "location": "TRLGSS, artículo 38.1 y 38.2",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-11836#a84",
+      "location": "Real Decreto 1415/2004, artículos 84 y 85",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta aplicada con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ss-08-q002",
+  "version": "0.1.0",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Cuantía",
+  "competency": "Aplicar base reguladora y porcentaje",
+  "difficulty": "medium",
+  "prompt": "Para calcular un subsidio de incapacidad temporal, ¿qué estructura debe utilizarse?",
+  "options": [
+    {
+      "text": "La base reguladora que corresponda y el porcentaje legal del hecho causante.",
+      "isCorrect": true,
+      "feedback": "Correcto. La ley no permite sustituir el cálculo por una cifra fija sin comprobar la causa."
+    },
+    {
+      "text": "El salario bruto del último día en todos los casos.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La base reguladora depende de las reglas legales.",
+      "errorType": "regla-desconocida",
+      "reviewTarget": "S08, cuantía"
+    },
+    {
+      "text": "El mismo porcentaje para enfermedad común y accidente de trabajo sin revisar la norma.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El porcentaje y el momento pueden variar según el supuesto.",
+      "errorType": "excepcion-ignorada",
+      "reviewTarget": "S08, cuantía"
+    },
+    {
+      "text": "La cuantía de la pensión de jubilación.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Es una prestación distinta.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S08, cuantía"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-08-004",
+    "clm-ss-08-005"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 171 y 173",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-08-q002."
+      }
+    ]
+  }
+}

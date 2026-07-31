@@ -1,0 +1,75 @@
+{
+  "id": "g-13-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-13"
+  ],
+  "epigraph": "La jerarquía de las fuentes",
+  "competency": "aplicar la garantía constitucional de jerarquía normativa",
+  "difficulty": "basic",
+  "prompt": "Una disposición de rango inferior contradice otra de rango superior. ¿Qué garantía del artículo 9.3 de la Constitución resulta directamente relevante para resolver ese conflicto?",
+  "options": [
+    {
+      "text": "La publicidad de las normas.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La publicidad también está garantizada en el artículo 9.3, pero no decide cuál de dos disposiciones tiene rango superior.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 2 «El marco constitucional»"
+    },
+    {
+      "text": "La seguridad jurídica.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. La seguridad jurídica aparece en el artículo 9.3, pero la garantía específica que ordena el conflicto de rango es la jerarquía normativa.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 2 «El marco constitucional»"
+    },
+    {
+      "text": "La jerarquía normativa.",
+      "isCorrect": true,
+      "feedback": "Correcto. El artículo 9.3 incluye expresamente la jerarquía normativa entre sus garantías."
+    },
+    {
+      "text": "La irretroactividad de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Esa garantía también figura en el artículo 9.3, pero se refiere a efectos temporales de ciertas disposiciones, no a la contradicción entre rangos.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "G13, apartado 2 «El marco constitucional»"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-13-002"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "location": "artículo 9.3",
+      "consultedAt": "2026-07-29"
+    }
+  ],
+  "validFrom": "2026-07-29",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-29",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-29",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-29",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta con feedback por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-09-29"
+}

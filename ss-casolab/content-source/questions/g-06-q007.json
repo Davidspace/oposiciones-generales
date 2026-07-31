@@ -1,0 +1,84 @@
+{
+  "id": "g-06-q007",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "g-06"
+  ],
+  "epigraph": "Organización judicial por ámbito territorial",
+  "competency": "Relacionar los principales órganos judiciales con su ámbito territorial y su posición.",
+  "difficulty": "medium",
+  "prompt": "¿Qué mapa territorial de la organización judicial es correcto?",
+  "options": [
+    {
+      "text": "Tribunal de Instancia: provincia; Audiencia Provincial: comunidad autónoma; TSJ: partido judicial; Audiencia Nacional: solo Madrid.",
+      "isCorrect": false,
+      "feedback": "Invierte los ámbitos: el Tribunal de Instancia se vincula al partido, la Audiencia a la provincia y el TSJ a la comunidad autónoma. La Audiencia Nacional tiene sede en Madrid, pero jurisdicción en toda España.",
+      "errorType": "confusion-competencias",
+      "reviewTarget": "G06, correspondencia órgano-territorio"
+    },
+    {
+      "text": "TSJ y Tribunal Supremo culminan ambos de forma exclusiva la organización dentro de cada comunidad autónoma, sin jurisdicción nacional.",
+      "isCorrect": false,
+      "feedback": "El TSJ culmina la organización en la comunidad sin perjuicio del Tribunal Supremo. Este último tiene jurisdicción en toda España y es superior en todos los órdenes salvo garantías constitucionales.",
+      "errorType": "lectura-incompleta",
+      "reviewTarget": "G06, TSJ frente a Tribunal Supremo"
+    },
+    {
+      "text": "Tribunal de Instancia: partido judicial; Audiencia Provincial: provincia; TSJ: comunidad autónoma sin perjuicio del Tribunal Supremo; Tribunal Central de Instancia, Audiencia Nacional y Tribunal Supremo: ámbito nacional.",
+      "isCorrect": true,
+      "feedback": "Correcto. El mapa combina las referencias territoriales legales sin confundir ámbito con superioridad jurisdiccional."
+    },
+    {
+      "text": "La Audiencia Nacional es el órgano superior de todos los órdenes y el Tribunal Supremo conoce solo de garantías constitucionales.",
+      "isCorrect": false,
+      "feedback": "La posición superior corresponde al Tribunal Supremo, con la excepción de garantías constitucionales. La Audiencia Nacional tiene competencias legalmente delimitadas y no ocupa esa cúspide.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "G06, Audiencia Nacional y Tribunal Supremo"
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-g-06-012",
+    "clm-g-06-013",
+    "clm-g-06-014",
+    "clm-g-06-015",
+    "clm-g-06-016"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+      "location": "artículos 53, 62, 70, 80, 84 y 95",
+      "consultedAt": "2026-07-30"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520&tn=1",
+      "location": "artículo 123",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador original de pregunta con feedback específico por alternativa."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 3."
+      }
+    ]
+  },
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30"
+}

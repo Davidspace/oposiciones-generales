@@ -1,0 +1,8 @@
+{
+  "claimId": "clm-g-07-009", "assetId": "G07", "version": "0.1.0",
+  "statement": "El Gobierno en funciones debe facilitar el normal desarrollo de la formación del nuevo Gobierno y el traspaso de poderes, limitando su gestión al despacho ordinario de los asuntos públicos salvo urgencia o interés general acreditados; su Presidente no puede plantear la cuestión de confianza ni proponer la disolución de las Cámaras y el Gobierno no puede aprobar el proyecto de Presupuestos Generales del Estado ni presentar proyectos de ley.",
+  "sourceUrl": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-25336", "sourceLocation": "artículo 21, apartados 2 a 5", "officialPublication": "BOE núm. 285, de 28-11-1997; texto consolidado con última actualización publicada el 02-08-2024",
+  "validFrom": "1997-12-18", "validTo": null, "legislationCutoffAt": "2026-07-30", "owner": "equipo-editorial", "reviewStatus": "pending", "sourceCheckedAt": "2026-07-30", "nextReviewAt": "2026-10-30",
+  "dependentAssetIds": ["G07", "content-source/modules/G07/lesson.md", "content-source/modules/G07/review.md", "g-07-q004"],
+  "provenance": {"createdBy": "codex-assisted-editorial-draft", "createdAt": "2026-07-30", "changeLog": [{"version": "0.1.0", "date": "2026-07-30", "changedBy": "codex-assisted-editorial-draft", "summary": "Borrador inicial de afirmación normativa trazable sobre límites del Gobierno en funciones."}]}
+}

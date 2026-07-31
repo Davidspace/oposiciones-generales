@@ -1,0 +1,78 @@
+{
+  "id": "ss-13-q003",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-13"
+  ],
+  "epigraph": "Negocio",
+  "competency": "Aplicar procedimiento patrimonial",
+  "difficulty": "high",
+  "prompt": "Una unidad quiere vender un bien del patrimonio de la Seguridad Social. ¿Qué debe comprobar?",
+  "options": [
+    {
+      "text": "Solo que el bien esté sin uso.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. El desuso no elimina los requisitos.",
+      "errorType": "confusion-requisitos",
+      "reviewTarget": "S13, negocio"
+    },
+    {
+      "text": "Que lo apruebe cualquier empleado.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Debe actuar el órgano competente.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "S13, negocio"
+    },
+    {
+      "text": "Que se convierta primero en un recurso financiero.",
+      "isCorrect": false,
+      "feedback": "Incorrecto. Recurso y negocio patrimonial son categorías distintas.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "S13, negocio"
+    },
+    {
+      "text": "La competencia, el procedimiento y la finalidad legal de la enajenación.",
+      "isCorrect": true,
+      "feedback": "Correcto. No basta con una decisión material de la unidad usuaria."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-13-007",
+    "clm-ss-13-008",
+    "clm-ss-13-009",
+    "clm-ss-13-017"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "arts. 107 y 108",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-10-30",
+  "provenance": {
+    "createdBy": "codex-assisted-editorial-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Borrador inicial de pregunta ss-13-q003."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 4."
+      }
+    ]
+  }
+}

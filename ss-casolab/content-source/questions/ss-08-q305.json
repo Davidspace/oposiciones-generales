@@ -1,0 +1,75 @@
+{
+  "id": "ss-08-q305",
+  "version": "0.1.1",
+  "status": "draft",
+  "themes": [
+    "ss-08"
+  ],
+  "epigraph": "Tema 8. Incapacidad temporal y permanente",
+  "competency": "Ordenar una nueva baja sin mezclarla con la situación anterior.",
+  "difficulty": "high",
+  "prompt": "¿Cómo debe analizarse la nueva baja posterior al alta médica?",
+  "options": [
+    {
+      "text": "Como una prórroga automática de la primera baja.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169, 170 y 174.",
+      "errorType": "confusion-conceptos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Ordenar una nueva baja sin mezclarla con la situación anterior."
+    },
+    {
+      "text": "Como una nueva situación, atendiendo a su fecha, causa y reglas de recaída que procedan.",
+      "isCorrect": true,
+      "feedback": "La nueva baja no se incorpora sin más a la anterior; deben comprobarse sus hechos y, si procede, las reglas de recaída."
+    },
+    {
+      "text": "Como una jubilación anticipada.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169, 170 y 174.",
+      "errorType": "confusion-plazos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Ordenar una nueva baja sin mezclarla con la situación anterior."
+    },
+    {
+      "text": "Como una deuda de cotización.",
+      "isCorrect": false,
+      "feedback": "Esta alternativa no resuelve correctamente el hecho descrito. Revisa TRLGSS, artículos 169, 170 y 174.",
+      "errorType": "confusion-sujetos",
+      "reviewTarget": "Tema 8. Incapacidad temporal y permanente: Ordenar una nueva baja sin mezclarla con la situación anterior."
+    }
+  ],
+  "normativeClaimIds": [
+    "clm-ss-07-105"
+  ],
+  "sources": [
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "location": "TRLGSS, artículos 169, 170 y 174",
+      "consultedAt": "2026-07-30"
+    }
+  ],
+  "validFrom": "2026-07-30",
+  "validTo": null,
+  "legislationCutoffAt": "2026-07-30",
+  "visibility": "practice",
+  "academicReviewStatus": "pending",
+  "legalReviewStatus": "pending",
+  "nextReviewAt": "2026-08-30",
+  "provenance": {
+    "createdBy": "codex-assisted-practical-draft",
+    "createdAt": "2026-07-30",
+    "changeLog": [
+      {
+        "version": "0.1.0",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-practical-draft",
+        "summary": "Borrador inicial de MC05, pregunta conectada al caso."
+      },
+      {
+        "version": "0.1.1",
+        "date": "2026-07-30",
+        "changedBy": "codex-assisted-editorial-draft",
+        "summary": "Reordenación determinista de opciones; respuesta correcta en posición 2."
+      }
+    ]
+  }
+}
