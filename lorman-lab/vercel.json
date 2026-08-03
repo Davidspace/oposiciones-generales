@@ -2,14 +2,14 @@
   "version": 2,
   "buildCommand": "npx vite build --config vite.config.prod.ts",
   "outputDirectory": "dist/public",
-  "redirects": [
-    {
-      "source": "/aula",
-      "destination": "https://aula.academialorman.es/course/view.php?id=2",
-      "permanent": false
-    }
-  ],
   "routes": [
+    {
+      "src": "/aula",
+      "status": 307,
+      "headers": {
+        "Location": "https://aula.academialorman.es/course/view.php?id=2"
+      }
+    },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
