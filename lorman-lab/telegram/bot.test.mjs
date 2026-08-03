@@ -51,3 +51,15 @@ test("limita seguimiento a tres mensajes y aplica intervalo", async () => {
   assert.equal((await sendFollowup(4, store, send, "cuatro", 3 * 24 * 60 * 60 * 1000 + 4)).reason, "followup_limit");
   assert.equal(sent.filter((value) => ["uno", "dos", "tres"].includes(value)).length, 3);
 });
+
+test("permite desactivar una campaña completa", async () => {
+  const store = new ConsentStore();
+  const sent = [];
+  const send = async (_chat, text) => sent.push(text);
+  await handleUpdate(update(5, "/start"), store, send, 0);
+  await handleUpdate(update(5, "C2"), store, send, 1);
+  await handleUpdate(update(5, "ACEPTO"), store, send, 2);
+  const result = await sendFollowup(5, store, send, "no enviar", 3, { campaignEnabled: false });
+  assert.equal(result.reason, "campaign_disabled");
+  assert.equal(sent.includes("no enviar"), false);
+});

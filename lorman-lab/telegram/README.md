@@ -8,6 +8,7 @@ Este directorio contiene un prototipo local. No es un sistema de spam.
 - Pide una oposición y un consentimiento explícito (`ACEPTO`) antes de entregar el recurso.
 - `/stop` detiene la secuencia y `/delete` elimina el registro en memoria.
 - Los seguimientos están limitados a tres y separados por 24 horas.
+- `sendFollowup(..., { campaignEnabled: false })` permite apagar una campaña completa sin borrar consentimientos.
 - No importa usuarios, no extrae grupos, no usa listas de usernames y no añade personas a grupos.
 - El prototipo no persiste chat IDs en disco. Las pruebas usan una tienda en memoria.
 - `TELEGRAM_DRY_RUN=true` por defecto. No se incluye ningún token.

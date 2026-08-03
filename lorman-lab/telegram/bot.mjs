@@ -107,7 +107,8 @@ export async function handleUpdate(update, store, sendMessage, now = Date.now())
   return { handled: true, action: "consent_reminder" };
 }
 
-export async function sendFollowup(chatId, store, sendMessage, text, now = Date.now()) {
+export async function sendFollowup(chatId, store, sendMessage, text, now = Date.now(), { campaignEnabled = true } = {}) {
+  if (!campaignEnabled) return { sent: false, reason: "campaign_disabled" };
   const current = store.get(chatId);
   if (!current?.consentedAt || current.stopped) return { sent: false, reason: "no_active_consent" };
   if ((current.followupsSent ?? 0) >= MAX_FOLLOWUPS) return { sent: false, reason: "followup_limit" };

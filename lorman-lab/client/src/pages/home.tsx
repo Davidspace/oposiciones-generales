@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import {
   ArrowUpRight,
   BookOpen,
@@ -100,8 +101,12 @@ function CourseCard({ course }: { course: Course }) {
 }
 
 export default function Home() {
+  useEffect(() => {
+    trackLabEvent("landing_view", "hub");
+  }, []);
+
   return (
-    <main className="hub-page" onLoad={() => trackLabEvent("landing_view", "hub")}>
+    <main className="hub-page">
       <header className="hub-header">
         <a className="hub-brand" href="#inicio" aria-label="Academia LORMAN, inicio">
           <span className="hub-brand-mark">L</span>
@@ -110,6 +115,7 @@ export default function Home() {
         <nav aria-label="Navegación principal">
           <a href="#cursos">Cursos</a>
           <a href="#metodo">Cómo estudiamos</a>
+          <a href="#preguntas">Preguntas</a>
           <a className="hub-header-cta" href="#cursos">Elegir curso <ChevronRight size={15} aria-hidden="true" /></a>
         </nav>
       </header>
@@ -150,7 +156,9 @@ export default function Home() {
 
       <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href="/c2#prueba" onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
 
-      <footer className="hub-footer"><div><strong>Academia LORMAN</strong><p>Preparación digital independiente para oposiciones.</p></div><div className="hub-footer-links"><a href="#cursos">Cursos</a><a href="https://www.instagram.com/academialorman/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub")}>WhatsApp</a></div></footer>
+      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra un enlace de muestra solo cuando el producto lo tiene. En este laboratorio, el C2 dispone de una muestra local de cinco preguntas y TCAE conserva una prueba local.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>“Disponible” indica que hay activos localizados; no significa que cada convocatoria esté revisada. “Validación local” indica que el piloto no está listo para venta.</p></details><details><summary>¿Dónde se consulta el precio?</summary><p>El laboratorio no muestra precios ni pagos. Cada producto tendrá que publicar condiciones, impuestos, soporte y devolución antes de habilitar una compra.</p></details></div></section>
+
+      <footer className="hub-footer"><div><strong>Academia LORMAN</strong><p>Preparación digital independiente para oposiciones.</p></div><div className="hub-footer-links"><a href="#cursos">Cursos</a><a href="#preguntas">Preguntas</a><a href="https://www.instagram.com/academialorman/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub")}>WhatsApp</a></div></footer>
     </main>
   );
 }
