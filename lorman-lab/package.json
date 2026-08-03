@@ -8,6 +8,7 @@
     "lint": "node scripts/lint-local.mjs",
     "typecheck": "tsc --noEmit",
     "test:telegram": "node --test telegram/bot.test.mjs",
+    "test:portfolio": "node --test tests/portfolio-integrity.test.mjs",
     "dev": "NODE_ENV=development tsx server/index.ts",
     "start": "NODE_ENV=production node dist/index.js"
   },

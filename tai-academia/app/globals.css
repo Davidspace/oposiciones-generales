@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -1954,6 +1955,9 @@ footer > p {
 
 .tai-page ::selection { background: var(--tai-accent); color: #fff; }
 .tai-page :focus-visible { outline: 3px solid var(--tai-accent); outline-offset: 4px; }
+.tai-skip-link { background: var(--tai-ink); color: #fff; left: 16px; padding: 11px 14px; position: absolute; top: -100px; z-index: 100; }
+.tai-skip-link:focus { color: #fff; top: 16px; }
+.tai-page { scroll-margin-top: 24px; }
 .tai-page h1,
 .tai-page h2,
 .tai-page h3,
@@ -1977,6 +1981,7 @@ footer > p {
 .tai-brand small { color: var(--tai-muted); font-size: 9px; font-weight: 700; letter-spacing: .11em; margin-top: 4px; text-transform: uppercase; }
 .tai-nav { align-items: center; display: flex; font-size: 13px; font-weight: 650; gap: 30px; }
 .tai-nav a { border-bottom: 2px solid transparent; padding: 7px 0 5px; text-decoration: none; }
+.tai-nav .tai-nav-home { color: var(--tai-accent); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 .tai-nav a:hover { border-color: var(--tai-accent); color: var(--tai-accent); }
 .tai-nav .tai-nav-cta { background: var(--tai-ink); color: #fff; padding: 11px 16px; }
 .tai-nav .tai-nav-cta:hover { background: var(--tai-accent); border-color: var(--tai-accent); color: #fff; }
@@ -2073,7 +2078,7 @@ footer > p {
 @media (max-width: 620px) {
   .tai-header { height: auto; min-height: 70px; padding-block: 12px; }
   .tai-nav { gap: 13px; }
-  .tai-nav > a:not(.tai-nav-cta) { display: none; }
+  .tai-nav > a:not(.tai-nav-cta):not(.tai-nav-home) { display: none; }
   .tai-hero { padding: 52px 20px 70px; }
   .tai-hero h1 { font-size: clamp(50px, 15vw, 78px); }
   .tai-hero-lead { font-size: 16px; }
@@ -3506,4 +3511,236 @@ footer > p {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
   }
+}
+/* Base tipográfica común (Archivo). SS conserva su familia propia hasta su pase de estilo. */
+.hub-page, .tai-page, .ae-page { font-family: Archivo, system-ui, sans-serif; }
+
+/* ============================================================
+   FICHA EDITORIAL DE OPOSICIÓN — bloque común a las 4 superficies
+   Pegar tal cual al final de:
+     lorman-lab/client/src/index.css
+     tai-academia/app/globals.css
+     ss-casolab/app/globals.css
+     administrativo-estado/app/globals.css
+   No redefine nada de los prefijos existentes (.hub-, .tai-, .ss-, .ae-).
+   Tipografía: Archivo (sustituye a Inter). Añade en cada entrada de fuentes:
+   family=Archivo:wght@400;500;600;700;800
+   ============================================================ */
+
+.of-scope {
+  --of-ink: #201e1d;
+  --of-muted: #62636a;
+  --of-line: #d7d7d2;
+  --of-ground: #f3f2f2;
+  --of-surface: #fff;
+  --of-tone: #e0442e;          /* se sobreescribe por producto */
+  --of-tone-dark: #b93221;
+}
+.of-tone-tcae { --of-tone: #e26e50; --of-tone-dark: #c9573b; }
+.of-tone-tai  { --of-tone: #3267a8; --of-tone-dark: #27528a; }
+.of-tone-ss   { --of-tone: #347b61; --of-tone-dark: #2a634e; }
+.of-tone-c2   { --of-tone: #e0442e; --of-tone-dark: #b93221; }
+
+/* --- Tarjeta -------------------------------------------------- */
+.of-card {
+  background: var(--of-surface);
+  border: 2px solid var(--of-ink);
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Archivo, system-ui, sans-serif;
+  color: var(--of-ink);
+}
+.of-card__stripe { background: var(--of-tone); height: 10px; }
+
+.of-card__top {
+  align-items: center;
+  border-bottom: 1px solid var(--of-line);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 13px 18px;
+}
+.of-code {
+  background: var(--of-tone);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  padding: 6px 9px;
+}
+.of-status {
+  color: var(--of-muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .09em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.of-card__body { padding: 22px 18px 20px; }
+.of-admin {
+  color: var(--of-muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.of-title {
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: -.045em;
+  line-height: 1.02;
+  margin: 0 0 12px;
+  text-wrap: pretty;
+}
+.of-card--compact .of-title { font-size: 25px; line-height: 1.04; }
+.of-text {
+  color: var(--of-muted);
+  font-size: 13.5px;
+  line-height: 1.55;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+/* --- Indicadores (solo los respaldados por el inventario) ----- */
+.of-indicators {
+  background: var(--of-line);
+  border-top: 1px solid var(--of-line);
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr;
+  margin: auto 0 0;
+  padding: 0;
+}
+.of-indicators > div { background: var(--of-surface); padding: 14px 18px; }
+.of-indicators dt,
+.of-indicators strong {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -.05em;
+}
+.of-indicators .is-tone { color: var(--of-tone); }
+.of-indicators dd,
+.of-indicators span {
+  color: var(--of-muted);
+  display: block;
+  font-size: 11px;
+  line-height: 1.35;
+  margin: 4px 0 0;
+}
+
+/* --- Precio --------------------------------------------------- */
+.of-price {
+  align-items: baseline;
+  border-top: 2px solid var(--of-ink);
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 16px 18px;
+}
+.of-price span {
+  color: var(--of-muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.of-price strong { color: var(--of-tone); font-size: 34px; font-weight: 700; letter-spacing: -.05em; }
+.of-price--none strong { color: var(--of-muted); font-size: 12px; letter-spacing: 0; }
+
+/* --- Acciones: primaria (color propio) + secundaria ---------- */
+.of-actions {
+  align-items: stretch;
+  background: var(--of-ink);
+  border-top: 2px solid var(--of-ink);
+  display: flex;
+  gap: 1px;
+}
+.of-cta {
+  align-items: center;
+  background: var(--of-tone);
+  color: #fff;
+  display: inline-flex;
+  flex: 1;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 16px;
+  justify-content: space-between;   /* etiqueta a ras de izquierda */
+  letter-spacing: .03em;
+  min-height: 52px;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.of-cta:hover { background: var(--of-tone-dark); color: #fff; }
+.of-cta[aria-disabled="true"],
+.of-cta:disabled {
+  background: var(--of-ground);
+  color: var(--of-muted);
+  cursor: not-allowed;
+}
+.of-cta-2 {
+  align-items: center;
+  background: var(--of-surface);
+  color: var(--of-ink);
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  min-height: 52px;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+.of-cta-2:hover { color: var(--of-tone); }
+
+.of-card :focus-visible { outline: 2px solid var(--of-tone); outline-offset: 2px; }
+
+/* --- Rejilla del hub ----------------------------------------- */
+.of-grid { display: grid; gap: 16px; grid-template-columns: repeat(2, 1fr); }
+
+/* --- Aviso legal común (pie de las 4 superficies) ------------- */
+.of-legal {
+  background: var(--of-ink, #201e1d);
+  color: #fff;
+  font-family: Archivo, system-ui, sans-serif;
+}
+.of-legal__inner {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1.1fr 1fr;
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 44px 24px 52px;
+}
+.of-legal__brand strong { display: block; font-size: 16px; }
+.of-legal__brand p { color: #aaa; font-size: 12px; margin: 8px 0 0; }
+.of-legal__links { display: flex; flex-wrap: wrap; gap: 20px; margin-top: 26px; }
+.of-legal__links a { color: #fff; font-size: 12px; font-weight: 700; text-decoration: none; }
+.of-legal__links a:hover { color: #ff725d; }
+.of-legal__notice { border-left: 1px solid #575757; padding-left: 32px; }
+.of-legal__notice p:first-child {
+  color: #ff725d;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .13em;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+.of-legal__notice p + p { color: #aaa; font-size: 11.5px; line-height: 1.6; margin: 0; }
+
+/* --- Móvil ---------------------------------------------------- */
+@media (max-width: 850px) {
+  .of-grid { grid-template-columns: 1fr; }
+  .of-legal__inner { grid-template-columns: 1fr; gap: 28px; }
+  .of-legal__notice { border-left: 0; border-top: 1px solid #575757; padding: 24px 0 0; }
+}
+@media (max-width: 560px) {
+  .of-title { font-size: 24px; }
+  .of-card__body { padding: 20px 16px 18px; }
+  .of-card__top, .of-indicators > div, .of-price { padding-left: 16px; padding-right: 16px; }
+  .of-indicators { grid-template-columns: 1fr; }
+  .of-actions { flex-direction: column; }
+  .of-cta, .of-cta-2 { justify-content: space-between; }
+  .of-status { max-width: 55%; }
 }

@@ -5,7 +5,7 @@
   "redirects": [
     {
       "source": "/aula",
-      "destination": "https://aula.86.48.3.134.sslip.io/course/view.php?id=2",
+      "destination": "https://aula.academialorman.es/course/view.php?id=2",
       "permanent": false
     }
   ],

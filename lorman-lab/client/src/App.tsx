@@ -8,9 +8,10 @@ import TcaeHome from "@/pages/tcae-home";
 import C2Home from "@/pages/c2-home";
 import TestTcaeSas from "@/pages/test-tcae-sas";
 import NotFound from "@/pages/not-found";
+import { MOODLE_URL } from "@/lib/portfolio-links";
 
 function AulaRedirect() {
-  window.location.replace("https://aula.86.48.3.134.sslip.io/course/view.php?id=2");
+  window.location.replace(`${MOODLE_URL}/course/view.php?id=2`);
   return null;
 }
 

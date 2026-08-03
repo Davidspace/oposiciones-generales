@@ -12,6 +12,9 @@ import {
   type SsDiagnosticPayload,
   type SsQuestion,
 } from "@/lib/ss-casolab";
+import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { AvisoComun, AVISO_PRECIOS } from "@/components/AvisoComun";
+import { FichaOposicion } from "@/components/FichaOposicion";
 
 type SubmitState = "idle" | "sending" | "success" | "error";
 type EventType =
@@ -297,7 +300,11 @@ export function SsCasoLabLanding({
   }
 
   return (
-    <main className="ss-page">
+    <>
+      <a className="ss-skip-link" href="#contenido-principal">
+        Saltar al contenido
+      </a>
+      <main className="ss-page" id="contenido-principal" tabIndex={-1}>
       <header className="ss-header">
         <a className="ss-brand" href="#inicio" aria-label="SS CasoLab. Inicio">
           <span className="ss-brand-stamp" aria-hidden="true">
@@ -309,6 +316,7 @@ export function SsCasoLabLanding({
           </span>
         </a>
         <nav className="ss-nav" aria-label="Navegación de SS CasoLab">
+          <a className="ss-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a>
           <a href="#microcaso">Microcaso</a>
           <a href="#preventa">Preventa</a>
           <a className="ss-nav-action" href="#microcaso">
@@ -353,35 +361,36 @@ export function SsCasoLabLanding({
           </dl>
         </div>
 
-        <div className="ss-workbook" aria-label="Vista previa del microcaso">
-          <span className="ss-tape" aria-hidden="true" />
-          <div className="ss-workbook-head">
-            <span>SS / C1</span>
-            <span>CASO · 001</span>
-          </div>
-          <p className="ss-hand">Lee. Decide. Corrige. Repasa.</p>
-          <h2>
-            {caseContext?.title ??
-              (diagnosticLoaded ? "Microcaso en revisión" : "Comprobando microcaso")}
-          </h2>
-          <div className="ss-preview-question">
-            <span>01</span>
-            <p>
-              {questions[0]?.prompt ??
-                "El contenido se abrirá cuando termine la revisión."}
-            </p>
-          </div>
-          <div className="ss-preview-options" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-            <span />
-          </div>
-          <div className="ss-preview-result">
-            <strong>Tu mapa de errores</strong>
-            <span>se genera al terminar</span>
-          </div>
-        </div>
+        <FichaOposicion
+          variant="compact"
+          code="SS"
+          tone="ss"
+          admin="Administración de la Seguridad Social · subgrupo C1"
+          title="Ficha del producto"
+          description={`Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos. ${
+            caseContext
+              ? `Microcaso disponible: ${caseContext.title}.`
+              : diagnosticLoaded
+                ? "Microcaso en revisión editorial."
+                : "Comprobando el microcaso…"
+          }`}
+          status="Estructura completa · publicación en revisión"
+          indicators={[
+            { value: "36", label: "temas: 23 generales + 13 específicos" },
+            { value: "36", label: "tests organizados por tema" },
+            { value: "14", label: "casos prácticos estructurados" },
+            { value: "6", label: "meses de acceso previstos" },
+          ]}
+          price={{ label: "Precio fundador previsto", value: "49 €" }}
+          primary={
+            orderingEnabled
+              ? { label: "Ver oferta y crear pedido", href: "/ss-casolab/pedido" }
+              : { label: "Ver la preventa", href: "#preventa" }
+          }
+          secondary={
+            diagnosticPublicable ? { label: "Microcaso", href: "#microcaso" } : undefined
+          }
+        />
       </section>
 
       <section className="ss-strip" aria-label="Datos de la convocatoria">
@@ -1004,23 +1013,23 @@ export function SsCasoLabLanding({
         </p>
       </section>
 
-      <footer className="ss-footer">
-        <a className="ss-brand" href="#inicio">
-          <span className="ss-brand-stamp" aria-hidden="true">
-            SS
-          </span>
-          <span>
-            <strong>SS CasoLab</strong>
-            <small>Decide · corrige · repasa</small>
-          </span>
-        </a>
-        <p>
-          Producto educativo independiente. No está vinculado con la
-          Administración de la Seguridad Social.
-        </p>
-        <a href="#inicio">Volver al inicio</a>
-      </footer>
-    </main>
+      <AvisoComun
+        brand="SS CasoLab · Academia LORMAN"
+        tagline="Decide · corrige · repasa."
+        links={[
+          { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
+          { label: "Microcaso", href: "#microcaso" },
+          { label: "Preventa", href: "#preventa" },
+          { label: "Preguntas", href: "#preguntas" },
+        ]}
+        notice={
+          "Producto educativo independiente sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
+          "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado." +
+          AVISO_PRECIOS
+        }
+      />
+      </main>
+    </>
   );
 }
 

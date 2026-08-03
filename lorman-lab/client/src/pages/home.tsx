@@ -1,104 +1,10 @@
 import { useEffect } from "react";
-import {
-  ArrowUpRight,
-  BookOpen,
-  Check,
-  ChevronRight,
-  ClipboardCheck,
-  Laptop,
-  ShieldCheck,
-  Stethoscope,
-} from "lucide-react";
+import { ArrowUpRight, ChevronRight } from "lucide-react";
 import { trackLabEvent } from "@/lib/lab-analytics";
-
-type Course = {
-  code: string;
-  title: string;
-  subtitle: string;
-  description: string;
-  status: string;
-  proof: string;
-  href: string;
-  sampleHref?: string;
-  icon: typeof BookOpen;
-  tone: "coral" | "blue" | "green" | "red";
-};
-
-const COURSES: Course[] = [
-  {
-    code: "TCAE",
-    title: "Técnico en Cuidados Auxiliares de Enfermería",
-    subtitle: "SAS · SMS · IMAS · SERMAS",
-    description: "Temarios, resúmenes, autoevaluaciones y simulacros disponibles en la línea sanitaria.",
-    status: "Contenido disponible",
-    proof: "Muestras de examen",
-    href: "/tcae#precios",
-    sampleHref: "/test-tcae-sas",
-    icon: Stethoscope,
-    tone: "coral",
-  },
-  {
-    code: "TAI",
-    title: "Técnico Auxiliar de Informática",
-    subtitle: "Administración del Estado · C1",
-    description: "El aula de TAI reúne temas, autoevaluaciones y simulacros para las dos partes del ejercicio.",
-    status: "Contenido disponible",
-    proof: "33 temas · 10 simulacros",
-    href: "https://tai-academia.dgarmar.chatgpt.site/",
-    icon: Laptop,
-    tone: "blue",
-  },
-  {
-    code: "SS",
-    title: "Administrativo de la Seguridad Social",
-    subtitle: "Administración de la Seguridad Social · C1",
-    description: "Temario general y específico, tests y práctica orientada al segundo ejercicio.",
-    status: "Contenido disponible",
-    proof: "23 temas + 13 específicos",
-    href: "https://ss-casolab.dgarmar.chatgpt.site/",
-    icon: ShieldCheck,
-    tone: "green",
-  },
-  {
-    code: "C2",
-    title: "Auxiliar Administrativo del Estado",
-    subtitle: "Administración General del Estado · C2",
-    description: "MVP en elaboración: normativa, psicotécnicos, actividad administrativa y ofimática.",
-    status: "Validación local",
-    proof: "Muestra gratuita de práctica",
-    href: "/c2",
-    sampleHref: "/c2#prueba",
-    icon: ClipboardCheck,
-    tone: "red",
-  },
-];
-
-function CourseCard({ course }: { course: Course }) {
-  const Icon = course.icon;
-  return (
-    <article className={`hub-course-card hub-card-${course.tone}`}>
-      <div className="hub-course-top">
-        <span className={`hub-course-code hub-tone-${course.tone}`}>{course.code}</span>
-        <span className="hub-status">{course.status}</span>
-      </div>
-      <Icon className="hub-course-icon" aria-hidden="true" />
-      <p className="hub-course-subtitle">{course.subtitle}</p>
-      <h3>{course.title}</h3>
-      <p className="hub-course-description">{course.description}</p>
-      <div className="hub-course-proof"><Check size={15} aria-hidden="true" /> {course.proof}</div>
-      <div className="hub-course-actions">
-        <a className="hub-course-link" href={course.href} onClick={() => trackLabEvent("course_click", course.code)}>
-          Explorar curso <ArrowUpRight size={16} aria-hidden="true" />
-        </a>
-        {course.sampleHref && (
-          <a className="hub-course-sample" href={course.sampleHref} onClick={() => trackLabEvent("sample_click", course.code)}>
-            Ver muestra
-          </a>
-        )}
-      </div>
-    </article>
-  );
-}
+import { PRODUCT_URLS } from "@/lib/portfolio-links";
+import { FICHAS } from "@/data/fichas";
+import { FichaOposicion } from "@/components/FichaOposicion";
+import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 
 export default function Home() {
   useEffect(() => {
@@ -106,7 +12,11 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="hub-page">
+    <>
+      <a className="hub-skip-link" href="#contenido-principal">
+        Saltar al contenido
+      </a>
+      <main className="hub-page" id="contenido-principal" tabIndex={-1}>
       <header className="hub-header">
         <a className="hub-brand" href="#inicio" aria-label="Academia LORMAN, inicio">
           <span className="hub-brand-mark">L</span>
@@ -122,19 +32,19 @@ export default function Home() {
 
       <section className="hub-hero" id="inicio">
         <div className="hub-hero-copy">
-          <p className="hub-kicker"><span /> ACADEMIA LORMAN · LABORATORIO LOCAL</p>
+          <p className="hub-kicker"><span /> ACADEMIA LORMAN · CUATRO OPOSICIONES</p>
           <h1>Estudia con <em>una ruta.</em></h1>
           <p className="hub-lead">Una entrada común para nuestras academias de oposiciones. Consulta el alcance real, prueba una muestra y entra solo en el aula que encaja contigo.</p>
           <div className="hub-actions">
-            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver cursos <ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver las cuatro fichas <ArrowUpRight size={17} aria-hidden="true" /></a>
             <a className="hub-text-link" href="#metodo">Conoce el método</a>
           </div>
-          <p className="hub-note">Proyecto experimental independiente. No es una página oficial de ninguna Administración.</p>
+          <p className="hub-note">Preparación digital independiente. No es una página oficial de ninguna Administración.</p>
         </div>
         <div className="hub-hero-sheet" aria-label="Ruta común de estudio">
           <div className="hub-sheet-top"><span>LO / 01</span><span>ACADEMIA LORMAN</span></div>
-          <div className="hub-sheet-title"><span>UNA MARCA · VARIAS OPOSICIONES</span><strong>Contenido claro.<br />Práctica frecuente.</strong></div>
-          <div className="hub-sheet-list"><div><b>01</b><span>Consulta el alcance</span></div><div><b>02</b><span>Accede a una muestra</span></div><div><b>03</b><span>Elige tu aula</span></div></div>
+          <div className="hub-sheet-title"><span>UNA MARCA · CUATRO OPOSICIONES</span><strong>Contenido claro.<br />Práctica frecuente.</strong></div>
+          <div className="hub-sheet-list"><div><b>01</b><span>Consulta la ficha y el estado real</span></div><div><b>02</b><span>Accede a una muestra</span></div><div><b>03</b><span>Elige tu aula</span></div></div>
           <div className="hub-sheet-footer"><i /> <span>Autoestudio · acceso digital · información clara</span></div>
         </div>
       </section>
@@ -145,8 +55,21 @@ export default function Home() {
       </section>
 
       <section className="hub-courses" id="cursos">
-        <div className="hub-section-heading"><div><p className="hub-kicker">Elige tu oposición</p><h2>Un aula para cada objetivo.</h2></div><p>Las fichas muestran solo lo que está inventariado. Cada curso mantiene su landing, su contenido y su estado de revisión.</p></div>
-        <div className="hub-course-grid">{COURSES.map((course) => <CourseCard key={course.code} course={course} />)}</div>
+        <div className="hub-section-heading"><div><p className="hub-kicker">Elige tu oposición</p><h2>Una ficha por aula.</h2></div><p>Cada ficha declara código, nivel, administración, estado real e indicadores respaldados por el inventario. Ninguna cifra aparece si no está en el material.</p></div>
+        <div className="of-grid">
+          {FICHAS.map((ficha) => (
+            <FichaOposicion
+              key={ficha.code}
+              {...ficha}
+              primary={{ ...ficha.primary, onClick: () => trackLabEvent("course_click", ficha.code) }}
+              secondary={
+                ficha.secondary
+                  ? { ...ficha.secondary, onClick: () => trackLabEvent("sample_click", ficha.code) }
+                  : undefined
+              }
+            />
+          ))}
+        </div>
       </section>
 
       <section className="hub-method" id="metodo">
@@ -154,11 +77,22 @@ export default function Home() {
         <div className="hub-method-copy"><p>El contenido se organiza para que puedas estudiar sin depender de una clase semanal: abre un bloque, practica, revisa el error y decide qué repetir.</p><div className="hub-method-steps"><div><b>01</b><strong>Explora</strong><span>Comprueba el alcance antes de elegir.</span></div><div><b>02</b><strong>Entrena</strong><span>Practica con preguntas y simulacros.</span></div><div><b>03</b><strong>Decide</strong><span>Compra solo cuando el formato te convenza.</span></div></div></div>
       </section>
 
-      <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href="/c2#prueba" onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
+      <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href={`${PRODUCT_URLS.c2}#prueba`} onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
 
-      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra un enlace de muestra solo cuando el producto lo tiene. En este laboratorio, el C2 dispone de una muestra local de cinco preguntas y TCAE conserva una prueba local.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>“Disponible” indica que hay activos localizados; no significa que cada convocatoria esté revisada. “Validación local” indica que el piloto no está listo para venta.</p></details><details><summary>¿Dónde se consulta el precio?</summary><p>El laboratorio no muestra precios ni pagos. Cada producto tendrá que publicar condiciones, impuestos, soporte y devolución antes de habilitar una compra.</p></details></div></section>
+      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra una acción secundaria solo cuando el producto tiene muestra o diagnóstico. En este laboratorio la tienen TCAE, SS y C2.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>Indica en qué punto está el producto: contenido disponible, matrícula en preparación, publicación en revisión o validación local sin venta.</p></details><details><summary>¿Los precios de la ficha son definitivos?</summary><p>No. Son los importes previstos de lanzamiento. El importe final, los impuestos y las condiciones se muestran en la propia landing antes de pagar.</p></details></div></section>
 
-      <footer className="hub-footer"><div><strong>Academia LORMAN</strong><p>Preparación digital independiente para oposiciones.</p></div><div className="hub-footer-links"><a href="#cursos">Cursos</a><a href="#preguntas">Preguntas</a><a href="https://www.instagram.com/academialorman/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub")}>WhatsApp</a></div></footer>
-    </main>
+      <AvisoComun
+        brand="Academia LORMAN"
+        tagline="Preparación digital independiente para oposiciones."
+        links={[
+          { label: "Cursos", href: "#cursos" },
+          { label: "Preguntas", href: "#preguntas" },
+          { label: "Instagram", href: "https://www.instagram.com/academialorman/", external: true },
+          { label: "WhatsApp", href: "https://wa.me/34640828654", external: true },
+        ]}
+        notice={AVISO_BASE + AVISO_PRECIOS}
+      />
+      </main>
+    </>
   );
 }

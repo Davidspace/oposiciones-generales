@@ -4,13 +4,14 @@ Monorepo de las aplicaciones y landings de las oposiciones que no pertenecen al 
 
 ## Proyectos
 
-| Directorio | Producto | Ruta local |
+| Directorio | Producto | Raíz pública del proyecto |
 |---|---|---|
-| `ss-casolab/` | Administrativo de la Seguridad Social, C1 | `/ss-casolab` |
-| `tai-academia/` | Técnico Auxiliar de Informática | `/tai` |
-| `administrativo-estado/` | Administrativo de la Administración del Estado | `/` |
+| `lorman-lab/` | Cartera común experimental de Academia LORMAN | `/` |
+| `ss-casolab/` | Administrativo de la Seguridad Social, C1 | `/` (alias `/ss-casolab`) |
+| `tai-academia/` | Técnico Auxiliar de Informática, C1 | `/` (alias `/tai`) |
+| `administrativo-estado/` | Auxiliar Administrativo del Estado, C2 | `/` |
 
-Cada proyecto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba.
+Cada producto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba y no debe sobrescribirse.
 
 ## Desarrollo
 
@@ -22,7 +23,15 @@ npm install
 npm run dev
 ```
 
-Repite el mismo flujo en `tai-academia` o `administrativo-estado`. Las dependencias no se comparten automáticamente entre proyectos.
+Repite el mismo flujo en `tai-academia`, `administrativo-estado` o `lorman-lab`. Las dependencias no se comparten automáticamente entre proyectos.
+
+Cada landing independiente tiene una prueba de navegación que no necesita servicios externos:
+
+```powershell
+npm run test:portfolio
+```
+
+En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://lorman-academia.vercel.app`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cuatro destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
 
 ## Separación de GSI
 
@@ -41,7 +50,8 @@ npm install
 npm run typecheck
 npm run lint
 npm run test:telegram
+npm run test:portfolio
 npm run build
 ```
 
-La landing común local es `/`. El piloto C2 está en `/c2`. No publiques este laboratorio sin revisar las fuentes, el estado editorial y la configuración de privacidad.
+La landing común local es `/`. El piloto C2 conserva `/c2` como ruta local, pero el destino de cartera puede apuntar a su landing independiente mediante `VITE_C2_URL`. No publiques ningún proyecto sin revisar las fuentes, el estado editorial, las URLs públicas y la configuración de privacidad.

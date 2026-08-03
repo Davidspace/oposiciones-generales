@@ -1,3 +1,7 @@
+import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
+import { FichaOposicion } from "@/components/FichaOposicion";
+
 const STUDY_ROUTE = [
   {
     number: "01",
@@ -55,7 +59,11 @@ const ACCESS_PRICE = "59 €";
 
 export default function TaiLanding() {
   return (
-    <main className="tai-page">
+    <>
+      <a className="tai-skip-link" href="#contenido-principal">
+        Saltar al contenido
+      </a>
+      <main className="tai-page" id="contenido-principal" tabIndex={-1}>
       <header className="tai-header">
         <a className="tai-brand" href="#inicio" aria-label="Curso TAI. Inicio">
           <span className="tai-brand-mark" aria-hidden="true">TAI</span>
@@ -65,6 +73,7 @@ export default function TaiLanding() {
           </span>
         </a>
         <nav className="tai-nav" aria-label="Navegación del curso TAI">
+          <a className="tai-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a>
           <a href="#ruta">Ruta</a>
           <a href="#incluye">Qué incluye</a>
           <a className="tai-nav-cta" href="#acceso">Ver precio</a>
@@ -87,17 +96,24 @@ export default function TaiLanding() {
           <p className="tai-microcopy">Contenido del aula LORMAN · autoestudio · sin clases obligatorias</p>
         </div>
 
-        <div className="tai-route-card" aria-label="Vista previa de la ruta del curso">
-          <div className="tai-route-top"><span>TAI C1 / AULA COMPLETA</span><span>MAPA 01</span></div>
-          <div className="tai-route-title"><span>SIGUIENTE DECISIÓN</span><strong>¿Qué necesitas hacer hoy?</strong></div>
-          <ol>
-            <li className="is-active"><span>01</span><div><strong>Contenido</strong><small>abre el tema en PDF</small></div><b aria-hidden="true">↗</b></li>
-            <li><span>02</span><div><strong>Autoevaluación</strong><small>comprueba lo que recuerdas</small></div><b aria-hidden="true">→</b></li>
-            <li><span>03</span><div><strong>Simulacro</strong><small>elige bloque III o IV</small></div><b aria-hidden="true">→</b></li>
-            <li><span>04</span><div><strong>Revisión</strong><small>corrige antes de repetir</small></div><b aria-hidden="true">→</b></li>
-          </ol>
-          <div className="tai-route-result"><span aria-hidden="true">✓</span><div><small>RESULTADO DE LA SESIÓN</small><strong>un error localizado, no otra lista</strong></div></div>
-        </div>
+        <FichaOposicion
+          variant="compact"
+          code="TAI"
+          tone="tai"
+          admin="Administración del Estado · subgrupo C1"
+          title="Ficha del curso"
+          description="Ejercicio único en dos partes: 80 preguntas más 5 de reserva y una parte práctica de 20 más 5, con 120 minutos para el conjunto."
+          status="Contenido completo · matrícula en preparación"
+          indicators={[
+            { value: "33", label: "temas en PDF" },
+            { value: "33", label: "autoevaluaciones con explicación" },
+            { value: "10", label: "simulacros: bloques III y IV" },
+            { value: "12", label: "meses de acceso" },
+          ]}
+          price={{ label: "Precio de lanzamiento", value: ACCESS_PRICE }}
+          primary={{ label: "Ver el acceso completo", href: "#acceso" }}
+          secondary={{ label: "Qué incluye", href: "#incluye" }}
+        />
       </section>
 
       <section className="tai-proof" aria-label="Datos del curso">
@@ -125,7 +141,18 @@ export default function TaiLanding() {
 
       <section className="tai-faq" aria-labelledby="tai-faq-title"><div><p className="tai-kicker">PREGUNTAS</p><h2 id="tai-faq-title">Antes de empezar.</h2></div><div className="tai-faq-list">{FAQ.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
 
-      <footer className="tai-footer"><a className="tai-brand" href="#inicio"><span className="tai-brand-mark" aria-hidden="true">TAI</span><span><strong>Curso TAI</strong><small>Academia LORMAN</small></span></a><p>Curso completo TAI C1 · contenido del aula LORMAN.</p><span>Proyecto independiente</span></footer>
-    </main>
+      <AvisoComun
+        brand="Curso TAI C1 · Academia LORMAN"
+        tagline="Curso completo TAI C1 · contenido del aula LORMAN."
+        links={[
+          { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
+          { label: "Ruta", href: "#ruta" },
+          { label: "Qué incluye", href: "#incluye" },
+          { label: "Acceso", href: "#acceso" },
+        ]}
+        notice={AVISO_BASE + AVISO_PRECIOS}
+      />
+      </main>
+    </>
   );
 }
