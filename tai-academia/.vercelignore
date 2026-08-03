@@ -1,0 +1,12 @@
+node_modules/
+.git/
+.vercel/
+.wrangler/
+dist/
+.next/
+docs/
+research/
+specs/
+tests/
+examples/
+_excluded-*/

@@ -1,9 +1,9 @@
-const DEFAULT_PORTFOLIO_URL = "https://lorman-academia.vercel.app";
+const DEFAULT_PORTFOLIO_URL = "https://lorman-lab.vercel.app";
 const DEFAULT_MOODLE_URL = "https://aula.academialorman.es";
 const DEFAULT_TCAE_URL = "/tcae";
-const DEFAULT_TAI_URL = "https://tai-academia.dgarmar.chatgpt.site";
-const DEFAULT_SS_URL = "https://ss-casolab.dgarmar.chatgpt.site";
-const DEFAULT_C2_URL = "https://administrativo-estado.dgarmar.chatgpt.site";
+const DEFAULT_TAI_URL = "https://tai-academia.vercel.app";
+const DEFAULT_SS_URL = "https://ss-casolab.vercel.app";
+const DEFAULT_C2_URL = "https://administrativo-estado.vercel.app";
 
 function publicUrl(value: string | undefined, fallback: string) {
   const candidate = value?.trim();
