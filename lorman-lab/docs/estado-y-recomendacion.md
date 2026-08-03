@@ -13,7 +13,7 @@ Fecha: **2026-08-03**.
 - Los eventos se guardan solo en `localStorage`, con un UUID de sesión anónimo y un máximo local de 200 eventos. No se guardan nombres, emails, teléfonos, respuestas junto a identidad ni chat IDs.
 - El inventario de producto está en `docs/productos/inventario-general.md`.
 - El mapa y la matriz oficial del C2 están en `docs/c2/`.
-- El piloto C2 contiene 32 preguntas originales, 5 para la muestra y un mini-simulacro. Todas permanecen `pendiente_revision_humana`.
+- El piloto C2 contiene dos microtemas, fichas de práctica psicotécnica y Microsoft 365, 32 preguntas originales, 5 para la muestra y un mini-simulacro. Todas permanecen `pendiente_revision_humana`.
 - El prototipo de Telegram está en `telegram/`. Solo acepta conversaciones iniciadas por la persona, exige `ACEPTO`, limita a tres seguimientos y no usa credenciales reales.
 
 ## Evidencias de validación

@@ -88,7 +88,7 @@ Un dato solo pasa a una landing si tiene una fuente identificable, fecha de comp
 | Campo | Inventario actual | Evidencia / estado |
 |---|---|---|
 | Segmento y ejercicio | Auxiliar Administrativo AGE C2, ingreso libre, ejercicio único de dos partes | BOE-A-2025-26262 |
-| Temario | Mapa exacto de 16 temas de organización + 12 de actividad/ofimática | `docs/c2/programa-oficial.md`; fuente BOE |
+| Temario | Mapa exacto de 16 temas de organización + 12 de actividad/ofimática y dos microtemas piloto | `docs/c2/programa-oficial.md` y `content/c2/piloto/temas/`; fuente BOE |
 | Resúmenes | No creado | Pendiente; no anunciar |
 | Tests | 32 preguntas originales de piloto | `content/c2/piloto/preguntas.json`; `pendiente_revision_humana` |
 | Simulacros | Mini-simulacro descrito, sin formato de examen oficial | `content/c2/piloto/mini-simulacro.md`; pendiente de revisión |
