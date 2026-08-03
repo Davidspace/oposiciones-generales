@@ -369,8 +369,8 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid var(--accent);
-  outline-offset: 4px;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 h1,
@@ -1954,7 +1954,7 @@ footer > p {
 }
 
 .tai-page ::selection { background: var(--tai-accent); color: #fff; }
-.tai-page :focus-visible { outline: 3px solid var(--tai-accent); outline-offset: 4px; }
+.tai-page :focus-visible { outline: 2px solid var(--tai-accent); outline-offset: 2px; }
 .tai-skip-link { background: var(--tai-ink); color: #fff; left: 16px; padding: 11px 14px; position: absolute; top: -100px; z-index: 100; }
 .tai-skip-link:focus { color: #fff; top: 16px; }
 .tai-page { scroll-margin-top: 24px; }
@@ -2102,8 +2102,8 @@ footer > p {
 }
 
 .ss-page :focus-visible {
-  outline: 4px solid var(--ss-pink);
-  outline-offset: 4px;
+  outline: 2px solid var(--ss-accent, var(--ss-pink));
+  outline-offset: 2px;
 }
 
 .ss-page h1,
@@ -2677,8 +2677,8 @@ footer > p {
 }
 
 .ss-option:has(input:focus-visible) {
-  outline: 4px solid var(--ss-pink);
-  outline-offset: 3px;
+  outline: 2px solid var(--ss-accent, var(--ss-pink));
+  outline-offset: 2px;
 }
 
 .ss-option-key {
@@ -3743,4 +3743,14 @@ footer > p {
   .of-actions { flex-direction: column; }
   .of-cta, .of-cta-2 { justify-content: space-between; }
   .of-status { max-width: 55%; }
+}
+
+/* Blindaje de la ficha y del pie frente a selectores de elemento sin ámbito. */
+.of-legal { display: block; padding: 0; }
+.of-legal__inner > div { padding: 0; }
+.of-card details,
+.of-card summary { border: 0; padding: 0; }
+.of-card summary::after { content: none; }
+@media (max-width: 850px) {
+  .of-legal__notice { padding: 24px 0 0; }
 }

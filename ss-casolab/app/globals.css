@@ -3,14 +3,14 @@
 
 :root {
   --surface: #ffffff;
-  --surface-alt: #f7f7f8;
-  --ink: #111111;
+  --surface-alt: #f3f2f2;
+  --ink: #201e1d;
   --muted: #5f6067;
-  --line: #d7d7dc;
-  --line-strong: #a8a9af;
-  --accent: #e4002b;
-  --accent-dark: #b60022;
-  --inverse: #111111;
+  --line: #d7d7d2;
+  --line-strong: #a8a9a5;
+  --accent: #347b61;
+  --accent-dark: #2a634e;
+  --inverse: #201e1d;
   --white: #ffffff;
   --page: 1240px;
 }
@@ -23,7 +23,7 @@
 
 .ss-order-header {
   align-items: center;
-  border-bottom: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
   display: flex;
   justify-content: space-between;
   padding: 1rem clamp(1rem, 4vw, 4rem);
@@ -41,7 +41,7 @@
 }
 
 .ss-order-hero h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: clamp(2.7rem, 7vw, 6.8rem);
   letter-spacing: -0.065em;
   line-height: 0.88;
@@ -59,7 +59,7 @@
 
 .ss-order-steps li {
   background: var(--ss-paper-light);
-  border: 3px solid var(--ss-ink);
+  border:  2px solid var(--ss-ink);
   display: grid;
   min-height: 9rem;
   padding: 1rem;
@@ -71,7 +71,7 @@
 
 .ss-order-steps li.is-current {
   background: var(--ss-cyan);
-  transform: translateY(-0.45rem) rotate(-1deg);
+  transform: translateY(-0.45rem) ;
 }
 
 .ss-order-steps li.is-done {
@@ -80,25 +80,25 @@
 }
 
 .ss-order-steps span {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 1.7rem;
 }
 
 .ss-order-steps strong {
   align-self: end;
-  font: 800 1.35rem/1 Arial, Helvetica, sans-serif;
+  font: 800 1.35rem/1 Archivo, system-ui, sans-serif;
   text-transform: uppercase;
 }
 
 .ss-order-steps small {
-  font: 0.85rem/1.3 "Courier New", Courier, monospace;
+  font: 0.85rem/1.3 Archivo, system-ui, sans-serif;
   margin-top: 0.35rem;
 }
 
 .ss-order-sheet {
   background: var(--ss-white);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 12px 12px 0 var(--ss-pink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   margin-top: 2rem;
   padding: clamp(1.25rem, 4vw, 3.5rem);
   position: relative;
@@ -121,22 +121,20 @@
 .ss-order-closed {
   background: var(--ss-paper-light);
   max-width: 760px;
-  transform: rotate(-0.6deg);
 }
 
 .ss-order-folio {
   background: var(--ss-cyan);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 6px 6px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   display: inline-grid;
   margin-bottom: 2rem;
   padding: 0.8rem 1rem;
-  transform: rotate(-2deg);
 }
 
 .ss-order-folio span,
 .ss-order-folio strong {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
 }
 
 .ss-order-folio strong {
@@ -145,8 +143,8 @@
 }
 
 .ss-order-summary {
-  border-bottom: 3px solid var(--ss-ink);
-  border-top: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
+  border-top:  2px solid var(--ss-ink);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-block: 2rem;
@@ -162,34 +160,34 @@
 
 .ss-order-summary dt,
 .ss-order-offer dt {
-  font: 700 0.76rem/1.2 "Courier New", Courier, monospace;
+  font: 700 0.76rem/1.2 Archivo, system-ui, sans-serif;
   text-transform: uppercase;
 }
 
 .ss-order-summary dd,
 .ss-order-offer dd {
-  font: 700 1rem/1.35 Arial, Helvetica, sans-serif;
+  font: 700 1rem/1.35 Archivo, system-ui, sans-serif;
   margin: 0.35rem 0 0;
   overflow-wrap: anywhere;
 }
 
 .ss-bizum-slip {
   background: var(--ss-cyan);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 8px 8px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   padding: clamp(1rem, 3vw, 2rem);
 }
 
 .ss-bizum-slip p {
-  border-bottom: 1px dashed var(--ss-ink);
-  font-family: "Courier New", Courier, monospace;
+  border-bottom: 1px solid var(--ss-ink);
+  font-family: Archivo, system-ui, sans-serif;
   padding-bottom: 0.65rem;
 }
 
 .ss-bizum-slip .ss-order-warning {
   background: var(--ss-white);
   border: 2px solid var(--ss-ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Archivo, system-ui, sans-serif;
   padding: 0.8rem;
 }
 
@@ -224,16 +222,15 @@
 
 .ss-order-offer h2 {
   color: var(--ss-pink);
-  font: 800 clamp(3.5rem, 9vw, 7rem)/0.85 Arial, Helvetica, sans-serif;
+  font: 800 clamp(3.5rem, 9vw, 7rem)/0.85 Archivo, system-ui, sans-serif;
   letter-spacing: -0.08em;
 }
 
 .ss-order-offer dl {
   background: var(--ss-paper-light);
-  border: 3px solid var(--ss-ink);
+  border:  2px solid var(--ss-ink);
   margin: 0;
   padding: 1rem;
-  transform: rotate(1deg);
 }
 
 .ss-order-offer dl div + div {
@@ -243,8 +240,8 @@
 }
 
 .ss-order-documents {
-  border-bottom: 3px solid var(--ss-ink);
-  border-top: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
+  border-top:  2px solid var(--ss-ink);
   display: grid;
   gap: 0;
   grid-template-columns: repeat(4, 1fr);
@@ -270,7 +267,7 @@
   border: 2px solid var(--ss-ink);
   border-radius: 0;
   color: var(--ss-ink);
-  font: 1rem/1.3 Arial, Helvetica, sans-serif;
+  font: 1rem/1.3 Archivo, system-ui, sans-serif;
   margin-top: 0.4rem;
   padding: 0.85rem;
   width: 100%;
@@ -278,9 +275,9 @@
 
 .ss-order-form .ss-consent {
   align-items: start;
-  border-bottom: 1px dashed var(--ss-ink);
+  border-bottom: 1px solid var(--ss-ink);
   display: grid;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Archivo, system-ui, sans-serif;
   gap: 0.75rem;
   grid-template-columns: 1.25rem 1fr;
   padding-block: 0.5rem 0.85rem;
@@ -316,7 +313,7 @@
   }
 
   .ss-order-steps li + li {
-    border-left: 3px solid var(--ss-ink);
+    border-left:  2px solid var(--ss-ink);
     border-top: 0;
   }
 
@@ -331,7 +328,7 @@
   }
 
   .ss-order-sheet {
-    box-shadow: 7px 7px 0 var(--ss-pink);
+    box-shadow: none;
   }
 
 }
@@ -347,7 +344,7 @@ html {
 body {
   background: var(--surface);
   color: var(--ink);
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: Archivo, system-ui, sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
 }
@@ -369,8 +366,8 @@ a {
 }
 
 :focus-visible {
-  outline: 3px solid var(--accent);
-  outline-offset: 4px;
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 h1,
@@ -553,13 +550,12 @@ h1 em {
   border-top: 2px solid currentColor;
   content: "";
   height: 7px;
-  transform: rotate(45deg);
   transition: transform 140ms ease;
   width: 7px;
 }
 
 .button:hover::after {
-  transform: translateX(3px) rotate(45deg);
+  transform: translateX(3px) ;
 }
 
 .button-primary {
@@ -701,7 +697,6 @@ h1 em {
   border-right: 2px solid currentColor;
   display: inline-block;
   height: 11px;
-  transform: rotate(45deg);
   width: 6px;
 }
 
@@ -1463,9 +1458,9 @@ input::placeholder {
 }
 
 .form-error {
-  background: #fff1f3;
+  background: #eef6f2;
   border: 1px solid var(--accent);
-  color: #7a0017;
+  color: #1f4b3a;
   font-size: 12px;
   line-height: 1.5;
   margin: 0;
@@ -1919,21 +1914,23 @@ footer > p {
   }
 }
 
-/* SS CasoLab — Lo-Fi workbook */
+/* SS CasoLab — sistema suizo común, tono verde propio. */
 
 .ss-page {
-  --ss-paper: #e8e0c0;
-  --ss-paper-light: #f4edcf;
-  --ss-ink: #101010;
-  --ss-pink: #ff006e;
-  --ss-cyan: #00ffcc;
+  --ss-paper: #ffffff;
+  --ss-paper-light: #f3f2f2;
+  --ss-ink: #201e1d;
+  --ss-muted: #62636a;
+  --ss-line: #d7d7d2;
+  --ss-accent: #347b61;        /* tono propio de SS: acción y énfasis */
+  --ss-accent-dark: #2a634e;
+  --ss-accent-soft: #a8dcc4;   /* paso claro del mismo tono: relleno tintado y acento sobre tinta */
+  --ss-pink: var(--ss-accent);       /* alias heredado — no usar en nuevo CSS */
+  --ss-cyan: var(--ss-accent-soft);  /* alias heredado — no usar en nuevo CSS */
   --ss-white: #ffffff;
-  background:
-    radial-gradient(circle, rgba(16, 16, 16, 0.12) 1px, transparent 1.4px)
-      0 0 / 16px 16px,
-    var(--ss-paper);
+  background: var(--ss-paper);
   color: var(--ss-ink);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Archivo, system-ui, sans-serif;
   min-height: 100vh;
   overflow: hidden;
 }
@@ -1954,7 +1951,7 @@ footer > p {
 }
 
 .tai-page ::selection { background: var(--tai-accent); color: #fff; }
-.tai-page :focus-visible { outline: 3px solid var(--tai-accent); outline-offset: 4px; }
+.tai-page :focus-visible { outline: 2px solid var(--tai-accent); outline-offset: 2px; }
 .tai-page h1,
 .tai-page h2,
 .tai-page h3,
@@ -2098,16 +2095,24 @@ footer > p {
 }
 
 .ss-page :focus-visible {
-  outline: 4px solid var(--ss-pink);
-  outline-offset: 4px;
+  outline: 2px solid var(--ss-accent);
+  outline-offset: 2px;
 }
-.ss-skip-link { background: var(--ss-ink); color: var(--ss-white); left: 16px; padding: 11px 14px; position: absolute; top: -100px; z-index: 100; }
+.ss-skip-link {
+  background: var(--ss-ink);
+  color: var(--ss-white);
+  left: 16px;
+  padding: 11px 14px;
+  position: absolute;
+  top: -100px;
+  z-index: 100;
+}
 .ss-skip-link:focus { color: var(--ss-white); top: 16px; }
 .ss-page { scroll-margin-top: 24px; }
 
 .ss-page h1,
 .ss-page h2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Archivo, system-ui, sans-serif;
 }
 
 .ss-page h1,
@@ -2120,7 +2125,7 @@ footer > p {
 .ss-header {
   align-items: center;
   background: var(--ss-paper-light);
-  border-bottom: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
   display: flex;
   justify-content: space-between;
   min-height: 84px;
@@ -2140,15 +2145,14 @@ footer > p {
   align-items: center;
   background: var(--ss-pink);
   border: 2px solid var(--ss-ink);
-  box-shadow: 4px 4px 0 var(--ss-ink);
+  box-shadow: none;
   color: var(--ss-white);
   display: inline-flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 15px;
   font-weight: 800;
   height: 44px;
   justify-content: center;
-  transform: rotate(-2deg);
   width: 44px;
 }
 
@@ -2158,7 +2162,7 @@ footer > p {
 }
 
 .ss-brand strong {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 16px;
 }
 
@@ -2173,7 +2177,7 @@ footer > p {
 .ss-nav {
   align-items: center;
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 700;
   gap: 24px;
@@ -2185,7 +2189,7 @@ footer > p {
 }
 
 .ss-nav .ss-nav-home {
-  color: var(--ss-pink);
+  color: var(--ss-accent);
   font-size: 10px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -2223,18 +2227,17 @@ footer > p {
 
 .ss-hero::before {
   background: var(--ss-cyan);
-  border: 3px solid var(--ss-ink);
+  border:  2px solid var(--ss-ink);
   content: "";
   height: 112px;
   left: -52px;
   position: absolute;
   top: 42px;
-  transform: rotate(6deg);
   width: 112px;
 }
 
 .ss-label {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -2276,11 +2279,11 @@ footer > p {
 
 .ss-button {
   align-items: center;
-  border: 3px solid var(--ss-ink);
-  box-shadow: 6px 6px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   cursor: pointer;
   display: inline-flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 13px;
   font-weight: 800;
   justify-content: center;
@@ -2293,7 +2296,7 @@ footer > p {
 }
 
 .ss-button:hover {
-  box-shadow: 2px 2px 0 var(--ss-ink);
+  box-shadow: none;
   transform: translate(4px, 4px);
 }
 
@@ -2322,10 +2325,10 @@ footer > p {
 .ss-text-button {
   background: transparent;
   border: 0;
-  border-bottom: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
   color: var(--ss-ink);
   cursor: pointer;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 13px;
   font-weight: 800;
   padding: 5px 0;
@@ -2344,7 +2347,7 @@ footer > p {
 }
 
 .ss-facts dt {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 30px;
   font-weight: 800;
 }
@@ -2357,28 +2360,26 @@ footer > p {
 
 .ss-workbook {
   background: var(--ss-white);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 14px 14px 0 var(--ss-pink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   min-height: 548px;
   padding: 38px 34px;
   position: relative;
-  transform: rotate(2deg);
 }
 
 .ss-tape {
-  background: rgba(0, 255, 204, 0.72);
+  background: var(--ss-pink);
   height: 34px;
   left: calc(50% - 78px);
   position: absolute;
   top: -18px;
-  transform: rotate(-4deg);
   width: 156px;
 }
 
 .ss-workbook-head {
   border-bottom: 2px solid var(--ss-ink);
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
   justify-content: space-between;
@@ -2387,11 +2388,10 @@ footer > p {
 
 .ss-hand {
   color: var(--ss-pink);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 13px;
   font-weight: 800;
   margin: 30px 0 10px;
-  transform: rotate(-2deg);
 }
 
 .ss-workbook h2 {
@@ -2415,7 +2415,7 @@ footer > p {
   background: var(--ss-cyan);
   border: 2px solid var(--ss-ink);
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-weight: 800;
   height: 38px;
   justify-content: center;
@@ -2462,7 +2462,7 @@ footer > p {
   color: var(--ss-white);
   display: flex;
   flex-wrap: wrap;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   gap: 8px 15px;
   justify-content: space-between;
@@ -2474,7 +2474,7 @@ footer > p {
   background: var(--ss-ink);
   color: var(--ss-white);
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 700;
   gap: 36px;
@@ -2529,25 +2529,23 @@ footer > p {
 
 .ss-method-grid li {
   background: var(--ss-paper-light);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 7px 7px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   min-height: 258px;
   padding: 24px;
 }
 
 .ss-method-grid li:nth-child(even) {
-  transform: rotate(2deg);
 }
 
 .ss-method-grid li:nth-child(odd) {
-  transform: rotate(-2deg);
 }
 
 .ss-method-grid span {
   background: var(--ss-cyan);
   border: 2px solid var(--ss-ink);
   display: inline-block;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-weight: 800;
   padding: 7px 9px;
 }
@@ -2580,15 +2578,14 @@ footer > p {
 
 .ss-case-note {
   background: var(--ss-cyan);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 6px 6px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   display: grid;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   gap: 7px;
   margin: 34px 0;
   padding: 18px;
-  transform: rotate(-2deg);
 }
 
 .ss-beta-note {
@@ -2605,22 +2602,22 @@ footer > p {
 
 .ss-question {
   background: var(--ss-white);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 8px 8px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   margin: 0;
   padding: 28px;
 }
 
 .ss-question.is-correct {
-  box-shadow: 8px 8px 0 var(--ss-cyan);
+  box-shadow: none;
 }
 
 .ss-question.is-wrong {
-  box-shadow: 8px 8px 0 var(--ss-pink);
+  box-shadow: none;
 }
 
 .ss-question.is-unanswered {
-  box-shadow: 8px 8px 0 #8f896f;
+  box-shadow: none;
 }
 
 .ss-question legend {
@@ -2638,7 +2635,7 @@ footer > p {
 .ss-question legend > span {
   background: var(--ss-pink);
   color: var(--ss-white);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   padding: 6px 7px;
   text-align: center;
 }
@@ -2668,7 +2665,7 @@ footer > p {
 
 .ss-option.is-selected {
   background: var(--ss-paper);
-  box-shadow: 4px 4px 0 var(--ss-ink);
+  box-shadow: none;
   transform: translate(-2px, -2px);
 }
 
@@ -2684,7 +2681,7 @@ footer > p {
 }
 
 .ss-option:has(input:focus-visible) {
-  outline: 4px solid var(--ss-pink);
+  outline: 2px solid var(--ss-accent);
   outline-offset: 3px;
 }
 
@@ -2692,14 +2689,14 @@ footer > p {
   align-items: center;
   border: 2px solid var(--ss-ink);
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-weight: 800;
   height: 30px;
   justify-content: center;
 }
 
 .ss-explanation {
-  border-top: 3px solid var(--ss-ink);
+  border-top:  2px solid var(--ss-ink);
   margin-top: 26px;
   padding-top: 22px;
 }
@@ -2710,8 +2707,8 @@ footer > p {
 
 .ss-explanation a {
   border-bottom: 2px solid var(--ss-pink);
-  color: #880039;
-  font-family: "Courier New", Courier, monospace;
+  color: var(--ss-accent-dark);
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
 }
@@ -2762,7 +2759,7 @@ footer > p {
 }
 
 .ss-diagnostic-actions > p:first-child {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
   margin-bottom: 0;
@@ -2781,8 +2778,8 @@ footer > p {
 .ss-result {
   align-items: stretch;
   background: var(--ss-cyan);
-  border-bottom: 3px solid var(--ss-ink);
-  border-top: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
+  border-top:  2px solid var(--ss-ink);
   display: grid;
   gap: 0;
   grid-template-columns: minmax(300px, 0.72fr) minmax(0, 1.28fr);
@@ -2803,7 +2800,7 @@ footer > p {
 }
 
 .ss-score-label {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -2811,7 +2808,7 @@ footer > p {
 
 .ss-score-card > strong {
   color: var(--ss-cyan);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: clamp(52px, 7vw, 96px);
   letter-spacing: -0.07em;
   margin: 28px 0 12px;
@@ -2843,19 +2840,19 @@ footer > p {
 
 .ss-error-map {
   background: var(--ss-white);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 6px 6px 0 var(--ss-pink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   margin: 28px 0;
   padding: 18px;
 }
 
 .ss-error-map.is-clear {
-  box-shadow: 6px 6px 0 #00765f;
+  box-shadow: none;
 }
 
 .ss-error-map > span {
   display: block;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -2904,16 +2901,15 @@ footer > p {
 
 .ss-form-card {
   background: var(--ss-paper-light);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 12px 12px 0 var(--ss-pink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   padding: 34px;
-  transform: rotate(1deg);
 }
 
 .ss-form-index {
   border-bottom: 2px solid var(--ss-ink);
   display: flex;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
   justify-content: space-between;
@@ -2978,7 +2974,7 @@ footer > p {
 .ss-success > span {
   background: var(--ss-cyan);
   border: 2px solid var(--ss-ink);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
   justify-self: start;
@@ -2986,7 +2982,7 @@ footer > p {
 }
 
 .ss-success h3 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 40px;
   line-height: 0.98;
   margin-bottom: 0;
@@ -3008,28 +3004,27 @@ footer > p {
 
 .ss-product-card {
   background: var(--ss-white);
-  border: 3px solid var(--ss-ink);
-  box-shadow: 14px 14px 0 var(--ss-ink);
+  border:  2px solid var(--ss-ink);
+  box-shadow: none;
   padding: 38px;
   position: relative;
-  transform: rotate(-2deg);
 }
 
 .ss-product-sticker {
-  background: var(--ss-cyan);
+  background: var(--ss-ink);
+  color: var(--ss-white);
   border: 2px solid var(--ss-ink);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
   padding: 9px 12px;
   position: absolute;
   right: 28px;
   top: -20px;
-  transform: rotate(4deg);
 }
 
 .ss-price {
-  border-bottom: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
   display: grid;
   grid-template-columns: 1fr auto;
   padding-bottom: 26px;
@@ -3037,20 +3032,20 @@ footer > p {
 
 .ss-price span,
 .ss-price small {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 11px;
   font-weight: 800;
 }
 
 .ss-price strong {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 76px;
   grid-row: span 2;
   letter-spacing: -0.08em;
 }
 
 .ss-content-status {
-  border: 2px dashed var(--ss-ink);
+  border: 1px solid var(--ss-ink);
   margin: 26px 0 30px;
   padding: 16px;
 }
@@ -3064,7 +3059,7 @@ footer > p {
 
 .ss-content-status-head span,
 .ss-content-status-head strong {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 10px;
   letter-spacing: 0.04em;
 }
@@ -3111,7 +3106,7 @@ footer > p {
 
 .ss-product-grid strong {
   color: var(--ss-pink);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 30px;
 }
 
@@ -3142,7 +3137,7 @@ footer > p {
 }
 
 .ss-conditions {
-  border-left: 3px solid var(--ss-ink);
+  border-left:  2px solid var(--ss-ink);
   grid-column: 2;
   margin-top: 16px;
   padding-left: 28px;
@@ -3164,7 +3159,7 @@ footer > p {
 }
 
 .ss-conditions dt {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
 }
@@ -3180,17 +3175,17 @@ footer > p {
 }
 
 .ss-faq-list {
-  border-top: 3px solid var(--ss-ink);
+  border-top:  2px solid var(--ss-ink);
   margin-top: 58px;
 }
 
 .ss-faq details {
-  border-bottom: 3px solid var(--ss-ink);
+  border-bottom:  2px solid var(--ss-ink);
 }
 
 .ss-faq summary {
   cursor: pointer;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 27px;
   font-weight: 800;
   list-style: none;
@@ -3200,7 +3195,7 @@ footer > p {
 
 .ss-faq summary::after {
   content: "+";
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 30px;
   position: absolute;
   right: 8px;
@@ -3231,7 +3226,7 @@ footer > p {
 
 .ss-sources ul {
   display: grid;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 13px;
   font-weight: 800;
   gap: 16px;
@@ -3245,7 +3240,7 @@ footer > p {
 }
 
 .ss-legal-note {
-  border: 3px solid var(--ss-ink);
+  border:  2px solid var(--ss-ink);
   grid-column: 1 / -1;
   line-height: 1.6;
   margin: 0;
@@ -3273,7 +3268,7 @@ footer > p {
 .ss-footer > a:last-child {
   border-bottom: 2px solid var(--ss-cyan);
   color: var(--ss-cyan);
-  font-family: "Courier New", Courier, monospace;
+  font-family: Archivo, system-ui, sans-serif;
   font-size: 12px;
   font-weight: 800;
 }
@@ -3325,7 +3320,7 @@ footer > p {
   }
 
   .ss-brand-stamp {
-    box-shadow: 3px 3px 0 var(--ss-ink);
+    box-shadow: none;
     height: 38px;
     width: 38px;
   }
@@ -3387,7 +3382,7 @@ footer > p {
   }
 
   .ss-workbook {
-    box-shadow: 8px 8px 0 var(--ss-pink);
+    box-shadow: none;
     min-height: 490px;
     padding: 28px 22px;
     width: calc(100% - 14px);
@@ -3429,7 +3424,7 @@ footer > p {
   }
 
   .ss-question {
-    box-shadow: 5px 5px 0 var(--ss-ink);
+    box-shadow: none;
     padding: 20px 14px;
   }
 
@@ -3463,7 +3458,7 @@ footer > p {
   }
 
   .ss-form-card {
-    box-shadow: 7px 7px 0 var(--ss-pink);
+    box-shadow: none;
     padding: 24px 17px;
   }
 
@@ -3474,7 +3469,7 @@ footer > p {
   }
 
   .ss-product-card {
-    box-shadow: 8px 8px 0 var(--ss-ink);
+    box-shadow: none;
     padding: 28px 18px;
   }
 
@@ -3519,8 +3514,10 @@ footer > p {
     transition-duration: 0.01ms !important;
   }
 }
-/* Base tipográfica común (Archivo). SS conserva su familia propia hasta su pase de estilo. */
-.hub-page, .tai-page, .ae-page { font-family: Archivo, system-ui, sans-serif; }
+
+
+/* Base tipográfica común (Archivo). */
+.hub-page, .tai-page, .ae-page, .ss-page { font-family: Archivo, system-ui, sans-serif; }
 
 /* ============================================================
    FICHA EDITORIAL DE OPOSICIÓN — bloque común a las 4 superficies
@@ -3750,4 +3747,15 @@ footer > p {
   .of-actions { flex-direction: column; }
   .of-cta, .of-cta-2 { justify-content: space-between; }
   .of-status { max-width: 55%; }
+}
+
+/* Blindaje de la ficha común frente a selectores de elemento sin ámbito
+   (SS arrastra un bloque heredado que redefine footer, details y summary). */
+.of-legal { display: block; padding: 0; }
+.of-legal__inner > div { padding: 0; }
+.of-card details,
+.of-card summary { border: 0; padding: 0; }
+.of-card summary::after { content: none; }
+@media (max-width: 850px) {
+  .of-legal__notice { padding: 24px 0 0; }
 }
