@@ -10,6 +10,7 @@ Monorepo de las aplicaciones y landings de las oposiciones que no pertenecen al 
 | `ss-casolab/` | Administrativo de la Seguridad Social, C1 | `/` (alias `/ss-casolab`) |
 | `tai-academia/` | Técnico Auxiliar de Informática, C1 | `/` (alias `/tai`) |
 | `administrativo-estado/` | Auxiliar Administrativo del Estado, C2 | `/` |
+| `auxiliar-juridico/` | Auxilio Judicial, C2 · solo tests | `/` |
 
 Cada producto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba y no debe sobrescribirse.
 
@@ -23,7 +24,7 @@ npm install
 npm run dev
 ```
 
-Repite el mismo flujo en `tai-academia`, `administrativo-estado` o `lorman-lab`. Las dependencias no se comparten automáticamente entre proyectos.
+Repite el mismo flujo en `tai-academia`, `administrativo-estado`, `auxiliar-juridico` o `lorman-lab`. Las dependencias no se comparten automáticamente entre proyectos.
 
 Cada landing independiente tiene una prueba de navegación que no necesita servicios externos:
 
@@ -31,7 +32,7 @@ Cada landing independiente tiene una prueba de navegación que no necesita servi
 npm run test:portfolio
 ```
 
-En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://lorman-academia.vercel.app`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cuatro destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
+En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://lorman-academia.vercel.app`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cinco destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
 
 ## Separación de GSI
 

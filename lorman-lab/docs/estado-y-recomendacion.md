@@ -8,7 +8,8 @@ Fecha: **2026-08-03**.
 - La copia no tiene remoto Git y contiene `SAFETY.md`.
 - Se creó el repositorio privado de continuidad [GAD6MU/oposiciones-generales](https://github.com/GAD6MU/oposiciones-generales). La exportación remota no contiene la carpeta `.git` anidada del laboratorio.
 - Se comprobó que `LORMANAcademia` original no recibió cambios, push ni despliegue.
-- La landing local `/` presenta TCAE, TAI C1, SS C1 y C2 con estado y alcance separado.
+- La landing local `/` presenta TCAE, TAI C1, SS C1, C2 y Auxilio Judicial C2 con estado y alcance separado.
+- Auxilio Judicial C2 tiene una landing independiente en `../auxiliar-juridico/` y publica solo el inventario de tests del curso Moodle 11.
 - `/tcae` conserva la landing TCAE local original; `/c2` contiene la landing y muestra interactiva del piloto C2.
 - Los eventos se guardan solo en `localStorage`, con un UUID de sesión anónimo y un máximo local de 200 eventos. No se guardan nombres, emails, teléfonos, respuestas junto a identidad ni chat IDs.
 - El inventario de producto está en `docs/productos/inventario-general.md`.
@@ -21,7 +22,7 @@ Fecha: **2026-08-03**.
 - `npm run build`: correcto; Vite transformó la aplicación y esbuild generó el servidor.
 - `node --test telegram/bot.test.mjs`: 4 pruebas correctas.
 - JSON del piloto: válido; 32 preguntas, cuatro opciones, clave, explicación, fuente, fecha de revisión y estado por pregunta.
-- Playwright local: `/` muestra cuatro tarjetas y enlaza C2 a `/c2`; `/c2` muestra cinco preguntas, permite responderlas y muestra el resultado `5/5` en la prueba de interacción.
+- Playwright local: `/` muestra cinco tarjetas y enlaza C2 a `/c2`; `/c2` muestra cinco preguntas, permite responderlas y muestra el resultado `5/5` en la prueba de interacción.
 - Playwright móvil a 390 px: no se detectó desbordamiento horizontal y se mantienen cinco preguntas accesibles.
 - Fuente oficial revisada el 2026-08-03: [BOE-A-2025-26262](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26262). INAP queda como fuente de seguimiento; el portal devolvió un error temporal durante la consulta.
 

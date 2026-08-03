@@ -6,6 +6,7 @@
      TAI   → tai-academia/app/tai/page.tsx (33 temas, 33 autoev., 10 simulacros, 12 meses, 59 €)
      SS    → ss-casolab content:validate (36 temas, 36 tests, 14 casos) + page.tsx (49 €, 6 meses)
      C2    → administrativo-estado/app/page.tsx (5 preguntas de muestra; sin precio publicado)
+     AJ C2 → auxiliar-juridico/src/main.tsx (26 temas, 90 cuestionarios; solo tests)
    ============================================================ */
 
 import type { FichaOposicionProps } from "@/components/FichaOposicion";
@@ -75,5 +76,22 @@ export const FICHAS: FichaOposicionProps[] = [
     ],
     primary: { label: "Hacer la prueba gratuita", href: `${PRODUCT_URLS.c2}#prueba` },
     secondary: { label: "Ver el examen", href: `${PRODUCT_URLS.c2}#examen` },
+  },
+  {
+    code: "AJ C2",
+    tone: "juridico",
+    admin: "Administración de Justicia · subgrupo C2",
+    title: "Auxilio Judicial · tests",
+    description:
+      "Práctica autocorregible para el curso de Auxilio Judicial: temas, repasos, supuestos, simulacros y modelos oficiales dentro del aula.",
+    status: "Contenido disponible · acceso por Moodle",
+    indicators: [
+      { value: "26", label: "temas organizados en el aula" },
+      { value: "90", label: "cuestionarios únicos auditados" },
+      { value: "10", label: "supuestos prácticos" },
+      { value: "5", label: "modelos de examen oficial" },
+    ],
+    primary: { label: "Ver Auxilio Judicial", href: PRODUCT_URLS.auxJuridico },
+    secondary: { label: "Ver el alcance", href: `${PRODUCT_URLS.auxJuridico}#alcance` },
   },
 ];

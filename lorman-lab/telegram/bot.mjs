@@ -10,6 +10,7 @@ export const COURSES = {
   TAI: { label: "TAI C1", resource: "Muestra TAI (enlace local pendiente)" },
   SS: { label: "Administrativo SS C1", resource: "Muestra SS CasoLab (enlace local pendiente)" },
   C2: { label: "Auxiliar AGE C2", resource: "Muestra C2: /c2#prueba" },
+  AJ: { label: "Auxilio Judicial C2", resource: "Landing de tests: https://auxiliar-juridico.vercel.app" },
 };
 
 export const MAX_FOLLOWUPS = 3;
@@ -45,6 +46,7 @@ function courseKey(value) {
   if (normalized === "SS" || normalized.includes("SEGURIDAD")) return "SS";
   if (normalized === "TAI" || normalized.includes("INFORMÁTICA") || normalized.includes("INFORMATICA")) return "TAI";
   if (normalized === "C2" || normalized.includes("AUXILIAR")) return "C2";
+  if (normalized === "AJ" || normalized.includes("AUXILIO") || normalized.includes("JUDICIAL") || normalized.includes("JURIDIC")) return "AJ";
   if (normalized.includes("TCAE")) return "TCAE";
   return null;
 }
@@ -52,7 +54,7 @@ function courseKey(value) {
 const intro = [
   "Hola. Soy el bot de Academia LORMAN.",
   "Solo te enviaré recursos si tú eliges una oposición y aceptas recibir esta secuencia.",
-  "Responde con TCAE, TAI, SS o C2 para elegir tu recurso.",
+  "Responde con TCAE, TAI, SS, C2 o AJ para elegir tu recurso.",
 ].join("\n");
 
 export async function handleUpdate(update, store, sendMessage, now = Date.now()) {
@@ -103,7 +105,7 @@ export async function handleUpdate(update, store, sendMessage, now = Date.now())
     return { handled: true, action: "courses" };
   }
 
-  await sendMessage(chatId, "No he enviado nada porque falta elegir una oposición y aceptar recibir mensajes. Responde TCAE, TAI, SS o C2, y después ACEPTO.");
+  await sendMessage(chatId, "No he enviado nada porque falta elegir una oposición y aceptar recibir mensajes. Responde TCAE, TAI, SS, C2 o AJ, y después ACEPTO.");
   return { handled: true, action: "consent_reminder" };
 }
 

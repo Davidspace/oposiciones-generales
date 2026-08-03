@@ -2,32 +2,34 @@
 
 ## Alcance de esta revisión
 
-Esta revisión solo modifica el clon local de `GAD6MU/oposiciones-generales`, en la rama `codex/portfolio-ux-foundation`. No se ha hecho push, despliegue ni escritura en Moodle.
+Esta revisión trabaja sobre `GAD6MU/oposiciones-generales`, en `main`, y mantiene Moodle en modo lectura. Se han creado despliegues independientes en Vercel para la landing común y Auxilio Judicial C2.
 
-No se ha creado contenido editorial nuevo. SS mantiene `ss-casolab/SS/` como fuente intocable; TAI sigue dependiendo del inventario externo del aula; C2 sigue siendo una superficie de validación.
+No se ha escrito en Moodle ni se han modificado fuentes editoriales de SS. Auxilio Judicial reutiliza únicamente el inventario visible del curso Moodle 11: 26 temas y 90 cuestionarios únicos.
 
 ## Destinos
 
 | Superficie | Proyecto | Destino por defecto | Estado de código |
 |---|---|---|---|
-| Cartera común | `lorman-lab/` | `https://lorman-academia.vercel.app` | Hub independiente; cuatro destinos configurables |
-| TAI | `tai-academia/` | `https://tai-academia.dgarmar.chatgpt.site` | Landing independiente |
-| SS CasoLab | `ss-casolab/` | `https://ss-casolab.dgarmar.chatgpt.site` | Landing y corpus editorial separados |
-| Administrativo del Estado C2 | `administrativo-estado/` | `https://administrativo-estado.dgarmar.chatgpt.site` | Landing de validación |
+| Cartera común | `lorman-lab/` | `https://lorman-lab.vercel.app` | Hub independiente; cinco destinos configurables |
+| TAI | `tai-academia/` | `https://tai-academia.vercel.app` | Landing independiente |
+| SS CasoLab | `ss-casolab/` | `https://ss-casolab.vercel.app` | Landing y corpus editorial separados |
+| Administrativo del Estado C2 | `administrativo-estado/` | `https://administrativo-estado.vercel.app` | Landing de validación |
+| Auxilio Judicial C2 | `auxiliar-juridico/` | `https://auxiliar-juridico.vercel.app` | Landing independiente; solo tests |
 | Moodle | `lorman-lab/` → `/aula` | `https://aula.academialorman.es/course/view.php?id=2` | Destino configurable; no usa `sslip.io` |
 
 Las URLs públicas pueden cambiarse sin editar las landings:
 
-- Hub: `VITE_PORTFOLIO_URL`, `VITE_MOODLE_URL`, `VITE_TCAE_URL`, `VITE_TAI_URL`, `VITE_SS_URL`, `VITE_C2_URL`.
+- Hub: `VITE_PORTFOLIO_URL`, `VITE_MOODLE_URL`, `VITE_TCAE_URL`, `VITE_TAI_URL`, `VITE_SS_URL`, `VITE_C2_URL`, `VITE_AUX_JURIDICO_URL`.
 - TAI, SS y C2: `NEXT_PUBLIC_PORTFOLIO_URL`.
 
 ## Cambios verificados
 
 - Enlace «Todos los cursos» en TAI, SS y C2.
-- Skip link y `main` enfocable en las cuatro superficies.
+- Skip link y `main` enfocable en las cinco superficies.
 - Metadata canonical en TAI, SS y C2.
 - Fallback de `/aula` y redirect de Vercel actualizados a `aula.academialorman.es`.
 - `.env.example` de TAI y C2 sin variables copiadas de SS o GSI.
+- Auxilio Judicial declara 26 temas, 90 cuestionarios y límites de alcance sin copiar preguntas.
 - Pruebas estáticas de independencia y navegación en cada proyecto.
 
 ## Receipt de verificación
@@ -38,6 +40,7 @@ Las URLs públicas pueden cambiarse sin editar las landings:
 | `tai-academia/` | PASS | PASS | PASS | — |
 | `ss-casolab/` | PASS | PASS | PASS | `content:validate` PASS: 36 temas, 36 módulos, 770 afirmaciones, 400 preguntas y 14 casos estructurados |
 | `administrativo-estado/` | PASS | PASS | PASS | — |
+| `auxiliar-juridico/` | PASS | PASS | PASS | Typecheck PASS; inventario Moodle 11 PASS |
 
 ## Próximo control antes de publicar
 

@@ -63,3 +63,14 @@ test("permite desactivar una campaña completa", async () => {
   assert.equal(result.reason, "campaign_disabled");
   assert.equal(sent.includes("no enviar"), false);
 });
+
+test("reconoce Auxilio Judicial como producto independiente", async () => {
+  const store = new ConsentStore();
+  const sent = [];
+  const send = async (_chat, text) => sent.push(text);
+  await handleUpdate(update(6, "/start"), store, send, 0);
+  await handleUpdate(update(6, "AJ"), store, send, 1);
+  await handleUpdate(update(6, "ACEPTO"), store, send, 2);
+  assert.equal(store.get(6).course, "AJ");
+  assert.match(sent.at(-1), /auxiliar-juridico\.vercel\.app/);
+});

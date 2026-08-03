@@ -18,12 +18,14 @@ test("the common hub uses configured product destinations and the canonical Mood
   assert.match(fichas, /PRODUCT_URLS\.tai/);
   assert.match(fichas, /PRODUCT_URLS\.ss/);
   assert.match(fichas, /PRODUCT_URLS\.c2/);
+  assert.match(fichas, /PRODUCT_URLS\.auxJuridico/);
   assert.match(home, /FICHAS/);
   assert.match(home, /PRODUCT_URLS\.c2/);
   assert.match(home, /className="hub-skip-link"/);
   assert.match(links, /VITE_MOODLE_URL/);
   assert.match(links, /aula\.academialorman\.es/);
   assert.match(envExample, /VITE_C2_URL/);
+  assert.match(envExample, /VITE_AUX_JURIDICO_URL/);
   assert.match(vercel, /aula\.academialorman\.es\/course\/view\.php\?id=2/u);
   assert.doesNotMatch(vercel, /sslip\.io/u);
   assert.doesNotMatch(app, /sslip\.io/u);

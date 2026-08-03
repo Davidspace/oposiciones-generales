@@ -66,5 +66,6 @@ Configura estas variables de entorno en el proyecto de la landing común. Son de
 | `VITE_TAI_URL` | Landing TAI |
 | `VITE_SS_URL` | Landing SS CasoLab |
 | `VITE_C2_URL` | Landing Administrativo del Estado C2 |
+| `VITE_AUX_JURIDICO_URL` | Landing Auxilio Judicial C2 (solo tests) |
 
 El fallback de Moodle es `https://aula.academialorman.es`. No uses la antigua dirección `sslip.io` en un despliegue nuevo. Comprueba cada destino en producción antes de cambiar la URL pública de la cartera.

@@ -103,7 +103,7 @@ export default function C2Home() {
           <p className="c2-lead">Muestra experimental para Auxiliar Administrativo de la Administración del Estado. Combina organización pública, actividad administrativa, psicotécnicos y Microsoft 365.</p>
           <div className="c2-actions">
             <a className="c2-button c2-button-primary" href="#prueba" onClick={() => trackLabEvent("sample_view", "c2")}>Hacer la muestra <ArrowUpRight size={16} aria-hidden="true" /></a>
-            <a className="c2-text-link" href="/">Ver las cuatro academias <ArrowLeft size={15} aria-hidden="true" /></a>
+            <a className="c2-text-link" href="/">Ver las cinco academias <ArrowLeft size={15} aria-hidden="true" /></a>
           </div>
           <p className="c2-note">Contenido independiente · no es una página oficial · revisión humana pendiente</p>
         </div>

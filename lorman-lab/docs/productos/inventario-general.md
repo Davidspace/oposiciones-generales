@@ -14,6 +14,7 @@ Un dato solo pasa a una landing si tiene una fuente identificable, fecha de comp
 | TAI C1 | Moodle (lectura previa) y `tai-academia/app/tai/page.tsx` | 33 temas PDF, 33 autoevaluaciones, 10 simulacros y ruta de autoestudio | Inventario local; convocatoria y normativa deben comprobarse antes de publicar cifras | Que el producto está orientado a autoestudio con temas, tests y simulacros |
 | Administrativo SS C1 | `SS/` de Alba, reflejado en `ss-casolab/SS/` | 23 temas generales, 13 específicos, tests por tema, simulacros, normativa y control de fuentes | Fuente editorial exacta; requiere control de corte antes de cada publicación | Que existe temario general/específico, tests y práctica; no prometer plazas ni aprobados |
 | Auxiliar AGE C2 | BOE e INAP; material nuevo en `docs/c2/` y `content/c2/` | Mapa de examen, piloto original, muestra de 5 preguntas y taxonomía de errores | Piloto local pendiente de revisión humana | Que es una muestra experimental independiente, no oficial |
+| Auxilio Judicial C2 | Moodle, curso 11, consulta de solo lectura | 26 temas y 90 cuestionarios únicos: autoevaluaciones, repasos, supuestos, simulacros y modelos oficiales | Inventario de aula auditado el 2026-08-03; la landing comunica solo tests | Que existe un producto de práctica autocorregible; no anunciar temario escrito ni equivalencia oficial |
 
 ## TCAE
 
@@ -76,6 +77,24 @@ Un dato solo pasa a una landing si tiene una fuente identificable, fecha de comp
 | Revisión y actualización | Fecha de corte 2026-07-30; normativa y fuentes en `05` y `06` | Actualización por convocatoria y reforma |
 | Soporte humano | Modelo previsto: soporte limitado; autocorrección prioritaria | No incluye tutoría ilimitada |
 | Venta posible | Curso completo, pack de tests, simulacros o microcasos | Hipótesis; no cambiar `SS/` |
+
+## Auxilio Judicial C2
+
+**Evidencia de aula.** El curso de Moodle 11 se identifica como «Auxilio Judicial - Curso completo de autoevaluación». La consulta de solo lectura del 2026-08-03 mostró 26 secciones temáticas y 90 cuestionarios únicos: 53 autoevaluaciones por tema, 18 repasos/transversales/bancos generales, 10 supuestos prácticos, 4 simulacros y 5 modelos de exámenes oficiales.
+
+**Estado.** `auxiliar-juridico/` es una landing independiente para un producto de solo tests. No copia preguntas del aula, no anuncia temario escrito, no promete clases ni corrección individual y dirige al curso Moodle 11 para el acceso al material.
+
+| Campo | Inventario actual | Evidencia / estado |
+|---|---|---|
+| Segmento y ejercicio | Auxilio Judicial, subgrupo C2 | Nombre del curso y secciones de Moodle; convocatoria vigente debe prevalecer |
+| Temario visible | 26 temas/secciones | Curso Moodle 11, consulta de solo lectura |
+| Tests por tema | 53 autoevaluaciones | Inventario de enlaces de cuestionario únicos |
+| Repasos y bancos | 18 cuestionarios acumulativos, transversales y generales | Inventario de enlaces de cuestionario únicos |
+| Práctica y simulacros | 10 supuestos + 4 simulacros | Secciones SUPUESTOS PRÁCTICOS y SIMULACROS |
+| Modelos oficiales | 5 cuestionarios | Sección EXÁMENES OFICIALES; revisar derechos y vigencia antes de redistribuir |
+| Recurso gratuito | No encontrado en el aula | La landing no reproduce preguntas; dirige a acceso |
+| Soporte humano | No incluido en la propuesta de landing | Mantener límites claros |
+| Venta posible | Acceso a tests, pack por bloques o curso completo | Hipótesis comercial; precio y condiciones pendientes |
 
 ## Auxiliar Administrativo del Estado C2
 

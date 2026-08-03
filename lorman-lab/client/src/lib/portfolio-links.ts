@@ -4,6 +4,7 @@ const DEFAULT_TCAE_URL = "/tcae";
 const DEFAULT_TAI_URL = "https://tai-academia.vercel.app";
 const DEFAULT_SS_URL = "https://ss-casolab.vercel.app";
 const DEFAULT_C2_URL = "https://administrativo-estado.vercel.app";
+const DEFAULT_AUX_JURIDICO_URL = "https://auxiliar-juridico.vercel.app";
 
 function publicUrl(value: string | undefined, fallback: string) {
   const candidate = value?.trim();
@@ -40,4 +41,5 @@ export const PRODUCT_URLS = {
   tai: destination(import.meta.env.VITE_TAI_URL, DEFAULT_TAI_URL),
   ss: destination(import.meta.env.VITE_SS_URL, DEFAULT_SS_URL),
   c2: destination(import.meta.env.VITE_C2_URL, DEFAULT_C2_URL),
+  auxJuridico: destination(import.meta.env.VITE_AUX_JURIDICO_URL, DEFAULT_AUX_JURIDICO_URL),
 } as const;

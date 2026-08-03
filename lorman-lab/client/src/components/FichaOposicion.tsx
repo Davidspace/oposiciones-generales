@@ -12,7 +12,7 @@
    repositorio o en el inventario del aula. Si no hay dato, no se pasa.
    ============================================================ */
 
-export type FichaTone = "tcae" | "tai" | "ss" | "c2";
+export type FichaTone = "tcae" | "tai" | "ss" | "c2" | "juridico";
 
 export type FichaIndicator = {
   /** Cifra o marca corta: "33", "49 €", "90′", "—" */
