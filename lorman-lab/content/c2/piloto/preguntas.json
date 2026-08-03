@@ -1,0 +1,616 @@
+{
+  "version": "c2-piloto-0.1",
+  "reviewDate": "2026-08-03",
+  "reviewStatus": "pendiente_revision_humana",
+  "notice": "Preguntas originales de trabajo. No son oficiales ni están listas para venta.",
+  "questions": [
+    {
+      "id": "c2-org-001",
+      "category": "organizacion",
+      "topic": "Constitución Española",
+      "difficulty": "basica",
+      "prompt": "¿Cuál de estas opciones forma parte de los valores superiores del ordenamiento jurídico que recoge la Constitución Española?",
+      "options": [
+        "La productividad",
+        "El pluralismo político",
+        "La rentabilidad",
+        "La neutralidad tecnológica"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 1.1 de la Constitución incluye libertad, justicia, igualdad y pluralismo político.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "sourceArticle": "Artículo 1.1",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-002",
+      "category": "organizacion",
+      "topic": "Tribunal Constitucional",
+      "difficulty": "basica",
+      "prompt": "¿Qué función encaja mejor con el Tribunal Constitucional?",
+      "options": [
+        "Aprobar el presupuesto anual del Estado",
+        "Controlar la constitucionalidad de las leyes",
+        "Dirigir la política exterior",
+        "Nombrar a los ministros"
+      ],
+      "answer": 1,
+      "explanation": "El Tribunal Constitucional controla la adecuación de determinadas normas a la Constitución, dentro de sus competencias.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "sourceArticle": "Título IX",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-003",
+      "category": "organizacion",
+      "topic": "Cortes Generales",
+      "difficulty": "basica",
+      "prompt": "Según la Constitución, las Cortes Generales representan:",
+      "options": [
+        "Al Gobierno",
+        "Al pueblo español",
+        "A las comunidades autónomas solamente",
+        "A los tribunales"
+      ],
+      "answer": 1,
+      "explanation": "El artículo 66.1 indica que las Cortes Generales representan al pueblo español.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "sourceArticle": "Artículo 66.1",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-004",
+      "category": "organizacion",
+      "topic": "Gobierno",
+      "difficulty": "basica",
+      "prompt": "¿Qué función se atribuye al Gobierno en la Constitución Española?",
+      "options": [
+        "Ejercer la función ejecutiva y la potestad reglamentaria",
+        "Resolver todos los recursos administrativos",
+        "Elegir a los alcaldes",
+        "Aprobar las sentencias"
+      ],
+      "answer": 0,
+      "explanation": "El artículo 97 atribuye al Gobierno la función ejecutiva y la potestad reglamentaria, de acuerdo con la Constitución y las leyes.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "sourceArticle": "Artículo 97",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-005",
+      "category": "organizacion",
+      "topic": "Transparencia",
+      "difficulty": "media",
+      "prompt": "Una solicitud de acceso a información pública debe tramitarse, con carácter general, con arreglo a:",
+      "options": [
+        "La Ley 19/2013 y su normativa de desarrollo",
+        "El Código Penal únicamente",
+        "Las normas de contratación privada",
+        "La normativa electoral solamente"
+      ],
+      "answer": 0,
+      "explanation": "La Ley 19/2013 regula transparencia, acceso a la información pública y buen gobierno en su ámbito de aplicación.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "sourceArticle": "Objeto y ámbito de la ley",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-006",
+      "category": "organizacion",
+      "topic": "Administración General del Estado",
+      "difficulty": "media",
+      "prompt": "¿Cuál de estos órganos tiene consideración de órgano superior en la organización central de la Administración General del Estado?",
+      "options": [
+        "Un ministro",
+        "Una mesa electoral",
+        "Un juzgado de primera instancia",
+        "Una diputación provincial"
+      ],
+      "answer": 0,
+      "explanation": "Los ministros forman parte de los órganos superiores de la organización central de la Administración General del Estado.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "sourceArticle": "Organización de la Administración General del Estado",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-007",
+      "category": "organizacion",
+      "topic": "Unión Europea",
+      "difficulty": "media",
+      "prompt": "¿Qué institución de la Unión Europea participa en la iniciativa legislativa en los términos previstos por los Tratados?",
+      "options": [
+        "La Comisión Europea",
+        "El Tribunal de Cuentas español",
+        "El Senado español",
+        "El Defensor del Pueblo"
+      ],
+      "answer": 0,
+      "explanation": "La Comisión Europea desempeña, entre otras, funciones de iniciativa legislativa en el marco de los Tratados.",
+      "source": "https://european-union.europa.eu/institutions-law-budget/law/how-eu-policy-decided_es",
+      "sourceArticle": "Referencia institucional; verificar en la edición editorial",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-org-008",
+      "category": "organizacion",
+      "topic": "Protección de datos",
+      "difficulty": "media",
+      "prompt": "El principio de minimización de datos exige que los datos personales sean:",
+      "options": [
+        "Ilimitados para cualquier finalidad",
+        "Adecuados, pertinentes y limitados a lo necesario",
+        "Siempre públicos",
+        "Conservados sin límite temporal"
+      ],
+      "answer": 1,
+      "explanation": "La minimización limita los datos a los que sean adecuados, pertinentes y necesarios para la finalidad.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "sourceArticle": "Principios del tratamiento; contrastar también RGPD",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-001",
+      "category": "actividad",
+      "topic": "Ley 39/2015 · cómputo",
+      "difficulty": "basica",
+      "prompt": "Cuando una norma señala un plazo por días sin indicar que son naturales, en un procedimiento administrativo se entiende normalmente que son días:",
+      "options": [
+        "Naturales",
+        "Hábiles",
+        "Lectivos",
+        "De calendario laboral privado"
+      ],
+      "answer": 1,
+      "explanation": "La regla general de la Ley 39/2015 considera hábiles los días señalados por días, salvo previsión distinta.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículo 30",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-002",
+      "category": "actividad",
+      "topic": "Registro electrónico",
+      "difficulty": "media",
+      "prompt": "Como regla de funcionamiento, los registros electrónicos permiten la presentación de escritos:",
+      "options": [
+        "Solo en horario de oficina",
+        "Todos los días del año durante las 24 horas",
+        "Solo los días laborables hasta las 15:00",
+        "Únicamente de forma presencial"
+      ],
+      "answer": 1,
+      "explanation": "La Ley 39/2015 establece el funcionamiento de los registros electrónicos todos los días del año durante 24 horas.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículo 31",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-003",
+      "category": "actividad",
+      "topic": "Notificaciones",
+      "difficulty": "media",
+      "prompt": "Una notificación administrativa debe contener, entre otros elementos:",
+      "options": [
+        "Solo el nombre del órgano",
+        "El texto íntegro de la resolución y los recursos procedentes",
+        "Únicamente un número de expediente",
+        "La opinión personal del funcionario"
+      ],
+      "answer": 1,
+      "explanation": "La notificación debe permitir conocer el contenido íntegro y los recursos que procedan, con sus plazos y órgano.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículo 40",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-004",
+      "category": "actividad",
+      "topic": "Recursos administrativos",
+      "difficulty": "media",
+      "prompt": "El recurso de alzada se interpone, con carácter general, contra:",
+      "options": [
+        "Actos que no ponen fin a la vía administrativa",
+        "Sentencias firmes",
+        "Leyes orgánicas",
+        "Contratos entre particulares"
+      ],
+      "answer": 0,
+      "explanation": "La Ley 39/2015 prevé el recurso de alzada contra resoluciones y actos que no ponen fin a la vía administrativa.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículo 121",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-005",
+      "category": "actividad",
+      "topic": "Interesados",
+      "difficulty": "media",
+      "prompt": "En un procedimiento administrativo, una persona interesada puede actuar mediante representante:",
+      "options": [
+        "Nunca",
+        "En los términos admitidos por la ley y acreditando la representación cuando proceda",
+        "Solo si es funcionaria",
+        "Solo mediante escritura pública en todos los casos"
+      ],
+      "answer": 1,
+      "explanation": "La representación es posible y la acreditación se exige en los supuestos previstos por la Ley 39/2015.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículos 5 y siguientes",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-006",
+      "category": "actividad",
+      "topic": "Silencio administrativo",
+      "difficulty": "media",
+      "prompt": "El silencio administrativo debe analizarse atendiendo principalmente a:",
+      "options": [
+        "El color del formulario",
+        "La norma reguladora del procedimiento y el tipo de procedimiento",
+        "La preferencia del solicitante",
+        "La hora de presentación únicamente"
+      ],
+      "answer": 1,
+      "explanation": "El sentido del silencio depende de las reglas aplicables al procedimiento y de las excepciones legales.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "sourceArticle": "Artículo 24",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-007",
+      "category": "actividad",
+      "topic": "Órganos administrativos",
+      "difficulty": "media",
+      "prompt": "La competencia de un órgano administrativo es, como regla general:",
+      "options": [
+        "Renunciable libremente",
+        "Irrenunciable y se ejerce por el órgano que la tiene atribuida",
+        "Propiedad del empleado que tramita",
+        "Transferible al ciudadano"
+      ],
+      "answer": 1,
+      "explanation": "La competencia es irrenunciable, sin perjuicio de las técnicas de alteración previstas legalmente.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "sourceArticle": "Artículo 8",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-act-008",
+      "category": "actividad",
+      "topic": "Administración electrónica",
+      "difficulty": "basica",
+      "prompt": "La actuación administrativa automatizada debe quedar vinculada a:",
+      "options": [
+        "Una decisión sin responsable",
+        "El órgano competente y las garantías previstas por la norma",
+        "Un usuario anónimo sin control",
+        "Una cuenta personal del empleado"
+      ],
+      "answer": 1,
+      "explanation": "La automatización no elimina la atribución de competencia ni las garantías de identificación y responsabilidad.",
+      "source": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "sourceArticle": "Artículo 41",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-001",
+      "category": "psicotecnico",
+      "topic": "Serie numérica",
+      "difficulty": "basica",
+      "prompt": "Completa la serie: 2, 5, 11, 23, ...",
+      "options": [
+        "35",
+        "42",
+        "47",
+        "51"
+      ],
+      "answer": 2,
+      "explanation": "Cada término es el anterior multiplicado por dos y más uno: 23 × 2 + 1 = 47.",
+      "source": "Elaboración propia; revisar dificultad y unicidad",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-002",
+      "category": "psicotecnico",
+      "topic": "Analogías verbales",
+      "difficulty": "basica",
+      "prompt": "Completa la relación: opaco es a transparente como cerrado es a ...",
+      "options": [
+        "Pesado",
+        "Abierto",
+        "Pequeño",
+        "Rápido"
+      ],
+      "answer": 1,
+      "explanation": "La relación es de oposición: opaco/transparent​e y cerrado/abierto.",
+      "source": "Elaboración propia; revisar redacción",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-003",
+      "category": "psicotecnico",
+      "topic": "Porcentajes",
+      "difficulty": "basica",
+      "prompt": "¿Cuánto es el 15 % de 240?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "42"
+      ],
+      "answer": 2,
+      "explanation": "240 × 0,15 = 36.",
+      "source": "Elaboración propia; revisar cálculo",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-004",
+      "category": "psicotecnico",
+      "topic": "Clasificación",
+      "difficulty": "basica",
+      "prompt": "¿Qué palabra no pertenece al mismo grupo?",
+      "options": [
+        "Archivo",
+        "Registro",
+        "Expediente",
+        "Manzana"
+      ],
+      "answer": 3,
+      "explanation": "Las tres primeras se relacionan con gestión documental; manzana no.",
+      "source": "Elaboración propia; revisar que la categoría sea inequívoca",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-005",
+      "category": "psicotecnico",
+      "topic": "Serie de letras",
+      "difficulty": "media",
+      "prompt": "Completa la serie: A, C, F, J, ...",
+      "options": [
+        "M",
+        "N",
+        "O",
+        "P"
+      ],
+      "answer": 2,
+      "explanation": "Los saltos son +2, +3, +4; el siguiente es +5: J + 5 = O.",
+      "source": "Elaboración propia; revisar convención alfabética",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-006",
+      "category": "psicotecnico",
+      "topic": "Silogismo",
+      "difficulty": "media",
+      "prompt": "Si todos los expedientes tienen un número y este documento no tiene número, ¿qué conclusión es válida?",
+      "options": [
+        "El documento es un expediente",
+        "El documento no es un expediente, según la premisa",
+        "Todos los documentos son expedientes",
+        "No puede concluirse nada porque toda premisa es falsa"
+      ],
+      "answer": 1,
+      "explanation": "Si ser expediente implica tener número y el documento no lo tiene, no puede ser expediente dentro del supuesto.",
+      "source": "Elaboración propia; revisar lógica formal",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-007",
+      "category": "psicotecnico",
+      "topic": "Media aritmética",
+      "difficulty": "basica",
+      "prompt": "La media de 6, 8 y 10 es:",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "explanation": "(6 + 8 + 10) / 3 = 8.",
+      "source": "Elaboración propia; revisar cálculo",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-ps-008",
+      "category": "psicotecnico",
+      "topic": "Velocidad y tiempo",
+      "difficulty": "media",
+      "prompt": "Una tarea requiere 12 minutos. A la misma velocidad, ¿cuánto tardan cuatro tareas iguales?",
+      "options": [
+        "24 minutos",
+        "36 minutos",
+        "48 minutos",
+        "60 minutos"
+      ],
+      "answer": 2,
+      "explanation": "Cuatro tareas de 12 minutos requieren 4 × 12 = 48 minutos.",
+      "source": "Elaboración propia; revisar dificultad",
+      "sourceArticle": "No aplica",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-001",
+      "category": "ofimatica",
+      "topic": "Excel 365",
+      "difficulty": "basica",
+      "prompt": "En Excel, una fórmula comienza normalmente con:",
+      "options": [
+        "=",
+        "#",
+        "@",
+        "%"
+      ],
+      "answer": 0,
+      "explanation": "El signo igual indica que el contenido de la celda se evaluará como fórmula.",
+      "source": "Microsoft Support — Excel para Windows; URL y versión pendientes de contraste",
+      "sourceArticle": "Fórmulas",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-002",
+      "category": "ofimatica",
+      "topic": "Excel 365",
+      "difficulty": "media",
+      "prompt": "¿Qué referencia mantiene fija la columna y la fila al copiar una fórmula?",
+      "options": [
+        "A1",
+        "$A$1",
+        "A$1",
+        "$A1"
+      ],
+      "answer": 1,
+      "explanation": "Los signos $ delante de columna y fila hacen absoluta la referencia completa.",
+      "source": "Microsoft Support — Excel para Windows; URL y versión pendientes de contraste",
+      "sourceArticle": "Referencias absolutas y relativas",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-003",
+      "category": "ofimatica",
+      "topic": "Word 365",
+      "difficulty": "basica",
+      "prompt": "En Word, el atajo Ctrl+B se utiliza normalmente para:",
+      "options": [
+        "Guardar",
+        "Aplicar negrita",
+        "Cerrar el documento",
+        "Insertar una tabla"
+      ],
+      "answer": 1,
+      "explanation": "En la interfaz de Word, Ctrl+B activa o desactiva la negrita.",
+      "source": "Microsoft Support — métodos abreviados de Word; URL y versión pendientes de contraste",
+      "sourceArticle": "Métodos abreviados",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-004",
+      "category": "ofimatica",
+      "topic": "Windows 11",
+      "difficulty": "basica",
+      "prompt": "En Windows, Ctrl+Shift+Esc abre directamente:",
+      "options": [
+        "El Explorador de archivos",
+        "El Administrador de tareas",
+        "La configuración de pantalla",
+        "El navegador predeterminado"
+      ],
+      "answer": 1,
+      "explanation": "Ese atajo abre el Administrador de tareas de Windows.",
+      "source": "Microsoft Support — métodos abreviados de Windows; URL y versión pendientes de contraste",
+      "sourceArticle": "Métodos abreviados",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-005",
+      "category": "ofimatica",
+      "topic": "Outlook 365",
+      "difficulty": "basica",
+      "prompt": "El campo CCO de un correo sirve para:",
+      "options": [
+        "Adjuntar un archivo",
+        "Ocultar las direcciones de los destinatarios entre sí",
+        "Firmar digitalmente el mensaje",
+        "Convertir el mensaje en una cita"
+      ],
+      "answer": 1,
+      "explanation": "CCO (copia oculta) evita que cada destinatario vea las direcciones incluidas en ese campo.",
+      "source": "Microsoft Support — Outlook para Windows; URL y versión pendientes de contraste",
+      "sourceArticle": "Campos Para, CC y CCO",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-006",
+      "category": "ofimatica",
+      "topic": "Access 365",
+      "difficulty": "media",
+      "prompt": "En una base de datos relacional, una tabla se utiliza principalmente para:",
+      "options": [
+        "Almacenar datos estructurados",
+        "Editar imágenes solamente",
+        "Enviar correos",
+        "Cambiar el sistema operativo"
+      ],
+      "answer": 0,
+      "explanation": "Las tablas almacenan registros y campos; consultas, formularios e informes trabajan sobre esos datos.",
+      "source": "Microsoft Support — Access para Windows; URL y versión pendientes de contraste",
+      "sourceArticle": "Tablas y objetos de base de datos",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-007",
+      "category": "ofimatica",
+      "topic": "Internet",
+      "difficulty": "basica",
+      "prompt": "En una dirección web, HTTPS indica normalmente que:",
+      "options": [
+        "La página no puede contener imágenes",
+        "La comunicación usa una capa de seguridad para el transporte",
+        "El sitio es siempre oficial",
+        "La conexión no necesita navegador"
+      ],
+      "answer": 1,
+      "explanation": "HTTPS protege la comunicación mediante TLS; no demuestra por sí solo que el sitio sea oficial o fiable.",
+      "source": "MDN Web Docs — HTTPS; referencia técnica pendiente de adaptar a la convocatoria",
+      "sourceArticle": "Conceptos de seguridad web",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    },
+    {
+      "id": "c2-of-008",
+      "category": "ofimatica",
+      "topic": "Excel 365",
+      "difficulty": "basica",
+      "prompt": "La función Ordenar de Excel se utiliza para:",
+      "options": [
+        "Cambiar el orden de los datos según uno o varios criterios",
+        "Crear una cuenta de usuario",
+        "Comprimir un archivo",
+        "Cambiar el idioma de Windows"
+      ],
+      "answer": 0,
+      "explanation": "Ordenar reorganiza las filas según criterios definidos, sin que eso implique necesariamente filtrar o borrar datos.",
+      "source": "Microsoft Support — ordenar y filtrar datos en Excel; URL y versión pendientes de contraste",
+      "sourceArticle": "Ordenar datos",
+      "reviewStatus": "pendiente_revision_humana",
+      "reviewDate": "2026-08-03"
+    }
+  ]
+}

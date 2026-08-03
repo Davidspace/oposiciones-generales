@@ -45,7 +45,7 @@ const stopWords = new Set([
 
 function getKeywords(text: string, limit = 4) {
   const words = text
-    .replace(/[^\p{L}\p{N}\s]/gu, " ")
+    .replace(/[^A-Za-zÁÉÍÓÚáéíóúÜüÑñ0-9\s]/g, " ")
     .split(/\s+/)
     .map((word) => word.trim())
     .filter((word) => word.length > 2 && !stopWords.has(word.toLowerCase()));

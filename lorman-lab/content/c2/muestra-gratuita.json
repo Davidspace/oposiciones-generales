@@ -1,0 +1,6 @@
+{
+  "version": "c2-muestra-0.1",
+  "notice": "Muestra de cinco preguntas extraídas del piloto. Requiere revisión humana antes de publicación comercial.",
+  "questionIds": ["c2-org-001", "c2-act-001", "c2-ps-001", "c2-of-001", "c2-of-005"],
+  "reviewStatus": "pendiente_revision_humana"
+}

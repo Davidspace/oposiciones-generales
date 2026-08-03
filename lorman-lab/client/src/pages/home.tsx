@@ -8,6 +8,7 @@ import {
   ShieldCheck,
   Stethoscope,
 } from "lucide-react";
+import { trackLabEvent } from "@/lib/lab-analytics";
 
 type Course = {
   code: string;
@@ -64,27 +65,12 @@ const COURSES: Course[] = [
     description: "MVP en elaboración: normativa, psicotécnicos, actividad administrativa y ofimática.",
     status: "Validación local",
     proof: "Muestra gratuita de práctica",
-    href: "https://administrativo-estado.dgarmar.chatgpt.site/",
-    sampleHref: "https://administrativo-estado.dgarmar.chatgpt.site/#prueba",
+    href: "/c2",
+    sampleHref: "/c2#prueba",
     icon: ClipboardCheck,
     tone: "red",
   },
 ];
-
-function track(event: string, course?: string) {
-  try {
-    const payload = {
-      event,
-      course: course ?? null,
-      path: window.location.pathname,
-      at: new Date().toISOString(),
-    };
-    const stored = JSON.parse(window.localStorage.getItem("lorman-lab-events") ?? "[]") as unknown[];
-    window.localStorage.setItem("lorman-lab-events", JSON.stringify([...stored, payload].slice(-200)));
-  } catch {
-    // Local analytics must never block navigation or study.
-  }
-}
 
 function CourseCard({ course }: { course: Course }) {
   const Icon = course.icon;
@@ -100,11 +86,11 @@ function CourseCard({ course }: { course: Course }) {
       <p className="hub-course-description">{course.description}</p>
       <div className="hub-course-proof"><Check size={15} aria-hidden="true" /> {course.proof}</div>
       <div className="hub-course-actions">
-        <a className="hub-course-link" href={course.href} onClick={() => track("course_click", course.code)}>
+        <a className="hub-course-link" href={course.href} onClick={() => trackLabEvent("course_click", course.code)}>
           Explorar curso <ArrowUpRight size={16} aria-hidden="true" />
         </a>
         {course.sampleHref && (
-          <a className="hub-course-sample" href={course.sampleHref} onClick={() => track("sample_click", course.code)}>
+          <a className="hub-course-sample" href={course.sampleHref} onClick={() => trackLabEvent("sample_click", course.code)}>
             Ver muestra
           </a>
         )}
@@ -115,7 +101,7 @@ function CourseCard({ course }: { course: Course }) {
 
 export default function Home() {
   return (
-    <main className="hub-page" onLoad={() => track("landing_view")}>
+    <main className="hub-page" onLoad={() => trackLabEvent("landing_view", "hub")}>
       <header className="hub-header">
         <a className="hub-brand" href="#inicio" aria-label="Academia LORMAN, inicio">
           <span className="hub-brand-mark">L</span>
@@ -134,7 +120,7 @@ export default function Home() {
           <h1>Estudia con <em>una ruta.</em></h1>
           <p className="hub-lead">Una entrada común para nuestras academias de oposiciones. Consulta el alcance real, prueba una muestra y entra solo en el aula que encaja contigo.</p>
           <div className="hub-actions">
-            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => track("course_view")}>Ver cursos <ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver cursos <ArrowUpRight size={17} aria-hidden="true" /></a>
             <a className="hub-text-link" href="#metodo">Conoce el método</a>
           </div>
           <p className="hub-note">Proyecto experimental independiente. No es una página oficial de ninguna Administración.</p>
@@ -162,9 +148,9 @@ export default function Home() {
         <div className="hub-method-copy"><p>El contenido se organiza para que puedas estudiar sin depender de una clase semanal: abre un bloque, practica, revisa el error y decide qué repetir.</p><div className="hub-method-steps"><div><b>01</b><strong>Explora</strong><span>Comprueba el alcance antes de elegir.</span></div><div><b>02</b><strong>Entrena</strong><span>Practica con preguntas y simulacros.</span></div><div><b>03</b><strong>Decide</strong><span>Compra solo cuando el formato te convenza.</span></div></div></div>
       </section>
 
-      <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href="https://administrativo-estado.dgarmar.chatgpt.site/#prueba" onClick={() => track("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
+      <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href="/c2#prueba" onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
 
-      <footer className="hub-footer"><div><strong>Academia LORMAN</strong><p>Preparación digital independiente para oposiciones.</p></div><div className="hub-footer-links"><a href="#cursos">Cursos</a><a href="https://www.instagram.com/academialorman/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => track("whatsapp_click")}>WhatsApp</a></div></footer>
+      <footer className="hub-footer"><div><strong>Academia LORMAN</strong><p>Preparación digital independiente para oposiciones.</p></div><div className="hub-footer-links"><a href="#cursos">Cursos</a><a href="https://www.instagram.com/academialorman/" target="_blank" rel="noreferrer">Instagram</a><a href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub")}>WhatsApp</a></div></footer>
     </main>
   );
 }
