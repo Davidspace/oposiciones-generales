@@ -10,7 +10,7 @@ const files = [
   "telegram/bot.mjs",
   "content/c2/piloto/preguntas.json",
 ];
-const forbidden = /(Lorman2026!|FwfxmfB42jd9MXarWLGJnNlp3|gho_[A-Za-z0-9]+|TELEGRAM_BOT_TOKEN\s*=\s*[^\s#]+)/;
+const forbidden = /(?:^|[=:\s])(?:gho_|sk-|xoxb-)[A-Za-z0-9_-]{12,}|TELEGRAM_BOT_TOKEN\s*=\s*[^\s#]+/;
 const problems = [];
 
 for (const relative of files) {
