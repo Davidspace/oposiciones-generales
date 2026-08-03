@@ -390,6 +390,8 @@
 @media (max-width: 850px) { .c2-header nav a:not(.c2-nav-cta) { display: none; }.c2-hero, .c2-method, .c2-access { grid-template-columns: 1fr; }.c2-hero { min-height: auto; padding-top: 68px; }.c2-fact-grid { grid-template-columns: repeat(2, 1fr); }.c2-fact-grid div:nth-child(2) { border-right: 0; }.c2-fact-grid div:nth-child(3), .c2-fact-grid div:nth-child(4) { border-top: 1px solid var(--c2-line); }.c2-section-heading { grid-template-columns: 1fr; gap: 22px; }.c2-method, .c2-access { gap: 48px; }.c2-footer { align-items: flex-start; flex-wrap: wrap; }.c2-footer p { flex-basis: 100%; order: 3; } }
 @media (max-width: 560px) { .c2-header { padding: 0 16px; }.c2-nav-cta { padding: 10px 12px; }.c2-hero, .c2-practice, .c2-method, .c2-access, .c2-footer, .c2-facts { padding-left: 16px; padding-right: 16px; }.c2-hero h1 { font-size: 58px; }.c2-sheet { min-height: 430px; padding: 21px 20px; }.c2-sheet-footer { bottom: 20px; left: 20px; right: 20px; }.c2-sheet-grid { grid-template-columns: 1fr; gap: 15px; }.c2-sheet-grid div, .c2-sheet-grid div + div { border-bottom: 1px solid var(--c2-line); border-right: 0; min-height: auto; padding: 10px 0; }.c2-sheet-grid div:last-child { border-bottom: 0; }.c2-options { grid-template-columns: 1fr; padding-left: 0; }.c2-result { gap: 24px; grid-template-columns: 1fr; }.c2-method-steps { grid-template-columns: 1fr; }.c2-method-steps > div, .c2-method-steps > div + div { border-bottom: 1px solid #575757; border-right: 0; min-height: 120px; padding: 18px 0; }.c2-method-steps > div:last-child { border-bottom: 0; }.c2-method-steps strong { margin-top: 24px; }.c2-footer { align-items: flex-start; flex-direction: column; } }
 @media (prefers-reduced-motion: reduce) { .c2-page * { scroll-behavior: auto !important; } }
+
+
 /* Base tipográfica común (Archivo). SS conserva su familia propia hasta su pase de estilo. */
 .hub-page, .tai-page, .ae-page { font-family: Archivo, system-ui, sans-serif; }
 
@@ -624,12 +626,10 @@
   .of-status { max-width: 55%; }
 }
 
-/* Blindaje de la ficha y del pie frente a selectores de elemento sin ámbito. */
-.of-legal { display: block; padding: 0; }
+/* Blindaje de la ficha común frente a selectores de elemento sin ámbito
+   (SS arrastra un bloque heredado que redefine footer, details y summary). */
+.of-legal { display: block; }
 .of-legal__inner > div { padding: 0; }
 .of-card details,
 .of-card summary { border: 0; padding: 0; }
 .of-card summary::after { content: none; }
-@media (max-width: 850px) {
-  .of-legal__notice { padding: 24px 0 0; }
-}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
-@import "tailwindcss/index.css";
+@import "tailwindcss";
 
 :root {
   --surface: #ffffff;
@@ -1920,9 +1920,10 @@ footer > p {
 }
 
 /* Administrative C2 landing — Swiss editorial system */
-.ae-page { --ae-ink:#111; --ae-muted:#5f6067; --ae-line:#d7d7dc; --ae-accent:#e4002b; background:#fff; color:var(--ae-ink); min-height:100vh; scroll-margin-top:24px; }
+.ae-page { --ae-ink:#111; --ae-muted:#5f6067; --ae-line:#d7d7dc; --ae-accent:#e4002b; background:#fff; color:var(--ae-ink); min-height:100vh; }
 .ae-skip-link { background:var(--ae-ink); color:#fff; left:16px; padding:11px 14px; position:absolute; top:-100px; z-index:100; }
 .ae-skip-link:focus { color:#fff; top:16px; }
+.ae-page { scroll-margin-top:24px; }
 .ae-page * { box-sizing:border-box; }
 .ae-header { align-items:center; border-bottom:1px solid var(--ae-line); display:flex; height:76px; justify-content:space-between; padding:0 max(24px,calc((100vw - 1240px)/2)); position:sticky; top:0; z-index:20; background:rgba(255,255,255,.96); backdrop-filter:blur(10px); }
 .ae-brand { align-items:center; display:inline-flex; gap:12px; }
@@ -1995,7 +1996,7 @@ footer > p {
 .ae-options label { align-items:start; background:#f7f7f8; border:1px solid var(--ae-line); cursor:pointer; display:grid; gap:12px; grid-template-columns:30px 1fr; line-height:1.45; padding:13px; }
 .ae-options label:hover,.ae-options label.is-selected { border-color:var(--ae-ink); background:#fff; }
 .ae-options input { height:1px; opacity:0; position:absolute; width:1px; }
-.ae-options label:has(input:focus-visible) { outline:2px solid var(--ae-accent); outline-offset:2px; }
+.ae-options label:has(input:focus-visible) { outline: 2px solid var(--ae-accent); outline-offset:3px; }
 .ae-options b { border:1px solid var(--ae-ink); display:grid; font-size:12px; height:25px; place-items:center; width:25px; }
 .ae-practice-footer { align-items:center; border-bottom:1px solid var(--ae-ink); border-top:1px solid var(--ae-ink); display:flex; justify-content:space-between; margin-top:38px; padding:18px 0; }
 .ae-practice-footer p { color:var(--ae-muted); font-size:12px; font-weight:800; margin:0; }
@@ -2197,7 +2198,7 @@ footer > p {
 }
 
 .ss-page :focus-visible {
-  outline: 2px solid var(--ss-accent, var(--ss-pink));
+  outline: 4px solid var(--ss-pink);
   outline-offset: 2px;
 }
 
@@ -2772,8 +2773,8 @@ footer > p {
 }
 
 .ss-option:has(input:focus-visible) {
-  outline: 2px solid var(--ss-accent, var(--ss-pink));
-  outline-offset: 2px;
+  outline: 4px solid var(--ss-pink);
+  outline-offset: 3px;
 }
 
 .ss-option-key {
@@ -3607,6 +3608,8 @@ footer > p {
     transition-duration: 0.01ms !important;
   }
 }
+
+
 /* Base tipográfica común (Archivo). SS conserva su familia propia hasta su pase de estilo. */
 .hub-page, .tai-page, .ae-page { font-family: Archivo, system-ui, sans-serif; }
 
@@ -3840,12 +3843,10 @@ footer > p {
   .of-status { max-width: 55%; }
 }
 
-/* Blindaje de la ficha y del pie frente a selectores de elemento sin ámbito. */
-.of-legal { display: block; padding: 0; }
+/* Blindaje de la ficha común frente a selectores de elemento sin ámbito
+   (SS arrastra un bloque heredado que redefine footer, details y summary). */
+.of-legal { display: block; }
 .of-legal__inner > div { padding: 0; }
 .of-card details,
 .of-card summary { border: 0; padding: 0; }
 .of-card summary::after { content: none; }
-@media (max-width: 850px) {
-  .of-legal__notice { padding: 24px 0 0; }
-}

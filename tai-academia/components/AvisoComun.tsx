@@ -22,8 +22,8 @@ export const AVISO_BASE =
   "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado.";
 
 export const AVISO_PRECIOS =
-  " Los importes mostrados son previsiones de lanzamiento: el precio final, los impuestos, el derecho de " +
-  "desistimiento, la devolución, el contenido disponible y los límites de soporte se muestran antes de cualquier pago.";
+  " Los importes mostrados corresponden al producto y modalidad indicados. Antes de cualquier pago se mostrarán " +
+  "los impuestos, el derecho de desistimiento, la devolución, el contenido disponible y los límites de soporte.";
 
 export const AVISO_SIN_VENTA =
   " Esta superficie está en validación local: no hay venta activa ni precio publicado, y las condiciones se " +

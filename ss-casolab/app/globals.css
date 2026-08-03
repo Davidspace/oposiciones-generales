@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
-@import "tailwindcss/index.css";
+@import "tailwindcss";
 
 :root {
   --surface: #ffffff;
@@ -2187,7 +2187,6 @@ footer > p {
   border-bottom: 2px solid var(--ss-ink);
   padding: 5px 0;
 }
-
 .ss-nav .ss-nav-home {
   color: var(--ss-accent);
   font-size: 10px;
@@ -3516,7 +3515,7 @@ footer > p {
 }
 
 
-/* Base tipográfica común (Archivo). */
+/* Base tipográfica común (Archivo). SS conserva su familia propia hasta su pase de estilo. */
 .hub-page, .tai-page, .ae-page, .ss-page { font-family: Archivo, system-ui, sans-serif; }
 
 /* ============================================================
@@ -3751,11 +3750,8 @@ footer > p {
 
 /* Blindaje de la ficha común frente a selectores de elemento sin ámbito
    (SS arrastra un bloque heredado que redefine footer, details y summary). */
-.of-legal { display: block; padding: 0; }
+.of-legal { display: block; }
 .of-legal__inner > div { padding: 0; }
 .of-card details,
 .of-card summary { border: 0; padding: 0; }
 .of-card summary::after { content: none; }
-@media (max-width: 850px) {
-  .of-legal__notice { padding: 24px 0 0; }
-}

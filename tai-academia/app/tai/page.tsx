@@ -55,7 +55,7 @@ const FAQ = [
   ],
 ];
 
-const ACCESS_PRICE = "59 €";
+const ACCESS_PRICE = "95 €";
 
 export default function TaiLanding() {
   return (
@@ -90,7 +90,7 @@ export default function TaiLanding() {
             simulacros completos para practicar las dos partes del ejercicio.
           </p>
           <div className="tai-actions">
-            <a className="tai-button tai-button-primary" href="#acceso">Ver precio de lanzamiento <span aria-hidden="true">↓</span></a>
+            <a className="tai-button tai-button-primary" href="#acceso">Ver precio y acceso <span aria-hidden="true">↓</span></a>
             <a className="tai-text-link" href="#ruta">Ver la ruta de estudio</a>
           </div>
           <p className="tai-microcopy">Contenido del aula LORMAN · autoestudio · sin clases obligatorias</p>
@@ -103,14 +103,14 @@ export default function TaiLanding() {
           admin="Administración del Estado · subgrupo C1"
           title="Ficha del curso"
           description="Ejercicio único en dos partes: 80 preguntas más 5 de reserva y una parte práctica de 20 más 5, con 120 minutos para el conjunto."
-          status="Contenido completo · matrícula en preparación"
+          status="Contenido completo · acceso hasta el examen"
           indicators={[
             { value: "33", label: "temas en PDF" },
             { value: "33", label: "autoevaluaciones con explicación" },
             { value: "10", label: "simulacros: bloques III y IV" },
-            { value: "12", label: "meses de acceso" },
+            { value: "examen", label: "acceso hasta la fecha del examen" },
           ]}
-          price={{ label: "Precio de lanzamiento", value: ACCESS_PRICE }}
+          price={{ label: "Pago único", value: ACCESS_PRICE }}
           primary={{ label: "Ver el acceso completo", href: "#acceso" }}
           secondary={{ label: "Qué incluye", href: "#incluye" }}
         />
@@ -135,8 +135,8 @@ export default function TaiLanding() {
       </section>
 
       <section className="tai-access" id="acceso">
-        <div><p className="tai-kicker">ACCESO</p><h2>Una edición completa con precio de lanzamiento.</h2><p>Hemos eliminado las clases obligatorias y la tutoría individual para mantener el producto ligero y asequible. El precio mostrado es la propuesta inicial para validar la matrícula propia.</p></div>
-        <div className="tai-access-card"><span className="tai-status">PRECIO DE LANZAMIENTO</span><strong>Curso completo TAI C1</strong><p>Acceso al contenido del aula durante 12 meses.</p><ul className="tai-pricing"><li><span>33 temas + 33 autoevaluaciones</span><strong>Incluidos</strong></li><li><span>10 simulacros completos</span><strong>Incluidos</strong></li><li><span>Acceso 12 meses</span><strong>{ACCESS_PRICE}</strong></li></ul><span className="tai-button tai-button-dark tai-button-disabled" aria-label="Matrícula propia en preparación">Matrícula propia en preparación</span><small>La compra se habilitará en esta misma página. No incluye tutoría individual ni corrección manual.</small></div>
+        <div><p className="tai-kicker">ACCESO</p><h2>Una edición completa con pago único.</h2><p>Hemos eliminado las clases obligatorias y la tutoría individual para mantener el producto ligero y asequible. El acceso cubre el contenido disponible hasta la fecha del examen.</p></div>
+        <div className="tai-access-card"><span className="tai-status">ACCESO HASTA EL EXAMEN</span><strong>Curso completo TAI C1</strong><p>Pago único y acceso al contenido hasta el día del examen.</p><ul className="tai-pricing"><li><span>33 temas + 33 autoevaluaciones</span><strong>Incluidos</strong></li><li><span>10 simulacros completos</span><strong>Incluidos</strong></li><li><span>Pago único</span><strong>{ACCESS_PRICE}</strong></li></ul><span className="tai-button tai-button-dark tai-button-disabled" aria-label="Acceso al aula próximamente">Acceso al aula próximamente</span><small>La activación del acceso se habilitará en esta misma página. No incluye tutoría individual ni corrección manual.</small></div>
       </section>
 
       <section className="tai-faq" aria-labelledby="tai-faq-title"><div><p className="tai-kicker">PREGUNTAS</p><h2 id="tai-faq-title">Antes de empezar.</h2></div><div className="tai-faq-list">{FAQ.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>

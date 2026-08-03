@@ -1,0 +1,202 @@
+/* ==========================================================================
+   Academia LORMAN — sistema visual común (estilo Industry)
+   Pegar en el proyecto y cargar UNA sola vez por landing.
+   No usa esquinas de cota ni bordes redondeados: rectángulos y filetes.
+   Tipografía: Barlow Condensed (títulos) sobre Barlow (texto).
+   Cada superficie recibe su paleta aplicando una clase de producto
+   (.lm-hub, .lm-tcae, .lm-tai, .lm-ss, .lm-aux) en el contenedor raíz.
+   ========================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap");
+
+:root {
+  --lm-bg: #f2f2f3;
+  --lm-ink: #1d1f20;
+  --lm-muted: #5d5d60;
+  --lm-soft: #7a7a7d;
+  --lm-line: #d4d4d7;
+  --lm-tint-neutral: #e7e7ea;
+
+  --lm-font-heading: "Barlow Condensed", system-ui, sans-serif;
+  --lm-font-body: "Barlow", system-ui, sans-serif;
+
+  /* paleta por defecto: grafito (hub) */
+  --lm-accent: #42444a;
+  --lm-accent-dark: #2b2b2d;
+  --lm-accent-deep: #2b2b2d;
+  --lm-accent-tint: #e7e7ea;
+  --lm-accent-pale: #b7b7ba;
+}
+
+/* — paletas por producto — */
+.lm-hub  { --lm-accent: #42444a; --lm-accent-dark: #2b2b2d; --lm-accent-deep: #2b2b2d; --lm-accent-tint: #e7e7ea; --lm-accent-pale: #b7b7ba; }
+.lm-tcae { --lm-accent: #3f6b5c; --lm-accent-dark: #33574a; --lm-accent-deep: #22392f; --lm-accent-tint: #e6efeb; --lm-accent-pale: #cfe0d9; }
+.lm-tai  { --lm-accent: #5980a6; --lm-accent-dark: #416180; --lm-accent-deep: #1d2d3d; --lm-accent-tint: #e7eef5; --lm-accent-pale: #b5d9fd; }
+.lm-ss   { --lm-accent: #7b3f4b; --lm-accent-dark: #64323c; --lm-accent-deep: #341c21; --lm-accent-tint: #f2e7e9; --lm-accent-pale: #e8ced3; }
+.lm-aux  { --lm-accent: #55506e; --lm-accent-dark: #453f5c; --lm-accent-deep: #242130; --lm-accent-tint: #eae8f0; --lm-accent-pale: #d5d1e2; }
+
+/* — base — */
+.lm-page {
+  background: var(--lm-bg);
+  color: var(--lm-ink);
+  font-family: var(--lm-font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  margin: 0;
+}
+.lm-page *, .lm-page *::before, .lm-page *::after { box-sizing: border-box; }
+.lm-page h1, .lm-page h2, .lm-page h3, .lm-page strong.lm-display {
+  font-family: var(--lm-font-heading);
+  font-weight: 600;
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.lm-page a { color: var(--lm-accent-dark); text-underline-offset: 3px; }
+.lm-page a:hover { color: var(--lm-ink); }
+.lm-page :focus-visible { outline: 2px solid var(--lm-accent); outline-offset: 2px; }
+.lm-page ::selection { background: var(--lm-accent-tint); }
+
+.lm-shell { margin: 0 auto; max-width: 1200px; padding-inline: 24px; }
+.lm-skip-link {
+  position: absolute; left: -9999px;
+  background: var(--lm-ink); color: #fff; padding: 12px 16px;
+  font-family: var(--lm-font-heading); font-size: 16px;
+}
+.lm-skip-link:focus { left: 16px; top: 16px; z-index: 60; }
+
+/* — cabecera — */
+.lm-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 24px; flex-wrap: wrap;
+  min-height: 88px; padding-block: 14px;
+  border-bottom: 1px solid var(--lm-line);
+}
+.lm-logo { display: inline-flex; align-items: center; text-decoration: none; }
+.lm-logo img { display: block; height: 40px; width: auto; }
+.lm-nav { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+.lm-nav a {
+  font-family: var(--lm-font-heading); font-size: 19px; letter-spacing: 0.02em;
+  text-decoration: none; color: var(--lm-ink);
+}
+.lm-nav-back { color: var(--lm-muted) !important; font-size: 18px !important; }
+.lm-ig { display: inline-flex; align-items: center; gap: 7px; font-family: var(--lm-font-body) !important; font-size: 14px !important; color: var(--lm-muted) !important; text-decoration: none; }
+.lm-ig svg { display: block; }
+
+/* — encabezado de sección / hero — */
+.lm-hero { padding: 64px 0 40px; }
+.lm-eyebrow {
+  display: flex; align-items: center; gap: 10px; margin: 0 0 18px;
+  font-family: var(--lm-font-heading); font-size: 16px;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--lm-accent-dark);
+}
+.lm-eyebrow i { width: 10px; height: 10px; background: var(--lm-accent); display: inline-block; }
+.lm-hero h1 { font-size: clamp(50px, 6vw, 78px); line-height: 0.95; margin: 0 0 18px; }
+.lm-lead { margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: var(--lm-muted); }
+.lm-actions { display: flex; flex-wrap: wrap; gap: 16px; }
+
+/* — botones — */
+.lm-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 14px;
+  min-height: 72px; padding: 0 30px; border: 1px solid transparent;
+  font-family: var(--lm-font-heading); font-size: 27px; letter-spacing: 0.04em;
+  text-transform: uppercase; text-decoration: none; cursor: pointer;
+}
+.lm-btn-primary { background: var(--lm-accent); color: #fff; }
+.lm-btn-primary:hover, .lm-btn-primary:focus-visible { background: var(--lm-accent-dark); color: #fff; }
+.lm-btn-outline { border-color: var(--lm-ink); color: var(--lm-ink); font-size: 24px; padding: 0 26px; }
+.lm-btn-outline:hover { background: var(--lm-accent-tint); color: var(--lm-ink); }
+.lm-btn-mark { height: 26px; width: auto; mix-blend-mode: multiply; }
+.lm-btn-note { margin: 22px 0 0; font-size: 14px; color: var(--lm-soft); }
+
+/* — rejilla de cajones (4 por landing: temario, test, simulacros, precio) — */
+.lm-boxes {
+  display: grid; gap: 20px; padding-bottom: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.lm-box {
+  display: flex; flex-direction: column; gap: 10px;
+  border: 1px solid var(--lm-ink); padding: 22px 22px 26px;
+}
+.lm-box-kicker {
+  font-family: var(--lm-font-heading); font-size: 15px;
+  letter-spacing: 0.16em; text-transform: uppercase; color: var(--lm-accent-dark);
+}
+.lm-box-title { font-family: var(--lm-font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase; }
+.lm-box p { margin: 0; font-size: 15px; color: var(--lm-muted); }
+.lm-box-figure { margin-top: auto; font-size: 14px; color: var(--lm-soft); }
+.lm-box-solid { background: var(--lm-accent); border-color: var(--lm-accent); color: #fff; }
+.lm-box-solid .lm-box-kicker { color: var(--lm-accent-pale); }
+.lm-box-solid p { color: var(--lm-accent-tint); }
+.lm-box-cta {
+  margin-top: auto; display: flex; align-items: center; justify-content: center;
+  min-height: 60px; background: #fff; color: var(--lm-accent-deep);
+  font-family: var(--lm-font-heading); font-size: 22px; letter-spacing: 0.05em;
+  text-transform: uppercase; text-decoration: none;
+}
+.lm-box-cta:hover { background: var(--lm-accent-tint); color: var(--lm-accent-deep); }
+.lm-fineprint { margin: 26px 0 0; font-size: 14px; color: var(--lm-muted); }
+
+/* — fichas de curso del hub: dos por fila — */
+.lm-cards {
+  display: grid; gap: 22px; padding-bottom: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px)));
+}
+.lm-card { display: flex; flex-direction: column; border: 1px solid var(--lm-ink); }
+.lm-card-head { padding: 20px 20px 0; }
+.lm-card-code {
+  display: block; font-family: var(--lm-font-heading);
+  font-size: 54px; line-height: 0.9; color: var(--lm-accent-dark);
+}
+.lm-card-code-sm { font-size: 40px; line-height: 0.95; }
+.lm-card h3 { margin: 10px 0 0; font-size: 24px; line-height: 1.1; }
+.lm-card-meta { margin: 6px 0 0; font-size: 14px; color: var(--lm-muted); }
+.lm-card-list { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid var(--lm-line); }
+.lm-card-list li { border-bottom: 1px solid var(--lm-line); padding: 13px 20px; }
+.lm-card-list li.lm-row-price { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.lm-item-title { display: block; font-family: var(--lm-font-heading); font-size: 21px; text-transform: uppercase; }
+.lm-item-note { font-size: 14px; color: var(--lm-muted); }
+.lm-price { font-family: var(--lm-font-heading); font-size: 30px; color: var(--lm-accent-dark); }
+.lm-card-foot { margin-top: auto; padding: 20px; }
+.lm-card-cta {
+  display: flex; align-items: center; justify-content: center; min-height: 64px;
+  background: var(--lm-accent); color: #fff;
+  font-family: var(--lm-font-heading); font-size: 24px; letter-spacing: 0.05em;
+  text-transform: uppercase; text-decoration: none;
+}
+.lm-card-cta:hover { background: var(--lm-accent-dark); color: #fff; }
+
+/* — panel lateral simple del hub — */
+.lm-panel { border: 1px solid var(--lm-ink); padding: 22px 24px; }
+.lm-panel-kicker { display: block; font-family: var(--lm-font-heading); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--lm-muted); }
+.lm-panel-row { border-bottom: 1px solid var(--lm-line); padding: 14px 0; }
+.lm-panel-row:last-child { border-bottom: 0; }
+.lm-panel-row strong { font-family: var(--lm-font-heading); font-size: 26px; text-transform: uppercase; }
+.lm-panel-row span { display: block; font-size: 14px; color: var(--lm-muted); }
+
+/* — preguntas — */
+.lm-faq details { border-bottom: 1px solid var(--lm-line); }
+.lm-faq summary { cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--lm-font-heading); font-size: 22px; }
+.lm-faq summary::-webkit-details-marker { display: none; }
+.lm-faq p { margin: -6px 0 18px; font-size: 15px; color: var(--lm-muted); max-width: 560px; }
+
+/* — pie legal — */
+.lm-footer { background: var(--lm-accent-deep); color: #fff; }
+.lm-footer-inner {
+  display: grid; gap: 36px; padding: 36px 24px 44px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin: 0 auto; max-width: 1200px;
+}
+.lm-footer img { height: 34px; width: auto; background: var(--lm-bg); padding: 6px; }
+.lm-footer-links { display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px; }
+.lm-footer-links a { font-family: var(--lm-font-heading); font-size: 17px; color: #fff; text-decoration: none; }
+.lm-footer .lm-ig { color: var(--lm-accent-pale) !important; }
+.lm-notice { margin: 0; font-size: 13px; line-height: 1.6; color: var(--lm-accent-pale); }
+
+/* — responsive — */
+@media (max-width: 720px) {
+  .lm-cards { grid-template-columns: 1fr; }
+  .lm-btn { font-size: 23px; min-height: 64px; padding: 0 22px; }
+  .lm-hero { padding-top: 44px; }
+}

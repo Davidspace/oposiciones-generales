@@ -32,18 +32,18 @@ export default function Home() {
 
       <section className="hub-hero" id="inicio">
         <div className="hub-hero-copy">
-          <p className="hub-kicker"><span /> ACADEMIA LORMAN · CINCO OPOSICIONES</p>
+          <p className="hub-kicker"><span /> ACADEMIA LORMAN · CUATRO OPOSICIONES</p>
           <h1>Estudia con <em>una ruta.</em></h1>
           <p className="hub-lead">Una entrada común para nuestras academias de oposiciones. Consulta el alcance real, prueba una muestra y entra solo en el aula que encaja contigo.</p>
           <div className="hub-actions">
-            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver las cinco fichas <ArrowUpRight size={17} aria-hidden="true" /></a>
+            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver las cuatro fichas <ArrowUpRight size={17} aria-hidden="true" /></a>
             <a className="hub-text-link" href="#metodo">Conoce el método</a>
           </div>
           <p className="hub-note">Preparación digital independiente. No es una página oficial de ninguna Administración.</p>
         </div>
         <div className="hub-hero-sheet" aria-label="Ruta común de estudio">
           <div className="hub-sheet-top"><span>LO / 01</span><span>ACADEMIA LORMAN</span></div>
-          <div className="hub-sheet-title"><span>UNA MARCA · CINCO OPOSICIONES</span><strong>Contenido claro.<br />Práctica frecuente.</strong></div>
+          <div className="hub-sheet-title"><span>UNA MARCA · CUATRO OPOSICIONES</span><strong>Contenido claro.<br />Práctica frecuente.</strong></div>
           <div className="hub-sheet-list"><div><b>01</b><span>Consulta la ficha y el estado real</span></div><div><b>02</b><span>Accede a una muestra</span></div><div><b>03</b><span>Elige tu aula</span></div></div>
           <div className="hub-sheet-footer"><i /> <span>Autoestudio · acceso digital · información clara</span></div>
         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
       <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href={`${PRODUCT_URLS.c2}#prueba`} onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
 
-      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra una acción secundaria solo cuando el producto tiene muestra o diagnóstico. En este laboratorio la tienen TCAE, SS, C2 y Auxilio Judicial.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>Indica en qué punto está el producto: contenido disponible, matrícula en preparación, publicación en revisión o validación local sin venta.</p></details><details><summary>¿Los precios de la ficha son definitivos?</summary><p>No. Son los importes previstos de lanzamiento. El importe final, los impuestos y las condiciones se muestran en la propia landing antes de pagar.</p></details></div></section>
+      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra una acción secundaria solo cuando el producto tiene muestra o diagnóstico. En este laboratorio la tienen TCAE, SS y C2.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>Indica si el contenido está disponible, si el acceso está pendiente de activación o si la superficie sigue en validación sin venta.</p></details><details><summary>¿Los precios de la ficha son definitivos?</summary><p>TAI y SS muestran un precio de pago único en sus fichas. Antes de pagar cada landing debe mostrar el importe final, los impuestos y las condiciones de acceso.</p></details></div></section>
 
       <AvisoComun
         brand="Academia LORMAN"
