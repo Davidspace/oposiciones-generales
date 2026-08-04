@@ -2,6 +2,7 @@ import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
+import { MuestraMaterial } from "@/components/MuestraMaterial";
 
 const WHATSAPP = "34640828654";
 
@@ -20,24 +21,37 @@ export default function TaiLanding() {
       <main className="lm-page lm-tai" id="contenido-principal" tabIndex={-1}>
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Curso TAI, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación del curso TAI"><a className="tai-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#contenido">Qué incluye</a><a href="#ruta">Ruta</a><a href="#acceso">Acceso</a></nav>
+          <nav className="lm-nav" aria-label="Navegación del curso TAI"><a className="tai-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#contenido">Qué incluye</a><a href="#muestra">Muestra</a><a href="#ruta">Ruta</a><a href="#acceso">Acceso</a></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Curso completo · TAI C1</p>
           <h1>Todo el programa.<br />Sin pagar de más.</h1>
           <p className="lm-lead">Preparación online para Técnicos Auxiliares de Informática de la Administración del Estado: 33 temas, 33 autoevaluaciones y 10 simulacros completos para practicar las dos partes del ejercicio.</p>
-          <CtaContacto whatsapp={WHATSAPP} label="Consultar acceso TAI" note="Respuesta por WhatsApp · curso de autoestudio" >
+          <CtaContacto whatsapp={WHATSAPP}>
             <a className="lm-btn lm-btn-outline" href="#contenido">Ver el contenido</a>
           </CtaContacto>
         </section>
 
-        <section className="lm-shell lm-boxes" aria-label="Contenido de TAI">
-          <Cajon kicker="01 · TEMARIO" title="33 temas en PDF" text="Legislación, administración electrónica, desarrollo, sistemas, redes y seguridad." figure="Programa completo del aula" />
-          <Cajon kicker="02 · AUTOEVALUACIÓN" title="33 tests" text="Un cuestionario por tema con calificación, aciertos, errores, respuesta correcta y explicación." figure="Corrección automática" />
-          <Cajon kicker="03 · SIMULACROS" title="10 recorridos" text="Cinco simulacros del bloque III y cinco del bloque IV, con reservas y tiempo límite de dos horas." figure="Las dos partes del ejercicio" />
-          <CajonCierre kicker="04 · ACCESO" title="95 €" text="Pago único. Acceso al contenido disponible hasta la fecha del examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} label="Quiero apuntarme" />
+        <section className="lm-shell lm-boxes" id="acceso" aria-label="Contenido de TAI">
+          <Cajon kicker="01 · TEMARIO" title="Temario completo" text="Legislación, administración electrónica, desarrollo, sistemas, redes y seguridad." figure="33 temas" />
+          <Cajon kicker="02 · TEST" title="Tests y autoevaluaciones" text="Un cuestionario por tema con calificación, aciertos, errores, respuesta correcta y explicación." figure="muchos más que temas" />
+          <Cajon kicker="03 · SIMULACROS" title="Simulacros y prácticos" text="Cinco simulacros del bloque III y cinco del bloque IV, con reservas y tiempo límite de dos horas." figure="las dos partes del ejercicio" />
+          <CajonCierre kicker="04 · PRECIO / ACCESO" title="Pago único" text="95 € · acceso hasta la fecha del examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} />
         </section>
+
+        <MuestraMaterial
+          grupos={[{
+            paginas: [
+              { src: "/muestras/tai-1.jpeg", alt: "Página de muestra del temario TAI 1" },
+              { src: "/muestras/tai-2.jpeg", alt: "Página de muestra del temario TAI 2" },
+              { src: "/muestras/tai-3.jpeg", alt: "Página de muestra del temario TAI 3" },
+              { src: "/muestras/tai-4.jpeg", alt: "Página de muestra del temario TAI 4" },
+            ],
+            nota: "Páginas de muestra del temario TAI. El aula contiene el programa completo.",
+          }]}
+          preguntas={[]}
+        />
 
         <section className="lm-shell" id="ruta">
           <div className="lm-section-heading"><p className="lm-eyebrow"><i aria-hidden="true" /> La ruta</p><h2 className="lm-display">Leer. Comprobar.<br />Simular. Corregir.</h2><p className="lm-lead">El aula convierte el programa en una secuencia sencilla. No necesitas una clase semanal para saber cuál es el siguiente paso.</p></div>
@@ -57,12 +71,6 @@ export default function TaiLanding() {
           <div className="lm-panel-row"><strong>33 autoevaluaciones</strong><span>Una por tema, con explicación tras el intento.</span></div>
           <div className="lm-panel-row"><strong>10 simulacros</strong><span>Cinco para el bloque III y cinco para el bloque IV.</span></div>
           <div className="lm-panel-row"><strong>120 minutos</strong><span>Entrenamiento del ejercicio conjunto con preguntas de reserva.</span></div>
-        </section>
-
-        <section className="lm-shell lm-boxes" id="acceso">
-          <Cajon kicker="CONDICIONES" title="Pago único" text="Una edición completa, sin clases obligatorias ni tutoría individual incluida." figure="95 € · acceso hasta el examen" />
-          <Cajon kicker="FORMATO" title="Aula asíncrona" text="Estudia cuando encaje con tu calendario y repite los cuestionarios que necesites." figure="Moodle · autoestudio" />
-          <CajonCierre kicker="SIGUIENTE PASO" title="Consulta la activación" text="Te indicaremos cómo activar el acceso y las condiciones vigentes antes de cualquier pago." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20activar%20TAI.`} />
         </section>
 
         <section className="lm-shell lm-faq" aria-labelledby="faq-title">

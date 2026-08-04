@@ -14,6 +14,9 @@ import {
 } from "@/lib/ss-casolab";
 import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_PRECIOS } from "@/components/AvisoComun";
+import { Cajon, CajonCierre } from "@/components/Cajones";
+import { CtaContacto } from "@/components/CtaContacto";
+import { MuestraMaterial } from "@/components/MuestraMaterial";
 import { FichaOposicion } from "@/components/FichaOposicion";
 
 type SubmitState = "idle" | "sending" | "success" | "error";
@@ -24,6 +27,7 @@ type EventType =
   | "lead_submit";
 
 const EXPERIMENT = "ss-casolab";
+const WHATSAPP = "34640828654";
 let volatileSessionId: string | null = null;
 const EMPTY_QUESTIONS: SsQuestion[] = [];
 
@@ -318,6 +322,7 @@ export function SsCasoLabLanding({
         <nav className="ss-nav" aria-label="Navegación de SS CasoLab">
           <a className="ss-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a>
           <a href="#microcaso">Microcaso</a>
+          <a href="#muestra">Muestra</a>
           <a href="#acceso">Acceso</a>
           <a className="ss-nav-action" href="#microcaso">
             Empezar
@@ -337,14 +342,14 @@ export function SsCasoLabLanding({
             tema, simulacros, normativa y documentación oficial. Estudia a tu
             ritmo, revisa tus errores y vuelve al bloque que necesites.
           </p>
-          <div className="ss-actions">
+          <CtaContacto whatsapp={WHATSAPP}>
             <a className="ss-button ss-button-primary" href="#microcaso">
               Resolver el microcaso
             </a>
             <a className="ss-text-link" href="#como-funciona">
               Ver cómo funciona
             </a>
-          </div>
+          </CtaContacto>
           <dl className="ss-facts">
             <div>
               <dt>15</dt>
@@ -391,6 +396,13 @@ export function SsCasoLabLanding({
             diagnosticPublicable ? { label: "Microcaso", href: "#microcaso" } : undefined
           }
         />
+      </section>
+
+      <section className="lm-shell lm-boxes" aria-label="Contenido de SS CasoLab">
+        <Cajon kicker="01 · TEMARIO" title="36 temas" text="23 temas generales y 13 específicos de Seguridad Social." figure="23 generales + 13 específicos" />
+        <Cajon kicker="02 · TEST" title="36 tests" text="Tests organizados por tema para comprobar la regla y volver al bloque que falla." figure="Autocorrección" />
+        <Cajon kicker="03 · SIMULACROS" title="14 casos" text="Supuestos prácticos estructurados para entrenar el ejercicio." figure="Acceso hasta el examen" />
+        <CajonCierre kicker="04 · PRECIO / ACCESO" title="49 €" text="Pago único y acceso hasta la fecha del examen cuando el acceso esté habilitado." href={orderingEnabled ? "/ss-casolab/pedido" : "#acceso"} />
       </section>
 
       <section className="ss-strip" aria-label="Datos de la convocatoria">
@@ -1012,12 +1024,21 @@ export function SsCasoLabLanding({
         </p>
       </section>
 
+      <MuestraMaterial
+        grupos={[{
+          paginas: [{}, {}, {}, {}],
+          nota: "Las páginas de muestra se incorporarán cuando el material editorial esté preparado para publicación.",
+        }]}
+        preguntas={[]}
+      />
+
       <AvisoComun
         brand="SS CasoLab · Academia LORMAN"
         tagline="Decide · corrige · repasa."
         links={[
           { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
           { label: "Microcaso", href: "#microcaso" },
+          { label: "Muestra", href: "#muestra" },
           { label: "Acceso", href: "#acceso" },
           { label: "Preguntas", href: "#preguntas" },
         ]}

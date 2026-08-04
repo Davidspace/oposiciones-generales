@@ -358,6 +358,9 @@ body .lm-page.ss-page .ss-sources a, body .lm-page.ss-page .ss-legal-note a { co
   margin: 0; padding: 0 18px 18px; background: var(--lm-accent-tint);
   font-size: 13px; line-height: 1.5; color: #7a7a7d;
 }
+.lm-muestra-empty {
+  margin: 0; padding: 24px 0; color: var(--lm-muted); font-size: 14px; line-height: 1.5;
+}
 
 .lm-pregunta { border: 1px solid var(--lm-line); background: #fff; }
 .lm-pregunta > summary {

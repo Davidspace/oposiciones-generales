@@ -4,6 +4,7 @@ import "./styles.css";
 import { AvisoComun, AVISO_JUSTICIA } from "./components/AvisoComun";
 import { Cajon, CajonCierre, Cajones } from "./components/Cajones";
 import { CtaContacto } from "./components/CtaContacto";
+import { MuestraMaterial } from "./components/MuestraMaterial";
 
 const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://lorman-lab.vercel.app";
 const MOODLE_URL = import.meta.env.VITE_MOODLE_URL?.trim() || "https://aula.academialorman.es/course/view.php?id=11";
@@ -55,24 +56,32 @@ function App() {
       <main className="lm-page lm-aux" id="contenido">
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#alcance">Alcance</a><a href="#temario">26 temas</a><a href="#acceso">Acceso</a></nav>
+          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#alcance">Alcance</a><a href="#muestra">Muestra</a><a href="#temario">26 temas</a><a href="#alcance">Acceso</a></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones de Justicia · subgrupo C2</p>
           <h1>Auxilio Judicial.<br />Solo práctica.</h1>
           <p className="lm-lead">Un aula de tests autocorregibles para convertir los 26 temas de Auxilio Judicial en sesiones concretas: responde, revisa el error y repite.</p>
-          <CtaContacto whatsapp={WHATSAPP} label="Solicitar acceso" note="Moodle · tests autocorregibles · sin temario escrito">
+          <CtaContacto whatsapp={WHATSAPP}>
             <a className="lm-btn lm-btn-outline" href="#alcance">Ver qué incluye</a>
           </CtaContacto>
         </section>
 
         <section className="lm-shell lm-boxes" id="alcance" aria-label="Inventario del aula">
-          <Cajon kicker="01 · COBERTURA" title="26 temas" text="Los bloques del programa están organizados por secciones dentro del aula." figure="Temario de referencia" />
-          <Cajon kicker="02 · PRÁCTICA" title="90 cuestionarios" text="Autoevaluaciones por tema, repasos transversales y casos prácticos para aplicar la materia." figure="Resultado dentro de Moodle" />
-          <Cajon kicker="03 · MODELOS" title="5 oficiales" text="Cuestionarios del bloque de exámenes oficiales disponible en el aula." figure="Repaso con fuentes" />
-          <CajonCierre kicker="04 · ACCESO" title="Solo tests" text="No incluye temario escrito, clases ni corrección individual. Su función es darte práctica repetible." href={WHATSAPP_URL} label="Quiero apuntarme" />
+          <Cajon kicker="01 · TEMARIO" title="Cuestionarios por tema" text="Los bloques del programa están organizados por secciones dentro del aula." figure="26 temas cubiertos" />
+          <Cajon kicker="02 · TEST" title="Práctica intensiva" text="Autoevaluaciones por tema, repasos transversales y casos prácticos para aplicar la materia." figure="90 cuestionarios distintos" />
+          <Cajon kicker="03 · SIMULACROS" title="Corrección automática" text="Responde, comprueba el resultado y repite los bloques que necesites." figure="sin temario incluido" />
+          <CajonCierre kicker="04 · PRECIO / ACCESO" title="Solo tests" text="No incluye temario escrito, clases ni corrección individual. Su función es darte práctica repetible." href={WHATSAPP_URL} />
         </section>
+
+        <MuestraMaterial
+          grupos={[{
+            paginas: [{}, {}, {}, {}],
+            nota: "La muestra de páginas se incorporará cuando el material editorial esté preparado.",
+          }]}
+          preguntas={[]}
+        />
 
         <section className="lm-shell lm-panel" id="acceso">
           <span className="lm-panel-kicker">Cómo está organizado</span>
@@ -85,12 +94,6 @@ function App() {
         <section className="lm-shell" id="temario">
           <div className="lm-section-heading"><p className="lm-eyebrow"><i aria-hidden="true" /> Cobertura</p><h2 className="lm-display">Los 26 temas<br />del aula.</h2><p className="lm-lead">Estos son los nombres de las secciones observadas en Moodle. El detalle y los cuestionarios están dentro del curso.</p></div>
           <div className="lm-topic-grid">{GROUPS.map(([range, label, topics]) => <article className="lm-topic-group" key={label}><div className="lm-topic-head"><span>{range}</span><strong>{label}</strong></div><ol>{topics.map((topic) => <li key={topic}>{topic}</li>)}</ol></article>)}</div>
-        </section>
-
-        <section className="lm-shell lm-boxes">
-          <Cajon kicker="ENCAJA SI…" title="Ya tienes teoría" text="Buscas autocorrección y repetición para consolidar la materia." figure="Autoestudio" />
-          <Cajon kicker="NO ES…" title="Una academia completa" text="No sustituye un temario, una clase en directo ni una tutoría individual." figure="Alcance declarado" />
-          <CajonCierre kicker="SIGUIENTE PASO" title="Entrar en el aula" text="Escribe para conocer el precio, duración y condiciones de acceso vigentes antes de activarlo." href={MOODLE_URL} label="Abrir Moodle" />
         </section>
 
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "26 temas", href: "#temario" }, { label: "Aula Moodle", href: MOODLE_URL }]} notice={AVISO_JUSTICIA} />

@@ -14,9 +14,9 @@ const COURSES: FichaCursoProps[] = [
     title: "Cuidados Auxiliares de Enfermería",
     meta: "Servicios de salud · turno libre",
     items: [
-      { title: "Temario por bloques", note: "resúmenes y esquemas" },
+      { title: "Temario por bloques", note: "con resúmenes y esquemas" },
       { title: "Tests por tema", note: "respuesta razonada" },
-      { title: "Simulacros tipo examen", note: "repaso general autocorregible" },
+      { title: "Simulacros tipo examen", note: "y repaso general autocorregible" },
     ],
     cta: { label: "Ver curso TCAE", href: TCAE_URL },
   },
@@ -24,10 +24,10 @@ const COURSES: FichaCursoProps[] = [
     code: "TAI",
     tone: "tai",
     title: "Técnico Auxiliar de Informática",
-    meta: "Administración del Estado · subgrupo C1",
+    meta: "Estado · subgrupo C1",
     items: [
-      { title: "Temario completo", note: "33 temas en PDF" },
-      { title: "Tests y autoevaluaciones", note: "una por tema, con explicación" },
+      { title: "Temario completo", note: "33 temas" },
+      { title: "Tests y autoevaluaciones", note: "muchos más que temas" },
       { title: "Simulacros y prácticos", note: "las dos partes del ejercicio" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "95 €" },
@@ -36,12 +36,12 @@ const COURSES: FichaCursoProps[] = [
   {
     code: "SS",
     tone: "ss",
-    title: "Administrativo de la Seguridad Social",
+    title: "Administrativo Seguridad Social",
     meta: "Subgrupo C1 · acceso libre",
     items: [
       { title: "Temario general y específico", note: "36 temas redactados" },
       { title: "Tests por tema", note: "con normativa citada" },
-      { title: "Supuestos prácticos", note: "entrenamiento autocorregible" },
+      { title: "Supuestos prácticos", note: "como en el ejercicio" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "49 €" },
     cta: { label: "Ver curso SS", href: PRODUCT_URLS.ss },
@@ -78,7 +78,6 @@ export default function Home() {
             <a href="#cursos">Cursos</a>
             <a href="#metodo">Método</a>
             <a href="#preguntas">Preguntas</a>
-            <a className="lm-nav-back" href="https://wa.me/34640828654" target="_blank" rel="noreferrer">Contacto</a>
           </nav>
         </header>
 
@@ -126,7 +125,7 @@ export default function Home() {
         </section>
 
         <AvisoComun
-          links={[{ label: "Cursos", href: "#cursos" }, { label: "Preguntas", href: "#preguntas" }, { label: "WhatsApp", href: "https://wa.me/34640828654" }]}
+          links={[{ label: "Cursos", href: "#cursos" }, { label: "Preguntas", href: "#preguntas" }]}
           notice={AVISO_BASE + AVISO_PRECIOS}
         />
       </main>

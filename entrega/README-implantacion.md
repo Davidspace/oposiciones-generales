@@ -40,17 +40,17 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
   (cerrados por defecto) a la derecha.
 - Copia `assets/muestras/*` a `public/muestras/` del proyecto correspondiente
   (TAI: `tai-*`; TCAE: `sms-*` y `sas-*`).
-- Las preguntas van con **texto de relleno**: sustituir por los enunciados reales
-  exportados del Moodle (`preguntas` de `MuestraMaterial`).
+- Las preguntas se muestran en desplegables cuando existe una selección revisada.
+  Si no existe, la fila informa de que las preguntas revisadas están dentro del
+  aula y no publica enunciados de relleno.
 - SS y Auxilio Judicial se entregan con las páginas en hueco (`src` sin definir):
   se dibuja el marco «Página N» hasta que haya capturas.
 - El enlace de Instagram de cabecera y pie usa ya el mismo color, familia y tamaño
   que los enlaces vecinos (antes iba en un gris distinto).
 
-Este pase deja los componentes y recursos en `entrega/` como handoff. No conecta aún la
-fila a las rutas públicas: TAI no tiene en este repositorio un banco de preguntas
-publicable y las preguntas del ZIP son de relleno. La conexión se hará después de
-incorporar preguntas revisadas desde la fuente editorial correspondiente.
+La fila ya está conectada a las rutas públicas. TAI muestra las páginas de muestra
+disponibles y SS, Auxilio Judicial, C2 y los bancos sin procedencia pública mantienen
+el estado honesto de aula cerrada para preguntas y páginas no publicadas.
 
 ## Reglas de contenido aplicadas
 
@@ -83,6 +83,5 @@ incorporar preguntas revisadas desde la fuente editorial correspondiente.
 - `ss-casolab/app/globals.css` conserva selectores históricos sin ámbito para las rutas
   internas `/pedido` y `_sites-preview`; requieren una pasada visual independiente.
 
-Las preguntas incluidas en el componente de muestra de este ZIP son de relleno. No se
-deben publicar como preguntas reales: hay que sustituirlas por preguntas revisadas y
-con procedencia antes de conectar `MuestraMaterial` a una landing pública.
+No se publican preguntas inventadas como material de muestra. Antes de añadir una
+pregunta a `MuestraMaterial`, debe existir una revisión editorial y su procedencia.

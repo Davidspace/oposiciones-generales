@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react";
 import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
+import { CtaContacto } from "@/components/CtaContacto";
+import { MuestraMaterial } from "@/components/MuestraMaterial";
 
 const EXPERIMENT = "administrativo-estado-c2";
 const WHATSAPP = "34640828654";
@@ -52,23 +54,33 @@ export default function AdministrativoEstadoLanding() {
       <main className="lm-page lm-aux" id="contenido-principal" tabIndex={-1}>
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación principal"><a className="ae-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#examen">Examen</a><a href="#metodo">Método</a><a href="#prueba">Prueba gratuita</a></nav>
+          <nav className="lm-nav" aria-label="Navegación principal"><a className="ae-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#examen">Examen</a><a href="#muestra">Muestra</a><a href="#metodo">Método</a><a href="#prueba">Prueba gratuita</a></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Oposición AGE · subgrupo C2</p>
           <h1>Una oposición amplia.<br />Una ruta sencilla.</h1>
           <p className="lm-lead">Preparación digital para el Cuerpo General Auxiliar de la Administración del Estado: normativa, psicotécnicos y ofimática en una experiencia de práctica que puedes repetir.</p>
-          <div className="lm-actions"><a className="lm-btn lm-btn-primary" href="#prueba" onClick={() => track("offer_view", { section: "hero" })}>Hacer la prueba gratuita</a><a className="lm-btn lm-btn-outline" href="#examen">Ver el examen</a></div>
-          <p className="lm-btn-note">Validación local · precio no publicado · material independiente</p>
+          <CtaContacto whatsapp={WHATSAPP}>
+            <a className="lm-btn lm-btn-outline" href="#prueba" onClick={() => track("offer_view", { section: "hero" })}>Hacer la prueba gratuita</a>
+            <a className="lm-btn lm-btn-outline" href="#examen">Ver el examen</a>
+          </CtaContacto>
         </section>
 
         <section className="lm-shell lm-boxes" id="examen" aria-label="Datos del ejercicio">
-          <Cajon kicker="01 · CONVOCATORIA" title="1.700 plazas" text="Ingreso libre en la convocatoria 2025, según la ficha publicada por BOE e INAP." figure="Consultar siempre la convocatoria vigente" />
-          <Cajon kicker="02 · PRIMERA PARTE" title="30 + 30" text="Preguntas de normativa y psicotécnicos para medir fundamentos y razonamiento." figure="Penalización de 1/3 por error" />
-          <Cajon kicker="03 · SEGUNDA PARTE" title="50 preguntas" text="Actividad administrativa y ofimática: Windows 11 y Microsoft 365 de escritorio." figure="Tiempo conjunto: 90 minutos" />
-          <CajonCierre kicker="04 · MUESTRA" title="5 preguntas" text="Responde una práctica breve y observa cómo te ayuda a localizar el siguiente bloque de estudio." href="#prueba" label="Empezar la prueba" />
+          <Cajon kicker="01 · TEMARIO" title="Normativa y psicotécnicos" text="La primera parte combina preguntas de normativa y psicotécnicos para medir fundamentos y razonamiento." figure="30 + 30 preguntas" />
+          <Cajon kicker="02 · TEST" title="Actividad y ofimática" text="La segunda parte trabaja actividad administrativa y ofimática: Windows 11 y Microsoft 365 de escritorio." figure="50 preguntas" />
+          <Cajon kicker="03 · SIMULACROS" title="Práctica breve" text="Responde una muestra autocorregible y observa qué bloque merece el siguiente repaso." figure="90 minutos de examen" />
+          <CajonCierre kicker="04 · PRECIO / ACCESO" title="En validación" text="El precio y las condiciones de acceso se publicarán cuando el aula esté preparada." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20informaci%C3%B3n%20sobre%20Auxiliar%20del%20Estado%20C2.`} />
         </section>
+
+        <MuestraMaterial
+          grupos={[{
+            paginas: [{}, {}, {}, {}],
+            nota: "La muestra de páginas se incorporará cuando el programa editorial esté preparado.",
+          }]}
+          preguntas={[]}
+        />
 
         <section className="lm-shell lm-panel" id="metodo">
           <span className="lm-panel-kicker">Método de trabajo</span>
@@ -91,12 +103,6 @@ export default function AdministrativoEstadoLanding() {
           </div>
           <div className="lm-quiz-actions"><span>{Object.keys(answers).length} / {QUESTIONS.length} respondidas</span><button className="lm-btn lm-btn-primary" disabled={Object.keys(answers).length !== QUESTIONS.length} onClick={complete}>Ver resultado</button></div>
           {submitted ? <div className="lm-result" id="resultado" aria-live="polite"><div><span className="lm-panel-kicker">Resultado de la muestra</span><strong>{score}/{QUESTIONS.length}</strong></div><div><h3>{score >= 4 ? "Buen punto de partida." : "Ya tienes un mapa de repaso."}</h3><p>{score >= 4 ? "El siguiente paso es entrenar con más preguntas y medir la segunda parte." : "La utilidad de practicar está en localizar el bloque que debes volver a estudiar."}</p><a className="lm-btn lm-btn-outline" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20he%20hecho%20la%20prueba%20de%20Auxiliar%20del%20Estado%20C2.`} target="_blank" rel="noreferrer" onClick={() => track("whatsapp_click", { context: "offer" })}>Consultar acceso</a></div></div> : null}
-        </section>
-
-        <section className="lm-shell lm-boxes">
-          <Cajon kicker="PRODUCTO EN VALIDACIÓN" title="Sin venta todavía" text="Estamos comprobando qué bloque de práctica tiene más valor antes de publicar un precio." figure="No mostramos cifras no verificadas" />
-          <Cajon kicker="FORMATO POSIBLE" title="Autocorrección" text="La propuesta prioriza tests, simulacros y repaso por errores, sin horarios semanales obligatorios." figure="Contenido reutilizable" />
-          <CajonCierre kicker="SIGUIENTE PASO" title="Habla con nosotros" text="Si quieres conocer el alcance cuando se abra el acceso, puedes escribirnos directamente." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20informaci%C3%B3n%20sobre%20Auxiliar%20del%20Estado%20C2.`} />
         </section>
 
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "Examen", href: "#examen" }, { label: "Prueba gratuita", href: "#prueba" }]} notice={AVISO_BASE + AVISO_PRECIOS} />
