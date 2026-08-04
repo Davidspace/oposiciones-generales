@@ -304,7 +304,7 @@ export function SsCasoLabLanding({
       <a className="ss-skip-link" href="#contenido-principal">
         Saltar al contenido
       </a>
-      <main className="ss-page" id="contenido-principal" tabIndex={-1}>
+      <main className="lm-page lm-ss ss-page" id="contenido-principal" tabIndex={-1}>
       <header className="ss-header">
         <a className="ss-brand" href="#inicio" aria-label="SS CasoLab. Inicio">
           <span className="ss-brand-stamp" aria-hidden="true">

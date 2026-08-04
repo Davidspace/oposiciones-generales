@@ -1,3 +1,4 @@
+@import './lorman-industry.css';
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap");
 
 :root { --ink: #17243a; --ink-soft: #3f4a5b; --muted: #667085; --line: #d9dde5; --paper: #f6f7f9; --blue: #1e2f4f; --blue-dark: #122039; --accent: #dd5b40; --accent-dark: #b8432d; --white: #fff; --max: 1240px; font-family: Archivo, system-ui, sans-serif; color: var(--ink); background: var(--white); }

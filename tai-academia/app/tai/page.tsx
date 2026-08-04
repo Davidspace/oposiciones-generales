@@ -1,157 +1,76 @@
 import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
-import { FichaOposicion } from "@/components/FichaOposicion";
+import { Cajon, CajonCierre } from "@/components/Cajones";
+import { CtaContacto } from "@/components/CtaContacto";
 
-const STUDY_ROUTE = [
-  {
-    number: "01",
-    title: "Mapa del examen",
-    text: "Sitúa las dos partes del ejercicio y decide si empiezas por el bloque III o por el bloque IV.",
-  },
-  {
-    number: "02",
-    title: "Tema y autoevaluación",
-    text: "Estudia el PDF del tema y comprueba lo aprendido con su cuestionario autocorregible.",
-  },
-  {
-    number: "03",
-    title: "Simulacro por bloque",
-    text: "Practica con cinco simulacros del bloque III y cinco del bloque IV.",
-  },
-  {
-    number: "04",
-    title: "Revisión del error",
-    text: "Consulta tus aciertos, errores, respuestas correctas y explicaciones antes de repetir.",
-  },
-];
-
-const COURSE_PARTS = [
-  ["01", "33 temas en PDF", "El aula contiene los 33 temas del programa TAI: legislación, administración electrónica, desarrollo, sistemas, redes y seguridad."],
-  ["02", "33 autoevaluaciones", "Cada tema tiene un cuestionario. Moodle muestra la calificación, los aciertos, los errores, la respuesta correcta y la explicación."],
-  ["03", "10 simulacros completos", "Cinco simulacros del bloque III y cinco del bloque IV, con selección de preguntas, reservas y tiempo límite de dos horas."],
-  ["04", "Aula asíncrona", "Estudia sin clases obligatorias ni horarios fijos. Accede al material y practica cuando encaje con tu calendario."],
-];
+const WHATSAPP = "34640828654";
 
 const FAQ = [
-  [
-    "¿Incluye clases semanales?",
-    "No. El curso está diseñado para autoestudio: temarios en PDF, autoevaluaciones y simulacros dentro del aula. Así podemos ofrecer el contenido a un precio reducido y sin depender de horarios.",
-  ],
-  [
-    "¿Qué contiene cada autoevaluación?",
-    "El modelo del aula muestra la calificación, los aciertos, los errores, las respuestas correctas y la explicación de cada pregunta al finalizar.",
-  ],
-  [
-    "¿Prepara las dos partes del ejercicio?",
-    "Sí. La estructura del aula refleja una primera parte de 80 preguntas más 5 de reserva y una segunda parte práctica de 20 preguntas más 5 de reserva, con 120 minutos para el conjunto.",
-  ],
-  [
-    "¿Hay corrección individual o tutoría?",
-    "No está incluida. Las autoevaluaciones son automáticas. El producto prioriza material y práctica reutilizable para mantener un precio bajo.",
-  ],
-  [
-    "¿Incluye una garantía de aprobado?",
-    "No. Ningún curso puede garantizar un resultado. El objetivo es darte una ruta completa de estudio y práctica frecuente.",
-  ],
-];
-
-const ACCESS_PRICE = "95 €";
+  ["¿Incluye clases semanales?", "No. El curso está diseñado para autoestudio: temarios en PDF, autoevaluaciones y simulacros dentro del aula. Así podemos ofrecer el contenido a un precio reducido y sin depender de horarios."],
+  ["¿Qué contiene cada autoevaluación?", "El aula muestra la calificación, los aciertos, los errores, las respuestas correctas y la explicación de cada pregunta al finalizar."],
+  ["¿Prepara las dos partes del ejercicio?", "Sí. La estructura del aula refleja una primera parte de 80 preguntas más 5 de reserva y una segunda parte práctica de 20 preguntas más 5 de reserva, con 120 minutos para el conjunto."],
+  ["¿Hay corrección individual o tutoría?", "No está incluida. Las autoevaluaciones son automáticas. El producto prioriza material y práctica reutilizable para mantener un precio bajo."],
+  ["¿Incluye garantía de aprobado?", "No. Ningún curso puede garantizar un resultado. El objetivo es darte una ruta completa de estudio y práctica frecuente."],
+] as const;
 
 export default function TaiLanding() {
   return (
     <>
-      <a className="tai-skip-link" href="#contenido-principal">
-        Saltar al contenido
-      </a>
-      <main className="tai-page" id="contenido-principal" tabIndex={-1}>
-      <header className="tai-header">
-        <a className="tai-brand" href="#inicio" aria-label="Curso TAI. Inicio">
-          <span className="tai-brand-mark" aria-hidden="true">TAI</span>
-          <span>
-            <strong>Curso completo TAI 2026</strong>
-            <small>Academia LORMAN</small>
-          </span>
-        </a>
-        <nav className="tai-nav" aria-label="Navegación del curso TAI">
-          <a className="tai-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a>
-          <a href="#ruta">Ruta</a>
-          <a href="#incluye">Qué incluye</a>
-          <a className="tai-nav-cta" href="#acceso">Ver precio</a>
-        </nav>
-      </header>
+      <a className="tai-skip-link" href="#contenido-principal">Saltar al contenido</a>
+      <main className="lm-page lm-tai" id="contenido-principal" tabIndex={-1}>
+        <header className="lm-shell lm-header">
+          <a className="lm-logo" href="#inicio" aria-label="Curso TAI, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
+          <nav className="lm-nav" aria-label="Navegación del curso TAI"><a className="tai-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#contenido">Qué incluye</a><a href="#ruta">Ruta</a><a href="#acceso">Acceso</a></nav>
+        </header>
 
-      <section className="tai-hero" id="inicio">
-        <div className="tai-hero-copy">
-          <p className="tai-eyebrow"><span aria-hidden="true" /> CURSO COMPLETO · TAI C1</p>
-          <h1>Todo el programa.<br /><em>Sin pagar de más.</em></h1>
-          <p className="tai-hero-lead">
-            Preparación online para Técnicos Auxiliares de Informática de la
-            Administración del Estado. 33 temas, 33 autoevaluaciones y 10
-            simulacros completos para practicar las dos partes del ejercicio.
-          </p>
-          <div className="tai-actions">
-            <a className="tai-button tai-button-primary" href="#acceso">Ver precio y acceso <span aria-hidden="true">↓</span></a>
-            <a className="tai-text-link" href="#ruta">Ver la ruta de estudio</a>
+        <section className="lm-shell lm-hero" id="inicio">
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Curso completo · TAI C1</p>
+          <h1>Todo el programa.<br />Sin pagar de más.</h1>
+          <p className="lm-lead">Preparación online para Técnicos Auxiliares de Informática de la Administración del Estado: 33 temas, 33 autoevaluaciones y 10 simulacros completos para practicar las dos partes del ejercicio.</p>
+          <CtaContacto whatsapp={WHATSAPP} label="Consultar acceso TAI" note="Respuesta por WhatsApp · curso de autoestudio" >
+            <a className="lm-btn lm-btn-outline" href="#contenido">Ver el contenido</a>
+          </CtaContacto>
+        </section>
+
+        <section className="lm-shell lm-boxes" aria-label="Contenido de TAI">
+          <Cajon kicker="01 · TEMARIO" title="33 temas en PDF" text="Legislación, administración electrónica, desarrollo, sistemas, redes y seguridad." figure="Programa completo del aula" />
+          <Cajon kicker="02 · AUTOEVALUACIÓN" title="33 tests" text="Un cuestionario por tema con calificación, aciertos, errores, respuesta correcta y explicación." figure="Corrección automática" />
+          <Cajon kicker="03 · SIMULACROS" title="10 recorridos" text="Cinco simulacros del bloque III y cinco del bloque IV, con reservas y tiempo límite de dos horas." figure="Las dos partes del ejercicio" />
+          <CajonCierre kicker="04 · ACCESO" title="95 €" text="Pago único. Acceso al contenido disponible hasta la fecha del examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} label="Quiero apuntarme" />
+        </section>
+
+        <section className="lm-shell" id="ruta">
+          <div className="lm-section-heading"><p className="lm-eyebrow"><i aria-hidden="true" /> La ruta</p><h2 className="lm-display">Leer. Comprobar.<br />Simular. Corregir.</h2><p className="lm-lead">El aula convierte el programa en una secuencia sencilla. No necesitas una clase semanal para saber cuál es el siguiente paso.</p></div>
+          <div className="lm-cards lm-route-grid">
+            {[
+              ["01", "Mapa del examen", "Sitúa las dos partes del ejercicio y decide dónde empiezas."],
+              ["02", "Tema y autoevaluación", "Estudia el PDF del tema y comprueba lo aprendido."],
+              ["03", "Simulacro por bloque", "Practica con cinco simulacros del bloque III y cinco del IV."],
+              ["04", "Revisión del error", "Consulta tus aciertos, errores y explicaciones antes de repetir."],
+            ].map(([number, title, text]) => <article className="lm-card" key={number}><div className="lm-card-head"><strong className="lm-card-code">{number}</strong><h3>{title}</h3><p className="lm-card-meta">{text}</p></div></article>)}
           </div>
-          <p className="tai-microcopy">Contenido del aula LORMAN · autoestudio · sin clases obligatorias</p>
-        </div>
+        </section>
 
-        <FichaOposicion
-          variant="compact"
-          code="TAI"
-          tone="tai"
-          admin="Administración del Estado · subgrupo C1"
-          title="Ficha del curso"
-          description="Ejercicio único en dos partes: 80 preguntas más 5 de reserva y una parte práctica de 20 más 5, con 120 minutos para el conjunto."
-          status="Contenido completo · acceso hasta el examen"
-          indicators={[
-            { value: "33", label: "temas en PDF" },
-            { value: "33", label: "autoevaluaciones con explicación" },
-            { value: "10", label: "simulacros: bloques III y IV" },
-            { value: "examen", label: "acceso hasta la fecha del examen" },
-          ]}
-          price={{ label: "Pago único", value: ACCESS_PRICE }}
-          primary={{ label: "Ver el acceso completo", href: "#acceso" }}
-          secondary={{ label: "Qué incluye", href: "#incluye" }}
-        />
-      </section>
+        <section className="lm-shell lm-panel" id="contenido">
+          <span className="lm-panel-kicker">Inventario del aula</span>
+          <div className="lm-panel-row"><strong>33 temas</strong><span>El programa completo de TAI en documentos PDF.</span></div>
+          <div className="lm-panel-row"><strong>33 autoevaluaciones</strong><span>Una por tema, con explicación tras el intento.</span></div>
+          <div className="lm-panel-row"><strong>10 simulacros</strong><span>Cinco para el bloque III y cinco para el bloque IV.</span></div>
+          <div className="lm-panel-row"><strong>120 minutos</strong><span>Entrenamiento del ejercicio conjunto con preguntas de reserva.</span></div>
+        </section>
 
-      <section className="tai-proof" aria-label="Datos del curso">
-        <p>1.030 plazas · ingreso libre</p><p>33 temas</p><p>10 simulacros</p><p>120 minutos</p>
-      </section>
+        <section className="lm-shell lm-boxes" id="acceso">
+          <Cajon kicker="CONDICIONES" title="Pago único" text="Una edición completa, sin clases obligatorias ni tutoría individual incluida." figure="95 € · acceso hasta el examen" />
+          <Cajon kicker="FORMATO" title="Aula asíncrona" text="Estudia cuando encaje con tu calendario y repite los cuestionarios que necesites." figure="Moodle · autoestudio" />
+          <CajonCierre kicker="SIGUIENTE PASO" title="Consulta la activación" text="Te indicaremos cómo activar el acceso y las condiciones vigentes antes de cualquier pago." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20activar%20TAI.`} />
+        </section>
 
-      <section className="tai-route-section" id="ruta">
-        <div className="tai-section-heading"><p className="tai-kicker">LA RUTA</p><h2>Estudia en el orden que te ayuda a avanzar.</h2><p>El aula convierte el programa en una secuencia sencilla: leer, comprobar, simular y corregir. No necesitas una clase semanal para saber cuál es el siguiente paso.</p></div>
-        <ol className="tai-route-grid">
-          {STUDY_ROUTE.map((step) => <li key={step.number}><span>{step.number}</span><h3>{step.title}</h3><p>{step.text}</p></li>)}
-        </ol>
-      </section>
+        <section className="lm-shell lm-faq" aria-labelledby="faq-title">
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Preguntas</p><h2 id="faq-title" className="lm-display">Antes de empezar.</h2>
+          {FAQ.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}
+        </section>
 
-      <section className="tai-includes" id="incluye">
-        <div className="tai-section-heading"><p className="tai-kicker">QUÉ INCLUYE</p><h2>El contenido real del aula, sin adornos.</h2><p>La oferta se basa en los recursos que ya están organizados en el Moodle de TAI.</p></div>
-        <div className="tai-parts-grid">
-          {COURSE_PARTS.map(([number, title, text]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}
-        </div>
-      </section>
-
-      <section className="tai-access" id="acceso">
-        <div><p className="tai-kicker">ACCESO</p><h2>Una edición completa con pago único.</h2><p>Hemos eliminado las clases obligatorias y la tutoría individual para mantener el producto ligero y asequible. El acceso cubre el contenido disponible hasta la fecha del examen.</p></div>
-        <div className="tai-access-card"><span className="tai-status">ACCESO HASTA EL EXAMEN</span><strong>Curso completo TAI C1</strong><p>Pago único y acceso al contenido hasta el día del examen.</p><ul className="tai-pricing"><li><span>33 temas + 33 autoevaluaciones</span><strong>Incluidos</strong></li><li><span>10 simulacros completos</span><strong>Incluidos</strong></li><li><span>Pago único</span><strong>{ACCESS_PRICE}</strong></li></ul><span className="tai-button tai-button-dark tai-button-disabled" aria-label="Acceso al aula próximamente">Acceso al aula próximamente</span><small>La activación del acceso se habilitará en esta misma página. No incluye tutoría individual ni corrección manual.</small></div>
-      </section>
-
-      <section className="tai-faq" aria-labelledby="tai-faq-title"><div><p className="tai-kicker">PREGUNTAS</p><h2 id="tai-faq-title">Antes de empezar.</h2></div><div className="tai-faq-list">{FAQ.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</div></section>
-
-      <AvisoComun
-        brand="Curso TAI C1 · Academia LORMAN"
-        tagline="Curso completo TAI C1 · contenido del aula LORMAN."
-        links={[
-          { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
-          { label: "Ruta", href: "#ruta" },
-          { label: "Qué incluye", href: "#incluye" },
-          { label: "Acceso", href: "#acceso" },
-        ]}
-        notice={AVISO_BASE + AVISO_PRECIOS}
-      />
+        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "Contenido", href: "#contenido" }, { label: "Acceso", href: "#acceso" }]} notice={AVISO_BASE + AVISO_PRECIOS} />
       </main>
     </>
   );
