@@ -34,6 +34,14 @@ npm run test:portfolio
 
 En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://lorman-academia.vercel.app`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cinco destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
 
+## Despliegue
+
+`.github/workflows/vercel-main.yml` contiene el despliegue de los cinco proyectos
+cuando se publica en `main`. El workflow necesita el secreto de Actions
+`VERCEL_TOKEN`; no se guarda ningún token en Git. Mientras ese secreto no esté
+configurado, los despliegues se pueden hacer manualmente desde cada proyecto con
+`vercel deploy --prod`.
+
 ## Separación de GSI
 
 GSI permanece en `../gsi-casos-practicos` y no forma parte de este repositorio.

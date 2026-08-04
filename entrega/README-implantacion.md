@@ -14,6 +14,8 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
 | `CtaContacto.tsx` | Botón grande de WhatsApp con la marca, para la sección principal. |
 | `Instagram.tsx` | Icono y enlace sutil de Instagram (`@tcae_academia_lm`). |
 | `AvisoComun.tsx` | Pie legal común con enlaces, Instagram y los cuatro textos de aviso. |
+| `MuestraMaterial.tsx` | Fila «Muestra del material»: páginas del temario (con pestañas si hay varias ramas) y preguntas tipo test en desplegables. |
+| `assets/muestras/` | Páginas de muestra: `tai-1..4` (TAI), `sms-1..5` (Servicio Murciano de Salud) y `sas-1..4` (Servicio Andaluz de Salud). |
 | `cursos.ts` | Datos de las fichas del hub, incluido Auxilio Judicial y la ficha C2 oculta. |
 | `assets/lorman-logo.png` | Logotipo recortado, listo para `public/`. |
 
@@ -29,6 +31,26 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
 4. Envuelve cada página en `<main className="lm-page lm-<producto>">` y usa
    `.lm-shell` para el ancho: `lm-hub`, `lm-tcae`, `lm-tai`, `lm-ss`, `lm-aux`.
 5. Ejecuta en cada proyecto: `npm run lint && npm run test:portfolio && npm run build`.
+
+## Añadido en este pase (2026-08-04)
+
+- Se entrega el componente para una nueva fila **«Muestra del material»** en cada
+  landing específica, a dos columnas
+  simétricas: páginas del temario a la izquierda, preguntas tipo test en desplegables
+  (cerrados por defecto) a la derecha.
+- Copia `assets/muestras/*` a `public/muestras/` del proyecto correspondiente
+  (TAI: `tai-*`; TCAE: `sms-*` y `sas-*`).
+- Las preguntas van con **texto de relleno**: sustituir por los enunciados reales
+  exportados del Moodle (`preguntas` de `MuestraMaterial`).
+- SS y Auxilio Judicial se entregan con las páginas en hueco (`src` sin definir):
+  se dibuja el marco «Página N» hasta que haya capturas.
+- El enlace de Instagram de cabecera y pie usa ya el mismo color, familia y tamaño
+  que los enlaces vecinos (antes iba en un gris distinto).
+
+Este pase deja los componentes y recursos en `entrega/` como handoff. No conecta aún la
+fila a las rutas públicas: TAI no tiene en este repositorio un banco de preguntas
+publicable y las preguntas del ZIP son de relleno. La conexión se hará después de
+incorporar preguntas revisadas desde la fuente editorial correspondiente.
 
 ## Reglas de contenido aplicadas
 
@@ -52,13 +74,15 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
 - **Auxiliar Administrativo del Estado C2**: ficha **oculta** (`MOSTRAR_C2 = false`)
   hasta que el Moodle esté preparado.
 
-## Estado de implantación en este commit
+## Estado del repo tras el pase anterior
 
-- `tai-academia/app/tai/page.tsx` refleja 95 € en pago único y acceso hasta el
-  examen. El botón de acceso permanece deshabilitado hasta publicar el checkout.
-- `ss-casolab/app/ss-casolab/page.tsx` refleja 49 € en pago único, sin preventa ni
-  reserva. El botón de acceso permanece deshabilitado hasta publicar las
-  condiciones de contratación.
-- `ss-casolab/app/globals.css` conserva selectores de elemento históricos sin
-  ámbito. No se han reescrito porque requieren una pasada visual sobre `/pedido`
-  y `_sites-preview`; no afectan a la ruta pública de la landing en este pase.
+- `tai-academia/app/tai/page.tsx` ya refleja `ACCESS_PRICE = "95 €"` y acceso hasta
+  el examen. El acceso permanece cerrado hasta publicar el checkout.
+- `ss-casolab/app/ss-casolab/page.tsx` ya refleja 49 € en pago único, sin preventa ni
+  reserva. El acceso permanece cerrado hasta publicar las condiciones de contratación.
+- `ss-casolab/app/globals.css` conserva selectores históricos sin ámbito para las rutas
+  internas `/pedido` y `_sites-preview`; requieren una pasada visual independiente.
+
+Las preguntas incluidas en el componente de muestra de este ZIP son de relleno. No se
+deben publicar como preguntas reales: hay que sustituirlas por preguntas revisadas y
+con procedencia antes de conectar `MuestraMaterial` a una landing pública.

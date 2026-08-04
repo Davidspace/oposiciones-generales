@@ -1,0 +1,68 @@
+name: Deploy portfolio to Vercel
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vercel-production
+  cancel-in-progress: false
+
+env:
+  VERCEL_ORG_ID: team_sd125oKlOXN4qDvekRNEumij
+  VERCEL_CLI_VERSION: 58.5.1
+
+jobs:
+  configuration:
+    name: Check deployment credentials
+    runs-on: ubuntu-latest
+    steps:
+      - name: Report missing Vercel token
+        if: ${{ secrets.VERCEL_TOKEN == '' }}
+        run: echo "::warning::VERCEL_TOKEN is not configured. Add it as a repository Actions secret to enable automatic production deployments."
+
+  deploy:
+    name: Deploy ${{ matrix.project }}
+    if: ${{ secrets.VERCEL_TOKEN != '' }}
+    needs: configuration
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: lorman-lab
+            root: lorman-lab
+            project_id: prj_TZZUo7qQ1V15jlPRmAllrQQgLsJx
+          - project: tai-academia
+            root: tai-academia
+            project_id: prj_ShBHyZTvxgpX2bS8x00OQ5NxKwNO
+          - project: ss-casolab
+            root: ss-casolab
+            project_id: prj_5SSzZHVymevCNBkM3mbwSrvK7Pf3
+          - project: administrativo-estado
+            root: administrativo-estado
+            project_id: prj_hC6VLYhtKYyvROc50yt4jufHxDq3
+          - project: auxiliar-juridico
+            root: auxiliar-juridico
+            project_id: prj_CBqCmb0yN1xxgQn1qcOaX7HbNAAc
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy production project
+        working-directory: ${{ matrix.root }}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: >-
+          npx --yes vercel@${{ env.VERCEL_CLI_VERSION }} deploy
+          --prod
+          --yes
+          --token="$VERCEL_TOKEN"
+          --scope="${{ env.VERCEL_ORG_ID }}"
+          --project="${{ matrix.project_id }}"
