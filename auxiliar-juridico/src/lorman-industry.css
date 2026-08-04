@@ -704,3 +704,42 @@ body .lm-page .lm-options input[type="radio"] {
     display: inline-flex !important;
   }
 }
+
+/* Product landings use the whole browser canvas. The catalogue keeps its
+   intentional right-column composition, but no specific course should look
+   like a narrow card floating inside a large desktop viewport. */
+body .lm-page:not(.lm-hub) .lm-shell {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: clamp(24px, 4vw, 64px);
+}
+body .lm-page:not(.lm-hub) .lm-footer-inner {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: clamp(24px, 4vw, 64px);
+}
+body .lm-page:not(.lm-hub) .lm-fineprint {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: clamp(24px, 4vw, 64px);
+}
+body .lm-page.ss-page .ss-hero,
+body .lm-page.ss-page .ss-strip,
+body .lm-page.ss-page .ss-method,
+body .lm-page.ss-page .ss-diagnostic,
+body .lm-page.ss-page .ss-result,
+body .lm-page.ss-page .ss-capture,
+body .lm-page.ss-page .ss-preorder,
+body .lm-page.ss-page .ss-faq,
+body .lm-page.ss-page .ss-sources {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding-inline: clamp(24px, 4vw, 64px);
+}
+body .lm-page:not(.lm-hub) .lm-muestra-pagina {
+  height: clamp(128px, 9vw, 240px);
+}
