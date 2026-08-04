@@ -378,3 +378,203 @@ body .lm-page.ss-page .ss-sources a, body .lm-page.ss-page .ss-legal-note a { co
 .lm-pregunta-opciones { display: grid; gap: 6px; font-size: 15px; color: var(--lm-ink); }
 .lm-pregunta-sol { margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: var(--lm-accent-dark); }
 .lm-pregunta-sol strong { font-family: var(--lm-font-heading); letter-spacing: .06em; text-transform: uppercase; }
+
+/* ── Captura de referencia: composición Swiss compacta ─────────────────────
+   Las landings usan el mismo ritmo que las maquetas: hero breve, cuatro
+   cajones en una fila, muestra en dos columnas y pie compacto. */
+body { margin: 0; background: var(--lm-bg); }
+body .lm-page {
+  width: min(100%, 680px);
+  max-width: 680px;
+  min-height: 100vh;
+  margin-inline: auto;
+  font-size: 12px;
+  line-height: 1.45;
+}
+body .lm-page:not(.lm-hub) .lm-shell { max-width: none; padding-inline: 32px; }
+body .lm-page:not(.lm-hub) .lm-header {
+  min-height: 56px;
+  padding-block: 10px;
+  border-bottom-color: var(--lm-line);
+}
+body .lm-page:not(.lm-hub) .lm-logo img { height: 28px; }
+body .lm-page:not(.lm-hub) .lm-nav { gap: 14px; }
+body .lm-page:not(.lm-hub) .lm-nav a,
+body .lm-page:not(.lm-hub) .lm-nav-back,
+body .lm-page:not(.lm-hub) .lm-ig { font-size: 11px !important; letter-spacing: .02em; }
+body .lm-page:not(.lm-hub) .lm-nav a:not(.lm-nav-back):not(.lm-nav-material):not(.lm-ig) { display: none; }
+body .lm-page:not(.lm-hub) .lm-hero { padding-block: 38px 28px; }
+body .lm-page:not(.lm-hub) .lm-eyebrow { margin-bottom: 12px; font-size: 9px; letter-spacing: .18em; }
+body .lm-page:not(.lm-hub) .lm-eyebrow i { width: 6px; height: 6px; }
+body .lm-page:not(.lm-hub) .lm-hero h1 { max-width: 570px; margin-bottom: 12px; font-size: clamp(42px, 7vw, 60px); }
+body .lm-page:not(.lm-hub) .lm-lead { max-width: 520px; margin-bottom: 16px; font-size: 12px; line-height: 1.45; }
+body .lm-page:not(.lm-hub) .lm-actions { gap: 8px; }
+body .lm-page:not(.lm-hub) .lm-btn { min-height: 36px; padding-inline: 14px; font-size: 16px; letter-spacing: .04em; }
+body .lm-page:not(.lm-hub) .lm-btn-mark { height: 15px; }
+body .lm-page:not(.lm-hub) .lm-btn-note { display: none; }
+body .lm-page:not(.lm-hub) .lm-boxes {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+  padding-bottom: 32px;
+}
+body .lm-page:not(.lm-hub) .lm-box {
+  min-height: 157px;
+  gap: 7px;
+  padding: 12px 10px 13px;
+}
+body .lm-page:not(.lm-hub) .lm-box-kicker { font-size: 8px; letter-spacing: .14em; }
+body .lm-page:not(.lm-hub) .lm-box-title { font-size: 22px; line-height: .98; }
+body .lm-page:not(.lm-hub) .lm-box p { font-size: 10px; line-height: 1.35; }
+body .lm-page:not(.lm-hub) .lm-box-figure { font-size: 9px; line-height: 1.25; }
+body .lm-page:not(.lm-hub) .lm-box-cta { min-height: 30px; font-size: 12px; }
+body .lm-page:not(.lm-hub) .lm-muestra { padding-bottom: 36px; }
+body .lm-page:not(.lm-hub) .lm-muestra-h2 { margin-bottom: 4px; font-size: 28px; }
+body .lm-page:not(.lm-hub) .lm-muestra-intro { max-width: 500px; margin-bottom: 14px; font-size: 10px; line-height: 1.35; }
+body .lm-page:not(.lm-hub) .lm-muestra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+body .lm-page:not(.lm-hub) .lm-muestra-head { min-height: 30px; padding-inline: 10px; }
+body .lm-page:not(.lm-hub) .lm-muestra-label { font-size: 8px; letter-spacing: .12em; }
+body .lm-page:not(.lm-hub) .lm-muestra-tabs { gap: 4px; }
+body .lm-page:not(.lm-hub) .lm-muestra-tab { min-height: 24px; padding-inline: 7px; font-size: 8px; }
+body .lm-page:not(.lm-hub) .lm-muestra-paginas,
+body .lm-page:not(.lm-hub) .lm-muestra-preguntas { gap: 6px; padding: 10px; }
+body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 128px; }
+body .lm-page:not(.lm-hub) .lm-muestra-pagina.is-vacia { font-size: 8px; }
+body .lm-page:not(.lm-hub) .lm-muestra-nota { padding: 0 10px 10px; font-size: 8px; }
+body .lm-page:not(.lm-hub) .lm-muestra-empty { padding: 12px 0; font-size: 10px; }
+body .lm-page:not(.lm-hub) .lm-pregunta > summary { min-height: 29px; gap: 6px; padding-inline: 8px; font-size: 10px; }
+body .lm-page:not(.lm-hub) .lm-pregunta-num { font-size: 8px; }
+body .lm-page:not(.lm-hub) .lm-pregunta-ver { font-size: 7px; }
+body .lm-page:not(.lm-hub) .lm-footer-inner { gap: 14px; padding: 18px 32px 22px; }
+body .lm-page:not(.lm-hub) .lm-footer img { height: 22px; padding: 4px; }
+body .lm-page:not(.lm-hub) .lm-footer-links { gap: 12px; margin-top: 12px; }
+body .lm-page:not(.lm-hub) .lm-footer-links a { font-size: 10px; }
+body .lm-page:not(.lm-hub) .lm-notice { font-size: 8px; line-height: 1.4; }
+
+/* Hub: the desktop reference keeps the catalogue in a narrow right column. */
+body .lm-page.lm-hub { width: 100%; max-width: none; margin: 0; }
+body .lm-page.lm-hub .lm-header {
+  max-width: none; min-height: 26px; padding: 0 14px;
+  background: #29292b; border-bottom: 0;
+}
+body .lm-page.lm-hub .lm-header .lm-logo { display: none; }
+body .lm-page.lm-hub .lm-nav { width: 100%; gap: 8px; }
+body .lm-page.lm-hub .lm-nav a { color: #fff; font-size: 8px; letter-spacing: .08em; }
+body .lm-page.lm-hub .lm-nav a:first-child::before { content: "MAQUETA"; margin-right: 10px; color: #aaa; }
+body .lm-page.lm-hub .lm-nav a:nth-child(1)::after { content: "HUB"; margin-left: 10px; color: #fff; }
+body .lm-page.lm-hub .lm-nav a:nth-child(n+2) { display: inline-block; }
+body .lm-page.lm-hub .lm-nav a:nth-child(2)::before { content: "TCAE"; }
+body .lm-page.lm-hub .lm-nav a:nth-child(3)::before { content: "TAI"; }
+body .lm-page.lm-hub .lm-nav a:nth-child(4)::before { content: "SS"; }
+body .lm-page.lm-hub .lm-nav a:nth-child(5)::before { content: "AUX. JUDICIAL"; }
+body .lm-page.lm-hub .lm-nav a { font-size: 0; }
+body .lm-page.lm-hub .lm-nav a::before,
+body .lm-page.lm-hub .lm-nav a::after { font-size: 8px; }
+body .lm-page.lm-hub .lm-shell:not(.lm-header) { max-width: 580px; margin-left: 58.7vw; margin-right: 0; padding-inline: 0; }
+body .lm-page.lm-hub .lm-hero { padding-block: 42px 34px; }
+body .lm-page.lm-hub .lm-hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(180px, .8fr); gap: 18px; align-items: start; }
+body .lm-page.lm-hub .lm-hero h1 { margin-bottom: 14px; font-size: 42px; }
+body .lm-page.lm-hub .lm-lead { max-width: 350px; margin-bottom: 14px; font-size: 11px; }
+body .lm-page.lm-hub .lm-btn { min-height: 35px; padding-inline: 14px; font-size: 14px; }
+body .lm-page.lm-hub .lm-btn-mark { height: 14px; }
+body .lm-page.lm-hub .lm-btn-note { margin-top: 12px; font-size: 9px; }
+body .lm-page.lm-hub .lm-hero-aside { border: 1px solid var(--lm-ink); padding: 14px 12px; }
+body .lm-page.lm-hub .lm-hero-aside-kicker { display: block; margin-bottom: 10px; font-size: 8px; letter-spacing: .16em; text-transform: uppercase; }
+body .lm-page.lm-hub .lm-hero-aside-row { display: grid; gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--lm-line); }
+body .lm-page.lm-hub .lm-hero-aside-row:last-child { border-bottom: 0; }
+body .lm-page.lm-hub .lm-hero-aside-row strong { font-family: var(--lm-font-heading); font-size: 17px; text-transform: uppercase; }
+body .lm-page.lm-hub .lm-hero-aside-row span { font-size: 9px; color: var(--lm-muted); }
+body .lm-page.lm-hub .lm-boxes { display: none; }
+body .lm-page.lm-hub .lm-section-heading { margin-bottom: 14px; }
+body .lm-page.lm-hub .lm-section-heading .lm-eyebrow { display: none; }
+body .lm-page.lm-hub .lm-display { margin-bottom: 12px; font-size: 28px; }
+body .lm-page.lm-hub .lm-section-heading .lm-lead { display: none; }
+body .lm-page.lm-hub .lm-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding-bottom: 34px; }
+body .lm-page.lm-hub .lm-card-head { padding: 12px 10px 0; }
+body .lm-page.lm-hub .lm-card-code { font-size: 32px; }
+body .lm-page.lm-hub .lm-card-code-sm { font-size: 25px; }
+body .lm-page.lm-hub .lm-card h3 { margin-top: 5px; font-size: 14px; }
+body .lm-page.lm-hub .lm-card-meta { margin-top: 3px; font-size: 8px; }
+body .lm-page.lm-hub .lm-card-list { margin-top: 10px; }
+body .lm-page.lm-hub .lm-card-list li { padding: 8px 10px; }
+body .lm-page.lm-hub .lm-item-title { font-size: 12px; }
+body .lm-page.lm-hub .lm-item-note { font-size: 8px; }
+body .lm-page.lm-hub .lm-price { font-size: 17px; }
+body .lm-page.lm-hub .lm-card-foot { padding: 10px; }
+body .lm-page.lm-hub .lm-card-cta { min-height: 32px; font-size: 11px; }
+body .lm-page.lm-hub .lm-panel { display: none; }
+body .lm-page.lm-hub .lm-faq { display: grid; grid-template-columns: minmax(170px, .8fr) 1.4fr; gap: 20px; align-items: start; padding-bottom: 34px; }
+body .lm-page.lm-hub .lm-faq .lm-eyebrow { display: none; }
+body .lm-page.lm-hub .lm-faq h2 { grid-column: 1; margin-bottom: 8px; font-size: 28px; }
+body .lm-page.lm-hub .lm-faq::before { content: "PREGUNTAS"; grid-column: 1; grid-row: 1; font-family: var(--lm-font-heading); font-size: 28px; line-height: 1; text-transform: uppercase; }
+body .lm-page.lm-hub .lm-faq h2 { display: none; }
+body .lm-page.lm-hub .lm-faq::after { content: "PREGUNTAR POR WHATSAPP"; grid-column: 1; grid-row: 2; align-self: start; display: flex; align-items: center; min-height: 32px; padding: 0 10px; background: var(--lm-accent); color: #fff; font-family: var(--lm-font-heading); font-size: 11px; text-transform: uppercase; }
+body .lm-page.lm-hub .lm-faq details { grid-column: 2; }
+body .lm-page.lm-hub .lm-faq details p { display: none; }
+body .lm-page.lm-hub .lm-faq summary { padding: 10px 0; font-size: 12px; }
+body .lm-page.lm-hub .lm-footer-inner { max-width: 580px; margin-left: 58.7vw; margin-right: 0; padding: 22px 0 28px; }
+body .lm-page.lm-hub .lm-footer img { height: 22px; }
+body .lm-page.lm-hub .lm-footer-links { gap: 12px; margin-top: 12px; }
+body .lm-page.lm-hub .lm-footer-links a { font-size: 10px; }
+body .lm-page.lm-hub .lm-notice { font-size: 8px; }
+
+@media (max-width: 900px) {
+  body .lm-page.lm-hub .lm-shell:not(.lm-header),
+  body .lm-page.lm-hub .lm-footer-inner { margin-left: auto; margin-right: auto; padding-inline: 24px; }
+}
+@media (max-width: 560px) {
+  body .lm-page:not(.lm-hub) .lm-shell { padding-inline: 24px; }
+  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .lm-page.lm-hub .lm-hero-grid { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq::before,
+  body .lm-page.lm-hub .lm-faq::after,
+  body .lm-page.lm-hub .lm-faq details { grid-column: 1; }
+  body .lm-page.lm-hub .lm-faq details { grid-row: auto; }
+}
+
+body .lm-page.lm-hub .lm-header .lm-preview-nav {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  font-family: var(--lm-font-heading); font-size: 8px; letter-spacing: .08em;
+  text-transform: uppercase;
+}
+body .lm-page.lm-hub .lm-preview-nav span { color: #aaa; }
+body .lm-page.lm-hub .lm-preview-nav a {
+  padding: 3px 6px; color: #fff; text-decoration: none; font-size: 8px;
+}
+body .lm-page.lm-hub .lm-preview-nav a.is-active { background: #fff; color: var(--lm-ink); }
+body .lm-page.lm-hub .lm-faq::before,
+body .lm-page.lm-hub .lm-faq::after { display: none; content: none; }
+body .lm-page.lm-hub .lm-faq { display: grid; grid-template-columns: minmax(170px, .8fr) 1.4fr; gap: 20px; align-items: start; }
+body .lm-page.lm-hub .lm-faq-intro { display: grid; gap: 10px; align-content: start; }
+body .lm-page.lm-hub .lm-faq-intro .lm-display { display: block; margin: 0; font-size: 28px; }
+body .lm-page.lm-hub .lm-faq-intro .lm-btn { min-height: 32px; padding-inline: 10px; font-size: 11px; }
+body .lm-page.lm-hub .lm-faq-list { grid-column: 2; }
+body .lm-page.lm-hub .lm-faq-list details { grid-column: auto; }
+body .lm-page.lm-hub .lm-faq-list details p { display: none; }
+body .lm-page.lm-hub .lm-faq-list summary { padding: 10px 0; font-size: 12px; }
+@media (max-width: 560px) {
+  body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq-list { grid-column: 1; }
+}
+
+/* SS keeps its diagnostic code for later activation, but the public surface
+   follows the compact reference until the sample is ready for publication. */
+body .lm-page.ss-page .ss-nav { gap: 14px; }
+body .lm-page.ss-page .ss-nav a,
+body .lm-page.ss-page .ss-nav .lm-ig { font-size: 11px !important; }
+body .lm-page.ss-page .ss-nav a:not(.ss-nav-home):not(.lm-ig) { display: none; }
+body .lm-page.ss-page .ss-hero { display: block; padding: 38px 32px 28px; }
+body .lm-page.ss-page .ss-hero-copy { max-width: none; }
+body .lm-page.ss-page .ss-hero h1 { max-width: 570px; font-size: clamp(42px, 7vw, 60px); }
+body .lm-page.ss-page .ss-hero-lead { max-width: 520px; margin-bottom: 16px; font-size: 12px; line-height: 1.45; }
+body .lm-page.ss-page .ss-facts { display: none; }
+body .lm-page.ss-page .ss-strip,
+body .lm-page.ss-page .ss-method,
+body .lm-page.ss-page .ss-diagnostic,
+body .lm-page.ss-page .ss-result,
+body .lm-page.ss-page .ss-capture,
+body .lm-page.ss-page .ss-preorder,
+body .lm-page.ss-page .ss-faq,
+body .lm-page.ss-page .ss-sources { display: none !important; }
+body .lm-page.ss-page .ss-reference-note { padding-inline: 32px; margin-top: -18px; margin-bottom: 26px; font-size: 9px; }
+body .lm-page.ss-page .ss-reference-note a { color: var(--lm-accent-dark); }

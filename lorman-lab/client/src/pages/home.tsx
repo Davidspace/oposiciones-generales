@@ -3,9 +3,11 @@ import { trackLabEvent } from "@/lib/lab-analytics";
 import { PRODUCT_URLS } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { FichaCurso, type FichaCursoProps } from "@/components/FichaCurso";
+import { CtaContacto } from "@/components/CtaContacto";
 
 const TCAE_URL = import.meta.env.VITE_TCAE_URL?.trim() || "https://lorman-academia.vercel.app/";
 const C2_SAMPLE_URL = PRODUCT_URLS.c2;
+const WHATSAPP = "34640828654";
 
 const COURSES: FichaCursoProps[] = [
   {
@@ -71,35 +73,37 @@ export default function Home() {
       <a className="hub-skip-link" href="#contenido-principal">Saltar al contenido</a>
       <main className="lm-page lm-hub" id="contenido-principal" tabIndex={-1}>
         <header className="lm-shell lm-header">
-          <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio">
-            <img src="/lorman-logo.png" alt="Academia LORMAN" />
-          </a>
-          <nav className="lm-nav" aria-label="Navegación principal">
-            <a href="#cursos">Cursos</a>
-            <a href="#metodo">Método</a>
-            <a href="#preguntas">Preguntas</a>
+          <nav className="lm-preview-nav" aria-label="Navegación de la maqueta">
+            <span>MAQUETA</span>
+            <a className="is-active" href="#inicio">HUB</a>
+            <a href={TCAE_URL}>TCAE</a>
+            <a href={PRODUCT_URLS.tai}>TAI</a>
+            <a href={PRODUCT_URLS.ss}>SS</a>
+            <a href={PRODUCT_URLS.auxJuridico}>AUX. JUDICIAL</a>
           </nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Academia LORMAN · catálogo común</p>
-          <h1>Una ruta clara<br />para cada oposición.</h1>
-          <p className="lm-lead">Consulta el alcance real de cada aula, prueba el formato cuando esté disponible y elige solo el producto que encaja con tu preparación.</p>
-          <div className="lm-actions">
-            <a className="lm-btn lm-btn-primary" href="#cursos">Ver cursos</a>
-            <a className="lm-btn lm-btn-outline" href="#metodo">Cómo funciona</a>
+          <div className="lm-hero-grid">
+            <div>
+              <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones online</p>
+              <h1>Elige tu oposición<br />y pregúntanos.</h1>
+              <p className="lm-lead">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
+              <CtaContacto whatsapp={WHATSAPP}>
+                <a className="lm-btn lm-btn-outline" href="#cursos">Ver los cursos</a>
+              </CtaContacto>
+            </div>
+            <aside className="lm-hero-aside" aria-label="Así se estudia">
+              <span className="lm-hero-aside-kicker">Así se estudia</span>
+              <div className="lm-hero-aside-row"><strong>Temario</strong><span>redactado y ordenado por temas</span></div>
+              <div className="lm-hero-aside-row"><strong>Tests</strong><span>autoevaluaciones con explicación</span></div>
+              <div className="lm-hero-aside-row"><strong>Simulacros</strong><span>teóricos y prácticos, autocorregibles</span></div>
+            </aside>
           </div>
-          <p className="lm-btn-note">Autoestudio · tests · simulacros · acceso digital</p>
-        </section>
-
-        <section className="lm-shell lm-boxes" aria-label="Principios de la academia">
-          <div className="lm-box"><span className="lm-box-kicker">01 · ALCANCE</span><strong className="lm-box-title">Contenido visible</strong><p>La ficha de cada curso declara sus bloques, ejercicios y estado de acceso.</p><span className="lm-box-figure">Sin cifras inventadas</span></div>
-          <div className="lm-box"><span className="lm-box-kicker">02 · RUTINA</span><strong className="lm-box-title">Practica y repite</strong><p>Abre un bloque, responde, revisa el error y decide qué volver a estudiar.</p><span className="lm-box-figure">A tu ritmo</span></div>
-          <div className="lm-box lm-box-solid"><span className="lm-box-kicker">03 · ACCESO</span><strong className="lm-box-title">Elige tu aula</strong><p>Entra en la landing del producto y revisa sus condiciones antes de pagar.</p><a className="lm-box-cta" href="#cursos">Ver el catálogo</a></div>
         </section>
 
         <section className="lm-shell" id="cursos">
-          <div className="lm-section-heading"><p className="lm-eyebrow"><i aria-hidden="true" /> Cursos disponibles</p><h2 className="lm-display">Una ficha por aula.</h2><p className="lm-lead">Cada tarjeta resume el contenido actualmente preparado. El detalle, las muestras y el acceso se concretan en su propia landing.</p></div>
+          <div className="lm-section-heading"><h2 className="lm-display">Cursos</h2></div>
           <div className="lm-cards">
             {FICHAS.map((course) => (
               <div key={course.code} onClick={() => trackLabEvent("course_click", course.code)}>
@@ -109,23 +113,20 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="lm-shell lm-panel" id="metodo">
-          <span className="lm-panel-kicker">La experiencia LORMAN</span>
-          <div className="lm-panel-row"><strong>Explora</strong><span>Comprueba el alcance y la convocatoria que corresponde a tu cuerpo.</span></div>
-          <div className="lm-panel-row"><strong>Entrena</strong><span>Practica con tests, simulacros y microcasos cuando el curso los incluye.</span></div>
-          <div className="lm-panel-row"><strong>Decide</strong><span>Compra solo después de revisar el formato, el contenido y los límites de soporte.</span></div>
-        </section>
-
         <section className="lm-shell lm-faq" id="preguntas" aria-labelledby="faq-title">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Preguntas</p>
-          <h2 id="faq-title" className="lm-display">Información clara antes de elegir.</h2>
-          <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>
-          <details><summary>¿Todos los cursos incluyen lo mismo?</summary><p>No. Cada ficha declara su propio temario, tests, simulacros, precio y estado de acceso.</p></details>
-          <details><summary>¿Hay tutoría ilimitada?</summary><p>El modelo prioriza autoestudio y autocorrección. Los límites de soporte se indican antes de cualquier pago.</p></details>
+          <div className="lm-faq-intro">
+            <h2 id="faq-title" className="lm-display">Preguntas</h2>
+            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer">Preguntar por WhatsApp</a>
+          </div>
+          <div className="lm-faq-list">
+            <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>
+            <details><summary>¿Hay clases o tutoría?</summary><p>El modelo prioriza autoestudio y autocorrección. Los límites de soporte se indican antes de cualquier pago.</p></details>
+            <details><summary>¿Cuánto dura el acceso?</summary><p>Cada ficha declara la duración y las condiciones de acceso de su curso.</p></details>
+          </div>
         </section>
 
         <AvisoComun
-          links={[{ label: "Cursos", href: "#cursos" }, { label: "Preguntas", href: "#preguntas" }]}
+          links={[{ label: "Cursos", href: "#cursos" }, { label: "Preguntas", href: "#preguntas" }, { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` }]}
           notice={AVISO_BASE + AVISO_PRECIOS}
         />
       </main>

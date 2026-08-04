@@ -2,52 +2,22 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 import { AvisoComun, AVISO_JUSTICIA } from "./components/AvisoComun";
-import { Cajon, CajonCierre, Cajones } from "./components/Cajones";
+import { Cajon, CajonCierre } from "./components/Cajones";
 import { CtaContacto } from "./components/CtaContacto";
+import { EnlaceInstagram } from "./components/Instagram";
 import { MuestraMaterial } from "./components/MuestraMaterial";
 
 const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://lorman-lab.vercel.app";
-const MOODLE_URL = import.meta.env.VITE_MOODLE_URL?.trim() || "https://aula.academialorman.es/course/view.php?id=11";
 const WHATSAPP = "34640828654";
 const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || `https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20tests%20de%20Auxilio%20Judicial%20C2.`;
-const MODULES = [{ value: "53", title: "Autoevaluaciones por tema" }, { value: "90", title: "Cuestionarios únicos" }];
 
-const TOPICS = [
-  "Constitución Española, Corona, Cortes y Tribunal Constitucional",
-  "Igualdad, no discriminación y violencia de género",
-  "Gobierno, Administración y organización administrativa",
-  "Organización territorial del Estado y Administración local",
-  "Unión Europea: competencias e instituciones",
-  "Poder Judicial, CGPJ y Ministerio Fiscal",
-  "Tribunal Supremo, Audiencia Nacional, TSJ y Audiencias Provinciales",
-  "Tribunales de Instancia y Oficinas de Justicia municipales",
-  "Derechos de la ciudadanía ante la Justicia y justicia gratuita",
-  "Oficina judicial, expediente digital y protección de datos",
-  "Letrados de la Administración de Justicia",
-  "Cuerpos de funcionarios al servicio de la Administración de Justicia",
-  "Cuerpos Generales I",
-  "Cuerpos Generales II",
-  "Libertad sindical, huelga y prevención de riesgos",
-  "Procesos declarativos civiles, MASC y jurisdicción voluntaria",
-  "Ejecución civil, medidas cautelares y embargo",
-  "Procedimientos penales y juicios rápidos",
-  "Procedimiento contencioso-administrativo",
-  "Proceso laboral",
-  "Actos procesales: lugar, tiempo, forma y nulidad",
-  "Resoluciones judiciales y resoluciones de los LAJ",
-  "Cooperación y auxilio judicial",
-  "Actos de comunicación y nuevas tecnologías",
-  "Registro Civil",
-  "Archivo y documentación judicial",
-] as const;
-
-const GROUPS = [
-  ["01—05", "Base institucional", TOPICS.slice(0, 5)],
-  ["06—12", "Organización judicial", TOPICS.slice(5, 12)],
-  ["13—15", "Cuerpos y relación de servicio", TOPICS.slice(12, 15)],
-  ["16—20", "Procesos", TOPICS.slice(15, 20)],
-  ["21—26", "Actuaciones y documentación", TOPICS.slice(20)],
-] as const;
+// Inventario editorial conservado para trazabilidad del aula, no se muestra como contenido público.
+const MOODLE_URL = "https://aula.academialorman.es/course/view.php?id=11";
+const MODULES = [{ value: "53", title: "Cuestionarios por tema" }, { value: "90", title: "Cuestionarios distintos" }];
+const TOPICS = ["Organización judicial", "Procedimientos", "Actos de comunicación"];
+void MOODLE_URL;
+void MODULES;
+void TOPICS;
 
 function App() {
   return (
@@ -56,47 +26,44 @@ function App() {
       <main className="lm-page lm-aux" id="contenido">
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#alcance">Alcance</a><a href="#muestra">Muestra</a><a href="#temario">26 temas</a><a href="#alcance">Acceso</a></nav>
+          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#alcance">Qué incluye</a><EnlaceInstagram size={12} /></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones de Justicia · subgrupo C2</p>
-          <h1>Auxilio Judicial.<br />Solo práctica.</h1>
-          <p className="lm-lead">Un aula de tests autocorregibles para convertir los 26 temas de Auxilio Judicial en sesiones concretas: responde, revisa el error y repite.</p>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Justicia · subgrupo C2</p>
+          <h1>Auxilio Judicial</h1>
+          <p className="lm-lead">Práctica de tests para el Cuerpo de Auxilio Judicial: 26 temas cubiertos y 90 cuestionarios distintos con corrección automática. No incluye temario.</p>
           <CtaContacto whatsapp={WHATSAPP}>
             <a className="lm-btn lm-btn-outline" href="#alcance">Ver qué incluye</a>
           </CtaContacto>
         </section>
 
         <section className="lm-shell lm-boxes" id="alcance" aria-label="Inventario del aula">
-          <Cajon kicker="01 · TEMARIO" title="Cuestionarios por tema" text="Los bloques del programa están organizados por secciones dentro del aula." figure="26 temas cubiertos" />
-          <Cajon kicker="02 · TEST" title="Práctica intensiva" text="Autoevaluaciones por tema, repasos transversales y casos prácticos para aplicar la materia." figure="90 cuestionarios distintos" />
-          <Cajon kicker="03 · SIMULACROS" title="Corrección automática" text="Responde, comprueba el resultado y repite los bloques que necesites." figure="sin temario incluido" />
-          <CajonCierre kicker="04 · PRECIO / ACCESO" title="Solo tests" text="No incluye temario escrito, clases ni corrección individual. Su función es darte práctica repetible." href={WHATSAPP_URL} />
+          <Cajon kicker="01 · COBERTURA" title="Cuestionarios por tema" text="Organización judicial, procedimientos y actos de comunicación." figure="26 temas" />
+          <Cajon kicker="02 · PRÁCTICA" title="Volumen para repetir" text="Suficientes cuestionarios para varias vueltas al programa." figure="90 cuestionarios distintos" />
+          <Cajon kicker="03 · CORRECCIÓN" title="Automática y al momento" text="Aciertos, errores y respuesta correcta al terminar cada test." figure="solo tests · sin temario" />
+          <CajonCierre kicker="04 · ACCESO" title="Pregunta por el acceso" text="Te confirmamos contenido, precio y duración antes de nada." href={WHATSAPP_URL} />
         </section>
 
+        <p className="lm-fineprint">Este curso es solo de tests: aquí irán las capturas de los cuestionarios del campus.</p>
+
         <MuestraMaterial
+          titulo="Muestra del material"
+          intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
           grupos={[{
             paginas: [{}, {}, {}, {}],
             nota: "La muestra de páginas se incorporará cuando el material editorial esté preparado.",
           }]}
-          preguntas={[]}
+          preguntas={[
+            { enunciado: "Enunciado de muestra sobre organización judicial", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "Enunciado de muestra sobre actos procesales", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "Enunciado de muestra sobre actos de comunicación", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "Enunciado de muestra sobre ejecución", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "Enunciado de muestra sobre derecho procesal civil", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          ]}
+          notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
         />
-
-        <section className="lm-shell lm-panel" id="acceso">
-          <span className="lm-panel-kicker">Cómo está organizado</span>
-          <div className="lm-panel-row"><strong>53 autoevaluaciones</strong><span>Practica después de estudiar cada bloque.</span></div>
-          <div className="lm-panel-row"><strong>18 repasos transversales</strong><span>Cruza plazos, recursos, comunicaciones y bancos generales.</span></div>
-          <div className="lm-panel-row"><strong>10 supuestos prácticos</strong><span>Cuestionarios para aplicar la materia a situaciones procesales.</span></div>
-          <div className="lm-panel-row"><strong>4 simulacros</strong><span>Dos recorridos con primer ejercicio teórico y segundo ejercicio práctico.</span></div>
-        </section>
-
-        <section className="lm-shell" id="temario">
-          <div className="lm-section-heading"><p className="lm-eyebrow"><i aria-hidden="true" /> Cobertura</p><h2 className="lm-display">Los 26 temas<br />del aula.</h2><p className="lm-lead">Estos son los nombres de las secciones observadas en Moodle. El detalle y los cuestionarios están dentro del curso.</p></div>
-          <div className="lm-topic-grid">{GROUPS.map(([range, label, topics]) => <article className="lm-topic-group" key={label}><div className="lm-topic-head"><span>{range}</span><strong>{label}</strong></div><ol>{topics.map((topic) => <li key={topic}>{topic}</li>)}</ol></article>)}</div>
-        </section>
-
-        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "26 temas", href: "#temario" }, { label: "Aula Moodle", href: MOODLE_URL }]} notice={AVISO_JUSTICIA} />
+        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }, { label: "Muestra", href: "#muestra" }]} notice={AVISO_JUSTICIA} />
       </main>
     </>
   );

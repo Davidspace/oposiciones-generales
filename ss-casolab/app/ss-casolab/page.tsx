@@ -16,8 +16,8 @@ import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
+import { EnlaceInstagram } from "@/components/Instagram";
 import { MuestraMaterial } from "@/components/MuestraMaterial";
-import { FichaOposicion } from "@/components/FichaOposicion";
 
 type SubmitState = "idle" | "sending" | "success" | "error";
 type EventType =
@@ -309,46 +309,27 @@ export function SsCasoLabLanding({
         Saltar al contenido
       </a>
       <main className="lm-page lm-ss ss-page" id="contenido-principal" tabIndex={-1}>
-      <header className="ss-header">
-        <a className="ss-brand" href="#inicio" aria-label="SS CasoLab. Inicio">
-          <span className="ss-brand-stamp" aria-hidden="true">
-            SS
-          </span>
-          <span>
-            <strong>SS CasoLab</strong>
-            <small>Administrativo · C1</small>
-          </span>
+      <header className="lm-shell lm-header">
+        <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio">
+          <img src="/lorman-logo.png" alt="Academia LORMAN" />
         </a>
-        <nav className="ss-nav" aria-label="Navegación de SS CasoLab">
-          <a className="ss-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a>
-          <a href="#microcaso">Microcaso</a>
-          <a href="#muestra">Muestra</a>
-          <a href="#acceso">Acceso</a>
-          <a className="ss-nav-action" href="#microcaso">
-            Empezar
-          </a>
+        <nav className="lm-nav" aria-label="Navegación de SS CasoLab">
+          <a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a>
+          <a className="lm-nav-material" href="#acceso">Qué incluye</a>
+          <EnlaceInstagram size={12} />
         </nav>
       </header>
 
       <section className="ss-hero" id="inicio">
         <div className="ss-hero-copy">
-          <p className="ss-label">CURSO COMPLETO · TURNO LIBRE</p>
-          <h1>
-            {message.lead} <em>{message.emphasis}</em>
-          </h1>
+          <p className="ss-label">SEGURIDAD SOCIAL · SUBGRUPO C1</p>
+          <h1>Administrativo de la<br />Seguridad Social</h1>
           <p className="ss-hero-lead">
-            Un temario completo y ordenado para Administrativo de la Seguridad
-            Social C1: 23 temas generales, 13 temas específicos, tests por
-            tema, simulacros, normativa y documentación oficial. Estudia a tu
-            ritmo, revisa tus errores y vuelve al bloque que necesites.
+            Temario general y específico, tests por tema y supuestos prácticos.
+            Pago único de 49 € con acceso hasta el día del examen.
           </p>
           <CtaContacto whatsapp={WHATSAPP}>
-            <a className="ss-button ss-button-primary" href="#microcaso">
-              Resolver el microcaso
-            </a>
-            <a className="ss-text-link" href="#como-funciona">
-              Ver cómo funciona
-            </a>
+            <a className="lm-btn lm-btn-outline" href="#acceso">Qué incluye</a>
           </CtaContacto>
           <dl className="ss-facts">
             <div>
@@ -366,44 +347,16 @@ export function SsCasoLabLanding({
           </dl>
         </div>
 
-        <FichaOposicion
-          variant="compact"
-          code="SS"
-          tone="ss"
-          admin="Administración de la Seguridad Social · subgrupo C1"
-          title="Ficha del producto"
-          description={`Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos. ${
-            caseContext
-              ? `Microcaso disponible: ${caseContext.title}.`
-              : diagnosticLoaded
-                ? "Microcaso en revisión editorial."
-                : "Comprobando el microcaso…"
-          }`}
-          status="Contenido disponible · acceso hasta el examen"
-          indicators={[
-            { value: "36", label: "temas: 23 generales + 13 específicos" },
-            { value: "36", label: "tests organizados por tema" },
-            { value: "14", label: "casos prácticos estructurados" },
-            { value: "1", label: "acceso hasta la fecha del examen" },
-          ]}
-          price={{ label: "Pago único", value: "49 €" }}
-          primary={
-            orderingEnabled
-              ? { label: "Ver oferta y crear pedido", href: "/ss-casolab/pedido" }
-              : { label: "Ver el acceso", href: "#acceso" }
-          }
-          secondary={
-            diagnosticPublicable ? { label: "Microcaso", href: "#microcaso" } : undefined
-          }
-        />
       </section>
 
       <section className="lm-shell lm-boxes" aria-label="Contenido de SS CasoLab">
-        <Cajon kicker="01 · TEMARIO" title="36 temas" text="23 temas generales y 13 específicos de Seguridad Social." figure="23 generales + 13 específicos" />
-        <Cajon kicker="02 · TEST" title="36 tests" text="Tests organizados por tema para comprobar la regla y volver al bloque que falla." figure="Autocorrección" />
-        <Cajon kicker="03 · SIMULACROS" title="14 casos" text="Supuestos prácticos estructurados para entrenar el ejercicio." figure="Acceso hasta el examen" />
-        <CajonCierre kicker="04 · PRECIO / ACCESO" title="49 €" text="Pago único y acceso hasta la fecha del examen cuando el acceso esté habilitado." href={orderingEnabled ? "/ss-casolab/pedido" : "#acceso"} />
+        <Cajon kicker="01 · TEMARIO" title="General y específico" text="Temas redactados con la normativa citada y actualizada." figure="36 temas" />
+        <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
+        <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
+        <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={orderingEnabled ? "/ss-casolab/pedido" : "#acceso"} />
       </section>
+
+      <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
 
       <section className="ss-strip" aria-label="Datos de la convocatoria">
         <p>
@@ -1025,22 +978,29 @@ export function SsCasoLabLanding({
       </section>
 
       <MuestraMaterial
+        titulo="Muestra del material"
+        intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
         grupos={[{
           paginas: [{}, {}, {}, {}],
           nota: "Las páginas de muestra se incorporarán cuando el material editorial esté preparado para publicación.",
         }]}
-        preguntas={[]}
+        preguntas={[
+          { enunciado: "Enunciado de muestra sobre Seguridad Social", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          { enunciado: "Enunciado de muestra sobre cotización", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          { enunciado: "Enunciado de muestra sobre prestaciones", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          { enunciado: "Enunciado de muestra sobre procedimiento administrativo", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          { enunciado: "Enunciado de muestra sobre supuesto práctico", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+        ]}
+        notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
       />
 
       <AvisoComun
         brand="SS CasoLab · Academia LORMAN"
         tagline="Decide · corrige · repasa."
         links={[
-          { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
-          { label: "Microcaso", href: "#microcaso" },
+          { label: "Todos los cursos", href: PORTFOLIO_URL },
+          { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` },
           { label: "Muestra", href: "#muestra" },
-          { label: "Acceso", href: "#acceso" },
-          { label: "Preguntas", href: "#preguntas" },
         ]}
         notice={
           "Producto educativo independiente sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
