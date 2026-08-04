@@ -21,7 +21,10 @@ export default function TaiLanding() {
           <p className="lm-eyebrow"><i aria-hidden="true" /> Estado · subgrupo C1</p>
           <h1>Técnico Auxiliar<br />de Informática</h1>
           <p className="lm-lead">Temario, tests, simulacros y simulacros prácticos. Pago único, acceso hasta el día del examen.</p>
-          <CtaContacto whatsapp={WHATSAPP}>
+          <CtaContacto
+            whatsapp={WHATSAPP}
+            message="Hola Academia LORMAN, quiero consultar el acceso al curso TAI."
+          >
             <a className="lm-btn lm-btn-outline" href="#contenido">Ver el contenido</a>
           </CtaContacto>
         </section>

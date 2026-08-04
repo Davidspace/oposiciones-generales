@@ -85,7 +85,7 @@ export function MuestraMaterial({
             {grupo.paginas.map((p, i) =>
               p.src ? (
                 <figure key={i} className="lm-muestra-pagina">
-                  <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} />
+                  <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} loading="lazy" decoding="async" />
                 </figure>
               ) : (
                 <figure key={i} className="lm-muestra-pagina is-vacia">

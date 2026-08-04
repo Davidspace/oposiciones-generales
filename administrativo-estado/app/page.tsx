@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
@@ -20,21 +20,46 @@ const QUESTIONS: Question[] = [
   { id: "q5", topic: "Psicotécnico · numérico", prompt: "Completa la serie: 3, 6, 12, 24, …", options: ["30", "36", "42", "48"], answer: 3 },
 ];
 
-function track(eventType: string, metadata?: Record<string, string | number | boolean>) {
-  if (typeof window === "undefined") return;
-  const sessionKey = "admin-estado-c2-session";
-  const current = window.sessionStorage.getItem(sessionKey) ?? crypto.randomUUID();
-  window.sessionStorage.setItem(sessionKey, current);
+function postEvent(
+  sessionId: string,
+  eventType: string,
+  metadata?: Record<string, string | number | boolean>,
+) {
   const query = new URLSearchParams(window.location.search);
-  void fetch("/api/events", { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true, body: JSON.stringify({ eventId: crypto.randomUUID(), sessionId: current, experiment: EXPERIMENT, offerVariant: "hub-free-sample-c2-v1", eventType, path: window.location.pathname, utmSource: query.get("utm_source"), utmMedium: query.get("utm_medium"), utmCampaign: query.get("utm_campaign"), metadata: metadata ?? {} }) }).catch(() => undefined);
+  void fetch("/api/events", { method: "POST", headers: { "Content-Type": "application/json" }, keepalive: true, body: JSON.stringify({ eventId: window.crypto.randomUUID(), sessionId, experiment: EXPERIMENT, offerVariant: "hub-free-sample-c2-v1", eventType, path: window.location.pathname, utmSource: query.get("utm_source"), utmMedium: query.get("utm_medium"), utmCampaign: query.get("utm_campaign"), metadata: metadata ?? {} }) }).catch(() => undefined);
 }
 
 export default function AdministrativoEstadoLanding() {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
+  const sessionId = useRef<string | null>(null);
   const score = useMemo(() => QUESTIONS.reduce((total, item) => total + (answers[item.id] === item.answer ? 1 : 0), 0), [answers]);
 
-  useEffect(() => track("landing_view"), []);
+  function track(eventType: string, metadata?: Record<string, string | number | boolean>) {
+    if (!analyticsEnabled || typeof window === "undefined") return;
+    sessionId.current ??= window.crypto.randomUUID();
+    postEvent(sessionId.current, eventType, metadata);
+  }
+
+  useEffect(() => {
+    let active = true;
+    void fetch("/api/public-config?experiment=administrativo-estado-c2", { cache: "no-store" })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data: { analyticsEnabled?: boolean } | null) => {
+        if (!active) return;
+        const enabled = data?.analyticsEnabled === true;
+        setAnalyticsEnabled(enabled);
+        if (enabled && typeof window !== "undefined") {
+          sessionId.current ??= window.crypto.randomUUID();
+          postEvent(sessionId.current, "landing_view");
+        }
+      })
+      .catch(() => undefined);
+    return () => {
+      active = false;
+    };
+  }, []);
 
   function choose(question: Question, option: number) {
     setAnswers((current) => ({ ...current, [question.id]: option }));
@@ -61,7 +86,10 @@ export default function AdministrativoEstadoLanding() {
           <p className="lm-eyebrow"><i aria-hidden="true" /> Oposición AGE · subgrupo C2</p>
           <h1>Una oposición amplia.<br />Una ruta sencilla.</h1>
           <p className="lm-lead">Preparación digital para el Cuerpo General Auxiliar de la Administración del Estado: normativa, psicotécnicos y ofimática en una experiencia de práctica que puedes repetir.</p>
-          <CtaContacto whatsapp={WHATSAPP}>
+          <CtaContacto
+            whatsapp={WHATSAPP}
+            message="Hola Academia LORMAN, quiero información sobre Auxiliar del Estado C2."
+          >
             <a className="lm-btn lm-btn-outline" href="#prueba" onClick={() => track("offer_view", { section: "hero" })}>Hacer la prueba gratuita</a>
             <a className="lm-btn lm-btn-outline" href="#examen">Ver el examen</a>
           </CtaContacto>
@@ -102,7 +130,7 @@ export default function AdministrativoEstadoLanding() {
             ))}
           </div>
           <div className="lm-quiz-actions"><span>{Object.keys(answers).length} / {QUESTIONS.length} respondidas</span><button className="lm-btn lm-btn-primary" disabled={Object.keys(answers).length !== QUESTIONS.length} onClick={complete}>Ver resultado</button></div>
-          {submitted ? <div className="lm-result" id="resultado" aria-live="polite"><div><span className="lm-panel-kicker">Resultado de la muestra</span><strong>{score}/{QUESTIONS.length}</strong></div><div><h3>{score >= 4 ? "Buen punto de partida." : "Ya tienes un mapa de repaso."}</h3><p>{score >= 4 ? "El siguiente paso es entrenar con más preguntas y medir la segunda parte." : "La utilidad de practicar está en localizar el bloque que debes volver a estudiar."}</p><a className="lm-btn lm-btn-outline" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20he%20hecho%20la%20prueba%20de%20Auxiliar%20del%20Estado%20C2.`} target="_blank" rel="noreferrer" onClick={() => track("whatsapp_click", { context: "offer" })}>Consultar acceso</a></div></div> : null}
+          {submitted ? <div className="lm-result" id="resultado" aria-live="polite"><div><span className="lm-panel-kicker">Resultado de la muestra</span><strong>{score}/{QUESTIONS.length}</strong></div><div><h3>{score >= 4 ? "Buen punto de partida." : "Ya tienes un mapa de repaso."}</h3><p>{score >= 4 ? "El siguiente paso es entrenar con más preguntas y medir la segunda parte." : "La utilidad de practicar está en localizar el bloque que debes volver a estudiar."}</p><a className="lm-btn lm-btn-outline" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20he%20hecho%20la%20prueba%20de%20Auxiliar%20del%20Estado%20C2.`} target="_blank" rel="noopener noreferrer" onClick={() => track("whatsapp_click", { context: "offer" })}>Consultar acceso</a></div></div> : null}
         </section>
 
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "Examen", href: "#examen" }, { label: "Prueba gratuita", href: "#prueba" }]} notice={AVISO_BASE + AVISO_PRECIOS} />

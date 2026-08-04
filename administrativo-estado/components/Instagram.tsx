@@ -26,7 +26,7 @@ export function EnlaceInstagram({ size = 17 }: { size?: number }) {
       className="lm-ig"
       href={INSTAGRAM_URL}
       target="_blank"
-      rel="noreferrer"
+      rel="noopener noreferrer"
       aria-label="Instagram de Academia LORMAN"
     >
       <IconoInstagram size={size} />

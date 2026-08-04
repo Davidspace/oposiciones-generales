@@ -89,7 +89,10 @@ export default function Home() {
               <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones online</p>
               <h1>Elige tu oposición<br />y pregúntanos.</h1>
               <p className="lm-lead">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
-              <CtaContacto whatsapp={WHATSAPP}>
+              <CtaContacto
+                whatsapp={WHATSAPP}
+                message="Hola Academia LORMAN, quiero saber qué curso me encaja."
+              >
                 <a className="lm-btn lm-btn-outline" href="#cursos">Ver los cursos</a>
               </CtaContacto>
             </div>
@@ -116,7 +119,7 @@ export default function Home() {
         <section className="lm-shell lm-faq" id="preguntas" aria-labelledby="faq-title">
           <div className="lm-faq-intro">
             <h2 id="faq-title" className="lm-display">Preguntas</h2>
-            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer">Preguntar por WhatsApp</a>
+            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20hacer%20una%20consulta.`} target="_blank" rel="noopener noreferrer">Preguntar por WhatsApp</a>
           </div>
           <div className="lm-faq-list">
             <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>

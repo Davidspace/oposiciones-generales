@@ -28,6 +28,7 @@ type EventType =
 
 const EXPERIMENT = "ss-casolab";
 const WHATSAPP = "34640828654";
+const WHATSAPP_URL = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Academia LORMAN, quiero consultar el acceso a SS CasoLab.")}`;
 let volatileSessionId: string | null = null;
 const EMPTY_QUESTIONS: SsQuestion[] = [];
 
@@ -119,7 +120,6 @@ export function SsCasoLabLanding({
   const [analyticsEnabled, setAnalyticsEnabled] = useState(false);
   const [captureEnabled, setCaptureEnabled] = useState(false);
   const [capturePrivacyUrl, setCapturePrivacyUrl] = useState<string | null>(null);
-  const [orderingEnabled, setOrderingEnabled] = useState(false);
   const [diagnostic, setDiagnostic] = useState<SsDiagnosticPayload | null>(null);
   const [diagnosticLoaded, setDiagnosticLoaded] = useState(false);
   const started = useRef(false);
@@ -143,7 +143,6 @@ export function SsCasoLabLanding({
           analyticsEnabled?: boolean;
           captureEnabled?: boolean;
           capturePrivacyUrl?: string | null;
-          orderingEnabled?: boolean;
         }) => {
           const analyticsIsEnabled = data.analyticsEnabled === true;
           setAnalyticsEnabled(analyticsIsEnabled);
@@ -154,7 +153,6 @@ export function SsCasoLabLanding({
               ? data.capturePrivacyUrl
               : null,
           );
-          setOrderingEnabled(data.orderingEnabled === true);
           postEvent(analyticsIsEnabled, message.offerVariant, "landing_view");
         },
       )
@@ -162,7 +160,6 @@ export function SsCasoLabLanding({
         setAnalyticsEnabled(false);
         setCaptureEnabled(false);
         setCapturePrivacyUrl(null);
-        setOrderingEnabled(false);
       });
 
     void fetch("/api/ss-diagnostic", { cache: "no-store" })
@@ -328,7 +325,10 @@ export function SsCasoLabLanding({
             Temario general y específico, tests por tema y supuestos prácticos.
             Pago único de 49 € con acceso hasta el día del examen.
           </p>
-          <CtaContacto whatsapp={WHATSAPP}>
+          <CtaContacto
+            whatsapp={WHATSAPP}
+            message="Hola Academia LORMAN, quiero consultar el acceso a SS CasoLab."
+          >
             <a className="lm-btn lm-btn-outline" href="#acceso">Qué incluye</a>
           </CtaContacto>
           <dl className="ss-facts">
@@ -353,7 +353,7 @@ export function SsCasoLabLanding({
         <Cajon kicker="01 · TEMARIO" title="General y específico" text="Temas redactados con la normativa citada y actualizada." figure="36 temas" />
         <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
         <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
-        <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={orderingEnabled ? "/ss-casolab/pedido" : "#acceso"} />
+        <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={WHATSAPP_URL} />
       </section>
 
       <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
@@ -830,23 +830,16 @@ export function SsCasoLabLanding({
             <li>Sin corrección manual de cada intento.</li>
             <li>Soporte individual por WhatsApp en dos ventanas semanales.</li>
           </ul>
-          {orderingEnabled ? (
-            <a className="ss-button ss-button-primary" href="/ss-casolab/pedido">
-              Ver oferta y crear pedido
-            </a>
-          ) : (
-            <button
-              className="ss-button ss-button-disabled"
-              type="button"
-              disabled
-            >
-              Acceso próximamente
-            </button>
-          )}
+          <a
+            className="ss-button ss-button-primary"
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Consultar acceso por WhatsApp
+          </a>
           <p className="ss-checkout-notice" role="status">
-            {orderingEnabled
-              ? "El importe, los documentos vigentes y la referencia de Bizum profesional se muestran antes de pagar."
-              : "El acceso se habilitará cuando el checkout y las condiciones de contratación estén publicados."}
+            Te confirmamos por WhatsApp el precio, las condiciones y los pasos de acceso antes de cualquier pago.
           </p>
         </div>
 
@@ -859,7 +852,7 @@ export function SsCasoLabLanding({
             </div>
             <div>
               <dt>Pago</dt>
-              <dd>49 € en un único pago, cuando el acceso esté habilitado.</dd>
+              <dd>49 € en un único pago, después de confirmar el acceso por WhatsApp.</dd>
             </div>
             <div>
               <dt>Formato</dt>
