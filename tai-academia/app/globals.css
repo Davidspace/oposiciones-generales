@@ -1,6 +1,5 @@
-@import './lorman-industry.css';
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
-@import "../node_modules/tailwindcss/index.css";
+@import "tailwindcss";
 
 :root {
   --surface: #ffffff;
@@ -1956,9 +1955,6 @@ footer > p {
 
 .tai-page ::selection { background: var(--tai-accent); color: #fff; }
 .tai-page :focus-visible { outline: 2px solid var(--tai-accent); outline-offset: 2px; }
-.tai-skip-link { background: var(--tai-ink); color: #fff; left: 16px; padding: 11px 14px; position: absolute; top: -100px; z-index: 100; }
-.tai-skip-link:focus { color: #fff; top: 16px; }
-.tai-page { scroll-margin-top: 24px; }
 .tai-page h1,
 .tai-page h2,
 .tai-page h3,
@@ -1982,7 +1978,6 @@ footer > p {
 .tai-brand small { color: var(--tai-muted); font-size: 9px; font-weight: 700; letter-spacing: .11em; margin-top: 4px; text-transform: uppercase; }
 .tai-nav { align-items: center; display: flex; font-size: 13px; font-weight: 650; gap: 30px; }
 .tai-nav a { border-bottom: 2px solid transparent; padding: 7px 0 5px; text-decoration: none; }
-.tai-nav .tai-nav-home { color: var(--tai-accent); font-size: 10px; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
 .tai-nav a:hover { border-color: var(--tai-accent); color: var(--tai-accent); }
 .tai-nav .tai-nav-cta { background: var(--tai-ink); color: #fff; padding: 11px 16px; }
 .tai-nav .tai-nav-cta:hover { background: var(--tai-accent); border-color: var(--tai-accent); color: #fff; }
@@ -2079,7 +2074,7 @@ footer > p {
 @media (max-width: 620px) {
   .tai-header { height: auto; min-height: 70px; padding-block: 12px; }
   .tai-nav { gap: 13px; }
-  .tai-nav > a:not(.tai-nav-cta):not(.tai-nav-home) { display: none; }
+  .tai-nav > a:not(.tai-nav-cta) { display: none; }
   .tai-hero { padding: 52px 20px 70px; }
   .tai-hero h1 { font-size: clamp(50px, 15vw, 78px); }
   .tai-hero-lead { font-size: 16px; }

@@ -34,23 +34,17 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
 
 ## Añadido en este pase (2026-08-04)
 
-- Se entrega el componente para una nueva fila **«Muestra del material»** en cada
-  landing específica, a dos columnas
+- Nueva fila **«Muestra del material»** en cada landing específica, a dos columnas
   simétricas: páginas del temario a la izquierda, preguntas tipo test en desplegables
   (cerrados por defecto) a la derecha.
 - Copia `assets/muestras/*` a `public/muestras/` del proyecto correspondiente
   (TAI: `tai-*`; TCAE: `sms-*` y `sas-*`).
-- Las preguntas se muestran en desplegables cuando existe una selección revisada.
-  Si no existe, la fila informa de que las preguntas revisadas están dentro del
-  aula y no publica enunciados de relleno.
+- Las preguntas van con **texto de relleno**: sustituir por los enunciados reales
+  exportados del Moodle (`preguntas` de `MuestraMaterial`).
 - SS y Auxilio Judicial se entregan con las páginas en hueco (`src` sin definir):
   se dibuja el marco «Página N» hasta que haya capturas.
 - El enlace de Instagram de cabecera y pie usa ya el mismo color, familia y tamaño
   que los enlaces vecinos (antes iba en un gris distinto).
-
-La fila ya está conectada a las rutas públicas. TAI muestra las páginas de muestra
-disponibles y SS, Auxilio Judicial, C2 y los bancos sin procedencia pública mantienen
-el estado honesto de aula cerrada para preguntas y páginas no publicadas.
 
 ## Reglas de contenido aplicadas
 
@@ -74,14 +68,11 @@ el estado honesto de aula cerrada para preguntas y páginas no publicadas.
 - **Auxiliar Administrativo del Estado C2**: ficha **oculta** (`MOSTRAR_C2 = false`)
   hasta que el Moodle esté preparado.
 
-## Estado del repo tras el pase anterior
+## Pendiente en el repo
 
-- `tai-academia/app/tai/page.tsx` ya refleja `ACCESS_PRICE = "95 €"` y acceso hasta
-  el examen. El acceso permanece cerrado hasta publicar el checkout.
-- `ss-casolab/app/ss-casolab/page.tsx` ya refleja 49 € en pago único, sin preventa ni
-  reserva. El acceso permanece cerrado hasta publicar las condiciones de contratación.
-- `ss-casolab/app/globals.css` conserva selectores históricos sin ámbito para las rutas
-  internas `/pedido` y `_sites-preview`; requieren una pasada visual independiente.
-
-No se publican preguntas inventadas como material de muestra. Antes de añadir una
-pregunta a `MuestraMaterial`, debe existir una revisión editorial y su procedencia.
+- `tai-academia/app/tai/page.tsx` mantiene `ACCESS_PRICE = "59 €"` y «12 meses de
+  acceso»: cambiar a 95 € y acceso hasta el examen.
+- `ss-casolab` mantiene el flujo de preventa y los gates de pedido: pasar a precio
+  cerrado de 49 €.
+- `ss-casolab/app/globals.css` conserva ~1.500 líneas de selectores de elemento sin
+  ámbito; acotarlos bajo `.ss-page` cuando se pueda probar `/pedido` y `_sites-preview`.

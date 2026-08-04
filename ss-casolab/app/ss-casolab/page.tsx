@@ -12,12 +12,9 @@ import {
   type SsDiagnosticPayload,
   type SsQuestion,
 } from "@/lib/ss-casolab";
-import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_PRECIOS } from "@/components/AvisoComun";
-import { Cajon, CajonCierre } from "@/components/Cajones";
-import { CtaContacto } from "@/components/CtaContacto";
-import { EnlaceInstagram } from "@/components/Instagram";
-import { MuestraMaterial } from "@/components/MuestraMaterial";
+import { FichaOposicion } from "@/components/FichaOposicion";
+import { PORTFOLIO_URL } from "@/lib/portfolio-links";
 
 type SubmitState = "idle" | "sending" | "success" | "error";
 type EventType =
@@ -27,7 +24,6 @@ type EventType =
   | "lead_submit";
 
 const EXPERIMENT = "ss-casolab";
-const WHATSAPP = "34640828654";
 let volatileSessionId: string | null = null;
 const EMPTY_QUESTIONS: SsQuestion[] = [];
 
@@ -304,33 +300,46 @@ export function SsCasoLabLanding({
   }
 
   return (
-    <>
-      <a className="ss-skip-link" href="#contenido-principal">
-        Saltar al contenido
-      </a>
-      <main className="lm-page lm-ss ss-page" id="contenido-principal" tabIndex={-1}>
-      <header className="lm-shell lm-header">
-        <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio">
-          <img src="/lorman-logo.png" alt="Academia LORMAN" />
+    <main className="ss-page">
+      <header className="ss-header">
+        <a className="ss-brand" href="#inicio" aria-label="SS CasoLab. Inicio">
+          <span className="ss-brand-stamp" aria-hidden="true">
+            SS
+          </span>
+          <span>
+            <strong>SS CasoLab</strong>
+            <small>Administrativo · C1</small>
+          </span>
         </a>
-        <nav className="lm-nav" aria-label="Navegación de SS CasoLab">
-          <a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a>
-          <a className="lm-nav-material" href="#acceso">Qué incluye</a>
-          <EnlaceInstagram size={12} />
+        <nav className="ss-nav" aria-label="Navegación de SS CasoLab">
+          <a href="#microcaso">Microcaso</a>
+          <a href="#preventa">Preventa</a>
+          <a className="ss-nav-action" href="#microcaso">
+            Empezar
+          </a>
         </nav>
       </header>
 
       <section className="ss-hero" id="inicio">
         <div className="ss-hero-copy">
-          <p className="ss-label">SEGURIDAD SOCIAL · SUBGRUPO C1</p>
-          <h1>Administrativo de la<br />Seguridad Social</h1>
+          <p className="ss-label">ACADEMIA EN CONSTRUCCIÓN · TURNO LIBRE</p>
+          <h1>
+            {message.lead} <em>{message.emphasis}</em>
+          </h1>
           <p className="ss-hero-lead">
-            Temario general y específico, tests por tema y supuestos prácticos.
-            Pago único de 49 € con acceso hasta el día del examen.
+            Un temario completo y ordenado para Administrativo de la Seguridad
+            Social C1: 23 temas generales, 13 temas específicos, tests por
+            tema, simulacros, normativa y documentación oficial. El producto
+            se publicará por fases después de revisar cada bloque.
           </p>
-          <CtaContacto whatsapp={WHATSAPP}>
-            <a className="lm-btn lm-btn-outline" href="#acceso">Qué incluye</a>
-          </CtaContacto>
+          <div className="ss-actions">
+            <a className="ss-button ss-button-primary" href="#microcaso">
+              Resolver el microcaso
+            </a>
+            <a className="ss-text-link" href="#como-funciona">
+              Ver cómo funciona
+            </a>
+          </div>
           <dl className="ss-facts">
             <div>
               <dt>15</dt>
@@ -347,16 +356,37 @@ export function SsCasoLabLanding({
           </dl>
         </div>
 
+        <FichaOposicion
+          variant="compact"
+          code="SS"
+          tone="ss"
+          admin="Administración de la Seguridad Social · subgrupo C1"
+          title="Ficha del producto"
+          description={`Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos. ${
+            caseContext
+              ? `Microcaso disponible: ${caseContext.title}.`
+              : diagnosticLoaded
+                ? "Microcaso en revisión editorial."
+                : "Comprobando el microcaso…"
+          }`}
+          status="Estructura completa · publicación en revisión"
+          indicators={[
+            { value: "36", label: "temas: 23 generales + 13 específicos" },
+            { value: "36", label: "tests organizados por tema" },
+            { value: "14", label: "casos prácticos estructurados" },
+            { value: "6", label: "meses de acceso previstos" },
+          ]}
+          price={{ label: "Precio fundador previsto", value: "49 €" }}
+          primary={
+            orderingEnabled
+              ? { label: "Ver oferta y crear pedido", href: "/ss-casolab/pedido" }
+              : { label: "Ver la preventa", href: "#preventa" }
+          }
+          secondary={
+            diagnosticPublicable ? { label: "Microcaso", href: "#microcaso" } : undefined
+          }
+        />
       </section>
-
-      <section className="lm-shell lm-boxes" aria-label="Contenido de SS CasoLab">
-        <Cajon kicker="01 · TEMARIO" title="General y específico" text="Temas redactados con la normativa citada y actualizada." figure="36 temas" />
-        <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
-        <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
-        <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={orderingEnabled ? "/ss-casolab/pedido" : "#acceso"} />
-      </section>
-
-      <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
 
       <section className="ss-strip" aria-label="Datos de la convocatoria">
         <p>
@@ -621,14 +651,14 @@ export function SsCasoLabLanding({
       <section className="ss-capture" id="captacion">
         <div className="ss-capture-copy">
           <p className="ss-label">GUARDA EL SIGUIENTE PASO</p>
-          <h2>Recibe la ruta de repaso y las condiciones de acceso.</h2>
+          <h2>Recibe la ruta de repaso y la apertura de la preventa.</h2>
           <p>
             Indica tu fase y tu principal bloqueo. Solo pedimos los datos
-            necesarios para enviarte la ruta y conocer las condiciones de acceso.
+            necesarios para enviarte la ruta y avisarte de la apertura.
           </p>
           <ul>
             <li>Resumen del método de decisión.</li>
-            <li>Condiciones de acceso y soporte.</li>
+            <li>Aviso antes de abrir la preventa.</li>
             <li>Puedes pedir la baja en el mismo chat de WhatsApp.</li>
           </ul>
         </div>
@@ -647,13 +677,13 @@ export function SsCasoLabLanding({
           ) : submitState === "success" ? (
             <div className="ss-success" role="status">
               <span>RECIBIDO</span>
-              <h3>Tu interés está guardado.</h3>
+              <h3>Tu acceso prioritario está guardado.</h3>
               <p>
                 Te enviaremos por WhatsApp la ruta de repaso y las condiciones
-                de acceso.
+                antes de activar cualquier cobro.
               </p>
-              <a className="ss-button ss-button-dark" href="#acceso">
-                Ver el acceso a CasoLab
+              <a className="ss-button ss-button-dark" href="#preventa">
+                Ver qué incluirá CasoLab
               </a>
             </div>
           ) : (
@@ -765,9 +795,9 @@ export function SsCasoLabLanding({
         </div>
       </section>
 
-      <section className="ss-preorder" id="acceso">
+      <section className="ss-preorder" id="preventa">
         <div className="ss-preorder-title">
-          <p className="ss-label">ACCESO AL CURSO · PAGO ÚNICO</p>
+          <p className="ss-label">BETA PROGRESIVA · EDICIÓN FUNDADORA</p>
           <h2>Prepara las dos partes con una sola ruta de estudio.</h2>
           <p>
             El producto parte del temario exacto de SS: temas redactados,
@@ -778,21 +808,21 @@ export function SsCasoLabLanding({
         </div>
 
         <div className="ss-product-card">
-          <span className="ss-product-sticker">ACCESO HASTA EL EXAMEN</span>
+          <span className="ss-product-sticker">ACCESO 6 MESES</span>
           <div className="ss-price">
-            <span>Precio del curso</span>
+            <span>Precio fundador previsto</span>
             <strong>49 €</strong>
             <small>pago único</small>
           </div>
           <div className="ss-content-status" aria-label="Estado editorial del contenido">
             <div className="ss-content-status-head">
               <span>INVENTARIO DE LA VERSIÓN ACTUAL</span>
-              <strong>CONTENIDO ORGANIZADO · ACCESO DIGITAL</strong>
+              <strong>ESTRUCTURA COMPLETA · PUBLICACIÓN CERRADA</strong>
             </div>
             <p>
-              El material de Alba está organizado en ocho áreas. Cada recurso
-              se presenta con su bloque de estudio, práctica y referencia
-              normativa para que puedas avanzar sin horarios.
+              El material de Alba está organizado en ocho áreas. Antes de
+              publicar cada recurso comprobaremos su vigencia, formato y
+              trazabilidad normativa.
             </p>
             <div className="ss-product-grid">
               {CORPUS_STATUS_ITEMS.map(([number, label]) => (
@@ -803,7 +833,7 @@ export function SsCasoLabLanding({
               ))}
             </div>
           </div>
-          <h3>Contenido incluido</h3>
+          <h3>Contenido disponible en el temario fuente</h3>
           <div className="ss-product-grid">
             {BETA_ITEMS.map(([number, label]) => (
               <div key={label}>
@@ -812,7 +842,7 @@ export function SsCasoLabLanding({
               </div>
             ))}
           </div>
-          <h3>Cómo está organizado el aula</h3>
+          <h3>Cómo se transformará en el producto digital</h3>
           <div className="ss-product-grid">
             {COMPLETE_ITEMS.map(([number, label]) => (
               <div key={label}>
@@ -840,47 +870,47 @@ export function SsCasoLabLanding({
               type="button"
               disabled
             >
-              Acceso próximamente
+              Pedidos cerrados hasta superar los gates
             </button>
           )}
           <p className="ss-checkout-notice" role="status">
             {orderingEnabled
               ? "El importe, los documentos vigentes y la referencia de Bizum profesional se muestran antes de pagar."
-              : "El acceso se habilitará cuando el checkout y las condiciones de contratación estén publicados."}
+              : "El pedido Bizum profesional se activará aquí solo después de las pruebas jurídicas, bancarias y de acceso."}
           </p>
         </div>
 
         <div className="ss-conditions">
-          <h3>Condiciones de acceso</h3>
+          <h3>Calendario propuesto antes de abrir el cobro</h3>
           <dl>
             <div>
-              <dt>Duración</dt>
-              <dd>Acceso hasta la fecha del examen de la convocatoria vigente.</dd>
+              <dt>Apertura beta</dt>
+              <dd>14 de agosto de 2026, sujeta a revisión y pruebas.</dd>
             </div>
             <div>
-              <dt>Pago</dt>
-              <dd>49 € en un único pago, cuando el acceso esté habilitado.</dd>
+              <dt>Mínimo</dt>
+              <dd>10 reservas para producir la edición completa.</dd>
             </div>
             <div>
-              <dt>Formato</dt>
-              <dd>Aula digital, tests y práctica autocorregible.</dd>
+              <dt>Entrega completa</dt>
+              <dd>Objetivo: 27 de octubre de 2026.</dd>
             </div>
             <div>
-              <dt>Soporte</dt>
-              <dd>Ayuda de acceso y uso, con límites publicados antes del pago.</dd>
+              <dt>Si no se lanza</dt>
+              <dd>Devolución íntegra del importe cobrado.</dd>
             </div>
           </dl>
           <p>
-            No hay preventa ni reserva. El cobro permanecerá cerrado hasta que
-            la página muestre identidad, impuestos, desistimiento, devolución,
-            contenido disponible y límites de soporte antes del pago.
+            Estas fechas no son todavía una oferta de contratación. El checkout
+            solo se abrirá cuando muestre identidad, impuestos, desistimiento,
+            devolución, contenido disponible y soporte antes del pago.
           </p>
         </div>
       </section>
 
       <section className="ss-faq" id="preguntas">
         <div className="ss-section-heading">
-          <p className="ss-label">ANTES DE EMPEZAR</p>
+          <p className="ss-label">ANTES DE RESERVAR</p>
           <h2>Preguntas frecuentes.</h2>
         </div>
         <div className="ss-faq-list">
@@ -888,15 +918,16 @@ export function SsCasoLabLanding({
             <summary>¿Prepara las dos partes del ejercicio?</summary>
             <p>
               Sí. La fuente editorial cubre los 23 temas generales y los 13
-              específicos. Antes de pagar podrás ver el inventario disponible,
-              la fecha de revisión y las condiciones de acceso.
+              específicos. La publicación digital será progresiva: antes de
+              pagar podrás ver qué materiales están disponibles y qué recursos
+              siguen en revisión.
             </p>
           </details>
           <details>
             <summary>¿Incluye correcciones individuales?</summary>
             <p>
-              No en el producto base. Los tests y simulacros están preparados
-              para autocorrección y revisión guiada. Una revisión humana podría
+              No en el producto base. Los tests y simulacros se diseñarán para
+              autocorrección y revisión guiada. Una revisión humana podría
               ofrecerse después como servicio limitado y separado.
             </p>
           </details>
@@ -977,30 +1008,14 @@ export function SsCasoLabLanding({
         </p>
       </section>
 
-      <MuestraMaterial
-        titulo="Muestra del material"
-        intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
-        grupos={[{
-          paginas: [{}, {}, {}, {}],
-          nota: "Las páginas de muestra se incorporarán cuando el material editorial esté preparado para publicación.",
-        }]}
-        preguntas={[
-          { enunciado: "Enunciado de muestra sobre Seguridad Social", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre cotización", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre prestaciones", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre procedimiento administrativo", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre supuesto práctico", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-        ]}
-        notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
-      />
-
       <AvisoComun
         brand="SS CasoLab · Academia LORMAN"
         tagline="Decide · corrige · repasa."
         links={[
-          { label: "Todos los cursos", href: PORTFOLIO_URL },
-          { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` },
-          { label: "Muestra", href: "#muestra" },
+          { label: "Todos los cursos ↗", href: PORTFOLIO_URL },
+          { label: "Microcaso", href: "#microcaso" },
+          { label: "Preventa", href: "#preventa" },
+          { label: "Preguntas", href: "#preguntas" },
         ]}
         notice={
           "Producto educativo independiente sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
@@ -1008,8 +1023,7 @@ export function SsCasoLabLanding({
           AVISO_PRECIOS
         }
       />
-      </main>
-    </>
+    </main>
   );
 }
 

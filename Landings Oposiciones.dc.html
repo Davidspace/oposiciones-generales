@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-a72f667f-c6a1-41f9-aa69-74e5d9c1a43f/styles.css">
+<script src="_ds/industry-a72f667f-c6a1-41f9-aa69-74e5d9c1a43f/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap">
+<style>
+  body { margin: 0; background: var(--color-bg); }
+  a { color: #42444a; }
+  a:hover { color: #1d1f20; }
+  summary::-webkit-details-marker { display: none; }
+</style>
+</helmet>
+
+<div style="font-family: var(--font-body); color: var(--color-text); background: var(--color-bg); min-height: 100vh">
+
+  <div style="position: sticky; top: 0; z-index: 40; background: #2b2b2d; color: #fff; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; padding: 8px 16px">
+    <span style="font-family: var(--font-heading); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: #b7b7ba">Maqueta</span>
+    <div style="display: flex; gap: 1px">
+      <button type="button" onClick="{{ goHub }}" style="appearance: none; border: 0; background: #fff; color: #1d1f20; font-family: var(--font-heading); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; cursor: pointer">Hub</button>
+      <button type="button" onClick="{{ goTcae }}" style="appearance: none; border: 0; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; cursor: pointer">TCAE</button>
+      <button type="button" onClick="{{ goTai }}" style="appearance: none; border: 0; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; cursor: pointer">TAI</button>
+      <button type="button" onClick="{{ goSs }}" style="appearance: none; border: 0; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; cursor: pointer">SS</button>
+      <button type="button" onClick="{{ goAux }}" style="appearance: none; border: 0; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; padding: 8px 14px; cursor: pointer">Aux. Judicial</button>
+    </div>
+  </div>
+
+  <sc-if value="{{ isHub }}" hint-placeholder-val="{{ true }}">
+  <div>
+    <header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d4d4d7; margin: 0 auto; max-width: 1200px; min-height: 88px; padding: 14px 24px">
+      <a href="#inicio" onClick="{{ goHub }}" style="display: inline-flex; align-items: center; text-decoration: none">
+        <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 40px; width: auto">
+      </a>
+      <nav style="display: flex; align-items: center; gap: 26px; flex-wrap: wrap">
+        <a href="#cursos" style="font-family: var(--font-heading); font-size: 19px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">Cursos</a>
+        <a href="#preguntas" style="font-family: var(--font-heading); font-size: 19px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">Preguntas</a>
+        <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 18px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+
+    <section id="inicio" style="margin: 0 auto; max-width: 1200px; padding: 68px 24px 56px; display: grid; gap: 44px; grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr); align-items: center">
+      <div>
+        <p style="display: flex; align-items: center; gap: 10px; margin: 0 0 20px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: #5d5d60"><span style="width: 10px; height: 10px; background: #42444a; display: inline-block"></span> Oposiciones online</p>
+        <h1 style="margin: 0 0 20px; font-size: clamp(52px, 6.4vw, 82px); line-height: .95; letter-spacing: -.02em; text-transform: uppercase">Elige tu oposición<br>y pregúntanos.</h1>
+        <p style="margin: 0 0 32px; font-size: 19px; line-height: 1.5; max-width: 520px; color: #5d5d60">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 16px">
+          <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 14px; min-height: 72px; padding: 0 30px; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 27px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #2b2b2d">
+            <img src="assets/lorman-logo.png" alt="" style="height: 26px; width: auto; mix-blend-mode: multiply"><span>Contactar ahora</span>
+          </a>
+          <a href="#cursos" style="display: inline-flex; align-items: center; min-height: 72px; padding: 0 26px; border: 1px solid #1d1f20; color: #1d1f20; font-family: var(--font-heading); font-size: 24px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #e7e7ea">Ver los cursos</a>
+        </div>
+        <p style="margin: 22px 0 0; font-size: 14px; color: #7a7a7d">Respuesta por WhatsApp · sin compromiso</p>
+      </div>
+      <div style="border: 1px solid #1d1f20; padding: 22px 24px">
+        <span style="display: block; font-family: var(--font-heading); font-size: 14px; letter-spacing: .16em; text-transform: uppercase; color: #5d5d60">Así se estudia</span>
+        <div style="display: grid; gap: 1px; margin-top: 18px">
+          <div style="border-bottom: 1px solid #d4d4d7; padding: 14px 0"><strong style="font-family: var(--font-heading); font-size: 26px; text-transform: uppercase">Temario</strong><span style="display: block; font-size: 14px; color: #5d5d60">redactado y ordenado por temas</span></div>
+          <div style="border-bottom: 1px solid #d4d4d7; padding: 14px 0"><strong style="font-family: var(--font-heading); font-size: 26px; text-transform: uppercase">Tests</strong><span style="display: block; font-size: 14px; color: #5d5d60">autoevaluaciones con explicación</span></div>
+          <div style="padding: 14px 0"><strong style="font-family: var(--font-heading); font-size: 26px; text-transform: uppercase">Simulacros</strong><span style="display: block; font-size: 14px; color: #5d5d60">teóricos y prácticos, autocorregidos</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cursos" style="margin: 0 auto; max-width: 1200px; padding: 24px 24px 80px">
+      <h2 style="margin: 0 0 28px; font-size: clamp(34px, 3.6vw, 46px); text-transform: uppercase; letter-spacing: -.01em">Cursos</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px))); gap: 22px">
+
+        <article style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <div style="padding: 20px 20px 0">
+            <strong style="display: block; font-family: var(--font-heading); font-size: 54px; line-height: .9; color: #3f6b5c">TCAE</strong>
+            <h3 style="margin: 10px 0 0; font-size: 24px; line-height: 1.1; text-transform: uppercase">Cuidados Auxiliares de Enfermería</h3>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #5d5d60">Servicios de salud · turno libre</p>
+          </div>
+          <ul style="list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid #d4d4d7">
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Temario por bloques</strong><span style="font-size: 14px; color: #5d5d60">con resúmenes y esquemas</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Tests por tema</strong><span style="font-size: 14px; color: #5d5d60">respuesta razonada</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Simulacros tipo examen</strong><span style="font-size: 14px; color: #5d5d60">y repaso general autocorregible</span></li>
+          </ul>
+          <div style="margin-top: auto; padding: 20px">
+            <a href="#" onClick="{{ goTcae }}" style="display: flex; align-items: center; justify-content: center; min-height: 64px; background: #3f6b5c; color: #fff; font-family: var(--font-heading); font-size: 24px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #33574a">Ver curso TCAE</a>
+          </div>
+        </article>
+
+        <article style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <div style="padding: 20px 20px 0">
+            <strong style="display: block; font-family: var(--font-heading); font-size: 54px; line-height: .9; color: #416180">TAI</strong>
+            <h3 style="margin: 10px 0 0; font-size: 24px; line-height: 1.1; text-transform: uppercase">Técnico Auxiliar de Informática</h3>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #5d5d60">Estado · subgrupo C1</p>
+          </div>
+          <ul style="list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid #d4d4d7">
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Temario completo</strong><span style="font-size: 14px; color: #5d5d60">33 temas</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Tests y autoevaluaciones</strong><span style="font-size: 14px; color: #5d5d60">muchos más que temas</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Simulacros y prácticos</strong><span style="font-size: 14px; color: #5d5d60">las dos partes del ejercicio</span></li>
+            <li style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><span><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Pago único</strong><span style="font-size: 14px; color: #5d5d60">acceso hasta el examen</span></span><strong style="font-family: var(--font-heading); font-size: 30px; color: #416180">{{ taiPrice }}</strong></li>
+          </ul>
+          <div style="margin-top: auto; padding: 20px">
+            <a href="#" onClick="{{ goTai }}" style="display: flex; align-items: center; justify-content: center; min-height: 64px; background: #5980a6; color: #fff; font-family: var(--font-heading); font-size: 24px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #416180">Ver curso TAI</a>
+          </div>
+        </article>
+
+        <article style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <div style="padding: 20px 20px 0">
+            <strong style="display: block; font-family: var(--font-heading); font-size: 54px; line-height: .9; color: #7b3f4b">SS</strong>
+            <h3 style="margin: 10px 0 0; font-size: 24px; line-height: 1.1; text-transform: uppercase">Administrativo Seguridad Social</h3>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #5d5d60">Subgrupo C1 · acceso libre</p>
+          </div>
+          <ul style="list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid #d4d4d7">
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Temario general y específico</strong><span style="font-size: 14px; color: #5d5d60">36 temas redactados</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Tests por tema</strong><span style="font-size: 14px; color: #5d5d60">con normativa citada</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Supuestos prácticos</strong><span style="font-size: 14px; color: #5d5d60">como en el ejercicio</span></li>
+            <li style="display: flex; align-items: baseline; justify-content: space-between; gap: 12px; border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><span><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Pago único</strong><span style="font-size: 14px; color: #5d5d60">acceso hasta el examen</span></span><strong style="font-family: var(--font-heading); font-size: 30px; color: #7b3f4b">{{ ssPrice }}</strong></li>
+          </ul>
+          <div style="margin-top: auto; padding: 20px">
+            <a href="#" onClick="{{ goSs }}" style="display: flex; align-items: center; justify-content: center; min-height: 64px; background: #7b3f4b; color: #fff; font-family: var(--font-heading); font-size: 24px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #64323c">Ver curso SS</a>
+          </div>
+        </article>
+
+        <article style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <div style="padding: 20px 20px 0">
+            <strong style="display: block; font-family: var(--font-heading); font-size: 40px; line-height: .95; color: #55506e">AUX.<br>JUDICIAL</strong>
+            <h3 style="margin: 10px 0 0; font-size: 24px; line-height: 1.1; text-transform: uppercase">Auxilio Judicial</h3>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #5d5d60">Justicia · subgrupo C2 · solo tests</p>
+          </div>
+          <ul style="list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid #d4d4d7">
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Cuestionarios por tema</strong><span style="font-size: 14px; color: #5d5d60">26 temas cubiertos</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Práctica intensiva</strong><span style="font-size: 14px; color: #5d5d60">90 cuestionarios distintos</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Corrección automática</strong><span style="font-size: 14px; color: #5d5d60">sin temario incluido</span></li>
+          </ul>
+          <div style="margin-top: auto; padding: 20px">
+            <a href="#" onClick="{{ goAux }}" style="display: flex; align-items: center; justify-content: center; min-height: 64px; background: #55506e; color: #fff; font-family: var(--font-heading); font-size: 24px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #453f5c">Ver Auxilio Judicial</a>
+          </div>
+        </article>
+
+        <sc-if value="{{ showC2 }}" hint-placeholder-val="{{ false }}">
+        <article style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <div style="padding: 20px 20px 0">
+            <strong style="display: block; font-family: var(--font-heading); font-size: 54px; line-height: .9; color: #7a7a7d">C2</strong>
+            <h3 style="margin: 10px 0 0; font-size: 24px; line-height: 1.1; text-transform: uppercase">Auxiliar Administrativo del Estado</h3>
+            <p style="margin: 6px 0 0; font-size: 14px; color: #5d5d60">Subgrupo C2</p>
+          </div>
+          <ul style="list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid #d4d4d7">
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Normativa y psicotécnicos</strong><span style="font-size: 14px; color: #5d5d60">primera parte</span></li>
+            <li style="border-bottom: 1px solid #d4d4d7; padding: 13px 20px"><strong style="display: block; font-family: var(--font-heading); font-size: 21px; text-transform: uppercase">Actividad y ofimática</strong><span style="font-size: 14px; color: #5d5d60">segunda parte</span></li>
+          </ul>
+          <div style="margin-top: auto; padding: 20px">
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: flex; align-items: center; justify-content: center; min-height: 64px; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 24px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #2b2b2d">Quiero apuntarme</a>
+          </div>
+        </article>
+        </sc-if>
+
+      </div>
+    </section>
+
+    <section id="preguntas" style="margin: 0 auto; max-width: 1200px; padding: 0 24px 80px; display: grid; gap: 48px; grid-template-columns: minmax(280px, .8fr) minmax(0, 1.2fr)">
+      <div>
+        <h2 style="margin: 0 0 16px; font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase">Preguntas</h2>
+        <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 12px; min-height: 64px; padding: 0 24px; background: #42444a; color: #fff; font-family: var(--font-heading); font-size: 23px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #2b2b2d">
+          <img src="assets/lorman-logo.png" alt="" style="height: 22px; width: auto; mix-blend-mode: multiply"><span>Preguntar por WhatsApp</span>
+        </a>
+      </div>
+      <div style="border-top: 1px solid #1d1f20">
+        <details style="border-bottom: 1px solid #d4d4d7"><summary style="cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--font-heading); font-size: 22px">¿Es una página oficial?</summary><p style="margin: -6px 0 18px; font-size: 15px; color: #5d5d60; max-width: 560px">No. Somos preparación digital independiente. Manda siempre la convocatoria vigente.</p></details>
+        <details style="border-bottom: 1px solid #d4d4d7"><summary style="cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--font-heading); font-size: 22px">¿Hay clases o tutoría?</summary><p style="margin: -6px 0 18px; font-size: 15px; color: #5d5d60; max-width: 560px">No. Autoestudio con temario, tests y simulacros autocorregidos. Dudas puntuales por WhatsApp.</p></details>
+        <details style="border-bottom: 1px solid #d4d4d7"><summary style="cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--font-heading); font-size: 22px">¿Cuánto dura el acceso?</summary><p style="margin: -6px 0 18px; font-size: 15px; color: #5d5d60; max-width: 560px">En TAI y SS la compra da acceso hasta el día del examen. En el resto se indica en su ficha antes de pagar.</p></details>
+      </div>
+    </section>
+
+    <footer style="background: #2b2b2d; color: #fff">
+      <div style="margin: 0 auto; max-width: 1200px; padding: 36px 24px 44px; display: grid; gap: 36px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+        <div>
+          <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 34px; width: auto; background: #f2f2f3; padding: 6px">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px">
+            <a href="#cursos" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Cursos</a>
+            <a href="#preguntas" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Preguntas</a>
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">WhatsApp</a>
+            <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #b7b7ba">Proyecto independiente sin relación con ninguna Administración, tribunal ni organismo oficial. Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. Precio final, impuestos, desistimiento y contenido disponible se muestran antes de cualquier pago.</p>
+      </div>
+    </footer>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isTcae }}" hint-placeholder-val="{{ false }}">
+  <div>
+    <header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d4d4d7; margin: 0 auto; max-width: 1200px; min-height: 88px; padding: 14px 24px">
+      <a href="#" onClick="{{ goHub }}" style="display: inline-flex; align-items: center; text-decoration: none"><img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 40px; width: auto"></a>
+      <nav style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap">
+        <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #5d5d60">← Cursos</a>
+        <a href="#material" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #1d1f20">Material</a>
+        <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 18px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+
+    <section style="margin: 0 auto; max-width: 1200px; padding: 64px 24px 40px">
+      <p style="display: flex; align-items: center; gap: 10px; margin: 0 0 18px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: #33574a"><span style="width: 10px; height: 10px; background: #3f6b5c; display: inline-block"></span> Servicios de salud · turno libre</p>
+      <h1 style="margin: 0 0 18px; font-size: clamp(50px, 6vw, 78px); line-height: .95; text-transform: uppercase">Cuidados Auxiliares<br>de Enfermería</h1>
+      <p style="margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: #5d5d60">Temario, resúmenes, tests por tema y simulacros tipo examen. Dinos tu servicio de salud y te decimos qué material te encaja.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px">
+        <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 14px; min-height: 72px; padding: 0 30px; background: #3f6b5c; color: #fff; font-family: var(--font-heading); font-size: 27px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #33574a">
+          <img src="assets/lorman-logo.png" alt="" style="height: 26px; width: auto; mix-blend-mode: multiply"><span>Contactar ahora</span>
+        </a>
+        <a href="#material" style="display: inline-flex; align-items: center; min-height: 72px; padding: 0 26px; border: 1px solid #1d1f20; color: #1d1f20; font-family: var(--font-heading); font-size: 24px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #e6efeb">Ver el material</a>
+      </div>
+    </section>
+
+    <section id="material" style="margin: 0 auto; max-width: 1200px; padding: 24px 24px 80px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px">
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #33574a">01 · Temario</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Temario por bloques</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Con resúmenes y esquemas para repasar antes del test.</p>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #33574a">02 · Test</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Tests por tema</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Respuesta razonada en cada pregunta.</p>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #33574a">03 · Simulacros</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Tipo examen</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Más un repaso general autocorregible de todo el temario.</p>
+        </div>
+        <div style="border: 1px solid #3f6b5c; background: #3f6b5c; color: #fff; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #cfe0d9">04 · Acceso</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Dinos tu servicio de salud</strong>
+          <p style="margin: 0; font-size: 15px; color: #e6efeb">Te confirmamos material, precio y acceso antes de nada.</p>
+          <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="margin-top: auto; display: flex; align-items: center; justify-content: center; min-height: 60px; background: #fff; color: #22392f; font-family: var(--font-heading); font-size: 22px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #e6efeb">Quiero apuntarme</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="muestra" style="margin: 0 auto; max-width: 1200px; padding: 0 24px 80px">
+      <h2 style="margin: 0 0 8px; font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em">Muestra del material</h2>
+      <p style="margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: #5d5d60">Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.</p>
+      <div style="display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px))); align-items: stretch">
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+          <sc-if value="{{ esSms }}" hint-placeholder-val="{{ true }}">
+          <div style="display: flex; flex-direction: column; flex: 1">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #33574a">Temario · páginas de muestra</span>
+        <div style="display: flex; gap: 8px">
+          <button type="button" onClick="{{ verSms }}" style="min-height: 40px; padding: 0 14px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; border: 1px solid #3f6b5c; background: #3f6b5c; color: #fff" style-hover="opacity: .85">Murcia</button>
+          <button type="button" onClick="{{ verSas }}" style="min-height: 40px; padding: 0 14px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; border: 1px solid #3f6b5c; background: #fff; color: #33574a" style-hover="opacity: .85">Andalucía</button>
+        </div>
+      </div>
+          <div style="flex: 1; padding: 18px; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; background: #e6efeb">
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sms-1.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sms-2.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sms-3.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sms-4.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #e6efeb">Resúmenes y tablas del temario del Servicio Murciano de Salud.</p>
+          </div>
+          </sc-if>
+          <sc-if value="{{ esSas }}" hint-placeholder-val="{{ false }}">
+          <div style="display: flex; flex-direction: column; flex: 1">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #33574a">Temario · páginas de muestra</span>
+        <div style="display: flex; gap: 8px">
+          <button type="button" onClick="{{ verSms }}" style="min-height: 40px; padding: 0 14px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; border: 1px solid #3f6b5c; background: #fff; color: #33574a" style-hover="opacity: .85">Murcia</button>
+          <button type="button" onClick="{{ verSas }}" style="min-height: 40px; padding: 0 14px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; cursor: pointer; border: 1px solid #3f6b5c; background: #3f6b5c; color: #fff" style-hover="opacity: .85">Andalucía</button>
+        </div>
+      </div>
+          <div style="flex: 1; padding: 18px; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; background: #e6efeb">
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sas-1.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sas-2.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sas-3.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/sas-4.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #e6efeb">Resúmenes y esquemas del temario del Servicio Andaluz de Salud.</p>
+          </div>
+          </sc-if>
+        </div>
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #33574a">Tipo test · preguntas</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: flex; flex-direction: column; gap: 10px; background: #e6efeb">
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #33574a">01</span>
+            <span style="flex: 1">Enunciado de muestra sobre organización sanitaria</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #33574a"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #33574a">02</span>
+            <span style="flex: 1">Enunciado de muestra sobre higiene y seguridad</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #33574a"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #33574a">03</span>
+            <span style="flex: 1">Enunciado de muestra sobre atención al paciente</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #33574a"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #33574a">04</span>
+            <span style="flex: 1">Enunciado de muestra sobre recogida de muestras</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #33574a"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #33574a">05</span>
+            <span style="flex: 1">Enunciado de muestra sobre prevención de riesgos</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #33574a"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #e6efeb">Preguntas de ejemplo; el banco completo está en el campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background: #22392f; color: #fff">
+      <div style="margin: 0 auto; max-width: 1200px; padding: 36px 24px 44px; display: grid; gap: 36px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+        <div>
+          <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 34px; width: auto; background: #f2f2f3; padding: 6px">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px">
+            <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Todos los cursos</a>
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">WhatsApp</a>
+            <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #cfe0d9">Proyecto independiente sin relación con ningún servicio de salud, tribunal ni organismo oficial. Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. Precio final, impuestos, desistimiento y contenido disponible se muestran antes de cualquier pago.</p>
+      </div>
+    </footer>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isTai }}" hint-placeholder-val="{{ false }}">
+  <div>
+    <header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d4d4d7; margin: 0 auto; max-width: 1200px; min-height: 88px; padding: 14px 24px">
+      <a href="#" onClick="{{ goHub }}" style="display: inline-flex; align-items: center; text-decoration: none"><img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 40px; width: auto"></a>
+      <nav style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap">
+        <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #5d5d60">← Cursos</a>
+        <a href="#incluye" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #1d1f20">Qué incluye</a>
+        <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 18px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+
+    <section style="margin: 0 auto; max-width: 1200px; padding: 64px 24px 40px">
+      <p style="display: flex; align-items: center; gap: 10px; margin: 0 0 18px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: #416180"><span style="width: 10px; height: 10px; background: #5980a6; display: inline-block"></span> Estado · subgrupo C1</p>
+      <h1 style="margin: 0 0 18px; font-size: clamp(50px, 6vw, 78px); line-height: .95; text-transform: uppercase">Técnico Auxiliar<br>de Informática</h1>
+      <p style="margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: #5d5d60">Temario, tests, simulacros y simulacros prácticos. Pago único, acceso hasta el día del examen.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px">
+        <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 14px; min-height: 72px; padding: 0 30px; background: #5980a6; color: #fff; font-family: var(--font-heading); font-size: 27px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #416180">
+          <img src="assets/lorman-logo.png" alt="" style="height: 26px; width: auto; mix-blend-mode: multiply"><span>Contactar ahora</span>
+        </a>
+        <a href="#incluye" style="display: inline-flex; align-items: center; min-height: 72px; padding: 0 26px; border: 1px solid #1d1f20; color: #1d1f20; font-family: var(--font-heading); font-size: 24px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #e7eef5">Qué incluye</a>
+      </div>
+    </section>
+
+    <section id="incluye" style="margin: 0 auto; max-width: 1200px; padding: 24px 24px 80px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px">
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #416180">01 · Temario</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Todo el programa redactado</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Bloques I a IV en PDF, listos para estudiar y repasar.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">33 temas</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #416180">02 · Test</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Autoevaluaciones con explicación</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Practica tema a tema y detecta lo que falla al momento.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">muchas más autoevaluaciones que temas</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #416180">03 · Simulacros</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Teóricos y prácticos</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Ensaya las dos partes del ejercicio con corrección automática.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">bloques III y IV + supuestos prácticos</span>
+        </div>
+        <div style="border: 1px solid #5980a6; background: #5980a6; color: #fff; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #d6ebff">04 · Precio</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Pago único de {{ taiPrice }}</strong>
+          <p style="margin: 0; font-size: 15px; color: #e7eef5">La compra da acceso al aula hasta el día del examen.</p>
+          <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="margin-top: auto; display: flex; align-items: center; justify-content: center; min-height: 60px; background: #fff; color: #1d2d3d; font-family: var(--font-heading); font-size: 22px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #e7eef5">Quiero apuntarme</a>
+        </div>
+      </div>
+      <p style="margin: 26px 0 0; font-size: 14px; color: #5d5d60">Autoestudio: no incluye clases en directo ni corrección manual. Ejercicio único en dos partes, 120 minutos.</p>
+    </section>
+
+    <section id="muestra" style="margin: 0 auto; max-width: 1200px; padding: 0 24px 80px">
+      <h2 style="margin: 0 0 8px; font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em">Muestra del material</h2>
+      <p style="margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: #5d5d60">Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.</p>
+      <div style="display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px))); align-items: stretch">
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #416180">Temario · páginas de muestra</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; background: #e7eef5">
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/tai-1.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/tai-2.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/tai-3.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          <figure style="margin: 0; border: 1px solid #d4d4d7; background: #fff; height: 268px; overflow: hidden"><img src="assets/muestras/tai-4.jpeg" alt="Página de muestra del temario" style="display: block; width: 100%; height: auto"></figure>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #e7eef5">Páginas de los bloques de legislación y de informática, tal como se entregan.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #416180">Tipo test · preguntas</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: flex; flex-direction: column; gap: 10px; background: #e7eef5">
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #416180">01</span>
+            <span style="flex: 1">Enunciado de muestra sobre Constitución</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #416180"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #416180">02</span>
+            <span style="flex: 1">Enunciado de muestra sobre bases de datos</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #416180"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #416180">03</span>
+            <span style="flex: 1">Enunciado de muestra sobre redes</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #416180"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #416180">04</span>
+            <span style="flex: 1">Enunciado de muestra sobre sistemas operativos</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #416180"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #416180">05</span>
+            <span style="flex: 1">Enunciado de muestra sobre desarrollo</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #416180"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #e7eef5">Preguntas de ejemplo; el banco completo está en el campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background: #1d2d3d; color: #fff">
+      <div style="margin: 0 auto; max-width: 1200px; padding: 36px 24px 44px; display: grid; gap: 36px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+        <div>
+          <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 34px; width: auto; background: #f2f2f3; padding: 6px">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px">
+            <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Todos los cursos</a>
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">WhatsApp</a>
+            <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #b5d9fd">Proyecto independiente sin relación con ninguna Administración, tribunal ni organismo oficial. Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. Precio final, impuestos, desistimiento y contenido disponible se muestran antes de cualquier pago.</p>
+      </div>
+    </footer>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isSs }}" hint-placeholder-val="{{ false }}">
+  <div>
+    <header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d4d4d7; margin: 0 auto; max-width: 1200px; min-height: 88px; padding: 14px 24px">
+      <a href="#" onClick="{{ goHub }}" style="display: inline-flex; align-items: center; text-decoration: none"><img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 40px; width: auto"></a>
+      <nav style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap">
+        <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #5d5d60">← Cursos</a>
+        <a href="#contenido" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #1d1f20">Qué incluye</a>
+        <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 18px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+
+    <section style="margin: 0 auto; max-width: 1200px; padding: 64px 24px 40px">
+      <p style="display: flex; align-items: center; gap: 10px; margin: 0 0 18px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: #64323c"><span style="width: 10px; height: 10px; background: #7b3f4b; display: inline-block"></span> Seguridad Social · subgrupo C1</p>
+      <h1 style="margin: 0 0 18px; font-size: clamp(50px, 6vw, 78px); line-height: .95; text-transform: uppercase">Administrativo de la<br>Seguridad Social</h1>
+      <p style="margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: #5d5d60">Temario general y específico, tests por tema y supuestos prácticos. Pago único de {{ ssPrice }} con acceso hasta el día del examen.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px">
+        <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 14px; min-height: 72px; padding: 0 30px; background: #7b3f4b; color: #fff; font-family: var(--font-heading); font-size: 27px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #64323c">
+          <img src="assets/lorman-logo.png" alt="" style="height: 26px; width: auto; mix-blend-mode: multiply"><span>Contactar ahora</span>
+        </a>
+        <a href="#contenido" style="display: inline-flex; align-items: center; min-height: 72px; padding: 0 26px; border: 1px solid #1d1f20; color: #1d1f20; font-family: var(--font-heading); font-size: 24px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #f2e7e9">Qué incluye</a>
+      </div>
+    </section>
+
+    <section id="contenido" style="margin: 0 auto; max-width: 1200px; padding: 24px 24px 80px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px">
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #64323c">01 · Temario</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">General y específico</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Temas redactados con la normativa citada y actualizada.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">36 temas</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #64323c">02 · Test</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Tests por tema</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Corrección automática y referencia a la norma aplicada.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">uno por tema</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #64323c">03 · Práctica</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Supuestos prácticos</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Aplica la regla para decidir, como en el ejercicio real.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">14 supuestos estructurados</span>
+        </div>
+        <div style="border: 1px solid #7b3f4b; background: #7b3f4b; color: #fff; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #e8ced3">04 · Precio</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Pago único de {{ ssPrice }}</strong>
+          <p style="margin: 0; font-size: 15px; color: #f2e7e9">Temario, tests y supuestos prácticos, con acceso hasta el día del examen.</p>
+          <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="margin-top: auto; display: flex; align-items: center; justify-content: center; min-height: 60px; background: #fff; color: #341c21; font-family: var(--font-heading); font-size: 22px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #f2e7e9">Quiero apuntarme</a>
+        </div>
+      </div>
+      <p style="margin: 26px 0 0; font-size: 14px; color: #5d5d60">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos. <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
+    </section>
+
+    <section id="muestra" style="margin: 0 auto; max-width: 1200px; padding: 0 24px 80px">
+      <h2 style="margin: 0 0 8px; font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em">Muestra del material</h2>
+      <p style="margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: #5d5d60">Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.</p>
+      <div style="display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px))); align-items: stretch">
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #64323c">Temario · páginas de muestra</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; background: #f2e7e9">
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 1</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 2</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 3</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 4</span></figure>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #f2e7e9">Pendiente de subir las páginas de muestra del temario y de un supuesto práctico.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #64323c">Tipo test · preguntas</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: flex; flex-direction: column; gap: 10px; background: #f2e7e9">
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #64323c">01</span>
+            <span style="flex: 1">Enunciado de muestra sobre Seguridad Social</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #64323c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #64323c">02</span>
+            <span style="flex: 1">Enunciado de muestra sobre cotización</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #64323c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #64323c">03</span>
+            <span style="flex: 1">Enunciado de muestra sobre prestaciones</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #64323c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #64323c">04</span>
+            <span style="flex: 1">Enunciado de muestra sobre procedimiento administrativo</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #64323c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #64323c">05</span>
+            <span style="flex: 1">Enunciado de muestra sobre supuesto práctico</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #64323c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #f2e7e9">Preguntas de ejemplo; el banco completo está en el campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background: #341c21; color: #fff">
+      <div style="margin: 0 auto; max-width: 1200px; padding: 36px 24px 44px; display: grid; gap: 36px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+        <div>
+          <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 34px; width: auto; background: #f2f2f3; padding: 6px">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px">
+            <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Todos los cursos</a>
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">WhatsApp</a>
+            <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #e8ced3">Proyecto independiente sin relación con la Seguridad Social, el ministerio ni el tribunal. Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. Precio final, impuestos, desistimiento y contenido disponible se muestran antes de cualquier pago.</p>
+      </div>
+    </footer>
+  </div>
+  </sc-if>
+
+  <sc-if value="{{ isAux }}" hint-placeholder-val="{{ false }}">
+  <div>
+    <header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; border-bottom: 1px solid #d4d4d7; margin: 0 auto; max-width: 1200px; min-height: 88px; padding: 14px 24px">
+      <a href="#" onClick="{{ goHub }}" style="display: inline-flex; align-items: center; text-decoration: none"><img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 40px; width: auto"></a>
+      <nav style="display: flex; align-items: center; gap: 24px; flex-wrap: wrap">
+        <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #5d5d60">← Cursos</a>
+        <a href="#tests" style="font-family: var(--font-heading); font-size: 18px; text-decoration: none; color: #1d1f20">Qué incluye</a>
+        <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 18px; letter-spacing: .02em; text-decoration: none; color: #1d1f20">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+          <span>Instagram</span>
+        </a>
+      </nav>
+    </header>
+
+    <section style="margin: 0 auto; max-width: 1200px; padding: 64px 24px 40px">
+      <p style="display: flex; align-items: center; gap: 10px; margin: 0 0 18px; font-family: var(--font-heading); font-size: 16px; letter-spacing: .16em; text-transform: uppercase; color: #453f5c"><span style="width: 10px; height: 10px; background: #55506e; display: inline-block"></span> Justicia · subgrupo C2</p>
+      <h1 style="margin: 0 0 18px; font-size: clamp(50px, 6vw, 78px); line-height: .95; text-transform: uppercase">Auxilio Judicial</h1>
+      <p style="margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: #5d5d60">Práctica de tests para el Cuerpo de Auxilio Judicial: 26 temas cubiertos y 90 cuestionarios distintos con corrección automática. No incluye temario.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 16px">
+        <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center; gap: 14px; min-height: 72px; padding: 0 30px; background: #55506e; color: #fff; font-family: var(--font-heading); font-size: 27px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #453f5c">
+          <img src="assets/lorman-logo.png" alt="" style="height: 26px; width: auto; mix-blend-mode: multiply"><span>Contactar ahora</span>
+        </a>
+        <a href="#tests" style="display: inline-flex; align-items: center; min-height: 72px; padding: 0 26px; border: 1px solid #1d1f20; color: #1d1f20; font-family: var(--font-heading); font-size: 24px; letter-spacing: .04em; text-transform: uppercase; text-decoration: none" style-hover="background: #eae8f0">Qué incluye</a>
+      </div>
+    </section>
+
+    <section id="tests" style="margin: 0 auto; max-width: 1200px; padding: 24px 24px 80px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px">
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #453f5c">01 · Cobertura</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Cuestionarios por tema</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Organización judicial, procedimiento y actos de comunicación.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">26 temas</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #453f5c">02 · Práctica</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Volumen para repetir</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Suficientes cuestionarios para varias vueltas al programa.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">90 cuestionarios distintos</span>
+        </div>
+        <div style="border: 1px solid #1d1f20; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #453f5c">03 · Corrección</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Automática y al momento</strong>
+          <p style="margin: 0; font-size: 15px; color: #5d5d60">Aciertos, errores y respuesta correcta al terminar cada test.</p>
+          <span style="margin-top: auto; font-size: 14px; color: #7a7a7d">solo tests · sin temario</span>
+        </div>
+        <div style="border: 1px solid #55506e; background: #55506e; color: #fff; padding: 22px 22px 26px; display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .16em; text-transform: uppercase; color: #d5d1e2">04 · Acceso</span>
+          <strong style="font-family: var(--font-heading); font-size: 34px; line-height: 1.05; text-transform: uppercase">Pregunta por el acceso</strong>
+          <p style="margin: 0; font-size: 15px; color: #eae8f0">Te confirmamos contenido, precio y duración antes de nada.</p>
+          <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="margin-top: auto; display: flex; align-items: center; justify-content: center; min-height: 60px; background: #fff; color: #242130; font-family: var(--font-heading); font-size: 22px; letter-spacing: .05em; text-transform: uppercase; text-decoration: none" style-hover="background: #eae8f0">Quiero apuntarme</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="muestra" style="margin: 0 auto; max-width: 1200px; padding: 0 24px 80px">
+      <h2 style="margin: 0 0 8px; font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em">Muestra del material</h2>
+      <p style="margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: #5d5d60">Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.</p>
+      <div style="display: grid; gap: 22px; grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px))); align-items: stretch">
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #453f5c">Cuestionarios · vista de muestra</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: grid; gap: 14px; grid-template-columns: 1fr 1fr; background: #eae8f0">
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 1</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 2</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 3</span></figure>
+          <figure style="margin: 0; border: 1px dashed #b9b9bd; background: #fff; height: 268px; display: flex; align-items: center; justify-content: center"><span style="font-family: var(--font-heading); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: #9a9a9e">Página 4</span></figure>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #eae8f0">Este curso es solo de tests: aquí irán capturas de los cuestionarios del campus.</p>
+        </div>
+        <div style="display: flex; flex-direction: column; border: 1px solid #1d1f20">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 14px; min-height: 60px; padding: 0 18px; border-bottom: 1px solid #1d1f20">
+        <span style="font-family: var(--font-heading); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: #453f5c">Tipo test · preguntas</span>
+      </div>
+          <div style="flex: 1; padding: 18px; display: flex; flex-direction: column; gap: 10px; background: #eae8f0">
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #453f5c">01</span>
+            <span style="flex: 1">Enunciado de muestra sobre organización judicial</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #453f5c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #453f5c">02</span>
+            <span style="flex: 1">Enunciado de muestra sobre actos procesales</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #453f5c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #453f5c">03</span>
+            <span style="flex: 1">Enunciado de muestra sobre actos de comunicación</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #453f5c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #453f5c">04</span>
+            <span style="flex: 1">Enunciado de muestra sobre ejecución</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #453f5c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+        <details style="border: 1px solid #d4d4d7; background: #fff">
+          <summary style="display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px; cursor: pointer; list-style: none; font-family: var(--font-heading); font-size: 19px; line-height: 1.25; color: #1d1f20">
+            <span style="font-family: var(--font-heading); font-size: 14px; letter-spacing: .12em; color: #453f5c">05</span>
+            <span style="flex: 1">Enunciado de muestra sobre derecho procesal civil</span>
+            <span aria-hidden="true" style="font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d">Ver</span>
+          </summary>
+          <div style="padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px">
+            <p style="margin: 0; font-size: 15px; line-height: 1.55; color: #5d5d60">Texto de la pregunta de muestra. Sustituir por el enunciado real exportado del campus.</p>
+            <div style="display: grid; gap: 6px">
+              <span style="font-size: 15px; color: #1d1f20">a) Opción de respuesta uno</span>
+              <span style="font-size: 15px; color: #1d1f20">b) Opción de respuesta dos</span>
+              <span style="font-size: 15px; color: #1d1f20">c) Opción de respuesta tres</span>
+              <span style="font-size: 15px; color: #1d1f20">d) Opción de respuesta cuatro</span>
+            </div>
+            <p style="margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: #453f5c"><strong style="font-family: var(--font-heading); letter-spacing: .06em; text-transform: uppercase">Respuesta b</strong> · aquí va la explicación razonada que acompaña a cada pregunta.</p>
+          </div>
+        </details>
+          </div>
+          <p style="margin: 0; padding: 0 18px 18px; font-size: 13px; line-height: 1.5; color: #7a7a7d; background: #eae8f0">Preguntas de ejemplo; el banco completo está en el campus.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer style="background: #242130; color: #fff">
+      <div style="margin: 0 auto; max-width: 1200px; padding: 36px 24px 44px; display: grid; gap: 36px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))">
+        <div>
+          <img src="assets/lorman-logo.png" alt="Academia LORMAN" style="height: 34px; width: auto; background: #f2f2f3; padding: 6px">
+          <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 22px">
+            <a href="#" onClick="{{ goHub }}" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">Todos los cursos</a>
+            <a href="{{ waLink }}" target="_blank" rel="noreferrer" style="font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">WhatsApp</a>
+            <a href="{{ igLink }}" target="_blank" rel="noreferrer" aria-label="Instagram" style="display: inline-flex; align-items: center; gap: 7px; font-family: var(--font-heading); font-size: 17px; color: #fff; text-decoration: none">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1"></circle></svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 13px; line-height: 1.6; color: #d5d1e2">Proyecto independiente sin relación con el Ministerio de Justicia, el tribunal ni ningún organismo oficial. Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. Precio final, impuestos, desistimiento y contenido disponible se muestran antes de cualquier pago.</p>
+      </div>
+    </footer>
+  </div>
+  </sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showC2&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contenido&quot;},&quot;taiPrice&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;95 €&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contenido&quot;},&quot;ssPrice&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;49 €&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contenido&quot;},&quot;whatsapp&quot;:{&quot;editor&quot;:&quot;text&quot;,&quot;default&quot;:&quot;34640828654&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Contacto&quot;}}">
+class Component extends DCLogic {
+  state = { screen: "hub", muestra: "sms" };
+  renderVals() {
+    const set = (screen) => (e) => { if (e && e.preventDefault) e.preventDefault(); this.setState({ screen }); };
+    const wa = this.props.whatsapp ?? "34640828654";
+    return {
+      esSms: this.state.muestra === "sms",
+      esSas: this.state.muestra === "sas",
+      verSms: () => this.setState({ muestra: "sms" }),
+      verSas: () => this.setState({ muestra: "sas" }),
+      isHub: this.state.screen === "hub",
+      isTcae: this.state.screen === "tcae",
+      isTai: this.state.screen === "tai",
+      isSs: this.state.screen === "ss",
+      isAux: this.state.screen === "aux",
+      showC2: this.props.showC2 ?? false,
+      taiPrice: this.props.taiPrice ?? "95 €",
+      ssPrice: this.props.ssPrice ?? "49 €",
+      waLink: "https://wa.me/" + wa,
+      igLink: "https://www.instagram.com/tcae_academia_lm/",
+      goHub: set("hub"),
+      goTcae: set("tcae"),
+      goTai: set("tai"),
+      goSs: set("ss"),
+      goAux: set("aux"),
+    };
+  }
+}
+</script>
+</body>
+</html>

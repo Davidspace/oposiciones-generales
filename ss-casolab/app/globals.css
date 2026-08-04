@@ -1,6 +1,5 @@
-@import './lorman-industry.css';
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
-@import "../node_modules/tailwindcss/index.css";
+@import "tailwindcss";
 
 :root {
   --surface: #ffffff;
@@ -2099,17 +2098,6 @@ footer > p {
   outline: 2px solid var(--ss-accent);
   outline-offset: 2px;
 }
-.ss-skip-link {
-  background: var(--ss-ink);
-  color: var(--ss-white);
-  left: 16px;
-  padding: 11px 14px;
-  position: absolute;
-  top: -100px;
-  z-index: 100;
-}
-.ss-skip-link:focus { color: var(--ss-white); top: 16px; }
-.ss-page { scroll-margin-top: 24px; }
 
 .ss-page h1,
 .ss-page h2 {
@@ -2187,13 +2175,6 @@ footer > p {
 .ss-nav a {
   border-bottom: 2px solid var(--ss-ink);
   padding: 5px 0;
-}
-.ss-nav .ss-nav-home {
-  color: var(--ss-accent);
-  font-size: 10px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  white-space: nowrap;
 }
 
 .ss-nav a:hover {
@@ -3333,7 +3314,7 @@ footer > p {
     font-size: 8px;
   }
 
-  .ss-nav > a:not(.ss-nav-action):not(.ss-nav-home) {
+  .ss-nav > a:not(.ss-nav-action) {
     display: none;
   }
 

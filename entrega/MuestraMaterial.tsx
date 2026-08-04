@@ -1,5 +1,3 @@
-"use client";
-
 /**
  * Fila «Muestra del material» de una landing específica.
  * Dos columnas simétricas: páginas del temario a la izquierda y preguntas
@@ -45,12 +43,12 @@ import { useState } from "react";
 
 export function MuestraMaterial({
   titulo = "Muestra del material",
-  intro = "Páginas reales del temario y preguntas revisadas, para que veas el formato antes de decidir.",
+  intro = "Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.",
   etiquetaIzquierda = "Temario · páginas de muestra",
   etiquetaDerecha = "Tipo test · preguntas",
   grupos,
   preguntas,
-  notaPreguntas = "Las preguntas revisadas se encuentran dentro del aula. No publicamos enunciados de relleno.",
+  notaPreguntas = "Preguntas de ejemplo; el banco completo está en el campus.",
 }: MuestraMaterialProps) {
   const [activo, setActivo] = useState(0);
   const grupo = grupos[activo] ?? grupos[0];
@@ -103,11 +101,7 @@ export function MuestraMaterial({
           </div>
 
           <div className="lm-muestra-preguntas">
-            {preguntas.length === 0 ? (
-              <p className="lm-muestra-empty">
-                Las preguntas revisadas se encuentran dentro del aula. No publicamos enunciados de relleno.
-              </p>
-            ) : preguntas.map((q, i) => (
+            {preguntas.map((q, i) => (
               <details key={i} className="lm-pregunta">
                 <summary>
                   <span className="lm-pregunta-num">{String(i + 1).padStart(2, "0")}</span>
