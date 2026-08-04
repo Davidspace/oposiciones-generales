@@ -18,19 +18,11 @@ env:
   VERCEL_CLI_VERSION: 58.5.1
 
 jobs:
-  configuration:
-    name: Check deployment credentials
-    runs-on: ubuntu-latest
-    steps:
-      - name: Report missing Vercel token
-        if: ${{ secrets.VERCEL_TOKEN == '' }}
-        run: echo "::warning::VERCEL_TOKEN is not configured. Add it as a repository Actions secret to enable automatic production deployments."
-
   deploy:
     name: Deploy ${{ matrix.project }}
-    if: ${{ secrets.VERCEL_TOKEN != '' }}
-    needs: configuration
     runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
     strategy:
       fail-fast: false
       matrix:
@@ -55,10 +47,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Report missing Vercel token
+        if: ${{ env.VERCEL_TOKEN == '' }}
+        run: echo "::warning::VERCEL_TOKEN is not configured. Add it as a repository Actions secret to enable automatic production deployments."
+
       - name: Deploy production project
+        if: ${{ env.VERCEL_TOKEN != '' }}
         working-directory: ${{ matrix.root }}
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: >-
           npx --yes vercel@${{ env.VERCEL_CLI_VERSION }} deploy
           --prod

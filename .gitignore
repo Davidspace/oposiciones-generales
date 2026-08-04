@@ -31,3 +31,6 @@ Thumbs.db
 
 # The independent LORMAN lab is included as source in this repository.
 # Its nested Git metadata is intentionally excluded from the export.
+
+# Vercel local linkage and build metadata.
+.vercel
