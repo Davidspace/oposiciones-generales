@@ -1,3 +1,4 @@
+@import './lorman-industry.css';
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
 
 :root {
@@ -1920,6 +1921,9 @@ footer > p {
 
 /* Administrative C2 landing — Swiss editorial system */
 .ae-page { --ae-ink:#111; --ae-muted:#5f6067; --ae-line:#d7d7dc; --ae-accent:#e4002b; background:#fff; color:var(--ae-ink); min-height:100vh; }
+.ae-skip-link { background:var(--ae-ink); color:#fff; left:16px; padding:11px 14px; position:absolute; top:-100px; z-index:100; }
+.ae-skip-link:focus { color:#fff; top:16px; }
+.ae-page { scroll-margin-top:24px; }
 .ae-page * { box-sizing:border-box; }
 .ae-header { align-items:center; border-bottom:1px solid var(--ae-line); display:flex; height:76px; justify-content:space-between; padding:0 max(24px,calc((100vw - 1240px)/2)); position:sticky; top:0; z-index:20; background:rgba(255,255,255,.96); backdrop-filter:blur(10px); }
 .ae-brand { align-items:center; display:inline-flex; gap:12px; }
@@ -1929,6 +1933,7 @@ footer > p {
 .ae-brand small { color:var(--ae-muted); font-size:9px; font-weight:700; letter-spacing:.08em; margin-top:4px; text-transform:uppercase; }
 .ae-header nav { align-items:center; display:flex; font-size:13px; font-weight:700; gap:28px; }
 .ae-header nav a { border-bottom:2px solid transparent; padding:7px 0 5px; }
+.ae-header nav .ae-nav-home { color:var(--ae-accent); font-size:10px; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap; }
 .ae-header nav a:hover { border-color:var(--ae-accent); color:var(--ae-accent); }
 .ae-nav-cta { background:var(--ae-ink); color:#fff; padding:11px 16px !important; }
 .ae-hero { display:grid; gap:clamp(48px,7vw,100px); grid-template-columns:minmax(0,1.1fr) minmax(340px,.9fr); margin:0 auto; max-width:1240px; min-height:calc(100vh - 76px); padding:82px 24px 96px; }
@@ -2011,7 +2016,7 @@ footer > p {
 .ae-footer p { color:#c8c8cb; font-size:12px; margin:0; text-align:center; }
 .ae-footer a { border-bottom:1px solid #fff; font-size:12px; font-weight:800; padding-bottom:3px; }
 @media (max-width:900px){.ae-hero,.ae-two-col,.ae-section-heading,.ae-offer{grid-template-columns:1fr}.ae-fact-grid{grid-template-columns:repeat(2,1fr)}.ae-fact-grid div:nth-child(3){border-left:0;border-top:1px solid var(--ae-line)}.ae-fact-grid div:nth-child(4){border-top:1px solid var(--ae-line)}.ae-method-grid{grid-template-columns:1fr}.ae-offer>.ae-note{grid-column:1}.ae-footer{grid-template-columns:1fr;text-align:center}.ae-footer p{text-align:left}}
-@media (max-width:640px){.ae-header{height:68px;padding:0 16px}.ae-header nav a:not(.ae-nav-cta){display:none}.ae-brand strong{font-size:13px}.ae-brand small{font-size:8px}.ae-hero{gap:58px;padding:62px 17px 78px}.ae-hero h1{font-size:clamp(53px,17vw,80px);margin-top:20px}.ae-actions{align-items:stretch;flex-direction:column}.ae-button{justify-content:space-between;width:100%}.ae-exam-card{padding:24px 20px}.ae-sticker{right:-8px}.ae-facts,.ae-practice{padding:78px 17px}.ae-fact-grid{grid-template-columns:1fr}.ae-fact-grid div+div{border-left:0;border-top:1px solid var(--ae-line)}.ae-fact-grid div{min-height:120px}.ae-source{text-align:left}.ae-dark-section{padding:78px 17px}.ae-two-col{gap:40px}.ae-method-grid{margin-top:50px}.ae-section-heading{gap:28px}.ae-question{padding:18px 13px}.ae-question legend{font-size:16px;gap:10px;grid-template-columns:38px 1fr}.ae-result{grid-template-columns:1fr;padding:24px}.ae-result strong{font-size:62px}.ae-offer{gap:44px;padding:78px 17px}.ae-footer{padding:36px 17px;text-align:left}}
+@media (max-width:640px){.ae-header{height:68px;padding:0 16px}.ae-header nav a:not(.ae-nav-cta):not(.ae-nav-home){display:none}.ae-brand strong{font-size:13px}.ae-brand small{font-size:8px}.ae-hero{gap:58px;padding:62px 17px 78px}.ae-hero h1{font-size:clamp(53px,17vw,80px);margin-top:20px}.ae-actions{align-items:stretch;flex-direction:column}.ae-button{justify-content:space-between;width:100%}.ae-exam-card{padding:24px 20px}.ae-sticker{right:-8px}.ae-facts,.ae-practice{padding:78px 17px}.ae-fact-grid{grid-template-columns:1fr}.ae-fact-grid div+div{border-left:0;border-top:1px solid var(--ae-line)}.ae-fact-grid div{min-height:120px}.ae-source{text-align:left}.ae-dark-section{padding:78px 17px}.ae-two-col{gap:40px}.ae-method-grid{margin-top:50px}.ae-section-heading{gap:28px}.ae-question{padding:18px 13px}.ae-question legend{font-size:16px;gap:10px;grid-template-columns:38px 1fr}.ae-result{grid-template-columns:1fr;padding:24px}.ae-result strong{font-size:62px}.ae-offer{gap:44px;padding:78px 17px}.ae-footer{padding:36px 17px;text-align:left}}
 @media (prefers-reduced-motion:reduce){.ae-page *{scroll-behavior:auto!important;transition-duration:.01ms!important}}
 
 /* SS CasoLab — Lo-Fi workbook */

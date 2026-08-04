@@ -1,10 +1,67 @@
 import { useEffect } from "react";
-import { ArrowUpRight, ChevronRight } from "lucide-react";
 import { trackLabEvent } from "@/lib/lab-analytics";
 import { PRODUCT_URLS } from "@/lib/portfolio-links";
-import { FICHAS } from "@/data/fichas";
-import { FichaOposicion } from "@/components/FichaOposicion";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
+import { FichaCurso, type FichaCursoProps } from "@/components/FichaCurso";
+import { CtaContacto } from "@/components/CtaContacto";
+
+const TCAE_URL = import.meta.env.VITE_TCAE_URL?.trim() || "https://lorman-academia.vercel.app/";
+const C2_SAMPLE_URL = PRODUCT_URLS.c2;
+const WHATSAPP = "34640828654";
+
+const COURSES: FichaCursoProps[] = [
+  {
+    code: "TCAE",
+    tone: "tcae",
+    title: "Cuidados Auxiliares de Enfermería",
+    meta: "Servicios de salud · turno libre",
+    items: [
+      { title: "Temario por bloques", note: "con resúmenes y esquemas" },
+      { title: "Tests por tema", note: "respuesta razonada" },
+      { title: "Simulacros tipo examen", note: "y repaso general autocorregible" },
+    ],
+    cta: { label: "Ver curso TCAE", href: TCAE_URL },
+  },
+  {
+    code: "TAI",
+    tone: "tai",
+    title: "Técnico Auxiliar de Informática",
+    meta: "Estado · subgrupo C1",
+    items: [
+      { title: "Temario completo", note: "33 temas" },
+      { title: "Tests y autoevaluaciones", note: "muchos más que temas" },
+      { title: "Simulacros y prácticos", note: "las dos partes del ejercicio" },
+    ],
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "95 €" },
+    cta: { label: "Ver curso TAI", href: PRODUCT_URLS.tai },
+  },
+  {
+    code: "SS",
+    tone: "ss",
+    title: "Administrativo Seguridad Social",
+    meta: "Subgrupo C1 · acceso libre",
+    items: [
+      { title: "Temario general y específico", note: "36 temas redactados" },
+      { title: "Tests por tema", note: "con normativa citada" },
+      { title: "Supuestos prácticos", note: "como en el ejercicio" },
+    ],
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "49 €" },
+    cta: { label: "Ver curso SS", href: PRODUCT_URLS.ss },
+  },
+  {
+    code: "AUX. JUDICIAL",
+    tone: "aux",
+    title: "Auxilio Judicial",
+    meta: "Justicia · subgrupo C2 · solo tests",
+    items: [
+      { title: "Cuestionarios por tema", note: "26 temas cubiertos" },
+      { title: "Práctica intensiva", note: "90 cuestionarios distintos" },
+      { title: "Corrección automática", note: "sin temario incluido" },
+    ],
+    cta: { label: "Ver Auxilio Judicial", href: PRODUCT_URLS.auxJuridico },
+  },
+];
+const FICHAS = COURSES;
 
 export default function Home() {
   useEffect(() => {
@@ -13,85 +70,65 @@ export default function Home() {
 
   return (
     <>
-      <a className="hub-skip-link" href="#contenido-principal">
-        Saltar al contenido
-      </a>
-      <main className="hub-page" id="contenido-principal" tabIndex={-1}>
-      <header className="hub-header">
-        <a className="hub-brand" href="#inicio" aria-label="Academia LORMAN, inicio">
-          <span className="hub-brand-mark">L</span>
-          <span><strong>Academia LORMAN</strong><small>Oposiciones online</small></span>
-        </a>
-        <nav aria-label="Navegación principal">
-          <a href="#cursos">Cursos</a>
-          <a href="#metodo">Cómo estudiamos</a>
-          <a href="#preguntas">Preguntas</a>
-          <a className="hub-header-cta" href="#cursos">Elegir curso <ChevronRight size={15} aria-hidden="true" /></a>
-        </nav>
-      </header>
+      <a className="hub-skip-link" href="#contenido-principal">Saltar al contenido</a>
+      <main className="lm-page lm-hub" id="contenido-principal" tabIndex={-1}>
+        <header className="lm-shell lm-header">
+          <nav className="lm-preview-nav" aria-label="Navegación de la maqueta">
+            <span>MAQUETA</span>
+            <a className="is-active" href="#inicio">HUB</a>
+            <a href={TCAE_URL}>TCAE</a>
+            <a href={PRODUCT_URLS.tai}>TAI</a>
+            <a href={PRODUCT_URLS.ss}>SS</a>
+            <a href={PRODUCT_URLS.auxJuridico}>AUX. JUDICIAL</a>
+          </nav>
+        </header>
 
-      <section className="hub-hero" id="inicio">
-        <div className="hub-hero-copy">
-          <p className="hub-kicker"><span /> ACADEMIA LORMAN · CUATRO OPOSICIONES</p>
-          <h1>Estudia con <em>una ruta.</em></h1>
-          <p className="hub-lead">Una entrada común para nuestras academias de oposiciones. Consulta el alcance real, prueba una muestra y entra solo en el aula que encaja contigo.</p>
-          <div className="hub-actions">
-            <a className="hub-button hub-button-primary" href="#cursos" onClick={() => trackLabEvent("course_view", "hub")}>Ver las cuatro fichas <ArrowUpRight size={17} aria-hidden="true" /></a>
-            <a className="hub-text-link" href="#metodo">Conoce el método</a>
+        <section className="lm-shell lm-hero" id="inicio">
+          <div className="lm-hero-grid">
+            <div>
+              <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones online</p>
+              <h1>Elige tu oposición<br />y pregúntanos.</h1>
+              <p className="lm-lead">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
+              <CtaContacto whatsapp={WHATSAPP}>
+                <a className="lm-btn lm-btn-outline" href="#cursos">Ver los cursos</a>
+              </CtaContacto>
+            </div>
+            <aside className="lm-hero-aside" aria-label="Así se estudia">
+              <span className="lm-hero-aside-kicker">Así se estudia</span>
+              <div className="lm-hero-aside-row"><strong>Temario</strong><span>redactado y ordenado por temas</span></div>
+              <div className="lm-hero-aside-row"><strong>Tests</strong><span>autoevaluaciones con explicación</span></div>
+              <div className="lm-hero-aside-row"><strong>Simulacros</strong><span>teóricos y prácticos, autocorregibles</span></div>
+            </aside>
           </div>
-          <p className="hub-note">Preparación digital independiente. No es una página oficial de ninguna Administración.</p>
-        </div>
-        <div className="hub-hero-sheet" aria-label="Ruta común de estudio">
-          <div className="hub-sheet-top"><span>LO / 01</span><span>ACADEMIA LORMAN</span></div>
-          <div className="hub-sheet-title"><span>UNA MARCA · CUATRO OPOSICIONES</span><strong>Contenido claro.<br />Práctica frecuente.</strong></div>
-          <div className="hub-sheet-list"><div><b>01</b><span>Consulta la ficha y el estado real</span></div><div><b>02</b><span>Accede a una muestra</span></div><div><b>03</b><span>Elige tu aula</span></div></div>
-          <div className="hub-sheet-footer"><i /> <span>Autoestudio · acceso digital · información clara</span></div>
-        </div>
-      </section>
+        </section>
 
-      <section className="hub-trust" aria-label="Elementos comunes">
-        <p>Una forma de estudiar, adaptada a cada convocatoria</p>
-        <div><span>Temario</span><span>Tests</span><span>Simulacros</span><span>Autocorrección</span><span>Acceso digital</span></div>
-      </section>
+        <section className="lm-shell" id="cursos">
+          <div className="lm-section-heading"><h2 className="lm-display">Cursos</h2></div>
+          <div className="lm-cards">
+            {FICHAS.map((course) => (
+              <div key={course.code} onClick={() => trackLabEvent("course_click", course.code)}>
+                <FichaCurso {...course} />
+              </div>
+            ))}
+          </div>
+        </section>
 
-      <section className="hub-courses" id="cursos">
-        <div className="hub-section-heading"><div><p className="hub-kicker">Elige tu oposición</p><h2>Una ficha por aula.</h2></div><p>Cada ficha declara código, nivel, administración, estado real e indicadores respaldados por el inventario. Ninguna cifra aparece si no está en el material.</p></div>
-        <div className="of-grid">
-          {FICHAS.map((ficha) => (
-            <FichaOposicion
-              key={ficha.code}
-              {...ficha}
-              primary={{ ...ficha.primary, onClick: () => trackLabEvent("course_click", ficha.code) }}
-              secondary={
-                ficha.secondary
-                  ? { ...ficha.secondary, onClick: () => trackLabEvent("sample_click", ficha.code) }
-                  : undefined
-              }
-            />
-          ))}
-        </div>
-      </section>
+        <section className="lm-shell lm-faq" id="preguntas" aria-labelledby="faq-title">
+          <div className="lm-faq-intro">
+            <h2 id="faq-title" className="lm-display">Preguntas</h2>
+            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer">Preguntar por WhatsApp</a>
+          </div>
+          <div className="lm-faq-list">
+            <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>
+            <details><summary>¿Hay clases o tutoría?</summary><p>El modelo prioriza autoestudio y autocorrección. Los límites de soporte se indican antes de cualquier pago.</p></details>
+            <details><summary>¿Cuánto dura el acceso?</summary><p>Cada ficha declara la duración y las condiciones de acceso de su curso.</p></details>
+          </div>
+        </section>
 
-      <section className="hub-method" id="metodo">
-        <div className="hub-method-heading"><p className="hub-kicker hub-kicker-light">La experiencia LORMAN</p><h2>Menos ruido.<br /><span>Más práctica.</span></h2></div>
-        <div className="hub-method-copy"><p>El contenido se organiza para que puedas estudiar sin depender de una clase semanal: abre un bloque, practica, revisa el error y decide qué repetir.</p><div className="hub-method-steps"><div><b>01</b><strong>Explora</strong><span>Comprueba el alcance antes de elegir.</span></div><div><b>02</b><strong>Entrena</strong><span>Practica con preguntas y simulacros.</span></div><div><b>03</b><strong>Decide</strong><span>Compra solo cuando el formato te convenza.</span></div></div></div>
-      </section>
-
-        <section className="hub-proof"><div><p className="hub-kicker">Muestras abiertas</p><h2>Prueba el material antes de comprar.</h2></div><div><p>Hay muestras de examen y diagnósticos en los productos que ya los tienen. El laboratorio registra únicamente eventos anónimos en este dispositivo para comparar interés y navegación.</p><a className="hub-text-link" href={`${PRODUCT_URLS.c2}#prueba`} onClick={() => trackLabEvent("sample_click", "C2")}>Probar Auxiliar del Estado C2 <ArrowUpRight size={15} aria-hidden="true" /></a></div></section>
-
-      <section className="hub-faq" id="preguntas" aria-labelledby="hub-faq-title"><div><p className="hub-kicker">Antes de elegir</p><h2 id="hub-faq-title">Información clara, soporte con límites.</h2><p>La marca común orienta. Cada landing y cada aula debe concretar su alcance antes del acceso.</p><a className="hub-button hub-button-primary" href="https://wa.me/34640828654" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("whatsapp_click", "hub-faq")}>Contactar <ArrowUpRight size={15} aria-hidden="true" /></a></div><div className="hub-faq-list"><details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details><details><summary>¿Puedo probar el material?</summary><p>La ficha muestra una acción secundaria solo cuando el producto tiene muestra o diagnóstico. En este laboratorio la tienen TCAE, SS y C2.</p></details><details><summary>¿Hay clases o tutoría ilimitada?</summary><p>El modelo prioriza autoestudio, tests, simulacros y autocorrección. No se promete respuesta inmediata, tutoría ilimitada ni corrección manual de todo el trabajo.</p></details><details><summary>¿Qué significa el estado de una ficha?</summary><p>Indica en qué punto está el producto: contenido disponible, matrícula en preparación, publicación en revisión o validación local sin venta.</p></details><details><summary>¿Los precios de la ficha son definitivos?</summary><p>No. Son los importes previstos de lanzamiento. El importe final, los impuestos y las condiciones se muestran en la propia landing antes de pagar.</p></details></div></section>
-
-      <AvisoComun
-        brand="Academia LORMAN"
-        tagline="Preparación digital independiente para oposiciones."
-        links={[
-          { label: "Cursos", href: "#cursos" },
-          { label: "Preguntas", href: "#preguntas" },
-          { label: "Instagram", href: "https://www.instagram.com/academialorman/", external: true },
-          { label: "WhatsApp", href: "https://wa.me/34640828654", external: true },
-        ]}
-        notice={AVISO_BASE + AVISO_PRECIOS}
-      />
+        <AvisoComun
+          links={[{ label: "Cursos", href: "#cursos" }, { label: "Preguntas", href: "#preguntas" }, { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` }]}
+          notice={AVISO_BASE + AVISO_PRECIOS}
+        />
       </main>
     </>
   );

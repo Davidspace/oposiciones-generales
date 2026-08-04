@@ -80,7 +80,7 @@
   font-family: var(--lm-font-heading); font-size: 19px; letter-spacing: 0.02em;
   text-decoration: none; color: var(--lm-ink);
 }
-.lm-nav-back { color: var(--lm-muted) !important; font-size: 18px !important; }
+.lm-nav-back, .tai-nav-home { color: var(--lm-muted) !important; font-size: 18px !important; }
 .lm-ig { display: inline-flex; align-items: center; gap: 7px; font-family: var(--lm-font-body) !important; font-size: 14px !important; color: var(--lm-muted) !important; text-decoration: none; }
 .lm-ig svg { display: block; }
 
