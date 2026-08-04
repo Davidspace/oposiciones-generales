@@ -586,6 +586,11 @@ body .lm-page.ss-page .ss-reference-note a { color: var(--lm-accent-dark); }
 html,
 body { max-width: 100%; overflow-x: clip; }
 
+body .lm-page.lm-hub {
+  width: 100vw;
+  min-width: 0;
+}
+
 body .lm-page:not(.lm-hub) {
   width: 100%;
   max-width: 680px;
@@ -730,7 +735,7 @@ body .lm-page:not(.lm-hub) .lm-pregunta-titulo { overflow-wrap: anywhere; }
   body .lm-page.lm-hub .lm-shell:not(.lm-header),
   body .lm-page.lm-hub .lm-footer-inner { padding-inline: clamp(18px, 5vw, 28px); }
   body .lm-page.lm-hub .lm-hero { padding-block: 36px 28px; }
-  body .lm-page.lm-hub .lm-hero h1 { font-size: clamp(36px, 9vw, 48px); }
+  body .lm-page.lm-hub .lm-hero h1 { max-width: 100%; font-size: clamp(34px, 8vw, 46px); overflow-wrap: anywhere; }
   body .lm-page.lm-hub .lm-lead { font-size: 13px; line-height: 1.45; }
   body .lm-page.lm-hub .lm-cards { gap: 12px; }
   body .lm-page.lm-hub .lm-card-head { padding: 14px 12px 0; }
@@ -747,7 +752,7 @@ body .lm-page:not(.lm-hub) .lm-pregunta-titulo { overflow-wrap: anywhere; }
   body .lm-page.lm-hub .lm-faq-list summary { font-size: 13px; }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: 1fr; }
   body .lm-page:not(.lm-hub) .lm-box { min-height: 136px; }
   body .lm-page:not(.lm-hub) .lm-box-title { font-size: clamp(25px, 8vw, 34px); }
