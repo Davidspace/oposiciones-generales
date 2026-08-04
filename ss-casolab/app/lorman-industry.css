@@ -384,14 +384,14 @@ body .lm-page.ss-page .ss-sources a, body .lm-page.ss-page .ss-legal-note a { co
    cajones en una fila, muestra en dos columnas y pie compacto. */
 body { margin: 0; background: var(--lm-bg); }
 body .lm-page {
-  width: min(100%, 680px);
-  max-width: 680px;
+  width: 100%;
+  max-width: none;
   min-height: 100vh;
-  margin-inline: auto;
+  margin: 0;
   font-size: 12px;
   line-height: 1.45;
 }
-body .lm-page:not(.lm-hub) .lm-shell { max-width: none; padding-inline: 32px; }
+body .lm-page:not(.lm-hub) .lm-shell { max-width: 1200px; padding-inline: 24px; }
 body .lm-page:not(.lm-hub) .lm-header {
   min-height: 56px;
   padding-block: 10px;
@@ -402,7 +402,7 @@ body .lm-page:not(.lm-hub) .lm-nav { gap: 14px; }
 body .lm-page:not(.lm-hub) .lm-nav a,
 body .lm-page:not(.lm-hub) .lm-nav-back,
 body .lm-page:not(.lm-hub) .lm-ig { font-size: 11px !important; letter-spacing: .02em; }
-body .lm-page:not(.lm-hub) .lm-nav a:not(.lm-nav-back):not(.lm-nav-material):not(.lm-ig) { display: none; }
+body .lm-page:not(.lm-hub) .lm-nav a:not(.lm-nav-back):not(.tai-nav-home):not(.ss-nav-home):not(.ae-nav-home):not(.lm-nav-material):not(.lm-ig) { display: none; }
 body .lm-page:not(.lm-hub) .lm-hero { padding-block: 38px 28px; }
 body .lm-page:not(.lm-hub) .lm-eyebrow { margin-bottom: 12px; font-size: 9px; letter-spacing: .18em; }
 body .lm-page:not(.lm-hub) .lm-eyebrow i { width: 6px; height: 6px; }
@@ -444,7 +444,7 @@ body .lm-page:not(.lm-hub) .lm-muestra-empty { padding: 12px 0; font-size: 10px;
 body .lm-page:not(.lm-hub) .lm-pregunta > summary { min-height: 29px; gap: 6px; padding-inline: 8px; font-size: 10px; }
 body .lm-page:not(.lm-hub) .lm-pregunta-num { font-size: 8px; }
 body .lm-page:not(.lm-hub) .lm-pregunta-ver { font-size: 7px; }
-body .lm-page:not(.lm-hub) .lm-footer-inner { gap: 14px; padding: 18px 32px 22px; }
+body .lm-page:not(.lm-hub) .lm-footer-inner { gap: 14px; padding: 18px 24px 22px; }
 body .lm-page:not(.lm-hub) .lm-footer img { height: 22px; padding: 4px; }
 body .lm-page:not(.lm-hub) .lm-footer-links { gap: 12px; margin-top: 12px; }
 body .lm-page:not(.lm-hub) .lm-footer-links a { font-size: 10px; }
@@ -578,3 +578,120 @@ body .lm-page.ss-page .ss-faq,
 body .lm-page.ss-page .ss-sources { display: none !important; }
 body .lm-page.ss-page .ss-reference-note { padding-inline: 32px; margin-top: -18px; margin-bottom: 26px; font-size: 9px; }
 body .lm-page.ss-page .ss-reference-note a { color: var(--lm-accent-dark); }
+
+/* Responsive and legacy-isolation safeguards for the public landings. */
+html, body { max-width: 100%; overflow-x: clip; }
+
+body .lm-page:not(.lm-hub) .lm-shell,
+body .lm-page:not(.lm-hub) .lm-hero,
+body .lm-page:not(.lm-hub) .lm-boxes,
+body .lm-page:not(.lm-hub) .lm-muestra,
+body .lm-page:not(.lm-hub) .lm-fineprint {
+  min-width: 0;
+}
+
+body .lm-page:not(.lm-hub) .lm-box,
+body .lm-page:not(.lm-hub) .lm-box-title,
+body .lm-page:not(.lm-hub) .lm-box p,
+body .lm-page:not(.lm-hub) .lm-box-figure,
+body .lm-page:not(.lm-hub) .lm-box-cta,
+body .lm-page:not(.lm-hub) .lm-pregunta-titulo {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+body .lm-page:not(.lm-hub) .lm-muestra-col,
+body .lm-page:not(.lm-hub) .lm-muestra-head,
+body .lm-page:not(.lm-hub) .lm-muestra-preguntas,
+body .lm-page:not(.lm-hub) .lm-pregunta,
+body .lm-page:not(.lm-hub) .lm-pregunta > summary {
+  min-width: 0;
+}
+
+/* The Next.js projects keep older global form/details/footer rules. Keep
+   those rules outside the Industry surface without changing their routes. */
+body .lm-page .lm-footer {
+  display: block;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  padding: 0;
+  grid-template-columns: none;
+}
+body .lm-page .lm-footer-inner {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 0;
+}
+body .lm-page .lm-footer-inner > *,
+body .lm-page .lm-notice { min-width: 0; overflow-wrap: anywhere; }
+body .lm-page .lm-pregunta { padding: 0; }
+body .lm-page .lm-pregunta > summary { position: static; }
+body .lm-page .lm-pregunta > summary::after { content: none; display: none; }
+body .lm-page .lm-options label { min-width: 0; }
+body .lm-page .lm-options input[type="radio"] {
+  width: 20px;
+  min-width: 0;
+  height: 16px;
+  min-height: 0;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  body .lm-page:not(.lm-hub) .lm-shell { padding-inline: clamp(18px, 5vw, 28px); }
+  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .lm-page:not(.lm-hub) .lm-muestra-grid { grid-template-columns: 1fr; gap: 12px; }
+  body .lm-page:not(.lm-hub) .lm-footer-inner {
+    grid-template-columns: 1fr;
+    padding-inline: clamp(18px, 5vw, 28px);
+  }
+}
+
+@media (max-width: 600px) {
+  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: 1fr; gap: 10px; }
+  body .lm-page:not(.lm-hub) .lm-box { min-height: 136px; }
+  body .lm-page:not(.lm-hub) .lm-box-title { font-size: clamp(25px, 8vw, 34px); }
+  body .lm-page:not(.lm-hub) .lm-actions {
+    width: 100%;
+    align-items: stretch;
+    gap: 8px;
+  }
+  body .lm-page:not(.lm-hub) .lm-btn {
+    min-width: 0;
+    min-height: 44px;
+    flex: 1 1 160px;
+    padding-inline: 11px;
+    font-size: 15px;
+    line-height: 1.05;
+    text-align: center;
+  }
+  body .lm-page:not(.lm-hub) .lm-muestra { padding-inline: clamp(18px, 5vw, 28px); padding-bottom: 32px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-h2 { font-size: clamp(30px, 8vw, 40px); }
+  body .lm-page:not(.lm-hub) .lm-muestra-intro { font-size: 13px; line-height: 1.45; }
+  body .lm-page:not(.lm-hub) .lm-muestra-head { min-height: 38px; flex-wrap: wrap; padding: 7px 10px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-label { font-size: 9px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-tab { min-height: 26px; font-size: 9px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-paginas,
+  body .lm-page:not(.lm-hub) .lm-muestra-preguntas { padding: 12px; gap: 8px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: clamp(150px, 42vw, 220px); }
+  body .lm-page:not(.lm-hub) .lm-muestra-pagina img { height: 100%; object-fit: cover; object-position: top; }
+  body .lm-page:not(.lm-hub) .lm-muestra-nota { padding: 0 12px 12px; font-size: 10px; }
+  body .lm-page:not(.lm-hub) .lm-pregunta > summary { min-height: 42px; gap: 8px; padding-inline: 10px; font-size: 12px; }
+  body .lm-page:not(.lm-hub) .lm-pregunta-num { font-size: 9px; }
+  body .lm-page:not(.lm-hub) .lm-pregunta-ver { font-size: 8px; }
+  body .lm-page:not(.lm-hub) .lm-footer img { height: 24px; }
+  body .lm-page:not(.lm-hub) .lm-footer-links { gap: 14px; margin-top: 12px; }
+  body .lm-page:not(.lm-hub) .lm-footer-links a { font-size: 11px; }
+  body .lm-page:not(.lm-hub) .lm-notice { font-size: 10px; line-height: 1.45; }
+  body .lm-page.ss-page .ss-hero { padding: 42px clamp(18px, 5vw, 28px) 28px; }
+  body .lm-page.ss-page .ss-hero h1 { font-size: clamp(38px, 9vw, 56px); overflow-wrap: anywhere; }
+  body .lm-page.ss-page .ss-hero-lead { font-size: 13px; line-height: 1.45; }
+  body .lm-page.ss-page .ss-reference-note { padding-inline: clamp(18px, 5vw, 28px); font-size: 11px; }
+}
+
+@media (max-width: 380px) {
+  body .lm-page:not(.lm-hub) .lm-header { align-items: flex-start; flex-direction: column; }
+  body .lm-page:not(.lm-hub) .lm-nav { justify-content: flex-start; width: 100%; }
+  body .lm-page:not(.lm-hub) .lm-muestra-paginas { grid-template-columns: 1fr; }
+  body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 220px; }
+}
