@@ -619,6 +619,11 @@ body .lm-page:not(.lm-hub) .lm-pregunta > summary {
 body .lm-page:not(.lm-hub) .lm-pregunta-titulo { overflow-wrap: anywhere; }
 
 @media (max-width: 680px) {
+  body .lm-page:not(.lm-hub) {
+    width: 100vw;
+    max-width: 680px;
+  }
+
   body .lm-page:not(.lm-hub) .lm-header {
     padding-inline: clamp(18px, 5vw, 28px);
     gap: 14px;
