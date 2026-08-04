@@ -45,7 +45,7 @@ import { useState } from "react";
 
 export function MuestraMaterial({
   titulo = "Muestra del material",
-  intro = "Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.",
+  intro = "Páginas reales del temario y preguntas revisadas, para que veas el formato antes de decidir.",
   etiquetaIzquierda = "Temario · páginas de muestra",
   etiquetaDerecha = "Tipo test · preguntas",
   grupos,
