@@ -695,3 +695,12 @@ body .lm-page .lm-options input[type="radio"] {
   body .lm-page:not(.lm-hub) .lm-muestra-paginas { grid-template-columns: 1fr; }
   body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 220px; }
 }
+
+/* Keep the product return link visible when older global nav rules hide links. */
+@media (max-width: 960px) {
+  body .lm-page:not(.lm-hub) .lm-nav > a.tai-nav-home,
+  body .lm-page:not(.lm-hub) .lm-nav > a.ss-nav-home,
+  body .lm-page:not(.lm-hub) .lm-nav > a.ae-nav-home {
+    display: inline-flex !important;
+  }
+}
