@@ -26,7 +26,7 @@ function App() {
       <main className="lm-page lm-aux" id="contenido">
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#alcance">Qué incluye</a><EnlaceInstagram size={12} /></nav>
+          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#tests">Qué incluye</a><EnlaceInstagram size={12} /></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
@@ -36,19 +36,18 @@ function App() {
           <CtaContacto
             whatsapp={WHATSAPP}
             message="Hola Academia LORMAN, quiero información sobre los tests de Auxilio Judicial C2."
+            note=""
           >
-            <a className="lm-btn lm-btn-outline" href="#alcance">Ver qué incluye</a>
+            <a className="lm-btn lm-btn-outline" href="#tests">Qué incluye</a>
           </CtaContacto>
         </section>
 
-        <section className="lm-shell lm-boxes" id="alcance" aria-label="Inventario del aula">
+        <section className="lm-shell lm-boxes" id="tests" aria-label="Inventario del aula">
           <Cajon kicker="01 · COBERTURA" title="Cuestionarios por tema" text="Organización judicial, procedimientos y actos de comunicación." figure="26 temas" />
           <Cajon kicker="02 · PRÁCTICA" title="Volumen para repetir" text="Suficientes cuestionarios para varias vueltas al programa." figure="90 cuestionarios distintos" />
           <Cajon kicker="03 · CORRECCIÓN" title="Automática y al momento" text="Aciertos, errores y respuesta correcta al terminar cada test." figure="solo tests · sin temario" />
           <CajonCierre kicker="04 · ACCESO" title="Pregunta por el acceso" text="Te confirmamos contenido, precio y duración antes de nada." href={WHATSAPP_URL} />
         </section>
-
-        <p className="lm-fineprint">Este curso es solo de tests: aquí irán las capturas de los cuestionarios del campus.</p>
 
         <MuestraMaterial
           titulo="Muestra del material"
@@ -66,7 +65,7 @@ function App() {
           ]}
           notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
         />
-        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }, { label: "Muestra", href: "#muestra" }]} notice={AVISO_JUSTICIA} />
+        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }]} notice={AVISO_JUSTICIA} />
       </main>
     </>
   );

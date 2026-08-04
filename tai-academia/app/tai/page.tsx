@@ -14,7 +14,7 @@ export default function TaiLanding() {
       <main className="lm-page lm-tai" id="contenido-principal" tabIndex={-1}>
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Curso TAI, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación del curso TAI"><a className="tai-nav-home" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#acceso">Qué incluye</a><EnlaceInstagram size={12} /></nav>
+          <nav className="lm-nav" aria-label="Navegación del curso TAI"><a className="tai-nav-home" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#incluye">Qué incluye</a><EnlaceInstagram size={12} /></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
@@ -24,19 +24,19 @@ export default function TaiLanding() {
           <CtaContacto
             whatsapp={WHATSAPP}
             message="Hola Academia LORMAN, quiero consultar el acceso al curso TAI."
+            note=""
           >
-            <a className="lm-btn lm-btn-outline" href="#contenido">Ver el contenido</a>
+            <a className="lm-btn lm-btn-outline" href="#incluye">Qué incluye</a>
           </CtaContacto>
         </section>
 
-        <section className="lm-shell lm-boxes" id="acceso" aria-label="Contenido de TAI">
+        <section className="lm-shell lm-boxes" id="incluye" aria-label="Contenido de TAI">
           <Cajon kicker="01 · TEMARIO" title="Todo el programa redactado" text="Bloques I a IV en PDF, listos para estudiar y repasar." figure="33 temas" />
           <Cajon kicker="02 · TEST" title="Autoevaluaciones con explicación" text="Practica tema a tema y detecta lo que falla al momento." figure="muchas más autoevaluaciones que temas" />
           <Cajon kicker="03 · SIMULACROS" title="Teóricos y prácticos" text="Ensaya las dos partes del ejercicio con corrección automática." figure="bloques III y IV + supuestos prácticos" />
           <CajonCierre kicker="04 · PRECIO" title="Pago único de 95 €" text="La compra da acceso al aula hasta el día del examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} />
+          <p className="lm-fineprint">Autoestudio: no incluye clases en directo ni corrección manual. Ejercicio único en dos partes, 120 minutos.</p>
         </section>
-
-        <p className="lm-fineprint">Autoestudio: no incluye clases en directo ni corrección manual. Ejercicio único en dos partes, 120 minutos.</p>
 
         <MuestraMaterial
           titulo="Muestra del material"
@@ -60,7 +60,7 @@ export default function TaiLanding() {
           notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
         />
 
-        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` }, { label: "Muestra", href: "#muestra" }]} notice={AVISO_BASE + AVISO_PRECIOS} />
+        <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` }]} notice={AVISO_BASE + AVISO_PRECIOS} />
       </main>
     </>
   );

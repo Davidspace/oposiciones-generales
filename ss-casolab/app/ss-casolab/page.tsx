@@ -312,7 +312,7 @@ export function SsCasoLabLanding({
         </a>
         <nav className="lm-nav" aria-label="Navegación de SS CasoLab">
           <a className="ss-nav-home" href={PORTFOLIO_URL}>← Cursos</a>
-          <a className="lm-nav-material" href="#acceso">Qué incluye</a>
+          <a className="lm-nav-material" href="#contenido">Qué incluye</a>
           <EnlaceInstagram size={12} />
         </nav>
       </header>
@@ -328,8 +328,9 @@ export function SsCasoLabLanding({
           <CtaContacto
             whatsapp={WHATSAPP}
             message="Hola Academia LORMAN, quiero consultar el acceso a SS CasoLab."
+            note=""
           >
-            <a className="lm-btn lm-btn-outline" href="#acceso">Qué incluye</a>
+            <a className="lm-btn lm-btn-outline" href="#contenido">Qué incluye</a>
           </CtaContacto>
           <dl className="ss-facts">
             <div>
@@ -349,7 +350,7 @@ export function SsCasoLabLanding({
 
       </section>
 
-      <section className="lm-shell lm-boxes" aria-label="Contenido de SS CasoLab">
+      <section className="lm-shell lm-boxes" id="contenido" aria-label="Contenido de SS CasoLab">
         <Cajon kicker="01 · TEMARIO" title="General y específico" text="Temas redactados con la normativa citada y actualizada." figure="36 temas" />
         <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
         <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
@@ -975,7 +976,7 @@ export function SsCasoLabLanding({
         intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
         grupos={[{
           paginas: [{}, {}, {}, {}],
-          nota: "Las páginas de muestra se incorporarán cuando el material editorial esté preparado para publicación.",
+          nota: "Pendiente de subir las páginas de muestra del temario y de un supuesto práctico.",
         }]}
         preguntas={[
           { enunciado: "Enunciado de muestra sobre Seguridad Social", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
@@ -993,7 +994,6 @@ export function SsCasoLabLanding({
         links={[
           { label: "Todos los cursos", href: PORTFOLIO_URL },
           { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` },
-          { label: "Muestra", href: "#muestra" },
         ]}
         notice={
           "Producto educativo independiente sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +

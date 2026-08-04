@@ -743,3 +743,322 @@ body .lm-page.ss-page .ss-sources {
 body .lm-page:not(.lm-hub) .lm-muestra-pagina {
   height: clamp(128px, 9vw, 240px);
 }
+
+/* ========================================================================
+   Artifact parity: public Industry landings
+
+   The rules above keep compatibility with the former compact prototype.
+   This final layer is the single public layout contract. It restores the
+   dimensions of the approved design artifact while retaining the existing
+   content and route-specific behaviour.
+   ======================================================================== */
+body .lm-page {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+body .lm-page:not(.lm-hub) .lm-shell {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+body .lm-page:not(.lm-hub) .lm-header {
+  min-height: 88px;
+  padding-block: 14px;
+}
+body .lm-page:not(.lm-hub) .lm-logo img { height: 40px; }
+body .lm-page:not(.lm-hub) .lm-nav { gap: 24px; }
+body .lm-page:not(.lm-hub) .lm-nav a,
+body .lm-page:not(.lm-hub) .lm-nav-back,
+body .lm-page:not(.lm-hub) .lm-ig {
+  display: inline-flex !important;
+  align-items: center;
+  font-family: var(--lm-font-heading) !important;
+  font-size: 18px !important;
+  letter-spacing: .02em;
+  color: var(--lm-ink) !important;
+}
+body .lm-page:not(.lm-hub) .lm-nav-back { color: var(--lm-muted) !important; }
+
+body .lm-page:not(.lm-hub) .lm-hero {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 64px 24px 40px;
+}
+body .lm-page:not(.lm-hub) .lm-eyebrow {
+  margin-bottom: 18px;
+  font-size: 16px;
+  letter-spacing: .16em;
+}
+body .lm-page:not(.lm-hub) .lm-eyebrow i { width: 10px; height: 10px; }
+body .lm-page:not(.lm-hub) .lm-hero h1 {
+  max-width: none;
+  margin-bottom: 18px;
+  font-size: clamp(50px, 6vw, 78px);
+}
+body .lm-page:not(.lm-hub) .lm-lead {
+  max-width: 560px;
+  margin-bottom: 30px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+body .lm-page:not(.lm-hub) .lm-actions { gap: 16px; }
+body .lm-page:not(.lm-hub) .lm-btn {
+  min-height: 72px;
+  padding-inline: 30px;
+  font-size: 27px;
+}
+body .lm-page:not(.lm-hub) .lm-btn-outline {
+  min-height: 72px;
+  padding-inline: 26px;
+  font-size: 24px;
+}
+body .lm-page:not(.lm-hub) .lm-btn-note { display: none; }
+
+body .lm-page:not(.lm-hub) .lm-boxes {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 24px 24px 80px;
+  gap: 20px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+body .lm-page:not(.lm-hub) .lm-box {
+  min-height: 0;
+  gap: 10px;
+  padding: 22px 22px 26px;
+}
+body .lm-page:not(.lm-hub) .lm-box-kicker { font-size: 15px; letter-spacing: .16em; }
+body .lm-page:not(.lm-hub) .lm-box-title { font-size: 34px; line-height: 1.05; }
+body .lm-page:not(.lm-hub) .lm-box p { font-size: 15px; line-height: 1.55; }
+body .lm-page:not(.lm-hub) .lm-box-figure { font-size: 14px; }
+body .lm-page:not(.lm-hub) .lm-box-cta {
+  min-height: 60px;
+  font-size: 22px;
+}
+body .lm-page:not(.lm-hub) .lm-fineprint {
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto 26px;
+  padding-inline: 24px;
+  font-size: 14px;
+}
+
+body .lm-page:not(.lm-hub) .lm-muestra {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 24px 80px;
+}
+body .lm-page:not(.lm-hub) .lm-muestra-h2 { font-size: clamp(30px, 3.2vw, 42px); }
+body .lm-page:not(.lm-hub) .lm-muestra-intro { font-size: 17px; }
+body .lm-page:not(.lm-hub) .lm-muestra-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+body .lm-page:not(.lm-hub) .lm-muestra-head { min-height: 60px; padding-inline: 18px; }
+body .lm-page:not(.lm-hub) .lm-muestra-label { font-size: 16px; }
+body .lm-page:not(.lm-hub) .lm-muestra-tab { min-height: 40px; font-size: 16px; }
+body .lm-page:not(.lm-hub) .lm-muestra-paginas,
+body .lm-page:not(.lm-hub) .lm-muestra-preguntas { gap: 10px; padding: 18px; }
+body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 268px; }
+body .lm-page:not(.lm-hub) .lm-muestra-nota { padding: 0 18px 18px; font-size: 13px; }
+body .lm-page:not(.lm-hub) .lm-pregunta > summary {
+  min-height: 56px;
+  gap: 12px;
+  padding-inline: 16px;
+  font-size: 19px;
+}
+
+/* The SS route has its own legacy hero markup; its public surface follows
+   the same 1200px folio as the other products. */
+body .lm-page.ss-page .ss-header {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  min-height: 88px;
+  padding: 14px 24px;
+}
+body .lm-page.ss-page .ss-nav a,
+body .lm-page.ss-page .ss-nav .lm-ig { font-size: 18px !important; }
+body .lm-page.ss-page .ss-hero {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 64px 24px 40px;
+}
+body .lm-page.ss-page .ss-hero-copy { max-width: none; }
+body .lm-page.ss-page .ss-hero h1 {
+  max-width: none;
+  margin-bottom: 18px;
+  font-size: clamp(50px, 6vw, 78px);
+}
+body .lm-page.ss-page .ss-hero-lead {
+  max-width: 560px;
+  margin-bottom: 30px;
+  font-size: 19px;
+  line-height: 1.5;
+}
+body .lm-page.ss-page .ss-reference-note {
+  width: auto;
+  max-width: 1200px;
+  margin: 0 auto 26px;
+  padding-inline: 24px;
+  font-size: 14px;
+}
+
+/* Hub: preview strip, regular header and two-column catalogue. */
+body .lm-page.lm-hub .lm-preview-host {
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  margin: 0;
+  padding: 8px 16px;
+  background: #2b2b2d;
+  border-bottom: 0;
+}
+body .lm-page.lm-hub .lm-preview-host .lm-preview-nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 100%;
+  font-family: var(--lm-font-heading);
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+body .lm-page.lm-hub .lm-preview-host .lm-preview-nav span { color: #b7b7ba; }
+body .lm-page.lm-hub .lm-preview-host .lm-preview-nav a {
+  padding: 8px 14px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+body .lm-page.lm-hub .lm-preview-host .lm-preview-nav a.is-active {
+  background: #fff;
+  color: var(--lm-ink);
+}
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) {
+  width: auto;
+  max-width: 1200px;
+  min-height: 88px;
+  margin-inline: auto;
+  padding: 14px 24px;
+  background: transparent;
+  border-bottom: 1px solid var(--lm-line);
+}
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-logo { display: inline-flex; }
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-logo img { height: 40px; }
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav { width: auto; gap: 26px; }
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a,
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-ig {
+  display: inline-flex;
+  color: var(--lm-ink) !important;
+  font-family: var(--lm-font-heading) !important;
+  font-size: 19px !important;
+}
+body .lm-page.lm-hub > .lm-hero {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 68px 24px 56px;
+}
+body .lm-page.lm-hub > .lm-hero .lm-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
+  gap: 44px;
+  align-items: center;
+}
+body .lm-page.lm-hub .lm-hero h1 {
+  margin-bottom: 20px;
+  font-size: clamp(52px, 6.4vw, 82px);
+  line-height: .95;
+}
+body .lm-page.lm-hub .lm-hero .lm-lead { max-width: 520px; font-size: 19px; }
+body .lm-page.lm-hub .lm-hero-aside { padding: 22px 24px; }
+body .lm-page.lm-hub .lm-hero-aside-kicker { font-size: 14px; }
+body .lm-page.lm-hub .lm-hero-aside-row { padding: 14px 0; }
+body .lm-page.lm-hub .lm-hero-aside-row strong { font-size: 26px; }
+body .lm-page.lm-hub .lm-hero-aside-row span { font-size: 14px; }
+body .lm-page.lm-hub > #cursos {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 24px 24px 80px;
+}
+body .lm-page.lm-hub .lm-section-heading { margin-bottom: 28px; }
+body .lm-page.lm-hub .lm-display { font-size: clamp(34px, 3.6vw, 46px); }
+body .lm-page.lm-hub .lm-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; padding-bottom: 0; }
+body .lm-page.lm-hub .lm-faq {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 24px 80px;
+  grid-template-columns: minmax(280px, .8fr) minmax(0, 1.2fr);
+  gap: 48px;
+}
+body .lm-page.lm-hub .lm-faq-list { grid-column: 2; border-top: 1px solid var(--lm-ink); }
+body .lm-page.lm-hub .lm-faq-list details { border-bottom: 1px solid var(--lm-line); }
+body .lm-page.lm-hub .lm-faq-list summary { padding: 18px 0; font-size: 22px; }
+body .lm-page.lm-hub .lm-footer-inner {
+  width: auto;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 36px 24px 44px;
+}
+
+/* Anchor the signal colours above the generic link rule. */
+body .lm-page .lm-btn-primary,
+body .lm-page .lm-card-cta { color: #fff; }
+body .lm-page .lm-btn-primary:hover,
+body .lm-page .lm-btn-primary:focus-visible,
+body .lm-page .lm-card-cta:hover { color: #fff; }
+body .lm-page .lm-box-cta,
+body .lm-page .lm-box-cta:hover { color: var(--lm-accent-deep); }
+
+@media (max-width: 900px) {
+  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .lm-page:not(.lm-hub) .lm-muestra-grid { grid-template-columns: 1fr; gap: 16px; }
+  body .lm-page:not(.lm-hub) .lm-footer-inner { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub > .lm-hero .lm-hero-grid { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq-list { grid-column: 1; }
+}
+
+@media (max-width: 720px) {
+  body .lm-page:not(.lm-hub) .lm-shell { padding-inline: 24px; }
+  body .lm-page:not(.lm-hub) .lm-header { min-height: 88px; }
+  body .lm-page:not(.lm-hub) .lm-nav { gap: 16px; }
+  body .lm-page:not(.lm-hub) .lm-nav a,
+  body .lm-page:not(.lm-hub) .lm-nav-back,
+  body .lm-page:not(.lm-hub) .lm-ig { font-size: 16px !important; }
+  body .lm-page:not(.lm-hub) .lm-hero { padding-block: 44px 40px; }
+  body .lm-page:not(.lm-hub) .lm-hero h1,
+  body .lm-page.ss-page .ss-hero h1 { font-size: clamp(42px, 12vw, 60px); }
+  body .lm-page:not(.lm-hub) .lm-lead,
+  body .lm-page.ss-page .ss-hero-lead { font-size: 17px; }
+  body .lm-page:not(.lm-hub) .lm-btn { min-height: 64px; padding-inline: 22px; font-size: 23px; }
+  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: 1fr; padding-bottom: 64px; }
+  body .lm-page:not(.lm-hub) .lm-muestra { padding-bottom: 64px; }
+  body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 220px; }
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) { min-height: 88px; }
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav { gap: 16px; }
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a,
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-ig { font-size: 16px !important; }
+  body .lm-page.lm-hub .lm-cards { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub .lm-faq { gap: 28px; }
+}
+
+@media (max-width: 420px) {
+  body .lm-page:not(.lm-hub) .lm-header { align-items: flex-start; flex-direction: column; }
+  body .lm-page:not(.lm-hub) .lm-nav { width: 100%; justify-content: flex-start; }
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) { align-items: flex-start; flex-direction: column; }
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav { width: 100%; justify-content: flex-start; }
+}

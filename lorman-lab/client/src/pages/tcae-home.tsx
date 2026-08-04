@@ -45,7 +45,7 @@ export default function TcaeHome() {
           <p className="lm-lead">
             Temario, resúmenes, tests por tema y simulacros tipo examen. Dinos tu servicio de salud y te decimos qué material te encaja.
           </p>
-          <CtaContacto whatsapp={WHATSAPP}>
+          <CtaContacto whatsapp={WHATSAPP} note="">
             <a className="lm-btn lm-btn-outline" href="#muestra">Ver el material</a>
           </CtaContacto>
         </section>
@@ -107,7 +107,6 @@ export default function TcaeHome() {
           links={[
             { label: "Todos los cursos", href: PORTFOLIO_URL },
             { label: "WhatsApp", href: WHATSAPP_URL },
-            { label: "Muestra", href: "#muestra" },
           ]}
           notice={AVISO_SALUD}
         />
