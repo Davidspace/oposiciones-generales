@@ -1014,6 +1014,26 @@ body .lm-page.lm-hub .lm-footer-inner {
   padding: 36px 24px 44px;
 }
 
+/* The compatibility selector uses :not(.lm-header), which is intentionally
+   more specific than the base shell rule. Keep these layout invariants
+   explicit so the catalogue cannot fall back to the old 580px column. */
+body .lm-page.lm-hub > section.lm-shell.lm-hero,
+body .lm-page.lm-hub > section#cursos.lm-shell,
+body .lm-page.lm-hub > section.lm-faq {
+  width: auto !important;
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+body .lm-page.lm-hub > section.lm-shell.lm-hero { padding-inline: 24px !important; }
+body .lm-page.lm-hub > section#cursos.lm-shell { padding-inline: 24px !important; }
+body .lm-page.lm-hub > section.lm-faq { padding-inline: 24px !important; }
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a::before,
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a::after {
+  content: none !important;
+  display: none !important;
+}
+
 /* Anchor the signal colours above the generic link rule. */
 body .lm-page .lm-btn-primary,
 body .lm-page .lm-card-cta { color: #fff; }
