@@ -39,10 +39,8 @@ const localBindingConfig = {
 export default defineConfig(async () => {
   if (isVercelBuild) {
     const { nitro } = await import("nitro/vite");
-    const { default: tailwindcss } = await import("@tailwindcss/postcss");
 
     return {
-      css: { postcss: { plugins: [tailwindcss()] } },
       resolve: {
         alias: {
           "cloudflare:workers": resolvePath(
