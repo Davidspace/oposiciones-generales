@@ -327,7 +327,6 @@ export function SsCasoLabLanding({
           </p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            message="Hola Academia LORMAN, quiero consultar el acceso a SS CasoLab."
             note=""
           >
             <a className="lm-btn lm-btn-outline" href="#contenido">Qué incluye</a>

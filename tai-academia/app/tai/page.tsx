@@ -23,7 +23,6 @@ export default function TaiLanding() {
           <p className="lm-lead">Temario, tests, simulacros y simulacros prácticos. Pago único, acceso hasta el día del examen.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            message="Hola Academia LORMAN, quiero consultar el acceso al curso TAI."
             note=""
           >
             <a className="lm-btn lm-btn-outline" href="#incluye">Qué incluye</a>

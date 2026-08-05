@@ -28,11 +28,9 @@ export const AVISO_JUSTICIA =
   AVISO_PRECIOS;
 
 export type AvisoComunProps = {
-  links: { label: string; href: string; external?: boolean }[];
+  links: { label: string; href: string }[];
   notice: string;
   logoSrc?: string;
-  brand?: string;
-  tagline?: string;
 };
 
 export function AvisoComun({

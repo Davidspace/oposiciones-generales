@@ -3,6 +3,8 @@
  * Va en la sección principal de cada superficie (no en la cabecera).
  */
 
+import type { ReactNode } from "react";
+
 export type CtaContactoProps = {
   /** Número en formato internacional sin signos: 34XXXXXXXXX */
   whatsapp: string;
@@ -11,7 +13,7 @@ export type CtaContactoProps = {
   logoSrc?: string;
   /** Texto pequeño bajo el botón. */
   note?: string;
-  children?: React.ReactNode;
+  children?: ReactNode;
 };
 
 export function CtaContacto({

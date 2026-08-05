@@ -88,7 +88,6 @@ export default function AdministrativoEstadoLanding() {
           <p className="lm-lead">Preparación digital para el Cuerpo General Auxiliar de la Administración del Estado: normativa, psicotécnicos y ofimática en una experiencia de práctica que puedes repetir.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            message="Hola Academia LORMAN, quiero información sobre Auxiliar del Estado C2."
           >
             <a className="lm-btn lm-btn-outline" href="#prueba" onClick={() => track("offer_view", { section: "hero" })}>Hacer la prueba gratuita</a>
             <a className="lm-btn lm-btn-outline" href="#examen">Ver el examen</a>

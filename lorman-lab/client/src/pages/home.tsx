@@ -2,67 +2,15 @@ import { useEffect } from "react";
 import { trackLabEvent } from "@/lib/lab-analytics";
 import { PRODUCT_URLS } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
-import { FichaCurso, type FichaCursoProps } from "@/components/FichaCurso";
+import { FichaCurso } from "@/components/FichaCurso";
 import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
+import { CURSO_C2, CURSOS, MOSTRAR_C2, WHATSAPP } from "@/data/cursos";
 
-const TCAE_URL = import.meta.env.VITE_TCAE_URL?.trim() || "https://lorman-academia.vercel.app/";
-const C2_SAMPLE_URL = PRODUCT_URLS.c2;
-const WHATSAPP = "34640828654";
-
-const COURSES: FichaCursoProps[] = [
-  {
-    code: "TCAE",
-    tone: "tcae",
-    title: "Cuidados Auxiliares de Enfermería",
-    meta: "Servicios de salud · turno libre",
-    items: [
-      { title: "Temario por bloques", note: "con resúmenes y esquemas" },
-      { title: "Tests por tema", note: "respuesta razonada" },
-      { title: "Simulacros tipo examen", note: "y repaso general autocorregible" },
-    ],
-    cta: { label: "Ver curso TCAE", href: TCAE_URL },
-  },
-  {
-    code: "TAI",
-    tone: "tai",
-    title: "Técnico Auxiliar de Informática",
-    meta: "Estado · subgrupo C1",
-    items: [
-      { title: "Temario completo", note: "33 temas" },
-      { title: "Tests y autoevaluaciones", note: "muchos más que temas" },
-      { title: "Simulacros y prácticos", note: "las dos partes del ejercicio" },
-    ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "95 €" },
-    cta: { label: "Ver curso TAI", href: PRODUCT_URLS.tai },
-  },
-  {
-    code: "SS",
-    tone: "ss",
-    title: "Administrativo Seguridad Social",
-    meta: "Subgrupo C1 · acceso libre",
-    items: [
-      { title: "Temario general y específico", note: "36 temas redactados" },
-      { title: "Tests por tema", note: "con normativa citada" },
-      { title: "Supuestos prácticos", note: "como en el ejercicio" },
-    ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "49 €" },
-    cta: { label: "Ver curso SS", href: PRODUCT_URLS.ss },
-  },
-  {
-    code: "AUX. JUDICIAL",
-    tone: "aux",
-    title: "Auxilio Judicial",
-    meta: "Justicia · subgrupo C2 · solo tests",
-    items: [
-      { title: "Cuestionarios por tema", note: "26 temas cubiertos" },
-      { title: "Práctica intensiva", note: "90 cuestionarios distintos" },
-      { title: "Corrección automática", note: "sin temario incluido" },
-    ],
-    cta: { label: "Ver Auxilio Judicial", href: PRODUCT_URLS.auxJuridico },
-  },
-];
-const FICHAS = COURSES;
+const TCAE_URL = CURSOS.find((course) => course.code === "TCAE")?.cta.href || "/tcae";
+const FICHAS = MOSTRAR_C2
+  ? [...CURSOS, { ...CURSO_C2, cta: { ...CURSO_C2.cta, href: PRODUCT_URLS.c2 } }]
+  : CURSOS;
 
 export default function Home() {
   useEffect(() => {
@@ -88,7 +36,7 @@ export default function Home() {
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio">
             <img src="/lorman-logo.png" alt="Academia LORMAN" />
           </a>
-          <nav className="lm-nav" aria-label="NavegaciÃ³n principal">
+          <nav className="lm-nav" aria-label="Navegación principal">
             <a href="#cursos">Cursos</a>
             <a href="#preguntas">Preguntas</a>
             <EnlaceInstagram size={17} />
@@ -103,7 +51,6 @@ export default function Home() {
               <p className="lm-lead">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
               <CtaContacto
                 whatsapp={WHATSAPP}
-                message="Hola Academia LORMAN, quiero saber qué curso me encaja."
               >
                 <a className="lm-btn lm-btn-outline" href="#cursos">Ver los cursos</a>
               </CtaContacto>
