@@ -155,9 +155,11 @@
 .lm-card-list { list-style: none; margin: 18px 0 0; padding: 0; border-top: 1px solid var(--lm-line); }
 .lm-card-list li { border-bottom: 1px solid var(--lm-line); padding: 13px 20px; }
 .lm-card-list li.lm-row-price { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.lm-card-list li.lm-row-price-long { align-items: flex-start; flex-direction: column; gap: 8px; }
 .lm-item-title { display: block; font-family: var(--lm-font-heading); font-size: 21px; text-transform: uppercase; }
 .lm-item-note { font-size: 14px; color: var(--lm-muted); }
 .lm-price { font-family: var(--lm-font-heading); font-size: 30px; color: var(--lm-accent-dark); }
+.lm-card-list li.lm-row-price-long .lm-price-long { font-size: 14px; letter-spacing: .06em; line-height: 1.15; text-align: left; }
 .lm-card-foot { margin-top: auto; padding: 20px; }
 .lm-card-cta {
   display: flex; align-items: center; justify-content: center; min-height: 64px;
@@ -624,8 +626,10 @@ body .lm-page:not(.lm-hub) .lm-box-cta {
 body .lm-page:not(.lm-hub) .lm-fineprint {
   width: auto;
   max-width: 1200px;
-  margin: 0 auto 26px;
-  padding-inline: 24px;
+  grid-column: 1 / -1;
+  max-width: none;
+  margin: 0 0 26px;
+  padding-inline: 0;
   font-size: 14px;
 }
 
@@ -695,8 +699,9 @@ body .lm-page.ss-page .ss-hero { margin-bottom: 72px; }
 body .lm-page.ss-page .lm-boxes .ss-reference-note {
   width: auto;
   max-width: none;
+  grid-column: 1 / -1;
   margin: 0 0 26px;
-  padding-inline: 24px;
+  padding-inline: 0;
   font-size: 14px;
 }
 

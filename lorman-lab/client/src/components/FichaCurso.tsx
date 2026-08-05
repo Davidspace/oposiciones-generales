@@ -38,6 +38,7 @@ export function FichaCurso({
 }: FichaCursoProps) {
   const codeClass =
     code.length > 4 ? "lm-card-code lm-card-code-sm" : "lm-card-code";
+  const isLongPrice = Boolean(price && price.value.length > 6);
 
   return (
     <article className={`lm-card lm-${tone}`}>
@@ -55,12 +56,12 @@ export function FichaCurso({
           </li>
         ))}
         {price ? (
-          <li className="lm-row-price">
+          <li className={`lm-row-price${isLongPrice ? " lm-row-price-long" : ""}`}>
             <span>
               <strong className="lm-item-title">{price.title}</strong>
               {price.note ? <span className="lm-item-note">{price.note}</span> : null}
             </span>
-            <strong className="lm-price">{price.value}</strong>
+            <strong className={`lm-price${isLongPrice ? " lm-price-long" : ""}`}>{price.value}</strong>
           </li>
         ) : null}
       </ul>

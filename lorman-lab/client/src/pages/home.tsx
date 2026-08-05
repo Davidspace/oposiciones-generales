@@ -7,7 +7,6 @@ import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
 import { CURSO_C2, CURSOS, MOSTRAR_C2, WHATSAPP } from "@/data/cursos";
 
-const TCAE_URL = CURSOS.find((course) => course.code === "TCAE")?.cta.href || "/tcae";
 const FICHAS = MOSTRAR_C2
   ? [...CURSOS, { ...CURSO_C2, cta: { ...CURSO_C2.cta, href: PRODUCT_URLS.c2 } }]
   : CURSOS;
@@ -21,17 +20,6 @@ export default function Home() {
     <>
       <a className="hub-skip-link" href="#contenido-principal">Saltar al contenido</a>
       <main className="lm-page lm-hub" id="contenido-principal" tabIndex={-1}>
-        <header className="lm-shell lm-header lm-preview-host">
-          <nav className="lm-preview-nav" aria-label="Navegación de la maqueta">
-            <span>MAQUETA</span>
-            <a className="is-active" href="#inicio">HUB</a>
-            <a href={TCAE_URL}>TCAE</a>
-            <a href={PRODUCT_URLS.tai}>TAI</a>
-            <a href={PRODUCT_URLS.ss}>SS</a>
-            <a href={PRODUCT_URLS.auxJuridico}>AUX. JUDICIAL</a>
-          </nav>
-        </header>
-
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio">
             <img src="/lorman-logo.png" alt="Academia LORMAN" />

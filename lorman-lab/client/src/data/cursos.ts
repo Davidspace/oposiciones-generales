@@ -24,7 +24,12 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Tests por tema", note: "respuesta razonada" },
       { title: "Simulacros tipo examen", note: "y repaso general autocorregible" },
     ],
-    cta: { label: "Ver curso TCAE", href: url("VITE_TCAE_URL", PRODUCT_URLS.tcae) },
+    price: {
+      title: "Pago único",
+      note: "acceso hasta el examen",
+      value: "PRECIO EN FUNCIÓN DEL CURSO",
+    },
+    cta: { label: "Ver cursos TCAE", href: url("VITE_TCAE_URL", PRODUCT_URLS.tcae) },
   },
   {
     code: "TAI",
@@ -36,7 +41,7 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Tests y autoevaluaciones", note: "muchos más que temas" },
       { title: "Simulacros y prácticos", note: "las dos partes del ejercicio" },
     ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "95 €" },
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "59 €" },
     cta: { label: "Ver curso TAI", href: url("VITE_TAI_URL", PRODUCT_URLS.tai) },
   },
   {
@@ -49,7 +54,7 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Tests por tema", note: "con normativa citada" },
       { title: "Supuestos prácticos", note: "como en el ejercicio" },
     ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "49 €" },
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "79 €" },
     cta: { label: "Ver curso SS", href: url("VITE_SS_URL", PRODUCT_URLS.ss) },
   },
   {
@@ -62,6 +67,7 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Práctica intensiva", note: "90 cuestionarios distintos" },
       { title: "Corrección automática", note: "sin temario incluido" },
     ],
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "29 €" },
     cta: {
       label: "Ver Auxilio Judicial",
       href: url("VITE_AUX_JURIDICO_URL", PRODUCT_URLS.auxJuridico),
