@@ -787,7 +787,8 @@ body .lm-page.lm-hub > .lm-hero .lm-hero-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.15fr) minmax(300px, .85fr);
   gap: 44px;
-  align-items: center;
+  /* Keep both hero columns anchored to the same visual start. */
+  align-items: start;
 }
 body .lm-page.lm-hub .lm-hero h1 {
   margin-bottom: 20px;
@@ -801,9 +802,10 @@ body .lm-page.lm-hub .lm-hero-aside-row { padding: 14px 0; }
 body .lm-page.lm-hub .lm-hero-aside-row strong { font-size: 26px; }
 body .lm-page.lm-hub .lm-hero-aside-row span { font-size: 14px; }
 body .lm-page.lm-hub .lm-hero-aside {
-  align-self: center;
+  align-self: start;
   background: var(--lm-bg);
   border: 1px solid var(--lm-ink);
+  margin-top: clamp(34px, 3vw, 42px);
 }
 body .lm-page.lm-hub .lm-hero-aside-kicker {
   display: block;
@@ -908,6 +910,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   body .lm-page:not(.lm-hub) .lm-muestra-grid { grid-template-columns: 1fr; gap: 16px; }
   body .lm-page:not(.lm-hub) .lm-footer-inner { grid-template-columns: 1fr; }
   body .lm-page.lm-hub > .lm-hero .lm-hero-grid { grid-template-columns: 1fr; }
+  body .lm-page.lm-hub > .lm-hero .lm-hero-aside { margin-top: 0; }
   body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
   body .lm-page.lm-hub .lm-faq-list { grid-column: 1; }
 }
