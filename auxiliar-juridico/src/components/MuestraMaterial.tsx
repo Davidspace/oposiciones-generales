@@ -83,7 +83,16 @@ export function MuestraMaterial({
             {grupo.paginas.map((p, i) =>
               p.src ? (
                 <figure key={i} className="lm-muestra-pagina">
-                  <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} />
+                  <a
+                    className="lm-muestra-pagina-link"
+                    href={p.src}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${p.alt ?? `Página de muestra ${i + 1}`}. Abrir a tamaño completo en una pestaña nueva.`}
+                    title="Abrir a tamaño completo"
+                  >
+                    <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} loading="lazy" decoding="async" />
+                  </a>
                 </figure>
               ) : (
                 <figure key={i} className="lm-muestra-pagina is-vacia">

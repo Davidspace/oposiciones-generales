@@ -245,7 +245,23 @@
 .lm-muestra-pagina {
   margin: 0; height: 268px; overflow: hidden; background: #fff; border: 1px solid var(--lm-line);
 }
+.lm-muestra-pagina-link {
+  position: relative; display: flex; width: 100%; min-height: 100%; align-items: flex-start;
+  color: inherit; text-decoration: none; cursor: zoom-in;
+}
+.lm-muestra-pagina-link::after {
+  content: "Abrir a tamaño completo";
+  position: absolute; right: 10px; bottom: 10px; padding: 6px 9px;
+  background: var(--lm-accent); color: #fff; font-family: var(--lm-font-heading);
+  font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+  opacity: 0; pointer-events: none; transition: opacity 160ms ease;
+}
+.lm-muestra-pagina-link:hover::after,
+.lm-muestra-pagina-link:focus-visible::after { opacity: 1; }
+.lm-muestra-pagina-link:focus-visible { outline: 2px solid var(--lm-accent); outline-offset: -3px; }
 .lm-muestra-pagina img { display: block; width: 100%; height: auto; }
+.lm-muestra-pagina-link:hover img { transform: scale(1.015); }
+.lm-muestra-pagina-link img { transition: transform 160ms ease; }
 .lm-muestra-pagina.is-vacia {
   border-style: dashed; display: flex; align-items: center; justify-content: center;
   font-family: var(--lm-font-heading); font-size: 15px; letter-spacing: .12em;
@@ -631,6 +647,11 @@ body .lm-page:not(.lm-hub) .lm-fineprint {
   margin: 0 0 26px;
   padding-inline: 0;
   font-size: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lm-muestra-pagina-link::after,
+  .lm-muestra-pagina-link img { transition: none; }
 }
 
 body .lm-page:not(.lm-hub) .lm-muestra {
