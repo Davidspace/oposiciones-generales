@@ -6,25 +6,25 @@
 import { EnlaceInstagram } from "./Instagram";
 
 export const AVISO_BASE =
-  "Proyecto independiente sin relación con ninguna Administración, tribunal ni organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. ";
+  "Academia LORMAN es un proyecto educativo independiente. " +
+  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. ";
 
 export const AVISO_PRECIOS =
   "Precio final, impuestos, derecho de desistimiento, devolución y contenido disponible se muestran antes de cualquier pago.";
 
 export const AVISO_SS =
-  "Proyecto independiente sin relación con la Seguridad Social, el ministerio ni el tribunal. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
+  "SS CasoLab es un producto educativo independiente, sin relación con la Seguridad Social, el ministerio ni el tribunal. " +
+  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
   AVISO_PRECIOS;
 
 export const AVISO_SALUD =
-  "Proyecto independiente sin relación con ningún servicio de salud, tribunal ni organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
+  "El material TCAE es independiente y no pertenece a ningún servicio de salud, tribunal ni organismo oficial. " +
+  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
   AVISO_PRECIOS;
 
 export const AVISO_JUSTICIA =
-  "Proyecto independiente sin relación con el Ministerio de Justicia, el tribunal ni ningún organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
+  "Auxilio Judicial LORMAN es un producto educativo independiente, sin relación con el Ministerio de Justicia, el tribunal ni ningún organismo oficial. " +
+  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
   AVISO_PRECIOS;
 
 export type AvisoComunProps = {

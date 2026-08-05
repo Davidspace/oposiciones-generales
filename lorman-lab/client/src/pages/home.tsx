@@ -35,19 +35,21 @@ export default function Home() {
           <div className="lm-hero-grid">
             <div>
               <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones online</p>
-              <h1>Elige tu oposición<br />y pregúntanos.</h1>
-              <p className="lm-lead">Temario, tests y simulacros para estudiar por tu cuenta. Escríbenos y te decimos en un minuto si te encaja.</p>
+              <h1>Elige tu oposición<br />y empieza a estudiar.</h1>
+              <p className="lm-lead">Material claro, tests y simulacros para avanzar a tu ritmo. ¿Tienes dudas? Escríbenos y lo vemos contigo.</p>
               <CtaContacto
                 whatsapp={WHATSAPP}
+                label="Hablar por WhatsApp"
+                message="Hola, estoy mirando una oposición en Academia LORMAN y quiero saber qué curso me encaja."
               >
                 <a className="lm-btn lm-btn-outline" href="#cursos">Ver los cursos</a>
               </CtaContacto>
             </div>
-            <aside className="lm-hero-aside" aria-label="Así se estudia">
-              <span className="lm-hero-aside-kicker">Así se estudia</span>
-              <div className="lm-hero-aside-row"><strong>Temario</strong><span>redactado y ordenado por temas</span></div>
-              <div className="lm-hero-aside-row"><strong>Tests</strong><span>autoevaluaciones con explicación</span></div>
-              <div className="lm-hero-aside-row"><strong>Simulacros</strong><span>teóricos y prácticos, autocorregibles</span></div>
+            <aside className="lm-hero-aside" aria-label="Qué encontrarás">
+              <span className="lm-hero-aside-kicker">Qué encontrarás</span>
+              <div className="lm-hero-aside-row"><strong>Temario</strong><span>listo para estudiar</span></div>
+              <div className="lm-hero-aside-row"><strong>Tests</strong><span>con respuesta explicada</span></div>
+              <div className="lm-hero-aside-row"><strong>Simulacros</strong><span>para medirte al momento</span></div>
             </aside>
           </div>
         </section>
@@ -72,9 +74,10 @@ export default function Home() {
             </a>
           </div>
           <div className="lm-faq-list">
-            <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>
-            <details><summary>¿Hay clases o tutoría?</summary><p>El modelo prioriza autoestudio y autocorrección. Los límites de soporte se indican antes de cualquier pago.</p></details>
-            <details><summary>¿Cuánto dura el acceso?</summary><p>Cada ficha declara la duración y las condiciones de acceso de su curso.</p></details>
+            <details><summary>¿Qué incluye cada curso?</summary><p>Cada ficha resume el temario, la práctica, el precio y las condiciones de acceso del curso.</p></details>
+            <details><summary>¿Puedo estudiar sin clases semanales?</summary><p>Sí. El modelo prioriza estudio flexible, práctica y corrección inmediata. Si necesitas ayuda, puedes escribirnos.</p></details>
+            <details><summary>¿Cómo recibo el acceso?</summary><p>Te confirmamos por WhatsApp el contenido, el precio y los pasos de acceso antes de cualquier pago.</p></details>
+            <details><summary>¿Es una academia oficial?</summary><p>No. Academia LORMAN es un proyecto educativo independiente. La convocatoria vigente siempre tiene prioridad.</p></details>
           </div>
         </section>
 

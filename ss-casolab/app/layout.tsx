@@ -22,9 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const metadataBase = host
     ? new URL(`${protocol}://${host}`)
     : new URL("http://localhost:3000");
-  const title = "SS CasoLab | Administrativo de la Seguridad Social C1";
+  const title = "Administrativo SS C1 | Temario, tests y supuestos | Academia LORMAN";
   const description =
-    "Preparación digital para Administrativo de la Seguridad Social, C1.";
+    "36 temas, tests por tema y supuestos prácticos para preparar Administrativo de la Seguridad Social C1.";
   const imageUrl = new URL("/og.png", metadataBase).toString();
 
   return {

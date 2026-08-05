@@ -13,22 +13,28 @@ export type CtaContactoProps = {
   logoSrc?: string;
   /** Texto pequeño bajo el botón. */
   note?: string;
+  message?: string;
   children?: ReactNode;
 };
 
 export function CtaContacto({
   whatsapp,
-  label = "Contactar ahora",
+  label = "Preguntar por el acceso",
   logoSrc = "/lorman-logo.png",
-  note = "Respuesta por WhatsApp · sin compromiso",
+  note = "Te respondemos por WhatsApp. Sin compromiso.",
+  message,
   children,
 }: CtaContactoProps) {
+  const whatsappHref = message
+    ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`
+    : `https://wa.me/${whatsapp}`;
+
   return (
     <>
       <div className="lm-actions">
         <a
           className="lm-btn lm-btn-primary"
-          href={`https://wa.me/${whatsapp}`}
+          href={whatsappHref}
           target="_blank"
           rel="noreferrer"
         >

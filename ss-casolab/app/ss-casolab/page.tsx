@@ -28,6 +28,7 @@ type EventType =
 
 const EXPERIMENT = "ss-casolab";
 const WHATSAPP = "34640828654";
+const SS_PRICE = "79 €";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent("Hola Academia LORMAN, quiero consultar el acceso a SS CasoLab.")}`;
 let volatileSessionId: string | null = null;
 const EMPTY_QUESTIONS: SsQuestion[] = [];
@@ -319,15 +320,17 @@ export function SsCasoLabLanding({
 
       <section className="ss-hero" id="inicio">
         <div className="ss-hero-copy">
-          <p className="ss-label">SEGURIDAD SOCIAL · SUBGRUPO C1</p>
+          <p className="ss-label">SEGURIDAD SOCIAL · C1 · ACCESO LIBRE</p>
           <h1>Administrativo de la<br />Seguridad Social</h1>
           <p className="ss-hero-lead">
-            Temario general y específico, tests por tema y supuestos prácticos.
-            Pago único de 49 € con acceso hasta el día del examen.
+            No te quedes en la teoría: practica cómo decidir. Incluye 36 temas,
+            tests por tema y supuestos prácticos, con pago único y acceso hasta
+            el examen.
           </p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            note=""
+            label="Preguntar por el acceso"
+            message="Hola, quiero consultar el acceso a SS CasoLab."
           >
             <a className="lm-btn lm-btn-outline" href="#contenido">Qué incluye</a>
           </CtaContacto>
@@ -342,7 +345,7 @@ export function SsCasoLabLanding({
             </div>
             <div>
               <dt>0</dt>
-              <dd>correcciones manuales para ver tu resultado</dd>
+              <dd>resultado y explicación al momento</dd>
             </div>
           </dl>
         </div>
@@ -350,10 +353,10 @@ export function SsCasoLabLanding({
       </section>
 
       <section className="lm-shell lm-boxes" id="contenido" aria-label="Contenido de SS CasoLab">
-        <Cajon kicker="01 · TEMARIO" title="General y específico" text="Temas redactados con la normativa citada y actualizada." figure="36 temas" />
-        <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
-        <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
-        <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={WHATSAPP_URL} />
+        <Cajon kicker="01 · TEMARIO" title="36 temas, generales y específicos" text="Normativa citada y organizada para estudiar y repasar." figure="23 generales + 13 específicos" />
+        <Cajon kicker="02 · TEST" title="Tests que explican el fallo" text="Comprueba la regla, ve la fuente y vuelve al punto que necesitas." figure="tests por tema" />
+        <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Practica cómo decidir cuando el caso mezcla varias normas." figure="14 casos estructurados" />
+        <CajonCierre kicker="04 · ACCESO" title={`Pago único de ${SS_PRICE}`} text="Temario, tests y casos, con acceso hasta el examen." href={WHATSAPP_URL} label="Consultar acceso" />
         <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
       </section>
 
@@ -374,28 +377,28 @@ export function SsCasoLabLanding({
       <section className="ss-method" id="como-funciona">
         <div className="ss-section-heading">
           <p className="ss-label">TEORÍA, DECISIÓN Y REPASO</p>
-          <h2>Un temario completo. Una práctica que te dice qué repasar.</h2>
+            <h2>Estudia. Decide. Corrige. Repite.</h2>
         </div>
         <ol className="ss-method-grid">
           <li>
             <span>01</span>
-            <h3>Lee el contexto</h3>
-            <p>Estudia el tema completo antes de pasar a la práctica.</p>
+            <h3>Lee la regla</h3>
+            <p>Estudia el tema y localiza la norma que necesitas aplicar.</p>
           </li>
           <li>
             <span>02</span>
-            <h3>Toma decisiones</h3>
-            <p>Comprueba la regla con tests y simulacros organizados.</p>
+            <h3>Resuelve el caso</h3>
+            <p>Comprueba la regla con tests y supuestos organizados.</p>
           </li>
           <li>
             <span>03</span>
-            <h3>Corrige al instante</h3>
+            <h3>Entiende el fallo</h3>
             <p>Revisa la explicación y la fuente normativa relacionada.</p>
           </li>
           <li>
             <span>04</span>
-            <h3>Recibe una ruta</h3>
-            <p>Vuelve al tema, al test o al simulacro que necesitas.</p>
+            <h3>Repite justo lo necesario</h3>
+            <p>Vuelve al tema, al test o al caso que necesitas.</p>
           </li>
         </ol>
       </section>
@@ -557,11 +560,11 @@ export function SsCasoLabLanding({
         </div>
         ) : (
           <div className="ss-success ss-capture-locked" role="status">
-            <span>REVISIÓN EN CURSO</span>
-            <h3>El microcaso aún no está publicado.</h3>
+            <span>CASO EN PREPARACIÓN</span>
+            <h3>Estamos preparando el primer microcaso.</h3>
             <p>
-              La muestra permanece cerrada hasta completar la revisión académica
-              y jurídica exigida. No mostramos un borrador como contenido definitivo.
+              Publicaremos la muestra cuando termine la revisión. Mientras tanto,
+              puedes conocer el método y consultar el acceso al aula.
             </p>
           </div>
         )}
@@ -603,7 +606,7 @@ export function SsCasoLabLanding({
             </p>
             <div className="ss-result-actions">
               <a className="ss-button ss-button-dark" href="#captacion">
-                Recibir mi ruta de repaso
+                Enviar mi ruta de repaso
               </a>
               <button
                 className="ss-text-button"
@@ -620,35 +623,35 @@ export function SsCasoLabLanding({
       <section className="ss-capture" id="captacion">
         <div className="ss-capture-copy">
           <p className="ss-label">GUARDA EL SIGUIENTE PASO</p>
-          <h2>Recibe la ruta de repaso y las condiciones de acceso.</h2>
+          <h2>Descubre qué deberías repasar ahora.</h2>
           <p>
-            Indica tu fase y tu principal bloqueo. Solo pedimos los datos
-            necesarios para enviarte la ruta y conocer las condiciones de acceso.
+            Cuéntanos en qué fase estás y qué se te atasca más. Te enviaremos
+            una ruta breve para decidir qué estudiar después.
           </p>
           <ul>
-            <li>Resumen del método de decisión.</li>
+            <li>Un resumen del método de decisión.</li>
+            <li>Un siguiente paso claro para tu repaso.</li>
             <li>Condiciones de acceso y soporte.</li>
-            <li>Puedes pedir la baja en el mismo chat de WhatsApp.</li>
           </ul>
         </div>
 
         <div className="ss-form-card">
           {!captureEnabled || !capturePrivacyUrl ? (
             <div className="ss-success ss-capture-locked" role="status">
-              <span>CAPTACIÓN PREPARADA</span>
-              <h3>El formulario todavía no recoge datos.</h3>
+              <span>FORMULARIO EN PREPARACIÓN</span>
+              <h3>Pronto podrás recibir tu ruta de repaso.</h3>
               <p>
-                Lo activaremos cuando la información de privacidad identifique
-                al responsable del tratamiento. El microcaso se podrá resolver
-                sin registro cuando supere también su revisión editorial.
+                Estamos terminando la información de privacidad para abrir la
+                captación con todas las garantías. Mientras tanto, puedes
+                consultar el método y el acceso al aula.
               </p>
             </div>
           ) : submitState === "success" ? (
             <div className="ss-success" role="status">
               <span>RECIBIDO</span>
-              <h3>Tu interés está guardado.</h3>
+              <h3>Listo. Te escribiremos pronto.</h3>
               <p>
-                Te enviaremos por WhatsApp la ruta de repaso y las condiciones
+                Te enviaremos por WhatsApp tu ruta de repaso y las condiciones
                 de acceso.
               </p>
               <a className="ss-button ss-button-dark" href="#acceso">
@@ -698,7 +701,7 @@ export function SsCasoLabLanding({
                 />
               </label>
               <label>
-                Fase de preparación
+                ¿En qué punto estás?
                 <select name="stage" defaultValue="" required>
                   <option value="" disabled>
                     Selecciona tu fase
@@ -711,7 +714,7 @@ export function SsCasoLabLanding({
                 </select>
               </label>
               <label>
-                Principal bloqueo
+                ¿Qué se te atasca más?
                 <select name="challenge" defaultValue="" required>
                   <option value="" disabled>
                     Selecciona una opción
@@ -757,7 +760,7 @@ export function SsCasoLabLanding({
               >
                 {submitState === "sending"
                   ? "Guardando…"
-                  : "Recibir la ruta de repaso"}
+                  : "Enviar mi ruta"}
               </button>
             </form>
           )}
@@ -767,12 +770,11 @@ export function SsCasoLabLanding({
       <section className="ss-preorder" id="acceso">
         <div className="ss-preorder-title">
           <p className="ss-label">ACCESO AL CURSO · PAGO ÚNICO</p>
-          <h2>Prepara las dos partes con una sola ruta de estudio.</h2>
+          <h2>Todo el material en una sola ruta de estudio.</h2>
           <p>
-            El producto parte del temario exacto de SS: temas redactados,
-            tests por temas, simulacros, normativa y fuentes oficiales. La
-            práctica digital sirve para comprobar el estudio y localizar qué
-            debes repasar.
+            Temas redactados, tests por tema, simulacros, normativa y fuentes
+            oficiales. La práctica digital te ayuda a comprobar el estudio y
+            localizar qué debes repasar.
           </p>
         </div>
 
@@ -780,18 +782,17 @@ export function SsCasoLabLanding({
           <span className="ss-product-sticker">ACCESO HASTA EL EXAMEN</span>
           <div className="ss-price">
             <span>Precio del curso</span>
-            <strong>49 €</strong>
+            <strong>{SS_PRICE}</strong>
             <small>pago único</small>
           </div>
           <div className="ss-content-status" aria-label="Estado editorial del contenido">
             <div className="ss-content-status-head">
-              <span>INVENTARIO DE LA VERSIÓN ACTUAL</span>
-              <strong>CONTENIDO ORGANIZADO · ACCESO DIGITAL</strong>
+              <span>QUÉ ENCONTRARÁS EN EL AULA</span>
+              <strong>TODO ORDENADO PARA ESTUDIAR</strong>
             </div>
             <p>
-              El material de Alba está organizado en ocho áreas. Cada recurso
-              se presenta con su bloque de estudio, práctica y referencia
-              normativa para que puedas avanzar sin horarios.
+              Todo el material está organizado por bloques de estudio, práctica
+              y referencia normativa para que puedas avanzar sin horarios.
             </p>
             <div className="ss-product-grid">
               {CORPUS_STATUS_ITEMS.map(([number, label]) => (
@@ -824,10 +825,9 @@ export function SsCasoLabLanding({
             <li>Temario general y específico en la misma ruta.</li>
             <li>Tests por tema y simulacros para practicar sin horarios.</li>
             <li>Normativa, fuentes oficiales y control de actualización.</li>
-            <li>Sin clases semanales.</li>
-            <li>Sin tutoría individual ilimitada.</li>
-            <li>Sin corrección manual de cada intento.</li>
-            <li>Soporte individual por WhatsApp en dos ventanas semanales.</li>
+            <li>Estudio flexible, sin clases semanales obligatorias.</li>
+            <li>Tests y práctica autocorregible para avanzar sin esperar.</li>
+            <li>Soporte de acceso y uso con límites claros.</li>
           </ul>
           <a
             className="ss-button ss-button-primary"
@@ -835,10 +835,10 @@ export function SsCasoLabLanding({
             target="_blank"
             rel="noopener noreferrer"
           >
-            Consultar acceso por WhatsApp
+            Quiero entrar a SS CasoLab
           </a>
           <p className="ss-checkout-notice" role="status">
-            Te confirmamos por WhatsApp el precio, las condiciones y los pasos de acceso antes de cualquier pago.
+            Te confirmamos por WhatsApp el precio, el contenido y los pasos de acceso antes de cualquier pago.
           </p>
         </div>
 
@@ -851,7 +851,7 @@ export function SsCasoLabLanding({
             </div>
             <div>
               <dt>Pago</dt>
-              <dd>49 € en un único pago, después de confirmar el acceso por WhatsApp.</dd>
+              <dd>{SS_PRICE} en un único pago, después de confirmar el acceso por WhatsApp.</dd>
             </div>
             <div>
               <dt>Formato</dt>
@@ -863,9 +863,9 @@ export function SsCasoLabLanding({
             </div>
           </dl>
           <p>
-            No hay preventa ni reserva. El cobro permanecerá cerrado hasta que
-            la página muestre identidad, impuestos, desistimiento, devolución,
-            contenido disponible y límites de soporte antes del pago.
+            Te mostraremos la identidad del vendedor, los impuestos, el derecho
+            de desistimiento, la devolución, el contenido disponible y los
+            límites de soporte antes del pago.
           </p>
         </div>
       </section>
@@ -879,17 +879,17 @@ export function SsCasoLabLanding({
           <details>
             <summary>¿Prepara las dos partes del ejercicio?</summary>
             <p>
-              Sí. La fuente editorial cubre los 23 temas generales y los 13
-              específicos. Antes de pagar podrás ver el inventario disponible,
-              la fecha de revisión y las condiciones de acceso.
+              Sí. El material cubre los 23 temas generales y los 13
+              específicos. Antes de pagar podrás consultar el contenido, la
+              fecha de revisión y las condiciones de acceso.
             </p>
           </details>
           <details>
-            <summary>¿Incluye correcciones individuales?</summary>
+          <summary>¿Cómo se corrige la práctica?</summary>
             <p>
-              No en el producto base. Los tests y simulacros están preparados
-              para autocorrección y revisión guiada. Una revisión humana podría
-              ofrecerse después como servicio limitado y separado.
+              Los tests y simulacros están preparados para autocorrección y
+              revisión guiada. Así puedes ver la explicación y la fuente sin
+              esperar a una corrección manual.
             </p>
           </details>
           <details>
@@ -900,11 +900,11 @@ export function SsCasoLabLanding({
             </p>
           </details>
           <details>
-            <summary>¿Cuánto soporte incluye?</summary>
+          <summary>¿Qué soporte incluye?</summary>
             <p>
               El soporte cubre acceso y uso. Las dudas recurrentes se agrupan y
-              responden por WhatsApp en dos ventanas semanales. No hay
-              mensajería inmediata ni tutoría ilimitada.
+              responden por WhatsApp en dos ventanas semanales, con límites
+              claros antes del pago.
             </p>
           </details>
           <details>
@@ -937,8 +937,8 @@ export function SsCasoLabLanding({
           </>
         ) : (
           <div>
-            <p className="ss-label">CONTROL EDITORIAL</p>
-            <h2>El caso y sus fuentes permanecen cerrados durante la revisión.</h2>
+            <p className="ss-label">FUENTES DE LA PRÁCTICA</p>
+            <h2>Las fuentes del primer caso se publicarán con la muestra.</h2>
           </div>
         )}
         <p className="ss-legal-note">
@@ -963,18 +963,19 @@ export function SsCasoLabLanding({
         </p>
         <p className="ss-legal-note">
           {diagnosticPublicable && caseContext
-            ? `Contenido beta con revisión académica y jurídica registrada. Corte normativo: ${caseContext.legislationCutoffAt}.`
-            : "Contenido beta pendiente de revisión académica y jurídica externa antes de su publicación."}{" "}
+            ? `Caso revisado y fechado. Corte normativo: ${caseContext.legislationCutoffAt}.`
+            : "La muestra se publicará cuando termine su revisión editorial."}{" "}
           Consulta siempre la convocatoria y la normativa vigente.
         </p>
       </section>
 
       <MuestraMaterial
         titulo="Muestra del material"
-        intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
+        intro="Prueba preguntas del aula y comprueba cómo se explican las respuestas."
+        mostrarTemario={false}
         grupos={[{
           paginas: [{}, {}, {}, {}],
-          nota: "Pendiente de subir las páginas de muestra del temario y de un supuesto práctico.",
+          nota: "Las páginas de muestra se incorporarán con la versión pública del aula.",
         }]}
         preguntas={[
           { enunciado: "¿Qué norma regula el procedimiento administrativo común de las Administraciones Públicas?", opciones: ["La Ley 39/2015", "La Ley 40/2015", "El texto refundido de la Ley General de la Seguridad Social", "La Ley 9/2017"], respuesta: "a", explicacion: "La Ley 39/2015 regula el procedimiento administrativo común de las Administraciones Públicas." },
@@ -994,8 +995,8 @@ export function SsCasoLabLanding({
           { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` },
         ]}
         notice={
-          "Producto educativo independiente sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
-          "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado." +
+          "SS CasoLab es un producto educativo independiente, sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
+          "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado." +
           AVISO_PRECIOS
         }
       />

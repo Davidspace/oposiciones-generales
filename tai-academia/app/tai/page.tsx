@@ -18,28 +18,29 @@ export default function TaiLanding() {
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Estado · subgrupo C1</p>
-          <h1>Técnico Auxiliar<br />de Informática</h1>
-          <p className="lm-lead">Temario, tests, simulacros y simulacros prácticos. Pago único, acceso hasta el día del examen.</p>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> TAI · Administración del Estado · subgrupo C1</p>
+          <h1>Todo TAI en un aula.<br />Practica las dos partes.</h1>
+          <p className="lm-lead">33 temas, autoevaluaciones y simulacros para estudiar a tu ritmo. Pago único y acceso hasta el examen.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            note=""
+            label="Preguntar por el acceso"
+            message="Hola, quiero consultar el acceso al curso TAI C1."
           >
-            <a className="lm-btn lm-btn-outline" href="#incluye">Qué incluye</a>
+            <a className="lm-btn lm-btn-outline" href="#incluye">Ver el material</a>
           </CtaContacto>
         </section>
 
         <section className="lm-shell lm-boxes" id="incluye" aria-label="Contenido de TAI">
-          <Cajon kicker="01 · TEMARIO" title="Todo el programa redactado" text="Bloques I a IV en PDF, listos para estudiar y repasar." figure="33 temas" />
-          <Cajon kicker="02 · TEST" title="Autoevaluaciones con explicación" text="Practica tema a tema y detecta lo que falla al momento." figure="muchas más autoevaluaciones que temas" />
-          <Cajon kicker="03 · SIMULACROS" title="Teóricos y prácticos" text="Ensaya las dos partes del ejercicio con corrección automática." figure="bloques III y IV + supuestos prácticos" />
-          <CajonCierre kicker="04 · PRECIO" title="Pago único de 95 €" text="La compra da acceso al aula hasta el día del examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} />
-          <p className="lm-fineprint">Autoestudio: no incluye clases en directo ni corrección manual. Ejercicio único en dos partes, 120 minutos.</p>
+          <Cajon kicker="01 · TEMARIO" title="33 temas redactados" text="Bloques I a IV en PDF, listos para estudiar y repasar." figure="33 temas" />
+          <Cajon kicker="02 · TEST" title="Tests que te dicen dónde fallas" text="Practica tema a tema y vuelve directamente a lo que necesitas." figure="autoevaluaciones por tema" />
+          <Cajon kicker="03 · SIMULACROS" title="Simulacros de las dos partes" text="Ensaya el formato completo con corrección automática." figure="teóricos y prácticos" />
+          <CajonCierre kicker="04 · ACCESO" title="Pago único de 59 €" text="Entra al aula y estudia a tu ritmo hasta el examen." href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20consultar%20el%20acceso%20al%20curso%20TAI.`} label="Consultar acceso" />
+          <p className="lm-fineprint">Estudio flexible: no necesitas clases semanales ni esperar una corrección para saber cómo vas. Ejercicio único en dos partes, 120 minutos.</p>
         </section>
 
         <MuestraMaterial
           titulo="Muestra del material"
-          intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
+          intro="Mira cómo se estudia dentro del aula: páginas reales, preguntas de ejemplo y respuestas explicadas."
           grupos={[{
             paginas: [
               { src: "/muestras/tai-1.jpeg", alt: "Página de muestra del temario TAI 1" },

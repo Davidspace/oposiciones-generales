@@ -47,7 +47,7 @@ import { useState } from "react";
 
 export function MuestraMaterial({
   titulo = "Muestra del material",
-  intro = "Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.",
+  intro = "Mira cómo se estudia dentro del aula: páginas reales, preguntas de ejemplo y respuestas explicadas.",
   etiquetaIzquierda = "Temario · páginas de muestra",
   etiquetaDerecha = "Tipo test · preguntas",
   mostrarTemario = true,
@@ -120,7 +120,7 @@ export function MuestraMaterial({
                 <summary>
                   <span className="lm-pregunta-num">{String(i + 1).padStart(2, "0")}</span>
                   <span className="lm-pregunta-titulo">{q.enunciado}</span>
-                  <span className="lm-pregunta-ver" aria-hidden="true">Ver</span>
+                  <span className="lm-pregunta-ver" aria-hidden="true">Ver explicación</span>
                 </summary>
                 <div className="lm-pregunta-cuerpo">
                   <div className="lm-pregunta-opciones">

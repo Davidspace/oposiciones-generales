@@ -30,27 +30,28 @@ function App() {
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Justicia · subgrupo C2</p>
-          <h1>Auxilio Judicial</h1>
-          <p className="lm-lead">Práctica de tests para el Cuerpo de Auxilio Judicial: 26 temas cubiertos y 90 cuestionarios distintos con corrección automática. No incluye temario.</p>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Auxilio Judicial · subgrupo C2 · solo tests</p>
+          <h1>90 cuestionarios<br />para dar vueltas al programa.</h1>
+          <p className="lm-lead">26 temas y 90 cuestionarios distintos para practicar, repetir y corregir al momento. Solo tests: no incluye temario.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            note=""
+            label="Preguntar por el acceso"
+            message="Hola, quiero consultar el acceso a los tests de Auxilio Judicial C2."
           >
             <a className="lm-btn lm-btn-outline" href="#tests">Qué incluye</a>
           </CtaContacto>
         </section>
 
         <section className="lm-shell lm-boxes" id="tests" aria-label="Inventario del aula">
-          <Cajon kicker="01 · COBERTURA" title="Cuestionarios por tema" text="Organización judicial, procedimientos y actos de comunicación." figure="26 temas" />
-          <Cajon kicker="02 · PRÁCTICA" title="Volumen para repetir" text="Suficientes cuestionarios para varias vueltas al programa." figure="90 cuestionarios distintos" />
-          <Cajon kicker="03 · CORRECCIÓN" title="Automática y al momento" text="Aciertos, errores y respuesta correcta al terminar cada test." figure="solo tests · sin temario" />
-          <CajonCierre kicker="04 · ACCESO" title="Pregunta por el acceso" text="Te confirmamos contenido, precio y duración antes de nada." href={WHATSAPP_URL} />
+          <Cajon kicker="01 · COBERTURA" title="26 temas cubiertos" text="Organización judicial, procedimientos y actos de comunicación." figure="26 temas" />
+          <Cajon kicker="02 · PRÁCTICA" title="90 cuestionarios distintos" text="Repite el programa varias veces sin memorizar siempre las mismas preguntas." figure="90 cuestionarios" />
+          <Cajon kicker="03 · CORRECCIÓN" title="Corrección al momento" text="Aciertos, errores y respuesta correcta al terminar cada test." figure="solo tests · sin temario" />
+          <CajonCierre kicker="04 · ACCESO" title="Pago único de 29 €" text="Solo tests, con acceso hasta el examen." href={WHATSAPP_URL} label="Consultar acceso" />
         </section>
 
         <MuestraMaterial
           titulo="Muestra del material"
-          intro="Preguntas de ejemplo para que veas el formato de los tests antes de decidir."
+          intro="Prueba cinco preguntas y comprueba cómo funciona la corrección."
           etiquetaDerecha="Tests · preguntas"
           mostrarTemario={false}
           grupos={[]}
@@ -61,7 +62,7 @@ function App() {
             { enunciado: "La ejecución de una resolución judicial tiene como finalidad:", opciones: ["Hacer efectivo lo resuelto", "Modificar siempre la sentencia", "Sustituir al órgano judicial", "Evitar cualquier actuación de las partes"], respuesta: "a", explicacion: "La ejecución hace efectivo el contenido de una resolución cuando procede." },
             { enunciado: "En el proceso civil, la demanda inicia normalmente:", opciones: ["Un procedimiento declarativo", "Una sanción administrativa", "Una inscripción registral automática", "Un recurso de casación"], respuesta: "a", explicacion: "La demanda es el acto que inicia normalmente un proceso civil declarativo." },
           ]}
-          notaPreguntas="Preguntas de ejemplo; el banco de tests completo está en el campus."
+          notaPreguntas="Preguntas propias con explicación; en el aula encontrarás el banco completo de tests."
         />
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }]} notice={AVISO_JUSTICIA} />
       </main>

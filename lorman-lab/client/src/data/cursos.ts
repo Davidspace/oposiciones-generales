@@ -20,26 +20,26 @@ export const CURSOS: FichaCursoProps[] = [
     title: "Cuidados Auxiliares de Enfermería",
     meta: "Servicios de salud · turno libre",
     items: [
-      { title: "Temario por bloques", note: "con resúmenes y esquemas" },
+      { title: "Temario por bloques", note: "resúmenes y esquemas" },
       { title: "Tests por tema", note: "respuesta razonada" },
-      { title: "Simulacros tipo examen", note: "y repaso general autocorregible" },
+      { title: "Simulacros tipo examen", note: "repaso general autocorregible" },
     ],
     price: {
       title: "Pago único",
       note: "acceso hasta el examen",
-      value: "PRECIO EN FUNCIÓN DEL CURSO",
+      value: "SEGÚN SERVICIO DE SALUD",
     },
-    cta: { label: "Ver cursos TCAE", href: "https://lorman-academia.vercel.app/" },
+    cta: { label: "Elegir servicio de salud", href: "https://lorman-academia.vercel.app/" },
   },
   {
     code: "TAI",
     tone: "tai",
     title: "Técnico Auxiliar de Informática",
-    meta: "Estado · subgrupo C1",
+    meta: "Administración del Estado · subgrupo C1",
     items: [
       { title: "Temario completo", note: "33 temas" },
-      { title: "Tests y autoevaluaciones", note: "muchos más que temas" },
-      { title: "Simulacros y prácticos", note: "las dos partes del ejercicio" },
+      { title: "Tests y autoevaluaciones", note: "práctica por tema" },
+      { title: "Simulacros de las dos partes", note: "teóricos y prácticos" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "59 €" },
     cta: { label: "Ver curso TAI", href: url("VITE_TAI_URL", PRODUCT_URLS.tai) },
@@ -47,12 +47,12 @@ export const CURSOS: FichaCursoProps[] = [
   {
     code: "SS",
     tone: "ss",
-    title: "Administrativo Seguridad Social",
+    title: "Administrativo de la Seguridad Social",
     meta: "Subgrupo C1 · acceso libre",
     items: [
       { title: "Temario general y específico", note: "36 temas redactados" },
       { title: "Tests por tema", note: "con normativa citada" },
-      { title: "Supuestos prácticos", note: "como en el ejercicio" },
+      { title: "Supuestos prácticos", note: "decide como en el ejercicio" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "79 €" },
     cta: { label: "Ver curso SS", href: url("VITE_SS_URL", PRODUCT_URLS.ss) },
@@ -64,8 +64,8 @@ export const CURSOS: FichaCursoProps[] = [
     meta: "Justicia · subgrupo C2 · solo tests",
     items: [
       { title: "Cuestionarios por tema", note: "26 temas cubiertos" },
-      { title: "Práctica intensiva", note: "90 cuestionarios distintos" },
-      { title: "Corrección automática", note: "sin temario incluido" },
+      { title: "90 cuestionarios distintos", note: "varias vueltas al programa" },
+      { title: "Corrección al momento", note: "solo tests · sin temario" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "29 €" },
     cta: {
@@ -89,5 +89,5 @@ export const CURSO_C2: FichaCursoProps = {
     { title: "Normativa y psicotécnicos", note: "primera parte" },
     { title: "Actividad y ofimática", note: "segunda parte" },
   ],
-  cta: { label: "Quiero apuntarme", href: `https://wa.me/${WHATSAPP}` },
+  cta: { label: "Preguntar por el acceso", href: `https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20informaci%C3%B3n%20sobre%20Auxiliar%20AGE%20C2.` },
 };

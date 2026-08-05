@@ -4,7 +4,7 @@
    Solo cifras respaldadas por el repositorio:
      TCAE  → client/src/data/tcae-tests.ts (16 tests por tema + 1 repaso)
      TAI   → tai-academia/app/tai/page.tsx (33 temas, 33 autoev., 10 simulacros, 12 meses, 59 €)
-     SS    → ss-casolab content:validate (36 temas, 36 tests, 14 casos) + page.tsx (49 €, 6 meses)
+     SS    → ss-casolab content:validate (36 temas, 36 tests, 14 casos) + page.tsx (79 €, acceso hasta el examen)
      C2    → administrativo-estado/app/page.tsx (5 preguntas de muestra; sin precio publicado)
    ============================================================ */
 
@@ -18,10 +18,10 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Servicios de salud · SAS · SMS · IMAS · SERMAS",
     title: "Técnico en Cuidados Auxiliares de Enfermería",
     description:
-      "Temarios, resúmenes, autoevaluaciones y simulacros disponibles en la línea sanitaria.",
-    status: "Contenido disponible",
+      "Temarios, resúmenes, autoevaluaciones y simulacros para preparar TCAE según tu servicio de salud.",
+    status: "Contenido disponible · consulta tu versión",
     indicators: [
-      { value: "16", label: "tests por tema en la muestra local" },
+      { value: "16", label: "preguntas por tema en la muestra" },
       { value: "1", label: "repaso general autocorregible" },
     ],
     primary: { label: "Explorar el aula TCAE", href: `${PRODUCT_URLS.tcae}#precios` },
@@ -33,13 +33,13 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Administración del Estado · subgrupo C1",
     title: "Técnico Auxiliar de Informática",
     description:
-      "El aula reúne los temas, las autoevaluaciones y los simulacros de las dos partes del ejercicio.",
-    status: "Contenido completo · matrícula en preparación",
+      "33 temas, autoevaluaciones y simulacros para preparar las dos partes del ejercicio.",
+    status: "Contenido disponible · acceso por WhatsApp",
     indicators: [
       { value: "33", label: "temas en PDF + 33 autoevaluaciones" },
       { value: "10", label: "simulacros: 5 del bloque III y 5 del IV" },
-      { value: "12", label: "meses de acceso al aula" },
-      { value: "59 €", label: "precio de lanzamiento previsto", tone: true },
+      { value: "hasta", label: "el día del examen" },
+      { value: "59 €", label: "pago único · acceso hasta el examen", tone: true },
     ],
     primary: { label: "Ver el curso TAI C1", href: PRODUCT_URLS.tai },
     secondary: { label: "Ver la ruta", href: `${PRODUCT_URLS.tai}#ruta` },
@@ -50,13 +50,13 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Administración de la Seguridad Social · subgrupo C1",
     title: "Administrativo de la Seguridad Social",
     description:
-      "Temario general y específico, tests por tema y práctica orientada al supuesto del ejercicio.",
-    status: "Estructura completa · publicación en revisión",
+      "36 temas, tests por tema y supuestos prácticos para preparar el ejercicio.",
+    status: "Contenido disponible · acceso por WhatsApp",
     indicators: [
       { value: "36", label: "temas: 23 generales + 13 específicos" },
       { value: "36", label: "tests organizados por tema" },
       { value: "14", label: "casos prácticos estructurados" },
-      { value: "49 €", label: "precio fundador previsto · 6 meses", tone: true },
+      { value: "79 €", label: "pago único · acceso hasta el examen", tone: true },
     ],
     primary: { label: "Ver SS CasoLab", href: PRODUCT_URLS.ss },
     secondary: { label: "Resolver el microcaso", href: `${PRODUCT_URLS.ss}#microcaso` },
@@ -67,8 +67,8 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Administración General del Estado · subgrupo C2",
     title: "Auxiliar Administrativo del Estado",
     description:
-      "Superficie de validación: normativa, psicotécnicos, actividad administrativa y ofimática.",
-    status: "Validación local · sin venta",
+      "Prueba gratuita de normativa, psicotécnicos, actividad administrativa y ofimática.",
+    status: "Muestra gratuita · aula en preparación",
     indicators: [
       { value: "5", label: "preguntas de muestra gratuita" },
       { value: "—", label: "precio no publicado todavía" },
@@ -82,13 +82,12 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Administración de Justicia · subgrupo C2",
     title: "Auxilio Judicial · tests",
     description:
-      "Práctica autocorregible para el curso de Auxilio Judicial: temas, repasos, supuestos, simulacros y modelos oficiales dentro del aula.",
-    status: "Contenido disponible · acceso por Moodle",
+      "Práctica autocorregible para Auxilio Judicial: 26 temas y 90 cuestionarios distintos. Solo tests, sin temario.",
+    status: "Contenido disponible · acceso por WhatsApp",
     indicators: [
       { value: "26", label: "temas organizados en el aula" },
       { value: "90", label: "cuestionarios únicos auditados" },
-      { value: "10", label: "supuestos prácticos" },
-      { value: "5", label: "modelos de examen oficial" },
+      { value: "29 €", label: "pago único · acceso hasta el examen", tone: true },
     ],
     primary: { label: "Ver Auxilio Judicial", href: PRODUCT_URLS.auxJuridico },
     secondary: { label: "Ver el alcance", href: `${PRODUCT_URLS.auxJuridico}#alcance` },

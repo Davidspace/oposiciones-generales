@@ -85,12 +85,16 @@ export default function TcaeHome() {
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Servicios de salud · turno libre</p>
-          <h1>Cuidados auxiliares<br />de enfermería</h1>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> TCAE · servicios de salud · turno libre</p>
+          <h1>Prepara TCAE<br />con un material que se entiende.</h1>
           <p className="lm-lead">
-            Temario, resúmenes, tests por tema y simulacros tipo examen. Dinos tu servicio de salud y te decimos qué material te encaja.
+            Temario por bloques, resúmenes, tests y simulacros tipo examen. Dinos qué servicio de salud preparas y te confirmamos la versión disponible.
           </p>
-          <CtaContacto whatsapp={WHATSAPP} note="">
+          <CtaContacto
+            whatsapp={WHATSAPP}
+            label="Comprobar mi versión"
+            message="Hola, quiero consultar el material TCAE para mi servicio de salud."
+          >
             <a className="lm-btn lm-btn-outline" href="#muestra">Ver el material</a>
           </CtaContacto>
         </section>
@@ -99,29 +103,30 @@ export default function TcaeHome() {
           <Cajon
             kicker="01 · TEMARIO"
             title="Temario por bloques"
-            text="Con resúmenes y esquemas para repasar antes del test."
+            text="Resúmenes y esquemas para estudiar y repasar sin perderte."
           />
           <Cajon
             kicker="02 · TEST"
             title="Tests por tema"
-            text="Respuesta razonada en cada pregunta."
+            text="Practica cada bloque y comprueba la respuesta razonada al momento."
           />
           <Cajon
             kicker="03 · SIMULACROS"
-            title="Tipo examen"
-            text="Más un repaso general autocorregible de todo el temario."
+            title="Simulacros tipo examen"
+            text="Haz un repaso completo y llega con ritmo de examen."
           />
           <CajonCierre
             kicker="04 · ACCESO"
-            title="Dinos tu servicio de salud"
-            text="Te confirmamos material, precio y acceso antes de nada."
+            title="Elige tu servicio de salud"
+            text="Te confirmamos la versión, el precio y el acceso antes de nada."
             href={WHATSAPP_URL}
+            label="Consultar mi versión"
           />
         </section>
 
         <MuestraMaterial
           titulo="Muestra del material"
-          intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
+          intro="Mira cómo se estudia dentro del aula: páginas reales, preguntas de ejemplo y respuestas explicadas."
           grupos={[
             {
               etiqueta: "Murcia",

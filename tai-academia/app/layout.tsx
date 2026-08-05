@@ -22,9 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const metadataBase = host
     ? new URL(`${protocol}://${host}`)
     : new URL("http://localhost:3000");
-  const title = "TAI Academia | Técnico Auxiliar de Informática";
+  const title = "TAI C1 | Temario, tests y simulacros | Academia LORMAN";
   const description =
-    "Preparación digital para Técnico Auxiliar de Informática.";
+    "33 temas, autoevaluaciones y simulacros para preparar TAI C1 a tu ritmo. Pago único y acceso hasta el examen.";
   const imageUrl = new URL("/og.png", metadataBase).toString();
 
   return {

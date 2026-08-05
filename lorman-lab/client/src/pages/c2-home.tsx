@@ -38,7 +38,7 @@ const SAMPLE_QUESTIONS: SampleQuestion[] = [
     options: ["35", "42", "47", "51"],
     answer: 2,
     explanation: "Cada término es el anterior multiplicado por dos y más uno: 23 × 2 + 1 = 47.",
-    source: "Elaboración propia; revisión humana pendiente",
+    source: "Elaboración propia",
   },
   {
     id: "c2-of-001",
@@ -47,7 +47,7 @@ const SAMPLE_QUESTIONS: SampleQuestion[] = [
     options: ["=", "#", "@", "%"],
     answer: 0,
     explanation: "El signo igual indica que el contenido de la celda se evaluará como fórmula.",
-    source: "Microsoft Support; versión pendiente de contraste",
+    source: "Microsoft Support; consulta de referencia",
   },
   {
     id: "c2-of-005",
@@ -56,7 +56,7 @@ const SAMPLE_QUESTIONS: SampleQuestion[] = [
     options: ["Adjuntar un archivo", "Ocultar las direcciones de los destinatarios entre sí", "Firmar digitalmente el mensaje", "Convertir el mensaje en una cita"],
     answer: 1,
     explanation: "CCO (copia oculta) evita que cada destinatario vea las direcciones incluidas en ese campo.",
-    source: "Microsoft Support; versión pendiente de contraste",
+    source: "Microsoft Support; consulta de referencia",
   },
 ];
 
@@ -92,20 +92,20 @@ export default function C2Home() {
         <nav aria-label="Navegación C2">
           <a href="#examen">El ejercicio</a>
           <a href="#prueba">Muestra</a>
-          <a className="c2-nav-cta" href="#acceso" onClick={() => trackLabEvent("checkout_click", "c2")}>Ver opciones</a>
+          <a className="c2-nav-cta" href="#acceso" onClick={() => trackLabEvent("checkout_click", "c2")}>Preguntar por el acceso</a>
         </nav>
       </header>
 
       <section className="c2-hero" id="inicio">
         <div className="c2-hero-copy">
-          <p className="c2-kicker"><span /> PILOTO LOCAL · MATERIAL PROPIO</p>
-          <h1>Una oposición amplia.<br /><em>Una práctica medible.</em></h1>
-          <p className="c2-lead">Muestra experimental para Auxiliar Administrativo de la Administración del Estado. Combina organización pública, actividad administrativa, psicotécnicos y Microsoft 365.</p>
+          <p className="c2-kicker"><span /> MUESTRA GRATUITA · MATERIAL PROPIO</p>
+          <h1>Ordena el temario.<br /><em>Practica lo que te van a preguntar.</em></h1>
+          <p className="c2-lead">Prueba cinco preguntas de normativa, psicotécnicos y ofimática. Responde, corrige y descubre qué bloque repasar.</p>
           <div className="c2-actions">
-            <a className="c2-button c2-button-primary" href="#prueba" onClick={() => trackLabEvent("sample_view", "c2")}>Hacer la muestra <ArrowUpRight size={16} aria-hidden="true" /></a>
-            <a className="c2-text-link" href="/">Ver las cinco academias <ArrowLeft size={15} aria-hidden="true" /></a>
+            <a className="c2-button c2-button-primary" href="#prueba" onClick={() => trackLabEvent("sample_view", "c2")}>Hacer la prueba gratis <ArrowUpRight size={16} aria-hidden="true" /></a>
+            <a className="c2-text-link" href="/">Ver todos los cursos <ArrowLeft size={15} aria-hidden="true" /></a>
           </div>
-          <p className="c2-note">Contenido independiente · no es una página oficial · revisión humana pendiente</p>
+          <p className="c2-note">Material independiente · no es una página oficial · convocatoria vigente siempre primero</p>
         </div>
         <div className="c2-sheet" aria-label="Ficha del ejercicio C2">
           <div className="c2-sheet-top"><span>FICHA 01 / C2</span><span>BOE · 2025</span></div>
@@ -122,7 +122,7 @@ export default function C2Home() {
       </section>
 
       <section className="c2-practice" id="prueba">
-        <div className="c2-section-heading"><div><p className="c2-kicker">Muestra gratuita · 5 preguntas</p><h2>Comprueba el enfoque antes de decidir.</h2></div><p>Preguntas originales de trabajo. La clave y la fuente se muestran como material experimental. No reproducen un cuestionario oficial.</p></div>
+        <div className="c2-section-heading"><div><p className="c2-kicker">Muestra gratuita · 5 preguntas</p><h2>Cinco preguntas. Un mapa de repaso.</h2></div><p>Son preguntas propias, con explicación y fuente. No son preguntas oficiales ni sustituyen la convocatoria.</p></div>
         <div className="c2-question-list">
           {SAMPLE_QUESTIONS.map((question, index) => (
             <fieldset className={`c2-question ${answers[question.id] !== undefined ? "is-answered" : ""}`} key={question.id}>
@@ -135,11 +135,11 @@ export default function C2Home() {
         {submitted && <div className="c2-result" id="c2-result"><div><small>RESULTADO DE LA MUESTRA</small><strong>{score}/{SAMPLE_QUESTIONS.length}</strong></div><div><h3>{score >= 4 ? "Buen punto de partida." : "Ya tienes un mapa de repaso."}</h3><p>La muestra identifica un área para volver a practicar. No equivale a una nota oficial ni predice el aprobado.</p><div className="c2-result-sources">{SAMPLE_QUESTIONS.map((question) => <span key={question.id}><Check size={13} aria-hidden="true" /> {question.source}</span>)}</div></div></div>}
       </section>
 
-      <section className="c2-method"><div><p className="c2-kicker c2-kicker-light">Producto en elaboración</p><h2>Una ruta corta para repetir mejor.</h2></div><div className="c2-method-copy"><p>El piloto separa cada error por área para que no tengas que revisar una carpeta completa: normativa, actividad, psicotécnicos u ofimática.</p><div className="c2-method-steps"><div><b>01</b><strong>Responde</strong><span>Una pregunta, una decisión.</span></div><div><b>02</b><strong>Entiende</strong><span>Explicación y fuente visible.</span></div><div><b>03</b><strong>Repite</strong><span>Repaso según el error.</span></div></div></div></section>
+      <section className="c2-method"><div><p className="c2-kicker c2-kicker-light">Cómo funciona</p><h2>Un error te dice qué repasar después.</h2></div><div className="c2-method-copy"><p>La muestra separa cada error por área para que no tengas que revisar una carpeta completa: normativa, actividad, psicotécnicos u ofimática.</p><div className="c2-method-steps"><div><b>01</b><strong>Responde</strong><span>Una pregunta, una decisión.</span></div><div><b>02</b><strong>Entiende</strong><span>Explicación y fuente visible.</span></div><div><b>03</b><strong>Repite</strong><span>Repaso según el error.</span></div></div></div></section>
 
-      <section className="c2-access" id="acceso"><div><p className="c2-kicker">Siguiente paso</p><h2>El producto completo aún no está publicado.</h2></div><div><p>Estamos validando el formato con un piloto local. Cuando el contenido pase revisión, esta sección podrá enlazar el acceso correspondiente.</p><a className="c2-button c2-button-dark" href="/" onClick={() => trackLabEvent("checkout_click", "c2")}>Volver al selector <ArrowLeft size={16} aria-hidden="true" /></a></div></section>
+      <section className="c2-access" id="acceso"><div><p className="c2-kicker">Siguiente paso</p><h2>El aula completa está en preparación.</h2></div><div><p>Prueba el formato y escríbenos si quieres conocer el próximo acceso. Publicaremos precio y condiciones cuando el aula esté preparada.</p><a className="c2-button c2-button-dark" href="https://wa.me/34640828654?text=Hola%20Academia%20LORMAN%2C%20he%20probado%20la%20muestra%20de%20Auxiliar%20AGE%20C2%20y%20quiero%20informaci%C3%B3n." target="_blank" rel="noreferrer" onClick={() => trackLabEvent("checkout_click", "c2")}>Preguntar por el acceso <ArrowLeft size={16} aria-hidden="true" /></a></div></section>
 
-      <footer className="c2-footer"><a className="c2-brand" href="/"><span className="c2-brand-mark">L</span><span><strong>Academia LORMAN Lab</strong><small>Proyecto experimental independiente</small></span></a><p>Sin pagos reales ni mensajería automática en esta fase.</p><a href="https://t.me/" target="_blank" rel="noreferrer" onClick={() => trackLabEvent("telegram_click", "c2")}>Telegram <ArrowUpRight size={14} aria-hidden="true" /></a></footer>
+      <footer className="c2-footer"><a className="c2-brand" href="/"><span className="c2-brand-mark">L</span><span><strong>Academia LORMAN</strong><small>Material independiente para preparar C2</small></span></a><p>La convocatoria vigente siempre tiene prioridad. Ningún material garantiza un resultado.</p><a href="/" onClick={() => trackLabEvent("telegram_click", "c2")}>Volver al selector <ArrowUpRight size={14} aria-hidden="true" /></a></footer>
     </main>
   );
 }

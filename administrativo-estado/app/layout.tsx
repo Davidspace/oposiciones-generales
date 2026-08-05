@@ -22,9 +22,9 @@ export async function generateMetadata(): Promise<Metadata> {
   const metadataBase = host
     ? new URL(`${protocol}://${host}`)
     : new URL("http://localhost:3000");
-  const title = "Auxiliar Administrativo del Estado C2 | Academia LORMAN";
+  const title = "Auxiliar AGE C2 | Prueba gratuita | Academia LORMAN";
   const description =
-    "Preparación digital para el Cuerpo General Auxiliar de la Administración del Estado: normativa, psicotécnicos y ofimática.";
+    "Prueba gratuita de cinco preguntas de normativa, psicotécnicos y ofimática para Auxiliar Administrativo del Estado C2.";
   const imageUrl = new URL("/og.png", metadataBase).toString();
 
   return {

@@ -143,14 +143,14 @@ export default function TestTcaeSas() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl">
               <p className="text-sm font-semibold uppercase tracking-wide opacity-80 mb-3">
-                Test TCAE SAS por tema
+                Muestra TCAE SAS por tema
               </p>
               <h1 className="text-4xl md:text-5xl font-bold mb-5">
-                Practica con nosotros
+                Prueba un tema y comprueba cómo funciona
               </h1>
               <p className="text-lg md:text-xl opacity-90">
-                Elige un tema, responde a cada pregunta y comprueba tus
-                respuestas al momento con una explicación clara.
+                Elige un tema, responde y comprueba tus respuestas al momento
+                con una explicación clara.
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ export default function TestTcaeSas() {
           <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-[300px_1fr] gap-8">
               <aside className="space-y-3">
-                <h2 className="text-xl font-bold mb-4">Temas disponibles</h2>
+                <h2 className="text-xl font-bold mb-4">Elige un tema</h2>
                 {topicTests.map((topic) => (
                   <button
                     key={topic.id}
@@ -174,7 +174,7 @@ export default function TestTcaeSas() {
                   >
                     <span className="block font-semibold">{topic.title}</span>
                     <span className="block text-sm text-muted-foreground mt-1">
-                      {topic.questions.length} preguntas reales
+                      {topic.questions.length} preguntas de práctica
                     </span>
                   </button>
                 ))}
@@ -293,7 +293,7 @@ export default function TestTcaeSas() {
                 <Card className="mt-8 bg-primary text-primary-foreground">
                   <CardContent className="p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div>
-                      <h2 className="text-2xl font-bold">¿Quieres más test por tema?</h2>
+                      <h2 className="text-2xl font-bold">¿Te ha servido la muestra?</h2>
                       <p className="text-primary-foreground/85 mt-2">
                         En el curso tienes más preguntas, simulacros y repaso de
                         fallos para preparar TCAE SAS Andalucía.
@@ -303,7 +303,7 @@ export default function TestTcaeSas() {
                       href="https://wa.me/34640828654?text=Hola%20LORMAN%20ACADEMIA%2C%20he%20probado%20los%20test%20por%20tema%20y%20quiero%20apuntarme%20al%20curso%20TCAE%20SAS"
                       className="inline-flex items-center justify-center min-h-12 px-6 rounded-lg bg-white text-primary font-semibold hover:bg-white/90"
                     >
-                      Apuntarme al curso
+                      Consultar curso TCAE
                     </a>
                   </CardContent>
                 </Card>
