@@ -93,7 +93,7 @@ export function MuestraMaterial({
                     aria-label={`${p.alt ?? `Página de muestra ${i + 1}`}. Abrir a tamaño completo en una pestaña nueva.`}
                     title="Abrir a tamaño completo"
                   >
-                    <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} loading="lazy" decoding="async" />
+                    <img src={p.src} alt={p.alt ?? `Página de muestra ${i + 1}`} decoding="async" />
                   </a>
                 </figure>
               ) : (
