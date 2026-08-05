@@ -35,7 +35,6 @@ function App() {
           <p className="lm-lead">Práctica de tests para el Cuerpo de Auxilio Judicial: 26 temas cubiertos y 90 cuestionarios distintos con corrección automática. No incluye temario.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            message="Hola Academia LORMAN, quiero información sobre los tests de Auxilio Judicial C2."
             note=""
           >
             <a className="lm-btn lm-btn-outline" href="#tests">Qué incluye</a>

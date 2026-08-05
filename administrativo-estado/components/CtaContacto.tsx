@@ -3,11 +3,11 @@
  * Va en la sección principal de cada superficie (no en la cabecera).
  */
 
+import type { ReactNode } from "react";
+
 export type CtaContactoProps = {
   /** Número en formato internacional sin signos: 34XXXXXXXXX */
   whatsapp: string;
-  /** Mensaje inicial opcional para identificar el curso en WhatsApp. */
-  message?: string;
   label?: string;
   /** Ruta pública del logotipo dentro del proyecto. */
   logoSrc?: string;
@@ -18,25 +18,19 @@ export type CtaContactoProps = {
 
 export function CtaContacto({
   whatsapp,
-  message,
   label = "Contactar ahora",
   logoSrc = "/lorman-logo.png",
   note = "Respuesta por WhatsApp · sin compromiso",
   children,
 }: CtaContactoProps) {
-  const whatsappHref = message
-    ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`
-    : `https://wa.me/${whatsapp}`;
-
   return (
     <>
       <div className="lm-actions">
         <a
           className="lm-btn lm-btn-primary"
-          href={whatsappHref}
+          href={`https://wa.me/${whatsapp}`}
           target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`${label} por WhatsApp`}
+          rel="noreferrer"
         >
           <img className="lm-btn-mark" src={logoSrc} alt="" />
           <span>{label}</span>
@@ -47,4 +41,3 @@ export function CtaContacto({
     </>
   );
 }
-import type { ReactNode } from "react";

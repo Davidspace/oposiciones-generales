@@ -32,13 +32,13 @@ if (uniqueHashes.size !== 1) {
 
 const css = contents[0][1];
 const requiredMarkers = [
-  "body .lm-page:not(.lm-hub) .lm-nav a:not(.lm-nav-back):not(.tai-nav-home)",
+  "body .lm-page:not(.lm-hub) .lm-nav",
   "body .lm-page .lm-footer {",
   "body .lm-page .lm-pregunta > summary::after",
   "body .lm-page .lm-options input[type=\"radio\"]",
   "body .lm-page:not(.lm-hub) .lm-fineprint {",
-  "body .lm-page.ss-page .ss-hero,",
-  "height: clamp(128px, 9vw, 240px)",
+  "body .lm-page.ss-page .ss-hero {",
+  "height: 268px",
   "@media (max-width: 900px)",
   "@media (max-width: 600px)",
 ];

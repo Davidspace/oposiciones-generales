@@ -5,6 +5,8 @@
  * El último cajón es sólido y cierra siempre con «Quiero apuntarme».
  */
 
+import type { ReactNode } from "react";
+
 export type CajonProps = {
   kicker: string;
   title: string;
@@ -53,6 +55,6 @@ export function CajonCierre({
   );
 }
 
-export function Cajones({ children }: { children: React.ReactNode }) {
+export function Cajones({ children }: { children: ReactNode }) {
   return <div className="lm-boxes">{children}</div>;
 }

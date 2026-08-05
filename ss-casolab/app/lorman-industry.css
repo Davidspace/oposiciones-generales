@@ -1,10 +1,10 @@
-/* ==========================================================================
-   Academia LORMAN — sistema visual común (estilo Industry)
+﻿/* ==========================================================================
+   Academia LORMAN â€” sistema visual comÃºn (estilo Industry)
    Pegar en el proyecto y cargar UNA sola vez por landing.
-   No usa esquinas de cota ni bordes redondeados: rectángulos y filetes.
-   Tipografía: Barlow Condensed (títulos) sobre Barlow (texto).
+   No usa esquinas de cota ni bordes redondeados: rectÃ¡ngulos y filetes.
+   TipografÃ­a: Barlow Condensed (tÃ­tulos) sobre Barlow (texto).
    Cada superficie recibe su paleta aplicando una clase de producto
-   (.lm-hub, .lm-tcae, .lm-tai, .lm-ss, .lm-aux) en el contenedor raíz.
+   (.lm-hub, .lm-tcae, .lm-tai, .lm-ss, .lm-aux) en el contenedor raÃ­z.
    ========================================================================== */
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&display=swap");
@@ -28,14 +28,14 @@
   --lm-accent-pale: #b7b7ba;
 }
 
-/* — paletas por producto — */
+/* â€” paletas por producto â€” */
 .lm-hub  { --lm-accent: #42444a; --lm-accent-dark: #2b2b2d; --lm-accent-deep: #2b2b2d; --lm-accent-tint: #e7e7ea; --lm-accent-pale: #b7b7ba; }
 .lm-tcae { --lm-accent: #3f6b5c; --lm-accent-dark: #33574a; --lm-accent-deep: #22392f; --lm-accent-tint: #e6efeb; --lm-accent-pale: #cfe0d9; }
 .lm-tai  { --lm-accent: #5980a6; --lm-accent-dark: #416180; --lm-accent-deep: #1d2d3d; --lm-accent-tint: #e7eef5; --lm-accent-pale: #b5d9fd; }
 .lm-ss   { --lm-accent: #7b3f4b; --lm-accent-dark: #64323c; --lm-accent-deep: #341c21; --lm-accent-tint: #f2e7e9; --lm-accent-pale: #e8ced3; }
 .lm-aux  { --lm-accent: #55506e; --lm-accent-dark: #453f5c; --lm-accent-deep: #242130; --lm-accent-tint: #eae8f0; --lm-accent-pale: #d5d1e2; }
 
-/* — base — */
+/* â€” base â€” */
 .lm-page {
   background: var(--lm-bg);
   color: var(--lm-ink);
@@ -66,7 +66,7 @@
 }
 .lm-skip-link:focus { left: 16px; top: 16px; z-index: 60; }
 
-/* — cabecera — */
+/* â€” cabecera â€” */
 .lm-header {
   display: flex; align-items: center; justify-content: space-between;
   gap: 24px; flex-wrap: wrap;
@@ -84,7 +84,7 @@
 .lm-ig { display: inline-flex; align-items: center; gap: 7px; font-family: var(--lm-font-body) !important; font-size: 14px !important; color: var(--lm-muted) !important; text-decoration: none; }
 .lm-ig svg { display: block; }
 
-/* — encabezado de sección / hero — */
+/* â€” encabezado de secciÃ³n / hero â€” */
 .lm-hero { padding: 64px 0 40px; }
 .lm-eyebrow {
   display: flex; align-items: center; gap: 10px; margin: 0 0 18px;
@@ -96,7 +96,7 @@
 .lm-lead { margin: 0 0 30px; font-size: 19px; line-height: 1.5; max-width: 560px; color: var(--lm-muted); }
 .lm-actions { display: flex; flex-wrap: wrap; gap: 16px; }
 
-/* — botones — */
+/* â€” botones â€” */
 .lm-btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 14px;
   min-height: 72px; padding: 0 30px; border: 1px solid transparent;
@@ -110,7 +110,7 @@
 .lm-btn-mark { height: 26px; width: auto; mix-blend-mode: multiply; }
 .lm-btn-note { margin: 22px 0 0; font-size: 14px; color: var(--lm-soft); }
 
-/* — rejilla de cajones (4 por landing: temario, test, simulacros, precio) — */
+/* â€” rejilla de cajones (4 por landing: temario, test, simulacros, precio) â€” */
 .lm-boxes {
   display: grid; gap: 20px; padding-bottom: 80px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -138,7 +138,7 @@
 .lm-box-cta:hover { background: var(--lm-accent-tint); color: var(--lm-accent-deep); }
 .lm-fineprint { margin: 26px 0 0; font-size: 14px; color: var(--lm-muted); }
 
-/* — fichas de curso del hub: dos por fila — */
+/* â€” fichas de curso del hub: dos por fila â€” */
 .lm-cards {
   display: grid; gap: 22px; padding-bottom: 80px;
   grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px)));
@@ -167,7 +167,7 @@
 }
 .lm-card-cta:hover { background: var(--lm-accent-dark); color: #fff; }
 
-/* — panel lateral simple del hub — */
+/* â€” panel lateral simple del hub â€” */
 .lm-panel { border: 1px solid var(--lm-ink); padding: 22px 24px; }
 .lm-panel-kicker { display: block; font-family: var(--lm-font-heading); font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--lm-muted); }
 .lm-panel-row { border-bottom: 1px solid var(--lm-line); padding: 14px 0; }
@@ -175,13 +175,13 @@
 .lm-panel-row strong { font-family: var(--lm-font-heading); font-size: 26px; text-transform: uppercase; }
 .lm-panel-row span { display: block; font-size: 14px; color: var(--lm-muted); }
 
-/* — preguntas — */
+/* â€” preguntas â€” */
 .lm-faq details { border-bottom: 1px solid var(--lm-line); }
 .lm-faq summary { cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--lm-font-heading); font-size: 22px; }
 .lm-faq summary::-webkit-details-marker { display: none; }
 .lm-faq p { margin: -6px 0 18px; font-size: 15px; color: var(--lm-muted); max-width: 560px; }
 
-/* — pie legal — */
+/* â€” pie legal â€” */
 .lm-footer { background: var(--lm-accent-deep); color: #fff; }
 .lm-footer-inner {
   display: grid; gap: 36px; padding: 36px 24px 44px;
@@ -194,12 +194,87 @@
 .lm-footer .lm-ig { color: var(--lm-accent-pale) !important; }
 .lm-notice { margin: 0; font-size: 13px; line-height: 1.6; color: var(--lm-accent-pale); }
 
-/* — responsive — */
+/* â€” responsive â€” */
 @media (max-width: 720px) {
   .lm-cards { grid-template-columns: 1fr; }
   .lm-btn { font-size: 23px; min-height: 64px; padding: 0 22px; }
   .lm-hero { padding-top: 44px; }
 }
+
+
+/* â”€â”€ Muestra del material â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+
+.lm-muestra { padding-bottom: 80px; }
+.lm-muestra-h2 {
+  margin: 0 0 8px; font-family: var(--lm-font-heading);
+  font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em;
+}
+.lm-muestra-intro { margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: var(--lm-muted); }
+
+.lm-muestra-grid {
+  display: grid; gap: 22px; align-items: stretch;
+  grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px)));
+}
+.lm-muestra-col { display: flex; flex-direction: column; border: 1px solid var(--lm-ink); }
+
+.lm-muestra-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 14px;
+  min-height: 60px; padding: 0 18px; border-bottom: 1px solid var(--lm-ink);
+}
+.lm-muestra-label {
+  font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--lm-accent-dark);
+}
+
+.lm-muestra-tabs { display: flex; gap: 8px; }
+.lm-muestra-tab {
+  min-height: 40px; padding: 0 14px; cursor: pointer;
+  font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase;
+  border: 1px solid var(--lm-accent); background: #fff; color: var(--lm-accent-dark);
+}
+.lm-muestra-tab:hover { background: var(--lm-accent-tint); }
+.lm-muestra-tab.is-on { background: var(--lm-accent); color: #fff; }
+.lm-muestra-tab:focus-visible { outline: 2px solid var(--lm-accent); outline-offset: 2px; }
+
+.lm-muestra-paginas {
+  flex: 1; padding: 18px; background: var(--lm-accent-tint);
+  display: grid; gap: 14px; grid-template-columns: 1fr 1fr;
+}
+.lm-muestra-pagina {
+  margin: 0; height: 268px; overflow: hidden; background: #fff; border: 1px solid var(--lm-line);
+}
+.lm-muestra-pagina img { display: block; width: 100%; height: auto; }
+.lm-muestra-pagina.is-vacia {
+  border-style: dashed; display: flex; align-items: center; justify-content: center;
+  font-family: var(--lm-font-heading); font-size: 15px; letter-spacing: .12em;
+  text-transform: uppercase; color: #9a9a9e;
+}
+
+.lm-muestra-preguntas {
+  flex: 1; padding: 18px; background: var(--lm-accent-tint);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.lm-muestra-nota {
+  margin: 0; padding: 0 18px 18px; background: var(--lm-accent-tint);
+  font-size: 13px; line-height: 1.5; color: #7a7a7d;
+}
+
+.lm-pregunta { border: 1px solid var(--lm-line); background: #fff; }
+.lm-pregunta > summary {
+  display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px;
+  cursor: pointer; list-style: none;
+  font-family: var(--lm-font-heading); font-size: 19px; line-height: 1.25; color: var(--lm-ink);
+}
+.lm-pregunta > summary::-webkit-details-marker { display: none; }
+.lm-pregunta > summary:hover { background: var(--lm-accent-tint); }
+.lm-pregunta > summary:focus-visible { outline: 2px solid var(--lm-accent); outline-offset: 2px; }
+.lm-pregunta-num { font-size: 14px; letter-spacing: .12em; color: var(--lm-accent-dark); }
+.lm-pregunta-titulo { flex: 1; }
+.lm-pregunta-ver { font-family: var(--lm-font-body); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d; }
+.lm-pregunta-cuerpo { padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px; }
+.lm-pregunta-opciones { display: grid; gap: 6px; font-size: 15px; color: var(--lm-ink); }
+.lm-pregunta-sol { margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: var(--lm-accent-dark); }
+.lm-pregunta-sol strong { font-family: var(--lm-font-heading); letter-spacing: .06em; text-transform: uppercase; }
 
 /* Shared page primitives used by the real routes. */
 body .lm-page .lm-section-heading { margin: 0 0 32px; max-width: 760px; }
@@ -299,262 +374,6 @@ body .lm-page.ss-page .ss-sources a, body .lm-page.ss-page .ss-legal-note a { co
   body .lm-page .lm-question legend { grid-template-columns: 34px 1fr; font-size: 19px; }
   body .lm-page .lm-topic-grid { grid-template-columns: 1fr; }
   body .lm-page.ss-page .ss-nav a:not(.ss-nav-action):not(.ss-nav-home) { display: none; }
-}
-
-
-/* ── Muestra del material ─────────────────────────────────────────────────── */
-
-.lm-muestra { padding-bottom: 80px; }
-.lm-muestra-h2 {
-  margin: 0 0 8px; font-family: var(--lm-font-heading);
-  font-size: clamp(30px, 3.2vw, 42px); text-transform: uppercase; letter-spacing: -.01em;
-}
-.lm-muestra-intro { margin: 0 0 26px; font-size: 17px; line-height: 1.5; max-width: 620px; color: var(--lm-muted); }
-
-.lm-muestra-grid {
-  display: grid; gap: 22px; align-items: stretch;
-  grid-template-columns: repeat(auto-fit, minmax(340px, calc(50% - 11px)));
-}
-.lm-muestra-col { display: flex; flex-direction: column; border: 1px solid var(--lm-ink); }
-
-.lm-muestra-head {
-  display: flex; align-items: center; justify-content: space-between; gap: 14px;
-  min-height: 60px; padding: 0 18px; border-bottom: 1px solid var(--lm-ink);
-}
-.lm-muestra-label {
-  font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .14em;
-  text-transform: uppercase; color: var(--lm-accent-dark);
-}
-
-.lm-muestra-tabs { display: flex; gap: 8px; }
-.lm-muestra-tab {
-  min-height: 40px; padding: 0 14px; cursor: pointer;
-  font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase;
-  border: 1px solid var(--lm-accent); background: #fff; color: var(--lm-accent-dark);
-}
-.lm-muestra-tab:hover { background: var(--lm-accent-tint); }
-.lm-muestra-tab.is-on { background: var(--lm-accent); color: #fff; }
-.lm-muestra-tab:focus-visible { outline: 2px solid var(--lm-accent); outline-offset: 2px; }
-
-.lm-muestra-paginas {
-  flex: 1; padding: 18px; background: var(--lm-accent-tint);
-  display: grid; gap: 14px; grid-template-columns: 1fr 1fr;
-}
-.lm-muestra-pagina {
-  margin: 0; height: 268px; overflow: hidden; background: #fff; border: 1px solid var(--lm-line);
-}
-.lm-muestra-pagina img { display: block; width: 100%; height: auto; }
-.lm-muestra-pagina.is-vacia {
-  border-style: dashed; display: flex; align-items: center; justify-content: center;
-  font-family: var(--lm-font-heading); font-size: 15px; letter-spacing: .12em;
-  text-transform: uppercase; color: #9a9a9e;
-}
-
-.lm-muestra-preguntas {
-  flex: 1; padding: 18px; background: var(--lm-accent-tint);
-  display: flex; flex-direction: column; gap: 10px;
-}
-.lm-muestra-nota {
-  margin: 0; padding: 0 18px 18px; background: var(--lm-accent-tint);
-  font-size: 13px; line-height: 1.5; color: #7a7a7d;
-}
-.lm-muestra-empty {
-  margin: 0; padding: 24px 0; color: var(--lm-muted); font-size: 14px; line-height: 1.5;
-}
-
-.lm-pregunta { border: 1px solid var(--lm-line); background: #fff; }
-.lm-pregunta > summary {
-  display: flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 16px;
-  cursor: pointer; list-style: none;
-  font-family: var(--lm-font-heading); font-size: 19px; line-height: 1.25; color: var(--lm-ink);
-}
-.lm-pregunta > summary::-webkit-details-marker { display: none; }
-.lm-pregunta > summary:hover { background: var(--lm-accent-tint); }
-.lm-pregunta > summary:focus-visible { outline: 2px solid var(--lm-accent); outline-offset: 2px; }
-.lm-pregunta-num { font-size: 14px; letter-spacing: .12em; color: var(--lm-accent-dark); }
-.lm-pregunta-titulo { flex: 1; }
-.lm-pregunta-ver { font-family: var(--lm-font-body); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #7a7a7d; }
-.lm-pregunta-cuerpo { padding: 4px 16px 18px; display: flex; flex-direction: column; gap: 8px; }
-.lm-pregunta-opciones { display: grid; gap: 6px; font-size: 15px; color: var(--lm-ink); }
-.lm-pregunta-sol { margin: 6px 0 0; font-size: 14px; line-height: 1.55; color: var(--lm-accent-dark); }
-.lm-pregunta-sol strong { font-family: var(--lm-font-heading); letter-spacing: .06em; text-transform: uppercase; }
-
-/* ── Captura de referencia: composición Swiss compacta ─────────────────────
-   Las landings usan el mismo ritmo que las maquetas: hero breve, cuatro
-   cajones en una fila, muestra en dos columnas y pie compacto. */
-body { margin: 0; background: var(--lm-bg); }
-body .lm-page {
-  width: 100%;
-  max-width: none;
-  min-height: 100vh;
-  margin: 0;
-  font-size: 12px;
-  line-height: 1.45;
-}
-body .lm-page:not(.lm-hub) .lm-shell { max-width: 1200px; padding-inline: 24px; }
-body .lm-page:not(.lm-hub) .lm-header {
-  min-height: 56px;
-  padding-block: 10px;
-  border-bottom-color: var(--lm-line);
-}
-body .lm-page:not(.lm-hub) .lm-logo img { height: 28px; }
-body .lm-page:not(.lm-hub) .lm-nav { gap: 14px; }
-body .lm-page:not(.lm-hub) .lm-nav a,
-body .lm-page:not(.lm-hub) .lm-nav-back,
-body .lm-page:not(.lm-hub) .lm-ig { font-size: 11px !important; letter-spacing: .02em; }
-body .lm-page:not(.lm-hub) .lm-nav a:not(.lm-nav-back):not(.tai-nav-home):not(.ss-nav-home):not(.ae-nav-home):not(.lm-nav-material):not(.lm-ig) { display: none; }
-body .lm-page:not(.lm-hub) .lm-hero { padding-block: 38px 28px; }
-body .lm-page:not(.lm-hub) .lm-eyebrow { margin-bottom: 12px; font-size: 9px; letter-spacing: .18em; }
-body .lm-page:not(.lm-hub) .lm-eyebrow i { width: 6px; height: 6px; }
-body .lm-page:not(.lm-hub) .lm-hero h1 { max-width: 570px; margin-bottom: 12px; font-size: clamp(42px, 7vw, 60px); }
-body .lm-page:not(.lm-hub) .lm-lead { max-width: 520px; margin-bottom: 16px; font-size: 12px; line-height: 1.45; }
-body .lm-page:not(.lm-hub) .lm-actions { gap: 8px; }
-body .lm-page:not(.lm-hub) .lm-btn { min-height: 36px; padding-inline: 14px; font-size: 16px; letter-spacing: .04em; }
-body .lm-page:not(.lm-hub) .lm-btn-mark { height: 15px; }
-body .lm-page:not(.lm-hub) .lm-btn-note { display: none; }
-body .lm-page:not(.lm-hub) .lm-boxes {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
-  padding-bottom: 32px;
-}
-body .lm-page:not(.lm-hub) .lm-box {
-  min-height: 157px;
-  gap: 7px;
-  padding: 12px 10px 13px;
-}
-body .lm-page:not(.lm-hub) .lm-box-kicker { font-size: 8px; letter-spacing: .14em; }
-body .lm-page:not(.lm-hub) .lm-box-title { font-size: 22px; line-height: .98; }
-body .lm-page:not(.lm-hub) .lm-box p { font-size: 10px; line-height: 1.35; }
-body .lm-page:not(.lm-hub) .lm-box-figure { font-size: 9px; line-height: 1.25; }
-body .lm-page:not(.lm-hub) .lm-box-cta { min-height: 30px; font-size: 12px; }
-body .lm-page:not(.lm-hub) .lm-muestra { padding-bottom: 36px; }
-body .lm-page:not(.lm-hub) .lm-muestra-h2 { margin-bottom: 4px; font-size: 28px; }
-body .lm-page:not(.lm-hub) .lm-muestra-intro { max-width: 500px; margin-bottom: 14px; font-size: 10px; line-height: 1.35; }
-body .lm-page:not(.lm-hub) .lm-muestra-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-body .lm-page:not(.lm-hub) .lm-muestra-head { min-height: 30px; padding-inline: 10px; }
-body .lm-page:not(.lm-hub) .lm-muestra-label { font-size: 8px; letter-spacing: .12em; }
-body .lm-page:not(.lm-hub) .lm-muestra-tabs { gap: 4px; }
-body .lm-page:not(.lm-hub) .lm-muestra-tab { min-height: 24px; padding-inline: 7px; font-size: 8px; }
-body .lm-page:not(.lm-hub) .lm-muestra-paginas,
-body .lm-page:not(.lm-hub) .lm-muestra-preguntas { gap: 6px; padding: 10px; }
-body .lm-page:not(.lm-hub) .lm-muestra-pagina { height: 128px; }
-body .lm-page:not(.lm-hub) .lm-muestra-pagina.is-vacia { font-size: 8px; }
-body .lm-page:not(.lm-hub) .lm-muestra-nota { padding: 0 10px 10px; font-size: 8px; }
-body .lm-page:not(.lm-hub) .lm-muestra-empty { padding: 12px 0; font-size: 10px; }
-body .lm-page:not(.lm-hub) .lm-pregunta > summary { min-height: 29px; gap: 6px; padding-inline: 8px; font-size: 10px; }
-body .lm-page:not(.lm-hub) .lm-pregunta-num { font-size: 8px; }
-body .lm-page:not(.lm-hub) .lm-pregunta-ver { font-size: 7px; }
-body .lm-page:not(.lm-hub) .lm-footer-inner { gap: 14px; padding: 18px 24px 22px; }
-body .lm-page:not(.lm-hub) .lm-footer img { height: 22px; padding: 4px; }
-body .lm-page:not(.lm-hub) .lm-footer-links { gap: 12px; margin-top: 12px; }
-body .lm-page:not(.lm-hub) .lm-footer-links a { font-size: 10px; }
-body .lm-page:not(.lm-hub) .lm-notice { font-size: 8px; line-height: 1.4; }
-
-/* Hub: the desktop reference keeps the catalogue in a narrow right column. */
-body .lm-page.lm-hub { width: 100%; max-width: none; margin: 0; }
-body .lm-page.lm-hub .lm-header {
-  max-width: none; min-height: 26px; padding: 0 14px;
-  background: #29292b; border-bottom: 0;
-}
-body .lm-page.lm-hub .lm-header .lm-logo { display: none; }
-body .lm-page.lm-hub .lm-nav { width: 100%; gap: 8px; }
-body .lm-page.lm-hub .lm-nav a { color: #fff; font-size: 8px; letter-spacing: .08em; }
-body .lm-page.lm-hub .lm-nav a:first-child::before { content: "MAQUETA"; margin-right: 10px; color: #aaa; }
-body .lm-page.lm-hub .lm-nav a:nth-child(1)::after { content: "HUB"; margin-left: 10px; color: #fff; }
-body .lm-page.lm-hub .lm-nav a:nth-child(n+2) { display: inline-block; }
-body .lm-page.lm-hub .lm-nav a:nth-child(2)::before { content: "TCAE"; }
-body .lm-page.lm-hub .lm-nav a:nth-child(3)::before { content: "TAI"; }
-body .lm-page.lm-hub .lm-nav a:nth-child(4)::before { content: "SS"; }
-body .lm-page.lm-hub .lm-nav a:nth-child(5)::before { content: "AUX. JUDICIAL"; }
-body .lm-page.lm-hub .lm-nav a { font-size: 0; }
-body .lm-page.lm-hub .lm-nav a::before,
-body .lm-page.lm-hub .lm-nav a::after { font-size: 8px; }
-body .lm-page.lm-hub .lm-shell:not(.lm-header) { max-width: 580px; margin-left: 58.7vw; margin-right: 0; padding-inline: 0; }
-body .lm-page.lm-hub .lm-hero { padding-block: 42px 34px; }
-body .lm-page.lm-hub .lm-hero-grid { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(180px, .8fr); gap: 18px; align-items: start; }
-body .lm-page.lm-hub .lm-hero h1 { margin-bottom: 14px; font-size: 42px; }
-body .lm-page.lm-hub .lm-lead { max-width: 350px; margin-bottom: 14px; font-size: 11px; }
-body .lm-page.lm-hub .lm-btn { min-height: 35px; padding-inline: 14px; font-size: 14px; }
-body .lm-page.lm-hub .lm-btn-mark { height: 14px; }
-body .lm-page.lm-hub .lm-btn-note { margin-top: 12px; font-size: 9px; }
-body .lm-page.lm-hub .lm-hero-aside { border: 1px solid var(--lm-ink); padding: 14px 12px; }
-body .lm-page.lm-hub .lm-hero-aside-kicker { display: block; margin-bottom: 10px; font-size: 8px; letter-spacing: .16em; text-transform: uppercase; }
-body .lm-page.lm-hub .lm-hero-aside-row { display: grid; gap: 2px; padding: 10px 0; border-bottom: 1px solid var(--lm-line); }
-body .lm-page.lm-hub .lm-hero-aside-row:last-child { border-bottom: 0; }
-body .lm-page.lm-hub .lm-hero-aside-row strong { font-family: var(--lm-font-heading); font-size: 17px; text-transform: uppercase; }
-body .lm-page.lm-hub .lm-hero-aside-row span { font-size: 9px; color: var(--lm-muted); }
-body .lm-page.lm-hub .lm-boxes { display: none; }
-body .lm-page.lm-hub .lm-section-heading { margin-bottom: 14px; }
-body .lm-page.lm-hub .lm-section-heading .lm-eyebrow { display: none; }
-body .lm-page.lm-hub .lm-display { margin-bottom: 12px; font-size: 28px; }
-body .lm-page.lm-hub .lm-section-heading .lm-lead { display: none; }
-body .lm-page.lm-hub .lm-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding-bottom: 34px; }
-body .lm-page.lm-hub .lm-card-head { padding: 12px 10px 0; }
-body .lm-page.lm-hub .lm-card-code { font-size: 32px; }
-body .lm-page.lm-hub .lm-card-code-sm { font-size: 25px; }
-body .lm-page.lm-hub .lm-card h3 { margin-top: 5px; font-size: 14px; }
-body .lm-page.lm-hub .lm-card-meta { margin-top: 3px; font-size: 8px; }
-body .lm-page.lm-hub .lm-card-list { margin-top: 10px; }
-body .lm-page.lm-hub .lm-card-list li { padding: 8px 10px; }
-body .lm-page.lm-hub .lm-item-title { font-size: 12px; }
-body .lm-page.lm-hub .lm-item-note { font-size: 8px; }
-body .lm-page.lm-hub .lm-price { font-size: 17px; }
-body .lm-page.lm-hub .lm-card-foot { padding: 10px; }
-body .lm-page.lm-hub .lm-card-cta { min-height: 32px; font-size: 11px; }
-body .lm-page.lm-hub .lm-panel { display: none; }
-body .lm-page.lm-hub .lm-faq { display: grid; grid-template-columns: minmax(170px, .8fr) 1.4fr; gap: 20px; align-items: start; padding-bottom: 34px; }
-body .lm-page.lm-hub .lm-faq .lm-eyebrow { display: none; }
-body .lm-page.lm-hub .lm-faq h2 { grid-column: 1; margin-bottom: 8px; font-size: 28px; }
-body .lm-page.lm-hub .lm-faq::before { content: "PREGUNTAS"; grid-column: 1; grid-row: 1; font-family: var(--lm-font-heading); font-size: 28px; line-height: 1; text-transform: uppercase; }
-body .lm-page.lm-hub .lm-faq h2 { display: none; }
-body .lm-page.lm-hub .lm-faq::after { content: "PREGUNTAR POR WHATSAPP"; grid-column: 1; grid-row: 2; align-self: start; display: flex; align-items: center; min-height: 32px; padding: 0 10px; background: var(--lm-accent); color: #fff; font-family: var(--lm-font-heading); font-size: 11px; text-transform: uppercase; }
-body .lm-page.lm-hub .lm-faq details { grid-column: 2; }
-body .lm-page.lm-hub .lm-faq details p { display: none; }
-body .lm-page.lm-hub .lm-faq summary { padding: 10px 0; font-size: 12px; }
-body .lm-page.lm-hub .lm-footer-inner { max-width: 580px; margin-left: 58.7vw; margin-right: 0; padding: 22px 0 28px; }
-body .lm-page.lm-hub .lm-footer img { height: 22px; }
-body .lm-page.lm-hub .lm-footer-links { gap: 12px; margin-top: 12px; }
-body .lm-page.lm-hub .lm-footer-links a { font-size: 10px; }
-body .lm-page.lm-hub .lm-notice { font-size: 8px; }
-
-@media (max-width: 900px) {
-  body .lm-page.lm-hub .lm-shell:not(.lm-header),
-  body .lm-page.lm-hub .lm-footer-inner { margin-left: auto; margin-right: auto; padding-inline: 24px; }
-}
-@media (max-width: 560px) {
-  body .lm-page:not(.lm-hub) .lm-shell { padding-inline: 24px; }
-  body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  body .lm-page.lm-hub .lm-hero-grid { grid-template-columns: 1fr; }
-  body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
-  body .lm-page.lm-hub .lm-faq::before,
-  body .lm-page.lm-hub .lm-faq::after,
-  body .lm-page.lm-hub .lm-faq details { grid-column: 1; }
-  body .lm-page.lm-hub .lm-faq details { grid-row: auto; }
-}
-
-body .lm-page.lm-hub .lm-header .lm-preview-nav {
-  display: flex; align-items: center; gap: 8px; width: 100%;
-  font-family: var(--lm-font-heading); font-size: 8px; letter-spacing: .08em;
-  text-transform: uppercase;
-}
-body .lm-page.lm-hub .lm-preview-nav span { color: #aaa; }
-body .lm-page.lm-hub .lm-preview-nav a {
-  padding: 3px 6px; color: #fff; text-decoration: none; font-size: 8px;
-}
-body .lm-page.lm-hub .lm-preview-nav a.is-active { background: #fff; color: var(--lm-ink); }
-body .lm-page.lm-hub .lm-faq::before,
-body .lm-page.lm-hub .lm-faq::after { display: none; content: none; }
-body .lm-page.lm-hub .lm-faq { display: grid; grid-template-columns: minmax(170px, .8fr) 1.4fr; gap: 20px; align-items: start; }
-body .lm-page.lm-hub .lm-faq-intro { display: grid; gap: 10px; align-content: start; }
-body .lm-page.lm-hub .lm-faq-intro .lm-display { display: block; margin: 0; font-size: 28px; }
-body .lm-page.lm-hub .lm-faq-intro .lm-btn { min-height: 32px; padding-inline: 10px; font-size: 11px; }
-body .lm-page.lm-hub .lm-faq-list { grid-column: 2; }
-body .lm-page.lm-hub .lm-faq-list details { grid-column: auto; }
-body .lm-page.lm-hub .lm-faq-list details p { display: none; }
-body .lm-page.lm-hub .lm-faq-list summary { padding: 10px 0; font-size: 12px; }
-@media (max-width: 560px) {
-  body .lm-page.lm-hub .lm-faq { grid-template-columns: 1fr; }
-  body .lm-page.lm-hub .lm-faq-list { grid-column: 1; }
 }
 
 /* SS keeps its diagnostic code for later activation, but the public surface
@@ -704,46 +523,6 @@ body .lm-page .lm-options input[type="radio"] {
     display: inline-flex !important;
   }
 }
-
-/* Product landings use the whole browser canvas. The catalogue keeps its
-   intentional right-column composition, but no specific course should look
-   like a narrow card floating inside a large desktop viewport. */
-body .lm-page:not(.lm-hub) .lm-shell {
-  width: 100%;
-  max-width: none;
-  margin-inline: 0;
-  padding-inline: clamp(24px, 4vw, 64px);
-}
-body .lm-page:not(.lm-hub) .lm-footer-inner {
-  width: 100%;
-  max-width: none;
-  margin-inline: 0;
-  padding-inline: clamp(24px, 4vw, 64px);
-}
-body .lm-page:not(.lm-hub) .lm-fineprint {
-  width: 100%;
-  max-width: none;
-  margin-inline: 0;
-  padding-inline: clamp(24px, 4vw, 64px);
-}
-body .lm-page.ss-page .ss-hero,
-body .lm-page.ss-page .ss-strip,
-body .lm-page.ss-page .ss-method,
-body .lm-page.ss-page .ss-diagnostic,
-body .lm-page.ss-page .ss-result,
-body .lm-page.ss-page .ss-capture,
-body .lm-page.ss-page .ss-preorder,
-body .lm-page.ss-page .ss-faq,
-body .lm-page.ss-page .ss-sources {
-  width: 100%;
-  max-width: none;
-  margin-inline: 0;
-  padding-inline: clamp(24px, 4vw, 64px);
-}
-body .lm-page:not(.lm-hub) .lm-muestra-pagina {
-  height: clamp(128px, 9vw, 240px);
-}
-
 /* ========================================================================
    Artifact parity: public Industry landings
 
