@@ -971,13 +971,17 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
     flex: 0 1 auto;
   }
   body .lm-page:not(.lm-hub) .lm-pregunta > summary {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr);
+    align-items: start;
     min-height: 52px;
-    gap: 8px;
-    padding-inline: 12px;
+    column-gap: 8px;
+    row-gap: 5px;
+    padding: 14px 16px;
     font-size: 15px;
     line-height: 1.35;
   }
-  body .lm-page:not(.lm-hub) .lm-pregunta-titulo { font-weight: 500; }
-  body .lm-page:not(.lm-hub) .lm-pregunta-num { font-size: 10px; }
-  body .lm-page:not(.lm-hub) .lm-pregunta-ver { font-size: 9px; letter-spacing: .08em; }
+  body .lm-page:not(.lm-hub) .lm-pregunta-num { grid-column: 1; grid-row: 1; padding-top: 2px; font-size: 10px; }
+  body .lm-page:not(.lm-hub) .lm-pregunta-titulo { grid-column: 2; grid-row: 1; min-width: 0; font-weight: 500; }
+  body .lm-page:not(.lm-hub) .lm-pregunta-ver { grid-column: 2; grid-row: 2; justify-self: start; font-size: 9px; letter-spacing: .08em; }
 }
