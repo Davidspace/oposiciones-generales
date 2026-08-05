@@ -78,7 +78,10 @@ export default function Home() {
         <section className="lm-shell lm-faq" id="preguntas" aria-labelledby="faq-title">
           <div className="lm-faq-intro">
             <h2 id="faq-title" className="lm-display">Preguntas</h2>
-            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20hacer%20una%20consulta.`} target="_blank" rel="noopener noreferrer">Preguntar por WhatsApp</a>
+            <a className="lm-btn lm-btn-primary" href={`https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20hacer%20una%20consulta.`} target="_blank" rel="noopener noreferrer">
+              <img className="lm-btn-mark" src="/lorman-logo.png" alt="" />
+              <span>Preguntar por WhatsApp</span>
+            </a>
           </div>
           <div className="lm-faq-list">
             <details><summary>¿Es una página oficial?</summary><p>No. Academia LORMAN es una preparación digital independiente. La convocatoria vigente y sus criterios siempre tienen prioridad.</p></details>

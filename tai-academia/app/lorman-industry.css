@@ -691,6 +691,14 @@ body .lm-page.ss-page .ss-reference-note {
   padding-inline: 24px;
   font-size: 14px;
 }
+body .lm-page.ss-page .ss-hero { margin-bottom: 72px; }
+body .lm-page.ss-page .lm-boxes .ss-reference-note {
+  width: auto;
+  max-width: none;
+  margin: 0 0 26px;
+  padding-inline: 24px;
+  font-size: 14px;
+}
 
 /* Hub: preview strip, regular header and two-column catalogue. */
 body .lm-page.lm-hub .lm-preview-host {
@@ -766,6 +774,33 @@ body .lm-page.lm-hub .lm-hero-aside-kicker { font-size: 14px; }
 body .lm-page.lm-hub .lm-hero-aside-row { padding: 14px 0; }
 body .lm-page.lm-hub .lm-hero-aside-row strong { font-size: 26px; }
 body .lm-page.lm-hub .lm-hero-aside-row span { font-size: 14px; }
+body .lm-page.lm-hub .lm-hero-aside {
+  align-self: center;
+  background: var(--lm-bg);
+  border: 1px solid var(--lm-ink);
+}
+body .lm-page.lm-hub .lm-hero-aside-kicker {
+  display: block;
+  color: var(--lm-muted);
+  font-family: var(--lm-font-heading);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+body .lm-page.lm-hub .lm-hero-aside-row {
+  display: grid;
+  gap: 6px;
+  border-bottom: 1px solid var(--lm-line);
+}
+body .lm-page.lm-hub .lm-hero-aside-row:last-child { border-bottom: 0; }
+body .lm-page.lm-hub .lm-hero-aside-row strong {
+  display: block;
+  line-height: 1;
+}
+body .lm-page.lm-hub .lm-hero-aside-row span {
+  display: block;
+  color: var(--lm-muted);
+  line-height: 1.35;
+}
 body .lm-page.lm-hub > #cursos {
   width: auto;
   max-width: 1200px;
@@ -776,12 +811,20 @@ body .lm-page.lm-hub .lm-section-heading { margin-bottom: 28px; }
 body .lm-page.lm-hub .lm-display { font-size: clamp(34px, 3.6vw, 46px); }
 body .lm-page.lm-hub .lm-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; padding-bottom: 0; }
 body .lm-page.lm-hub .lm-faq {
+  display: grid;
   width: auto;
   max-width: 1200px;
   margin-inline: auto;
   padding: 0 24px 80px;
   grid-template-columns: minmax(280px, .8fr) minmax(0, 1.2fr);
   gap: 48px;
+}
+body .lm-page.lm-hub .lm-faq-intro { min-width: 0; }
+body .lm-page.lm-hub .lm-faq-intro .lm-display { margin-bottom: 22px; }
+body .lm-page.lm-hub .lm-faq-intro .lm-btn {
+  justify-content: flex-start;
+  max-width: 330px;
+  width: 100%;
 }
 body .lm-page.lm-hub .lm-faq-list { grid-column: 2; border-top: 1px solid var(--lm-ink); }
 body .lm-page.lm-hub .lm-faq-list details { border-bottom: 1px solid var(--lm-line); }

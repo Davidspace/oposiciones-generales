@@ -354,9 +354,8 @@ export function SsCasoLabLanding({
         <Cajon kicker="02 · TEST" title="Tests por tema" text="Corrección automática y referencia a la norma aplicada." figure="uno por tema" />
         <Cajon kicker="03 · PRÁCTICA" title="Supuestos prácticos" text="Aplica la regla para decidir, como en el ejercicio real." figure="14 supuestos estructurados" />
         <CajonCierre kicker="04 · PRECIO" title="Pago único de 49 €" text="Temario, tests y supuestos prácticos, con acceso hasta el día del examen." href={WHATSAPP_URL} />
+        <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
       </section>
-
-      <p className="lm-fineprint ss-reference-note">Convocatoria de 31 de diciembre de 2025 · 1.056 plazas de acceso libre · ejercicio único de 120 minutos · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-27158" target="_blank" rel="noreferrer">Consultar BOE</a></p>
 
       <section className="ss-strip" aria-label="Datos de la convocatoria">
         <p>
