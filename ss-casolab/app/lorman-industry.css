@@ -823,9 +823,15 @@ body .lm-page.lm-hub .lm-faq-intro { min-width: 0; }
 body .lm-page.lm-hub .lm-faq-intro .lm-display { margin-bottom: 22px; }
 body .lm-page.lm-hub .lm-faq-intro .lm-btn {
   justify-content: flex-start;
+  gap: 10px;
   max-width: 330px;
+  min-height: 64px;
+  padding-inline: 18px;
   width: 100%;
+  font-size: 20px;
+  white-space: nowrap;
 }
+body .lm-page.lm-hub .lm-faq-intro .lm-btn-mark { height: 22px; }
 body .lm-page.lm-hub .lm-faq-list { grid-column: 2; border-top: 1px solid var(--lm-ink); }
 body .lm-page.lm-hub .lm-faq-list details { border-bottom: 1px solid var(--lm-line); }
 body .lm-page.lm-hub .lm-faq-list summary { padding: 18px 0; font-size: 22px; }
@@ -896,6 +902,9 @@ body .lm-page .lm-box-cta:hover { color: var(--lm-accent-deep); }
   body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-ig { font-size: 16px !important; }
   body .lm-page.lm-hub .lm-cards { grid-template-columns: 1fr; }
   body .lm-page.lm-hub .lm-faq { gap: 28px; }
+  body .lm-page.lm-hub .lm-faq-intro .lm-btn {
+    white-space: normal;
+  }
 }
 
 @media (max-width: 420px) {
