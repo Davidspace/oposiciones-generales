@@ -29,7 +29,7 @@ export const CURSOS: FichaCursoProps[] = [
       note: "acceso hasta el examen",
       value: "PRECIO EN FUNCIÓN DEL CURSO",
     },
-    cta: { label: "Ver cursos TCAE", href: url("VITE_TCAE_URL", PRODUCT_URLS.tcae) },
+    cta: { label: "Ver cursos TCAE", href: "https://lorman-academia.vercel.app/" },
   },
   {
     code: "TAI",

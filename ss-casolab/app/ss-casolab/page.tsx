@@ -977,11 +977,11 @@ export function SsCasoLabLanding({
           nota: "Pendiente de subir las páginas de muestra del temario y de un supuesto práctico.",
         }]}
         preguntas={[
-          { enunciado: "Enunciado de muestra sobre Seguridad Social", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre cotización", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre prestaciones", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre procedimiento administrativo", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-          { enunciado: "Enunciado de muestra sobre supuesto práctico", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+          { enunciado: "¿Qué norma regula el procedimiento administrativo común de las Administraciones Públicas?", opciones: ["La Ley 39/2015", "La Ley 40/2015", "El texto refundido de la Ley General de la Seguridad Social", "La Ley 9/2017"], respuesta: "a", explicacion: "La Ley 39/2015 regula el procedimiento administrativo común de las Administraciones Públicas." },
+          { enunciado: "¿Qué entidad gestiona con carácter general las prestaciones económicas contributivas del sistema?", opciones: ["El INSS", "La TGSS", "El ISM", "El SEPE"], respuesta: "a", explicacion: "El Instituto Nacional de la Seguridad Social gestiona, con carácter general, las prestaciones económicas del sistema." },
+          { enunciado: "La afiliación y la cotización se encuadran principalmente en la gestión de:", opciones: ["La Tesorería General de la Seguridad Social", "El Instituto Nacional de la Seguridad Social", "El IMSERSO", "FOGASA"], respuesta: "a", explicacion: "La TGSS gestiona la afiliación, la cotización y la recaudación del sistema." },
+          { enunciado: "En el procedimiento administrativo, los plazos expresados por días se computan, salvo disposición en contrario, como:", opciones: ["Naturales", "Hábiles", "Lectivos", "Laborales privados"], respuesta: "b", explicacion: "La Ley 39/2015 establece el cómputo por días hábiles salvo que una norma disponga otra cosa." },
+          { enunciado: "La acción protectora de la Seguridad Social incluye, entre otras, prestaciones por:", opciones: ["Incapacidad y jubilación", "Únicamente desempleo", "Solo asistencia sanitaria privada", "Exclusivamente accidentes de tráfico"], respuesta: "a", explicacion: "La acción protectora comprende, entre otras, prestaciones por incapacidad y jubilación." },
         ]}
         notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
       />

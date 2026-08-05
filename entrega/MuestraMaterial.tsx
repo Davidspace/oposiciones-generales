@@ -33,6 +33,8 @@ export type MuestraMaterialProps = {
   intro?: string;
   etiquetaIzquierda?: string;
   etiquetaDerecha?: string;
+  /** Oculta la columna de páginas cuando el producto solo incluye tests. */
+  mostrarTemario?: boolean;
   /** Uno o varios grupos de páginas; con dos o más aparecen las pestañas. */
   grupos: GrupoMuestra[];
   preguntas: PreguntaMuestra[];
@@ -46,6 +48,7 @@ export function MuestraMaterial({
   intro = "Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir.",
   etiquetaIzquierda = "Temario · páginas de muestra",
   etiquetaDerecha = "Tipo test · preguntas",
+  mostrarTemario = true,
   grupos,
   preguntas,
   notaPreguntas = "Preguntas de ejemplo; el banco completo está en el campus.",
@@ -54,12 +57,12 @@ export function MuestraMaterial({
   const grupo = grupos[activo] ?? grupos[0];
 
   return (
-    <section className="lm-shell lm-muestra" id="muestra">
+    <section className={`lm-shell lm-muestra${mostrarTemario ? "" : " lm-muestra-sin-temario"}`} id="muestra">
       <h2 className="lm-muestra-h2">{titulo}</h2>
       <p className="lm-muestra-intro">{intro}</p>
 
       <div className="lm-muestra-grid">
-        <div className="lm-muestra-col">
+        {mostrarTemario && grupo ? <div className="lm-muestra-col">
           <div className="lm-muestra-head">
             <span className="lm-muestra-label">{etiquetaIzquierda}</span>
             {grupos.length > 1 ? (
@@ -102,7 +105,7 @@ export function MuestraMaterial({
             )}
           </div>
           {grupo.nota ? <p className="lm-muestra-nota">{grupo.nota}</p> : null}
-        </div>
+        </div> : null}
 
         <div className="lm-muestra-col">
           <div className="lm-muestra-head">

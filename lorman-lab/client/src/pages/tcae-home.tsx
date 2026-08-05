@@ -11,17 +11,62 @@ const WHATSAPP_URL = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
 )}`;
 
 const preguntasMuestra = [
-  "Enunciado de muestra sobre organización sanitaria",
-  "Enunciado de muestra sobre higiene y seguridad",
-  "Enunciado de muestra sobre atención al paciente",
-  "Enunciado de muestra sobre recogida de muestras",
-  "Enunciado de muestra sobre prevención de riesgos",
-].map((enunciado) => ({
-  enunciado,
-  opciones: ["Contenido de muestra visual"],
-  respuesta: "—",
-  explicacion: "Consulta la respuesta revisada dentro del aula.",
-}));
+  {
+    enunciado: "¿A qué se orientan prioritariamente los medios y actuaciones del sistema sanitario?",
+    opciones: [
+      "A la atención hospitalaria",
+      "A la promoción de la salud y a la prevención de enfermedades",
+      "A la curación de enfermedades",
+      "A la investigación médica",
+    ],
+    respuesta: "b",
+    explicacion: "Respuesta editorial de la muestra: la promoción de la salud y la prevención de enfermedades.",
+  },
+  {
+    enunciado: "¿Cuál es el objetivo principal de una estrategia de promoción de una vida saludable?",
+    opciones: [
+      "Mejorar la salud y el bienestar de la población",
+      "Aumentar el número de hospitales",
+      "Reducir la atención primaria",
+      "Sustituir la prevención por la asistencia hospitalaria",
+    ],
+    respuesta: "a",
+    explicacion: "La muestra trabaja la promoción de la salud como mejora del bienestar de la población.",
+  },
+  {
+    enunciado: "¿Qué objetivo tiene un plan de vigilancia y control de vectores con incidencia en salud?",
+    opciones: [
+      "Controlar las enfermedades transmitidas por vectores",
+      "Introducir nuevas especies de vectores",
+      "Eliminar todos los insectos del entorno",
+      "Sustituir la vigilancia epidemiológica",
+    ],
+    respuesta: "a",
+    explicacion: "La respuesta de la muestra se centra en controlar las enfermedades transmitidas por vectores.",
+  },
+  {
+    enunciado: "¿Cuál es un objetivo del sistema integral de gestión ambiental sanitario?",
+    opciones: [
+      "Aumentar el consumo de energía",
+      "Reducir la generación de residuos",
+      "Eliminar la prevención ambiental",
+      "Limitar la gestión de residuos a los hospitales",
+    ],
+    respuesta: "b",
+    explicacion: "La práctica relaciona la gestión ambiental con la reducción de residuos.",
+  },
+  {
+    enunciado: "¿Qué principio de protección de datos exige que los datos sean adecuados, pertinentes y limitados?",
+    opciones: [
+      "Confidencialidad",
+      "Exactitud",
+      "Minimización de datos",
+      "Limitación del plazo de conservación",
+    ],
+    respuesta: "c",
+    explicacion: "La minimización de datos limita el tratamiento a lo necesario para la finalidad prevista.",
+  },
+];
 
 export default function TcaeHome() {
   return (

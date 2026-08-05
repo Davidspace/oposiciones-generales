@@ -50,19 +50,18 @@ function App() {
 
         <MuestraMaterial
           titulo="Muestra del material"
-          intro="Páginas reales del temario y preguntas de ejemplo, para que veas el formato antes de decidir."
-          grupos={[{
-            paginas: [{}, {}, {}, {}],
-            nota: "La muestra de páginas se incorporará cuando el material editorial esté preparado.",
-          }]}
+          intro="Preguntas de ejemplo para que veas el formato de los tests antes de decidir."
+          etiquetaDerecha="Tests · preguntas"
+          mostrarTemario={false}
+          grupos={[]}
           preguntas={[
-            { enunciado: "Enunciado de muestra sobre organización judicial", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre actos procesales", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre actos de comunicación", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre ejecución", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre derecho procesal civil", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "¿Cuál de estos órganos forma parte de la organización judicial?", opciones: ["Un Juzgado de Primera Instancia", "El Consejo de Ministros", "Una Delegación del Gobierno", "Un Ayuntamiento"], respuesta: "a", explicacion: "Ejemplo editorial: un Juzgado de Primera Instancia es un órgano judicial." },
+            { enunciado: "¿Qué medio pone una resolución judicial en conocimiento de una parte?", opciones: ["Un acto de comunicación", "Un informe pericial", "Una prueba documental", "Una norma reglamentaria"], respuesta: "a", explicacion: "Los actos de comunicación transmiten resoluciones y actuaciones a sus destinatarios." },
+            { enunciado: "¿Qué finalidad tiene una notificación dentro de un procedimiento?", opciones: ["Poner una resolución en conocimiento de su destinatario", "Dictar una sentencia", "Practicar una prueba", "Ejecutar directamente una pena"], respuesta: "a", explicacion: "La notificación comunica formalmente una resolución o actuación a su destinatario." },
+            { enunciado: "La ejecución de una resolución judicial tiene como finalidad:", opciones: ["Hacer efectivo lo resuelto", "Modificar siempre la sentencia", "Sustituir al órgano judicial", "Evitar cualquier actuación de las partes"], respuesta: "a", explicacion: "La ejecución hace efectivo el contenido de una resolución cuando procede." },
+            { enunciado: "En el proceso civil, la demanda inicia normalmente:", opciones: ["Un procedimiento declarativo", "Una sanción administrativa", "Una inscripción registral automática", "Un recurso de casación"], respuesta: "a", explicacion: "La demanda es el acto que inicia normalmente un proceso civil declarativo." },
           ]}
-          notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
+          notaPreguntas="Preguntas de ejemplo; el banco de tests completo está en el campus."
         />
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }]} notice={AVISO_JUSTICIA} />
       </main>

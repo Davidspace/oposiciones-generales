@@ -106,7 +106,13 @@ export default function AdministrativoEstadoLanding() {
             paginas: [{}, {}, {}, {}],
             nota: "La muestra de páginas se incorporará cuando el programa editorial esté preparado.",
           }]}
-          preguntas={[]}
+          preguntas={QUESTIONS.map((question) => ({
+            enunciado: question.prompt,
+            opciones: question.options,
+            respuesta: String.fromCharCode(97 + question.answer),
+            explicacion: `Ejemplo editorial de ${question.topic}. Respuesta correcta: ${question.options[question.answer]}.`,
+          }))}
+          notaPreguntas="Preguntas de ejemplo; la prueba gratuita muestra el formato y el banco completo se prepara en el aula."
         />
 
         <section className="lm-shell lm-panel" id="metodo">

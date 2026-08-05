@@ -29,7 +29,7 @@ export const CURSOS: FichaCursoProps[] = [
     ],
     cta: {
       label: "Ver curso TCAE",
-      href: url("NEXT_PUBLIC_TCAE_URL", "/tcae"),
+      href: url("NEXT_PUBLIC_TCAE_URL", "https://lorman-academia.vercel.app/"),
     },
   },
   {

@@ -1,6 +1,6 @@
 const DEFAULT_PORTFOLIO_URL = "https://lorman-lab.vercel.app";
 const DEFAULT_MOODLE_URL = "https://aula.academialorman.es";
-const DEFAULT_TCAE_URL = "/tcae";
+const DEFAULT_TCAE_URL = "https://lorman-academia.vercel.app";
 const DEFAULT_TAI_URL = "https://tai-academia.vercel.app";
 const DEFAULT_SS_URL = "https://ss-casolab.vercel.app";
 const DEFAULT_C2_URL = "https://administrativo-estado.vercel.app";

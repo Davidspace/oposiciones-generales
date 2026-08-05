@@ -50,11 +50,11 @@ export default function TaiLanding() {
             nota: "Páginas de muestra del temario TAI. El aula contiene el programa completo.",
           }]}
           preguntas={[
-            { enunciado: "Enunciado de muestra sobre Constitución", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre bases de datos", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre redes", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre sistemas operativos", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
-            { enunciado: "Enunciado de muestra sobre desarrollo", opciones: ["Contenido de muestra visual"], respuesta: "—", explicacion: "Consulta la respuesta revisada dentro del aula." },
+            { enunciado: "¿Qué valor superior del ordenamiento jurídico español se menciona en el artículo 1.1 de la Constitución?", opciones: ["La eficacia", "La libertad", "La jerarquía", "La coordinación"], respuesta: "b", explicacion: "El artículo 1.1 incluye la libertad entre los valores superiores del ordenamiento jurídico." },
+            { enunciado: "En una base de datos relacional, una fila representa normalmente:", opciones: ["Una tabla", "Un registro", "Un campo", "Un índice"], respuesta: "b", explicacion: "Una fila contiene los valores de un registro; las columnas representan sus campos." },
+            { enunciado: "¿Qué protocolo se utiliza habitualmente para obtener una dirección IP automáticamente?", opciones: ["DHCP", "FTP", "SMTP", "SNMP"], respuesta: "a", explicacion: "DHCP asigna de forma automática parámetros de configuración IP a los clientes." },
+            { enunciado: "¿Qué componente gestiona la memoria y los procesos de un sistema operativo?", opciones: ["El kernel", "El compilador", "El navegador", "El periférico"], respuesta: "a", explicacion: "El kernel o núcleo coordina recursos como memoria, procesos y dispositivos." },
+            { enunciado: "¿Qué estructura permite repetir un bloque mientras se cumple una condición?", opciones: ["Una secuencia", "Una selección", "Un bucle", "Una constante"], respuesta: "c", explicacion: "Un bucle repite instrucciones mientras se cumple una condición o durante un número de iteraciones." },
           ]}
           notaPreguntas="Preguntas de ejemplo; el banco completo está en el campus."
         />

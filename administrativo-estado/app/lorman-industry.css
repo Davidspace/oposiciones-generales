@@ -836,6 +836,8 @@ body .lm-page.lm-hub > #cursos {
 body .lm-page.lm-hub .lm-section-heading { margin-bottom: 28px; }
 body .lm-page.lm-hub .lm-display { font-size: clamp(34px, 3.6vw, 46px); }
 body .lm-page.lm-hub .lm-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; padding-bottom: 0; }
+body .lm-page.lm-hub .lm-cards > div { display: flex; min-width: 0; }
+body .lm-page.lm-hub .lm-cards > div > .lm-card { width: 100%; min-height: 100%; }
 body .lm-page.lm-hub .lm-faq {
   display: grid;
   width: auto;
@@ -896,6 +898,10 @@ body .lm-page .lm-btn-primary:focus-visible,
 body .lm-page .lm-card-cta:hover { color: #fff; }
 body .lm-page .lm-box-cta,
 body .lm-page .lm-box-cta:hover { color: var(--lm-accent-deep); }
+body .lm-page:not(.lm-hub) .lm-footer .lm-ig,
+body .lm-page:not(.lm-hub) .lm-footer .lm-ig:hover,
+body .lm-page:not(.lm-hub) .lm-footer .lm-ig:focus-visible { color: #fff !important; }
+body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 1fr; }
 
 @media (max-width: 900px) {
   body .lm-page:not(.lm-hub) .lm-boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
