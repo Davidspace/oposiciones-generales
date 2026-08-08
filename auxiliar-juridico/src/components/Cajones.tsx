@@ -6,6 +6,7 @@
  */
 
 import type { ReactNode } from "react";
+import { trackEvent } from "../lib/analytics";
 
 export type CajonProps = {
   kicker: string;
@@ -48,7 +49,7 @@ export function CajonCierre({
       <span className="lm-box-kicker">{kicker}</span>
       <strong className="lm-box-title">{title}</strong>
       <p>{text}</p>
-      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer">
+      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer" onClick={() => trackEvent("whatsapp_click", { placement: "price_box" })}>
         {label}
       </a>
     </div>

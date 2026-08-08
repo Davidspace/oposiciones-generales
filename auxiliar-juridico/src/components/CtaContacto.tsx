@@ -4,6 +4,8 @@
  */
 
 import type { ReactNode } from "react";
+import { trackEvent } from "../lib/analytics";
+import { withCampaignReference } from "../lib/attribution";
 
 export type CtaContactoProps = {
   /** Número en formato internacional sin signos: 34XXXXXXXXX */
@@ -26,7 +28,7 @@ export function CtaContacto({
   children,
 }: CtaContactoProps) {
   const whatsappHref = message
-    ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(message)}`
+    ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(withCampaignReference(message))}`
     : `https://wa.me/${whatsapp}`;
 
   return (
@@ -37,6 +39,7 @@ export function CtaContacto({
           href={whatsappHref}
           target="_blank"
           rel="noreferrer"
+          onClick={() => trackEvent("whatsapp_click", { placement: "hero" })}
         >
           <img className="lm-btn-mark" src={logoSrc} alt="" />
           <span>{label}</span>
