@@ -35,7 +35,7 @@ function App() {
 
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Auxilio Judicial 2026 · examen 3 de octubre · solo tests</p>
-          <h1>Practica todo el programa.<br />Llega a octubre con vueltas dadas.</h1>
+          <h1>Practica todo el programa.<br />Llega a octubre con varios repasos.</h1>
           <p className="lm-lead">Cuestionarios autocorregibles que cubren los 26 temas de Auxilio Judicial. Practica por bloques, detecta fallos y repite justo lo que más te cuesta. Pago único de 29 € y acceso hasta el examen. Es un curso de tests: no incluye temario teórico.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
