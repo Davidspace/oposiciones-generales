@@ -82,11 +82,11 @@ export const FICHAS: FichaOposicionProps[] = [
     admin: "Administración de Justicia · subgrupo C2",
     title: "Auxilio Judicial · tests",
     description:
-      "Práctica autocorregible para Auxilio Judicial: 26 temas y 90 cuestionarios distintos. Solo tests, sin temario.",
+      "Practica los 26 temas del programa de Auxilio Judicial con cuestionarios autocorregibles. Es un curso de tests: no incluye temario teórico.",
     status: "Contenido disponible · acceso por WhatsApp",
     indicators: [
-      { value: "26", label: "temas organizados en el aula" },
-      { value: "90", label: "cuestionarios únicos auditados" },
+      { value: "26", label: "temas cubiertos mediante cuestionarios" },
+      { value: "tests", label: "por tema, repaso, supuestos y simulacros" },
       { value: "29 €", label: "pago único · acceso hasta el examen", tone: true },
     ],
     primary: { label: "Ver Auxilio Judicial", href: PRODUCT_URLS.auxJuridico },

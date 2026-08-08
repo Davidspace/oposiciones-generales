@@ -13,10 +13,12 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
 
   assert.match(source, /Auxilio Judicial/);
   assert.match(source, /TOPICS = \[/);
-  assert.match(source, /value: "53"/);
-  assert.match(source, /value: "90"|90.*cuestionarios/s);
   assert.match(source, /course\/view\.php\?id=11/);
-  assert.match(source, /solo tests|Solo práctica/s);
+  assert.match(source, /cubren los 26 temas del programa oficial/);
+  assert.match(source, /no incluye temario teórico/i);
+  assert.match(source, /Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen/);
+  assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);
+  assert.doesNotMatch(html, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(source, /gsi-casos-practicos|Forja TIC|sslip\.io|lorman-academia\.vercel\.app/i);
   assert.match(html, /Auxilio Judicial C2/);
   assert.match(config, /"outputDirectory": "dist"/);

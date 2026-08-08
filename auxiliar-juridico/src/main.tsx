@@ -13,10 +13,8 @@ const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || `https://wa.me
 
 // Inventario editorial conservado para trazabilidad del aula, no se muestra como contenido público.
 const MOODLE_URL = "https://aula.academialorman.es/course/view.php?id=11";
-const MODULES = [{ value: "53", title: "Cuestionarios por tema" }, { value: "90", title: "Cuestionarios distintos" }];
 const TOPICS = ["Organización judicial", "Procedimientos", "Actos de comunicación"];
 void MOODLE_URL;
-void MODULES;
 void TOPICS;
 
 function App() {
@@ -31,8 +29,8 @@ function App() {
 
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Auxilio Judicial · subgrupo C2 · solo tests</p>
-          <h1>90 cuestionarios<br />para dar vueltas al programa.</h1>
-          <p className="lm-lead">26 temas y 90 cuestionarios distintos para practicar, repetir y corregir al momento. Solo tests: no incluye temario.</p>
+          <h1>Practica todo el programa.<br />Corrige al momento.</h1>
+          <p className="lm-lead">Cuestionarios autocorregibles que cubren los 26 temas del programa oficial. Practica por bloques, repite lo que más te cuesta y descubre qué debes repasar. Es un curso de tests: no incluye temario teórico.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
             label="Preguntar por el acceso"
@@ -42,16 +40,16 @@ function App() {
           </CtaContacto>
         </section>
 
-        <section className="lm-shell lm-boxes" id="tests" aria-label="Inventario del aula">
-          <Cajon kicker="01 · COBERTURA" title="26 temas cubiertos" text="Organización judicial, procedimientos y actos de comunicación." figure="26 temas" />
-          <Cajon kicker="02 · PRÁCTICA" title="90 cuestionarios distintos" text="Repite el programa varias veces sin memorizar siempre las mismas preguntas." figure="90 cuestionarios" />
-          <Cajon kicker="03 · CORRECCIÓN" title="Corrección al momento" text="Aciertos, errores y respuesta correcta al terminar cada test." figure="solo tests · sin temario" />
-          <CajonCierre kicker="04 · ACCESO" title="Pago único de 29 €" text="Solo tests, con acceso hasta el examen." href={WHATSAPP_URL} label="Consultar acceso" />
+        <section className="lm-shell lm-boxes" id="tests" aria-label="Contenido de práctica del aula">
+          <Cajon kicker="01 · COBERTURA" title="Los 26 temas, cubiertos con tests" text="Preguntas de organización judicial, procedimientos y actos de comunicación. No incluye el desarrollo teórico de los temas." figure="programa cubierto" />
+          <Cajon kicker="02 · PRÁCTICA" title="Entrena desde varios ángulos" text="Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen para dar nuevas vueltas al programa." figure="práctica variada" />
+          <Cajon kicker="03 · CORRECCIÓN" title="Corrige y sigue" text="Comprueba aciertos, errores y la respuesta correcta al terminar cada test." figure="respuesta al momento" />
+          <CajonCierre kicker="04 · ACCESO" title="Todo el banco por 29 €" text="Pago único y acceso hasta el examen. Curso de tests; no incluye temario teórico." href={WHATSAPP_URL} label="Consultar acceso" />
         </section>
 
         <MuestraMaterial
-          titulo="Muestra del material"
-          intro="Prueba cinco preguntas y comprueba cómo funciona la corrección."
+          titulo="Prueba cómo se estudia"
+          intro="Resuelve cinco preguntas y comprueba la corrección antes de decidir."
           etiquetaDerecha="Tests · preguntas"
           mostrarTemario={false}
           grupos={[]}
@@ -62,7 +60,7 @@ function App() {
             { enunciado: "La ejecución de una resolución judicial tiene como finalidad:", opciones: ["Hacer efectivo lo resuelto", "Modificar siempre la sentencia", "Sustituir al órgano judicial", "Evitar cualquier actuación de las partes"], respuesta: "a", explicacion: "La ejecución hace efectivo el contenido de una resolución cuando procede." },
             { enunciado: "En el proceso civil, la demanda inicia normalmente:", opciones: ["Un procedimiento declarativo", "Una sanción administrativa", "Una inscripción registral automática", "Un recurso de casación"], respuesta: "a", explicacion: "La demanda es el acto que inicia normalmente un proceso civil declarativo." },
           ]}
-          notaPreguntas="Preguntas propias con explicación; en el aula encontrarás el banco completo de tests."
+          notaPreguntas="Preguntas propias con explicación. En el aula encontrarás el banco completo del curso, organizado para practicar y repasar."
         />
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: WHATSAPP_URL }]} notice={AVISO_JUSTICIA} />
       </main>

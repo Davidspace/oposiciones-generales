@@ -63,9 +63,9 @@ export const CURSOS: FichaCursoProps[] = [
     title: "Auxilio Judicial",
     meta: "Justicia · subgrupo C2 · solo tests",
     items: [
-      { title: "Cuestionarios por tema", note: "26 temas cubiertos" },
-      { title: "90 cuestionarios distintos", note: "varias vueltas al programa" },
-      { title: "Corrección al momento", note: "solo tests · sin temario" },
+      { title: "Programa cubierto con tests", note: "26 temas · sin material teórico" },
+      { title: "Práctica variada", note: "por tema, repaso, supuestos y simulacros" },
+      { title: "Corrección al momento", note: "aprende de cada intento" },
     ],
     price: { title: "Pago único", note: "acceso hasta el examen", value: "29 €" },
     cta: {
