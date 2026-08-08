@@ -39,10 +39,10 @@ No se encontró un directorio fiable de grupos públicos, actuales y moderados d
 
 ## Mensaje de permiso al administrador
 
-> Hola. Somos Academia LORMAN y hemos preparado un diagnóstico gratuito de 20 preguntas para Auxilio Judicial, con corrección y resultado por bloques. No pide datos ni obliga a comprar. ¿Te parece bien que lo compartamos una vez en el grupo? Si prefieres, te paso antes el enlace para revisarlo.
+> Hola. Somos Academia LORMAN y hemos preparado una prueba gratuita de 20 preguntas para Auxilio Judicial, con corrección y resultado por cuatro áreas concretas del programa. No pide datos ni obliga a comprar. ¿Te parece bien que la compartamos una vez en el grupo? Si prefieres, te paso antes el enlace para revisarla.
 
 ## Mensaje aprobado para la comunidad
 
-> Para quienes vais a Auxilio Judicial el 3 de octubre: hemos preparado una prueba gratuita de 20 preguntas sobre Constitución, Poder Judicial, proceso civil y penal. Se corrige al terminar y señala el bloque que conviene repasar. Son preguntas propias, no oficiales, y no pide registro. [ENLACE UTM DEL GRUPO]
+> Para quienes vais a Auxilio Judicial el 3 de octubre: hemos preparado una prueba gratuita de 20 preguntas sobre Constitución, funciones de Auxilio Judicial y actos de comunicación civil y penal. Se corrige al terminar y muestra el resultado por áreas. Es una muestra parcial del programa, con preguntas propias y sin registro. [ENLACE UTM DEL GRUPO]
 
 No usar cuentas falsas, automatización de mensajes privados ni extracción de miembros. Además del riesgo de bloqueo, destruye la confianza que la marca necesita para vender por recomendación.

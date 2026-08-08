@@ -10,7 +10,7 @@ export const COURSES = {
   TAI: { label: "TAI C1", resource: "Muestra TAI (enlace local pendiente)" },
   SS: { label: "Administrativo SS C1", resource: "Muestra SS CasoLab (enlace local pendiente)" },
   C2: { label: "Auxiliar AGE C2", resource: "Muestra C2: /c2#prueba" },
-  AJ: { label: "Auxilio Judicial C2", resource: "Landing de tests: https://auxiliar-juridico.vercel.app" },
+  AJ: { label: "Auxilio Judicial C2", resource: "Landing de tests: https://auxiliojudicial.academialorman.es" },
 };
 
 export const MAX_FOLLOWUPS = 3;

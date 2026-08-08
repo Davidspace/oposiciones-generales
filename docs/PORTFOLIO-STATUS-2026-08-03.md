@@ -14,7 +14,7 @@ No se ha escrito en Moodle ni se han modificado fuentes editoriales de SS. Auxil
 | TAI | `tai-academia/` | `https://tai-academia.vercel.app` | Landing independiente |
 | SS CasoLab | `ss-casolab/` | `https://ss-casolab.vercel.app` | Landing y corpus editorial separados |
 | Administrativo del Estado C2 | `administrativo-estado/` | `https://administrativo-estado.vercel.app` | Landing de validación |
-| Auxilio Judicial C2 | `auxiliar-juridico/` | `https://auxiliar-juridico.vercel.app` | Landing independiente; solo tests |
+| Auxilio Judicial C2 | `auxiliar-juridico/` | `https://auxiliojudicial.academialorman.es` | Landing independiente; solo tests. La URL de Vercel se conserva como compatibilidad |
 | Moodle | `lorman-lab/` → `/aula` | `https://aula.academialorman.es/course/view.php?id=2` | Destino configurable; no usa `sslip.io` |
 
 Las URLs públicas pueden cambiarse sin editar las landings:

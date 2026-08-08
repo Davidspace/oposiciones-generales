@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://auxiliar-juridico.vercel.app/sitemap.xml
+Sitemap: https://auxiliojudicial.academialorman.es/sitemap.xml

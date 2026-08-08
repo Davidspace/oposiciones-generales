@@ -72,5 +72,5 @@ test("reconoce Auxilio Judicial como producto independiente", async () => {
   await handleUpdate(update(6, "AJ"), store, send, 1);
   await handleUpdate(update(6, "ACEPTO"), store, send, 2);
   assert.equal(store.get(6).course, "AJ");
-  assert.match(sent.at(-1), /auxiliar-juridico\.vercel\.app/);
+  assert.match(sent.at(-1), /auxiliojudicial\.academialorman\.es/);
 });
