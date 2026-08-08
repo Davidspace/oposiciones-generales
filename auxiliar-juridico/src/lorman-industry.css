@@ -1068,7 +1068,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
 .lm-diagnostic-question { margin: 0; padding: 36px 24px 30px; border: 0; min-inline-size: 0; }
 .lm-diagnostic-question legend {
   width: 100%;
-  padding: 0;
+  padding: 12px 0 0;
   font-family: var(--lm-font-heading);
   font-size: clamp(28px, 3.6vw, 42px);
   line-height: 1.08;
@@ -1187,6 +1187,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   .lm-diagnostico-intro { grid-template-columns: 1fr; padding: 20px; }
   .lm-diagnostico-intro .lm-btn { width: 100%; }
   .lm-diagnostic-question { padding: 28px 16px 22px; }
+  .lm-diagnostic-question legend { padding-top: 10px; }
   .lm-diagnostic-options label { grid-template-columns: 18px 24px 1fr; padding: 13px 12px; }
   .lm-quiz-nav { padding: 16px; }
   .lm-quiz-primary, .lm-quiz-secondary { padding-inline: 14px; font-size: 17px; }
