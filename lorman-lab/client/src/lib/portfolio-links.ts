@@ -4,7 +4,7 @@ const DEFAULT_TCAE_URL = "https://lorman-academia.vercel.app";
 const DEFAULT_TAI_URL = "https://tai-academia.vercel.app";
 const DEFAULT_SS_URL = "https://ss-casolab.vercel.app";
 const DEFAULT_C2_URL = "https://administrativo-estado.vercel.app";
-const DEFAULT_AUX_JURIDICO_URL = "https://auxiliar-juridico.vercel.app";
+const DEFAULT_AUX_JURIDICO_URL = "https://auxiliojudicial.academialorman.es";
 
 function publicUrl(value: string | undefined, fallback: string) {
   const candidate = value?.trim();

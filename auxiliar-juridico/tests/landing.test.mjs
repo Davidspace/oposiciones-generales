@@ -26,6 +26,8 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(html, /Auxilio Judicial 2026/);
   assert.match(html, /Test Auxilio Judicial gratis 2026/);
   assert.match(html, /FAQPage/);
+  assert.match(html, /https:\/\/auxiliojudicial\.academialorman\.es\//);
+  assert.doesNotMatch(html, /auxiliar-juridico\.vercel\.app/);
   assert.equal((diagnostic.match(/id: "/g) || []).length, 20);
   assert.match(diagnostic, /Constitución Española/);
   assert.match(diagnostic, /Funciones de Auxilio Judicial/);
@@ -37,5 +39,9 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(analytics, /VITE_CLARITY_PROJECT_ID/);
   assert.match(analytics, /analytics_storage/);
   assert.match(sitemap, /2026-08-08/);
+  assert.match(sitemap, /https:\/\/auxiliojudicial\.academialorman\.es\//);
   assert.match(config, /"outputDirectory": "dist"/);
+  assert.match(config, /"type": "host"/);
+  assert.match(config, /"value": "auxiliar-juridico\.vercel\.app"/);
+  assert.match(config, /https:\/\/auxiliojudicial\.academialorman\.es\/:path\*/);
 });
