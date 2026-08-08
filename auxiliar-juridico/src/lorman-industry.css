@@ -1139,7 +1139,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
 
 .lm-seo-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; padding-block: 72px; border-block: 1px solid var(--lm-ink); }
 .lm-seo-copy > div:last-child { align-self: center; font-size: 17px; color: var(--lm-muted); }
-.lm-aux-faq { display: grid; grid-template-columns: .7fr 1.3fr; gap: 64px; padding-block: 84px; }
+.lm-aux-faq { display: grid; grid-template-columns: .7fr 1.3fr; gap: 64px; padding-block: clamp(48px, 5vw, 64px); }
 .lm-aux-faq details:first-child { border-top: 1px solid var(--lm-line); }
 
 .lm-consent {
