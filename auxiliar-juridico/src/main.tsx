@@ -79,7 +79,7 @@ function App() {
         <section className="lm-shell lm-faq lm-aux-faq" aria-labelledby="preguntas-frecuentes">
           <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
           <div>
-            <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Son 20 preguntas originales de Academia LORMAN basadas en legislación consolidada y diseñadas como diagnóstico. Los exámenes y textos oficiales siempre prevalecen.</p></details>
+            <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Es una muestra diagnóstica parcial con 20 preguntas originales de Academia LORMAN sobre cuatro áreas concretas del programa. Está basada en legislación consolidada, pero no evalúa los 26 temas ni sustituye un simulacro completo. Los exámenes y textos oficiales siempre prevalecen.</p></details>
             <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Es adecuado si ya estudias con tus apuntes o temario.</p></details>
             <details><summary>¿Cuánto dura el acceso?</summary><p>El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
             <details><summary>¿Hay clases o tutorías?</summary><p>No hay clases semanales ni tutoría individual. Puedes practicar a tu ritmo y consultar por WhatsApp las dudas sobre el acceso.</p></details>

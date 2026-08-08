@@ -23,11 +23,11 @@ export function DiagnosticoAuxilio() {
   const percentage = Math.round((score / PREGUNTAS_DIAGNOSTICO.length) * 100);
 
   const breakdown = useMemo(() => {
-    const blocks = [...new Set(PREGUNTAS_DIAGNOSTICO.map((item) => item.bloque))];
-    return blocks.map((block) => {
-      const questions = PREGUNTAS_DIAGNOSTICO.filter((item) => item.bloque === block);
+    const areas = [...new Set(PREGUNTAS_DIAGNOSTICO.map((item) => item.area))];
+    return areas.map((area) => {
+      const questions = PREGUNTAS_DIAGNOSTICO.filter((item) => item.area === area);
       return {
-        block,
+        area,
         correct: questions.filter((item) => answers[item.id] === item.correcta).length,
         total: questions.length,
       };
@@ -48,7 +48,7 @@ export function DiagnosticoAuxilio() {
       score,
       percentage,
       duration_seconds: duration,
-      weakest_block: [...breakdown].sort((a, b) => a.correct / a.total - b.correct / b.total)[0]?.block || "",
+      weakest_area: [...breakdown].sort((a, b) => a.correct / a.total - b.correct / b.total)[0]?.area || "",
     });
     window.setTimeout(() => resultRef.current?.focus(), 0);
   };
@@ -71,23 +71,23 @@ export function DiagnosticoAuxilio() {
       <div className="lm-diagnostico-head">
         <div>
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 20 preguntas</p>
-          <h2 id="diagnostico-titulo">Descubre qué bloque debes repasar antes de octubre.</h2>
+          <h2 id="diagnostico-titulo">Comprueba cómo llevas cuatro áreas concretas del programa.</h2>
         </div>
-        <p>Cuatro bloques, corrección explicada y resultado inmediato. Son preguntas propias basadas en legislación consolidada; no forman parte de un examen oficial.</p>
+        <p>20 preguntas con corrección explicada y resultado inmediato sobre Constitución, funciones de Auxilio Judicial y actos de comunicación civil y penal. Es una muestra parcial del programa oficial de 26 temas, no un simulacro completo.</p>
       </div>
 
       {!started ? (
         <div className="lm-diagnostico-intro">
           <div>
             <strong>10–12 min</strong>
-            <span>Constitución · Poder Judicial · Proceso civil · Proceso penal</span>
+            <span>Constitución Española · Funciones de Auxilio Judicial · Actos de comunicación civil y penal</span>
           </div>
-          <button className="lm-btn lm-btn-primary" type="button" onClick={start}>Empezar el diagnóstico</button>
+          <button className="lm-btn lm-btn-primary" type="button" onClick={start}>Empezar la prueba</button>
         </div>
       ) : !finished ? (
         <div className="lm-quiz-panel">
           <div className="lm-quiz-progress" aria-label={`Pregunta ${current + 1} de ${PREGUNTAS_DIAGNOSTICO.length}`}>
-            <span>{question.bloque}</span>
+            <span>{question.area}</span>
             <strong>{String(current + 1).padStart(2, "0")} / {PREGUNTAS_DIAGNOSTICO.length}</strong>
             <i style={{ width: `${((current + 1) / PREGUNTAS_DIAGNOSTICO.length) * 100}%` }} aria-hidden="true" />
           </div>
@@ -122,13 +122,13 @@ export function DiagnosticoAuxilio() {
           <div className="lm-result-score">
             <span>Tu resultado</span>
             <strong>{score}/20</strong>
-            <p>{percentage >= 80 ? "Buena base. Ahora toca ganar velocidad y consistencia." : percentage >= 55 ? "Tienes base, pero aún hay puntos que recuperar." : "Ya sabes por dónde empezar: repasa los bloques más débiles y vuelve a probar."}</p>
+            <p>{percentage >= 80 ? "Buena base en estas cuatro áreas. Ahora toca ganar velocidad y ampliar el repaso al resto del programa." : percentage >= 55 ? "Tienes base en esta muestra, pero aún hay puntos concretos que recuperar." : "Ya sabes por dónde empezar: repasa las áreas con más fallos y vuelve a probar."}</p>
           </div>
           <div className="lm-result-breakdown">
-            <h3>Resultado por bloques</h3>
+            <h3>Resultado por áreas</h3>
             {breakdown.map((item) => (
-              <div key={item.block}>
-                <span>{item.block}</span>
+              <div key={item.area}>
+                <span>{item.area}</span>
                 <strong>{item.correct}/{item.total}</strong>
               </div>
             ))}

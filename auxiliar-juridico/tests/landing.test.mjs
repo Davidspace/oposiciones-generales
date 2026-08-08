@@ -27,6 +27,12 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(html, /Test Auxilio Judicial gratis 2026/);
   assert.match(html, /FAQPage/);
   assert.equal((diagnostic.match(/id: "/g) || []).length, 20);
+  assert.match(diagnostic, /Constitución Española/);
+  assert.match(diagnostic, /Funciones de Auxilio Judicial/);
+  assert.match(diagnostic, /Actos de comunicación civil/);
+  assert.match(diagnostic, /Actos de comunicación penal/);
+  assert.doesNotMatch(diagnostic, /bloque:/);
+  assert.doesNotMatch(source, /Cuatro bloques|Resultado por bloques|Poder Judicial · Proceso civil/);
   assert.match(analytics, /VITE_GA4_MEASUREMENT_ID/);
   assert.match(analytics, /VITE_CLARITY_PROJECT_ID/);
   assert.match(analytics, /analytics_storage/);

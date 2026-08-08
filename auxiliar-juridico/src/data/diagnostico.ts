@@ -1,8 +1,8 @@
-export type BloqueDiagnostico = "Constitución" | "Poder Judicial" | "Proceso civil" | "Proceso penal";
+export type AreaDiagnostico = "Constitución Española" | "Funciones de Auxilio Judicial" | "Actos de comunicación civil" | "Actos de comunicación penal";
 
 export type PreguntaDiagnostico = {
   id: string;
-  bloque: BloqueDiagnostico;
+  area: AreaDiagnostico;
   enunciado: string;
   opciones: string[];
   correcta: number;
@@ -13,7 +13,7 @@ export type PreguntaDiagnostico = {
 export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   {
     id: "ce-1",
-    bloque: "Constitución",
+    area: "Constitución Española",
     enunciado: "Según la Constitución, ¿en quién reside la soberanía nacional?",
     opciones: ["En las Cortes Generales", "En el pueblo español", "En el Gobierno", "En la Corona"],
     correcta: 1,
@@ -22,7 +22,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "ce-14",
-    bloque: "Constitución",
+    area: "Constitución Española",
     enunciado: "¿Qué principio reconoce el artículo 14 de la Constitución?",
     opciones: ["La igualdad ante la ley", "La libertad sindical", "La tutela judicial gratuita", "La mayoría de edad a los 16 años"],
     correcta: 0,
@@ -31,7 +31,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "ce-17",
-    bloque: "Constitución",
+    area: "Constitución Española",
     enunciado: "¿Cuál es el plazo máximo general de la detención preventiva antes de la puesta en libertad o a disposición judicial?",
     opciones: ["24 horas", "48 horas", "72 horas", "Cinco días"],
     correcta: 2,
@@ -40,7 +40,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "ce-24",
-    bloque: "Constitución",
+    area: "Constitución Española",
     enunciado: "El derecho a obtener la tutela efectiva se ejerce ante:",
     opciones: ["Los jueces y tribunales", "El Defensor del Pueblo", "El Consejo de Ministros", "Las Fuerzas y Cuerpos de Seguridad"],
     correcta: 0,
@@ -49,7 +49,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "ce-117",
-    bloque: "Constitución",
+    area: "Constitución Española",
     enunciado: "La justicia, según la Constitución:",
     opciones: ["Emana del Gobierno", "Emana del pueblo", "Depende del Ministerio Fiscal", "Se administra por las Cortes"],
     correcta: 1,
@@ -58,7 +58,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lopj-actos",
-    bloque: "Poder Judicial",
+    area: "Funciones de Auxilio Judicial",
     enunciado: "¿Cuál de estas series contiene solo actos de comunicación que puede practicar el Cuerpo de Auxilio Judicial?",
     opciones: ["Notificaciones, citaciones, emplazamientos y requerimientos", "Sentencias, autos, decretos y diligencias", "Demandas, contestaciones, recursos y pruebas", "Embargos, lanzamientos, subastas y tasaciones"],
     correcta: 0,
@@ -67,7 +67,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lopj-certifica",
-    bloque: "Poder Judicial",
+    area: "Funciones de Auxilio Judicial",
     enunciado: "Al practicar actos de comunicación, el personal de Auxilio Judicial ostenta:",
     opciones: ["Potestad reglamentaria", "Capacidad de certificación", "Fe pública notarial", "Jurisdicción propia"],
     correcta: 1,
@@ -76,7 +76,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lopj-autoridad",
-    bloque: "Poder Judicial",
+    area: "Funciones de Auxilio Judicial",
     enunciado: "¿En cuál de estas actuaciones procede Auxilio Judicial como agente de la autoridad?",
     opciones: ["Aprobar reglamentos", "Ejecutar embargos y lanzamientos", "Resolver recursos", "Dictar diligencias de ordenación"],
     correcta: 1,
@@ -85,7 +85,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lopj-policia",
-    bloque: "Poder Judicial",
+    area: "Funciones de Auxilio Judicial",
     enunciado: "La LOPJ permite al Cuerpo de Auxilio Judicial actuar como:",
     opciones: ["Policía Judicial con carácter de agente de la autoridad", "Abogacía del Estado", "Ministerio Fiscal sustituto", "Órgano jurisdiccional unipersonal"],
     correcta: 0,
@@ -94,7 +94,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lopj-jerarquia",
-    bloque: "Poder Judicial",
+    area: "Funciones de Auxilio Judicial",
     enunciado: "Las tareas generales de auxilio a la actividad de los órganos judiciales se realizan:",
     opciones: ["Con plena independencia funcional", "Bajo el principio de jerarquía", "Solo por delegación del Ministerio Fiscal", "Fuera de las relaciones de puestos de trabajo"],
     correcta: 1,
@@ -103,7 +103,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lec-notificacion",
-    bloque: "Proceso civil",
+    area: "Actos de comunicación civil",
     enunciado: "En la Ley de Enjuiciamiento Civil, una notificación tiene por objeto:",
     opciones: ["Dar noticia de una resolución o actuación", "Ordenar una conducta", "Fijar lugar y hora para comparecer", "Ordenar una certificación registral"],
     correcta: 0,
@@ -112,7 +112,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lec-emplazamiento",
-    bloque: "Proceso civil",
+    area: "Actos de comunicación civil",
     enunciado: "¿Qué acto de comunicación se utiliza para personarse y actuar dentro de un plazo?",
     opciones: ["Oficio", "Mandamiento", "Emplazamiento", "Notificación"],
     correcta: 2,
@@ -121,7 +121,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lec-citacion",
-    bloque: "Proceso civil",
+    area: "Actos de comunicación civil",
     enunciado: "¿Qué acto determina lugar, fecha y hora para comparecer y actuar?",
     opciones: ["Citación", "Emplazamiento", "Requerimiento", "Oficio"],
     correcta: 0,
@@ -130,7 +130,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lec-requerimiento",
-    bloque: "Proceso civil",
+    area: "Actos de comunicación civil",
     enunciado: "Un requerimiento sirve para:",
     opciones: ["Dar noticia de una resolución", "Ordenar una conducta o inactividad", "Abrir siempre un plazo para recurrir", "Comunicar con autoridades no judiciales"],
     correcta: 1,
@@ -139,7 +139,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lec-direccion",
-    bloque: "Proceso civil",
+    area: "Actos de comunicación civil",
     enunciado: "Los actos de comunicación se realizan bajo la dirección de:",
     opciones: ["La persona titular del Ministerio de Justicia", "El letrado o letrada de la Administración de Justicia", "El procurador en todos los casos", "La Policía Judicial"],
     correcta: 1,
@@ -148,7 +148,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lecrim-lectura",
-    bloque: "Proceso penal",
+    area: "Actos de comunicación penal",
     enunciado: "En una notificación penal personal, la diligencia comprende con carácter general:",
     opciones: ["La lectura íntegra y entrega de copia", "Solo un resumen oral", "La publicación automática en el BOE", "La entrega exclusiva al procurador"],
     correcta: 0,
@@ -157,7 +157,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lecrim-diligencia",
-    bloque: "Proceso penal",
+    area: "Actos de comunicación penal",
     enunciado: "¿Qué debe constar en la diligencia de notificación penal, además de las firmas?",
     opciones: ["El día y la hora", "La profesión del destinatario", "El número de testigos del juicio", "La cuantía del procedimiento"],
     correcta: 0,
@@ -166,7 +166,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lecrim-cedula",
-    bloque: "Proceso penal",
+    area: "Actos de comunicación penal",
     enunciado: "¿Cuál de estos datos debe figurar en una cédula de citación penal?",
     opciones: ["El lugar, día y hora de comparecencia", "La propuesta de sentencia", "Los antecedentes penales del citado", "La identidad de todos los funcionarios del órgano"],
     correcta: 0,
@@ -175,7 +175,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lecrim-urgente",
-    bloque: "Proceso penal",
+    area: "Actos de comunicación penal",
     enunciado: "En un caso urgente, un testigo puede ser citado:",
     opciones: ["Solo por edicto", "Verbalmente, dejando constancia del motivo", "Solo mediante correo certificado", "Únicamente por el Ministerio Fiscal"],
     correcta: 1,
@@ -184,7 +184,7 @@ export const PREGUNTAS_DIAGNOSTICO: PreguntaDiagnostico[] = [
   },
   {
     id: "lecrim-policia",
-    bloque: "Proceso penal",
+    area: "Actos de comunicación penal",
     enunciado: "¿Quién puede autorizar a agentes de policía para practicar diligencias de citación en la instrucción?",
     opciones: ["El juez instructor", "El alcalde", "El registrador civil", "El colegio de procuradores"],
     correcta: 0,
