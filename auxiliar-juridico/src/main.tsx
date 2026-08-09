@@ -14,7 +14,7 @@ const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://lor
 const WHATSAPP = "34640828654";
 captureAttribution();
 initialiseAnalytics();
-const WHATSAPP_MESSAGE = withCampaignReference("Hola Academia LORMAN, quiero información sobre los tests de Auxilio Judicial C2.");
+const WHATSAPP_MESSAGE = withCampaignReference("Hola Academia LORMAN, quiero acceder a los tests de Auxilio Judicial por 29 €.");
 const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 // Inventario editorial conservado para trazabilidad del aula, no se muestra como contenido público.
@@ -34,15 +34,15 @@ function App() {
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Auxilio Judicial 2026 · examen 3 de octubre · solo tests</p>
-          <h1>Practica todo el programa.<br />Llega a octubre con varios repasos.</h1>
-          <p className="lm-lead">Cuestionarios autocorregibles que cubren los 26 temas de Auxilio Judicial. Practica por bloques, detecta fallos y repite justo lo que más te cuesta. Pago único de 29 € y acceso hasta el examen. Es un curso de tests: no incluye temario teórico.</p>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final · examen 3 de octubre · solo tests</p>
+          <h1>Deja de dar vueltas.<br />Ve al test.</h1>
+          <p className="lm-lead">Ya tienes temario. Ahora toca responder, corregir fallos y repetir. Practica los 26 temas hasta el examen por <strong>29 € en un único pago</strong>. Solo tests: no incluye temario teórico.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
-            label="Preguntar por el acceso"
-            message="Hola, quiero consultar el acceso a los tests de Auxilio Judicial C2."
+            label="Quiero los tests por 29 €"
+            message="Hola Academia LORMAN, quiero acceder a los tests de Auxilio Judicial por 29 €."
           >
-            <a className="lm-btn lm-btn-outline" href="#prueba">Hacer el test gratis</a>
+            <a className="lm-btn lm-btn-outline" href="#prueba">Probar 20 preguntas</a>
           </CtaContacto>
         </section>
 
@@ -57,10 +57,10 @@ function App() {
         </section>
 
         <section className="lm-shell lm-boxes" id="tests" aria-label="Contenido de práctica del aula">
-          <Cajon kicker="01 · COBERTURA" title="Los 26 temas, cubiertos con tests" text="Preguntas de organización judicial, procedimientos y actos de comunicación. No incluye el desarrollo teórico de los temas." figure="programa cubierto" />
-          <Cajon kicker="02 · PRÁCTICA" title="Entrena desde varios ángulos" text="Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen para dar nuevas vueltas al programa." figure="práctica variada" />
-          <Cajon kicker="03 · CORRECCIÓN" title="Corrige y sigue" text="Comprueba aciertos, errores y la respuesta correcta al terminar cada test." figure="respuesta al momento" />
-          <CajonCierre kicker="04 · ACCESO" title="Todo el banco por 29 €" text="Pago único y acceso hasta el examen. Curso de tests; no incluye temario teórico." href={WHATSAPP_URL} label="Consultar acceso" />
+          <Cajon kicker="01 · COBERTURA" title="Practica los 26 temas" text="Preguntas de organización judicial, procedimientos y actos de comunicación. Sin añadirte otro temario que estudiar." figure="programa cubierto" />
+          <Cajon kicker="02 · REPASO" title="Da más vueltas al programa" text="Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen para practicar sin parar." figure="práctica variada" />
+          <Cajon kicker="03 · CORRECCIÓN" title="Falla, corrige y repite" text="Comprueba aciertos, errores y la respuesta correcta al terminar cada test. Repasa justo donde fallas." figure="respuesta al momento" />
+          <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Solo tests autocorregibles; no incluye temario teórico." href={WHATSAPP_URL} label="Quiero acceder" />
         </section>
 
         <DiagnosticoAuxilio />
@@ -68,11 +68,11 @@ function App() {
         <section className="lm-shell lm-seo-copy" aria-labelledby="preparar-auxilio">
           <div>
             <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final</p>
-            <h2 id="preparar-auxilio">Tests de Auxilio Judicial para practicar hasta el examen.</h2>
+            <h2 id="preparar-auxilio">Queda poco. Haz tests.</h2>
           </div>
           <div>
-            <p>El acceso libre de Auxilio Judicial de la convocatoria vigente tiene el examen señalado para el <strong>3 de octubre de 2026</strong>. Esta aula está pensada para quien ya estudia el programa y necesita comprobar si reconoce la respuesta correcta con rapidez.</p>
-            <p>No vendemos un temario teórico. Vendemos práctica: cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen, con corrección inmediata para que puedas dar más vueltas al programa sin depender de un horario.</p>
+            <p>El examen de acceso libre de Auxilio Judicial es el <strong>3 de octubre de 2026</strong>. Si ya estudias el programa, no necesitas empezar otro temario: necesitas responder, detectar fallos y volver a intentarlo.</p>
+            <p>Practica con cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen. Corrige al momento y da más vueltas al programa sin clases, horarios ni permanencia.</p>
           </div>
         </section>
 

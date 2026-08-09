@@ -17,14 +17,16 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(source, /Auxilio Judicial/);
   assert.match(source, /TOPICS = \[/);
   assert.match(source, /course\/view\.php\?id=11/);
-  assert.match(source, /cubren los 26 temas de Auxilio Judicial/);
+  assert.match(source, /Practica los 26 temas/);
+  assert.match(source, /Deja de dar vueltas/);
+  assert.match(source, /29 € en un único pago/);
   assert.match(source, /no incluye temario teórico/i);
   assert.match(source, /Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen/);
   assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(html, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(source, /gsi-casos-practicos|Forja TIC|sslip\.io|lorman-academia\.vercel\.app/i);
   assert.match(html, /Auxilio Judicial 2026/);
-  assert.match(html, /Test Auxilio Judicial gratis 2026/);
+  assert.match(html, /Tests Auxilio Judicial 2026 por 29 €/);
   assert.match(html, /FAQPage/);
   assert.match(html, /https:\/\/auxiliojudicial\.academialorman\.es\//);
   assert.doesNotMatch(html, /auxiliar-juridico\.vercel\.app/);
@@ -38,7 +40,7 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(analytics, /VITE_GA4_MEASUREMENT_ID/);
   assert.match(analytics, /VITE_CLARITY_PROJECT_ID/);
   assert.match(analytics, /analytics_storage/);
-  assert.match(sitemap, /2026-08-08/);
+  assert.match(sitemap, /2026-08-09/);
   assert.match(sitemap, /https:\/\/auxiliojudicial\.academialorman\.es\//);
   assert.match(config, /"outputDirectory": "dist"/);
   assert.match(config, /"type": "host"/);
