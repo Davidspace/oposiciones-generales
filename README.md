@@ -12,6 +12,16 @@ Monorepo de las aplicaciones y landings de las oposiciones que no pertenecen al 
 | `administrativo-estado/` | Auxiliar Administrativo del Estado, C2 | `/` |
 | `auxiliar-juridico/` | Auxilio Judicial, C2 · solo tests | `/` |
 
+URLs públicas actuales:
+
+- Academia LORMAN (sitio principal): `https://academialorman.es/`.
+- Alias de compatibilidad: `https://lorman-academia.vercel.app/` (canónica en `academialorman.es`).
+- Cartera común experimental: `https://lorman-lab.vercel.app/`.
+- SS CasoLab: `https://ss.academialorman.es/`.
+- TAI Academia: `https://tai.academialorman.es/`.
+- Administrativo del Estado C2: `https://administrativo-estado.vercel.app/`.
+- Auxilio Judicial C2: `https://auxiliojudicial.academialorman.es/`.
+
 Cada producto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba y no debe sobrescribirse.
 
 ## Desarrollo
@@ -32,7 +42,7 @@ Cada landing independiente tiene una prueba de navegación que no necesita servi
 npm run test:portfolio
 ```
 
-En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://lorman-academia.vercel.app`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cinco destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
+En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Academia LORMAN. Si no se configura, se usa `https://academialorman.es`. En el laboratorio común, `.env.example` documenta las variables `VITE_*` para la cartera, Moodle y los cinco destinos de producto. Son URLs públicas: no introduzcas secretos en estos archivos.
 
 ## Despliegue
 

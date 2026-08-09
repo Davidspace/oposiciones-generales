@@ -29,7 +29,7 @@ export const CURSOS: FichaCursoProps[] = [
       note: "acceso hasta el examen",
       value: "SEGÚN SERVICIO DE SALUD",
     },
-    cta: { label: "Elegir servicio de salud", href: "https://lorman-academia.vercel.app/" },
+    cta: { label: "Elegir servicio de salud", href: url("VITE_TCAE_URL", PRODUCT_URLS.tcae) },
   },
   {
     code: "TAI",

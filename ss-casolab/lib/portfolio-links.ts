@@ -1,4 +1,4 @@
-const DEFAULT_PORTFOLIO_URL = "https://lorman-lab.vercel.app";
+const DEFAULT_PORTFOLIO_URL = "https://academialorman.es";
 
 function publicUrl(value: string | undefined, fallback: string) {
   const candidate = value?.trim();

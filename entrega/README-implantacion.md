@@ -12,7 +12,7 @@ visual común con esquinas normales** y **una paleta sobria por producto**.
 | `FichaCurso.tsx` | Tarjeta de curso del hub: código grande, tipo de contenido, precio solo si está cerrado y un botón grande hacia su landing. |
 | `Cajones.tsx` | Los cuatro cajones de cada landing (Temario, Test, Simulacros, Precio/Acceso). El de cierre lleva siempre **«Quiero apuntarme»**. |
 | `CtaContacto.tsx` | Botón grande de WhatsApp con la marca, para la sección principal. |
-| `Instagram.tsx` | Icono y enlace sutil de Instagram (`@tcae_academia_lm`). |
+| `Instagram.tsx` | Icono y enlace sutil de Instagram (`@oposicioneslm`). |
 | `AvisoComun.tsx` | Pie legal común con enlaces, Instagram y los cuatro textos de aviso. |
 | `MuestraMaterial.tsx` | Fila «Muestra del material»: páginas del temario (con pestañas si hay varias ramas) y preguntas tipo test en desplegables. |
 | `assets/muestras/` | Páginas de muestra: `tai-1..4` (TAI), `sms-1..5` (Servicio Murciano de Salud) y `sas-1..4` (Servicio Andaluz de Salud). |

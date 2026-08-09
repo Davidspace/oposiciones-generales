@@ -10,9 +10,10 @@ No se ha escrito en Moodle ni se han modificado fuentes editoriales de SS. Auxil
 
 | Superficie | Proyecto | Destino por defecto | Estado de código |
 |---|---|---|---|
-| Cartera común | `lorman-lab/` | `https://lorman-lab.vercel.app` | Hub independiente; cinco destinos configurables |
-| TAI | `tai-academia/` | `https://tai-academia.vercel.app` | Landing independiente |
-| SS CasoLab | `ss-casolab/` | `https://ss-casolab.vercel.app` | Landing y corpus editorial separados |
+| Academia LORMAN (sitio principal) | `LORMANAcademia` (proyecto Vercel `academialorman-site`) | `https://academialorman.es` | Sitio principal independiente; el proyecto histórico `lorman-academia` se conserva y su alias antiguo sirve la misma versión con canonical nuevo |
+| Cartera común | `lorman-lab/` | `https://lorman-lab.vercel.app` | Hub experimental; cinco destinos configurables |
+| TAI | `tai-academia/` | `https://tai.academialorman.es` | Landing independiente |
+| SS CasoLab | `ss-casolab/` | `https://ss.academialorman.es` | Landing y corpus editorial separados |
 | Administrativo del Estado C2 | `administrativo-estado/` | `https://administrativo-estado.vercel.app` | Landing de validación |
 | Auxilio Judicial C2 | `auxiliar-juridico/` | `https://auxiliojudicial.academialorman.es` | Landing independiente; solo tests. La URL de Vercel se conserva como compatibilidad |
 | Moodle | `lorman-lab/` → `/aula` | `https://aula.academialorman.es/course/view.php?id=2` | Destino configurable; no usa `sslip.io` |

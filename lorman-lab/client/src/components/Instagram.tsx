@@ -1,6 +1,6 @@
 /** Icono de Instagram (Lucide, trazo 1.5) y enlace sutil reutilizable. */
 
-export const INSTAGRAM_URL = "https://www.instagram.com/tcae_academia_lm/";
+export const INSTAGRAM_URL = "https://www.instagram.com/oposicioneslm/";
 
 export function IconoInstagram({ size = 17 }: { size?: number }) {
   return (

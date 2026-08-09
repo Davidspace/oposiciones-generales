@@ -10,7 +10,7 @@ import { EnlaceInstagram } from "./components/Instagram";
 import { initialiseAnalytics } from "./lib/analytics";
 import { captureAttribution, withCampaignReference } from "./lib/attribution";
 
-const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://lorman-lab.vercel.app";
+const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://academialorman.es";
 const WHATSAPP = "34640828654";
 captureAttribution();
 initialiseAnalytics();
