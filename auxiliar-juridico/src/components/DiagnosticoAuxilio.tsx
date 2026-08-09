@@ -71,9 +71,9 @@ export function DiagnosticoAuxilio() {
       <div className="lm-diagnostico-head">
         <div>
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 20 preguntas</p>
-          <h2 id="diagnostico-titulo">Comprueba cómo llevas cuatro áreas concretas del programa.</h2>
+          <h2 id="diagnostico-titulo">Descubre por dónde empezar o qué debes repasar.</h2>
         </div>
-        <p>20 preguntas con corrección explicada y resultado inmediato sobre Constitución, funciones de Auxilio Judicial y actos de comunicación civil y penal. Es una muestra parcial del programa oficial de 26 temas, no un simulacro completo.</p>
+        <p>20 preguntas con corrección explicada y resultado inmediato sobre Constitución, funciones de Auxilio Judicial y actos de comunicación civil y penal. Úsala tanto si empiezas hoy como si ya estás repasando. Es una muestra parcial del programa oficial de 26 temas, no un simulacro completo.</p>
       </div>
 
       {!started ? (

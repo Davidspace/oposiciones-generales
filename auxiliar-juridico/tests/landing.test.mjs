@@ -5,11 +5,12 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing describe el inventario de Auxilio Judicial y no mezcla otros productos", async () => {
-  const [source, html, config, diagnostic, analytics, sitemap] = await Promise.all([
+  const [source, html, config, diagnostic, diagnosticComponent, analytics, sitemap] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("index.html", root), "utf8"),
     readFile(new URL("vercel.json", root), "utf8"),
     readFile(new URL("src/data/diagnostico.ts", root), "utf8"),
+    readFile(new URL("src/components/DiagnosticoAuxilio.tsx", root), "utf8"),
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
     readFile(new URL("public/sitemap.xml", root), "utf8"),
   ]);
@@ -20,6 +21,9 @@ test("la landing describe el inventario de Auxilio Judicial y no mezcla otros pr
   assert.match(source, /Practica los 26 temas/);
   assert.match(source, /Deja de dar vueltas/);
   assert.match(source, /29 € en un único pago/);
+  assert.match(source, /Lleves meses o empieces hoy/);
+  assert.match(source, /¿Me sirve si acabo de empezar?/);
+  assert.match(diagnosticComponent, /tanto si empiezas hoy como si ya estás repasando/);
   assert.match(source, /no incluye temario teórico/i);
   assert.match(source, /Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen/);
   assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);

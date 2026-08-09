@@ -36,7 +36,7 @@ function App() {
         <section className="lm-shell lm-hero" id="inicio">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final · examen 3 de octubre · solo tests</p>
           <h1>Deja de dar vueltas.<br />Ve al test.</h1>
-          <p className="lm-lead">Ya tienes temario. Ahora toca responder, corregir fallos y repetir. Practica los 26 temas hasta el examen por <strong>29 € en un único pago</strong>. Solo tests: no incluye temario teórico.</p>
+          <p className="lm-lead">Lleves meses o empieces hoy, todavía puedes aprovechar la recta final. Usa los tests para descubrir qué dominas, localizar lagunas y centrar cada repaso. Practica los 26 temas hasta el examen por <strong>29 € en un único pago</strong>. Solo tests: no incluye temario teórico.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
             label="Quiero los tests por 29 €"
@@ -57,7 +57,7 @@ function App() {
         </section>
 
         <section className="lm-shell lm-boxes" id="tests" aria-label="Contenido de práctica del aula">
-          <Cajon kicker="01 · COBERTURA" title="Practica los 26 temas" text="Preguntas de organización judicial, procedimientos y actos de comunicación. Sin añadirte otro temario que estudiar." figure="programa cubierto" />
+          <Cajon kicker="01 · TU PUNTO DE PARTIDA" title="Empieza desde donde estés" text="Si llevas una semana, descubre qué debes priorizar. Si ya conoces el programa, convierte el repaso en aciertos." figure="para cualquier nivel" />
           <Cajon kicker="02 · REPASO" title="Da más vueltas al programa" text="Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen para practicar sin parar." figure="práctica variada" />
           <Cajon kicker="03 · CORRECCIÓN" title="Falla, corrige y repite" text="Comprueba aciertos, errores y la respuesta correcta al terminar cada test. Repasa justo donde fallas." figure="respuesta al momento" />
           <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Solo tests autocorregibles; no incluye temario teórico." href={WHATSAPP_URL} label="Quiero acceder" />
@@ -68,11 +68,11 @@ function App() {
         <section className="lm-shell lm-seo-copy" aria-labelledby="preparar-auxilio">
           <div>
             <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final</p>
-            <h2 id="preparar-auxilio">Queda poco. Haz tests.</h2>
+            <h2 id="preparar-auxilio">Queda poco. Empieza por un test.</h2>
           </div>
           <div>
-            <p>El examen de acceso libre de Auxilio Judicial es el <strong>3 de octubre de 2026</strong>. Si ya estudias el programa, no necesitas empezar otro temario: necesitas responder, detectar fallos y volver a intentarlo.</p>
-            <p>Practica con cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen. Corrige al momento y da más vueltas al programa sin clases, horarios ni permanencia.</p>
+            <p>El examen de acceso libre de Auxilio Judicial es el <strong>3 de octubre de 2026</strong>. Si acabas de empezar, los tests te ayudan a identificar prioridades y acompañar el estudio. Si ya llevas tiempo, te permiten comprobar lo que recuerdas y localizar fallos.</p>
+            <p>Practica con cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen. Corrige al momento y aprovecha estas últimas semanas sin clases, horarios ni permanencia.</p>
           </div>
         </section>
 
@@ -80,7 +80,8 @@ function App() {
           <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
           <div>
             <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Es una muestra diagnóstica parcial con 20 preguntas originales de Academia LORMAN sobre cuatro áreas concretas del programa. Está basada en legislación consolidada, pero no evalúa los 26 temas ni sustituye un simulacro completo. Los exámenes y textos oficiales siempre prevalecen.</p></details>
-            <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Es adecuado si ya estudias con tus apuntes o temario.</p></details>
+            <details><summary>¿Me sirve si acabo de empezar?</summary><p>Sí, para medir tu punto de partida, reconocer el tipo de cuestiones que debes dominar y decidir qué estudiar primero. Como el curso no incluye teoría, necesitarás acompañarlo con legislación, apuntes o un temario propio.</p></details>
+            <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Puedes empezar desde cero, pero necesitarás estudiar la teoría con legislación, apuntes o un temario propio.</p></details>
             <details><summary>¿Cuánto dura el acceso?</summary><p>El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
             <details><summary>¿Hay clases o tutorías?</summary><p>No hay clases semanales ni tutoría individual. Puedes practicar a tu ritmo y consultar por WhatsApp las dudas sobre el acceso.</p></details>
           </div>
