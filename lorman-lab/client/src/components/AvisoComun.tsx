@@ -1,9 +1,10 @@
 /**
  * Pie legal común a todas las superficies.
- * Incluye marca, enlaces, Instagram sutil y el aviso de independencia.
+ * Incluye marca, enlaces de contacto e Instagram, además del aviso de independencia.
  */
 
 import { EnlaceInstagram } from "./Instagram";
+import { EnlaceWhatsApp } from "./WhatsApp";
 
 export const AVISO_BASE =
   "Academia LORMAN es un proyecto educativo independiente. " +
@@ -44,11 +45,17 @@ export function AvisoComun({
         <div>
           <img src={logoSrc} alt="Academia LORMAN" />
           <div className="lm-footer-links">
-            {links.map((link) => (
+            {links
+              .filter((link) => link.label.trim().toLowerCase() !== "whatsapp")
+              .map((link) => (
               <a key={link.href + link.label} href={link.href}>
                 {link.label}
               </a>
-            ))}
+              ))}
+            <EnlaceWhatsApp
+              href={links.find((link) => link.label.trim().toLowerCase() === "whatsapp")?.href}
+              size={16}
+            />
             <EnlaceInstagram size={16} />
           </div>
         </div>
