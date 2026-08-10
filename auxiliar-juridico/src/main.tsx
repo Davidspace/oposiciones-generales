@@ -35,9 +35,9 @@ function App() {
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final · examen 3 de octubre · solo tests</p>
+          <p className="lm-eyebrow"><i aria-hidden="true" /> Recta final · examen 3 de octubre · práctica intensiva</p>
           <h1>Deja de dar vueltas.<br />Ve al test.</h1>
-          <p className="lm-lead">Lleves meses o empieces hoy, todavía puedes aprovechar la recta final. Usa los tests para descubrir qué dominas, localizar lagunas y centrar cada repaso. Practica los 26 temas hasta el examen por <strong>29 € en un único pago</strong>. Solo tests: no incluye temario teórico.</p>
+          <p className="lm-lead">Lleves meses o empieces hoy, todavía puedes aprovechar la recta final. Usa los tests para descubrir qué dominas, localizar lagunas y centrar cada repaso. Practica los 26 temas hasta el examen por <strong>29 € en un único pago</strong>. Preparación práctica: no incluye el temario teórico completo.</p>
           <CtaContacto
             whatsapp={WHATSAPP}
             label="Quiero los tests por 29 €"
@@ -66,10 +66,10 @@ function App() {
         </section>
 
         <section className="lm-shell lm-boxes" aria-label="Tests, supuestos prácticos y simulacros del aula">
-          <Cajon kicker="01 · TESTS" title="Tests por tema" text="Practica justo el bloque que acabas de estudiar y detecta al momento dónde estás fallando." figure="pregunta, corrige y repite" />
+          <Cajon kicker="01 · TESTS" title="Tests por tema" text="Cada tema empieza con una infografía y un esquema breve para situarte y repasar antes del cuestionario." figure="repasa, responde y corrige" />
           <Cajon kicker="02 · PRÁCTICA" title="Supuestos prácticos" text="Pasa del artículo al caso y entrena cómo aplicar la norma cuando el enunciado cambia." figure="aplica lo que estudias" />
           <Cajon kicker="03 · EXAMEN" title="Simulacros" text="Pon a prueba tu ritmo, tus decisiones y tu resistencia antes de llegar al examen real." figure="mídete con tiempo" />
-          <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Solo tests autocorregibles; no incluye temario teórico." href={WHATSAPP_URL} label="Quiero acceder" />
+          <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Práctica autocorregible con apoyo visual breve; no incluye el temario teórico completo." href={WHATSAPP_URL} label="Quiero acceder" />
         </section>
 
         <PruebaProducto whatsappUrl={WHATSAPP_URL} />
@@ -91,8 +91,8 @@ function App() {
           <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
           <div>
             <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Es un mini simulacro propio: 20 preguntas teóricas, 8 prácticas sobre dos casos originales y 2 preguntas de reserva. Aplica tiempos y una penalización proporcional al formato de la convocatoria, pero no evalúa los 26 temas ni sustituye un examen oficial.</p></details>
-            <details><summary>¿Me sirve si acabo de empezar?</summary><p>Sí. Te permite reconocer el tipo de pregunta, descubrir qué bloque debes priorizar y comprobar si estás entendiendo la lógica de los actos procesales. Como el curso no incluye teoría, puedes acompañarlo con legislación, apuntes o un temario propio.</p></details>
-            <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Puedes usarlo desde el principio para practicar, siempre junto con tu fuente de teoría.</p></details>
+            <details><summary>¿Me sirve si acabo de empezar?</summary><p>Sí. Te permite reconocer el tipo de pregunta, descubrir qué bloque debes priorizar y comprobar si estás entendiendo la lógica de los actos procesales. Como no incluye el desarrollo teórico completo, puedes acompañarlo con legislación, apuntes o un temario propio.</p></details>
+            <details><summary>¿El curso incluye temario teórico?</summary><p>No se entrega el desarrollo teórico completo. Cada tema sí incluye una infografía y un esquema breve para darte contexto y facilitar un repaso antes de sus cuestionarios. Puedes usarlo desde el principio, siempre junto con tu legislación, apuntes o temario.</p></details>
             <details><summary>¿Cuánto dura el acceso?</summary><p>El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
             <details><summary>¿Hay clases o tutorías?</summary><p>No hay clases semanales ni tutoría individual. Puedes practicar a tu ritmo y consultar por WhatsApp las dudas sobre el acceso.</p></details>
           </div>

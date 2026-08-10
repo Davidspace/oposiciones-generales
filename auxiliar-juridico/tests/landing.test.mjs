@@ -29,15 +29,16 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(source, /Probar el mini simulacro/);
   assert.match(source, /20 preguntas teóricas, 8 prácticas/);
   assert.match(source, /¿Me sirve si acabo de empezar\?/);
-  assert.match(source, /no incluye temario teórico/i);
+  assert.match(source, /no incluye el temario teórico completo/i);
   assert.match(source, /Tres formas de practicar\. Un mismo objetivo\./);
   assert.match(source, /Tests por tema/);
+  assert.match(source, /infografía y un esquema breve/i);
   assert.match(source, /Supuestos prácticos/);
   assert.match(source, /Simulacros/);
   assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(source, /gsi-casos-practicos|Forja TIC|sslip\.io|lorman-academia\.vercel\.app/i);
 
-  assert.match(productProof, /Práctica de los 26 temas/);
+  assert.match(productProof, /Práctica guiada de los 26 temas/);
   assert.match(productProof, /Repasos acumulativos/);
   assert.match(productProof, /Supuestos prácticos/);
   assert.match(productProof, /Simulacros teóricos y prácticos/);
@@ -45,7 +46,7 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(productProof, /10 agosto 2026/);
   assert.match(productProof, /revisión editorial interna, no un dictamen jurídico externo/i);
   assert.match(productProof, /Acceso al aula Moodle/);
-  assert.match(productProof, /no incluye temario teórico/i);
+  assert.match(productProof, /no incluye el desarrollo teórico completo/i);
   assert.doesNotMatch(productProof, /Mira el aula\. Mira cómo corrige\./);
   assert.doesNotMatch(productProof, /No vamos a inventarnos reseñas\./);
   assert.doesNotMatch(productProof, /\/muestras\//);

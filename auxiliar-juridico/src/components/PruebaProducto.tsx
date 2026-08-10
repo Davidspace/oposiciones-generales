@@ -5,8 +5,8 @@ type PruebaProductoProps = {
 const CONTENIDO = [
   {
     numero: "01",
-    titulo: "Práctica de los 26 temas",
-    texto: "Cuestionarios organizados por el programa para trabajar cada tema por separado. No incluye el desarrollo teórico.",
+    titulo: "Práctica guiada de los 26 temas",
+    texto: "Cada tema incorpora una infografía y un esquema breve de contexto antes de sus cuestionarios. No incluye el desarrollo teórico completo.",
   },
   {
     numero: "02",
@@ -37,7 +37,7 @@ export function PruebaProducto({ whatsappUrl }: PruebaProductoProps) {
         <div className="lm-inventory-intro">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Contenido comprobado</p>
           <h2 id="inventario-titulo">Esto es lo que vas a encontrar.</h2>
-          <p>La preparación es exclusivamente práctica. Puedes usar tu temario, legislación o apuntes y entrar al aula para preguntar, corregir y repetir.</p>
+          <p>La preparación se centra en practicar. Antes de cada test tienes un repaso visual breve; para estudiar la teoría en profundidad, usa tu temario, legislación o apuntes.</p>
         </div>
         <ol className="lm-inventory-list">
           {CONTENIDO.map((item) => (
@@ -80,12 +80,13 @@ export function PruebaProducto({ whatsappUrl }: PruebaProductoProps) {
         <div className="lm-after-payment-copy">
           <ul>
             <li>Acceso al aula Moodle de Auxilio Judicial.</li>
+            <li>Infografía y esquema breve antes de los cuestionarios de cada tema.</li>
             <li>Cuestionarios por temas, repasos, supuestos y simulacros disponibles en el curso.</li>
             <li>Corrección automática al completar cada actividad.</li>
             <li>Acceso hasta el examen de la convocatoria vigente.</li>
             <li>Ayuda por WhatsApp para las dudas relacionadas con el acceso.</li>
           </ul>
-          <p><strong>Importante:</strong> no incluye temario teórico, clases en directo, tutorías individuales ni corrección manual.</p>
+          <p><strong>Importante:</strong> las infografías y los esquemas sirven como repaso y contexto; no sustituyen un temario teórico completo. No incluye clases en directo, tutorías individuales ni corrección manual.</p>
           <a className="lm-btn lm-btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer">Preguntar por el acceso</a>
         </div>
       </section>
