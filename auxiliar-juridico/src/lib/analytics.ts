@@ -71,7 +71,9 @@ export function loadAnalytics() {
   if (GA_ID) {
     const debugMode = isGaDebugMode();
     window.dataLayer = window.dataLayer || [];
-    window.gtag = (...args: unknown[]) => window.dataLayer?.push(args);
+    window.gtag = function (..._args: unknown[]) {
+      window.dataLayer?.push(arguments);
+    };
     window.gtag("consent", "default", {
       analytics_storage: "granted",
       ad_storage: "denied",

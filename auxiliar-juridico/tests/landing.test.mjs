@@ -82,6 +82,7 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(analytics, /VITE_GA4_MEASUREMENT_ID/);
   assert.match(analytics, /VITE_CLARITY_PROJECT_ID/);
   assert.match(analytics, /analytics_storage/);
+  assert.match(analytics, /dataLayer\?\.push\(arguments\)/);
   assert.match(analytics, /ga_debug/);
   assert.match(analytics, /ga_debug_probe/);
   assert.match(analytics, /debug_mode: true/);
