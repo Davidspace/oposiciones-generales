@@ -20,6 +20,20 @@ function isGaDebugMode() {
   return new URLSearchParams(window.location.search).get("ga_debug") === "1";
 }
 
+function logGaDebugTransport() {
+  if (!isGaDebugMode()) return;
+  window.setTimeout(() => {
+    const resources = window.performance
+      .getEntriesByType("resource")
+      .map((entry) => entry.name)
+      .filter((url) => url.includes("googletagmanager.com") || url.includes("google-analytics.com"));
+    console.info("[LORMAN analytics] GA4 transporte", JSON.stringify({
+      dataLayerEntries: window.dataLayer?.length ?? 0,
+      resources,
+    }));
+  }, 5_000);
+}
+
 export function getAnalyticsConsent(): AnalyticsConsent | null {
   if (typeof window === "undefined") return null;
   const value = window.localStorage.getItem(CONSENT_KEY);
@@ -78,6 +92,7 @@ export function loadAnalytics() {
       console.info("[LORMAN analytics] GA4 debug_mode activo");
     }
     appendScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}`, "lorman-ga4");
+    logGaDebugTransport();
   }
 
   if (CLARITY_ID) {

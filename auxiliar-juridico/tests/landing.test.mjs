@@ -85,6 +85,7 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(analytics, /ga_debug/);
   assert.match(analytics, /ga_debug_probe/);
   assert.match(analytics, /debug_mode: true/);
+  assert.match(analytics, /GA4 transporte/);
   assert.match(sitemap, /2026-08-10/);
   assert.match(sitemap, /https:\/\/auxiliojudicial\.academialorman\.es\//);
   assert.match(config, /"outputDirectory": "dist"/);
