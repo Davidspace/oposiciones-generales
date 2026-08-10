@@ -42,7 +42,7 @@ function App() {
             label="Quiero los tests por 29 €"
             message="Hola Academia LORMAN, quiero acceder a los tests de Auxilio Judicial por 29 €."
           >
-            <a className="lm-btn lm-btn-outline" href="#prueba">Probar 20 preguntas</a>
+            <a className="lm-btn lm-btn-outline" href="#prueba">Probar el mini simulacro</a>
           </CtaContacto>
         </section>
 
@@ -72,16 +72,16 @@ function App() {
           </div>
           <div>
             <p>El examen de acceso libre de Auxilio Judicial es el <strong>3 de octubre de 2026</strong>. Si acabas de empezar, los tests te ayudan a identificar prioridades y acompañar el estudio. Si ya llevas tiempo, te permiten comprobar lo que recuerdas y localizar fallos.</p>
-            <p>Practica con cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen. Corrige al momento y aprovecha estas últimas semanas sin clases, horarios ni permanencia.</p>
+            <p>La convocatoria vigente separa un primer ejercicio teórico y un segundo ejercicio práctico de 40 preguntas sobre dos supuestos. Practica con cuestionarios por temas, repasos, supuestos, simulacros y modelos de examen. Corrige al momento y aprovecha estas últimas semanas sin clases, horarios ni permanencia.</p>
           </div>
         </section>
 
         <section className="lm-shell lm-faq lm-aux-faq" aria-labelledby="preguntas-frecuentes">
           <h2 id="preguntas-frecuentes">Preguntas frecuentes</h2>
           <div>
-            <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Es una muestra diagnóstica parcial con 20 preguntas originales de Academia LORMAN sobre cuatro áreas concretas del programa. Está basada en legislación consolidada, pero no evalúa los 26 temas ni sustituye un simulacro completo. Los exámenes y textos oficiales siempre prevalecen.</p></details>
-            <details><summary>¿Me sirve si acabo de empezar?</summary><p>Sí, para medir tu punto de partida, reconocer el tipo de cuestiones que debes dominar y decidir qué estudiar primero. Como el curso no incluye teoría, necesitarás acompañarlo con legislación, apuntes o un temario propio.</p></details>
-            <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Puedes empezar desde cero, pero necesitarás estudiar la teoría con legislación, apuntes o un temario propio.</p></details>
+            <details><summary>¿La prueba gratuita es un examen oficial?</summary><p>No. Es un mini simulacro propio: 20 preguntas teóricas, 8 prácticas sobre dos casos originales y 2 preguntas de reserva. Aplica tiempos y una penalización proporcional al formato de la convocatoria, pero no evalúa los 26 temas ni sustituye un examen oficial.</p></details>
+            <details><summary>¿Me sirve si acabo de empezar?</summary><p>Sí. Te permite reconocer el tipo de pregunta, descubrir qué bloque debes priorizar y comprobar si estás entendiendo la lógica de los actos procesales. Como el curso no incluye teoría, puedes acompañarlo con legislación, apuntes o un temario propio.</p></details>
+            <details><summary>¿El curso incluye temario teórico?</summary><p>No. Los 26 temas están cubiertos mediante tests y práctica, pero no se entrega su desarrollo teórico. Puedes usarlo desde el principio para practicar, siempre junto con tu fuente de teoría.</p></details>
             <details><summary>¿Cuánto dura el acceso?</summary><p>El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
             <details><summary>¿Hay clases o tutorías?</summary><p>No hay clases semanales ni tutoría individual. Puedes practicar a tu ritmo y consultar por WhatsApp las dudas sobre el acceso.</p></details>
           </div>
