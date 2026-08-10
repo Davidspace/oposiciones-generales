@@ -15,6 +15,11 @@ const GA_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID?.trim();
 const CLARITY_ID = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
 let loaded = false;
 
+function isGaDebugMode() {
+  if (typeof window === "undefined") return false;
+  return new URLSearchParams(window.location.search).get("ga_debug") === "1";
+}
+
 export function getAnalyticsConsent(): AnalyticsConsent | null {
   if (typeof window === "undefined") return null;
   const value = window.localStorage.getItem(CONSENT_KEY);
@@ -50,6 +55,7 @@ export function loadAnalytics() {
   loaded = true;
 
   if (GA_ID) {
+    const debugMode = isGaDebugMode();
     window.dataLayer = window.dataLayer || [];
     window.gtag = (...args: unknown[]) => window.dataLayer?.push(args);
     window.gtag("consent", "default", {
@@ -59,7 +65,18 @@ export function loadAnalytics() {
       ad_personalization: "denied",
     });
     window.gtag("js", new Date());
-    window.gtag("config", GA_ID, { send_page_view: true, allow_google_signals: false });
+    window.gtag("config", GA_ID, {
+      send_page_view: true,
+      allow_google_signals: false,
+      ...(debugMode ? { debug_mode: true } : {}),
+    });
+    if (debugMode) {
+      window.gtag("event", "ga_debug_probe", {
+        debug_mode: true,
+        debug_source: "auxilio_landing",
+      });
+      console.info("[LORMAN analytics] GA4 debug_mode activo");
+    }
     appendScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}`, "lorman-ga4");
   }
 
@@ -81,7 +98,11 @@ export function trackEvent(name: string, parameters: Record<string, string | num
   if (getAnalyticsConsent() !== "granted") return;
   const attribution = getAttribution();
   const safeParameters = Object.fromEntries(
-    Object.entries({ ...attribution, ...parameters }).filter(([, value]) => value !== "" && value !== undefined),
+    Object.entries({
+      ...attribution,
+      ...parameters,
+      ...(isGaDebugMode() ? { debug_mode: true } : {}),
+    }).filter(([, value]) => value !== "" && value !== undefined),
   );
   window.gtag?.("event", name, safeParameters);
   window.clarity?.("event", name);
