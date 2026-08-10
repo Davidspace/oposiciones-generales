@@ -5,6 +5,11 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/whatsapp",
+      "destination": "/?utm_source=whatsapp&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=difusion_masiva_01#prueba",
+      "permanent": false
+    },
+    {
       "source": "/telegram",
       "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupos_telegram#prueba",
       "permanent": false

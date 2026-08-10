@@ -56,4 +56,17 @@ Para no publicar parámetros UTM largos en los grupos, Vercel redirige estos enl
 
 Los alias usan redirecciones temporales para que la campaña de destino pueda cambiar sin dejar una redirección permanente en la caché del navegador.
 
+### Enlace corto para difusión masiva por WhatsApp
+
+`https://auxiliojudicial.academialorman.es/whatsapp`
+
+Redirige a la prueba gratuita con esta atribución:
+
+- `utm_source=whatsapp`
+- `utm_medium=community`
+- `utm_campaign=auxilio_octubre_2026`
+- `utm_content=difusion_masiva_01`
+
+En GA4, filtra por la campaña `auxilio_octubre_2026`, la fuente `whatsapp` y el contenido `difusion_masiva_01`. La medición de GA4 solo contará a quienes acepten la analítica y no la bloqueen.
+
 No incluyas nombres, teléfonos, emails ni alias de personas en las UTM.
