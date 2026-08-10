@@ -5,7 +5,7 @@
   "outputDirectory": "dist",
   "redirects": [
     {
-      "source": "/whatsapp",
+      "source": "/prueba-gratis",
       "destination": "/?utm_source=whatsapp&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=difusion_masiva_01#prueba",
       "permanent": false
     },

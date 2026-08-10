@@ -58,7 +58,7 @@ Los alias usan redirecciones temporales para que la campaña de destino pueda ca
 
 ### Enlace corto para difusión masiva por WhatsApp
 
-`https://auxiliojudicial.academialorman.es/whatsapp`
+`https://auxiliojudicial.academialorman.es/prueba-gratis`
 
 Redirige a la prueba gratuita con esta atribución:
 
