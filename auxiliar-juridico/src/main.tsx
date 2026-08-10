@@ -7,6 +7,7 @@ import { CtaContacto } from "./components/CtaContacto";
 import { ConsentBanner } from "./components/ConsentBanner";
 import { DiagnosticoAuxilio } from "./components/DiagnosticoAuxilio";
 import { EnlaceInstagram } from "./components/Instagram";
+import { PruebaProducto } from "./components/PruebaProducto";
 import { initialiseAnalytics } from "./lib/analytics";
 import { captureAttribution, withCampaignReference } from "./lib/attribution";
 
@@ -70,6 +71,8 @@ function App() {
           <Cajon kicker="03 · EXAMEN" title="Simulacros" text="Pon a prueba tu ritmo, tus decisiones y tu resistencia antes de llegar al examen real." figure="mídete con tiempo" />
           <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Solo tests autocorregibles; no incluye temario teórico." href={WHATSAPP_URL} label="Quiero acceder" />
         </section>
+
+        <PruebaProducto whatsappUrl={WHATSAPP_URL} />
 
         <DiagnosticoAuxilio />
 

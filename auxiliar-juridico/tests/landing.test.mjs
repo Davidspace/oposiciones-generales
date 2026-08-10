@@ -5,12 +5,13 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing presenta el mini simulacro 20+8 y conserva la separación editorial", async () => {
-  const [source, html, config, diagnostic, diagnosticComponent, whatsapp, analytics, sitemap, cases, labels, revision] = await Promise.all([
+  const [source, html, config, diagnostic, diagnosticComponent, productProof, whatsapp, analytics, sitemap, cases, labels, revision] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("index.html", root), "utf8"),
     readFile(new URL("vercel.json", root), "utf8"),
     readFile(new URL("src/data/diagnostico.ts", root), "utf8"),
     readFile(new URL("src/components/DiagnosticoAuxilio.tsx", root), "utf8"),
+    readFile(new URL("src/components/PruebaProducto.tsx", root), "utf8"),
     readFile(new URL("src/components/WhatsApp.tsx", root), "utf8"),
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
     readFile(new URL("public/sitemap.xml", root), "utf8"),
@@ -35,6 +36,20 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(source, /Simulacros/);
   assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(source, /gsi-casos-practicos|Forja TIC|sslip\.io|lorman-academia\.vercel\.app/i);
+
+  assert.match(productProof, /Práctica de los 26 temas/);
+  assert.match(productProof, /Repasos acumulativos/);
+  assert.match(productProof, /Supuestos prácticos/);
+  assert.match(productProof, /Simulacros teóricos y prácticos/);
+  assert.match(productProof, /Modelos de estructura oficial/);
+  assert.match(productProof, /10 agosto 2026/);
+  assert.match(productProof, /revisión editorial interna, no un dictamen jurídico externo/i);
+  assert.match(productProof, /Acceso al aula Moodle/);
+  assert.match(productProof, /no incluye temario teórico/i);
+  assert.match(productProof, /no tiene opiniones verificadas publicadas/i);
+  assert.match(productProof, /aula-repasos\.png/);
+  assert.match(productProof, /resultado-mini-simulacro\.png/);
+  assert.match(productProof, /explicacion-correccion\.png/);
 
   assert.match(html, /Mini simulacro gratuito de Auxilio Judicial 2026/);
   assert.match(html, /"numberOfQuestions": 30/);
