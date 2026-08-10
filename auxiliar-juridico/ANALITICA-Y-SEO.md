@@ -41,4 +41,19 @@ Ejemplo:
 
 `https://auxiliojudicial.academialorman.es/?utm_source=instagram&utm_medium=organic_social&utm_campaign=auxilio_octubre_2026&utm_content=story_test_01`
 
+### Enlaces cortos para Telegram
+
+Para no publicar parámetros UTM largos en los grupos, Vercel redirige estos enlaces de marca a la prueba gratuita y conserva la atribución completa:
+
+| Uso | Enlace público |
+| --- | --- |
+| Telegram genérico | `https://auxiliojudicial.academialorman.es/telegram` |
+| Grupo `-1001441812729` | `https://auxiliojudicial.academialorman.es/telegram/1` |
+| Grupo `-1001911601736`, hilo 1 | `https://auxiliojudicial.academialorman.es/telegram/2` |
+| Grupo `-1001911601736`, hilo 13056 | `https://auxiliojudicial.academialorman.es/telegram/3` |
+| Grupo `-1001277938515` | `https://auxiliojudicial.academialorman.es/telegram/4` |
+| Grupo `-1001876384373`, hilo 1 | `https://auxiliojudicial.academialorman.es/telegram/5` |
+
+Los alias usan redirecciones temporales para que la campaña de destino pueda cambiar sin dejar una redirección permanente en la caché del navegador.
+
 No incluyas nombres, teléfonos, emails ni alias de personas en las UTM.

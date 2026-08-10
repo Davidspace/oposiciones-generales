@@ -5,6 +5,36 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/telegram",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupos_telegram#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/telegram/1",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupo_1441812729#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/telegram/2",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupo_1911601736_1#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/telegram/3",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupo_1911601736_13056#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/telegram/4",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupo_1277938515#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/telegram/5",
+      "destination": "/?utm_source=telegram&utm_medium=community&utm_campaign=auxilio_octubre_2026&utm_content=grupo_1876384373_1#prueba",
+      "permanent": false
+    },
+    {
       "source": "/:path*",
       "has": [
         {
