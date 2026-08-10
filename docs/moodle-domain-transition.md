@@ -11,7 +11,11 @@ Fecha de intervención: 10 de agosto de 2026.
 
 ## Compatibilidad aplicada
 
-Apache redirige las solicitudes HTTPS del dominio heredado al dominio canónico con estado `307`. Este estado conserva el método y el cuerpo de las solicitudes `POST` que usa la aplicación móvil para obtener el token de acceso. La respuesta de transición incluye `Access-Control-Allow-Origin: *` para que la app pueda seguir la redirección entre ambos nombres de host.
+Apache redirige las solicitudes web `GET` y `HEAD` del dominio heredado al dominio canónico con estado `307`, conservando la ruta y la consulta. Las solicitudes `POST` de la aplicación móvil no se redirigen: Moodle las rechaza con `requirecorrectaccess` para impedir que una conexión guardada con `sslip.io` quede autenticada parcialmente.
+
+Esta separación es necesaria porque la app relaciona el token y las URLs de archivos con el centro exacto que el usuario añadió. Si el centro local es `sslip.io`, pero Moodle genera los archivos desde `aula.academialorman.es`, la app puede mostrar el curso y no añadir el token a los recursos. El resultado visible es `missingparam: token`.
+
+La respuesta del host heredado incluye `Access-Control-Allow-Origin: *` para que la aplicación pueda leer el error de migración en vez de recibir un fallo de red opaco.
 
 No se modificaron cursos, usuarios, matrículas, contraseñas, tokens ni contenidos de Moodle.
 
@@ -28,9 +32,10 @@ Copia previa disponible en el servidor:
 
 - `apache2ctl configtest`: `Syntax OK`.
 - servicio `apache2`: activo tras la recarga.
-- el dominio antiguo redirige la raíz y conserva la ruta del curso.
-- `POST /login/token.php` en el dominio antiguo devuelve `307`, conserva el cuerpo y termina en el endpoint canónico.
+- el dominio antiguo redirige la raíz y conserva la ruta del curso para navegación web.
+- `POST /login/token.php` en el dominio antiguo devuelve `requirecorrectaccess` y no crea una conexión móvil parcial.
 - el endpoint canónico de la app responde con CORS y procesa la solicitud.
+- los 26 PDF del curso SERGAS TCAE respondieron correctamente mediante el endpoint móvil canónico con la matrícula de prueba existente.
 
 ## Instrucción para usuarios
 
