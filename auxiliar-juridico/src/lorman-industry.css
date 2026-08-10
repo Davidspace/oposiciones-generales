@@ -1026,6 +1026,25 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   text-decoration: underline;
 }
 
+.lm-offer-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, .9fr);
+  gap: 64px;
+  align-items: end;
+  padding-top: 12px;
+}
+.lm-offer-intro .lm-eyebrow { margin-bottom: 16px; }
+.lm-offer-intro h2 {
+  margin: 0;
+  font-family: var(--lm-font-heading);
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: .98;
+  text-transform: uppercase;
+}
+.lm-offer-intro > p { margin: 0; max-width: 520px; color: var(--lm-muted); font-size: 17px; }
+body .lm-page > section.lm-shell.lm-offer-intro { margin-bottom: 28px; }
+body .lm-page:not(.lm-hub) > section.lm-shell.lm-offer-intro + section.lm-boxes { padding-top: 0; }
+
 .lm-diagnostico { padding-bottom: 96px; }
 .lm-diagnostico-head {
   display: grid;
@@ -1198,7 +1217,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   .lm-exam-strip { grid-template-columns: 1fr 1fr; }
   .lm-exam-strip > div:nth-child(2) { border-right: 0; }
   .lm-exam-strip > div:nth-child(n+3) { border-top: 1px solid var(--lm-line); }
-  .lm-diagnostico-head, .lm-seo-copy, .lm-aux-faq { grid-template-columns: 1fr; gap: 28px; }
+  .lm-offer-intro, .lm-diagnostico-head, .lm-seo-copy, .lm-aux-faq { grid-template-columns: 1fr; gap: 28px; }
   .lm-diagnostic-options { grid-template-columns: 1fr; }
   .lm-result-score, .lm-result-breakdown { display: flex; width: 100%; }
   .lm-result-breakdown { border-top: 1px solid var(--lm-ink); }
@@ -1237,4 +1256,17 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   .lm-answer-review details > div { padding: 0 0 20px 42px; }
   .lm-consent { grid-template-columns: 1fr; left: 10px; right: 10px; bottom: 10px; gap: 14px; }
   .lm-consent-actions { display: grid; grid-template-columns: 1fr 1fr; }
+}
+
+body .lm-page:not(.lm-hub) .lm-footer .lm-wa {
+  gap: 8px;
+  color: #fff !important;
+  font-size: 15px !important;
+  font-weight: 600;
+}
+body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
+  display: block;
+  flex: 0 0 auto;
+  width: 19px;
+  height: 19px;
 }

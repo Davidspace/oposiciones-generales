@@ -56,10 +56,18 @@ function App() {
           </div>
         </section>
 
-        <section className="lm-shell lm-boxes" id="tests" aria-label="Contenido de práctica del aula">
-          <Cajon kicker="01 · TU PUNTO DE PARTIDA" title="Empieza desde donde estés" text="Si llevas una semana, descubre qué debes priorizar. Si ya conoces el programa, convierte el repaso en aciertos." figure="para cualquier nivel" />
-          <Cajon kicker="02 · REPASO" title="Da más vueltas al programa" text="Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen para practicar sin parar." figure="práctica variada" />
-          <Cajon kicker="03 · CORRECCIÓN" title="Falla, corrige y repite" text="Comprueba aciertos, errores y la respuesta correcta al terminar cada test. Repasa justo donde fallas." figure="respuesta al momento" />
+        <section className="lm-shell lm-offer-intro" id="tests" aria-labelledby="contenido-aula">
+          <div>
+            <p className="lm-eyebrow"><i aria-hidden="true" /> Dentro del aula</p>
+            <h2 id="contenido-aula">Tres formas de practicar. Un mismo objetivo.</h2>
+          </div>
+          <p>Empieza por preguntas concretas, aplica lo estudiado en casos y termina comprobando tu ritmo. Elige lo que necesitas hoy y avanza sin depender de clases ni horarios.</p>
+        </section>
+
+        <section className="lm-shell lm-boxes" aria-label="Tests, supuestos prácticos y simulacros del aula">
+          <Cajon kicker="01 · TESTS" title="Tests por tema" text="Practica justo el bloque que acabas de estudiar y detecta al momento dónde estás fallando." figure="pregunta, corrige y repite" />
+          <Cajon kicker="02 · PRÁCTICA" title="Supuestos prácticos" text="Pasa del artículo al caso y entrena cómo aplicar la norma cuando el enunciado cambia." figure="aplica lo que estudias" />
+          <Cajon kicker="03 · EXAMEN" title="Simulacros" text="Pon a prueba tu ritmo, tus decisiones y tu resistencia antes de llegar al examen real." figure="mídete con tiempo" />
           <CajonCierre kicker="04 · ACCESO" title="29 € hasta el examen" text="Un único pago. Solo tests autocorregibles; no incluye temario teórico." href={WHATSAPP_URL} label="Quiero acceder" />
         </section>
 

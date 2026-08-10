@@ -5,12 +5,13 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing presenta el mini simulacro 20+8 y conserva la separación editorial", async () => {
-  const [source, html, config, diagnostic, diagnosticComponent, analytics, sitemap, cases, labels, revision] = await Promise.all([
+  const [source, html, config, diagnostic, diagnosticComponent, whatsapp, analytics, sitemap, cases, labels, revision] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("index.html", root), "utf8"),
     readFile(new URL("vercel.json", root), "utf8"),
     readFile(new URL("src/data/diagnostico.ts", root), "utf8"),
     readFile(new URL("src/components/DiagnosticoAuxilio.tsx", root), "utf8"),
+    readFile(new URL("src/components/WhatsApp.tsx", root), "utf8"),
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
     readFile(new URL("public/sitemap.xml", root), "utf8"),
     readFile(new URL("docs/casos-simulacro-2.md", root), "utf8"),
@@ -28,7 +29,10 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(source, /20 preguntas teóricas, 8 prácticas/);
   assert.match(source, /¿Me sirve si acabo de empezar\?/);
   assert.match(source, /no incluye temario teórico/i);
-  assert.match(source, /Cuestionarios por tema, repasos, supuestos prácticos, simulacros y modelos de examen/);
+  assert.match(source, /Tres formas de practicar\. Un mismo objetivo\./);
+  assert.match(source, /Tests por tema/);
+  assert.match(source, /Supuestos prácticos/);
+  assert.match(source, /Simulacros/);
   assert.doesNotMatch(source, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(source, /gsi-casos-practicos|Forja TIC|sslip\.io|lorman-academia\.vercel\.app/i);
 
@@ -55,6 +59,10 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(diagnosticComponent, /THEORY_SECONDS/);
   assert.match(diagnosticComponent, /PRACTICAL_SECONDS/);
   assert.match(diagnosticComponent, /−0,15/);
+  assert.match(diagnosticComponent, /20 min para teoría · 12 min para práctica/);
+  assert.doesNotMatch(diagnosticComponent, /32 min aprox\./);
+  assert.match(whatsapp, /fill="currentColor"/);
+  assert.match(whatsapp, /lm-wa-icon/);
 
   assert.match(analytics, /VITE_GA4_MEASUREMENT_ID/);
   assert.match(analytics, /VITE_CLARITY_PROJECT_ID/);

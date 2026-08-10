@@ -171,14 +171,14 @@ export function DiagnosticoAuxilio() {
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · mini simulacro · 20 teóricas + 8 prácticas</p>
           <h2 id="diagnostico-titulo">Practica como te van a preguntar.</h2>
         </div>
-        <p>Un recorrido breve y exigente: 20 preguntas teóricas, 8 preguntas prácticas sobre dos casos originales y 2 preguntas de reserva. Cada bloque tiene su tiempo y su corrección explicada. Es una muestra propia basada en legislación consolidada, no un examen oficial.</p>
+        <p>Un recorrido breve y exigente: 20 preguntas teóricas en 20 minutos y 8 preguntas prácticas en 12 minutos, sobre dos casos originales. Incluye una reserva por ejercicio y corrección explicada. Es una muestra propia basada en legislación consolidada, no un examen oficial.</p>
       </div>
 
       {!started ? (
         <div className="lm-diagnostico-intro">
           <div>
-            <strong>32 min aprox.</strong>
-            <span>20 teóricas · 8 prácticas · 2 reservas · dos casos de comunicación y actuación judicial</span>
+            <strong>Dos bloques cronometrados</strong>
+            <span>20 min para teoría · 12 min para práctica · 2 reservas · dos casos de comunicación y actuación judicial</span>
           </div>
           <button className="lm-btn lm-btn-primary" type="button" onClick={start}>Empezar el mini simulacro</button>
         </div>

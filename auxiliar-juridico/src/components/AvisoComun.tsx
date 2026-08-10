@@ -54,7 +54,7 @@ export function AvisoComun({
               ))}
             <EnlaceWhatsApp
               href={links.find((link) => link.label.trim().toLowerCase() === "whatsapp")?.href}
-              size={16}
+              size={19}
             />
             <EnlaceInstagram size={16} />
           </div>
