@@ -46,10 +46,9 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(productProof, /revisión editorial interna, no un dictamen jurídico externo/i);
   assert.match(productProof, /Acceso al aula Moodle/);
   assert.match(productProof, /no incluye temario teórico/i);
-  assert.match(productProof, /no tiene opiniones verificadas publicadas/i);
-  assert.match(productProof, /aula-repasos\.png/);
-  assert.match(productProof, /resultado-mini-simulacro\.png/);
-  assert.match(productProof, /explicacion-correccion\.png/);
+  assert.doesNotMatch(productProof, /Mira el aula\. Mira cómo corrige\./);
+  assert.doesNotMatch(productProof, /No vamos a inventarnos reseñas\./);
+  assert.doesNotMatch(productProof, /\/muestras\//);
 
   assert.match(html, /Mini simulacro gratuito de Auxilio Judicial 2026/);
   assert.match(html, /"numberOfQuestions": 30/);

@@ -30,58 +30,9 @@ const CONTENIDO = [
   },
 ];
 
-const CAPTURAS = [
-  {
-    src: "/muestras/aula-repasos.png",
-    alt: "Vista real del aula Moodle de Auxilio Judicial con repasos acumulativos y transversales",
-    titulo: "Aula real",
-    texto: "Repasos acumulativos y tests transversales dentro de Moodle.",
-  },
-  {
-    src: "/muestras/pregunta-mini-simulacro.png",
-    alt: "Pregunta real del mini simulacro gratuito de Auxilio Judicial",
-    titulo: "Pregunta y tiempo",
-    texto: "Enunciado, cuatro alternativas, contador y penalización visible.",
-  },
-  {
-    src: "/muestras/resultado-mini-simulacro.png",
-    alt: "Resultado real del mini simulacro con puntuación teórica, práctica y por bloques",
-    titulo: "Resultado inmediato",
-    texto: "Puntuación separada por ejercicio y desglose de las áreas practicadas.",
-  },
-  {
-    src: "/muestras/explicacion-correccion.png",
-    alt: "Corrección explicada de una pregunta con enlace a la Constitución en el BOE",
-    titulo: "Corrección explicada",
-    texto: "Respuesta correcta, explicación y acceso directo a la fuente oficial.",
-  },
-];
-
 export function PruebaProducto({ whatsappUrl }: PruebaProductoProps) {
   return (
     <>
-      <section className="lm-shell lm-product-proof" aria-labelledby="prueba-producto-titulo">
-        <div className="lm-proof-heading">
-          <div>
-            <p className="lm-eyebrow"><i aria-hidden="true" /> Antes de pagar</p>
-            <h2 id="prueba-producto-titulo">Mira el aula. Mira cómo corrige.</h2>
-          </div>
-          <p>No tienes que fiarte de una promesa. Estas capturas pertenecen al aula actual y al minisimulacro que puedes completar gratis en esta misma página.</p>
-        </div>
-
-        <div className="lm-proof-gallery">
-          {CAPTURAS.map((captura) => (
-            <figure key={captura.src} className="lm-proof-shot">
-              <a href={captura.src} target="_blank" rel="noreferrer" aria-label={`${captura.titulo}. Abrir captura a tamaño completo.`}>
-                <img src={captura.src} alt={captura.alt} loading="lazy" decoding="async" />
-              </a>
-              <figcaption><strong>{captura.titulo}</strong><span>{captura.texto}</span></figcaption>
-            </figure>
-          ))}
-        </div>
-        <p className="lm-proof-caption">Capturas realizadas el 10 de agosto de 2026. La vista del aula se obtuvo en modo de lectura y no muestra datos de alumnos.</p>
-      </section>
-
       <section className="lm-shell lm-inventory" aria-labelledby="inventario-titulo">
         <div className="lm-inventory-intro">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Contenido comprobado</p>
@@ -139,17 +90,6 @@ export function PruebaProducto({ whatsappUrl }: PruebaProductoProps) {
         </div>
       </section>
 
-      <section className="lm-shell lm-first-reviews" aria-labelledby="opiniones-titulo">
-        <div>
-          <p className="lm-eyebrow"><i aria-hidden="true" /> Opiniones reales</p>
-          <h2 id="opiniones-titulo">No vamos a inventarnos reseñas.</h2>
-        </div>
-        <div>
-          <p>Este curso de Auxilio Judicial todavía no tiene opiniones verificadas publicadas. Queremos que las primeras personas prueben el aula, nos señalen cualquier fallo y cuenten su experiencia con sus propias palabras.</p>
-          <p>Cuando publiquemos una opinión, indicaremos que procede de un usuario real y pediremos permiso antes de mostrarla.</p>
-          <a className="lm-btn lm-btn-outline" href={whatsappUrl} target="_blank" rel="noreferrer">Quiero probarlo y dar feedback</a>
-        </div>
-      </section>
     </>
   );
 }
