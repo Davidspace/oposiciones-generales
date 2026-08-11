@@ -1,9 +1,12 @@
+"use client";
+
 /**
  * Botón grande de contacto por WhatsApp con la marca LORMAN.
  * Va en la sección principal de cada superficie (no en la cabecera).
  */
 
 import type { ReactNode } from "react";
+import { trackEvent } from "@/lib/analytics";
 
 export type CtaContactoProps = {
   /** Número en formato internacional sin signos: 34XXXXXXXXX */
@@ -37,6 +40,7 @@ export function CtaContacto({
           href={whatsappHref}
           target="_blank"
           rel="noreferrer"
+          onClick={() => trackEvent("whatsapp_click", { placement: "hero" })}
         >
           <img className="lm-btn-mark" src={logoSrc} alt="" />
           <span>{label}</span>

@@ -19,7 +19,7 @@ export function TaiMaterialPreview() {
       <div className="tai-preview-layout">
         <div className="tai-pages" aria-label="Páginas reales del temario TAI">
           {pages.map((page, index) => (
-            <a href={page.src} target="_blank" rel="noreferrer" key={page.src}>
+            <a href={page.src} target="_blank" rel="noreferrer" key={page.src} data-analytics-event="material_preview_open" data-analytics-placement={`page_${index + 1}`}>
               <img src={page.src} alt={page.alt} loading="lazy" decoding="async" />
               <span>Página {String(index + 1).padStart(2, "0")} · ampliar ↗</span>
             </a>
@@ -34,7 +34,7 @@ export function TaiMaterialPreview() {
             <li><span>03</span><div><strong>Vuelve a lo que falla</strong><p>Corrección inmediata y explicaciones para convertir cada error en un repaso concreto.</p></div></li>
             <li><span>04</span><div><strong>Ensaya las dos partes</strong><p>Simulacros teóricos y prácticos para trabajar formato, criterio y ritmo.</p></div></li>
           </ol>
-          <a href="#prueba">Probar ahora una muestra →</a>
+          <a href="#prueba" data-analytics-event="trial_cta_click" data-analytics-placement="material_preview">Probar ahora una muestra →</a>
         </aside>
       </div>
     </section>

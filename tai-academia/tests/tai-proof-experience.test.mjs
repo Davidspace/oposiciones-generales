@@ -31,16 +31,40 @@ test("la prueba declara su alcance y diferencia las rutas prácticas", async () 
   assert.match(diagnostic, /no es un simulacro oficial/i);
   assert.match(diagnostic, /Ruta práctica · bloque III/);
   assert.match(diagnostic, /Ruta práctica · bloque IV/);
-  assert.match(diagnostic, /Haz una prueba seria antes de pagar/);
+  assert.match(diagnostic, /Prueba TAI gratis\. Ve al grano/);
   assert.match(diagnostic, /Sin registro/);
-  assert.match(diagnostic, /Resultado por partes/);
+  assert.match(diagnostic, /Resultado inmediato/);
   assert.match(diagnostic, /Corrección explicada/);
-  assert.match(diagnostic, /8 preguntas comunes \+ 4 de la ruta práctica/);
+  assert.match(diagnostic, /8 generales \+ 4 prácticas/);
   assert.match(diagnostic, /Tu prioridad sugerida/);
   assert.match(diagnostic, /Seguir practicando por 69 €/);
   assert.match(diagnostic, /33 temas redactados/);
   assert.match(diagnostic, /Pago único · acceso hasta el examen/);
   assert.doesNotMatch(diagnostic, />Segunda parte</);
+});
+
+test("GA4 respeta el consentimiento, conserva UTM y mide el embudo de TAI", async () => {
+  const [analytics, attribution, provider, diagnostic, rootLayout, publicConfig] = await Promise.all([
+    source("lib/analytics.ts"),
+    source("lib/attribution.ts"),
+    source("components/AnalyticsProvider.tsx"),
+    source("components/TaiDiagnostic.tsx"),
+    source("app/layout.tsx"),
+    source("app/api/public-config/route.ts"),
+  ]);
+
+  assert.match(analytics, /G-ZD1KT7K2JM/);
+  assert.match(analytics, /analytics_storage:\s*"denied"/);
+  assert.match(analytics, /ad_storage:\s*"denied"/);
+  assert.match(analytics, /allow_google_signals:\s*false/);
+  assert.match(attribution, /utm_source/);
+  assert.match(attribution, /utm_campaign/);
+  assert.match(provider, /ConsentBanner/);
+  assert.match(rootLayout, /AnalyticsProvider/);
+  assert.match(publicConfig, /process\.env/);
+  assert.match(diagnostic, /quiz_start/);
+  assert.match(diagnostic, /quiz_complete/);
+  assert.match(diagnostic, /whatsapp_click/);
 });
 
 test("la vista previa social presenta primero la prueba gratuita", async () => {

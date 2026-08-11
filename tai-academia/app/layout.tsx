@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import { AnalyticsProvider } from "@/components/AnalyticsProvider";
 import "./globals.css";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -70,7 +71,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body><AnalyticsProvider>{children}</AnalyticsProvider></body>
     </html>
   );
 }

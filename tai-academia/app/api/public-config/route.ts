@@ -1,11 +1,9 @@
-import { env } from "cloudflare:workers";
-
 import { readPublicRuntimeConfig } from "@/lib/public-runtime-config";
 
 export async function GET(request: Request) {
   const experiment = new URL(request.url).searchParams.get("experiment") ?? "";
   const config = readPublicRuntimeConfig(
-    env as unknown as Record<string, unknown>,
+    process.env as Record<string, unknown>,
     experiment,
   );
 

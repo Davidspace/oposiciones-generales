@@ -27,7 +27,7 @@ export default function TaiLanding() {
             label="Preguntar por el acceso"
             message="Hola, quiero consultar el acceso al curso TAI C1."
           >
-            <a className="lm-btn lm-btn-outline" href="#prueba">Hacer la prueba gratis</a>
+            <a className="lm-btn lm-btn-outline" href="#prueba" data-analytics-event="trial_cta_click" data-analytics-placement="hero">Hacer la prueba gratis</a>
           </CtaContacto>
         </section>
 

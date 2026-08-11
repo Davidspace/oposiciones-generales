@@ -8,6 +8,7 @@ import {
   TAI_BOE_URL,
   type TaiQuestion,
 } from "@/data/tai-diagnostic";
+import { trackEvent } from "@/lib/analytics";
 
 type Route = "development" | "systems";
 
@@ -39,10 +40,32 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
   const answered = Object.keys(answers).length;
 
   function reset() {
+    if (route) trackEvent("quiz_restart", { quiz_name: "tai_diagnostico_12", practical_route: route });
     setRoute(null);
     setAnswers({});
     setCurrent(0);
     setFinished(false);
+  }
+
+  function chooseRoute(nextRoute: Route) {
+    trackEvent("quiz_start", { quiz_name: "tai_diagnostico_12", practical_route: nextRoute });
+    setRoute(nextRoute);
+  }
+
+  function finishQuiz() {
+    const correct = questions.filter((item) => answers[item.id] === item.correctIndex).length;
+    const generalCorrect = generalQuestions.filter((item) => answers[item.id] === item.correctIndex).length;
+    const practical = route === "development" ? developmentQuestions : systemsQuestions;
+    const practicalCorrect = practical.filter((item) => answers[item.id] === item.correctIndex).length;
+    trackEvent("quiz_complete", {
+      quiz_name: "tai_diagnostico_12",
+      practical_route: route,
+      score: correct,
+      general_score: generalCorrect,
+      practical_score: practicalCorrect,
+      answered_count: answered,
+    });
+    setFinished(true);
   }
 
   if (!route) {
@@ -51,28 +74,22 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
         <div className="tai-section-heading">
           <div>
             <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 12 preguntas</p>
-            <h2 id="tai-diagnostic-title">Haz una prueba seria antes de pagar.</h2>
+            <h2 id="tai-diagnostic-title">Prueba TAI gratis. Ve al grano.</h2>
           </div>
-          <p>Comprueba cómo preguntamos y cómo explicamos cada respuesta. Harás una muestra de la parte general y elegirás una de las dos rutas prácticas. Entras directamente y recibes el resultado al terminar.</p>
+          <p>8 generales + 4 prácticas del bloque que elijas. Corrige al terminar y descubre qué repasar.</p>
         </div>
 
-        <div className="tai-diagnostic-benefits" aria-label="Qué obtienes con la prueba gratuita">
-          <div><span>01</span><strong>Sin registro</strong><p>No pedimos email ni datos personales para empezar.</p></div>
-          <div><span>02</span><strong>Resultado por partes</strong><p>Verás por separado la parte general y la ruta práctica elegida.</p></div>
-          <div><span>03</span><strong>Corrección explicada</strong><p>Revisa cada acierto, cada fallo y el razonamiento de la respuesta.</p></div>
-        </div>
+        <ul className="tai-diagnostic-benefits" aria-label="Qué obtienes con la prueba gratuita">
+          <li>Sin registro</li>
+          <li>Resultado inmediato</li>
+          <li>Corrección explicada</li>
+        </ul>
 
-        <div className="tai-route-intro">
-          <div>
-            <span className="tai-route-kicker">Tu prueba</span>
-            <strong>8 preguntas comunes + 4 de la ruta práctica</strong>
-          </div>
-          <p>Elige el bloque práctico que quieras comprobar hoy. Después podrás repetir la prueba con la otra ruta.</p>
-        </div>
+        <p className="tai-route-prompt">Elige tu bloque práctico</p>
 
         <div className="tai-route-picker" aria-label="Elige la ruta práctica">
           {(Object.keys(routeCopy) as Route[]).map((key) => (
-            <button className="tai-route-card" key={key} type="button" onClick={() => setRoute(key)}>
+            <button className="tai-route-card" key={key} type="button" onClick={() => chooseRoute(key)}>
               <span className="tai-route-kicker">{routeCopy[key].kicker}</span>
               <strong>{routeCopy[key].label}</strong>
               <span>{routeCopy[key].detail}</span>
@@ -82,9 +99,8 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
         </div>
 
         <div className="tai-diagnostic-note">
-          <strong>Sin registro y con corrección explicada.</strong>
-          <span>Es una muestra propia y parcial inspirada en la estructura vigente. No es un simulacro oficial.</span>
-          <a href={TAI_BOE_URL} target="_blank" rel="noreferrer">Consultar la convocatoria en el BOE ↗</a>
+          <span>Muestra propia basada en la estructura vigente. No es un simulacro oficial.</span>
+          <a href={TAI_BOE_URL} target="_blank" rel="noreferrer" onClick={() => trackEvent("official_source_click", { placement: "quiz_intro" })}>Ver convocatoria en el BOE ↗</a>
         </div>
       </section>
     );
@@ -131,7 +147,7 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
               <li>Simulacros de la parte general y de los bloques prácticos.</li>
             </ul>
             <div className="tai-result-actions">
-              <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=${whatsappMessage}`}>Seguir practicando por 69 €</a>
+              <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=${whatsappMessage}`} onClick={() => trackEvent("whatsapp_click", { placement: "quiz_result", score: correct, practical_route: route })}>Seguir practicando por 69 €</a>
               <button className="lm-btn lm-btn-outline" type="button" onClick={reset}>Repetir con otra ruta</button>
             </div>
             <small>Pago único · acceso hasta el examen · el botón abre WhatsApp.</small>
@@ -201,7 +217,7 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
       <div className="tai-quiz-actions">
         <button className="lm-btn lm-btn-outline" type="button" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>Anterior</button>
         {current === questions.length - 1 ? (
-          <button className="lm-btn lm-btn-primary" type="button" onClick={() => setFinished(true)}>Ver resultado</button>
+          <button className="lm-btn lm-btn-primary" type="button" onClick={finishQuiz}>Ver resultado</button>
         ) : (
           <button className="lm-btn lm-btn-primary" type="button" onClick={() => setCurrent((value) => value + 1)}>Siguiente</button>
         )}

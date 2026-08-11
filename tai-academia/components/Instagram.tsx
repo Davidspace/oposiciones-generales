@@ -1,4 +1,8 @@
+"use client";
+
 /** Icono de Instagram (Lucide, trazo 1.5) y enlace sutil reutilizable. */
+
+import { trackEvent } from "@/lib/analytics";
 
 export const INSTAGRAM_URL = "https://www.instagram.com/oposicioneslm/";
 
@@ -28,6 +32,7 @@ export function EnlaceInstagram({ size = 17 }: { size?: number }) {
       target="_blank"
       rel="noreferrer"
       aria-label="Instagram de Academia LORMAN"
+      onClick={() => trackEvent("social_click", { network: "instagram", placement: "navigation" })}
     >
       <IconoInstagram size={size} />
       <span>Instagram</span>
