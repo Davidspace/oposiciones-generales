@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://auxiliar-administrativo.academialorman.es/sitemap.xml

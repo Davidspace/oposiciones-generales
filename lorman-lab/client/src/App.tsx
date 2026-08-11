@@ -5,7 +5,6 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import TcaeHome from "@/pages/tcae-home";
-import C2Home from "@/pages/c2-home";
 import TestTcaeSas from "@/pages/test-tcae-sas";
 import NotFound from "@/pages/not-found";
 import { MOODLE_URL } from "@/lib/portfolio-links";
@@ -20,7 +19,6 @@ function Router() {
     <Switch>
       <Route path="/" component={Home}/>
       <Route path="/tcae" component={TcaeHome}/>
-      <Route path="/c2" component={C2Home}/>
       <Route path="/aula" component={AulaRedirect}/>
       <Route path="/test-tcae-sas" component={TestTcaeSas}/>
       <Route component={NotFound} />

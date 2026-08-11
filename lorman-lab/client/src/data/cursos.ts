@@ -13,6 +13,11 @@ import { PRODUCT_URLS } from "@/lib/portfolio-links";
 const runtimeEnv = import.meta.env as Record<string, string | undefined>;
 const url = (key: string, fallback: string) => runtimeEnv[key]?.trim() || fallback;
 
+export const WHATSAPP = "34640828654";
+
+const whatsappCourse = (course: string) =>
+  `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola, quiero información sobre ${course}.`)}`;
+
 export const CURSOS: FichaCursoProps[] = [
   {
     code: "TCAE",
@@ -58,6 +63,42 @@ export const CURSOS: FichaCursoProps[] = [
     cta: { label: "Ver curso SS", href: url("VITE_SS_URL", PRODUCT_URLS.ss) },
   },
   {
+    code: "AGE C2",
+    tone: "tai",
+    title: "Auxiliar Administrativo del Estado",
+    meta: "Administración General del Estado · subgrupo C2",
+    items: [
+      { title: "Normativa y psicotécnicos", note: "primera parte del ejercicio" },
+      { title: "Actividad administrativa y ofimática", note: "segunda parte" },
+      { title: "Práctica guiada", note: "pregunta por el acceso" },
+    ],
+    cta: { label: "Preguntar por Estado", href: whatsappCourse("Auxiliar Administrativo del Estado") },
+  },
+  {
+    code: "SAS",
+    tone: "tcae",
+    title: "Auxiliar Administrativo/a del SAS",
+    meta: "Servicio Andaluz de Salud · acceso libre y promoción interna",
+    items: [
+      { title: "Programa común y específico", note: "ruta ordenada por bloques" },
+      { title: "Tests y repasos", note: "práctica flexible" },
+      { title: "Supuestos y simulacros", note: "preparación orientada al ejercicio" },
+    ],
+    cta: { label: "Preguntar por SAS", href: whatsappCourse("Auxiliar Administrativo del SAS") },
+  },
+  {
+    code: "LOCAL",
+    tone: "hub",
+    title: "Auxiliar Administrativo Local",
+    meta: "Ayuntamientos y diputaciones · según bases",
+    items: [
+      { title: "Base común", note: "organización y procedimiento" },
+      { title: "Adaptación por convocatoria", note: "programa y ejercicio se comprueban" },
+      { title: "Tests y repasos", note: "material reutilizable por municipio" },
+    ],
+    cta: { label: "Proponer convocatoria", href: whatsappCourse("Auxiliar Administrativo Local") },
+  },
+  {
     code: "AUX. JUDICIAL",
     tone: "aux",
     title: "Auxilio Judicial",
@@ -75,19 +116,3 @@ export const CURSOS: FichaCursoProps[] = [
   },
 ];
 
-/** Ficha en espera de Moodle: no se renderiza hasta poner el flag a true. */
-export const MOSTRAR_C2 = false;
-
-export const WHATSAPP = "34640828654";
-
-export const CURSO_C2: FichaCursoProps = {
-  code: "C2",
-  tone: "hub",
-  title: "Auxiliar Administrativo del Estado",
-  meta: "Subgrupo C2",
-  items: [
-    { title: "Normativa y psicotécnicos", note: "primera parte" },
-    { title: "Actividad y ofimática", note: "segunda parte" },
-  ],
-  cta: { label: "Preguntar por el acceso", href: `https://wa.me/${WHATSAPP}?text=Hola%20Academia%20LORMAN%2C%20quiero%20informaci%C3%B3n%20sobre%20Auxiliar%20AGE%20C2.` },
-};

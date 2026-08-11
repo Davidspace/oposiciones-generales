@@ -4,11 +4,10 @@ import test from "node:test";
 
 const root = new URL("../", import.meta.url);
 
-test("the common hub uses configured product destinations and the canonical Moodle host", async () => {
-  const [app, home, fichas, cursos, index, links, envExample, vercel] = await Promise.all([
+test("the common hub exposes the administrative routes through WhatsApp", async () => {
+  const [app, home, cursos, index, links, envExample, vercel] = await Promise.all([
     readFile(new URL("client/src/App.tsx", root), "utf8"),
     readFile(new URL("client/src/pages/home.tsx", root), "utf8"),
-    readFile(new URL("client/src/data/fichas.ts", root), "utf8"),
     readFile(new URL("client/src/data/cursos.ts", root), "utf8"),
     readFile(new URL("client/index.html", root), "utf8"),
     readFile(new URL("client/src/lib/portfolio-links.ts", root), "utf8"),
@@ -17,36 +16,30 @@ test("the common hub uses configured product destinations and the canonical Mood
   ]);
 
   assert.match(app, /MOODLE_URL/);
-  assert.match(fichas, /PRODUCT_URLS\.tai/);
-  assert.match(fichas, /PRODUCT_URLS\.ss/);
-  assert.match(fichas, /PRODUCT_URLS\.c2/);
-  assert.match(fichas, /PRODUCT_URLS\.auxJuridico/);
-  assert.match(fichas, /temas cubiertos mediante cuestionarios/);
-  assert.doesNotMatch(fichas, /90\s+(?:cuestionarios|tests)/i);
-  assert.match(cursos, /Programa cubierto con tests/);
-  assert.match(cursos, /69 €/u);
-  assert.match(fichas, /69 €/u);
-  assert.match(cursos, /26 temas · sin material teórico/);
-  assert.doesNotMatch(cursos, /90\s+(?:cuestionarios|tests)/i);
-  assert.doesNotMatch(index, /90\s+(?:cuestionarios|tests)/i);
+  assert.doesNotMatch(app, /C2Home|path=\"\/c2\"/);
   assert.match(home, /FICHAS/);
-  assert.match(home, /PRODUCT_URLS\.c2/);
-  assert.match(home, /className="hub-skip-link"/);
-  assert.match(links, /VITE_MOODLE_URL/);
+  assert.match(home, /Estado, SAS y ayuntamientos/);
+
+  for (const label of [
+    "Auxiliar Administrativo del Estado",
+    "Auxiliar Administrativo/a del SAS",
+    "Auxiliar Administrativo Local",
+  ]) {
+    assert.match(cursos, new RegExp(label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  }
+
+  assert.match(cursos, /Preguntar por Estado/);
+  assert.match(cursos, /Preguntar por SAS/);
+  assert.match(cursos, /Proponer convocatoria/);
+  assert.match(cursos, /whatsappCourse/);
+  assert.doesNotMatch(cursos, /administrativo-estado\.vercel\.app/);
+  assert.doesNotMatch(links, /administrativo-estado\.vercel\.app/);
+  assert.doesNotMatch(envExample, /VITE_C2_URL/);
+  assert.doesNotMatch(index, /administrativo-estado\.vercel\.app/);
+  assert.match(index, /Auxiliar Administrativo del Estado C2/);
+  assert.match(index, /Auxiliar Administrativo\/a del SAS/);
+  assert.match(index, /Auxiliar Administrativo Local/);
   assert.match(links, /aula\.academialorman\.es/);
-  assert.match(links, /DEFAULT_PORTFOLIO_URL = "https:\/\/academialorman\.es"/u);
-  assert.match(links, /DEFAULT_TCAE_URL = "https:\/\/tcae\.academialorman\.es"/u);
-  assert.match(envExample, /VITE_TCAE_URL=https:\/\/tcae\.academialorman\.es/u);
-  assert.match(index, /canonical" href="https:\/\/academialorman\.es\//u);
-  assert.match(index, /og:url" content="https:\/\/academialorman\.es\//u);
-  assert.match(index, /https:\/\/tcae\.academialorman\.es\//u);
-  assert.doesNotMatch(index, /lorman-lab\.vercel\.app/u);
-  assert.match(envExample, /VITE_C2_URL/);
-  assert.match(envExample, /VITE_AUX_JURIDICO_URL/);
-  assert.match(envExample, /auxiliojudicial\.academialorman\.es/);
-  assert.match(vercel, /aula\.academialorman\.es\/course\/view\.php\?id=2/u);
-  assert.match(vercel, /lorman-academia\.vercel\.app/u);
-  assert.match(vercel, /https:\/\/academialorman\.es\/\$1/u);
-  assert.doesNotMatch(vercel, /sslip\.io/u);
-  assert.doesNotMatch(app, /sslip\.io/u);
+  assert.match(vercel, /https:\/\/academialorman\.es\/\$1/);
+  assert.doesNotMatch(vercel, /sslip\.io/);
 });

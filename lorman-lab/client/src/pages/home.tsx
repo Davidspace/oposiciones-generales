@@ -1,15 +1,12 @@
 import { useEffect } from "react";
 import { trackLabEvent } from "@/lib/lab-analytics";
-import { PRODUCT_URLS } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { FichaCurso } from "@/components/FichaCurso";
 import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
-import { CURSO_C2, CURSOS, MOSTRAR_C2, WHATSAPP } from "@/data/cursos";
+import { CURSOS, WHATSAPP } from "@/data/cursos";
 
-const FICHAS = MOSTRAR_C2
-  ? [...CURSOS, { ...CURSO_C2, cta: { ...CURSO_C2.cta, href: PRODUCT_URLS.c2 } }]
-  : CURSOS;
+const FICHAS = CURSOS;
 
 export default function Home() {
   useEffect(() => {
@@ -36,7 +33,7 @@ export default function Home() {
             <div>
               <p className="lm-eyebrow"><i aria-hidden="true" /> Oposiciones online</p>
               <h1>Elige tu oposición<br />y empieza a estudiar.</h1>
-              <p className="lm-lead">Material claro, tests y simulacros para avanzar a tu ritmo. ¿Tienes dudas? Escríbenos y lo vemos contigo.</p>
+              <p className="lm-lead">Material claro, tests y simulacros para avanzar a tu ritmo. Estado, SAS y ayuntamientos: cuéntanos tu convocatoria y vemos contigo la ruta que encaja.</p>
               <CtaContacto
                 whatsapp={WHATSAPP}
                 label="Hablar por WhatsApp"
