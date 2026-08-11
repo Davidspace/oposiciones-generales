@@ -31,7 +31,23 @@ test("la prueba declara su alcance y diferencia las rutas prácticas", async () 
   assert.match(diagnostic, /no es un simulacro oficial/i);
   assert.match(diagnostic, /Ruta práctica · bloque III/);
   assert.match(diagnostic, /Ruta práctica · bloque IV/);
+  assert.match(diagnostic, /Haz una prueba seria antes de pagar/);
+  assert.match(diagnostic, /Sin registro/);
+  assert.match(diagnostic, /Resultado por partes/);
+  assert.match(diagnostic, /Corrección explicada/);
+  assert.match(diagnostic, /8 preguntas comunes \+ 4 de la ruta práctica/);
+  assert.match(diagnostic, /Tu prioridad sugerida/);
+  assert.match(diagnostic, /Seguir practicando por 69 €/);
+  assert.match(diagnostic, /33 temas redactados/);
+  assert.match(diagnostic, /Pago único · acceso hasta el examen/);
   assert.doesNotMatch(diagnostic, />Segunda parte</);
+});
+
+test("la vista previa social presenta primero la prueba gratuita", async () => {
+  const layout = await source("app/tai/layout.tsx");
+  assert.match(layout, /Prueba gratuita TAI C1/);
+  assert.match(layout, /12 preguntas sin registro/);
+  assert.match(layout, /corrección explicada/);
 });
 
 test("las cuatro páginas reales siguen disponibles a tamaño completo", async () => {
