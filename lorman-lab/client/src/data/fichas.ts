@@ -3,7 +3,7 @@
    Destino: lorman-lab/client/src/data/fichas.ts
    Solo cifras respaldadas por el repositorio:
      TCAE  → client/src/data/tcae-tests.ts (16 tests por tema + 1 repaso)
-     TAI   → tai-academia/app/tai/page.tsx (33 temas, 33 autoev., 10 simulacros, 12 meses, 59 €)
+     TAI   → tai-academia/app/tai/page.tsx (33 temas, 33 autoev., 10 simulacros, acceso hasta el examen, 69 €)
      SS    → ss-casolab content:validate (36 temas, 36 tests, 14 casos) + page.tsx (79 €, acceso hasta el examen)
      C2    → administrativo-estado/app/page.tsx (5 preguntas de muestra; sin precio publicado)
    ============================================================ */
@@ -39,7 +39,7 @@ export const FICHAS: FichaOposicionProps[] = [
       { value: "33", label: "temas en PDF + 33 autoevaluaciones" },
       { value: "10", label: "simulacros: 5 del bloque III y 5 del IV" },
       { value: "hasta", label: "el día del examen" },
-      { value: "59 €", label: "pago único · acceso hasta el examen", tone: true },
+      { value: "69 €", label: "pago único · acceso hasta el examen", tone: true },
     ],
     primary: { label: "Ver el curso TAI C1", href: PRODUCT_URLS.tai },
     secondary: { label: "Ver la ruta", href: `${PRODUCT_URLS.tai}#ruta` },

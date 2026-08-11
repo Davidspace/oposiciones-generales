@@ -4,6 +4,17 @@
   "outputDirectory": "dist/public",
   "routes": [
     {
+      "src": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "lorman-academia.vercel.app"
+        }
+      ],
+      "dest": "https://academialorman.es/$1",
+      "status": 308
+    },
+    {
       "src": "/aula",
       "status": 307,
       "headers": {

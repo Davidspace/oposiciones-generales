@@ -251,7 +251,7 @@ test("contains the TAI course landing based on the LORMAN Moodle inventory", asy
   assert.match(page, /33 autoevaluaciones/);
   assert.match(page, /10 simulacros completos/);
   assert.match(page, /1\.030 plazas/);
-  assert.match(page, /59 €/);
+  assert.match(page, /69 €/);
   assert.match(page, /sin clases obligatorias/);
   assert.doesNotMatch(page, /forjatic|ForjaTIC/);
   assert.match(layout, /Curso completo TAI 2026 \| Academia LORMAN/);

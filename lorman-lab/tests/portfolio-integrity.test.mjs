@@ -24,6 +24,8 @@ test("the common hub uses configured product destinations and the canonical Mood
   assert.match(fichas, /temas cubiertos mediante cuestionarios/);
   assert.doesNotMatch(fichas, /90\s+(?:cuestionarios|tests)/i);
   assert.match(cursos, /Programa cubierto con tests/);
+  assert.match(cursos, /69 €/u);
+  assert.match(fichas, /69 €/u);
   assert.match(cursos, /26 temas · sin material teórico/);
   assert.doesNotMatch(cursos, /90\s+(?:cuestionarios|tests)/i);
   assert.doesNotMatch(index, /90\s+(?:cuestionarios|tests)/i);
@@ -40,6 +42,8 @@ test("the common hub uses configured product destinations and the canonical Mood
   assert.match(envExample, /VITE_AUX_JURIDICO_URL/);
   assert.match(envExample, /auxiliojudicial\.academialorman\.es/);
   assert.match(vercel, /aula\.academialorman\.es\/course\/view\.php\?id=2/u);
+  assert.match(vercel, /lorman-academia\.vercel\.app/u);
+  assert.match(vercel, /https:\/\/academialorman\.es\/\$1/u);
   assert.doesNotMatch(vercel, /sslip\.io/u);
   assert.doesNotMatch(app, /sslip\.io/u);
 });

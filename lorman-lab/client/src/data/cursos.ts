@@ -41,7 +41,7 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Tests y autoevaluaciones", note: "práctica por tema" },
       { title: "Simulacros de las dos partes", note: "teóricos y prácticos" },
     ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "59 €" },
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "69 €" },
     cta: { label: "Ver curso TAI", href: url("VITE_TAI_URL", PRODUCT_URLS.tai) },
   },
   {
