@@ -35,8 +35,11 @@ test("the common hub uses configured product destinations and the canonical Mood
   assert.match(links, /VITE_MOODLE_URL/);
   assert.match(links, /aula\.academialorman\.es/);
   assert.match(links, /DEFAULT_PORTFOLIO_URL = "https:\/\/academialorman\.es"/u);
+  assert.match(links, /DEFAULT_TCAE_URL = "https:\/\/tcae\.academialorman\.es"/u);
+  assert.match(envExample, /VITE_TCAE_URL=https:\/\/tcae\.academialorman\.es/u);
   assert.match(index, /canonical" href="https:\/\/academialorman\.es\//u);
   assert.match(index, /og:url" content="https:\/\/academialorman\.es\//u);
+  assert.match(index, /https:\/\/tcae\.academialorman\.es\//u);
   assert.doesNotMatch(index, /lorman-lab\.vercel\.app/u);
   assert.match(envExample, /VITE_C2_URL/);
   assert.match(envExample, /VITE_AUX_JURIDICO_URL/);

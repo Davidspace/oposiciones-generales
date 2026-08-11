@@ -1,6 +1,6 @@
 const DEFAULT_PORTFOLIO_URL = "https://academialorman.es";
 const DEFAULT_MOODLE_URL = "https://aula.academialorman.es";
-const DEFAULT_TCAE_URL = "https://academialorman.es";
+const DEFAULT_TCAE_URL = "https://tcae.academialorman.es";
 const DEFAULT_TAI_URL = "https://tai.academialorman.es";
 const DEFAULT_SS_URL = "https://ss.academialorman.es";
 const DEFAULT_C2_URL = "https://administrativo-estado.vercel.app";
