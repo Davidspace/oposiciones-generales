@@ -1267,3 +1267,61 @@ body .lm-page.lm-tai .tai-study-flow > a { display: inline-block; margin-top: 20
   body .lm-page:not(.lm-hub) .lm-pregunta-titulo { grid-column: 2; grid-row: 1; min-width: 0; font-weight: 500; }
   body .lm-page:not(.lm-hub) .lm-pregunta-ver { grid-column: 2; grid-row: 2; justify-self: start; font-size: 9px; letter-spacing: .08em; }
 }
+
+/* TAI navigation polish: calmer type rhythm and unclipped contact icon. */
+body .lm-page.lm-tai .lm-header {
+  min-height: 84px;
+}
+
+body .lm-page.lm-tai .lm-header .lm-logo img {
+  height: 36px;
+}
+
+body .lm-page.lm-tai .lm-header .lm-nav {
+  gap: 28px;
+}
+
+body .lm-page.lm-tai .lm-header .lm-nav a,
+body .lm-page.lm-tai .lm-header .lm-ig {
+  font-family: var(--lm-font-body) !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+body .lm-page.lm-tai .lm-header .tai-nav-home {
+  color: var(--lm-muted) !important;
+}
+
+body .lm-page.lm-tai .lm-header .lm-nav a:hover,
+body .lm-page.lm-tai .lm-header .lm-nav a:focus-visible {
+  color: var(--lm-accent-dark) !important;
+}
+
+body .lm-page.lm-tai .lm-footer .lm-wa {
+  min-height: 24px;
+  gap: 8px;
+  padding-block: 2px;
+  overflow: visible;
+  line-height: 1;
+}
+
+body .lm-page.lm-tai .lm-footer .lm-wa svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  overflow: visible;
+}
+
+@media (max-width: 720px) {
+  body .lm-page.lm-tai .lm-header .lm-nav {
+    gap: 14px;
+  }
+
+  body .lm-page.lm-tai .lm-header .lm-nav a,
+  body .lm-page.lm-tai .lm-header .lm-ig {
+    font-size: 14px !important;
+  }
+}

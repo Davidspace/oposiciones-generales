@@ -41,3 +41,12 @@ test("las cuatro páginas reales siguen disponibles a tamaño completo", async (
   }
   assert.match(preview, /target="_blank"/);
 });
+
+test("el encabezado usa una navegación ligera y WhatsApp no se recorta", async () => {
+  const css = await source("app/lorman-industry.css");
+  const whatsapp = await source("components/WhatsApp.tsx");
+  assert.match(css, /\.lm-page\.lm-tai \.lm-header \.lm-nav a/);
+  assert.match(css, /font-weight:\s*500/);
+  assert.match(css, /\.lm-footer \.lm-wa svg[^}]*overflow:\s*visible/s);
+  assert.match(whatsapp, /viewBox="-1 -1 26 26"/);
+});
