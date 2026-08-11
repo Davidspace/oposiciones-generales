@@ -8,11 +8,11 @@ async function source(path) {
   return readFile(new URL(path, root), "utf8");
 }
 
-test("TAI integra prueba, muestra real y reseñas verificables", async () => {
+test("TAI integra prueba y muestra real sin una sección prematura de reseñas", async () => {
   const page = await source("app/tai/page.tsx");
   assert.match(page, /TaiDiagnostic/);
   assert.match(page, /TaiMaterialPreview/);
-  assert.match(page, /TaiReviews/);
+  assert.doesNotMatch(page, /TaiReviews|id="opiniones"/);
   assert.match(page, /Pago único de 69 €/);
 });
 
@@ -25,13 +25,29 @@ test("el diagnóstico separa teoría y las dos rutas prácticas", async () => {
   assert.doesNotMatch(data, /pregunta oficial/i);
 });
 
-test("la prueba declara su alcance y no inventa reseñas", async () => {
+test("la prueba declara su alcance y diferencia las rutas prácticas", async () => {
   const diagnostic = await source("components/TaiDiagnostic.tsx");
-  const reviews = await source("components/TaiReviews.tsx");
   assert.match(diagnostic, /muestra propia/i);
   assert.match(diagnostic, /no es un simulacro oficial/i);
-  assert.match(reviews, /no publicaremos una opinión sin comprobar/i);
-  assert.doesNotMatch(reviews, /★★★★★/);
+  assert.match(diagnostic, /Ruta práctica · bloque III/);
+  assert.match(diagnostic, /Ruta práctica · bloque IV/);
+  assert.match(diagnostic, /Haz una prueba seria antes de pagar/);
+  assert.match(diagnostic, /Sin registro/);
+  assert.match(diagnostic, /Resultado por partes/);
+  assert.match(diagnostic, /Corrección explicada/);
+  assert.match(diagnostic, /8 preguntas comunes \+ 4 de la ruta práctica/);
+  assert.match(diagnostic, /Tu prioridad sugerida/);
+  assert.match(diagnostic, /Seguir practicando por 69 €/);
+  assert.match(diagnostic, /33 temas redactados/);
+  assert.match(diagnostic, /Pago único · acceso hasta el examen/);
+  assert.doesNotMatch(diagnostic, />Segunda parte</);
+});
+
+test("la vista previa social presenta primero la prueba gratuita", async () => {
+  const layout = await source("app/tai/layout.tsx");
+  assert.match(layout, /Prueba gratuita TAI C1/);
+  assert.match(layout, /12 preguntas sin registro/);
+  assert.match(layout, /corrección explicada/);
 });
 
 test("las cuatro páginas reales siguen disponibles a tamaño completo", async () => {
@@ -40,4 +56,13 @@ test("las cuatro páginas reales siguen disponibles a tamaño completo", async (
     assert.match(preview, new RegExp(`/muestras/tai-${index}\\.jpeg`));
   }
   assert.match(preview, /target="_blank"/);
+});
+
+test("el encabezado usa una navegación ligera y WhatsApp no se recorta", async () => {
+  const css = await source("app/lorman-industry.css");
+  const whatsapp = await source("components/WhatsApp.tsx");
+  assert.match(css, /\.lm-page\.lm-tai \.lm-header \.lm-nav a/);
+  assert.match(css, /font-weight:\s*500/);
+  assert.match(css, /\.lm-footer \.lm-wa svg[^}]*overflow:\s*visible/s);
+  assert.match(whatsapp, /viewBox="-1 -1 26 26"/);
 });

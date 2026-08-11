@@ -5,7 +5,6 @@ import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
 import { TaiDiagnostic } from "@/components/TaiDiagnostic";
 import { TaiMaterialPreview } from "@/components/TaiMaterialPreview";
-import { TaiReviews } from "@/components/TaiReviews";
 
 const WHATSAPP = "34640828654";
 
@@ -42,7 +41,6 @@ export default function TaiLanding() {
 
         <TaiDiagnostic whatsapp={WHATSAPP} />
         <TaiMaterialPreview />
-        <TaiReviews whatsapp={WHATSAPP} />
 
         <AvisoComun links={[{ label: "Todos los cursos", href: PORTFOLIO_URL }, { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` }]} notice={AVISO_BASE + AVISO_PRECIOS} />
       </main>

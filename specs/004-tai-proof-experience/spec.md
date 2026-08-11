@@ -25,15 +25,6 @@ Una persona puede ampliar páginas reales y entender el recorrido tema, test, ex
 1. **Given** las páginas de muestra, **When** se activa una imagen, **Then** se abre a tamaño completo.
 2. **Given** la sección de muestra, **When** se lee su contenido, **Then** diferencia claramente material real, dinámica del aula y prueba gratuita.
 
-### User Story 3 - Consultar reseñas fiables (Priority: P2)
-
-Una persona entiende cómo se obtendrán y verificarán las opiniones de TAI sin encontrar testimonios inventados.
-
-**Acceptance Scenarios**:
-
-1. **Given** que no hay reseñas TAI verificadas, **When** se muestra la sección, **Then** no aparecen estrellas, nombres ni citas falsas.
-2. **Given** una persona interesada en aportar feedback, **When** activa la llamada a la acción, **Then** puede contactar por WhatsApp.
-
 ## Requirements
 
 - **FR-001**: La landing MUST ofrecer un diagnóstico interactivo sin registro.
@@ -42,7 +33,7 @@ Una persona entiende cómo se obtendrán y verificarán las opiniones de TAI sin
 - **FR-004**: El resultado MUST mostrar aciertos totales, desglose y áreas de repaso.
 - **FR-005**: La muestra MUST utilizar las cuatro páginas reales ya publicadas y permitir ampliarlas.
 - **FR-006**: La landing MUST explicar el flujo de aprendizaje sin afirmar funciones no disponibles.
-- **FR-007**: La sección de reseñas MUST excluir testimonios no verificables.
+- **FR-007**: La landing MUST NOT mostrar una sección de reseñas mientras no existan opiniones TAI verificadas.
 - **FR-008**: El precio visible MUST ser 69 €.
 - **FR-009**: La experiencia MUST funcionar con teclado y en móvil.
 - **FR-010**: El cambio MUST mantener el estilo suizo y no añadir backend.
@@ -52,7 +43,7 @@ Una persona entiende cómo se obtendrán y verificarán las opiniones de TAI sin
 - **SC-001**: La prueba se completa íntegramente en la página en menos de 12 minutos.
 - **SC-002**: El 100 % de las preguntas ofrece explicación tras finalizar.
 - **SC-003**: Las cuatro imágenes de muestra se pueden abrir a tamaño completo.
-- **SC-004**: No se publican reseñas sin procedencia verificable.
+- **SC-004**: La página contiene cero secciones, citas o puntuaciones de reseñas.
 - **SC-005**: Lint, prueba específica, prueba de cartera y build terminan correctamente.
 
 ## Assumptions

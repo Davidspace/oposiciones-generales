@@ -11,12 +11,14 @@ import {
 
 type Route = "development" | "systems";
 
-const routeCopy: Record<Route, { label: string; detail: string }> = {
+const routeCopy: Record<Route, { kicker: string; label: string; detail: string }> = {
   development: {
+    kicker: "Ruta práctica · bloque III",
     label: "Desarrollo de sistemas",
     detail: "Datos, programación, aplicaciones web, seguridad y pruebas.",
   },
   systems: {
+    kicker: "Ruta práctica · bloque IV",
     label: "Sistemas y comunicaciones",
     detail: "Sistemas operativos, redes, continuidad, operación y seguridad.",
   },
@@ -49,15 +51,29 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
         <div className="tai-section-heading">
           <div>
             <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 12 preguntas</p>
-            <h2 id="tai-diagnostic-title">Comprueba cómo llevas las dos partes.</h2>
+            <h2 id="tai-diagnostic-title">Haz una prueba seria antes de pagar.</h2>
           </div>
-          <p>Responde 8 preguntas generales y elige una ruta de 4 preguntas prácticas. Al terminar verás qué has acertado, por qué y qué bloque te conviene repasar.</p>
+          <p>Comprueba cómo preguntamos y cómo explicamos cada respuesta. Harás una muestra de la parte general y elegirás una de las dos rutas prácticas. Entras directamente y recibes el resultado al terminar.</p>
+        </div>
+
+        <div className="tai-diagnostic-benefits" aria-label="Qué obtienes con la prueba gratuita">
+          <div><span>01</span><strong>Sin registro</strong><p>No pedimos email ni datos personales para empezar.</p></div>
+          <div><span>02</span><strong>Resultado por partes</strong><p>Verás por separado la parte general y la ruta práctica elegida.</p></div>
+          <div><span>03</span><strong>Corrección explicada</strong><p>Revisa cada acierto, cada fallo y el razonamiento de la respuesta.</p></div>
+        </div>
+
+        <div className="tai-route-intro">
+          <div>
+            <span className="tai-route-kicker">Tu prueba</span>
+            <strong>8 preguntas comunes + 4 de la ruta práctica</strong>
+          </div>
+          <p>Elige el bloque práctico que quieras comprobar hoy. Después podrás repetir la prueba con la otra ruta.</p>
         </div>
 
         <div className="tai-route-picker" aria-label="Elige la ruta práctica">
           {(Object.keys(routeCopy) as Route[]).map((key) => (
             <button className="tai-route-card" key={key} type="button" onClick={() => setRoute(key)}>
-              <span className="tai-route-kicker">Segunda parte</span>
+              <span className="tai-route-kicker">{routeCopy[key].kicker}</span>
               <strong>{routeCopy[key].label}</strong>
               <span>{routeCopy[key].detail}</span>
               <b>Elegir esta ruta →</b>
@@ -83,21 +99,50 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
       .filter((item) => answers[item.id] !== item.correctIndex)
       .map((item) => item.area)
       .filter((area, index, all) => all.indexOf(area) === index);
+    const priorityArea = weakAreas[0] ?? "Ganar velocidad y resistencia";
+    const whatsappMessage = encodeURIComponent(
+      `Hola, he terminado la prueba gratuita de TAI con ${correct}/${questions.length} aciertos (${generalCorrect}/8 en la parte general y ${practicalCorrect}/4 en ${routeCopy[route].label}). Quiero acceder al curso completo por 69 € hasta el examen.`,
+    );
 
     return (
       <section className="lm-shell tai-diagnostic" id="prueba" aria-labelledby="tai-result-title">
         <div className="tai-result-hero" aria-live="polite">
           <p className="lm-eyebrow"><i aria-hidden="true" /> Resultado orientativo</p>
           <h2 id="tai-result-title">{correct} de {questions.length} correctas.</h2>
-          <p>{weakAreas.length ? `Tu siguiente repaso: ${weakAreas.join(", ")}.` : "Buena base en esta muestra. El siguiente paso es ganar velocidad y resistencia."}</p>
+          <p>{weakAreas.length ? "Ya tienes una prioridad concreta para el siguiente repaso." : "Buena base en esta muestra. El siguiente paso es ganar velocidad y resistencia."}</p>
           <div className="tai-result-split" aria-label="Desglose del resultado">
             <span><b>{generalCorrect}/8</b> Parte general</span>
             <span><b>{practicalCorrect}/4</b> {routeCopy[route].label}</span>
           </div>
         </div>
 
+        <div className="tai-result-next">
+          <div className="tai-result-priority">
+            <span>Tu prioridad sugerida</span>
+            <h3>{priorityArea}</h3>
+            <p>Empieza por las explicaciones de este bloque y vuelve a intentarlo con la otra ruta práctica cuando termines el repaso.</p>
+          </div>
+          <div className="tai-result-offer">
+            <span>Si quieres continuar</span>
+            <h3>Practica TAI completo hasta el examen.</h3>
+            <ul>
+              <li>33 temas redactados y listos para estudiar.</li>
+              <li>Autoevaluaciones por tema con corrección inmediata.</li>
+              <li>Simulacros de la parte general y de los bloques prácticos.</li>
+            </ul>
+            <div className="tai-result-actions">
+              <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=${whatsappMessage}`}>Seguir practicando por 69 €</a>
+              <button className="lm-btn lm-btn-outline" type="button" onClick={reset}>Repetir con otra ruta</button>
+            </div>
+            <small>Pago único · acceso hasta el examen · el botón abre WhatsApp.</small>
+          </div>
+        </div>
+
         <div className="tai-review-list">
-          <h3>Revisa cada respuesta</h3>
+          <div className="tai-review-heading">
+            <h3>Revisa cada respuesta</h3>
+            <p>Abre cada pregunta para ver la solución y entender por qué es correcta.</p>
+          </div>
           {questions.map((item, index) => {
             const selected = answers[item.id];
             const isCorrect = selected === item.correctIndex;
@@ -116,11 +161,6 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
               </details>
             );
           })}
-        </div>
-
-        <div className="tai-result-actions">
-          <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=Hola%2C%20he%20hecho%20la%20prueba%20gratuita%20de%20TAI%20y%20quiero%20consultar%20el%20acceso.`}>Quiero practicar el curso completo</a>
-          <button className="lm-btn lm-btn-outline" type="button" onClick={reset}>Repetir con otra ruta</button>
         </div>
       </section>
     );
@@ -166,6 +206,7 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
           <button className="lm-btn lm-btn-primary" type="button" onClick={() => setCurrent((value) => value + 1)}>Siguiente</button>
         )}
       </div>
+      <p className="tai-quiz-note">Puedes avanzar sin responder: la pregunta quedará marcada en blanco para la corrección.</p>
       <button className="tai-change-route" type="button" onClick={reset}>Cambiar ruta práctica</button>
     </section>
   );

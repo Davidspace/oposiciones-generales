@@ -2,7 +2,7 @@
 
 ## Summary
 
-Reorganizar la landing TAI alrededor de tres pruebas de valor: páginas reales ampliables, diagnóstico interactivo y opiniones verificables. La implementación será local al proyecto TAI, sin dependencias ni servicios nuevos.
+Reorganizar la landing TAI alrededor de dos pruebas de valor: páginas reales ampliables y diagnóstico interactivo. La implementación será local al proyecto TAI, sin dependencias ni servicios nuevos. Las reseñas quedan fuera de la interfaz hasta disponer de opiniones verificadas.
 
 ## Technical Context
 
