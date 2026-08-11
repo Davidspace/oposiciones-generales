@@ -1,0 +1,7 @@
+{
+  "feature": "004-tai-proof-experience",
+  "branch": "main",
+  "spec": "specs/004-tai-proof-experience/spec.md",
+  "plan": "specs/004-tai-proof-experience/plan.md",
+  "tasks": "specs/004-tai-proof-experience/tasks.md"
+}

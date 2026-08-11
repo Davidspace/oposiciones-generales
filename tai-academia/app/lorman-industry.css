@@ -945,6 +945,305 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   }
 }
 
+/* TAI proof experience: a real product sample inside the existing Swiss system. */
+body .lm-page.lm-tai .tai-diagnostic,
+body .lm-page.lm-tai .tai-preview,
+body .lm-page.lm-tai .tai-reviews {
+  width: auto !important;
+  max-width: 1200px !important;
+  margin-inline: auto !important;
+  padding: 72px 24px !important;
+}
+
+body .lm-page.lm-tai .tai-diagnostic,
+body .lm-page.lm-tai .tai-reviews {
+  border-top: 1px solid var(--lm-ink);
+}
+
+body .lm-page.lm-tai .tai-section-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(320px, .75fr);
+  gap: 56px;
+  align-items: end;
+  margin-bottom: 34px;
+}
+
+body .lm-page.lm-tai .tai-section-heading .lm-eyebrow,
+body .lm-page.lm-tai .tai-reviews .lm-eyebrow { margin-bottom: 18px; }
+
+body .lm-page.lm-tai .tai-section-heading h2,
+body .lm-page.lm-tai .tai-result-hero h2,
+body .lm-page.lm-tai .tai-reviews h2 {
+  max-width: 12ch;
+  margin: 0;
+  font-family: var(--lm-font-heading);
+  font-size: clamp(42px, 5vw, 66px);
+  font-weight: 700;
+  line-height: .96;
+  letter-spacing: -.035em;
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-section-heading > p,
+body .lm-page.lm-tai .tai-result-hero > p,
+body .lm-page.lm-tai .tai-reviews-copy p {
+  margin: 0;
+  color: var(--lm-muted);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+body .lm-page.lm-tai .tai-route-picker {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border: 1px solid var(--lm-ink);
+}
+
+body .lm-page.lm-tai .tai-route-card {
+  display: grid;
+  min-height: 260px;
+  padding: 28px;
+  border: 0;
+  background: var(--lm-bg);
+  color: var(--lm-ink);
+  cursor: pointer;
+  text-align: left;
+  grid-template-rows: auto auto 1fr auto;
+}
+
+body .lm-page.lm-tai .tai-route-card + .tai-route-card { border-left: 1px solid var(--lm-ink); }
+body .lm-page.lm-tai .tai-route-card:hover,
+body .lm-page.lm-tai .tai-route-card:focus-visible { background: var(--lm-accent-soft); }
+
+body .lm-page.lm-tai .tai-route-kicker {
+  color: var(--lm-accent-deep);
+  font-family: var(--lm-font-heading);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-route-card strong {
+  max-width: 13ch;
+  margin: 18px 0 12px;
+  font-family: var(--lm-font-heading);
+  font-size: clamp(28px, 3vw, 42px);
+  line-height: .98;
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-route-card > span:not(.tai-route-kicker) {
+  max-width: 40ch;
+  color: var(--lm-muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body .lm-page.lm-tai .tai-route-card b {
+  margin-top: 24px;
+  font-family: var(--lm-font-heading);
+  font-size: 15px;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-diagnostic-note {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  align-items: center;
+  padding: 18px 20px;
+  border: 1px solid var(--lm-ink);
+  border-top: 0;
+  font-size: 13px;
+}
+
+body .lm-page.lm-tai .tai-diagnostic-note span { color: var(--lm-muted); }
+body .lm-page.lm-tai .tai-diagnostic-note a { color: var(--lm-accent-deep); font-weight: 700; }
+
+body .lm-page.lm-tai .tai-quiz-topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 24px;
+  border: 1px solid var(--lm-ink);
+  font-family: var(--lm-font-heading);
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-quiz-topline > div { display: flex; gap: 10px; }
+body .lm-page.lm-tai .tai-quiz-topline span { color: var(--lm-muted); }
+body .lm-page.lm-tai .tai-progress { height: 6px; background: var(--lm-line); }
+body .lm-page.lm-tai .tai-progress span { display: block; height: 100%; background: var(--lm-accent); transition: width .2s ease; }
+
+body .lm-page.lm-tai .tai-question {
+  min-width: 0;
+  margin: 0;
+  padding: 36px 24px 28px;
+  border: 1px solid var(--lm-ink);
+  border-top: 0;
+}
+
+body .lm-page.lm-tai .tai-question legend {
+  float: left;
+  width: 100%;
+  margin: 0 0 30px;
+  font-family: var(--lm-font-heading);
+  font-size: clamp(28px, 3.4vw, 46px);
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+  text-transform: uppercase;
+}
+
+body .lm-page.lm-tai .tai-options {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+body .lm-page.lm-tai .tai-options label {
+  display: grid;
+  min-height: 72px;
+  padding: 15px 18px;
+  border: 1px solid var(--lm-line);
+  cursor: pointer;
+  grid-template-columns: 20px 22px 1fr;
+  gap: 10px;
+  align-items: center;
+  font-size: 15px;
+  line-height: 1.35;
+}
+
+body .lm-page.lm-tai .tai-options label:hover,
+body .lm-page.lm-tai .tai-options label:focus-within,
+body .lm-page.lm-tai .tai-options label.is-selected { border-color: var(--lm-accent); background: var(--lm-accent-soft); }
+body .lm-page.lm-tai .tai-options label b { color: var(--lm-accent-deep); font-family: var(--lm-font-heading); }
+
+body .lm-page.lm-tai .tai-quiz-actions,
+body .lm-page.lm-tai .tai-result-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 20px 24px;
+  border: 1px solid var(--lm-ink);
+  border-top: 0;
+}
+
+body .lm-page.lm-tai .tai-quiz-actions .lm-btn,
+body .lm-page.lm-tai .tai-result-actions .lm-btn { min-height: 56px; font-size: 18px; }
+body .lm-page.lm-tai .tai-quiz-actions button:disabled { opacity: .35; cursor: not-allowed; }
+body .lm-page.lm-tai .tai-change-route { margin-top: 14px; border: 0; background: none; color: var(--lm-muted); cursor: pointer; text-decoration: underline; }
+
+body .lm-page.lm-tai .tai-result-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, .8fr);
+  gap: 28px 50px;
+  padding: 36px;
+  background: var(--lm-accent);
+  color: #fff;
+}
+
+body .lm-page.lm-tai .tai-result-hero .lm-eyebrow { grid-column: 1 / -1; margin: 0; color: #fff; }
+body .lm-page.lm-tai .tai-result-hero h2 { color: #fff; }
+body .lm-page.lm-tai .tai-result-hero > p { align-self: center; color: #fff; }
+body .lm-page.lm-tai .tai-result-split { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(2, 1fr); border-top: 1px solid rgb(255 255 255 / .55); }
+body .lm-page.lm-tai .tai-result-split span { display: grid; gap: 4px; padding-top: 18px; }
+body .lm-page.lm-tai .tai-result-split b { font-family: var(--lm-font-heading); font-size: 30px; }
+
+body .lm-page.lm-tai .tai-review-list { border: 1px solid var(--lm-ink); border-top: 0; }
+body .lm-page.lm-tai .tai-review-list h3 { margin: 0; padding: 22px 24px; font-family: var(--lm-font-heading); font-size: 26px; text-transform: uppercase; }
+body .lm-page.lm-tai .tai-review-item { border-top: 1px solid var(--lm-line); }
+body .lm-page.lm-tai .tai-review-item summary { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: start; padding: 18px 24px; cursor: pointer; }
+body .lm-page.lm-tai .tai-review-item summary span { color: var(--lm-muted); font-family: var(--lm-font-heading); }
+body .lm-page.lm-tai .tai-review-item summary b { font-size: 14px; font-weight: 600; line-height: 1.4; }
+body .lm-page.lm-tai .tai-review-item summary em { color: var(--lm-accent-deep); font-family: var(--lm-font-heading); font-size: 12px; font-style: normal; font-weight: 700; text-transform: uppercase; }
+body .lm-page.lm-tai .tai-review-item.is-correct summary em { color: #347b61; }
+body .lm-page.lm-tai .tai-review-item > div { padding: 0 24px 22px 70px; color: var(--lm-muted); font-size: 14px; line-height: 1.55; }
+body .lm-page.lm-tai .tai-review-item > div p { margin: 0 0 8px; }
+body .lm-page.lm-tai .tai-review-item > div small { color: var(--lm-accent-deep); font-family: var(--lm-font-heading); font-weight: 700; text-transform: uppercase; }
+
+body .lm-page.lm-tai .tai-preview-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, .75fr);
+  border: 1px solid var(--lm-ink);
+}
+
+body .lm-page.lm-tai .tai-pages { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; background: var(--lm-ink); }
+body .lm-page.lm-tai .tai-pages a { position: relative; display: block; min-height: 290px; overflow: hidden; background: var(--lm-accent-soft); color: var(--lm-ink); }
+body .lm-page.lm-tai .tai-pages img { display: block; width: 100%; height: 290px; object-fit: contain; padding: 14px; background: var(--lm-accent-soft); transition: transform .2s ease; }
+body .lm-page.lm-tai .tai-pages a:hover img,
+body .lm-page.lm-tai .tai-pages a:focus-visible img { transform: scale(1.025); }
+body .lm-page.lm-tai .tai-pages span { position: absolute; right: 0; bottom: 0; padding: 8px 10px; background: var(--lm-ink); color: #fff; font-family: var(--lm-font-heading); font-size: 11px; text-transform: uppercase; }
+
+body .lm-page.lm-tai .tai-study-flow { padding: 28px; border-left: 1px solid var(--lm-ink); }
+body .lm-page.lm-tai .tai-study-flow ol { margin: 20px 0 0; padding: 0; list-style: none; }
+body .lm-page.lm-tai .tai-study-flow li { display: grid; grid-template-columns: 32px 1fr; gap: 12px; padding: 18px 0; border-top: 1px solid var(--lm-line); }
+body .lm-page.lm-tai .tai-study-flow li > span { color: var(--lm-accent-deep); font-family: var(--lm-font-heading); font-weight: 700; }
+body .lm-page.lm-tai .tai-study-flow strong { display: block; font-family: var(--lm-font-heading); font-size: 18px; text-transform: uppercase; }
+body .lm-page.lm-tai .tai-study-flow p { margin: 5px 0 0; color: var(--lm-muted); font-size: 13px; line-height: 1.45; }
+body .lm-page.lm-tai .tai-study-flow > a { display: inline-block; margin-top: 20px; color: var(--lm-accent-deep); font-family: var(--lm-font-heading); font-weight: 700; text-transform: uppercase; }
+
+body .lm-page.lm-tai .tai-reviews {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(360px, 1.15fr);
+  gap: 70px;
+  align-items: center;
+  margin-bottom: 72px !important;
+  border-bottom: 1px solid var(--lm-ink);
+  background: var(--lm-accent-soft);
+}
+
+body .lm-page.lm-tai .tai-reviews-copy { display: grid; gap: 18px; }
+body .lm-page.lm-tai .tai-reviews-copy .lm-btn { justify-self: start; margin-top: 6px; }
+
+@media (max-width: 900px) {
+  body .lm-page.lm-tai .tai-section-heading,
+  body .lm-page.lm-tai .tai-result-hero,
+  body .lm-page.lm-tai .tai-preview-layout,
+  body .lm-page.lm-tai .tai-reviews { grid-template-columns: 1fr; }
+  body .lm-page.lm-tai .tai-study-flow { border-top: 1px solid var(--lm-ink); border-left: 0; }
+}
+
+@media (max-width: 720px) {
+  body .lm-page.lm-tai .tai-diagnostic,
+  body .lm-page.lm-tai .tai-preview,
+  body .lm-page.lm-tai .tai-reviews { padding: 54px 24px !important; }
+  body .lm-page.lm-tai .tai-section-heading { gap: 22px; margin-bottom: 26px; }
+  body .lm-page.lm-tai .tai-section-heading h2,
+  body .lm-page.lm-tai .tai-result-hero h2,
+  body .lm-page.lm-tai .tai-reviews h2 { font-size: clamp(38px, 11vw, 52px); }
+  body .lm-page.lm-tai .tai-route-picker,
+  body .lm-page.lm-tai .tai-options,
+  body .lm-page.lm-tai .tai-pages,
+  body .lm-page.lm-tai .tai-result-split { grid-template-columns: 1fr; }
+  body .lm-page.lm-tai .tai-route-card + .tai-route-card { border-top: 1px solid var(--lm-ink); border-left: 0; }
+  body .lm-page.lm-tai .tai-route-card { min-height: 230px; padding: 24px; }
+  body .lm-page.lm-tai .tai-diagnostic-note { grid-template-columns: 1fr; gap: 8px; }
+  body .lm-page.lm-tai .tai-quiz-topline { align-items: flex-start; padding: 14px 16px; }
+  body .lm-page.lm-tai .tai-quiz-topline > div { flex-direction: column; gap: 4px; }
+  body .lm-page.lm-tai .tai-question { padding: 28px 16px 20px; }
+  body .lm-page.lm-tai .tai-question legend { margin-bottom: 24px; font-size: 28px; }
+  body .lm-page.lm-tai .tai-options label { min-height: 66px; }
+  body .lm-page.lm-tai .tai-quiz-actions,
+  body .lm-page.lm-tai .tai-result-actions { display: grid; grid-template-columns: 1fr; padding: 16px; }
+  body .lm-page.lm-tai .tai-quiz-actions .lm-btn,
+  body .lm-page.lm-tai .tai-result-actions .lm-btn { width: 100%; }
+  body .lm-page.lm-tai .tai-result-hero { gap: 22px; padding: 26px 20px; }
+  body .lm-page.lm-tai .tai-result-hero .lm-eyebrow { grid-column: 1; }
+  body .lm-page.lm-tai .tai-result-split { grid-column: 1; }
+  body .lm-page.lm-tai .tai-review-item summary { grid-template-columns: 26px 1fr; padding: 16px; }
+  body .lm-page.lm-tai .tai-review-item summary em { grid-column: 2; }
+  body .lm-page.lm-tai .tai-review-item > div { padding: 0 16px 18px 54px; }
+  body .lm-page.lm-tai .tai-pages a,
+  body .lm-page.lm-tai .tai-pages img { min-height: 260px; height: 260px; }
+  body .lm-page.lm-tai .tai-reviews { gap: 28px; margin-bottom: 54px !important; }
+  body .lm-page.lm-tai .tai-reviews-copy .lm-btn { width: 100%; }
+  body .lm-page.lm-tai .lm-nav .lm-nav-material:nth-of-type(3) { display: none; }
+}
+
 @media (max-width: 420px) {
   body .lm-page:not(.lm-hub) .lm-header { align-items: flex-start; flex-direction: column; }
   body .lm-page:not(.lm-hub) .lm-nav { width: 100%; justify-content: flex-start; }
