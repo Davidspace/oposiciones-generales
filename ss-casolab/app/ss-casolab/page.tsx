@@ -13,7 +13,7 @@ import {
   type SsQuestion,
 } from "@/lib/ss-casolab";
 import { PORTFOLIO_URL } from "@/lib/portfolio-links";
-import { AvisoComun, AVISO_PRECIOS } from "@/components/AvisoComun";
+import { AvisoComun, AVISO_BASE } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
@@ -994,11 +994,7 @@ export function SsCasoLabLanding({
           { label: "Todos los cursos", href: PORTFOLIO_URL },
           { label: "WhatsApp", href: `https://wa.me/${WHATSAPP}` },
         ]}
-        notice={
-          "SS CasoLab es un producto educativo independiente, sin relación con la Administración de la Seguridad Social, el ministerio ni el tribunal. " +
-          "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado." +
-          AVISO_PRECIOS
-        }
+        notice={AVISO_BASE}
       />
       </main>
     </>

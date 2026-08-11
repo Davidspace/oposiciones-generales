@@ -7,26 +7,16 @@ import { EnlaceInstagram } from "./Instagram";
 import { EnlaceWhatsApp } from "./WhatsApp";
 
 export const AVISO_BASE =
-  "Academia LORMAN es un proyecto educativo independiente. " +
-  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. ";
+  "Academia LORMAN es una marca privada de preparación de oposiciones, sin vinculación con la Administración, el Ministerio, los tribunales calificadores ni los organismos convocantes. " +
+  "Las bases y comunicaciones oficiales prevalecen. Ningún material garantiza la obtención de una plaza.";
 
-export const AVISO_PRECIOS =
-  "Precio final, impuestos, derecho de desistimiento, devolución y contenido disponible se muestran antes de cualquier pago.";
+export const AVISO_PRECIOS = "";
 
-export const AVISO_SS =
-  "SS CasoLab es un producto educativo independiente, sin relación con la Seguridad Social, el ministerio ni el tribunal. " +
-  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_SS = AVISO_BASE;
 
-export const AVISO_SALUD =
-  "El material TCAE es independiente y no pertenece a ningún servicio de salud, tribunal ni organismo oficial. " +
-  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_SALUD = AVISO_BASE;
 
-export const AVISO_BIBLIOTECA =
-  "Auxiliar de Biblioteca Santander LORMAN es un producto educativo independiente, sin relación con el Ayuntamiento de Santander, el tribunal ni ningún organismo oficial. " +
-  "La convocatoria vigente y sus bases siempre tienen prioridad. Ningún material garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_BIBLIOTECA = AVISO_BASE;
 
 export type AvisoComunProps = {
   links: { label: string; href: string }[];

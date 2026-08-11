@@ -4,7 +4,7 @@
  * Cajones de contenido de una landing específica.
  * Cuatro piezas: Temario, Test, Simulacros y Precio/Acceso.
  * El contenido va en grande; las cifras, en pequeño al pie del cajón.
- * El último cajón es sólido y cierra siempre con «Consultar acceso».
+ * El último cajón es sólido y cierra con una solicitud de información.
  */
 
 import type { ReactNode } from "react";
@@ -44,7 +44,7 @@ export function CajonCierre({
   title,
   text,
   href,
-  label = "Consultar acceso",
+  label = "Solicitar información",
 }: CajonCierreProps) {
   return (
     <div className="lm-box lm-box-solid">

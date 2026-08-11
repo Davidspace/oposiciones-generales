@@ -22,7 +22,7 @@ export type CtaContactoProps = {
 
 export function CtaContacto({
   whatsapp,
-  label = "Preguntar por el acceso",
+  label = "Solicitar información",
   logoSrc = "/lorman-logo.png",
   note = "Te respondemos por WhatsApp. Sin compromiso.",
   message,

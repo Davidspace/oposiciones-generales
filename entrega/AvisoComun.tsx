@@ -7,26 +7,16 @@ import { EnlaceInstagram } from "./Instagram";
 import { EnlaceWhatsApp } from "./WhatsApp";
 
 export const AVISO_BASE =
-  "Proyecto independiente sin relación con ninguna Administración, tribunal ni organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. ";
+  "Academia LORMAN es una marca privada de preparación de oposiciones, sin vinculación con la Administración, el Ministerio, los tribunales calificadores ni los organismos convocantes. " +
+  "Las bases y comunicaciones oficiales prevalecen. Ningún material garantiza la obtención de una plaza.";
 
-export const AVISO_PRECIOS =
-  "Precio final, impuestos, derecho de desistimiento, devolución y contenido disponible se muestran antes de cualquier pago.";
+export const AVISO_PRECIOS = "";
 
-export const AVISO_SS =
-  "Proyecto independiente sin relación con la Seguridad Social, el ministerio ni el tribunal. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_SS = AVISO_BASE;
 
-export const AVISO_SALUD =
-  "Proyecto independiente sin relación con ningún servicio de salud, tribunal ni organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_SALUD = AVISO_BASE;
 
-export const AVISO_JUSTICIA =
-  "Proyecto independiente sin relación con el Ministerio de Justicia, el tribunal ni ningún organismo oficial. " +
-  "Los criterios de la convocatoria vigente siempre tienen prioridad. Ningún curso garantiza un resultado. " +
-  AVISO_PRECIOS;
+export const AVISO_JUSTICIA = AVISO_BASE;
 
 export type AvisoComunProps = {
   links: { label: string; href: string }[];

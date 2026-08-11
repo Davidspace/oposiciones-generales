@@ -117,7 +117,7 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
       .filter((area, index, all) => all.indexOf(area) === index);
     const priorityArea = weakAreas[0] ?? "Ganar velocidad y resistencia";
     const whatsappMessage = encodeURIComponent(
-      `Hola, he terminado la prueba gratuita de TAI con ${correct}/${questions.length} aciertos (${generalCorrect}/8 en la parte general y ${practicalCorrect}/4 en ${routeCopy[route].label}). Quiero acceder al curso completo por 69 € hasta el examen.`,
+      `Hola, he terminado la prueba gratuita de TAI con ${correct}/${questions.length} aciertos (${generalCorrect}/8 en la parte general y ${practicalCorrect}/4 en ${routeCopy[route].label}). Quiero solicitar información sobre el curso completo.`,
     );
 
     return (
@@ -147,10 +147,10 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
               <li>Simulacros de la parte general y de los bloques prácticos.</li>
             </ul>
             <div className="tai-result-actions">
-              <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=${whatsappMessage}`} onClick={() => trackEvent("whatsapp_click", { placement: "quiz_result", score: correct, practical_route: route })}>Seguir practicando por 69 €</a>
+              <a className="lm-btn lm-btn-primary" href={`https://wa.me/${whatsapp}?text=${whatsappMessage}`} onClick={() => trackEvent("whatsapp_click", { placement: "quiz_result", score: correct, practical_route: route })}>Solicitar información</a>
               <button className="lm-btn lm-btn-outline" type="button" onClick={reset}>Repetir con otra ruta</button>
             </div>
-            <small>Pago único · acceso hasta el examen · el botón abre WhatsApp.</small>
+            <small>Pago único de 69 € · acceso hasta el examen · el botón abre WhatsApp para solicitar información.</small>
           </div>
         </div>
 

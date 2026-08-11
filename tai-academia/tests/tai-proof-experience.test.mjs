@@ -14,6 +14,8 @@ test("TAI integra prueba y muestra real sin una sección prematura de reseñas",
   assert.match(page, /TaiMaterialPreview/);
   assert.doesNotMatch(page, /TaiReviews|id="opiniones"/);
   assert.match(page, /Pago único de 69 €/);
+  assert.match(page, /Solicitar información/);
+  assert.doesNotMatch(page, /Preguntar por el acceso|Quiero apuntarme|Consultar acceso/);
 });
 
 test("el diagnóstico separa teoría y las dos rutas prácticas", async () => {
@@ -37,9 +39,9 @@ test("la prueba declara su alcance y diferencia las rutas prácticas", async () 
   assert.match(diagnostic, /Corrección explicada/);
   assert.match(diagnostic, /8 generales \+ 4 prácticas/);
   assert.match(diagnostic, /Tu prioridad sugerida/);
-  assert.match(diagnostic, /Seguir practicando por 69 €/);
+  assert.match(diagnostic, /Solicitar información/);
   assert.match(diagnostic, /33 temas redactados/);
-  assert.match(diagnostic, /Pago único · acceso hasta el examen/);
+  assert.match(diagnostic, /Pago único de 69 € · acceso hasta el examen/);
   assert.doesNotMatch(diagnostic, />Segunda parte</);
 });
 
