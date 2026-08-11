@@ -1133,42 +1133,18 @@ body .lm-page:not(.lm-hub) > section.lm-shell.lm-offer-intro + section.lm-boxes 
   margin: 0;
 }
 .lm-diagnostico-head > p { margin: 0; max-width: 520px; color: var(--lm-muted); font-size: 17px; }
-.lm-diagnostico-start { border: 1px solid var(--lm-ink); background: #fff; }
-.lm-diagnostico-benefits {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  border-bottom: 1px solid var(--lm-ink);
-}
-.lm-diagnostico-benefits > div { min-height: 164px; padding: 24px; }
-.lm-diagnostico-benefits > div + div { border-left: 1px solid var(--lm-line); }
-.lm-diagnostico-benefits span,
-.lm-diagnostico-kicker,
-.lm-result-priority > span,
-.lm-result-continuity > span {
-  color: var(--lm-accent-dark);
-  font-family: var(--lm-font-heading);
-  font-size: 13px;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-.lm-diagnostico-benefits strong { display: block; margin-top: 28px; font-family: var(--lm-font-heading); font-size: 27px; line-height: 1; text-transform: uppercase; }
-.lm-diagnostico-benefits p { margin: 9px 0 0; color: var(--lm-muted); font-size: 14px; line-height: 1.5; }
 .lm-diagnostico-intro {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 24px;
   align-items: center;
-  border: 0;
+  border: 1px solid var(--lm-ink);
   background: var(--lm-accent-tint);
-  padding: 28px;
+  padding: 26px;
 }
 .lm-diagnostico-intro > div { display: flex; flex-direction: column; gap: 6px; }
 .lm-diagnostico-intro strong { font-family: var(--lm-font-heading); font-size: 34px; text-transform: uppercase; }
 .lm-diagnostico-intro span { color: var(--lm-muted); }
-.lm-diagnostico-intro .lm-diagnostico-kicker { color: var(--lm-accent-dark); }
-.lm-diagnostico-start-action { width: min(100%, 310px); }
-body .lm-page:not(.lm-hub) .lm-diagnostico-start-action .lm-btn { flex: none; width: 100%; }
-.lm-diagnostico-start-action small { color: var(--lm-muted); font-size: 12px; line-height: 1.4; text-align: center; }
 
 .lm-quiz-panel { border: 1px solid var(--lm-ink); background: #fff; }
 .lm-quiz-progress {
@@ -1258,22 +1234,8 @@ body .lm-page:not(.lm-hub) .lm-diagnostico-start-action .lm-btn { flex: none; wi
 .lm-result-score-grid > div > small { color: var(--lm-muted); font-size: 12px; }
 .lm-result-actions { display: flex; gap: 10px; margin-top: auto; padding-top: 24px; }
 .lm-result-actions .lm-btn { min-height: 54px; padding: 10px 16px; font-size: 19px; }
-.lm-result-next { display: grid; grid-template-columns: .85fr 1.15fr; border: 1px solid var(--lm-ink); border-top: 0; }
-.lm-result-priority,
-.lm-result-continuity { padding: 32px; }
-.lm-result-priority { display: flex; flex-direction: column; justify-content: center; background: var(--lm-accent-tint); }
-.lm-result-continuity { border-left: 1px solid var(--lm-ink); }
-.lm-result-next h3 { margin: 10px 0 0; font-family: var(--lm-font-heading); font-size: clamp(30px, 4vw, 46px); line-height: 1; text-transform: uppercase; }
-.lm-result-next p { margin: 18px 0 0; color: var(--lm-muted); font-size: 15px; line-height: 1.55; }
-.lm-result-continuity ul { display: grid; gap: 8px; margin: 22px 0 0; padding: 0; list-style: none; }
-.lm-result-continuity li { position: relative; padding-left: 24px; color: var(--lm-muted); }
-.lm-result-continuity li::before { content: ""; position: absolute; left: 2px; top: .45em; width: 9px; height: 9px; background: var(--lm-accent); }
-.lm-result-continuity > small { display: block; margin-top: 12px; color: var(--lm-muted); font-size: 12px; }
 .lm-answer-review { width: 100%; padding-top: 46px; }
 .lm-answer-review > h3 { margin: 0 0 18px; }
-.lm-answer-review-head { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: end; margin-bottom: 18px; }
-.lm-answer-review-head h3 { margin: 0; font-family: var(--lm-font-heading); font-size: 20px; letter-spacing: .06em; text-transform: uppercase; }
-.lm-answer-review-head p { margin: 0; color: var(--lm-muted); font-size: 14px; text-align: right; }
 .lm-answer-review details { border-top: 1px solid var(--lm-line); }
 .lm-answer-review details:last-child { border-bottom: 1px solid var(--lm-line); }
 .lm-answer-review summary { display: grid; grid-template-columns: 42px 1fr auto; gap: 12px; align-items: center; padding: 16px 8px; cursor: pointer; list-style: none; }
@@ -1328,8 +1290,6 @@ body .lm-page:not(.lm-hub) .lm-diagnostico-start-action .lm-btn { flex: none; wi
   .lm-diagnostic-options { grid-template-columns: 1fr; }
   .lm-result-score, .lm-result-breakdown { display: flex; width: 100%; }
   .lm-result-breakdown { border-top: 1px solid var(--lm-ink); }
-  .lm-result-next { grid-template-columns: 1fr; }
-  .lm-result-continuity { border-left: 0; border-top: 1px solid var(--lm-ink); }
 }
 
 @media (max-width: 600px) {
@@ -1338,11 +1298,6 @@ body .lm-page:not(.lm-hub) .lm-diagnostico-start-action .lm-btn { flex: none; wi
   .lm-exam-strip > div:first-child { border-top: 0; }
   .lm-diagnostico-intro { grid-template-columns: 1fr; padding: 20px; }
   .lm-diagnostico-intro .lm-btn { width: 100%; }
-  .lm-diagnostico-benefits { grid-template-columns: 1fr; }
-  .lm-diagnostico-benefits > div { min-height: 0; padding: 20px; }
-  .lm-diagnostico-benefits > div + div { border-top: 1px solid var(--lm-line); border-left: 0; }
-  .lm-diagnostico-benefits strong { margin-top: 10px; }
-  .lm-diagnostico-start-action { width: 100%; }
   .lm-diagnostic-question { padding: 28px 16px 22px; }
   .lm-diagnostic-question legend { padding-top: 10px; }
   .lm-diagnostic-options label { grid-template-columns: 18px 24px 1fr; padding: 13px 12px; }
@@ -1363,14 +1318,11 @@ body .lm-page:not(.lm-hub) .lm-diagnostico-start-action .lm-btn { flex: none; wi
   .lm-result-breakdown > .lm-result-score-grid { grid-template-columns: 1fr; }
   .lm-quiz-primary, .lm-quiz-secondary { padding-inline: 14px; font-size: 17px; }
   .lm-result-score, .lm-result-breakdown { padding: 24px 18px; }
-  .lm-result-priority, .lm-result-continuity { padding: 24px 18px; }
   .lm-result-actions { flex-direction: column; }
   body .lm-page:not(.lm-hub) .lm-result-actions .lm-btn { width: 100%; flex: none; min-height: 64px; }
   .lm-answer-review summary { grid-template-columns: 30px 1fr; }
   .lm-answer-review summary > strong { grid-column: 2; }
   .lm-answer-review details > div { padding: 0 0 20px 42px; }
-  .lm-answer-review-head { grid-template-columns: 1fr; gap: 8px; }
-  .lm-answer-review-head p { text-align: left; }
   .lm-consent { grid-template-columns: 1fr; left: 10px; right: 10px; bottom: 10px; gap: 14px; }
   .lm-consent-actions { display: grid; grid-template-columns: 1fr 1fr; }
 }

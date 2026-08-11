@@ -5,7 +5,7 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing presenta el mini simulacro 20+8 y conserva la separación editorial", async () => {
-  const [source, html, config, diagnostic, diagnosticComponent, productProof, whatsapp, analytics, styles, sitemap, cases, labels, revision] = await Promise.all([
+  const [source, html, config, diagnostic, diagnosticComponent, productProof, whatsapp, analytics, sitemap, cases, labels, revision] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("index.html", root), "utf8"),
     readFile(new URL("vercel.json", root), "utf8"),
@@ -14,7 +14,6 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
     readFile(new URL("src/components/PruebaProducto.tsx", root), "utf8"),
     readFile(new URL("src/components/WhatsApp.tsx", root), "utf8"),
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
-    readFile(new URL("src/lorman-industry.css", root), "utf8"),
     readFile(new URL("public/sitemap.xml", root), "utf8"),
     readFile(new URL("docs/casos-simulacro-2.md", root), "utf8"),
     readFile(new URL("docs/moodle-etiquetado.md", root), "utf8"),
@@ -53,8 +52,6 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.doesNotMatch(productProof, /\/muestras\//);
 
   assert.match(html, /Mini simulacro gratuito de Auxilio Judicial 2026/);
-  assert.match(html, /Prueba gratis de Auxilio Judicial 2026/);
-  assert.match(html, /Sin registro, con resultado por ejercicio, corrección explicada y fuentes del BOE/);
   assert.match(html, /"numberOfQuestions": 30/);
   assert.match(html, /FAQPage/);
   assert.match(html, /https:\/\/auxiliojudicial\.academialorman\.es\//);
@@ -78,20 +75,7 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(diagnosticComponent, /PRACTICAL_SECONDS/);
   assert.match(diagnosticComponent, /−0,15/);
   assert.match(diagnosticComponent, /20 min para teoría · 12 min para práctica/);
-  assert.match(diagnosticComponent, /Haz una prueba seria antes de pagar/);
-  assert.match(diagnosticComponent, /Sin registro/);
-  assert.match(diagnosticComponent, /Resultado útil/);
-  assert.match(diagnosticComponent, /Corrección explicada/);
-  assert.match(diagnosticComponent, /28 puntuables \+ 2 de reserva/);
-  assert.match(diagnosticComponent, /Tu prioridad sugerida/);
-  assert.match(diagnosticComponent, /Seguir practicando por 29 €/);
-  assert.match(diagnosticComponent, /Un solo pago · acceso hasta el examen/);
-  assert.match(diagnosticComponent, /current === 0 \|\| current === FIRST_PRACTICAL/);
-  assert.match(diagnosticComponent, /acceder al aula completa por 29 €/);
   assert.doesNotMatch(diagnosticComponent, /32 min aprox\./);
-  assert.match(styles, /\.lm-diagnostico-benefits/);
-  assert.match(styles, /\.lm-result-next/);
-  assert.match(styles, /\.lm-diagnostico-start-action \.lm-btn \{ flex: none;/);
   assert.match(whatsapp, /fill="currentColor"/);
   assert.match(whatsapp, /lm-wa-icon/);
 
@@ -100,7 +84,7 @@ test("la landing presenta el mini simulacro 20+8 y conserva la separación edito
   assert.match(analytics, /analytics_storage/);
   assert.match(analytics, /dataLayer\?\.push\(arguments\)/);
   assert.doesNotMatch(analytics, /ga_debug|debug_mode|GA4 transporte/);
-  assert.match(sitemap, /2026-08-11/);
+  assert.match(sitemap, /2026-08-10/);
   assert.match(sitemap, /https:\/\/auxiliojudicial\.academialorman\.es\//);
   assert.match(config, /"outputDirectory": "dist"/);
   assert.match(config, /"type": "host"/);
