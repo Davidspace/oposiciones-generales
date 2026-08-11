@@ -70,6 +70,11 @@ export function DiagnosticoAuxilio() {
     });
   }, [answers]);
 
+  const weakestArea = useMemo(
+    () => [...breakdown].sort((a, b) => a.correct / a.total - b.correct / b.total)[0],
+    [breakdown],
+  );
+
   const start = () => {
     startedAt.current = Date.now();
     completedTracked.current = false;
@@ -115,10 +120,10 @@ export function DiagnosticoAuxilio() {
       unanswered: score.theory.blank + score.practical.blank,
       duration_seconds: duration,
       timed_out: timedOut,
-      weakest_area: [...breakdown].sort((a, b) => a.correct / a.total - b.correct / b.total)[0]?.area || "",
+      weakest_area: weakestArea?.area || "",
     });
     window.setTimeout(() => resultRef.current?.focus(), 0);
-  }, [breakdown, finished, score, timedOut]);
+  }, [breakdown, finished, score, timedOut, weakestArea]);
 
   const moveNext = () => {
     if (current === LAST_THEORY) {
@@ -134,12 +139,7 @@ export function DiagnosticoAuxilio() {
   };
 
   const movePrevious = () => {
-    if (current === FIRST_PRACTICAL) {
-      setCurrent(LAST_THEORY);
-      setRemaining(THEORY_SECONDS);
-      return;
-    }
-    setCurrent((value) => Math.max(0, value - 1));
+    setCurrent((value) => Math.max(value < FIRST_PRACTICAL ? 0 : FIRST_PRACTICAL, value - 1));
   };
 
   const leaveBlankAndContinue = () => {
@@ -159,7 +159,7 @@ export function DiagnosticoAuxilio() {
   };
 
   const whatsappMessage = withCampaignReference(
-    `Hola, he terminado el mini simulacro gratuito de Auxilio Judicial: ${score.theory.correct}/20 teóricas y ${score.practical.correct}/8 prácticas. Quiero información sobre el acceso completo.`,
+    `Hola, he terminado el mini simulacro gratuito de Auxilio Judicial: ${score.theory.correct}/20 teóricas y ${score.practical.correct}/8 prácticas. Quiero acceder al aula completa por 29 € hasta el examen.`,
   );
   const whatsappHref = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(whatsappMessage)}`;
   const sectionLabel = question.ejercicio === "teorico" ? "Ejercicio teórico · 20 preguntas" : "Ejercicio práctico · 8 preguntas";
@@ -169,18 +169,29 @@ export function DiagnosticoAuxilio() {
       <div className="lm-diagnostico-head">
         <div>
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · mini simulacro · 20 teóricas + 8 prácticas</p>
-          <h2 id="diagnostico-titulo">Practica como te van a preguntar.</h2>
+          <h2 id="diagnostico-titulo">Haz una prueba seria antes de pagar.</h2>
         </div>
-        <p>Un recorrido breve y exigente: 20 preguntas teóricas en 20 minutos y 8 preguntas prácticas en 12 minutos, sobre dos casos originales. Incluye una reserva por ejercicio y corrección explicada. Es una muestra propia basada en legislación consolidada, no un examen oficial.</p>
+        <p>Comprueba ahora cómo preguntamos, cómo corregimos y qué te llevarás al aula. Son 20 preguntas teóricas en 20 minutos y 8 prácticas en 12 minutos, sobre dos casos originales. Sin registro y con todas las explicaciones al terminar.</p>
       </div>
 
       {!started ? (
-        <div className="lm-diagnostico-intro">
-          <div>
-            <strong>Dos bloques cronometrados</strong>
-            <span>20 min para teoría · 12 min para práctica · 2 reservas · dos casos de comunicación y actuación judicial</span>
+        <div className="lm-diagnostico-start">
+          <div className="lm-diagnostico-benefits" aria-label="Qué incluye la prueba gratuita">
+            <div><span>01</span><strong>Sin registro</strong><p>Entras directamente. No pedimos email ni datos personales.</p></div>
+            <div><span>02</span><strong>Resultado útil</strong><p>Verás tu puntuación por ejercicio y una prioridad concreta de repaso.</p></div>
+            <div><span>03</span><strong>Corrección explicada</strong><p>Revisa cada respuesta y consulta la norma consolidada en el BOE.</p></div>
           </div>
-          <button className="lm-btn lm-btn-primary" type="button" onClick={start}>Empezar el mini simulacro</button>
+          <div className="lm-diagnostico-intro">
+            <div>
+              <span className="lm-diagnostico-kicker">Tu sesión de práctica</span>
+              <strong>20 min para teoría · 12 min para práctica</strong>
+              <span>28 puntuables + 2 de reserva · dos casos originales · puntuación con penalización</span>
+            </div>
+            <div className="lm-diagnostico-start-action">
+              <button className="lm-btn lm-btn-primary" type="button" onClick={start}>Empezar gratis ahora</button>
+              <small>Muestra propia, no examen oficial. El contador comienza al pulsar y puedes dejar preguntas en blanco.</small>
+            </div>
+          </div>
         </div>
       ) : !finished ? (
         <div className="lm-quiz-panel">
@@ -221,7 +232,7 @@ export function DiagnosticoAuxilio() {
             </div>
           </fieldset>
           <div className="lm-quiz-nav">
-            <button type="button" className="lm-quiz-secondary" onClick={movePrevious} disabled={current === 0}>Anterior</button>
+            <button type="button" className="lm-quiz-secondary" onClick={movePrevious} disabled={current === 0 || current === FIRST_PRACTICAL}>Anterior</button>
             <button type="button" className="lm-quiz-secondary" onClick={leaveBlankAndContinue}>Dejar en blanco</button>
             {current < PREGUNTAS_MINI.length - 1 ? (
               <button type="button" className="lm-quiz-primary" onClick={moveNext}>Siguiente</button>
@@ -252,14 +263,35 @@ export function DiagnosticoAuxilio() {
                 <strong>{item.correct}/{item.total}</strong>
               </div>
             ))}
-            <div className="lm-result-actions">
-              <a className="lm-btn lm-btn-primary" href={whatsappHref} target="_blank" rel="noreferrer" onClick={() => trackEvent("whatsapp_click", { placement: "quiz_result", score: score.totalCorrect })}>Ver el acceso completo</a>
-              <button className="lm-btn lm-btn-outline" type="button" onClick={restart}>Repetir mini simulacro</button>
-            </div>
           </div>
 
+          <section className="lm-result-next" aria-labelledby="siguiente-paso-titulo">
+            <div className="lm-result-priority">
+              <span>Tu prioridad sugerida</span>
+              <h3 id="siguiente-paso-titulo">{weakestArea?.area || "Revisar las respuestas"}</h3>
+              <p>Es el área con menor proporción de aciertos en esta muestra. Abre las explicaciones de abajo, repasa la fuente y vuelve a intentarlo.</p>
+            </div>
+            <div className="lm-result-continuity">
+              <span>Si quieres seguir</span>
+              <h3>Practica los 26 temas hasta octubre.</h3>
+              <ul>
+                <li>Tests por temas y repasos acumulativos.</li>
+                <li>Supuestos prácticos y simulacros.</li>
+                <li>Corrección automática para repetir a tu ritmo.</li>
+              </ul>
+              <div className="lm-result-actions">
+                <a className="lm-btn lm-btn-primary" href={whatsappHref} target="_blank" rel="noreferrer" onClick={() => trackEvent("whatsapp_click", { placement: "quiz_result", score: score.totalCorrect })}>Seguir practicando por 29 €</a>
+                <button className="lm-btn lm-btn-outline" type="button" onClick={restart}>Repetir la prueba</button>
+              </div>
+              <small>Un solo pago · acceso hasta el examen · el botón abre WhatsApp.</small>
+            </div>
+          </section>
+
           <div className="lm-answer-review">
-            <h3>Revisa cada respuesta</h3>
+            <div className="lm-answer-review-head">
+              <h3>Revisa cada respuesta</h3>
+              <p>Abre cada pregunta para ver la solución, la explicación y su fuente oficial.</p>
+            </div>
             {PREGUNTAS_MINI.map((item, index) => {
               const answered = answers[item.id] !== undefined;
               const correct = answers[item.id] === item.correcta;
