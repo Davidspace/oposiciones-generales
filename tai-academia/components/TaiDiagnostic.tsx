@@ -11,12 +11,14 @@ import {
 
 type Route = "development" | "systems";
 
-const routeCopy: Record<Route, { label: string; detail: string }> = {
+const routeCopy: Record<Route, { kicker: string; label: string; detail: string }> = {
   development: {
+    kicker: "Ruta práctica · bloque III",
     label: "Desarrollo de sistemas",
     detail: "Datos, programación, aplicaciones web, seguridad y pruebas.",
   },
   systems: {
+    kicker: "Ruta práctica · bloque IV",
     label: "Sistemas y comunicaciones",
     detail: "Sistemas operativos, redes, continuidad, operación y seguridad.",
   },
@@ -57,7 +59,7 @@ export function TaiDiagnostic({ whatsapp }: { whatsapp: string }) {
         <div className="tai-route-picker" aria-label="Elige la ruta práctica">
           {(Object.keys(routeCopy) as Route[]).map((key) => (
             <button className="tai-route-card" key={key} type="button" onClick={() => setRoute(key)}>
-              <span className="tai-route-kicker">Segunda parte</span>
+              <span className="tai-route-kicker">{routeCopy[key].kicker}</span>
               <strong>{routeCopy[key].label}</strong>
               <span>{routeCopy[key].detail}</span>
               <b>Elegir esta ruta →</b>

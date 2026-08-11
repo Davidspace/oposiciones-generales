@@ -8,11 +8,11 @@ async function source(path) {
   return readFile(new URL(path, root), "utf8");
 }
 
-test("TAI integra prueba, muestra real y reseñas verificables", async () => {
+test("TAI integra prueba y muestra real sin una sección prematura de reseñas", async () => {
   const page = await source("app/tai/page.tsx");
   assert.match(page, /TaiDiagnostic/);
   assert.match(page, /TaiMaterialPreview/);
-  assert.match(page, /TaiReviews/);
+  assert.doesNotMatch(page, /TaiReviews|id="opiniones"/);
   assert.match(page, /Pago único de 69 €/);
 });
 
@@ -25,13 +25,13 @@ test("el diagnóstico separa teoría y las dos rutas prácticas", async () => {
   assert.doesNotMatch(data, /pregunta oficial/i);
 });
 
-test("la prueba declara su alcance y no inventa reseñas", async () => {
+test("la prueba declara su alcance y diferencia las rutas prácticas", async () => {
   const diagnostic = await source("components/TaiDiagnostic.tsx");
-  const reviews = await source("components/TaiReviews.tsx");
   assert.match(diagnostic, /muestra propia/i);
   assert.match(diagnostic, /no es un simulacro oficial/i);
-  assert.match(reviews, /no publicaremos una opinión sin comprobar/i);
-  assert.doesNotMatch(reviews, /★★★★★/);
+  assert.match(diagnostic, /Ruta práctica · bloque III/);
+  assert.match(diagnostic, /Ruta práctica · bloque IV/);
+  assert.doesNotMatch(diagnostic, />Segunda parte</);
 });
 
 test("las cuatro páginas reales siguen disponibles a tamaño completo", async () => {

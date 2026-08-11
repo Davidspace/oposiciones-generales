@@ -947,16 +947,14 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
 
 /* TAI proof experience: a real product sample inside the existing Swiss system. */
 body .lm-page.lm-tai .tai-diagnostic,
-body .lm-page.lm-tai .tai-preview,
-body .lm-page.lm-tai .tai-reviews {
+body .lm-page.lm-tai .tai-preview {
   width: auto !important;
   max-width: 1200px !important;
   margin-inline: auto !important;
   padding: 72px 24px !important;
 }
 
-body .lm-page.lm-tai .tai-diagnostic,
-body .lm-page.lm-tai .tai-reviews {
+body .lm-page.lm-tai .tai-diagnostic {
   border-top: 1px solid var(--lm-ink);
 }
 
@@ -968,12 +966,10 @@ body .lm-page.lm-tai .tai-section-heading {
   margin-bottom: 34px;
 }
 
-body .lm-page.lm-tai .tai-section-heading .lm-eyebrow,
-body .lm-page.lm-tai .tai-reviews .lm-eyebrow { margin-bottom: 18px; }
+body .lm-page.lm-tai .tai-section-heading .lm-eyebrow { margin-bottom: 18px; }
 
 body .lm-page.lm-tai .tai-section-heading h2,
-body .lm-page.lm-tai .tai-result-hero h2,
-body .lm-page.lm-tai .tai-reviews h2 {
+body .lm-page.lm-tai .tai-result-hero h2 {
   max-width: 12ch;
   margin: 0;
   font-family: var(--lm-font-heading);
@@ -985,8 +981,7 @@ body .lm-page.lm-tai .tai-reviews h2 {
 }
 
 body .lm-page.lm-tai .tai-section-heading > p,
-body .lm-page.lm-tai .tai-result-hero > p,
-body .lm-page.lm-tai .tai-reviews-copy p {
+body .lm-page.lm-tai .tai-result-hero > p {
   margin: 0;
   color: var(--lm-muted);
   font-size: 17px;
@@ -1186,35 +1181,19 @@ body .lm-page.lm-tai .tai-study-flow strong { display: block; font-family: var(-
 body .lm-page.lm-tai .tai-study-flow p { margin: 5px 0 0; color: var(--lm-muted); font-size: 13px; line-height: 1.45; }
 body .lm-page.lm-tai .tai-study-flow > a { display: inline-block; margin-top: 20px; color: var(--lm-accent-deep); font-family: var(--lm-font-heading); font-weight: 700; text-transform: uppercase; }
 
-body .lm-page.lm-tai .tai-reviews {
-  display: grid;
-  grid-template-columns: minmax(0, .85fr) minmax(360px, 1.15fr);
-  gap: 70px;
-  align-items: center;
-  margin-bottom: 72px !important;
-  border-bottom: 1px solid var(--lm-ink);
-  background: var(--lm-accent-soft);
-}
-
-body .lm-page.lm-tai .tai-reviews-copy { display: grid; gap: 18px; }
-body .lm-page.lm-tai .tai-reviews-copy .lm-btn { justify-self: start; margin-top: 6px; }
-
 @media (max-width: 900px) {
   body .lm-page.lm-tai .tai-section-heading,
   body .lm-page.lm-tai .tai-result-hero,
-  body .lm-page.lm-tai .tai-preview-layout,
-  body .lm-page.lm-tai .tai-reviews { grid-template-columns: 1fr; }
+  body .lm-page.lm-tai .tai-preview-layout { grid-template-columns: 1fr; }
   body .lm-page.lm-tai .tai-study-flow { border-top: 1px solid var(--lm-ink); border-left: 0; }
 }
 
 @media (max-width: 720px) {
   body .lm-page.lm-tai .tai-diagnostic,
-  body .lm-page.lm-tai .tai-preview,
-  body .lm-page.lm-tai .tai-reviews { padding: 54px 24px !important; }
+  body .lm-page.lm-tai .tai-preview { padding: 54px 24px !important; }
   body .lm-page.lm-tai .tai-section-heading { gap: 22px; margin-bottom: 26px; }
   body .lm-page.lm-tai .tai-section-heading h2,
-  body .lm-page.lm-tai .tai-result-hero h2,
-  body .lm-page.lm-tai .tai-reviews h2 { font-size: clamp(38px, 11vw, 52px); }
+  body .lm-page.lm-tai .tai-result-hero h2 { font-size: clamp(38px, 11vw, 52px); }
   body .lm-page.lm-tai .tai-route-picker,
   body .lm-page.lm-tai .tai-options,
   body .lm-page.lm-tai .tai-pages,
@@ -1239,8 +1218,6 @@ body .lm-page.lm-tai .tai-reviews-copy .lm-btn { justify-self: start; margin-top
   body .lm-page.lm-tai .tai-review-item > div { padding: 0 16px 18px 54px; }
   body .lm-page.lm-tai .tai-pages a,
   body .lm-page.lm-tai .tai-pages img { min-height: 260px; height: 260px; }
-  body .lm-page.lm-tai .tai-reviews { gap: 28px; margin-bottom: 54px !important; }
-  body .lm-page.lm-tai .tai-reviews-copy .lm-btn { width: 100%; }
   body .lm-page.lm-tai .lm-nav .lm-nav-material:nth-of-type(3) { display: none; }
 }
 
