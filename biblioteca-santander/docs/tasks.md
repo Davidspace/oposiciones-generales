@@ -7,6 +7,6 @@
 - [x] Eliminar referencias editoriales de Auxilio del nuevo producto.
 - [x] Preparar configuración Vercel y dominio `biblioteca-santander.academialorman.es`.
 - [x] Ejecutar lint, tests y build.
-- [ ] Confirmar DNS y dominio personalizado en Vercel.
+- [x] Confirmar DNS y dominio personalizado en Vercel.
 - [ ] Revisar la landing desplegada en móvil y escritorio.
 - [ ] Decidir si se incorpora al hub.
