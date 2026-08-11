@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/prueba",
+      "destination": "/#prueba",
+      "permanent": false
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "biblioteca-santander.vercel.app"
+        }
+      ],
+      "destination": "https://biblioteca-santander.academialorman.es/:path*",
+      "permanent": true
+    }
+  ]
+}
