@@ -14,6 +14,7 @@ export type CtaContactoProps = {
   /** Texto pequeño bajo el botón. */
   note?: string;
   message?: string;
+  onClick?: () => void;
   children?: ReactNode;
 };
 
@@ -23,6 +24,7 @@ export function CtaContacto({
   logoSrc = "/lorman-logo.png",
   note = "Te respondemos por WhatsApp. Sin compromiso.",
   message,
+  onClick,
   children,
 }: CtaContactoProps) {
   const whatsappHref = message
@@ -37,6 +39,7 @@ export function CtaContacto({
           href={whatsappHref}
           target="_blank"
           rel="noreferrer"
+          onClick={onClick}
         >
           <img className="lm-btn-mark" src={logoSrc} alt="" />
           <span>{label}</span>

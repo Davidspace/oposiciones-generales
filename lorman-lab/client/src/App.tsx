@@ -6,6 +6,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/home";
 import TcaeHome from "@/pages/tcae-home";
 import TestTcaeSas from "@/pages/test-tcae-sas";
+import CordobaHome from "@/pages/cordoba-home";
 import NotFound from "@/pages/not-found";
 import { MOODLE_URL } from "@/lib/portfolio-links";
 
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/tcae" component={TcaeHome}/>
       <Route path="/aula" component={AulaRedirect}/>
       <Route path="/test-tcae-sas" component={TestTcaeSas}/>
+      <Route path="/auxiliar-administrativo-cordoba" component={CordobaHome}/>
       <Route component={NotFound} />
     </Switch>
   );

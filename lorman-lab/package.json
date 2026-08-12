@@ -9,6 +9,9 @@
     "typecheck": "tsc --noEmit",
     "test:telegram": "node --test telegram/bot.test.mjs",
     "test:portfolio": "node --test tests/portfolio-integrity.test.mjs",
+    "test:cordoba": "node --test tests/cordoba-content.test.mjs tests/cordoba-mvp.test.mjs",
+    "export:cordoba-content": "node scripts/export-cordoba-content.mjs",
+    "track:cordoba-purchase": "node scripts/track-cordoba-purchase.mjs",
     "dev": "NODE_ENV=development tsx server/index.ts",
     "start": "NODE_ENV=production node dist/index.js"
   },

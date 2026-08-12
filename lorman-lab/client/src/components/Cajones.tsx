@@ -23,6 +23,7 @@ export type CajonCierreProps = {
   href: string;
   /** Etiqueta común en todas las landings. */
   label?: string;
+  onClick?: () => void;
 };
 
 export function Cajon({ kicker, title, text, figure }: CajonProps) {
@@ -42,13 +43,14 @@ export function CajonCierre({
   text,
   href,
   label = "Consultar acceso",
+  onClick,
 }: CajonCierreProps) {
   return (
     <div className="lm-box lm-box-solid">
       <span className="lm-box-kicker">{kicker}</span>
       <strong className="lm-box-title">{title}</strong>
       <p>{text}</p>
-      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer">
+      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer" onClick={onClick}>
         {label}
       </a>
     </div>

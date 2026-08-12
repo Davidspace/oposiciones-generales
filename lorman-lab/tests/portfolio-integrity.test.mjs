@@ -4,7 +4,7 @@ import test from "node:test";
 
 const root = new URL("../", import.meta.url);
 
-test("the common hub exposes the administrative routes through WhatsApp", async () => {
+test("the common hub exposes the administrative routes and the Córdoba landing", async () => {
   const [app, home, cursos, index, links, envExample, vercel] = await Promise.all([
     readFile(new URL("client/src/App.tsx", root), "utf8"),
     readFile(new URL("client/src/pages/home.tsx", root), "utf8"),
@@ -23,14 +23,14 @@ test("the common hub exposes the administrative routes through WhatsApp", async 
   for (const label of [
     "Auxiliar Administrativo del Estado",
     "Auxiliar Administrativo/a del SAS",
-    "Auxiliar Administrativo Local",
+    "Auxiliar Administrativo/a del Ayuntamiento de Córdoba",
   ]) {
     assert.match(cursos, new RegExp(label.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
 
   assert.match(cursos, /Preguntar por Estado/);
   assert.match(cursos, /Preguntar por SAS/);
-  assert.match(cursos, /Proponer convocatoria/);
+  assert.match(cursos, /Ver curso Córdoba/);
   assert.match(cursos, /whatsappCourse/);
   assert.doesNotMatch(cursos, /administrativo-estado\.vercel\.app/);
   assert.doesNotMatch(links, /administrativo-estado\.vercel\.app/);
@@ -38,7 +38,9 @@ test("the common hub exposes the administrative routes through WhatsApp", async 
   assert.doesNotMatch(index, /administrativo-estado\.vercel\.app/);
   assert.match(index, /Auxiliar Administrativo del Estado C2/);
   assert.match(index, /Auxiliar Administrativo\/a del SAS/);
-  assert.match(index, /Auxiliar Administrativo Local/);
+  assert.match(index, /Auxiliar Administrativo del Ayuntamiento de Córdoba/);
+  assert.match(app, /path="\/auxiliar-administrativo-cordoba"/);
+  assert.match(links, /auxiliar-administrativo-cordoba/);
   assert.match(links, /aula\.academialorman\.es/);
   assert.match(vercel, /https:\/\/academialorman\.es\/\$1/);
   assert.doesNotMatch(vercel, /sslip\.io/);

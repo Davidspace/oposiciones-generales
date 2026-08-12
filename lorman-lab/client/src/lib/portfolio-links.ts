@@ -4,6 +4,7 @@ const DEFAULT_TCAE_URL = "https://tcae.academialorman.es";
 const DEFAULT_TAI_URL = "https://tai.academialorman.es";
 const DEFAULT_SS_URL = "https://ss.academialorman.es";
 const DEFAULT_AUX_JURIDICO_URL = "https://auxiliojudicial.academialorman.es";
+const DEFAULT_CORDOBA_URL = "/auxiliar-administrativo-cordoba";
 
 function publicUrl(value: string | undefined, fallback: string) {
   const candidate = value?.trim();
@@ -40,4 +41,5 @@ export const PRODUCT_URLS = {
   tai: destination(import.meta.env.VITE_TAI_URL, DEFAULT_TAI_URL),
   ss: destination(import.meta.env.VITE_SS_URL, DEFAULT_SS_URL),
   auxJuridico: destination(import.meta.env.VITE_AUX_JURIDICO_URL, DEFAULT_AUX_JURIDICO_URL),
+  cordoba: destination(import.meta.env.VITE_CORDOBA_URL, DEFAULT_CORDOBA_URL),
 } as const;

@@ -7,7 +7,7 @@
  * (`tone`) que se aplica a la propia tarjeta.
  */
 
-export type FichaTono = "hub" | "tcae" | "tai" | "ss" | "aux";
+export type FichaTono = "hub" | "tcae" | "tai" | "ss" | "aux" | "cordoba";
 
 export type FichaItem = {
   /** Titular grande de la fila: el tipo de contenido. */
