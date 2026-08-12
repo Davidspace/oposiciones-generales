@@ -13,4 +13,4 @@
 - [x] T011 Añadir pruebas de contrato y validaciones editoriales.
 - [x] T012 Renderizar e inspeccionar todos los DOCX.
 - [x] T013 Ejecutar lint, pruebas, build y verificación responsive.
-- [ ] T014 Integrar, publicar y verificar la URL definitiva.
+- [x] T014 Integrar, publicar y verificar la URL definitiva.
