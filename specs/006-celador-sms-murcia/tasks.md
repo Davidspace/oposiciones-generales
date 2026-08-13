@@ -34,5 +34,11 @@
 - [x] T018 Ejecutar lint, typecheck, tests y build de la landing.
 - [x] T019 Ejecutar tests y build del hub.
 - [x] T020 Verificar que no aparecen secretos, contenido de otros productos ni rutas legacy.
-- [ ] T021 Desplegar la landing y el hub por los mecanismos autorizados de Vercel.
-- [ ] T022 Verificar URL pública, HTTPS, eventos de analítica y preparar pasos DNS/Search Console si requieren acción del propietario.
+- [x] T021 Desplegar la landing y el hub por los mecanismos autorizados de Vercel. El job de Celador SMS finalizó correctamente en la ejecución `31736480340`; el fallo global pertenece a otro proyecto.
+- [x] T022 Verificar URL pública, HTTPS, eventos de analítica y preparar pasos DNS/Search Console si requieren acción del propietario. La URL propia, el alias Vercel, la ruta corta del hub, los recursos SEO y los eventos de consentimiento se verificaron públicamente.
+
+## Gates externos pendientes
+
+- [ ] T023 Solicitar la indexación de la portada y el sitemap en Google Search Console con la cuenta propietaria.
+- [ ] T024 Añadir el identificador real de Microsoft Clarity en Vercel y comprobar su recepción tras aceptar el consentimiento.
+- [ ] T025 Cargar el curso en Moodle después de copia de seguridad, revisión editorial/jurídica y autorización explícita; esta tarea queda fuera de esta rama.

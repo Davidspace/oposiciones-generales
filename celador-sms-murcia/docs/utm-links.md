@@ -13,15 +13,20 @@ Para atribuir cada origen sin exponer teléfonos ni nombres, usa el dominio can�
 | Canal | Enlace recomendado |
 |---|---|
 | Contactos madre de Alba | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=contacto_alba&utm_medium=direct&utm_campaign=celador_sms_murcia_2026&utm_content=red_personal` |
+| Contacto personal | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=personal&utm_medium=direct&utm_campaign=celador_sms_murcia_2026&utm_content=contacto_01` |
 | WhatsApp grupo 1 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=whatsapp&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_01` |
 | WhatsApp grupo 2 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=whatsapp&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_02` |
+| WhatsApp grupo 3 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=whatsapp&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_03` |
 | Telegram grupo 1 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=telegram&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_01` |
 | Telegram grupo 2 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=telegram&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_02` |
+| Telegram grupo 3 | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=telegram&utm_medium=group&utm_campaign=celador_sms_murcia_2026&utm_content=grupo_03` |
 | Instagram biografía | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=instagram&utm_medium=bio&utm_campaign=celador_sms_murcia_2026&utm_content=bio` |
 | Instagram historia | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=instagram&utm_medium=story&utm_campaign=celador_sms_murcia_2026&utm_content=story_01` |
 | Instagram publicación | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=instagram&utm_medium=post&utm_campaign=celador_sms_murcia_2026&utm_content=post_01` |
 | Recomendación de alumno | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=referral&utm_medium=student&utm_campaign=celador_sms_murcia_2026&utm_content=ref_01` |
+| Mensaje privado solicitado | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=direct&utm_medium=dm&utm_campaign=celador_sms_murcia_2026&utm_content=dm_01` |
 | QR impreso | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=qr&utm_medium=offline&utm_campaign=celador_sms_murcia_2026&utm_content=cartel_01` |
+| Landing principal | `https://celadorsms.academialorman.es/prueba-gratis?utm_source=academialorman&utm_medium=hub&utm_campaign=celador_sms_murcia_2026&utm_content=portfolio_celador` |
 
 La aplicación guarda `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `gclid` y `fbclid` durante la sesión y los añade a los eventos y al mensaje de WhatsApp. El consentimiento analítico debe estar concedido para enviar eventos a GA4 o Clarity. Los alias cortos de Vercel son atajos para difusión general; usa los enlaces canónicos parametrizados cuando necesites separar grupos.
 

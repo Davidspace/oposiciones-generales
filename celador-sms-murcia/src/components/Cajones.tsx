@@ -49,7 +49,7 @@ export function CajonCierre({
       <span className="lm-box-kicker">{kicker}</span>
       <strong className="lm-box-title">{title}</strong>
       <p>{text}</p>
-      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer" onClick={() => trackEvent("whatsapp_click", { placement: "price_box" })}>
+      <a className="lm-box-cta" href={href} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "price_box" })}>
         {label}
       </a>
     </div>

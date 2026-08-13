@@ -37,6 +37,10 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
     if (secondsLeft <= 0) {
       setTimedOut(true);
       setSubmitted(true);
+      if (!progressMarks.current.has(100)) {
+        progressMarks.current.add(100);
+        trackEvent("free_test_progress", { course: "celador_sms_murcia", progress: 100 });
+      }
       trackEvent("free_test_timeout", { course: "celador_sms_murcia", answered });
       return undefined;
     }
@@ -60,7 +64,20 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
   const submit = () => {
     if (submitted) return;
     setSubmitted(true);
+    if (!progressMarks.current.has(100)) {
+      progressMarks.current.add(100);
+      trackEvent("free_test_progress", { course: "celador_sms_murcia", progress: 100 });
+    }
     trackEvent("complete_free_test", { course: "celador_sms_murcia", score: result.net, total: FREE_TEST.length, answered });
+  };
+
+  const repeat = () => {
+    setAnswers({});
+    setSubmitted(false);
+    setSecondsLeft(TEST_SECONDS);
+    setTimedOut(false);
+    progressMarks.current.clear();
+    trackEvent("free_test_repeat", { course: "celador_sms_murcia" });
   };
 
   return (
@@ -101,6 +118,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
           <div className="lm-sms-result-breakdown" aria-label="Resultado por bloques">{result.blocks.map((block) => <span key={block.block}><b>{block.block}</b>{block.correct}/{block.total} · {block.wrong} errores · {block.blank} en blanco</span>)}</div>
           <p><strong>Repaso recomendado:</strong> empieza por <b>{result.weakest.block.toLowerCase()}</b>; vuelve al resumen y repite el test del bloque antes de hacer otro simulacro.</p>
           <a className="lm-btn lm-btn-outline" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "free_test_result" })}>Preguntar por el acceso</a>
+          <button className="lm-btn lm-btn-outline" type="button" onClick={repeat}>Repetir la prueba</button>
         </div> : <p>Responde las que puedas en 17 minutos para ver la explicación, la penalización y el bloque que conviene repasar primero.</p>}
       </div>
     </section>

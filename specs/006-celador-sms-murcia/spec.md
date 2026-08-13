@@ -2,7 +2,7 @@
 
 **Feature Branch**: `codex/celador-sms-murcia`
 **Created**: 2026-08-13
-**Status**: Draft for implementation
+**Status**: Implemented; external gates pending
 
 ## User Scenarios & Testing
 

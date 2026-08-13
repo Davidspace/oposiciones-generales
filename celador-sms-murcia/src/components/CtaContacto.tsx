@@ -39,7 +39,7 @@ export function CtaContacto({
           href={whatsappHref}
           target="_blank"
           rel="noreferrer"
-          onClick={() => trackEvent("whatsapp_click", { placement: "hero" })}
+          onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "hero" })}
         >
           <img className="lm-btn-mark" src={logoSrc} alt="" />
           <span>{label}</span>

@@ -76,7 +76,7 @@ function App() {
           <div><strong>−1/4</strong><span>por respuesta errónea</span></div>
           <div className="lm-exam-links"><a href="https://www.borm.es/services/anuncio/ano/2025/numero/6134/pdf?id=840285" target="_blank" rel="noreferrer">Ver convocatoria BORM</a><a href="https://www.murciasalud.es/oposicionsms" target="_blank" rel="noreferrer">Seguir el proceso SMS</a></div>
         </section>
-        <p className="lm-shell lm-sms-exam-status">La relación provisional de admitidos ya está publicada. La fecha, hora y lugar del ejercicio deben confirmarse en MurciaSalud cuando se publiquen.</p>
+        <p className="lm-shell lm-sms-exam-status">La relación provisional de admitidos se publicó el 4 de junio de 2026 en el <a href="https://www.borm.es/services/anuncio/843282/pdf" target="_blank" rel="noreferrer">BORM</a>. La fecha, hora y lugar del ejercicio deben confirmarse en MurciaSalud cuando se publiquen.</p>
 
         <section className="lm-shell lm-offer-intro" id="contenido-aula" aria-labelledby="aula-title">
           <div><p className="lm-eyebrow"><i aria-hidden="true" /> Dentro del aula</p><h2 id="aula-title">Entiende.<br />Practica.<br />Corrige.</h2></div>

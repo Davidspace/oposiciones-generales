@@ -13,7 +13,7 @@ export const FREE_TEST: FreeTestQuestion[] = [
   {
     id: "sms-free-01",
     block: "Común",
-    question: "En la convocatoria vigente del SMS para Personal de Servicios, el ejercicio de acceso libre consiste en:",
+    question: "En la convocatoria vigente del SMS para Personal de Servicios, opción Celador/a-Subalterno/a, el ejercicio de acceso libre consiste en:",
     options: [
       "50 preguntas en 60 minutos",
       "75 preguntas en 85 minutos",
@@ -209,15 +209,15 @@ export const FREE_TEST: FreeTestQuestion[] = [
   {
     id: "sms-free-15",
     block: "Específica",
-    question: "La mejor forma de usar esta prueba antes de estudiar el curso completo es:",
+    question: "Ante un traslado de un paciente con una indicación de inmovilización, la actuación más adecuada del celador es:",
     options: [
-      "Tomar el resultado como nota oficial de la oposición",
-      "Usarla como diagnóstico para decidir qué bloque repasar",
-      "Sustituir con ella todo el temario",
-      "Compartir las respuestas para memorizar sin explicación",
+      "Retirar la inmovilización para agilizar el trayecto",
+      "Comprobar que los medios están preparados y seguir las indicaciones del personal responsable",
+      "Cambiar por iniciativa propia la técnica de traslado",
+      "Mover al paciente sin explicarle el procedimiento",
     ],
     answer: 1,
-    explanation: "La prueba es una muestra propia: sirve para detectar prioridades, no sustituye la convocatoria ni el estudio completo.",
-    source: "Criterio pedagógico de la muestra LORMAN; no es una pregunta oficial",
+    explanation: "La movilización segura exige preparar los medios, coordinar la maniobra y seguir las indicaciones del personal responsable; el celador no debe modificar por su cuenta la técnica indicada.",
+    source: "Programa específico SMS, tema 5; movilización y traslado",
   },
 ];

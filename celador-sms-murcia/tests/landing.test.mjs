@@ -5,7 +5,7 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing Celador SMS usa el contenido auditado y la oferta separada", async () => {
-  const [source, freeTestComponent, freeTest, html, config, attribution, analytics, inventory, moodleOutline] = await Promise.all([
+  const [source, freeTestComponent, freeTest, html, config, attribution, analytics, inventory, moodleOutline, notFound] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("src/components/FreeTest.tsx", root), "utf8"),
     readFile(new URL("src/data/free-test.ts", root), "utf8"),
@@ -15,6 +15,7 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
     readFile(new URL("docs/content-inventory.csv", root), "utf8"),
     readFile(new URL("docs/moodle-course-outline.md", root), "utf8"),
+    readFile(new URL("public/404.html", root), "utf8"),
   ]);
 
   assert.match(source, /Celador\/a-Subalterno\/a/);
@@ -37,11 +38,19 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(freeTestComponent, /17 minutos/);
   assert.match(freeTestComponent, /−0,25 por error/);
   assert.match(freeTestComponent, /free_test_progress/);
+  assert.match(freeTestComponent, /free_test_repeat/);
+  assert.match(freeTestComponent, /Repetir la prueba/);
   assert.match(freeTestComponent, /Resultado por bloques/);
   assert.match(freeTestComponent, /answered_count/);
   assert.doesNotMatch(freeTestComponent, /question_id/);
   assert.match(source, /view_price/);
   assert.match(source, /faq_open/);
+  const ctaContacto = await readFile(new URL("src/components/CtaContacto.tsx", root), "utf8");
+  const cajones = await readFile(new URL("src/components/Cajones.tsx", root), "utf8");
+  assert.match(ctaContacto, /click_whatsapp/);
+  assert.doesNotMatch(ctaContacto, /whatsapp_click/);
+  assert.match(cajones, /click_whatsapp/);
+  assert.doesNotMatch(cajones, /whatsapp_click/);
   assert.match(analytics, /G-ZD1KT7K2JM/);
   assert.match(analytics, /source_page/);
   assert.match(analytics, /pendingEvents/);
@@ -50,11 +59,18 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.equal((freeTest.match(/id: "sms-free-/g) || []).length, 15);
   assert.match(freeTest, /No reproduce preguntas de bancos comerciales/);
   assert.match(freeTest, /75 preguntas en 85 minutos/);
+  assert.match(freeTest, /indicación de inmovilización/);
+  assert.doesNotMatch(freeTest, /La mejor forma de usar esta prueba/);
 
   assert.match(html, /Celador SMS Murcia/);
   assert.match(html, /celadorsms\.academialorman\.es/);
   assert.match(html, /"numberOfQuestions": 15/);
+  assert.match(html, /"name": "Curso completo"/);
+  assert.match(html, /"name": "Pack solo tests"/);
+  assert.match(html, /"price": "45"/);
   assert.doesNotMatch(html, /auxiliojudicial|auxiliar-juridico/);
+  assert.match(notFound, /No encontramos esa página/);
+  assert.match(notFound, /noindex/);
 
   assert.match(config, /celador-sms-murcia/);
   assert.match(config, /celadorsms\.academialorman\.es/);
