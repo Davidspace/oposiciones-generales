@@ -7,7 +7,7 @@
  * (`tone`) que se aplica a la propia tarjeta.
  */
 
-export type FichaTono = "hub" | "tcae" | "tai" | "ss" | "aux" | "cordoba" | "sms";
+export type FichaTono = "hub" | "tcae" | "tai" | "ss" | "aux";
 
 export type FichaItem = {
   /** Titular grande de la fila: el tipo de contenido. */
@@ -38,8 +38,6 @@ export function FichaCurso({
 }: FichaCursoProps) {
   const codeClass =
     code.length > 4 ? "lm-card-code lm-card-code-sm" : "lm-card-code";
-  const isLongPrice = Boolean(price && price.value.length > 6);
-  const isWhatsApp = cta.href.startsWith("https://wa.me/");
 
   return (
     <article className={`lm-card lm-${tone}`}>
@@ -57,23 +55,18 @@ export function FichaCurso({
           </li>
         ))}
         {price ? (
-          <li className={`lm-row-price${isLongPrice ? " lm-row-price-long" : ""}`}>
+          <li className="lm-row-price">
             <span>
               <strong className="lm-item-title">{price.title}</strong>
               {price.note ? <span className="lm-item-note">{price.note}</span> : null}
             </span>
-            <strong className={`lm-price${isLongPrice ? " lm-price-long" : ""}`}>{price.value}</strong>
+            <strong className="lm-price">{price.value}</strong>
           </li>
         ) : null}
       </ul>
 
       <div className="lm-card-foot">
-        <a
-          className="lm-card-cta"
-          href={cta.href}
-          target={isWhatsApp ? "_blank" : undefined}
-          rel={isWhatsApp ? "noreferrer" : undefined}
-        >
+        <a className="lm-card-cta" href={cta.href}>
           {cta.label}
         </a>
       </div>

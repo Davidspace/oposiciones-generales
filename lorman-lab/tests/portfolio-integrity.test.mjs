@@ -4,7 +4,7 @@ import test from "node:test";
 
 const root = new URL("../", import.meta.url);
 
-test("the common hub exposes the administrative routes and the Córdoba landing", async () => {
+test("the common hub exposes the portfolio routes and the Córdoba landing", async () => {
   const [app, home, cursos, index, links, envExample, vercel] = await Promise.all([
     readFile(new URL("client/src/App.tsx", root), "utf8"),
     readFile(new URL("client/src/pages/home.tsx", root), "utf8"),
@@ -21,6 +21,7 @@ test("the common hub exposes the administrative routes and the Córdoba landing"
   assert.match(home, /Estado, SAS y ayuntamientos/);
 
   for (const label of [
+    "Celador/a-Subalterno/a SMS Murcia",
     "Auxiliar Administrativo del Estado",
     "Auxiliar Administrativo/a del SAS",
     "Auxiliar Administrativo/a del Ayuntamiento de Córdoba",
@@ -31,6 +32,8 @@ test("the common hub exposes the administrative routes and the Córdoba landing"
   assert.match(cursos, /Preguntar por Estado/);
   assert.match(cursos, /Preguntar por SAS/);
   assert.match(cursos, /Ver curso Córdoba/);
+  assert.match(cursos, /Ver curso Celador SMS/);
+  assert.match(links, /celadorsms\.academialorman\.es/);
   assert.match(cursos, /whatsappCourse/);
   assert.doesNotMatch(cursos, /administrativo-estado\.vercel\.app/);
   assert.doesNotMatch(links, /administrativo-estado\.vercel\.app/);

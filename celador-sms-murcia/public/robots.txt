@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://celadorsms.academialorman.es/sitemap.xml

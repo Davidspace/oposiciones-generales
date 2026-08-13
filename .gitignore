@@ -37,3 +37,4 @@ lorman-lab/private-content/
 
 # Vercel local linkage and build metadata.
 .vercel
+_work/

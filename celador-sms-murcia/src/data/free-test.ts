@@ -1,0 +1,223 @@
+export type FreeTestQuestion = {
+  id: string;
+  block: "Común" | "Específica";
+  question: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+  source: string;
+};
+
+/** Muestra propia. No reproduce preguntas de bancos comerciales ni exámenes oficiales. */
+export const FREE_TEST: FreeTestQuestion[] = [
+  {
+    id: "sms-free-01",
+    block: "Común",
+    question: "En la convocatoria vigente del SMS para Personal de Servicios, el ejercicio de acceso libre consiste en:",
+    options: [
+      "50 preguntas en 60 minutos",
+      "75 preguntas en 85 minutos",
+      "100 preguntas en 90 minutos",
+      "75 preguntas en 120 minutos",
+    ],
+    answer: 1,
+    explanation: "La base 11.1 fija un cuestionario de 75 preguntas y un tiempo máximo de 85 minutos.",
+    source: "BORM 18/12/2025, Resolución 6134, base 11.1",
+  },
+  {
+    id: "sms-free-02",
+    block: "Común",
+    question: "En el ejercicio del turno libre, una respuesta errónea:",
+    options: [
+      "No tiene ninguna consecuencia",
+      "Resta un cuarto del valor de una respuesta correcta",
+      "Resta la mitad del valor de una respuesta correcta",
+      "Anula la pregunta completa",
+    ],
+    answer: 1,
+    explanation: "Las respuestas erróneas restan un cuarto del valor asignado a las correctas; las no contestadas no puntúan.",
+    source: "BORM 18/12/2025, Resolución 6134, base 11.4",
+  },
+  {
+    id: "sms-free-03",
+    block: "Común",
+    question: "Para el acceso libre, el cuestionario puede contener preguntas prácticas:",
+    options: [
+      "Solo sobre legislación estatal",
+      "Solo sobre la parte específica",
+      "Además de preguntas teóricas, sobre materias generales y específicas",
+      "Únicamente si el tribunal publica un caso antes del examen",
+    ],
+    answer: 2,
+    explanation: "La convocatoria permite preguntas prácticas y atribuye al tribunal la ponderación entre materias generales y específicas.",
+    source: "BORM 18/12/2025, Resolución 6134, base 11.2",
+  },
+  {
+    id: "sms-free-04",
+    block: "Común",
+    question: "La Ley 39/2015 aparece en el programa común principalmente por su regulación de:",
+    options: [
+      "La contratación del personal estatutario",
+      "La relación electrónica con la Administración",
+      "La organización de las unidades de cuidados intensivos",
+      "El almacenamiento de medicamentos",
+    ],
+    answer: 1,
+    explanation: "El tema común 5 aborda el derecho y la obligación de relacionarse electrónicamente con la Administración.",
+    source: "Programa común SMS 2025, tema 5; Ley 39/2015",
+  },
+  {
+    id: "sms-free-05",
+    block: "Común",
+    question: "Ante una evacuación, la actuación correcta del celador debe ajustarse en primer lugar a:",
+    options: [
+      "La improvisación del equipo más cercano",
+      "El plan de emergencia y las instrucciones del centro",
+      "La elección de cualquier salida aunque esté bloqueada",
+      "La recogida de objetos personales",
+    ],
+    answer: 1,
+    explanation: "La prevención y la evacuación se realizan conforme al plan del centro, sus rutas y las instrucciones responsables.",
+    source: "Programa común SMS 2025, tema 6; prevención y evacuación",
+  },
+  {
+    id: "sms-free-06",
+    block: "Común",
+    question: "El programa común vigente para acceso libre combina:",
+    options: [
+      "Solo materias específicas",
+      "Materias comunes y materias específicas",
+      "Solo psicotécnicos",
+      "Una entrevista y un caso oral",
+    ],
+    answer: 1,
+    explanation: "La base 10.1 remite al programa común de 2025 y al programa específico indicado para cada opción.",
+    source: "BORM 18/12/2025, Resolución 6134, base 10.1",
+  },
+  {
+    id: "sms-free-07",
+    block: "Específica",
+    question: "La información sanitaria debe facilitarse respetando especialmente:",
+    options: [
+      "La intimidad y la autonomía del paciente",
+      "La publicidad del caso para todo el personal",
+      "La sustitución automática del consentimiento",
+      "La entrega de datos a cualquier acompañante",
+    ],
+    answer: 0,
+    explanation: "El tema específico 1 conecta información, intimidad, consentimiento y autonomía del paciente.",
+    source: "Programa específico SMS, tema 1; Ley 41/2002",
+  },
+  {
+    id: "sms-free-08",
+    block: "Específica",
+    question: "En una unidad de aislamiento, el celador debe:",
+    options: [
+      "Aplicar las precauciones indicadas por el centro",
+      "Entrar siempre sin protección para agilizar el traslado",
+      "Decidir por su cuenta el tipo de aislamiento",
+      "Eliminar la señalización para evitar alarmas",
+    ],
+    answer: 0,
+    explanation: "Las precauciones y el equipo de protección dependen del aislamiento indicado y de las instrucciones del centro.",
+    source: "Programa específico SMS, tema 2; precauciones y aislamiento",
+  },
+  {
+    id: "sms-free-09",
+    block: "Específica",
+    question: "Antes de movilizar a un paciente, la primera decisión segura es:",
+    options: [
+      "Moverlo rápidamente sin explicar el procedimiento",
+      "Valorar la situación, preparar medios y coordinar el movimiento",
+      "Retirar todas las ayudas mecánicas",
+      "Pedir al paciente que se levante siempre solo",
+    ],
+    answer: 1,
+    explanation: "La movilización segura exige valorar al paciente, el entorno, los medios y la coordinación del equipo.",
+    source: "Programa específico SMS, tema 5; movilización y traslado",
+  },
+  {
+    id: "sms-free-10",
+    block: "Específica",
+    question: "En la recepción de material en almacén, una comprobación esencial es:",
+    options: [
+      "Guardar el pedido sin revisar su contenido",
+      "Comprobar cantidades, estado y documentación del pedido",
+      "Mezclar productos sin atender a su conservación",
+      "Distribuir primero lo que tenga el envase deteriorado",
+    ],
+    answer: 1,
+    explanation: "La recepción y almacenamiento requieren comprobar el pedido, su estado y las condiciones de conservación.",
+    source: "Programa específico SMS, tema 4; almacén y farmacia",
+  },
+  {
+    id: "sms-free-11",
+    block: "Específica",
+    question: "Una función habitual de un escáner es:",
+    options: [
+      "Convertir una imagen física en información digital",
+      "Eliminar automáticamente un documento original",
+      "Sustituir la firma de quien autoriza un envío",
+      "Clasificar por sí solo el material de almacén",
+    ],
+    answer: 0,
+    explanation: "El escáner digitaliza documentos o imágenes; no sustituye las responsabilidades del procedimiento.",
+    source: "Programa específico SMS, tema 6; reprografía y escáner",
+  },
+  {
+    id: "sms-free-12",
+    block: "Específica",
+    question: "En Windows, la barra de tareas permite normalmente:",
+    options: [
+      "Gestionar accesos y ventanas abiertas",
+      "Sustituir el sistema de copias de seguridad",
+      "Modificar la normativa del centro",
+      "Autorizar un traslado de paciente",
+    ],
+    answer: 0,
+    explanation: "El tema específico 7 incluye nociones básicas del entorno Windows, entre ellas escritorio, ventanas y barra de tareas.",
+    source: "Programa específico SMS, tema 7; informática básica",
+  },
+  {
+    id: "sms-free-13",
+    block: "Específica",
+    question: "Si durante un traslado el paciente manifiesta dolor, lo más adecuado es:",
+    options: [
+      "Continuar sin comunicarlo para no retrasar el servicio",
+      "Detenerse de forma segura y comunicar la incidencia",
+      "Cambiar el diagnóstico por propia iniciativa",
+      "Dejar al paciente sin supervisión",
+    ],
+    answer: 1,
+    explanation: "La seguridad del paciente exige detener o adaptar la maniobra y comunicar la incidencia al personal responsable.",
+    source: "Programa específico SMS, tema 5; traslado y seguridad del paciente",
+  },
+  {
+    id: "sms-free-14",
+    block: "Específica",
+    question: "La entrega de documentación clínica debe realizarse:",
+    options: [
+      "A cualquier persona que la solicite",
+      "Según el procedimiento del centro y respetando la confidencialidad",
+      "Publicándola en una zona común",
+      "Sin comprobar el destino",
+    ],
+    answer: 1,
+    explanation: "El traslado de documentación está sujeto al procedimiento interno y a los deberes de confidencialidad y protección de datos.",
+    source: "Programa específico SMS, temas 1 y 5; confidencialidad y traslado de documentación",
+  },
+  {
+    id: "sms-free-15",
+    block: "Específica",
+    question: "La mejor forma de usar esta prueba antes de estudiar el curso completo es:",
+    options: [
+      "Tomar el resultado como nota oficial de la oposición",
+      "Usarla como diagnóstico para decidir qué bloque repasar",
+      "Sustituir con ella todo el temario",
+      "Compartir las respuestas para memorizar sin explicación",
+    ],
+    answer: 1,
+    explanation: "La prueba es una muestra propia: sirve para detectar prioridades, no sustituye la convocatoria ni el estudio completo.",
+    source: "Criterio pedagógico de la muestra LORMAN; no es una pregunta oficial",
+  },
+];

@@ -115,5 +115,18 @@ export const CURSOS: FichaCursoProps[] = [
       href: url("VITE_AUX_JURIDICO_URL", PRODUCT_URLS.auxJuridico),
     },
   },
+  {
+    code: "CELADOR SMS",
+    tone: "sms",
+    title: "Celador/a-Subalterno/a SMS Murcia",
+    meta: "Servicio Murciano de Salud · agrupación profesional",
+    items: [
+      { title: "Temario común y específico", note: "14 temas con resumen" },
+      { title: "Tests por tema", note: "50 preguntas por bloque" },
+      { title: "Simulacros y oficiales", note: "formato SMS, autocorrección" },
+    ],
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "59 €" },
+    cta: { label: "Ver curso Celador SMS", href: url("VITE_CELADOR_SMS_URL", PRODUCT_URLS.celadorSms) },
+  },
 ];
 
