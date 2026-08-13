@@ -22,7 +22,9 @@ function whatsappUrl(message: string) {
 }
 
 const ACCESS_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || whatsappUrl(`Hola Academia LORMAN, quiero información sobre el curso de ${COURSE}.`);
-const TEST_URL = `${window.location.pathname}#prueba`;
+// Keep the free-test CTA on the current document so consent, UTM attribution
+// and the start event are preserved before the browser scrolls to the test.
+const TEST_URL = "#prueba";
 
 function App() {
   const priceTracked = useRef(false);
