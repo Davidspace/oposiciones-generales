@@ -18,6 +18,8 @@ El manifiesto declara 131 ficheros, 52 DOCX y 70 PDF. La extracción local conti
 
 El inventario tabular reutilizable está en `docs/content-inventory.csv`. Contiene las 131 rutas del manifiesto, formato, páginas cuando se pueden contar, preguntas conocidas, estado editorial, incidencia, bytes y SHA-256.
 
+La clasificación auditada separa los 14 bloques (7 comunes y 7 específicos) y, para cada bloque, sus tres recursos pedagógicos: resumen, tema completo y test temático. Los 42 recursos específicos se verificaron de nuevo tras corregir una clasificación derivada que los había marcado como metadatos internos; los hashes y bytes siguen coincidiendo con el ZIP.
+
 ## Verificación estructural ejecutada
 
 Se ha comprobado el contenido extraído, sin modificar ningún documento original:

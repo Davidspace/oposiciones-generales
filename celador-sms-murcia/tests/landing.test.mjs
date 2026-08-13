@@ -57,5 +57,9 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(config, /celador_sms_murcia_2026/);
   assert.match(attribution, /lorman_celador_sms_attribution_v1/);
   assert.equal(inventory.trim().split(/\r?\n/).length, 132);
+  assert.equal((inventory.match(/,especifica:T01,/g) || []).length, 6);
+  assert.equal((inventory.match(/,especifica:T07,/g) || []).length, 6);
+  assert.doesNotMatch(inventory, /01 TEMAS\/ESPECIFICA\/[^\n]+,metadatos y fuentes,fuentes y auditoria/);
+  assert.match(inventory, /T01_test_50_preguntas\.pdf,test tematico,especifica:T01/);
   assert.match(inventory, /E-001 repeated stems; E-002 legal review/);
 });
