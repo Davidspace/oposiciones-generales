@@ -16,6 +16,22 @@ La fuente privada facilitada (`CURSO CELADOR SMS MURCIA-20260813T175324Z-1-001.z
 
 El manifiesto declara 131 ficheros, 52 DOCX y 70 PDF. La extracción local contiene 132 ficheros: la diferencia es un `README.md` de orientación dentro de `03 EXAMENES OFICIALES`, que no es material didáctico. La landing comunica el inventario pedagógico, no el número bruto de ficheros.
 
+## Verificación estructural ejecutada
+
+Se ha comprobado el contenido extraído, sin modificar ningún documento original:
+
+- Las 131 filas de `04 AUDITORIA FINAL/inventario_sha256.csv` existen y coinciden en bytes y SHA-256.
+- Los 14 tests temáticos contienen 50 preguntas numeradas, cuatro opciones por pregunta y una justificación.
+- Los 10 simulacros contienen 75 preguntas numeradas, cuatro opciones por pregunta y una justificación.
+- La detección de inicios de pregunta en los 24 PDF coincide con su DOCX correspondiente.
+- No se han encontrado referencias a SERGAS, Galicia, Andalucía, Forja TIC, GSI ni Seguridad Social en el material propio. Las menciones a TCAE y Seguridad Social aparecen únicamente en el texto de determinados exámenes oficiales históricos, que permanecen separados.
+
+La auditoría también ha detectado repeticiones literales de enunciados genéricos dentro de todos los tests temáticos y simulacros. No se ha dado por hecho que sean errores: pueden ser plantillas de redacción con opciones distintas. Sin embargo, incumplen el criterio de no duplicación literal y requieren revisión editorial antes de publicar el banco como plenamente depurado. El detalle y la propuesta de corrección están en `docs/editorial-incidences.md`.
+
+## Estado editorial actual
+
+**Necesita revisión editorial antes de considerarse definitivo.** La estructura, los recuentos, los formatos y los hashes están verificados. La revisión pendiente afecta a la variedad de enunciados repetidos y a la comprobación jurídica de cada pregunta frente a la normativa vigente. Los documentos fuente permanecen intactos.
+
 ## Qué se puede publicar
 
 - Desarrollo, resumen y test como material propio del curso cuando el equipo confirme la revisión editorial.

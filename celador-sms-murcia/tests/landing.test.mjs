@@ -21,12 +21,20 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(source, /10 simulacros SMS/);
   assert.match(source, /75 preguntas/);
   assert.match(source, /85 minutos/);
+  assert.match(source, /muestras\/tema-completo-t01\.jpg/);
+  assert.match(source, /muestras\/resumen-t01\.jpg/);
+  assert.match(source, /muestras\/test-t05\.jpg/);
+  assert.match(source, /muestras\/simulacro-01\.jpg/);
   assert.match(source, /−1\/4/);
   assert.match(source, /90 € curso completo/);
   assert.match(source, /45 €|45 â‚¬/);
   assert.match(source, /BORM/);
   assert.match(source, /murciasalud\.es\/oposicionsms/);
   assert.match(freeTestComponent, /Prueba gratuita/);
+  assert.match(freeTestComponent, /17 minutos/);
+  assert.match(freeTestComponent, /−0,25 por error/);
+  assert.match(freeTestComponent, /free_test_progress/);
+  assert.match(freeTestComponent, /Resultado por bloques/);
   assert.doesNotMatch(source, /Auxilio Judicial|auxiliojudicial|Forja TIC|gsi-casos-practicos/);
 
   assert.equal((freeTest.match(/id: "sms-free-/g) || []).length, 15);

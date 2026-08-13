@@ -1026,6 +1026,7 @@ body .lm-page .lm-muestra-sin-temario .lm-muestra-grid { grid-template-columns: 
   text-transform: uppercase;
   text-decoration: underline;
 }
+.lm-sms-exam-status { color: var(--lm-muted); font-size: 12px; line-height: 1.5; margin-bottom: 0; padding-top: 18px; }
 
 .lm-offer-intro {
   display: grid;
@@ -1416,6 +1417,11 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-samples { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 32px; }
 .lm-sms-samples article { border: 1px solid var(--lm-ink); background: var(--lm-accent-tint); min-height: 244px; padding: 20px; display: flex; flex-direction: column; }
 .lm-sms-samples span { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; }
+.lm-sms-sample-images { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 16px 0 18px; }
+.lm-sms-sample-images a, .lm-sms-sample-image { background: var(--lm-bg); border: 1px solid var(--lm-line); display: block; overflow: hidden; }
+.lm-sms-sample-images img, .lm-sms-sample-image img { aspect-ratio: .707; display: block; height: auto; object-fit: cover; object-position: top; transition: transform .2s ease; width: 100%; }
+.lm-sms-sample-images a:hover img, .lm-sms-sample-image:hover img { transform: scale(1.025); }
+.lm-sms-sample-image { margin: 16px 0 18px; }
 .lm-sms-samples h3 { font-size: 30px; margin: 30px 0 12px; }
 .lm-sms-samples p { color: var(--lm-muted); font-size: 15px; line-height: 1.5; margin: 0; }
 .lm-sms-samples small { color: var(--lm-soft); font-size: 12px; margin-top: auto; padding-top: 26px; }
@@ -1425,6 +1431,7 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-test-heading h2 { font-size: clamp(42px, 5vw, 68px); }
 .lm-sms-test-heading > p { color: var(--lm-muted); font-size: 18px; line-height: 1.6; margin: 0; }
 .lm-sms-test-meta { display: flex; flex-wrap: wrap; gap: 12px 26px; margin: 28px 0; color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
+.lm-sms-timer { border: 1px solid var(--lm-accent-dark); padding: 6px 10px; font-variant-numeric: tabular-nums; }
 .lm-sms-question-list { display: grid; gap: 14px; }
 .lm-sms-question { background: var(--lm-bg); border: 1px solid var(--lm-ink); min-inline-size: 0; margin: 0; padding: 20px 22px 22px; }
 .lm-sms-question legend { display: grid; grid-template-columns: 42px 1fr; gap: 9px; width: 100%; font-family: var(--lm-font-heading); font-size: 25px; line-height: 1.13; text-transform: uppercase; }
@@ -1437,6 +1444,7 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-options strong { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); }
 .lm-sms-question.is-correct { border-left: 6px solid var(--lm-accent); }
 .lm-sms-question.is-wrong { border-left: 6px solid #8a3542; }
+.lm-sms-question.is-blank { border-left: 6px solid #8b8792; }
 .lm-sms-explanation { background: #fff; border-top: 1px solid var(--lm-line); margin-top: 18px; padding: 16px 0 0; }
 .lm-sms-explanation strong { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 18px; text-transform: uppercase; }
 .lm-sms-explanation p { color: var(--lm-muted); margin: 6px 0; }
@@ -1447,6 +1455,12 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-result strong { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 48px; line-height: .9; }
 .lm-sms-result span { color: var(--lm-muted); max-width: 300px; }
 .lm-sms-result .lm-btn { min-height: 52px; font-size: 18px; }
+.lm-sms-result-score { align-items: center; display: flex; gap: 16px; }
+.lm-sms-result-score span { font-size: 13px; line-height: 1.4; }
+.lm-sms-result-breakdown { display: grid; gap: 6px; min-width: 270px; }
+.lm-sms-result-breakdown span { background: var(--lm-bg); border: 1px solid var(--lm-line); color: var(--lm-muted); display: block; font-size: 12px; max-width: none; padding: 8px 10px; }
+.lm-sms-result-breakdown b { color: var(--lm-accent-dark); margin-right: 8px; }
+.lm-sms-result > p { color: var(--lm-muted); flex: 1 1 260px; line-height: 1.45; margin: 0; }
 .lm-sms-test button:disabled { cursor: not-allowed; opacity: .45; }
 
 .lm-inventory { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; border-bottom: 1px solid var(--lm-ink); }
