@@ -34,8 +34,8 @@
 - [x] T018 Ejecutar lint, typecheck, tests y build de la landing.
 - [x] T019 Ejecutar tests y build del hub.
 - [x] T020 Verificar que no aparecen secretos, contenido de otros productos ni rutas legacy.
-- [x] T021 Desplegar la landing y el hub por los mecanismos autorizados de Vercel. El job de Celador SMS finalizó correctamente en la ejecución `31736480340`; el fallo global pertenece a otro proyecto.
-- [x] T022 Verificar URL pública, HTTPS, eventos de analítica y preparar pasos DNS/Search Console si requieren acción del propietario. La URL propia, el alias Vercel, la ruta corta del hub, los recursos SEO y los eventos de consentimiento se verificaron públicamente.
+- [x] T021 Desplegar la landing y el hub por los mecanismos autorizados de Vercel. El job de Celador SMS finalizó correctamente en las ejecuciones `31737991034` y `31738581244`; el fallo global pertenece a otro proyecto.
+- [x] T022 Verificar URL pública, HTTPS, eventos de analítica y preparar pasos DNS/Search Console si requieren acción del propietario. La URL propia, el alias Vercel, la ruta corta del hub, los recursos SEO y los eventos de consentimiento se verificaron públicamente; GA4 recibió `page_view`, `view_course`, `start_free_test` y `free_test_answer`.
 
 ## Gates externos pendientes
 

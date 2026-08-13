@@ -10,6 +10,12 @@ La landing integra GA4 y Microsoft Clarity con consentimiento previo. La campañ
 4. Solicita la indexación de la portada después de comprobar el DNS y el certificado.
 5. Comprueba el consentimiento y, en GA4 Tiempo real, `page_view`, `view_course`, `view_price`, `start_free_test`, `free_test_answer`, `free_test_progress`, `complete_free_test`, `open_sample`, `faq_open`, `click_whatsapp` y `click_buy`. Los eventos incluyen `course`, `source_page` y, cuando existen, las UTMs de sesión.
 
+## Verificación ejecutada
+
+El 13 de agosto de 2026 se comprobó la portada pública con un navegador limpio, aceptando el consentimiento y realizando el inicio de la prueba y una respuesta. La petición de GA4 llegó a `region1.google-analytics.com/g/collect` con el ID `G-ZD1KT7K2JM`. Se observaron `page_view` y `view_course` en la URL y `start_free_test` y `free_test_answer` en la carga de evento POST. La prueba no envía identificadores de pregunta, respuestas, nombres ni teléfonos.
+
+La comprobación confirma la recepción técnica. La lectura de informes en la cuenta GA4 y la solicitud de indexación en Search Console siguen requiriendo la cuenta propietaria.
+
 ## Enlaces UTM cortos
 
 Usa estos alias públicos en lugar de pegar una URL larga en una comunidad:
