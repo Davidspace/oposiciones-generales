@@ -61,3 +61,38 @@ jobs:
           --token="$VERCEL_TOKEN"
           --scope="${{ env.VERCEL_ORG_ID }}"
           --project="${{ matrix.project_id }}"
+
+  deploy-celador-sms:
+    name: Deploy Celador SMS Murcia
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Report missing Vercel token
+        if: ${{ env.VERCEL_TOKEN == '' }}
+        run: echo "::warning::VERCEL_TOKEN is not configured. Celador SMS deployment was skipped."
+
+      - name: Link or create Vercel project
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        working-directory: celador-sms-murcia
+        run: >-
+          npx --yes vercel@${{ env.VERCEL_CLI_VERSION }} link
+          --yes
+          --project=celador-sms-murcia
+          --token="$VERCEL_TOKEN"
+          --scope="${{ env.VERCEL_ORG_ID }}"
+
+      - name: Deploy production project
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        working-directory: celador-sms-murcia
+        run: >-
+          npx --yes vercel@${{ env.VERCEL_CLI_VERSION }} deploy
+          --prod
+          --yes
+          --project=celador-sms-murcia
+          --token="$VERCEL_TOKEN"
+          --scope="${{ env.VERCEL_ORG_ID }}"
