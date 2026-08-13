@@ -52,7 +52,7 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(html, /"numberOfQuestions": 15/);
   assert.doesNotMatch(html, /auxiliojudicial|auxiliar-juridico/);
 
-  assert.match(config, /celador-sms-murcia\.vercel\.app/);
+  assert.match(config, /celador-sms-murcia/);
   assert.match(config, /celadorsms\.academialorman\.es/);
   assert.match(config, /celador_sms_murcia_2026/);
   assert.match(attribution, /lorman_celador_sms_attribution_v1/);

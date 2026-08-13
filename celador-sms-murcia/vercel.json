@@ -5,6 +5,22 @@
   "outputDirectory": "dist",
   "redirects": [
     {
+      "source": "/",
+      "has": [
+        { "type": "host", "value": "celador-sms-murcia\\.vercel\\.app" }
+      ],
+      "destination": "https://celadorsms.academialorman.es/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "celador-sms-murcia\\.vercel\\.app" }
+      ],
+      "destination": "https://celadorsms.academialorman.es/:path*",
+      "permanent": true
+    },
+    {
       "source": "/prueba-gratis",
       "destination": "/?utm_source=whatsapp&utm_medium=community&utm_campaign=celador_sms_murcia_2026&utm_content=prueba_gratis#prueba",
       "permanent": false
@@ -18,14 +34,6 @@
       "source": "/whatsapp",
       "destination": "/?utm_source=whatsapp&utm_medium=community&utm_campaign=celador_sms_murcia_2026&utm_content=difusion#prueba",
       "permanent": false
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "celador-sms-murcia.vercel.app" }
-      ],
-      "destination": "https://celadorsms.academialorman.es/:path*",
-      "permanent": true
     }
   ]
 }
