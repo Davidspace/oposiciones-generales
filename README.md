@@ -49,12 +49,10 @@ En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Acade
 ## Despliegue
 
 `.github/workflows/vercel-main.yml` contiene el despliegue de los cinco proyectos
-Vercel ya vinculados cuando se publica en `main`. Celador SMS queda preparado con
-su configuración, dominio y alias, pero necesita crear/vincular su proyecto en
-Vercel para añadir el `project_id` al workflow. El workflow necesita el secreto
-de Actions `VERCEL_TOKEN`; no se guarda ningún token en Git. Mientras no se
-complete esa vinculación, la landing se puede desplegar manualmente desde
-`celador-sms-murcia/` con `vercel deploy --prod`.
+Vercel ya vinculados cuando se publica en `main` y un job separado para Celador
+SMS. Ese job crea o reutiliza el proyecto `celador-sms-murcia` mediante el CLI,
+sin guardar el token en Git. La asociación del dominio propio sigue requiriendo
+configurar DNS y añadir el dominio en Vercel una vez creado el proyecto.
 
 ## Separación de GSI
 
