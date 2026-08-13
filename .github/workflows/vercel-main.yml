@@ -96,3 +96,13 @@ jobs:
           --project=celador-sms-murcia
           --token="$VERCEL_TOKEN"
           --scope="${{ env.VERCEL_ORG_ID }}"
+
+      - name: Attach custom domain
+        if: ${{ env.VERCEL_TOKEN != '' }}
+        working-directory: celador-sms-murcia
+        run: >-
+          npx --yes vercel@${{ env.VERCEL_CLI_VERSION }} domains add
+          celadorsms.academialorman.es
+          celador-sms-murcia
+          --token="$VERCEL_TOKEN"
+          --scope="${{ env.VERCEL_ORG_ID }}"
