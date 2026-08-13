@@ -22,7 +22,7 @@ URLs públicas actuales:
 - TAI Academia: `https://tai.academialorman.es/`.
 - Administrativo del Estado C2: `https://administrativo-estado.vercel.app/`.
 - Auxilio Judicial C2: `https://auxiliojudicial.academialorman.es/`.
-- Celador SMS Murcia: dominio objetivo `https://celadorsms.academialorman.es/` (pendiente de crear el proyecto Vercel y verificar DNS; no se debe presentar como URL pública hasta entonces).
+- Celador SMS Murcia: `https://celadorsms.academialorman.es/` (dominio propio HTTPS activo; el alias técnico redirige al dominio canónico).
 
 Cada producto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba y no debe sobrescribirse.
 
@@ -50,10 +50,9 @@ En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Acade
 
 `.github/workflows/vercel-main.yml` contiene el despliegue de los cinco proyectos
 Vercel ya vinculados y un job separado para Celador SMS. Ese job se ejecuta con
-pushes a `main` o manualmente, enlaza o crea el proyecto `celador-sms-murcia`
-mediante el CLI y no guarda el token en Git. La asociación del dominio propio
-sigue requiriendo configurar DNS y añadir el dominio en Vercel una vez creado el
-proyecto.
+pushes a `main` o manualmente, enlaza o crea el proyecto `celador-sms-murcia`,
+publica la versión de producción y vuelve a asociar el dominio propio mediante
+el CLI. El token se mantiene únicamente como secreto de GitHub Actions.
 
 ## Separación de GSI
 
