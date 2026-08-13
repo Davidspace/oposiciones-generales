@@ -2,7 +2,7 @@
 
 ## Datos oficiales usados en la landing
 
-La convocatoria publicada en el BORM de 18 de diciembre de 2025 establece para acceso libre 106 plazas y 5 reservadas a discapacidad; también incluye 5 plazas de promoción interna. Exige certificado de escolaridad o equivalente. La resolución remite al programa común aprobado el 2 de agosto de 2025 y al programa específico de Celador/a-Subalterno/a.
+La convocatoria publicada en el BORM de 18 de diciembre de 2025 reúne **111 plazas en total**: 106 por acceso libre (incluidas 5 reservadas a personas con discapacidad) y 5 por promoción interna. Exige certificado de escolaridad o equivalente. La resolución remite al programa común aprobado el 2 de agosto de 2025 y al programa específico de Celador/a-Subalterno/a.
 
 Estado comprobado el 13 de agosto de 2026: el BORM publicó el 4 de junio de 2026 la relación provisional de admitidos y excluidos para las 111 plazas. En esa resolución todavía no consta la fecha, hora y lugar definitivos del ejercicio; la fecha debe comprobarse en MurciaSalud antes de enviar cualquier comunicación comercial.
 
