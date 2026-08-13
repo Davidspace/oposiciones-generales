@@ -125,7 +125,7 @@ export const CURSOS: FichaCursoProps[] = [
       { title: "Tests por tema", note: "50 preguntas por bloque" },
       { title: "Simulacros y oficiales", note: "formato SMS, autocorrección" },
     ],
-    price: { title: "Pago único", note: "acceso hasta el examen", value: "59 €" },
+    price: { title: "Pago único", note: "acceso hasta el examen", value: "90 €" },
     cta: { label: "Ver curso Celador SMS", href: url("VITE_CELADOR_SMS_URL", PRODUCT_URLS.celadorSms) },
   },
 ];

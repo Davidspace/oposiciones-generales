@@ -69,14 +69,14 @@ function App() {
           <Cajon kicker="01 · TEMARIO" title="14 temas completos" text="7 temas comunes y 7 específicos, con un resumen manejable para preparar cada vuelta." figure="contenido ordenado por programa" />
           <Cajon kicker="02 · TESTS" title="50 preguntas por tema" text="Practica después de estudiar y revisa la explicación de cada respuesta." figure="autocorrección al momento" />
           <Cajon kicker="03 · SIMULACROS" title="10 simulacros SMS" text="Cuestionarios de 75 preguntas y 85 minutos, con mezcla de teoría y aplicación práctica." figure="entrena el ritmo real" />
-          <CajonCierre kicker="04 · ACCESO" title="59 € curso completo" text="Temario, resúmenes, tests, simulacros y exámenes oficiales corregidos. Pago único y acceso hasta el examen." href={ACCESS_URL} label="Preguntar por el acceso" />
+          <CajonCierre kicker="04 · ACCESO" title="90 € curso completo" text="Temario, resúmenes, tests, simulacros y exámenes oficiales corregidos. Pago único y acceso hasta el examen." href={ACCESS_URL} label="Preguntar por el acceso" />
         </section>
 
         <section className="lm-shell lm-sms-pricing" aria-labelledby="precios-title">
           <div><p className="lm-eyebrow"><i aria-hidden="true" /> Dos formas de entrar</p><h2 id="precios-title">Empieza por lo que necesitas.</h2></div>
           <div className="lm-sms-price-grid">
-            <article><span>Curso completo · precio de lanzamiento</span><strong>59 €</strong><p>Temario de 14 temas, resúmenes, tests, simulacros y exámenes oficiales corregidos.</p><a className="lm-btn lm-btn-primary" href={ACCESS_URL} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_buy", { course: "celador_sms_murcia", product: "full", price: 59 })}>Quiero el curso completo</a></article>
-            <article><span>Solo práctica · precio de lanzamiento</span><strong>29 €</strong><p>Tests por tema, simulacros y práctica para quien ya tiene un temario y quiere medir sus fallos.</p><a className="lm-btn lm-btn-outline" href={whatsappUrl(`Hola Academia LORMAN, quiero información sobre el pack de tests de ${COURSE}.`)} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_buy", { course: "celador_sms_murcia", product: "tests", price: 29 })}>Quiero solo los tests</a></article>
+            <article><span>Curso completo · acceso hasta el examen</span><strong>90 €</strong><p>Temario de 14 temas, resúmenes, tests, simulacros y exámenes oficiales corregidos.</p><a className="lm-btn lm-btn-primary" href={ACCESS_URL} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_buy", { course: "celador_sms_murcia", product: "full", price: 90 })}>Quiero el curso completo</a></article>
+            <article><span>Solo práctica · acceso hasta el examen</span><strong>45 €</strong><p>Tests por tema, simulacros y práctica para quien ya tiene un temario y quiere medir sus fallos.</p><a className="lm-btn lm-btn-outline" href={whatsappUrl(`Hola Academia LORMAN, quiero información sobre el pack de tests de ${COURSE}.`)} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_buy", { course: "celador_sms_murcia", product: "tests", price: 45 })}>Quiero solo los tests</a></article>
           </div>
           <p className="lm-fineprint">Precios iniciales fijados para este lanzamiento. Te confirmamos contenido, acceso y forma de pago por WhatsApp antes de cualquier operación.</p>
         </section>
@@ -111,7 +111,7 @@ function App() {
           <h2 id="faq-title">Preguntas frecuentes</h2>
           <div>
             <details><summary>¿Qué incluye el curso completo?</summary><p>Los 14 temas —7 comunes y 7 específicos—, sus resúmenes, un test de 50 preguntas por tema, 10 simulacros de 75 preguntas y exámenes oficiales corregidos identificados por año y turno.</p></details>
-            <details><summary>¿Y si ya tengo temario?</summary><p>Puedes elegir el pack de solo tests por 29 €. Incluye práctica por tema, simulacros y corrección para trabajar tus fallos.</p></details>
+            <details><summary>¿Y si ya tengo temario?</summary><p>Puedes elegir el pack de solo tests por 45 €. Incluye práctica por tema, simulacros y corrección para trabajar tus fallos.</p></details>
             <details><summary>¿El material es oficial?</summary><p>No. Es material educativo independiente. Los exámenes oficiales se muestran separados y con su procedencia; las preguntas propias se han redactado para entrenar el formato.</p></details>
             <details><summary>¿Cómo funciona el acceso?</summary><p>Te confirmamos por WhatsApp el contenido, el precio y el paso de acceso al aula Moodle. El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
             <details><summary>¿Hay clases semanales?</summary><p>No. El curso está pensado para autoestudio, práctica y corrección automática. Puedes escribirnos por WhatsApp si tienes una duda sobre el acceso o el funcionamiento.</p></details>

@@ -22,8 +22,8 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(source, /75 preguntas/);
   assert.match(source, /85 minutos/);
   assert.match(source, /−1\/4/);
-  assert.match(source, /59 € curso completo/);
-  assert.match(source, /29 €|29 â‚¬/);
+  assert.match(source, /90 € curso completo/);
+  assert.match(source, /45 €|45 â‚¬/);
   assert.match(source, /BORM/);
   assert.match(source, /murciasalud\.es\/oposicionsms/);
   assert.match(freeTestComponent, /Prueba gratuita/);

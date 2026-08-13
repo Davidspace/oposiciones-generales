@@ -2,8 +2,8 @@
 
 ## Oferta inicial
 
-- Curso completo: 59 € en pago único durante la validación, acceso hasta el examen de la convocatoria vigente.
-- Pack de práctica: 29 € para quien ya dispone de temario.
+- Curso completo: 90 € en pago único, acceso hasta el examen de la convocatoria vigente.
+- Pack de práctica: 45 € para quien ya dispone de temario.
 - Prueba gratuita: 15 preguntas propias, mezcla común/específica, corrección explicada y diagnóstico orientativo.
 
 El precio es una hipótesis inicial que debe contrastarse con conversaciones y ventas reales. No se comunica como precio oficial ni como garantía de resultado.

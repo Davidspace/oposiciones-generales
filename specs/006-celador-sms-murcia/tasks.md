@@ -17,7 +17,7 @@
 
 ## Phase 3: P1 — hub y SEO
 
-- [x] T010 Añadir `celador-sms-murcia` a `lorman-lab/client/src/data/cursos.ts` con precio de lanzamiento 59 € y práctica 29 €.
+- [x] T010 Añadir `celador-sms-murcia` a `lorman-lab/client/src/data/cursos.ts` con precio de 90 € y práctica 45 €.
 - [x] T011 Añadir destino `celadorSms` a `lorman-lab/client/src/lib/portfolio-links.ts` sin cambiar otros destinos.
 - [x] T012 Añadir sitemap, robots, canonical, metadatos Open Graph y dominio provisional.
 - [x] T013 Actualizar `lorman-lab/tests/portfolio-integrity.test.mjs` o cobertura equivalente para comprobar el enlace.
