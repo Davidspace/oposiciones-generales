@@ -31,3 +31,7 @@ La configuración de Vercel añade `utm_source`, `utm_medium`, `utm_campaign=cel
 ## SEO de intención
 
 La portada utiliza términos concretos: `celador SMS Murcia`, `celador/a-subalterno/a Servicio Murciano de Salud`, `temario celador SMS`, `tests celador SMS`, `simulacros 75 preguntas 85 minutos`. Las afirmaciones del formato del examen enlazan al BORM y a la página de empleo del SMS.
+
+## Estado de Clarity
+
+Comprobacion adicional en produccion: despues de aceptar la analitica se carga la etiqueta de GA4. No se carga ninguna etiqueta de Clarity porque `VITE_CLARITY_PROJECT_ID` todavia no esta configurada en Vercel. No se presenta Clarity como activo hasta anadir un identificador real y verificar su recepcion.
