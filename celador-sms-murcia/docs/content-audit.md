@@ -16,6 +16,8 @@ La fuente privada facilitada (`CURSO CELADOR SMS MURCIA-20260813T175324Z-1-001.z
 
 El manifiesto declara 131 ficheros, 52 DOCX y 70 PDF. La extracción local contiene 132 ficheros: la diferencia es un `README.md` de orientación dentro de `03 EXAMENES OFICIALES`, que no es material didáctico. La landing comunica el inventario pedagógico, no el número bruto de ficheros.
 
+El inventario tabular reutilizable está en `docs/content-inventory.csv`. Contiene las 131 rutas del manifiesto, formato, páginas cuando se pueden contar, preguntas conocidas, estado editorial, incidencia, bytes y SHA-256.
+
 ## Verificación estructural ejecutada
 
 Se ha comprobado el contenido extraído, sin modificar ningún documento original:

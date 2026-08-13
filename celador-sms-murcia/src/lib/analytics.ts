@@ -11,7 +11,7 @@ declare global {
 export type AnalyticsConsent = "granted" | "denied";
 
 const CONSENT_KEY = "lorman_analytics_consent_v1";
-const GA_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID?.trim();
+const GA_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID?.trim() || "G-ZD1KT7K2JM";
 const CLARITY_ID = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
 let loaded = false;
 
@@ -86,7 +86,7 @@ export function trackEvent(name: string, parameters: Record<string, string | num
   if (getAnalyticsConsent() !== "granted") return;
   const attribution = getAttribution();
   const safeParameters = Object.fromEntries(
-    Object.entries({ ...attribution, ...parameters }).filter(([, value]) => value !== "" && value !== undefined),
+    Object.entries({ ...attribution, source_page: window.location.pathname, ...parameters }).filter(([, value]) => value !== "" && value !== undefined),
   );
   window.gtag?.("event", name, safeParameters);
   window.clarity?.("event", name);

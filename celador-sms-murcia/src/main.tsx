@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from "react";
+import { StrictMode, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 import { AvisoComun, AVISO_SALUD } from "./components/AvisoComun";
@@ -25,8 +25,23 @@ const ACCESS_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || whatsappUrl(`Hol
 const TEST_URL = `${window.location.pathname}#prueba`;
 
 function App() {
+  const priceTracked = useRef(false);
+
   useEffect(() => {
     trackEvent("view_course", { course: "celador_sms_murcia" });
+  }, []);
+
+  useEffect(() => {
+    const priceSection = document.getElementById("precios");
+    if (!priceSection || typeof IntersectionObserver === "undefined") return undefined;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting || priceTracked.current) return;
+      priceTracked.current = true;
+      trackEvent("view_price", { course: "celador_sms_murcia" });
+      observer.disconnect();
+    }, { threshold: 0.35 });
+    observer.observe(priceSection);
+    return () => observer.disconnect();
   }, []);
 
   return (
@@ -73,7 +88,7 @@ function App() {
           <CajonCierre kicker="04 · ACCESO" title="90 € curso completo" text="Temario, resúmenes, tests, simulacros y exámenes oficiales corregidos. Pago único y acceso hasta el examen." href={ACCESS_URL} label="Preguntar por el acceso" />
         </section>
 
-        <section className="lm-shell lm-sms-pricing" aria-labelledby="precios-title">
+        <section className="lm-shell lm-sms-pricing" id="precios" aria-labelledby="precios-title">
           <div><p className="lm-eyebrow"><i aria-hidden="true" /> Dos formas de entrar</p><h2 id="precios-title">Empieza por lo que necesitas.</h2></div>
           <div className="lm-sms-price-grid">
             <article><span>Curso completo · acceso hasta el examen</span><strong>90 €</strong><p>Temario de 14 temas, resúmenes, tests, simulacros y exámenes oficiales corregidos.</p><a className="lm-btn lm-btn-primary" href={ACCESS_URL} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_buy", { course: "celador_sms_murcia", product: "full", price: 90 })}>Quiero el curso completo</a></article>
@@ -111,11 +126,11 @@ function App() {
         <section className="lm-shell lm-aux-faq" aria-labelledby="faq-title">
           <h2 id="faq-title">Preguntas frecuentes</h2>
           <div>
-            <details><summary>¿Qué incluye el curso completo?</summary><p>Los 14 temas —7 comunes y 7 específicos—, sus resúmenes, un test de 50 preguntas por tema, 10 simulacros de 75 preguntas y exámenes oficiales corregidos identificados por año y turno.</p></details>
-            <details><summary>¿Y si ya tengo temario?</summary><p>Puedes elegir el pack de solo tests por 45 €. Incluye práctica por tema, simulacros y corrección para trabajar tus fallos.</p></details>
-            <details><summary>¿El material es oficial?</summary><p>No. Es material educativo independiente. Los exámenes oficiales se muestran separados y con su procedencia; las preguntas propias se han redactado para entrenar el formato.</p></details>
-            <details><summary>¿Cómo funciona el acceso?</summary><p>Te confirmamos por WhatsApp el contenido, el precio y el paso de acceso al aula Moodle. El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
-            <details><summary>¿Hay clases semanales?</summary><p>No. El curso está pensado para autoestudio, práctica y corrección automática. Puedes escribirnos por WhatsApp si tienes una duda sobre el acceso o el funcionamiento.</p></details>
+            <details onToggle={(event) => event.currentTarget.open && trackEvent("faq_open", { course: "celador_sms_murcia", question: "que_incluye" })}><summary>¿Qué incluye el curso completo?</summary><p>Los 14 temas —7 comunes y 7 específicos—, sus resúmenes, un test de 50 preguntas por tema, 10 simulacros de 75 preguntas y exámenes oficiales corregidos identificados por año y turno.</p></details>
+            <details onToggle={(event) => event.currentTarget.open && trackEvent("faq_open", { course: "celador_sms_murcia", question: "ya_tengo_temario" })}><summary>¿Y si ya tengo temario?</summary><p>Puedes elegir el pack de solo tests por 45 €. Incluye práctica por tema, simulacros y corrección para trabajar tus fallos.</p></details>
+            <details onToggle={(event) => event.currentTarget.open && trackEvent("faq_open", { course: "celador_sms_murcia", question: "material_oficial" })}><summary>¿El material es oficial?</summary><p>No. Es material educativo independiente. Los exámenes oficiales se muestran separados y con su procedencia; las preguntas propias se han redactado para entrenar el formato.</p></details>
+            <details onToggle={(event) => event.currentTarget.open && trackEvent("faq_open", { course: "celador_sms_murcia", question: "acceso" })}><summary>¿Cómo funciona el acceso?</summary><p>Te confirmamos por WhatsApp el contenido, el precio y el paso de acceso al aula Moodle. El pago es único y el acceso se mantiene hasta el examen de la convocatoria vigente.</p></details>
+            <details onToggle={(event) => event.currentTarget.open && trackEvent("faq_open", { course: "celador_sms_murcia", question: "clases" })}><summary>¿Hay clases semanales?</summary><p>No. El curso está pensado para autoestudio, práctica y corrección automática. Puedes escribirnos por WhatsApp si tienes una duda sobre el acceso o el funcionamiento.</p></details>
           </div>
         </section>
 

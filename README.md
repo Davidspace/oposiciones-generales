@@ -22,7 +22,7 @@ URLs públicas actuales:
 - TAI Academia: `https://tai.academialorman.es/`.
 - Administrativo del Estado C2: `https://administrativo-estado.vercel.app/`.
 - Auxilio Judicial C2: `https://auxiliojudicial.academialorman.es/`.
-- Celador SMS Murcia: `https://celadorsms.academialorman.es/`.
+- Celador SMS Murcia: dominio objetivo `https://celadorsms.academialorman.es/` (pendiente de crear el proyecto Vercel y verificar DNS; no se debe presentar como URL pública hasta entonces).
 
 Cada producto conserva su propia aplicación, `package.json`, documentación y configuración. La carpeta `ss-casolab/SS/` contiene el temario editorial exacto de Alba y no debe sobrescribirse.
 

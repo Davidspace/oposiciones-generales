@@ -8,7 +8,7 @@ La landing integra GA4 y Microsoft Clarity con consentimiento previo. La campañ
 2. Añade `VITE_GA4_MEASUREMENT_ID` y, opcionalmente, `VITE_CLARITY_PROJECT_ID` en Vercel para Production, Preview y Development.
 3. En Search Console añade la propiedad de dominio `academialorman.es` o el prefijo de URL `https://celadorsms.academialorman.es/`.
 4. Solicita la indexación de la portada después de comprobar el DNS y el certificado.
-5. Comprueba el consentimiento, la vista de página, `view_course`, `start_free_test`, `free_test_answer`, `complete_free_test`, `whatsapp_click` y `click_buy` en Tiempo real.
+5. Comprueba el consentimiento y, en GA4 Tiempo real, `page_view`, `view_course`, `view_price`, `start_free_test`, `free_test_answer`, `free_test_progress`, `complete_free_test`, `open_sample`, `faq_open`, `click_whatsapp` y `click_buy`. Los eventos incluyen `course`, `source_page` y, cuando existen, las UTMs de sesión.
 
 ## Enlaces UTM cortos
 
