@@ -1,6 +1,6 @@
 # Analítica, SEO y trazabilidad · Celador SMS Murcia
 
-La landing integra GA4 y Microsoft Clarity con consentimiento previo. La campaña se conserva en `sessionStorage` con una clave propia del producto (`lorman_celador_sms_attribution_v1`) para no mezclar visitas con otras oposiciones.
+La landing integra GA4 y queda preparada para Microsoft Clarity, siempre con consentimiento previo. La campaña se conserva en `sessionStorage` con una clave propia del producto (`lorman_celador_sms_attribution_v1`) para no mezclar visitas con otras oposiciones.
 
 ## Publicación
 
