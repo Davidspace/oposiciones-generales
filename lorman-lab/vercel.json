@@ -21,6 +21,20 @@
         "Location": "https://aula.academialorman.es/course/view.php?id=2"
       }
     },
+    {
+      "src": "/celador-murcia",
+      "status": 308,
+      "headers": {
+        "Location": "https://celadorsms.academialorman.es/"
+      }
+    },
+    {
+      "src": "/celador-murcia/",
+      "status": 308,
+      "headers": {
+        "Location": "https://celadorsms.academialorman.es/"
+      }
+    },
     { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]

@@ -5,7 +5,7 @@ import test from "node:test";
 const root = new URL("../", import.meta.url);
 
 test("la landing Celador SMS usa el contenido auditado y la oferta separada", async () => {
-  const [source, freeTestComponent, freeTest, html, config, attribution, analytics, inventory] = await Promise.all([
+  const [source, freeTestComponent, freeTest, html, config, attribution, analytics, inventory, moodleOutline] = await Promise.all([
     readFile(new URL("src/main.tsx", root), "utf8"),
     readFile(new URL("src/components/FreeTest.tsx", root), "utf8"),
     readFile(new URL("src/data/free-test.ts", root), "utf8"),
@@ -14,6 +14,7 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
     readFile(new URL("src/lib/attribution.ts", root), "utf8"),
     readFile(new URL("src/lib/analytics.ts", root), "utf8"),
     readFile(new URL("docs/content-inventory.csv", root), "utf8"),
+    readFile(new URL("docs/moodle-course-outline.md", root), "utf8"),
   ]);
 
   assert.match(source, /Celador\/a-Subalterno\/a/);
@@ -62,4 +63,8 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.doesNotMatch(inventory, /01 TEMAS\/ESPECIFICA\/[^\n]+,metadatos y fuentes,fuentes y auditoria/);
   assert.match(inventory, /T01_test_50_preguntas\.pdf,test tematico,especifica:T01/);
   assert.match(inventory, /E-001 repeated stems; E-002 legal review/);
+  assert.match(moodleOutline, /TEMARIO COMÚN/);
+  assert.match(moodleOutline, /TEMARIO ESPECÍFICO/);
+  assert.match(moodleOutline, /E07.*Informática básica/);
+  assert.match(moodleOutline, /SIMULACROS PROPIOS/);
 });

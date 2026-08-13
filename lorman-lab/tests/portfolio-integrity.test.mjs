@@ -45,6 +45,7 @@ test("the common hub exposes the portfolio routes and the Córdoba landing", asy
   assert.match(app, /path="\/auxiliar-administrativo-cordoba"/);
   assert.match(links, /auxiliar-administrativo-cordoba/);
   assert.match(links, /aula\.academialorman\.es/);
+  assert.match(vercel, /celador-murcia/);
   assert.match(vercel, /https:\/\/academialorman\.es\/\$1/);
   assert.doesNotMatch(vercel, /sslip\.io/);
 });

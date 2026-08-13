@@ -2,6 +2,8 @@
 
 No se ha escrito ni cambiado nada en Moodle durante esta preparación.
 
+La versión detallada y ordenada para una carga manual está en [`moodle-course-outline.md`](moodle-course-outline.md).
+
 ## Mapa editorial esperado
 
 - Curso: `Celador/a-Subalterno/a · SMS Murcia`.
