@@ -14,6 +14,7 @@ const CONSENT_KEY = "lorman_analytics_consent_v1";
 const GA_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID?.trim() || "G-ZD1KT7K2JM";
 const CLARITY_ID = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
 let loaded = false;
+const pendingEvents: Array<{ name: string; parameters: Record<string, string | number | boolean> }> = [];
 
 export function getAnalyticsConsent(): AnalyticsConsent | null {
   if (typeof window === "undefined") return null;
@@ -33,7 +34,13 @@ export function setAnalyticsConsent(consent: AnalyticsConsent) {
     ad_Storage: "denied",
     analytics_Storage: consent,
   });
-  if (consent === "granted") loadAnalytics();
+  if (consent === "granted") {
+    loadAnalytics();
+    const queued = pendingEvents.splice(0);
+    queued.forEach(({ name, parameters }) => sendEvent(name, parameters));
+  } else {
+    pendingEvents.length = 0;
+  }
 }
 
 function appendScript(src: string, id: string) {
@@ -82,12 +89,21 @@ export function initialiseAnalytics() {
   if (getAnalyticsConsent() === "granted") loadAnalytics();
 }
 
-export function trackEvent(name: string, parameters: Record<string, string | number | boolean> = {}) {
-  if (getAnalyticsConsent() !== "granted") return;
+function sendEvent(name: string, parameters: Record<string, string | number | boolean>) {
   const attribution = getAttribution();
   const safeParameters = Object.fromEntries(
     Object.entries({ ...attribution, source_page: window.location.pathname, ...parameters }).filter(([, value]) => value !== "" && value !== undefined),
   );
   window.gtag?.("event", name, safeParameters);
   window.clarity?.("event", name);
+}
+
+export function trackEvent(name: string, parameters: Record<string, string | number | boolean> = {}) {
+  const consent = getAnalyticsConsent();
+  if (consent === "denied") return;
+  if (consent !== "granted") {
+    if (pendingEvents.length < 50) pendingEvents.push({ name, parameters });
+    return;
+  }
+  sendEvent(name, parameters);
 }

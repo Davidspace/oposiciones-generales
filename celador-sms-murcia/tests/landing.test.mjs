@@ -38,10 +38,13 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(freeTestComponent, /−0,25 por error/);
   assert.match(freeTestComponent, /free_test_progress/);
   assert.match(freeTestComponent, /Resultado por bloques/);
+  assert.match(freeTestComponent, /answered_count/);
+  assert.doesNotMatch(freeTestComponent, /question_id/);
   assert.match(source, /view_price/);
   assert.match(source, /faq_open/);
   assert.match(analytics, /G-ZD1KT7K2JM/);
   assert.match(analytics, /source_page/);
+  assert.match(analytics, /pendingEvents/);
   assert.doesNotMatch(source, /Auxilio Judicial|auxiliojudicial|Forja TIC|gsi-casos-practicos/);
 
   assert.equal((freeTest.match(/id: "sms-free-/g) || []).length, 15);

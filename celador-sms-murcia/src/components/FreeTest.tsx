@@ -47,7 +47,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
   const setAnswer = (id: string, answer: number) => {
     const nextAnswers = { ...answers, [id]: answer };
     setAnswers(nextAnswers);
-    trackEvent("free_test_answer", { course: "celador_sms_murcia", question_id: id });
+    trackEvent("free_test_answer", { course: "celador_sms_murcia", answered_count: Object.keys(nextAnswers).length });
     const nextProgress = (Object.keys(nextAnswers).length / FREE_TEST.length) * 100;
     PROGRESS_MARKS.forEach((mark) => {
       if (nextProgress >= mark && !progressMarks.current.has(mark)) {
