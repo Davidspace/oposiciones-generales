@@ -14,6 +14,7 @@ const CONSENT_KEY = "lorman_analytics_consent_v1";
 const GA_ID = import.meta.env.VITE_GA4_MEASUREMENT_ID?.trim() || "G-ZD1KT7K2JM";
 const CLARITY_ID = import.meta.env.VITE_CLARITY_PROJECT_ID?.trim();
 let loaded = false;
+let analyticsReady = false;
 const pendingEvents: Array<{ name: string; parameters: Record<string, string | number | boolean> }> = [];
 
 export function getAnalyticsConsent(): AnalyticsConsent | null {
@@ -36,20 +37,34 @@ export function setAnalyticsConsent(consent: AnalyticsConsent) {
   });
   if (consent === "granted") {
     loadAnalytics();
-    const queued = pendingEvents.splice(0);
-    queued.forEach(({ name, parameters }) => sendEvent(name, parameters));
+    flushPendingEvents();
   } else {
     pendingEvents.length = 0;
   }
 }
 
-function appendScript(src: string, id: string) {
-  if (document.getElementById(id)) return;
+function appendScript(src: string, id: string, onReady?: () => void) {
+  const existing = document.getElementById(id) as HTMLScriptElement | null;
+  if (existing) {
+    if (existing.dataset.loaded === "true") onReady?.();
+    else existing.addEventListener("load", () => onReady?.(), { once: true });
+    return;
+  }
   const script = document.createElement("script");
   script.id = id;
   script.async = true;
   script.src = src;
+  script.addEventListener("load", () => {
+    script.dataset.loaded = "true";
+    onReady?.();
+  }, { once: true });
   document.head.appendChild(script);
+}
+
+function flushPendingEvents() {
+  if (!analyticsReady) return;
+  const queued = pendingEvents.splice(0);
+  queued.forEach(({ name, parameters }) => sendEvent(name, parameters));
 }
 
 export function loadAnalytics() {
@@ -72,7 +87,10 @@ export function loadAnalytics() {
       send_page_view: true,
       allow_google_signals: false,
     });
-    appendScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}`, "lorman-ga4");
+    appendScript(`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GA_ID)}`, "lorman-ga4", () => {
+      analyticsReady = true;
+      flushPendingEvents();
+    });
   }
 
   if (CLARITY_ID) {
@@ -101,7 +119,7 @@ function sendEvent(name: string, parameters: Record<string, string | number | bo
 export function trackEvent(name: string, parameters: Record<string, string | number | boolean> = {}) {
   const consent = getAnalyticsConsent();
   if (consent === "denied") return;
-  if (consent !== "granted") {
+  if (consent !== "granted" || !analyticsReady) {
     if (pendingEvents.length < 50) pendingEvents.push({ name, parameters });
     return;
   }
