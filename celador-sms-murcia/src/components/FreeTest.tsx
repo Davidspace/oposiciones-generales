@@ -87,16 +87,19 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 15 preguntas</p>
           <h2 id="prueba-title">Comprueba cómo vas antes de pagar.</h2>
         </div>
-        <p>Una muestra propia con el formato del ejercicio del SMS: materias comunes y específicas, preguntas prácticas, cuatro opciones y corrección explicada. No es un examen oficial.</p>
+        <p>Practica materias comunes y específicas con cuatro opciones, penalización y corrección explicada.</p>
       </div>
-      <div className="lm-sms-test-meta"><span>{answered}/{FREE_TEST.length} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span><span>Sin registro obligatorio</span></div>
+      <div className="lm-sms-test-meta"><span>{answered}/{FREE_TEST.length} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
       <div className="lm-sms-question-list">
         {FREE_TEST.map((question, index) => {
           const selected = answers[question.id];
           const isCorrect = selected === question.answer;
           return (
             <fieldset className={`lm-sms-question ${submitted ? (selected === undefined ? "is-blank" : isCorrect ? "is-correct" : "is-wrong") : ""}`} key={question.id}>
-              <legend><span>{String(index + 1).padStart(2, "0")}</span><b>{question.block}</b>{question.question}</legend>
+              <legend>
+                <span className="lm-sms-question-number">{String(index + 1).padStart(2, "0")}</span>
+                <span className="lm-sms-question-copy"><b>{question.block}</b><span>{question.question}</span></span>
+              </legend>
               <div className="lm-sms-options">
                 {question.options.map((option, optionIndex) => (
                   <label className={selected === optionIndex ? "is-selected" : ""} key={option}>
@@ -119,7 +122,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
           <p><strong>Repaso recomendado:</strong> empieza por <b>{result.weakest.block.toLowerCase()}</b>; vuelve al resumen y repite el test del bloque antes de hacer otro simulacro.</p>
           <a className="lm-btn lm-btn-outline" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "free_test_result" })}>Preguntar por el acceso</a>
           <button className="lm-btn lm-btn-outline" type="button" onClick={repeat}>Repetir la prueba</button>
-        </div> : <p>Responde las que puedas en 17 minutos para ver la explicación, la penalización y el bloque que conviene repasar primero.</p>}
+        </div> : <p>Tienes 17 minutos. Al terminar verás las explicaciones y qué bloque te conviene repasar.</p>}
       </div>
     </section>
   );
