@@ -41,6 +41,11 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(freeTestComponent, /free_test_repeat/);
   assert.match(freeTestComponent, /Repetir la prueba/);
   assert.match(freeTestComponent, /Resultado por bloques/);
+  assert.match(freeTestComponent, /currentIndex/);
+  assert.match(freeTestComponent, /Pregunta \{currentIndex \+ 1\} de/);
+  assert.match(freeTestComponent, /Siguiente/);
+  assert.match(freeTestComponent, /Anterior/);
+  assert.doesNotMatch(freeTestComponent, /FREE_TEST\.map\(\(question, index\)/);
   assert.match(freeTestComponent, /answered_count/);
   assert.doesNotMatch(freeTestComponent, /question_id/);
   assert.match(source, /view_price/);

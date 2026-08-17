@@ -14,11 +14,18 @@ function formatTime(seconds: number) {
 
 export function FreeTest({ whatsappUrl }: FreeTestProps) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [submitted, setSubmitted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(TEST_SECONDS);
   const [timedOut, setTimedOut] = useState(false);
   const progressMarks = useRef(new Set<number>());
+  const questionRef = useRef<HTMLFieldSetElement>(null);
   const answered = Object.keys(answers).length;
+  const currentQuestion = FREE_TEST[currentIndex];
+  const selected = answers[currentQuestion.id];
+  const isCorrect = selected === currentQuestion.answer;
+  const isFirst = currentIndex === 0;
+  const isLast = currentIndex === FREE_TEST.length - 1;
   const result = useMemo(() => {
     const blocks = (["Común", "Específica"] as const).map((block) => {
       const questions = FREE_TEST.filter((question) => question.block === block);
@@ -71,8 +78,16 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
     trackEvent("complete_free_test", { course: "celador_sms_murcia", score: result.net, total: FREE_TEST.length, answered });
   };
 
+  const moveTo = (nextIndex: number) => {
+    const boundedIndex = Math.max(0, Math.min(FREE_TEST.length - 1, nextIndex));
+    setCurrentIndex(boundedIndex);
+    trackEvent("free_test_navigate", { course: "celador_sms_murcia", question_number: boundedIndex + 1 });
+    window.requestAnimationFrame(() => questionRef.current?.focus());
+  };
+
   const repeat = () => {
     setAnswers({});
+    setCurrentIndex(0);
     setSubmitted(false);
     setSecondsLeft(TEST_SECONDS);
     setTimedOut(false);
@@ -89,33 +104,33 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
         </div>
         <p>Practica materias comunes y específicas con cuatro opciones, penalización y corrección explicada.</p>
       </div>
-      <div className="lm-sms-test-meta"><span>{answered}/{FREE_TEST.length} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
-      <div className="lm-sms-question-list">
-        {FREE_TEST.map((question, index) => {
-          const selected = answers[question.id];
-          const isCorrect = selected === question.answer;
-          return (
-            <fieldset className={`lm-sms-question ${submitted ? (selected === undefined ? "is-blank" : isCorrect ? "is-correct" : "is-wrong") : ""}`} key={question.id}>
-              <legend>
-                <span className="lm-sms-question-number">{String(index + 1).padStart(2, "0")}</span>
-                <span className="lm-sms-question-copy"><b>{question.block}</b><span>{question.question}</span></span>
-              </legend>
-              <div className="lm-sms-options">
-                {question.options.map((option, optionIndex) => (
-                  <label className={selected === optionIndex ? "is-selected" : ""} key={option}>
-                    <input type="radio" name={question.id} checked={selected === optionIndex} onChange={() => setAnswer(question.id, optionIndex)} />
-                    <strong>{String.fromCharCode(65 + optionIndex)}</strong>
-                    <span>{option}</span>
-                  </label>
-                ))}
-              </div>
-              {submitted ? <div className="lm-sms-explanation"><strong>{selected === undefined ? "Sin responder" : isCorrect ? "Correcta" : `Respuesta: ${String.fromCharCode(65 + question.answer)}`}</strong><p>{question.explanation}</p><small>{question.source}</small></div> : null}
-            </fieldset>
-          );
-        })}
+      <div className="lm-sms-test-meta"><span>Pregunta {currentIndex + 1} de {FREE_TEST.length} · {answered} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
+      <div className="lm-sms-question-stage">
+        <fieldset ref={questionRef} tabIndex={-1} className={`lm-sms-question ${submitted ? (selected === undefined ? "is-blank" : isCorrect ? "is-correct" : "is-wrong") : ""}`} key={currentQuestion.id}>
+          <legend>
+            <span className="lm-sms-question-number">{String(currentIndex + 1).padStart(2, "0")}</span>
+            <span className="lm-sms-question-copy"><b>{currentQuestion.block}</b><span>{currentQuestion.question}</span></span>
+          </legend>
+          <div className="lm-sms-options">
+            {currentQuestion.options.map((option, optionIndex) => (
+              <label className={selected === optionIndex ? "is-selected" : ""} key={option}>
+                <input type="radio" name={currentQuestion.id} checked={selected === optionIndex} onChange={() => setAnswer(currentQuestion.id, optionIndex)} disabled={submitted} />
+                <strong>{String.fromCharCode(65 + optionIndex)}</strong>
+                <span>{option}</span>
+              </label>
+            ))}
+          </div>
+          {submitted ? <div className="lm-sms-explanation"><strong>{selected === undefined ? "Sin responder" : isCorrect ? "Correcta" : `Respuesta: ${String.fromCharCode(65 + currentQuestion.answer)}`}</strong><p>{currentQuestion.explanation}</p><small>{currentQuestion.source}</small></div> : null}
+        </fieldset>
+        <nav className="lm-sms-question-nav" aria-label="Navegación de la prueba">
+          <button className="lm-sms-nav-button" type="button" onClick={() => moveTo(currentIndex - 1)} disabled={isFirst}>Anterior</button>
+          <span aria-live="polite">Pregunta {currentIndex + 1} de {FREE_TEST.length}</span>
+          {!submitted && isLast
+            ? <button className="lm-sms-nav-button is-primary" type="button" onClick={submit}>Terminar y ver resultado</button>
+            : <button className="lm-sms-nav-button is-primary" type="button" onClick={() => moveTo(currentIndex + 1)} disabled={isLast}>Siguiente</button>}
+        </nav>
       </div>
       <div className="lm-sms-test-actions">
-        <button className="lm-btn lm-btn-primary" type="button" onClick={submit} disabled={submitted}>{submitted ? "Prueba completada" : "Terminar y ver mi resultado"}</button>
         {submitted ? <div className="lm-sms-result" role="status">
           <div className="lm-sms-result-score"><strong>{result.net.toFixed(2).replace(".", ",")}</strong><span>puntos netos orientativos<br />{timedOut ? "Tiempo agotado" : `con ${answered} respuestas`}</span></div>
           <div className="lm-sms-result-breakdown" aria-label="Resultado por bloques">{result.blocks.map((block) => <span key={block.block}><b>{block.block}</b>{block.correct}/{block.total} · {block.wrong} errores · {block.blank} en blanco</span>)}</div>

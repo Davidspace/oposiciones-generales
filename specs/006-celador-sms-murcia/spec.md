@@ -18,6 +18,7 @@ Una persona que prepara Celador/a-Subalterno/a del SMS puede entender el alcance
 
 1. **Given** una visita sin sesión, **when** abre la landing, **then** ve los 14 temas, la práctica, los simulacros, los exámenes oficiales y las condiciones sin afirmaciones no verificadas.
 2. **Given** la persona pulsa la prueba gratuita, **when** la completa, **then** recibe corrección, explicación, fuente y resultado orientativo.
+3. **Given** la persona realiza la prueba gratuita, **when** avanza o retrocede, **then** solo se muestra una pregunta cada vez y se conservan sus respuestas.
 3. **Given** la persona pulsa una CTA, **when** se abre WhatsApp, **then** el mensaje identifica Celador SMS Murcia y conserva la atribución de campaña cuando exista.
 
 ### User Story 2 - Estudiar el programa completo en Moodle (Priority: P1)
@@ -69,6 +70,7 @@ El curso ofrece orientación, FAQs y límites de soporte para que el equipo pued
 - **FR-001**: El sistema debe presentar un producto específico para Celador/a-Subalterno/a del Servicio Murciano de Salud.
 - **FR-002**: La landing debe describir solo contenido comprobado en el material editorial y fuentes oficiales.
 - **FR-003**: La landing debe ofrecer una prueba gratuita representativa del ejercicio vigente, con corrección y explicación.
+- **FR-003a**: La prueba gratuita debe presentar una sola pregunta por pantalla, permitir avanzar y retroceder, y conservar las respuestas seleccionadas.
 - **FR-004**: El producto debe distinguir material teórico, resumen, test, simulacro propio y examen oficial.
 - **FR-005**: El precio del curso completo debe mostrarse como 90 € y el pack solo tests como 45 €, salvo cambio documentado.
 - **FR-006**: Las CTAs deben abrir WhatsApp con un mensaje específico del producto.

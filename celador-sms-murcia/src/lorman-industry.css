@@ -1431,8 +1431,10 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-test-heading > p { color: var(--lm-muted); font-size: 18px; line-height: 1.6; margin: 0; }
 .lm-sms-test-meta { display: flex; flex-wrap: wrap; gap: 12px 26px; margin: 28px 0; color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
 .lm-sms-timer { border: 1px solid var(--lm-accent-dark); padding: 6px 10px; font-variant-numeric: tabular-nums; }
-.lm-sms-question-list { display: grid; gap: 14px; }
+.lm-sms-question-stage { border: 1px solid var(--lm-ink); background: var(--lm-bg); }
 .lm-sms-question { background: var(--lm-bg); border: 1px solid var(--lm-ink); min-inline-size: 0; margin: 0; padding: 20px 22px 22px; }
+.lm-sms-question-stage .lm-sms-question { border: 0; }
+.lm-sms-question:focus { outline: 0; }
 .lm-sms-question legend { display: grid; grid-template-columns: 42px minmax(0, 1fr); gap: 12px; align-items: start; width: 100%; padding: 4px 0 0; font-family: var(--lm-font-heading); }
 .lm-sms-question-number { color: var(--lm-accent-dark); font-size: 25px; line-height: 1; }
 .lm-sms-question-copy { display: flex; min-width: 0; flex-direction: column; gap: 6px; color: var(--lm-ink); font-size: 25px; line-height: 1.13; text-transform: uppercase; }
@@ -1450,6 +1452,11 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-explanation strong { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 18px; text-transform: uppercase; }
 .lm-sms-explanation p { color: var(--lm-muted); margin: 6px 0; }
 .lm-sms-explanation small { color: var(--lm-soft); font-size: 12px; }
+.lm-sms-question-nav { display: grid; grid-template-columns: minmax(150px, auto) 1fr minmax(150px, auto); align-items: center; gap: 16px; border-top: 1px solid var(--lm-line); padding: 16px 22px; }
+.lm-sms-question-nav > span { color: var(--lm-muted); font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-align: center; text-transform: uppercase; }
+.lm-sms-nav-button { min-height: 52px; border: 1px solid var(--lm-ink); background: transparent; color: var(--lm-ink); padding: 8px 22px; font-family: var(--lm-font-heading); font-size: 19px; letter-spacing: .04em; line-height: 1.05; text-align: center; text-transform: uppercase; cursor: pointer; }
+.lm-sms-nav-button.is-primary { background: var(--lm-accent); border-color: var(--lm-accent); color: #fff; }
+.lm-sms-nav-button:disabled { cursor: not-allowed; opacity: .35; }
 .lm-sms-test-actions { align-items: center; display: flex; flex-wrap: wrap; gap: 22px; margin-top: 28px; }
 .lm-sms-test-actions > p { color: var(--lm-muted); margin: 0; }
 .lm-sms-result { align-items: center; display: flex; flex-wrap: wrap; gap: 18px; }
@@ -1481,7 +1488,7 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-inventory-list li > span { color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 20px; }
 .lm-inventory-list strong { font-family: var(--lm-font-heading); font-size: 24px; text-transform: uppercase; }
 .lm-inventory-list p { color: var(--lm-muted); margin: 5px 0 0; }
-.lm-seo-copy { display: grid; grid-template-columns: .75fr 1.25fr; gap: 70px; border-bottom: 1px solid var(--lm-ink); }
+.lm-seo-copy { display: grid; grid-template-columns: .75fr 1.25fr; gap: 70px; border-top: 0; border-bottom: 1px solid var(--lm-ink); }
 .lm-seo-copy > div:last-child { display: grid; gap: 20px; }
 .lm-aux-faq { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; }
 .lm-aux-faq > h2 { font-size: clamp(42px, 5vw, 68px); }
@@ -1516,6 +1523,11 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
   .lm-sms-question-copy { gap: 7px; font-size: 20px; line-height: 1.18; }
   .lm-sms-question-copy b { font-size: 11px; }
   .lm-sms-options label { grid-template-columns: 18px 24px minmax(0, 1fr); min-height: 58px; padding: 12px; }
+  .lm-sms-question-nav { grid-template-columns: 1fr 1fr; gap: 10px; padding: 14px; }
+  .lm-sms-question-nav > span { grid-column: 1 / -1; grid-row: 1; }
+  .lm-sms-question-nav > button:first-child { grid-column: 1; grid-row: 2; }
+  .lm-sms-question-nav > button:last-child { grid-column: 2; grid-row: 2; }
+  .lm-sms-nav-button { min-height: 56px; padding-inline: 10px; font-size: 17px; }
   .lm-sms-test-actions { align-items: stretch; flex-direction: column; }
   .lm-sms-test-actions .lm-btn { width: 100%; }
   .lm-sms-result { align-items: flex-start; flex-direction: column; }
