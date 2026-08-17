@@ -15,6 +15,7 @@ function formatTime(seconds: number) {
 export function FreeTest({ whatsappUrl }: FreeTestProps) {
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [started, setStarted] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(TEST_SECONDS);
   const [timedOut, setTimedOut] = useState(false);
@@ -40,7 +41,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
   }, [answers]);
 
   useEffect(() => {
-    if (submitted) return undefined;
+    if (!started || submitted) return undefined;
     if (secondsLeft <= 0) {
       setTimedOut(true);
       setSubmitted(true);
@@ -53,7 +54,14 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
     }
     const timer = window.setInterval(() => setSecondsLeft((current) => Math.max(0, current - 1)), 1000);
     return () => window.clearInterval(timer);
-  }, [answered, secondsLeft, submitted]);
+  }, [answered, secondsLeft, started, submitted]);
+
+  const startTest = () => {
+    setStarted(true);
+    setSecondsLeft(TEST_SECONDS);
+    trackEvent("start_free_test", { course: "celador_sms_murcia", placement: "test_start" });
+    window.requestAnimationFrame(() => questionRef.current?.focus());
+  };
 
   const setAnswer = (id: string, answer: number) => {
     const nextAnswers = { ...answers, [id]: answer };
@@ -88,6 +96,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
   const repeat = () => {
     setAnswers({});
     setCurrentIndex(0);
+    setStarted(false);
     setSubmitted(false);
     setSecondsLeft(TEST_SECONDS);
     setTimedOut(false);
@@ -104,8 +113,12 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
         </div>
         <p>Practica materias comunes y específicas con cuatro opciones, penalización y corrección explicada.</p>
       </div>
-      <div className="lm-sms-test-meta"><span>Pregunta {currentIndex + 1} de {FREE_TEST.length} · {answered} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
-      <div className="lm-sms-question-stage">
+      {!started ? <div className="lm-sms-test-start">
+        <div><strong>15 preguntas · 17 minutos</strong><span>El contador empezará cuando pulses el botón.</span></div>
+        <button className="lm-btn lm-btn-primary" type="button" onClick={startTest}>Comenzar la prueba</button>
+      </div> : <>
+        <div className="lm-sms-test-meta"><span>Pregunta {currentIndex + 1} de {FREE_TEST.length} · {answered} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
+        <div className="lm-sms-question-stage">
         <fieldset ref={questionRef} tabIndex={-1} className={`lm-sms-question ${submitted ? (selected === undefined ? "is-blank" : isCorrect ? "is-correct" : "is-wrong") : ""}`} key={currentQuestion.id}>
           <legend>
             <span className="lm-sms-question-number">{String(currentIndex + 1).padStart(2, "0")}</span>
@@ -129,8 +142,8 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
             ? <button className="lm-sms-nav-button is-primary" type="button" onClick={submit}>Terminar y ver resultado</button>
             : <button className="lm-sms-nav-button is-primary" type="button" onClick={() => moveTo(currentIndex + 1)} disabled={isLast}>Siguiente</button>}
         </nav>
-      </div>
-      <div className="lm-sms-test-actions">
+        </div>
+        <div className="lm-sms-test-actions">
         {submitted ? <div className="lm-sms-result" role="status">
           <div className="lm-sms-result-score"><strong>{result.net.toFixed(2).replace(".", ",")}</strong><span>puntos netos orientativos<br />{timedOut ? "Tiempo agotado" : `con ${answered} respuestas`}</span></div>
           <div className="lm-sms-result-breakdown" aria-label="Resultado por bloques">{result.blocks.map((block) => <span key={block.block}><b>{block.block}</b>{block.correct}/{block.total} · {block.wrong} errores · {block.blank} en blanco</span>)}</div>
@@ -138,7 +151,8 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
           <a className="lm-btn lm-btn-outline" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "free_test_result" })}>Preguntar por el acceso</a>
           <button className="lm-btn lm-btn-outline" type="button" onClick={repeat}>Repetir la prueba</button>
         </div> : <p>Tienes 17 minutos. Al terminar verás las explicaciones y qué bloque te conviene repasar.</p>}
-      </div>
+        </div>
+      </>}
     </section>
   );
 }

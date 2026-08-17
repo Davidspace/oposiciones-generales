@@ -65,7 +65,7 @@ function App() {
           <h1>Todo el programa.<br />Practica como te van a preguntar.</h1>
           <p className="lm-lead">Los 14 temas del SMS en un aula ordenada: tema completo, resumen, test de 50 preguntas, simulacros y exámenes oficiales corregidos. Estudia a tu ritmo y llega al ejercicio sabiendo dónde fallas.</p>
           <CtaContacto whatsapp={WHATSAPP} label="Quiero ver el curso" note="" message={`Hola Academia LORMAN, quiero información sobre el curso de ${COURSE}.`}>
-            <a className="lm-btn lm-btn-outline" href={TEST_URL} onClick={() => trackEvent("start_free_test", { course: "celador_sms_murcia", placement: "hero" })}>Hacer la prueba gratis</a>
+            <a className="lm-btn lm-btn-outline" href={TEST_URL} onClick={() => trackEvent("open_free_test", { course: "celador_sms_murcia", placement: "hero" })}>Hacer la prueba gratis</a>
           </CtaContacto>
         </section>
 

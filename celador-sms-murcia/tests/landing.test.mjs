@@ -42,6 +42,9 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(freeTestComponent, /Repetir la prueba/);
   assert.match(freeTestComponent, /Resultado por bloques/);
   assert.match(freeTestComponent, /currentIndex/);
+  assert.match(freeTestComponent, /const \[started/);
+  assert.match(freeTestComponent, /Comenzar la prueba/);
+  assert.match(freeTestComponent, /if \(!started \|\| submitted\)/);
   assert.match(freeTestComponent, /Pregunta \{currentIndex \+ 1\} de/);
   assert.match(freeTestComponent, /Siguiente/);
   assert.match(freeTestComponent, /Anterior/);
@@ -49,6 +52,8 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
   assert.match(freeTestComponent, /answered_count/);
   assert.doesNotMatch(freeTestComponent, /question_id/);
   assert.match(source, /view_price/);
+  assert.match(source, /open_free_test/);
+  assert.doesNotMatch(source, /start_free_test.*placement: "hero"/);
   assert.match(source, /faq_open/);
   const ctaContacto = await readFile(new URL("src/components/CtaContacto.tsx", root), "utf8");
   const cajones = await readFile(new URL("src/components/Cajones.tsx", root), "utf8");

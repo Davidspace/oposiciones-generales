@@ -12,6 +12,7 @@
 - [x] T005 [P] Crear modelo de contenido de prueba gratuita en `celador-sms-murcia/src/data/free-test.ts`.
 - [x] T006 [P] Crear componente de prueba autocorregible en `celador-sms-murcia/src/components/FreeTest.tsx`.
 - [x] T006a Convertir la prueba gratuita en una experiencia secuencial de una pregunta por pantalla.
+- [x] T006b Vincular el temporizador y el evento `start_free_test` al inicio explícito de la prueba.
 - [x] T007 Crear eventos y atribución anónima en `celador-sms-murcia/src/lib/analytics.ts` y `src/lib/attribution.ts`.
 - [x] T008 Crear landing responsive con hero, contenido, muestras, prueba, precios, FAQ y WhatsApp en `celador-sms-murcia/src/main.tsx`.
 - [x] T009 Crear tests de contrato de copy, precios, fuentes, privacidad y navegación en `celador-sms-murcia/tests/landing.test.mjs`.
