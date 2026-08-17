@@ -1434,8 +1434,10 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
 .lm-sms-test-start strong { font-family: var(--lm-font-heading); font-size: 30px; text-transform: uppercase; }
 .lm-sms-test-start span { color: var(--lm-muted); font-size: 15px; }
 .lm-sms-test-start .lm-btn { min-height: 62px; }
-.lm-sms-test-meta { display: flex; flex-wrap: wrap; gap: 12px 26px; margin: 28px 0; color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
-.lm-sms-timer { border: 1px solid var(--lm-accent-dark); padding: 6px 10px; font-variant-numeric: tabular-nums; }
+.lm-sms-test-meta { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; align-items: center; gap: 12px 26px; margin: 28px 0; color: var(--lm-accent-dark); font-family: var(--lm-font-heading); font-size: 16px; letter-spacing: .08em; text-transform: uppercase; }
+.lm-sms-test-progress { min-width: 0; }
+.lm-sms-test-penalty { justify-self: end; }
+.lm-sms-timer { justify-self: end; border: 1px solid var(--lm-accent-dark); padding: 6px 10px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .lm-sms-question-stage { border: 1px solid var(--lm-ink); background: var(--lm-bg); }
 .lm-sms-question { background: var(--lm-bg); border: 1px solid var(--lm-ink); min-inline-size: 0; margin: 0; padding: 20px 22px 22px; }
 .lm-sms-question-stage .lm-sms-question { border: 0; }
@@ -1523,6 +1525,9 @@ body .lm-page:not(.lm-hub) .lm-footer .lm-wa-icon {
   .lm-sms-test-heading > p { font-size: 16px; }
   .lm-sms-test-start { grid-template-columns: 1fr; padding: 18px; }
   .lm-sms-test-start .lm-btn { width: 100%; }
+  .lm-sms-test-meta { grid-template-columns: minmax(0, 1fr) auto; gap: 10px 14px; font-size: 14px; }
+  .lm-sms-test-penalty { grid-column: 1 / -1; grid-row: 2; justify-self: start; }
+  .lm-sms-timer { grid-column: 2; grid-row: 1; }
   .lm-sms-options { grid-template-columns: 1fr; }
   .lm-sms-question { padding: 17px 14px 18px; }
   .lm-sms-question legend { grid-template-columns: 30px minmax(0, 1fr); gap: 10px; padding-top: 6px; }

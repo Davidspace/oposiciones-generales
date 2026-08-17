@@ -117,7 +117,11 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
         <div><strong>15 preguntas · 17 minutos</strong><span>El contador empezará cuando pulses el botón.</span></div>
         <button className="lm-btn lm-btn-primary" type="button" onClick={startTest}>Comenzar la prueba</button>
       </div> : <>
-        <div className="lm-sms-test-meta"><span>Pregunta {currentIndex + 1} de {FREE_TEST.length} · {answered} respondidas</span><span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span><span>−0,25 por error · en blanco no resta</span></div>
+        <div className="lm-sms-test-meta">
+          <span className="lm-sms-test-progress">Pregunta {currentIndex + 1} de {FREE_TEST.length} · {answered} respondidas</span>
+          <span className="lm-sms-test-penalty">−0,25 por error · en blanco no resta</span>
+          <span className="lm-sms-timer" aria-live="polite">Tiempo {formatTime(secondsLeft)}</span>
+        </div>
         <div className="lm-sms-question-stage">
         <fieldset ref={questionRef} tabIndex={-1} className={`lm-sms-question ${submitted ? (selected === undefined ? "is-blank" : isCorrect ? "is-correct" : "is-wrong") : ""}`} key={currentQuestion.id}>
           <legend>
