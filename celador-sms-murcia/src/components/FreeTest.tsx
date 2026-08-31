@@ -106,6 +106,7 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
 
   return (
     <section className="lm-sms-test" id="prueba" aria-labelledby="prueba-title">
+      <div className="lm-sms-test-frame">
       <div className="lm-sms-test-heading">
         <div>
           <p className="lm-eyebrow"><i aria-hidden="true" /> Prueba gratuita · 15 preguntas</p>
@@ -151,12 +152,15 @@ export function FreeTest({ whatsappUrl }: FreeTestProps) {
         {submitted ? <div className="lm-sms-result" role="status">
           <div className="lm-sms-result-score"><strong>{result.net.toFixed(2).replace(".", ",")}</strong><span>puntos netos orientativos<br />{timedOut ? "Tiempo agotado" : `con ${answered} respuestas`}</span></div>
           <div className="lm-sms-result-breakdown" aria-label="Resultado por bloques">{result.blocks.map((block) => <span key={block.block}><b>{block.block}</b>{block.correct}/{block.total} · {block.wrong} errores · {block.blank} en blanco</span>)}</div>
-          <p><strong>Repaso recomendado:</strong> empieza por <b>{result.weakest.block.toLowerCase()}</b>; vuelve al resumen y repite el test del bloque antes de hacer otro simulacro.</p>
-          <a className="lm-btn lm-btn-outline" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "free_test_result" })}>Preguntar por el acceso</a>
-          <button className="lm-btn lm-btn-outline" type="button" onClick={repeat}>Repetir la prueba</button>
+          <p><strong>Repaso recomendado</strong><span>Empieza por <b>{result.weakest.block.toLowerCase()}</b>; vuelve al resumen y repite el test del bloque antes de hacer otro simulacro.</span></p>
+          <div className="lm-sms-result-actions">
+            <button className="lm-btn lm-btn-outline" type="button" onClick={repeat}>Repetir la prueba</button>
+            <a className="lm-btn lm-btn-primary" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_whatsapp", { course: "celador_sms_murcia", placement: "free_test_result" })}>Preguntar por el acceso</a>
+          </div>
         </div> : <p>Tienes 17 minutos. Al terminar verás las explicaciones y qué bloque te conviene repasar.</p>}
         </div>
       </>}
+      </div>
     </section>
   );
 }
