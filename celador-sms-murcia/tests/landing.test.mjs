@@ -70,8 +70,12 @@ test("la landing Celador SMS usa el contenido auditado y la oferta separada", as
 
   assert.equal((freeTest.match(/id: "sms-free-/g) || []).length, 15);
   assert.match(freeTest, /No reproduce preguntas de bancos comerciales/);
-  assert.match(freeTest, /75 preguntas en 85 minutos/);
-  assert.match(freeTest, /indicación de inmovilización/);
+  assert.match(freeTest, /Constitución Española, artículo 23\.2/);
+  assert.match(freeTest, /Programa específico Celador-Subalterno SMS 2022, tema 7/);
+  assert.match(freeTest, /tomografía computarizada/);
+  assert.doesNotMatch(freeTest, /En la convocatoria vigente/);
+  assert.doesNotMatch(freeTest, /una respuesta errónea/);
+  assert.doesNotMatch(freeTest, /El programa común vigente/);
   assert.doesNotMatch(freeTest, /La mejor forma de usar esta prueba/);
 
   assert.match(html, /Celador SMS Murcia/);
