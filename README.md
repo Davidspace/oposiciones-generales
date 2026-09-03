@@ -48,7 +48,7 @@ En TAI, SS y C2, `NEXT_PUBLIC_PORTFOLIO_URL` define el enlace de regreso a Acade
 
 ## Despliegue
 
-`.github/workflows/vercel-main.yml` contiene el despliegue de los cinco proyectos
+`.github/workflows/vercel-main.yml` contiene el despliegue de los seis proyectos
 Vercel ya vinculados y un job separado para Celador SMS. Ese job se ejecuta con
 pushes a `main` o manualmente, enlaza o crea el proyecto `celador-sms-murcia`,
 publica la versión de producción y vuelve a asociar el dominio propio mediante

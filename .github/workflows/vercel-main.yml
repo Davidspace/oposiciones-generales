@@ -43,7 +43,7 @@ jobs:
             root: auxiliar-juridico
             project_id: prj_CBqCmb0yN1xxgQn1qcOaX7HbNAAc
           - project: biblioteca-santander
-            root: biblioteca-santander
+            root: .
             project_id: prj_jr9iiO0Olg5FR6LR4lPvgVIn8JgJ
 
     steps:
