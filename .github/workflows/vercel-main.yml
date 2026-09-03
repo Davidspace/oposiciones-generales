@@ -30,6 +30,9 @@ jobs:
           - project: lorman-lab
             root: lorman-lab
             project_id: prj_TZZUo7qQ1V15jlPRmAllrQQgLsJx
+          - project: lorman-academia
+            root: lorman-lab
+            project_id: prj_YPXXwf0hiFPcs7BOnI1KoITsAG6l
           - project: tai-academia
             root: tai-academia
             project_id: prj_ShBHyZTvxgpX2bS8x00OQ5NxKwNO

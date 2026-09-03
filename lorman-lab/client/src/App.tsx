@@ -15,10 +15,16 @@ function AulaRedirect() {
   return null;
 }
 
+function RootPage() {
+  return window.location.hostname.toLowerCase() === "tcae.academialorman.es"
+    ? <TcaeHome />
+    : <Home />;
+}
+
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home}/>
+      <Route path="/" component={RootPage}/>
       <Route path="/tcae" component={TcaeHome}/>
       <Route path="/aula" component={AulaRedirect}/>
       <Route path="/test-tcae-sas" component={TestTcaeSas}/>

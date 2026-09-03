@@ -16,6 +16,8 @@ test("the common hub exposes the portfolio routes and the Córdoba landing", asy
   ]);
 
   assert.match(app, /MOODLE_URL/);
+  assert.match(app, /tcae\.academialorman\.es/);
+  assert.match(app, /component=\{RootPage\}/);
   assert.doesNotMatch(app, /C2Home|path=\"\/c2\"/);
   assert.match(home, /FICHAS/);
   assert.match(home, /Estado, SAS y ayuntamientos/);
