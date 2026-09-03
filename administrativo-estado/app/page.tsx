@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { MOODLE_URL, PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE, AVISO_PRECIOS } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
@@ -79,7 +79,7 @@ export default function AdministrativoEstadoLanding() {
       <main className="lm-page lm-aux" id="contenido-principal" tabIndex={-1}>
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación principal"><a className="ae-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#examen">Examen</a><a href="#muestra">Muestra</a><a href="#metodo">Método</a><a href="#prueba">Probar gratis</a></nav>
+          <nav className="lm-nav" aria-label="Navegación principal"><a className="ae-nav-home" href={PORTFOLIO_URL}>Todos los cursos</a><a href="#examen">Examen</a><a href="#muestra">Muestra</a><a href="#metodo">Método</a><a href="#prueba">Probar gratis</a><a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">

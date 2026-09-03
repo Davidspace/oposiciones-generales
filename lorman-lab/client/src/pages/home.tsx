@@ -5,6 +5,7 @@ import { FichaCurso } from "@/components/FichaCurso";
 import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
 import { CURSOS, WHATSAPP } from "@/data/cursos";
+import { MOODLE_URL } from "@/lib/portfolio-links";
 
 const FICHAS = CURSOS;
 
@@ -25,6 +26,7 @@ export default function Home() {
             <a href="#cursos">Cursos</a>
             <a href="#preguntas">Preguntas</a>
             <EnlaceInstagram size={17} />
+            <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
           </nav>
         </header>
 

@@ -7,7 +7,7 @@ import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
 import { trackEvent } from "@/lib/analytics";
 import { captureAttribution, withCampaignReference } from "@/lib/attribution";
-import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { MOODLE_URL, PORTFOLIO_URL } from "@/lib/portfolio-links";
 
 const WHATSAPP = "34640828654";
 const BASES_URL = "https://bop.dipucordoba.es/visor-pdf/15-10-2024/BOP-A-2024-4049.pdf";
@@ -120,6 +120,7 @@ export default function CordobaHome() {
             <a href="#contenido-pack">Qué incluye</a>
             <a href="#diagnostico">Prueba gratuita</a>
             <EnlaceInstagram size={12} />
+            <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
           </nav>
         </header>
 

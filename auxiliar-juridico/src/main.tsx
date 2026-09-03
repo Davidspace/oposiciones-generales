@@ -12,6 +12,7 @@ import { initialiseAnalytics } from "./lib/analytics";
 import { captureAttribution, withCampaignReference } from "./lib/attribution";
 
 const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://academialorman.es";
+const MOODLE_URL = "https://aula.academialorman.es";
 const WHATSAPP = "34640828654";
 captureAttribution();
 initialiseAnalytics();
@@ -19,9 +20,9 @@ const WHATSAPP_MESSAGE = withCampaignReference("Hola Academia LORMAN, quiero acc
 const WHATSAPP_URL = import.meta.env.VITE_WHATSAPP_URL?.trim() || `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
 // Inventario editorial conservado para trazabilidad del aula, no se muestra como contenido público.
-const MOODLE_URL = "https://aula.academialorman.es/course/view.php?id=11";
+const AUXILIO_COURSE_URL = "https://aula.academialorman.es/course/view.php?id=11";
 const TOPICS = ["Organización judicial", "Procedimientos", "Actos de comunicación"];
-void MOODLE_URL;
+void AUXILIO_COURSE_URL;
 void TOPICS;
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
       <main className="lm-page lm-aux" id="contenido">
         <header className="lm-shell lm-header">
           <a className="lm-logo" href="#inicio" aria-label="Academia LORMAN, inicio"><img src="/lorman-logo.png" alt="Academia LORMAN" /></a>
-          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#tests">Qué incluye</a><EnlaceInstagram size={12} /></nav>
+          <nav className="lm-nav" aria-label="Navegación de Auxilio Judicial"><a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a><a className="lm-nav-material" href="#tests">Qué incluye</a><EnlaceInstagram size={12} /><a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a></nav>
         </header>
 
         <section className="lm-shell lm-hero" id="inicio">

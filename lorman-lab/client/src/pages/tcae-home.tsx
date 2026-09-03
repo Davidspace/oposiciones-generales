@@ -3,7 +3,7 @@ import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
 import { EnlaceInstagram } from "@/components/Instagram";
 import { MuestraMaterial } from "@/components/MuestraMaterial";
-import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { MOODLE_URL, PORTFOLIO_URL } from "@/lib/portfolio-links";
 
 const WHATSAPP = "34640828654";
 const WHATSAPP_URL = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(
@@ -81,6 +81,7 @@ export default function TcaeHome() {
             <a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a>
             <a className="lm-nav-material" href="#muestra">Material</a>
             <EnlaceInstagram size={12} />
+            <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
           </nav>
         </header>
 

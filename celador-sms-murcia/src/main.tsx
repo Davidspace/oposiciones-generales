@@ -11,6 +11,7 @@ import { initialiseAnalytics, trackEvent } from "./lib/analytics";
 import { captureAttribution, withCampaignReference } from "./lib/attribution";
 
 const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://academialorman.es";
+const MOODLE_URL = "https://aula.academialorman.es";
 const WHATSAPP = "34640828654";
 const COURSE = "Celador SMS Murcia";
 
@@ -57,6 +58,7 @@ function App() {
             <a href="#contenido-aula">Qué incluye</a>
             <a href="#prueba">Probar gratis</a>
             <EnlaceInstagram size={12} />
+            <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
           </nav>
         </header>
 

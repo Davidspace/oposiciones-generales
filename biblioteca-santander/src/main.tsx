@@ -12,6 +12,7 @@ import { captureAttribution, withCampaignReference } from "./lib/attribution";
 import { initialiseAnalytics } from "./lib/analytics";
 
 const PORTFOLIO_URL = import.meta.env.VITE_PORTFOLIO_URL?.trim() || "https://academialorman.es";
+const MOODLE_URL = "https://aula.academialorman.es";
 const WHATSAPP = "34640828654";
 captureAttribution();
 initialiseAnalytics();
@@ -29,6 +30,7 @@ function App() {
             <a className="lm-nav-back" href={PORTFOLIO_URL}>← Cursos</a>
             <a className="lm-nav-material" href="#contenido-aula">Qué incluye</a>
             <EnlaceInstagram size={12} />
+            <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
           </nav>
         </header>
 

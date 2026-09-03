@@ -1246,3 +1246,44 @@ body .lm-page.lm-cordoba > .lm-shell:not(.lm-header) { margin-bottom: 0; }
   body .lm-page:not(.lm-hub) .lm-pregunta-titulo { grid-column: 2; grid-row: 1; min-width: 0; font-weight: 500; }
   body .lm-page:not(.lm-hub) .lm-pregunta-ver { grid-column: 2; grid-row: 2; justify-self: start; font-size: 9px; letter-spacing: .08em; }
 }
+/* Acceso persistente al aula virtual en todas las cabeceras. */
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a.lm-nav-aula,
+body .lm-page:not(.lm-hub) .lm-header .lm-nav a.lm-nav-aula {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 15px;
+  border: 1px solid var(--lm-accent-dark);
+  background: var(--lm-accent);
+  color: #fff !important;
+  font-family: var(--lm-font-heading) !important;
+  font-size: 17px !important;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a.lm-nav-aula:hover,
+body .lm-page:not(.lm-hub) .lm-header .lm-nav a.lm-nav-aula:hover {
+  background: var(--lm-accent-dark);
+  color: #fff !important;
+}
+
+body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a.lm-nav-aula:focus-visible,
+body .lm-page:not(.lm-hub) .lm-header .lm-nav a.lm-nav-aula:focus-visible {
+  outline: 3px solid var(--lm-accent-pale);
+  outline-offset: 3px;
+  background: var(--lm-accent-dark);
+  color: #fff !important;
+}
+
+@media (max-width: 720px) {
+  body .lm-page.lm-hub > .lm-header:not(.lm-preview-host) .lm-nav a.lm-nav-aula,
+  body .lm-page:not(.lm-hub) .lm-header .lm-nav a.lm-nav-aula {
+    min-height: 44px;
+    padding-inline: 13px;
+    font-size: 15px !important;
+  }
+}

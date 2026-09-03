@@ -12,7 +12,7 @@ import {
   type SsDiagnosticPayload,
   type SsQuestion,
 } from "@/lib/ss-casolab";
-import { PORTFOLIO_URL } from "@/lib/portfolio-links";
+import { MOODLE_URL, PORTFOLIO_URL } from "@/lib/portfolio-links";
 import { AvisoComun, AVISO_BASE } from "@/components/AvisoComun";
 import { Cajon, CajonCierre } from "@/components/Cajones";
 import { CtaContacto } from "@/components/CtaContacto";
@@ -315,6 +315,7 @@ export function SsCasoLabLanding({
           <a className="ss-nav-home" href={PORTFOLIO_URL}>← Cursos</a>
           <a className="lm-nav-material" href="#contenido">Qué incluye</a>
           <EnlaceInstagram size={12} />
+          <a className="lm-nav-aula" href={MOODLE_URL} aria-label="Entrar al aula virtual de Academia LORMAN">Entrar al aula</a>
         </nav>
       </header>
 
