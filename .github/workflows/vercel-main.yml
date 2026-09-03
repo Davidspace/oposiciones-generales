@@ -38,10 +38,13 @@ jobs:
             project_id: prj_5SSzZHVymevCNBkM3mbwSrvK7Pf3
           - project: administrativo-estado
             root: administrativo-estado
-            project_id: prj_hC6VLYhtKYyvROc50yt4jufHxDq3
+            project_id: prj_Pbc6JU8If2faS7iuFJM6oZKi8lac
           - project: auxiliar-juridico
             root: auxiliar-juridico
             project_id: prj_CBqCmb0yN1xxgQn1qcOaX7HbNAAc
+          - project: biblioteca-santander
+            root: biblioteca-santander
+            project_id: prj_jr9iiO0Olg5FR6LR4lPvgVIn8JgJ
 
     steps:
       - name: Checkout
